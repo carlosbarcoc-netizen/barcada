@@ -1,6 +1,6 @@
 # Licencia de uso de Barco Viral
 
-Copyright © 2026 Carlos Barco. Todos los derechos reservados.
+Copyright © 2026 [Tu nombre o el de tu empresa]. Todos los derechos reservados.
 
 > Plantilla: revísala con un abogado de tu país antes de vender.
 

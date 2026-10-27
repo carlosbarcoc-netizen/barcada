@@ -9,7 +9,7 @@ Reels verticales con imágenes realistas de IA, voz profesional, subtítulos ani
 - **Claude** (plan Pro o superior, con Claude Code) **o ChatGPT** (con Codex).
 - Una cuenta de **ElevenLabs** con plan de pago (Starter o superior) para la voz.
 - Una cuenta de **fal.ai** (recomendado) **u OpenAI** con saldo para las imágenes.
-  Costo aproximado por video: imágenes 0,30-1,50 USD (según cantidad y calidad) + la voz de tu plan de ElevenLabs.
+  Costo aproximado por video: 1-2 USD en imágenes (unas 15-25 imágenes; revisa los precios actuales de tu proveedor) + la voz de tu plan de ElevenLabs.
 
 ## Empezar en 3 pasos
 
