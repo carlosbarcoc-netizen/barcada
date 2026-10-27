@@ -1,0 +1,32 @@
+{
+  "documental": {
+    "nombre": "Documental gastronómico",
+    "para": "comida, agro, procesos, ingredientes",
+    "sufijo": "cinematic food documentary still, hyperrealistic macro photography, warm golden key light, deep brown and black shadows, shallow depth of field, 50mm lens, rich textures, professional color grading, no text, no logos, no watermark",
+    "color": "eq=contrast=1.06:saturation=1.08,colorbalance=rs=0.04:gs=0.01:bs=-0.04:rh=0.03:bh=-0.03"
+  },
+  "cine": {
+    "nombre": "Cine oscuro",
+    "para": "misterio, historia, crimen, tecnología",
+    "sufijo": "cinematic film still, moody low-key lighting, high contrast, anamorphic lens, volumetric haze, teal and orange grade, photorealistic, 35mm film grain, no text, no logos, no watermark",
+    "color": "eq=contrast=1.1:saturation=1.0,colorbalance=rs=-0.02:bs=0.04:rh=0.05:bh=-0.04"
+  },
+  "luminoso": {
+    "nombre": "Natural luminoso",
+    "para": "salud, hogar, viajes, estilo de vida",
+    "sufijo": "bright natural daylight photography, soft diffused light, airy and clean, true-to-life colors, photorealistic, editorial lifestyle photo, no text, no logos, no watermark",
+    "color": "eq=contrast=1.02:saturation=1.05:brightness=0.02"
+  },
+  "ciencia": {
+    "nombre": "Ciencia de cerca",
+    "para": "cuerpo, química, biología, espacio",
+    "sufijo": "scientific macro visualization, photorealistic microscope and studio lighting, dramatic rim light, dark background, crisp detail, 8k, no text, no labels, no watermark",
+    "color": "eq=contrast=1.08:saturation=1.1"
+  },
+  "historia": {
+    "nombre": "Historia viva",
+    "para": "historia, culturas, personajes, orígenes",
+    "sufijo": "photorealistic historical reconstruction, natural window light, period-accurate details, painterly cinematic composition, muted earthy palette, no text, no logos, no watermark",
+    "color": "eq=contrast=1.05:saturation=0.9,colorbalance=rm=0.03:bm=-0.03"
+  }
+}
