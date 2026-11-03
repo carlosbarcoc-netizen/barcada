@@ -1,0 +1,14 @@
+¿Te imaginas publicar un reel animado cada día sin saber editar ni dibujar?
+
+Barcada convierte a tu IA (Claude o ChatGPT) en tu productora de videos. Le pides «hazme un duelo: café contra cacao» y obtienes un reel vertical listo para TikTok, Instagram, Shorts y Facebook:
+
+🎨 Animación 2D con volumen: +55 dibujos que se mueven con la voz.
+🏆 Formatos que enganchan: el duelo, un día en dos caminos, la cuenta y mito vs. verdad.
+🎙️ Voz profesional de ElevenLabs, cercana y alegre.
+🔤 Subtítulos animados palabra por palabra.
+📊 Marcadores, contadores y encuestas que retienen hasta el final.
+🖼️ Portada llamativa y descripciones con hashtags.
+
+Cómo funciona: pides el video, apruebas el guion y las escenas, y recibes el video, la portada y los textos. Nada se publica solo.
+
+Necesitas: Mac o Windows; Claude Pro (Claude Code) o ChatGPT Plus (Codex); y ElevenLabs Starter (~5 USD/mes). No necesitas programar.
