@@ -36,7 +36,6 @@ Nada se publica solo: tú decides todo.
 - Los 4 formatos virales con sus instrucciones
 - Ideas de temas, calendario mensual y series
 - Un video de ejemplo listo para estudiar
-- Actualizaciones de la versión 2.x
 - Acceso a la comunidad de soporte
 
 ## Lo que necesitas (léelo antes de comprar)

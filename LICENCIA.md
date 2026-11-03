@@ -15,4 +15,4 @@ Copyright © 2026 Carlos Andrés Barco Caldón. Todos los derechos reservados.
 5. **Sin garantía.** Se entrega «tal cual». No garantizamos resultados de alcance, ventas ni ingresos.
 6. **Contenido.** Eres responsable de lo que publiques. No uses Barcada para desinformar, suplantar personas o
    marcas, ni para contenido ilegal.
-7. **Actualizaciones.** Las mejoras de la versión 1.x se incluyen; las versiones mayores pueden venderse aparte.
+7. **Versión incluida.** La licencia cubre la versión que compraste. Las actualizaciones y versiones posteriores no están incluidas y pueden venderse aparte.
