@@ -2,7 +2,7 @@
   "titulo": "uña encarnada infectada que pasa si no haces nada",
   "estilo": "luminoso",
   "calidad": "normal",
-  "sujeto": "",
+  "sujeto": "bare feet and toenails in a bright clean beauty salon, soft daylight, white and pastel tones",
   "frases": [
     {
       "texto": "Un corte de más en la uña del pie puede terminar en el hueso.",
@@ -67,12 +67,195 @@
       "tomas": [
         {
           "desde": 0,
-          "imagen": "",
+          "fuente": "foto",
+          "buscar": "toenail clipper",
+          "imagen": "close-up of a nail clipper cutting a big toenail",
           "movimiento": "acercar",
-          "rotulo": ""
+          "rotulo": "¿UN CORTE *DE MÁS*?",
+          "sonido": "crujido",
+          "archivo": "propias/cortar.jpg"
+        },
+        {
+          "desde": "1:terminar",
+          "fuente": "foto",
+          "buscar": "foot x-ray",
+          "imagen": "x-ray of foot bones",
+          "movimiento": "alejar",
+          "sonido": "impacto"
+        }
+      ]
+    },
+    {
+      "nombre": "causa",
+      "tomas": [
+        {
+          "desde": "2:empieza",
+          "fuente": "foto",
+          "buscar": "pedicure cutting toenails",
+          "imagen": "hands trimming toenails",
+          "movimiento": "acercar",
+          "archivo": "propias/clipper.jpg"
+        },
+        {
+          "desde": "2:redondeas",
+          "fuente": "foto",
+          "buscar": "toenail trimming",
+          "imagen": "rounded toenail corners close-up",
+          "movimiento": "alejar",
+          "rotulo": "MUY CORTA + *ESQUINAS* REDONDAS",
+          "archivo": "propias/unas.jpg"
+        },
+        {
+          "desde": "3:crecer",
+          "fuente": "foto",
+          "buscar": "toe nail close up",
+          "imagen": "macro of big toenail edge against skin",
+          "movimiento": "acercar",
+          "archivo": "propias/clava.jpg",
+          "rotulo": "SE *CLAVA* EN LA PIEL",
+          "sonido": "impacto",
+          "sonidoEn": 2.4
+        },
+        {
+          "desde": "4:zapato",
+          "fuente": "foto",
+          "buscar": "tight shoes feet",
+          "imagen": "feet in tight pointed shoes",
+          "movimiento": "izquierda",
+          "archivo": "propias/zapato.jpg"
+        }
+      ]
+    },
+    {
+      "nombre": "infeccion",
+      "tomas": [
+        {
+          "desde": "5:dedo",
+          "fuente": "foto",
+          "buscar": "foot pain",
+          "imagen": "person holding painful foot",
+          "movimiento": "acercar",
+          "rotulo": "ROJO · HINCHADO · *DOLOR*",
+          "archivo": "propias/dolor.jpg"
+        },
+        {
+          "desde": "6:herida",
+          "fuente": "foto",
+          "buscar": "bacteria microscope",
+          "imagen": "bacteria under microscope",
+          "movimiento": "alejar",
+          "rotulo": "*BACTERIAS*",
+          "archivo": "propias/bacterias.jpg"
+        },
+        {
+          "desde": "7:pus",
+          "fuente": "foto",
+          "buscar": "ingrown toenail infection",
+          "imagen": "infected toe close-up",
+          "movimiento": "acercar",
+          "rotulo": "PUS = *INFECCIÓN*",
+          "archivo": "propias/placa.jpg"
+        },
+        {
+          "desde": "8:extenderse",
+          "fuente": "foto",
+          "buscar": "swollen foot",
+          "imagen": "swollen red foot",
+          "movimiento": "subir",
+          "rotulo": "*CELULITIS*",
+          "archivo": "propias/celulitis.jpg"
+        },
+        {
+          "desde": "9:hueso",
+          "fuente": "foto",
+          "buscar": "foot x-ray",
+          "imagen": "x-ray of foot bones",
+          "movimiento": "acercar",
+          "sonido": "impacto"
+        },
+        {
+          "desde": "9:diabetes",
+          "fuente": "foto",
+          "buscar": "diabetes blood glucose test",
+          "imagen": "glucose meter finger test",
+          "movimiento": "derecha",
+          "rotulo": "DIABETES = *MÁS RIESGO*"
+        }
+      ]
+    },
+    {
+      "nombre": "solucion",
+      "tomas": [
+        {
+          "desde": "10:higiene",
+          "fuente": "clip",
+          "buscar": "feet water",
+          "imagen": "washing feet in a foot bath",
+          "movimiento": "quieto",
+          "elegida": 9
+        },
+        {
+          "desde": "10:limpios",
+          "fuente": "foto",
+          "buscar": "drying feet towel",
+          "imagen": "drying feet with a white towel",
+          "movimiento": "acercar",
+          "rotulo": "LIMPIOS Y *SECOS*",
+          "archivo": "propias/toalla.jpg"
+        },
+        {
+          "desde": "11:Córtalas",
+          "fuente": "foto",
+          "buscar": "pedicure nail clipping",
+          "imagen": "pedicure professional trimming toenails straight",
+          "movimiento": "derecha",
+          "rotulo": "CORTE *RECTO*",
+          "archivo": "propias/recta.jpg"
+        },
+        {
+          "desde": "11:altura",
+          "fuente": "foto",
+          "buscar": "pedicure feet",
+          "imagen": "neat healthy toenails after pedicure",
+          "movimiento": "alejar",
+          "archivo": "propias/pedicura.jpg"
+        },
+        {
+          "desde": "12:roja",
+          "fuente": "foto",
+          "buscar": "pedicure salon",
+          "imagen": "podiatrist professional treating a foot in salon",
+          "movimiento": "acercar",
+          "rotulo": "VE A UN *PROFESIONAL*",
+          "archivo": "propias/profesional.jpg"
+        }
+      ]
+    },
+    {
+      "nombre": "cierre",
+      "tomas": [
+        {
+          "desde": "13:Quieres",
+          "fuente": "clip",
+          "buscar": "smartphone",
+          "imagen": "hand scrolling smartphone social media",
+          "movimiento": "quieto",
+          "sonido": "subida",
+          "elegida": 1
+        },
+        {
+          "desde": "14:Escribe",
+          "fuente": "clip",
+          "buscar": "smartphone",
+          "imagen": "hands typing a message on phone",
+          "movimiento": "acercar",
+          "rotulo": "ESCRIBE *VIRAL*",
+          "sonido": "pop",
+          "elegida": 4
         }
       ]
     }
   ],
-  "marcaAgua": "@Azzure"
+  "marcaAgua": "@Azzure",
+  "fuente": "mixto"
 }
