@@ -5,47 +5,51 @@
   "sujeto": "",
   "frases": [
     {
-      "texto": "¿Qué pasa si te cortas la uña del pie demasiado corta, se infecta… y no haces nada?",
-      "clave": "corta"
-    },
-    {
-      "texto": "La esquina queda escondida y, al crecer, se clava en la piel como una astilla.",
-      "clave": "clava"
-    },
-    {
-      "texto": "Y el zapato la aprieta todavía más.",
-      "clave": "zapato"
-    },
-    {
-      "texto": "Primero llega el dolor: el dedo se pone rojo e hinchado.",
-      "clave": "rojo"
-    },
-    {
-      "texto": "Por esa pequeña herida entran bacterias, y aparece la infección con pus.",
-      "clave": "pus"
-    },
-    {
-      "texto": "Si la ignoras, la infección puede pasar a la piel del pie. Se llama celulitis.",
-      "clave": "celulitis"
-    },
-    {
-      "texto": "Y en casos raros, llega hasta el hueso.",
+      "texto": "Un corte de más en la uña del pie puede terminar en el hueso.",
       "clave": "hueso"
     },
     {
-      "texto": "Con diabetes el riesgo es mayor, porque al pie llega menos sangre.",
-      "clave": "diabetes"
-    },
-    {
-      "texto": "Por eso la higiene importa: pies limpios, bien secos y uñas cortadas en línea recta.",
-      "clave": "recta"
-    },
-    {
-      "texto": "Sin redondear las esquinas, y a la altura de la punta del dedo.",
+      "texto": "Así empieza: la cortas muy corta y le redondeas las esquinas.",
       "clave": "esquinas"
     },
     {
-      "texto": "Y si ya está roja o con pus, no la cortes tú: ve a un profesional.",
+      "texto": "Al crecer, la esquina no encuentra salida y se clava en la piel.",
+      "clave": "clava"
+    },
+    {
+      "texto": "Y el zapato la empuja todavía más.",
+      "clave": "zapato"
+    },
+    {
+      "texto": "El dedo se pone rojo, se hincha y duele al caminar.",
+      "clave": "duele"
+    },
+    {
+      "texto": "Esa pequeña herida es una puerta abierta para las bacterias.",
+      "clave": "bacterias"
+    },
+    {
+      "texto": "Si sale pus, ya es una infección.",
+      "clave": "infección"
+    },
+    {
+      "texto": "Y si no haces nada, puede extenderse por la piel del pie: se llama celulitis.",
+      "clave": "celulitis"
+    },
+    {
+      "texto": "En casos raros llega al hueso, y con diabetes el riesgo es mayor.",
+      "clave": "diabetes"
+    },
+    {
+      "texto": "Por eso la higiene de tus pies no es un lujo: limpios y bien secos.",
+      "clave": "higiene"
+    },
+    {
+      "texto": "Córtalas en línea recta, a la altura de la punta del dedo.",
+      "clave": "recta"
+    },
+    {
+      "texto": "Y si ya está roja o con pus, no la cortes tú: busca a un profesional.",
       "clave": "profesional"
     },
     {
