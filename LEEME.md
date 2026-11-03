@@ -9,7 +9,8 @@ Reels verticales con imágenes realistas (IA a medida, o fotos y clips reales gr
 - **Claude** (plan Pro o superior, con Claude Code) **o ChatGPT** (con Codex).
 - Una cuenta de **ElevenLabs** con plan de pago (Starter o superior) para la voz.
 - Para lo que se ve, una de estas (o las dos):
-  - **Gratis:** una clave de **Pexels** o **Pixabay** (fotos y videos reales, con licencia de uso comercial).
+  - **Gratis:** una clave de **Pixabay** (o de **Pexels**, si ya tienes una): fotos y videos reales, con licencia de
+    uso comercial.
   - **IA a medida:** una cuenta de **fal.ai** (recomendado) **u OpenAI** con saldo: unos 1-2 USD por video (revisa
     los precios actuales de tu proveedor).
 
