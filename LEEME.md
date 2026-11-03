@@ -1,6 +1,6 @@
 # Barco Viral 1.0
 
-Reels verticales con imágenes realistas de IA, voz profesional, subtítulos animados y efectos, hechos por tu IA
+Reels verticales con imágenes realistas (IA a medida, o fotos y clips reales gratis), voz profesional, subtítulos animados y efectos, hechos por tu IA
 (Claude Code o Codex) en tu computadora. Tú das la idea y apruebas tres cosas: el guion, las imágenes y el borrador.
 
 ## Qué necesitas
@@ -8,8 +8,10 @@ Reels verticales con imágenes realistas de IA, voz profesional, subtítulos ani
 - Una computadora con Mac, Windows o Linux.
 - **Claude** (plan Pro o superior, con Claude Code) **o ChatGPT** (con Codex).
 - Una cuenta de **ElevenLabs** con plan de pago (Starter o superior) para la voz.
-- Una cuenta de **fal.ai** (recomendado) **u OpenAI** con saldo para las imágenes.
-  Costo aproximado por video: 1-2 USD en imágenes (unas 15-25 imágenes; revisa los precios actuales de tu proveedor) + la voz de tu plan de ElevenLabs.
+- Para lo que se ve, una de estas (o las dos):
+  - **Gratis:** una clave de **Pexels** o **Pixabay** (fotos y videos reales, con licencia de uso comercial).
+  - **IA a medida:** una cuenta de **fal.ai** (recomendado) **u OpenAI** con saldo: unos 1-2 USD por video (revisa
+    los precios actuales de tu proveedor).
 
 ## Empezar en 3 pasos
 

@@ -1,5 +1,20 @@
 # Las imágenes (prompts) y las tomas
 
+## De dónde sale cada toma (`fuente`)
+
+- `"foto"`: una foto real de Pexels o Pixabay. **Gratis.** Ideal para lo común: granos de café, una taza, un campo, una
+  ciudad, manos cocinando.
+- `"clip"`: un video real de Pexels o Pixabay. **Gratis.** Da mucha vida (vapor, líquidos que caen, gente trabajando).
+  `"lenta": 0.5` lo pone a cámara lenta; `"desdeClip": 2` empieza en el segundo 2.
+- `"ia"`: una imagen generada a medida con fal.ai u OpenAI. **De pago (centavos).** Para lo que no existe en stock:
+  un proceso exacto, una comparación, algo imposible.
+- `"mixto"` (en el proyecto o en preferencias): tú eliges toma por toma; pon `"fuente"` en cada una. Regla: stock
+  primero, IA solo donde el stock no sirve.
+
+Para stock, cada toma lleva `"buscar"`: 2-4 palabras en inglés, generales («coffee beans», «chocolate pouring»,
+«cacao farm»). Si lo que sale no sirve, `node bv.mjs otra <proyecto> <n>` trae el siguiente resultado; si nada
+sirve, cambia `buscar` o pásala a `"ia"`. Los créditos de cada foto o clip quedan en `entrega/creditos.md`.
+
 ## El sujeto
 
 `proyecto.json` → `sujeto`: una frase en inglés con lo que se repite en todo el video (el material, el lugar, la luz).

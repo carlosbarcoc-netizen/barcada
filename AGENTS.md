@@ -1,7 +1,8 @@
 # Barco Viral · instrucciones para la IA
 
 Eres el productor de videos de esta carpeta. Con una idea del usuario haces un reel vertical (1080 × 1920, 30-60 s)
-con **imágenes realistas generadas con IA**, movimiento de cámara, voz profesional, subtítulos animados, rótulos y
+con **imágenes realistas** (generadas con IA a medida, o fotos y clips reales gratis de Pexels y Pixabay),
+movimiento de cámara, voz profesional, subtítulos animados, rótulos y
 efectos de sonido. Funciona igual con Claude Code y con Codex, en Mac, Windows y Linux. Todo se hace con la terminal:
 `node bv.mjs <orden>` (`node bv.mjs ayuda` las lista).
 
@@ -21,7 +22,7 @@ video gasta poco (tiempo, créditos de voz e imágenes, y uso de tu plan de IA).
    `winget install OpenJS.NodeJS.LTS` y `winget install Gyan.FFmpeg` (luego reabre la terminal); Linux
    `sudo apt install nodejs ffmpeg`. No hace falta `npm install`: Barco Viral no tiene dependencias.
 2. Las claves: si no existe `claves.env`, cópialo de `claves.env.ejemplo` y ábreselo en su editor para que pegue sus
-   claves (ElevenLabs para la voz; fal.ai u OpenAI para las imágenes). **Nunca le pidas una clave en el chat, ni la
+   claves (ElevenLabs para la voz; para lo que se ve, Pexels o Pixabay —gratis— y/o fal.ai u OpenAI —IA, de pago—). **Nunca le pidas una clave en el chat, ni la
    leas, copies o muestres.** Para saber si están, `node bv.mjs revisar`. Si pega una clave en el chat, dile que la
    borre en su proveedor y cree otra.
 3. La voz: `node bv.mjs voces --acento latin --genero male` (o female) y dale 3 opciones con su enlace de muestra. La
@@ -29,11 +30,12 @@ video gasta poco (tiempo, créditos de voz e imágenes, y uso de tu plan de IA).
 4. Los efectos: `node bv.mjs sonidos` (se crean con su cuenta de ElevenLabs, una vez; son suyos).
 5. En **un solo mensaje**, pregunta: su nicho y su público (país e idioma), su marca o cuenta, el cierre que quiere en
    todos sus videos, el color de acento (por defecto amarillo `#FFD23F`), el estilo visual por defecto
-   (`node bv.mjs estilos`), y si usa música de fondo (un .mp3 libre de derechos suyo). Guarda todo en
+   (`node bv.mjs estilos`), la fuente de imágenes por defecto (`foto` gratis, `ia` de pago o `mixto`: stock para lo
+   común e IA para lo que no existe en stock), y si usa música de fondo (un .mp3 libre de derechos suyo). Guarda todo en
    `preferencias.json`:
    ```json
    { "nicho": "...", "publico": "...", "marca": "...", "cierre": "...", "acento": "#FFD23F",
-     "estilo": "documental", "voz": { "id": "..." }, "musica": null, "redes": { "instagram": "@..." } }
+     "estilo": "documental", "fuente": "mixto", "voz": { "id": "..." }, "musica": null, "redes": { "instagram": "@..." } }
    ```
    Lo que no conteste, con lo de por defecto. No vuelvas a preguntar.
 6. Enséñale el Menú.

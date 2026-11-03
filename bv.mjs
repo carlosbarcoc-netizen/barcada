@@ -47,7 +47,8 @@ try {
     case "otra": {
       const dir = carpetaProyecto(primero), f = join(dir, "proyecto.json"), p = leerJSON(f);
       const nums = resto.filter((x) => /^\d+$/.test(x)).map(Number), tomas = p.escenas.flatMap((e) => e.tomas);
-      for (const n of nums) { if (!tomas[n - 1]) throw new Error(`No hay toma ${n}.`); tomas[n - 1].semilla = Math.floor(Math.random() * 1e9); }
+      // IA: otra semilla · stock: el siguiente resultado de la búsqueda
+      for (const n of nums) { const t = tomas[n - 1]; if (!t) throw new Error(`No hay toma ${n}.`); t.semilla = Math.floor(Math.random() * 1e9); t.elegida = (t.elegida || 0) + 1; }
       guardarJSON(f, p);
       await (await import("./nucleo/montaje.mjs")).hojaDeTomas(dir);
       break;
@@ -56,6 +57,8 @@ try {
     case "final": {
       const dir = carpetaProyecto(primero);
       await (await import("./nucleo/montaje.mjs")).montar(dir, { fps: Number(opcion("fps", 30)), salida: join(dir, "entrega", opcion("nombre", "video.mp4")) });
+      const c = (await import("./nucleo/extras.mjs")).escribirCreditos(dir);
+      if (c) console.log(`✓ ${c}`);
       break;
     }
     case "portada": {

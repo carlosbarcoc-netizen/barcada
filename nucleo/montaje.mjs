@@ -63,9 +63,16 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
 
   // 1. un clip por toma
   await enParalelo(tomas, 3, async (t) => {
-    const frames = Math.max(2, Math.round((t.fin - t.inicio) * FPSv));
-    await ffmpeg(["-loop", "1", "-framerate", String(FPSv), "-i", imgs[t.n - 1], "-frames:v", String(frames),
-      "-vf", filtroMovimiento(t.movimiento, frames, FPSv, t.fuerza ?? 0.14), "-c:v", "libx264", "-preset", "veryfast", "-crf", borrador ? "28" : "16", "-pix_fmt", "yuv420p", join(tmp, `clip-${t.n}.mp4`)]);
+    const frames = Math.max(2, Math.round((t.fin - t.inicio) * FPSv)), src = imgs[t.n - 1];
+    const salidaClip = ["-frames:v", String(frames), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", borrador ? "28" : "16", "-pix_fmt", "yuv420p", join(tmp, `clip-${t.n}.mp4`)];
+    if (/\.(mp4|mov|webm)$/i.test(src)) {
+      // un clip de video: se encuadra en vertical, se repite si es corto y, si se pide, va más lento (lenta: 0,5 = mitad)
+      const lento = t.lenta ? `setpts=PTS/${t.lenta},` : "";
+      await ffmpeg(["-stream_loop", "-1", "-ss", String(t.desdeClip || 0), "-i", src,
+        "-vf", `${lento}scale=${ANCHO}:${ALTO}:force_original_aspect_ratio=increase,crop=${ANCHO}:${ALTO},fps=${FPSv},setsar=1`, ...salidaClip]);
+    } else {
+      await ffmpeg(["-loop", "1", "-framerate", String(FPSv), "-i", src, "-vf", filtroMovimiento(t.movimiento, frames, FPSv, t.fuerza ?? 0.14), ...salidaClip]);
+    }
   });
   writeFileSync(join(tmp, "lista.txt"), tomas.map((t) => `file 'clip-${t.n}.mp4'`).join("\n") + "\n");
   await ffmpeg(["-f", "concat", "-safe", "0", "-i", join(tmp, "lista.txt"), "-c", "copy", join(tmp, "mudo.mp4")]);
@@ -107,8 +114,8 @@ export async function hojaDeTomas(dir) {
   const p = leerJSON(join(dir, "proyecto.json")), tiempos = leerJSON(join(dir, "voz", "tiempos.json"));
   const imgs = await hacerImagenes(dir), tomas = lineaDeTiempo(p, tiempos);
   const tmp = asegurar(join(dir, ".montaje")), cols = Math.min(5, tomas.length), filas = Math.ceil(tomas.length / cols);
-  await enParalelo(tomas, 4, (t) => ffmpeg(["-i", imgs[t.n - 1], "-vf",
-    `scale=360:640:force_original_aspect_ratio=increase,crop=360:640,drawbox=y=0:w=iw:h=86:color=black@0.6:t=fill,drawtext=fontfile=${join(FUENTES, "Poppins-ExtraBold.ttf")}:text='${t.n}  ${t.inicio.toFixed(1)}s':fontcolor=0xFFD23F:fontsize=40:x=18:y=22`,
+  await enParalelo(tomas, 4, (t) => ffmpeg([...(/\.(mp4|mov|webm)$/i.test(imgs[t.n - 1]) ? ["-ss", "0.8"] : []), "-i", imgs[t.n - 1], "-vf",
+    `scale=360:640:force_original_aspect_ratio=increase,crop=360:640,drawbox=y=0:w=iw:h=86:color=black@0.6:t=fill,drawtext=fontfile=${join(FUENTES, "Poppins-ExtraBold.ttf")}:text='${t.n}  ${t.inicio.toFixed(1)}s${/\.(mp4|mov|webm)$/i.test(imgs[t.n - 1]) ? "  VIDEO" : ""}':fontcolor=0xFFD23F:fontsize=40:x=18:y=22`,
     "-frames:v", "1", join(tmp, `mini-${String(t.n).padStart(2, "0")}.png`)]));
   const out = join(asegurar(join(dir, "revisar")), "tomas.jpg");
   await ffmpeg(["-framerate", "1", "-i", join(tmp, "mini-%02d.png"), "-vf", `tile=${cols}x${filas}:padding=8:color=0x111111`, "-frames:v", "1", "-q:v", "3", out]);

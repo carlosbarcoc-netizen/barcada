@@ -2,7 +2,7 @@
 import { existsSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, ffmpeg, guardarJSON, hay, hayClave, leerJSON, sinTildes } from "./comun.mjs";
-import { ESTILOS, hacerImagenes, proveedor } from "./imagenes.mjs";
+import { ESTILOS, bancoDeStock, hacerImagenes, proveedor, textoCreditos } from "./imagenes.mjs";
 import { lineaDeTiempo } from "./montaje.mjs";
 
 // ---------------------------------------------------------------- revisar
@@ -16,7 +16,10 @@ export function revisar() {
   fila(existsSync(join(RAIZ, "claves.env")), "claves.env", existsSync(join(RAIZ, "claves.env")) ? "existe" : "falta: copia claves.env.ejemplo como claves.env y pega tus claves");
   fila(hayClave("ELEVENLABS_API_KEY") || null, "voz", hayClave("ELEVENLABS_API_KEY") ? "clave de ElevenLabs puesta" : "sin clave: la voz sale en modo prueba (silencio)");
   const prov = proveedor();
-  fila(prov !== "prueba" || null, "imágenes", prov === "fal" ? "fal.ai (FLUX)" : prov === "openai" ? "OpenAI (gpt-image-1)" : "sin clave: imágenes de prueba");
+  fila(prov !== "prueba" || null, "imágenes IA", prov === "fal" ? "fal.ai (FLUX)" : prov === "openai" ? "OpenAI (gpt-image-1)" : "sin clave (opcional si usas stock)");
+  const banco = bancoDeStock();
+  fila(banco ? true : null, "stock gratis", banco === "pexels" ? "Pexels" + (hayClave("PIXABAY_API_KEY") ? " + Pixabay" : "") : banco === "pixabay" ? "Pixabay" : "sin clave (opcional: Pexels o Pixabay, gratis)");
+  if (prov === "prueba" && !banco) fila(false, "", "hace falta al menos una: fal.ai, OpenAI, Pexels o Pixabay");
   fila(existsSync(join(RAIZ, "sonidos", "transicion.mp3")) || null, "efectos", existsSync(join(RAIZ, "sonidos", "transicion.mp3")) ? "biblioteca lista" : "aún no: node bv.mjs sonidos (los crea con ElevenLabs, una vez)");
   fila(existsSync(join(RAIZ, "preferencias.json")) || null, "preferencias", existsSync(join(RAIZ, "preferencias.json")) ? "guardadas" : "aún no: se preguntan al configurar");
   console.log(filas.join("\n"));
@@ -82,11 +85,20 @@ export async function portada(dir, titulo, { toma = 1, acento } = {}) {
   writeFileSync(ass, `[Script Info]\nScriptType: v4.00+\nPlayResX: ${ANCHO}\nPlayResY: ${ALTO}\n\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\nStyle: T,Poppins ExtraBold,104,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,8,6,8,70,70,300,1\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\nDialogue: 0,0:00:00.00,0:00:05.00,T,,0,0,0,,${lineas.join("\\N")}\n`);
   const out = join(asegurar(join(dir, "entrega")), "portada.jpg");
   const est = ESTILOS[p.estilo] || ESTILOS.documental;
-  await ffmpeg(["-i", imgs[toma - 1], "-vf",
+  await ffmpeg([...(/\.(mp4|mov|webm)$/i.test(imgs[toma - 1]) ? ["-ss", "1"] : []), "-i", imgs[toma - 1], "-vf",
     `scale=${ANCHO}:${ALTO}:force_original_aspect_ratio=increase,crop=${ANCHO}:${ALTO},${est.color},drawbox=y=0:w=iw:h=900:color=black@0.35:t=fill,vignette=PI/4,subtitles=filename='${ass}':fontsdir='${FUENTES}'`,
     "-frames:v", "1", "-q:v", "2", out]);
   console.log(`✓ ${out}`);
   return out;
+}
+
+// Los créditos del stock, junto a la entrega.
+export function escribirCreditos(dir) {
+  const t = textoCreditos(dir);
+  if (!t) return null;
+  const f = join(asegurar(join(dir, "entrega")), "creditos.md");
+  writeFileSync(f, `# Créditos de imágenes y clips\n\nFotos y videos de bancos con licencia gratuita de uso comercial. Mencionar a los autores no es obligatorio, pero se agradece (puedes pegarlo en la descripción).\n\n${t}\n`);
+  return f;
 }
 
 export { lineaDeTiempo };

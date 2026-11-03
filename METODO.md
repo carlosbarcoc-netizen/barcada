@@ -28,7 +28,8 @@ su segundo: con eso se colocan las tomas. Si una frase suena mal, se cambia la f
 
 Lee `guias/imagenes.md`. En `proyecto.json` → `sujeto` y `escenas[].tomas[]`:
 - una toma cada **2-4 s**, que empieza en la palabra que trae lo que se ve (`"desde": "3:prensa"`);
-- su `imagen` (prompt en inglés), su `movimiento` y, si ayuda a entender, su `rotulo` corto (`"PASTA → *COCOA*"`);
+- su `fuente` (`foto`, `clip` o `ia`; mira `guias/imagenes.md`), su `buscar` si es de stock;
+- su `imagen` (prompt en inglés: en stock, describe lo que debe verse), su `movimiento` y, si ayuda a entender, su `rotulo` corto (`"PASTA → *COCOA*"`);
 - un `sonido` de la biblioteca si algo pasa con fuerza (`impacto`, `crujido`, `vertido`…).
 
 `node bv.mjs tomas <proyecto>` genera las imágenes y la hoja `revisar/tomas.jpg`. **Mírala tú primero**: si una imagen
