@@ -140,10 +140,11 @@ const escenas = [{ nombre: "uñas encarnadas", tomas: [
       { pieza: "persona", color: "blanco", pelo: "negro", pose: "saluda", x: 540, y: 1080, escala: 1.15, entra: "sube", en: "12:ve" },
       { pieza: "signo", tipo: "check", x: 820, y: 860, escala: 0.4, entra: "rebote", en: "12:especialista" },
     ] } },
-  { desde: 13, dibujo: { fondo: "luces",
+  { desde: 13, sonido: "campana", sonidoEn: 1.2, dibujo: { fondo: "luces",
     elementos: [
-      { pieza: "titular", texto: "SÍGUEME", debajo: "PARA APRENDER MÁS", tamano: 170, x: 540, y: 880, entra: "rebote", en: 0.05 },
-      { pieza: "pildora", texto: "@Azzure", color: "morado", x: 540, y: 1180, entra: "sube", en: "13:aprender" },
+      { pieza: "etiqueta", texto: "SI TE GUSTÓ", x: 540, y: 700, tamano: 50, entra: "aparece", en: 0.05 },
+      { pieza: "titular", texto: "GUÁRDALO", debajo: "Y COMPÁRTELO", tamano: 170, x: 540, y: 900, entra: "rebote", en: "13:guardalo" },
+      { pieza: "pildora", texto: "@azzure_estudiodebelleza", color: "morado", tamano: 46, x: 540, y: 1180, entra: "sube", en: "13:compartelo" },
     ] } },
 ] }];
 const p = JSON.parse(readFileSync(P, "utf8"));

@@ -52,8 +52,8 @@
    "clave": "especialista"
   },
   {
-   "texto": "Sígueme para aprender más.",
-   "clave": "Sígueme"
+   "texto": "Si te gustó este video, guárdalo y compártelo.",
+   "clave": "guárdalo"
   }
  ],
  "escenas": [
@@ -1241,27 +1241,39 @@
     },
     {
      "desde": 13,
+     "sonido": "campana",
+     "sonidoEn": 1.2,
      "dibujo": {
       "fondo": "luces",
       "elementos": [
        {
-        "pieza": "titular",
-        "texto": "SÍGUEME",
-        "debajo": "PARA APRENDER MÁS",
-        "tamano": 170,
+        "pieza": "etiqueta",
+        "texto": "SI TE GUSTÓ",
         "x": 540,
-        "y": 880,
-        "entra": "rebote",
+        "y": 700,
+        "tamano": 50,
+        "entra": "aparece",
         "en": 0.05
        },
        {
+        "pieza": "titular",
+        "texto": "GUÁRDALO",
+        "debajo": "Y COMPÁRTELO",
+        "tamano": 170,
+        "x": 540,
+        "y": 900,
+        "entra": "rebote",
+        "en": "13:guardalo"
+       },
+       {
         "pieza": "pildora",
-        "texto": "@Azzure",
+        "texto": "@azzure_estudiodebelleza",
         "color": "morado",
+        "tamano": 46,
         "x": 540,
         "y": 1180,
         "entra": "sube",
-        "en": "13:aprender"
+        "en": "13:compartelo"
        }
       ]
      }

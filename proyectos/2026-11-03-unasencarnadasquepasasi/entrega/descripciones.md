@@ -1,9 +1,9 @@
-# Descripciones · Uñas encarnadas (@Azzure)
+# Descripciones · Uñas encarnadas (@azzure_estudiodebelleza)
 
 ## Instagram
 ¿Uña encarnada? Esto pasa si cortas de más y no haces nada 👣
 Cortarlas muy cortas o redondear las esquinas hace que el zapato empuje la uña contra la piel. Si se infecta y no se trata, puede llegar hasta el hueso.
-Sígueme para aprender más sobre el cuidado de tus pies 💅
+Si te gustó, guárdalo y compártelo 💅
 #uñaencarnada #cuidadodepies #pedicure #higiene #salondebelleza
 
 ## TikTok

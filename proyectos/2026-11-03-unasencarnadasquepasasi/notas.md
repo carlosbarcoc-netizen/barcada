@@ -1,6 +1,6 @@
 # Uñas encarnadas: qué pasa si cortas de más y no haces nada
 
-Cliente de este video: salón de belleza **@Azzure** (marca de agua suave). CTA: «Sígueme para aprender más».
+Cliente de este video: salón de belleza **@azzure_estudiodebelleza** (marca de agua suave). CTA: «Si te gustó este video, guárdalo y compártelo».
 
 ## Datos (cada uno con su fuente)
 
