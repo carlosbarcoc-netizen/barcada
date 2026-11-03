@@ -27,7 +27,7 @@ const AYUDA = `Barcada · órdenes (todas desde esta carpeta):
   node barcada.mjs otra <proyecto> <n> [<n>...]    otra versión de esas tomas (nueva imagen)
   node barcada.mjs borrador <proyecto> [--hasta s] video rápido en baja calidad → revisar/borrador.mp4
   node barcada.mjs final <proyecto> [--fps 60]     video final 1080×1920 → entrega/video.mp4
-  node barcada.mjs portada <proyecto> "Título con *clave*|segunda línea" [--toma n]
+  node barcada.mjs portada <proyecto> "Título con *clave*|segunda línea" [--toma n] [--etiqueta "¡nadie te lo dijo!"]
   node barcada.mjs estilos                         los estilos visuales disponibles
 `;
 
@@ -61,7 +61,7 @@ try {
     case "portada": {
       const titulo = resto.filter((x) => !x.startsWith("--"))[1];
       if (!titulo) throw new Error('Falta el título: node barcada.mjs portada <proyecto> "Título con *clave*"');
-      await (await import("./nucleo/extras.mjs")).portada(carpetaProyecto(primero), titulo, { toma: Number(opcion("toma", 1)), acento: opcion("acento") });
+      await (await import("./nucleo/extras.mjs")).portada(carpetaProyecto(primero), titulo, { toma: Number(opcion("toma", 1)), acento: opcion("acento"), etiqueta: opcion("etiqueta") });
       break;
     }
     default: console.log(AYUDA);

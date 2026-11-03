@@ -1,5 +1,5 @@
 // Lo demás: revisar la instalación, crear un proyecto, los efectos de sonido propios y la portada.
-import { existsSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, ffmpeg, guardarJSON, hay, hayClave, leerJSON, sinTildes } from "./comun.mjs";
 import { ESTILOS, hacerImagenes, proveedor } from "./imagenes.mjs";
@@ -74,7 +74,7 @@ export async function crearSonidos({ rehacer = false } = {}) {
 
 // ---------------------------------------------------------------- portada
 // Una imagen de una toma, con el título enorme arriba: *palabra* en el color de acento, sobre un degradado oscuro.
-export async function portada(dir, titulo, { toma = 1, acento } = {}) {
+export async function portada(dir, titulo, { toma = 1, acento, etiqueta } = {}) {
   const p = leerJSON(join(dir, "proyecto.json")), pref = existsSync(join(RAIZ, "preferencias.json")) ? leerJSON(join(RAIZ, "preferencias.json")) : {};
   const imgs = await hacerImagenes(dir);
   // una toma 2D: su cuadro, casi al final de la toma (con todo ya en escena)
@@ -85,17 +85,56 @@ export async function portada(dir, titulo, { toma = 1, acento } = {}) {
     await foto(crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref))(t.fin - 0.25), imgs[toma - 1]);
     await cerrarNavegador();
   }
-  const ac = (acento || pref.acento || "#FFD23F").replace("#", ""), BGR = `&H00${ac.slice(4, 6)}${ac.slice(2, 4)}${ac.slice(0, 2)}`.toUpperCase();
-  const lineas = titulo.split("|").map((l) => l.trim().replace(/\*([^*]+)\*/g, `{\\c${BGR}\\fs170}$1{\\c&H00FFFFFF&\\fs104}`));
-  const ass = join(asegurar(join(dir, ".montaje")), "portada.ass");
-  writeFileSync(ass, `[Script Info]\nScriptType: v4.00+\nPlayResX: ${ANCHO}\nPlayResY: ${ALTO}\n\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\nStyle: T,Poppins ExtraBold,104,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,8,6,8,70,70,300,1\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\nDialogue: 0,0:00:00.00,0:00:05.00,T,,0,0,0,,${lineas.join("\\N")}\n`);
-  const out = join(asegurar(join(dir, "entrega")), "portada.jpg");
+  // la imagen de fondo, a 1080 × 1920, con más color
+  const tmp = asegurar(join(dir, ".montaje")), fondoJpg = join(tmp, "portada-fondo.jpg");
   const est = ESTILOS[p.estilo] || ESTILOS.documental;
   await ffmpeg([...(/\.(mp4|mov|webm)$/i.test(imgs[toma - 1]) ? ["-ss", "1"] : []), "-i", imgs[toma - 1], "-vf",
-    `scale=${ANCHO}:${ALTO}:force_original_aspect_ratio=increase,crop=${ANCHO}:${ALTO},${est.color},drawbox=y=0:w=iw:h=900:color=black@0.35:t=fill,vignette=PI/4,subtitles=filename='${ass}':fontsdir='${FUENTES}'`,
-    "-frames:v", "1", "-q:v", "2", out]);
+    `scale=${ANCHO}:${ALTO}:force_original_aspect_ratio=increase,crop=${ANCHO}:${ALTO},${est.color === "null" ? "null" : est.color},eq=saturation=1.3:contrast=1.08`, "-frames:v", "1", "-q:v", "2", fondoJpg]);
+  const out = join(asegurar(join(dir, "entrega")), "portada.jpg");
+  const { foto, cerrarNavegador } = await import("./2d/dibujante.mjs");
+  await foto(svgPortada(titulo, `data:image/jpeg;base64,${readFileSync(fondoJpg).toString("base64")}`, { acento: acento || pref.acento, etiqueta }), out);
+  await cerrarNavegador();
   console.log(`✓ ${out}`);
   return out;
+}
+
+// La portada de Barcada: el título CENTRADO (en horizontal y en el centro de la imagen, dentro del recorte 3:4 del
+// perfil), en Anton enorme, con colores vivos. La línea con *clave* va más grande, en un degradado amarillo→naranja,
+// sobre una franja de color intenso un poco girada; las demás, blancas con contorno grueso. Cada línea se ajusta a lo
+// ancho para que nada se corte. etiqueta: un sello pequeño debajo («¡NADIE TE LO DIJO!»).
+const ESC = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+export function svgPortada(titulo, fondo, { acento = "#FFD23F", franja = "#FF2E63", etiqueta = null } = {}) {
+  const lineas = titulo.split("|").map((l) => l.trim()).filter(Boolean);
+  const ancho = 940, info = lineas.map((l) => {
+    const clave = /\*[^*]+\*/.test(l), limpio = l.replace(/\*/g, "").toUpperCase();
+    const base = clave ? 210 : 128, tam = Math.min(base, ancho / Math.max(1, limpio.length * 0.5));
+    return { l, clave, limpio, tam };
+  });
+  const alto = info.reduce((a, x) => a + x.tam * 1.08, 0) + (etiqueta ? 190 : 0);
+  let y = 900 - alto / 2;                                   // el bloque, centrado en el medio de la imagen
+  const filas = info.map((x) => {
+    y += x.tam * 0.98;
+    const sw = (x.tam * 0.085).toFixed(1);
+    const partes = x.l.split(/(\*[^*]+\*)/).filter(Boolean).map((seg) => {
+      const k = seg.startsWith("*");
+      return `<tspan ${k ? 'fill="url(#vivo)"' : 'fill="#ffffff"'}>${ESC(seg.replace(/\*/g, "").toUpperCase())}</tspan>`;
+    }).join("");
+    const w = Math.min(ancho, x.limpio.length * x.tam * 0.5) + 70;
+    const fila = `${x.clave ? `<rect x="${540 - w / 2}" y="${y - x.tam * 0.88}" width="${w}" height="${x.tam * 1.06}" rx="${x.tam * 0.16}" fill="${franja}" stroke="#160b06" stroke-width="10" transform="rotate(-3 540 ${y - x.tam * 0.35})" style="filter:drop-shadow(0 14px 0 #160b06)"/>` : ""}
+      <text x="540" y="${y}" text-anchor="middle" font-family="Anton" font-size="${x.tam.toFixed(0)}" stroke="#160b06" stroke-width="${sw}" paint-order="stroke" stroke-linejoin="round" letter-spacing="2"
+        ${x.limpio.length * x.tam * 0.5 > ancho ? `textLength="${ancho}" lengthAdjust="spacingAndGlyphs"` : ""} style="filter:drop-shadow(0 10px 0 #160b06)" ${x.clave ? `transform="rotate(-3 540 ${y - x.tam * 0.35})"` : ""}>${partes}</text>`;
+    y += x.tam * 0.1;
+    return fila;
+  }).join("");
+  const we = Math.min(900, etiqueta ? etiqueta.length * 31 + 90 : 0);
+  const sello = etiqueta ? `<g transform="translate(540 ${y + 140}) rotate(3)"><rect x="${-we / 2}" y="-48" width="${we}" height="96" rx="48" fill="${acento}" stroke="#160b06" stroke-width="8" style="filter:drop-shadow(0 8px 0 #160b06)"/>
+    <text y="20" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="54" fill="#160b06">${ESC(etiqueta.toUpperCase())}</text></g>` : "";
+  return `<defs><linearGradient id="vivo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF36B"/><stop offset="0.55" stop-color="${acento}"/><stop offset="1" stop-color="#FF8A00"/></linearGradient>
+      <radialGradient id="foco" cx="0.5" cy="0.47" r="0.6"><stop offset="0" stop-color="#000" stop-opacity="0.55"/><stop offset="0.7" stop-color="#000" stop-opacity="0.25"/><stop offset="1" stop-color="#000" stop-opacity="0.55"/></radialGradient>
+      <radialGradient id="halo" cx="0.5" cy="0.47" r="0.45"><stop offset="0" stop-color="${franja}" stop-opacity="0.45"/><stop offset="1" stop-color="${franja}" stop-opacity="0"/></radialGradient></defs>
+    <image href="${fondo}" x="-40" y="-40" width="1160" height="2000" preserveAspectRatio="xMidYMid slice" style="filter:blur(5px) saturate(1.2)"/>
+    <rect width="1080" height="1920" fill="url(#foco)"/><rect width="1080" height="1920" fill="url(#halo)"/>
+    ${filas}${sello}`;
 }
 
 export { lineaDeTiempo };

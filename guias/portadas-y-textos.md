@@ -2,12 +2,23 @@
 
 ## La portada
 
-`node barcada.mjs portada <proyecto> "Título con *clave*|segunda línea" --toma <n>` → `entrega/portada.jpg`.
+`node barcada.mjs portada <proyecto> "Primera línea|*LA CLAVE*" --toma <n> [--etiqueta "el resultado te sorprende"]`
+→ `entrega/portada.jpg`.
 
-- 3 a 7 palabras, en 1-2 líneas (`|` parte la línea). La palabra o frase entre `*asteriscos*` sale enorme y en color.
-- Clickbait honesto: lo que promete pasa en el video. «La cocoa *NO ES*|chocolate», «Así se hace|tu *café*».
-- La toma: la imagen más fuerte y clara, con el sujeto en el centro-abajo (el título ocupa arriba).
-- Mírala en pequeño: si no se lee en un segundo, acorta el título.
+**La regla de la casa (no se cambia):** las letras van **centradas** —en horizontal y en el medio de la imagen, dentro
+del recorte 3:4 del perfil— y son **llamativas, con colores vivos**:
+- Anton enorme, en mayúsculas, con contorno grueso oscuro y sombra sólida.
+- La línea con `*clave*` va más grande, en degradado amarillo → naranja, sobre una franja de color intenso (rosa
+  `#FF2E63` por defecto) un poco girada. Las demás líneas, blancas.
+- Debajo, si ayuda, un sello amarillo con 2-5 palabras que remata la curiosidad (`--etiqueta`).
+- El fondo, una toma del video desenfocada y oscurecida en el centro, para que el título salte.
+
+Cómo escribir el título:
+- 2-3 líneas cortas (`|` parte la línea); la clave, de 1-3 palabras: «Café contra cacao|*¿CUÁL GANA?*»,
+  «Te quedan|*40 DÍAS*», «La cocoa|*NO ES*|chocolate».
+- Clickbait honesto: lo que promete pasa en el video.
+- Elige la toma con el momento más claro (los rivales, la cifra, la cosa grande).
+- Míralo en pequeño: si no se lee en un segundo, acorta el título.
 
 ## Las descripciones (`entrega/descripciones.md`)
 
