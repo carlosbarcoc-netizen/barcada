@@ -1,0 +1,74 @@
+{
+  "titulo": "uña encarnada infectada que pasa si no haces nada",
+  "estilo": "luminoso",
+  "calidad": "normal",
+  "sujeto": "",
+  "frases": [
+    {
+      "texto": "¿Qué pasa si te cortas la uña del pie demasiado corta, se infecta… y no haces nada?",
+      "clave": "corta"
+    },
+    {
+      "texto": "La esquina queda escondida y, al crecer, se clava en la piel como una astilla.",
+      "clave": "clava"
+    },
+    {
+      "texto": "Y el zapato la aprieta todavía más.",
+      "clave": "zapato"
+    },
+    {
+      "texto": "Primero llega el dolor: el dedo se pone rojo e hinchado.",
+      "clave": "rojo"
+    },
+    {
+      "texto": "Por esa pequeña herida entran bacterias, y aparece la infección con pus.",
+      "clave": "pus"
+    },
+    {
+      "texto": "Si la ignoras, la infección puede pasar a la piel del pie. Se llama celulitis.",
+      "clave": "celulitis"
+    },
+    {
+      "texto": "Y en casos raros, llega hasta el hueso.",
+      "clave": "hueso"
+    },
+    {
+      "texto": "Con diabetes el riesgo es mayor, porque al pie llega menos sangre.",
+      "clave": "diabetes"
+    },
+    {
+      "texto": "Por eso la higiene importa: pies limpios, bien secos y uñas cortadas en línea recta.",
+      "clave": "recta"
+    },
+    {
+      "texto": "Sin redondear las esquinas, y a la altura de la punta del dedo.",
+      "clave": "esquinas"
+    },
+    {
+      "texto": "Y si ya está roja o con pus, no la cortes tú: ve a un profesional.",
+      "clave": "profesional"
+    },
+    {
+      "texto": "¿Quieres aprender a hacer estos videos que están siendo virales en internet?",
+      "clave": "virales"
+    },
+    {
+      "texto": "Escribe la palabra VIRAL y te explico.",
+      "clave": "VIRAL"
+    }
+  ],
+  "escenas": [
+    {
+      "nombre": "gancho",
+      "tomas": [
+        {
+          "desde": 0,
+          "imagen": "",
+          "movimiento": "acercar",
+          "rotulo": ""
+        }
+      ]
+    }
+  ],
+  "marcaAgua": "@Azzure"
+}
