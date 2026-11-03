@@ -16,7 +16,9 @@ export async function hacerVoz(dir, { rehacer = false } = {}) {
   const p = leerJSON(join(dir, "proyecto.json"));
   if (!p.frases?.length || p.frases.some((f) => !f.texto)) throw new Error("El guion está vacío: escribe las frases en proyecto.json.");
   const pref = existsSync(join(RAIZ, "preferencias.json")) ? leerJSON(join(RAIZ, "preferencias.json")) : {};
-  const voz = { id: VOZ_RESPALDO, modelo: MODELO, estabilidad: 0.45, similitud: 0.8, estilo: 0.25, velocidad: 1, ...(pref.voz || {}), ...(p.voz || {}) };
+  // el tono de Barcada: movido, alegre y cercano (menos estabilidad = más expresiva; más estilo = más energía; un poco
+  // más rápida). Se cambia en preferencias.json → voz o en el proyecto.
+  const voz = { id: VOZ_RESPALDO, modelo: MODELO, estabilidad: 0.32, similitud: 0.8, estilo: 0.55, velocidad: 1.1, ...(pref.voz || {}), ...(p.voz || {}) };
   const huella = createHash("sha1").update(JSON.stringify([p.frases.map(texto), voz])).digest("hex").slice(0, 12);
   const dv = asegurar(join(dir, "voz")), tiempos = join(dv, "tiempos.json");
   if (!rehacer && existsSync(tiempos) && leerJSON(tiempos).huella === huella) { console.log("La voz ya está hecha con este guion (no se vuelve a pagar)."); return leerJSON(tiempos); }

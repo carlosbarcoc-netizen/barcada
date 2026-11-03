@@ -7,9 +7,13 @@
   "estilo": "2d",
   "voz": {
     "id": "htFfPSZGJwjBv1CL0aMD",
-    "nombre": "Antonio"
+    "nombre": "Antonio",
+    "estabilidad": 0.32,
+    "estilo": 0.55,
+    "velocidad": 1.1
   },
   "musica": null,
   "redes": {},
-  "portada": "Letras centradas (en horizontal y en el medio de la imagen) y llamativas, con colores vivos: Anton enorme, la clave en amarillo-naranja sobre franja de color intenso, sello amarillo debajo."
+  "portada": "Letras centradas (en horizontal y en el medio de la imagen) y llamativas, con colores vivos: Anton enorme, la clave en amarillo-naranja sobre franja de color intenso, sello amarillo debajo.",
+  "tono": "Voz movida, alegre y cercana, nada pausada: que quien escucha sienta que se lo cuenta un amigo."
 }

@@ -57,6 +57,8 @@ video gasta poco (tiempo, créditos de voz y uso de tu plan de IA).
   Nada de promesas de salud, dinero o resultados.
 - **Nada de personas reales reconocibles, marcas ni logos** en los dibujos.
 - **Idioma:** el de su público (por defecto español latinoamericano: «video», «celular», «ustedes»).
+- **Tono:** movido, alegre y cercano, como un amigo que te lo cuenta emocionado; nunca pausado ni de documental
+  (`guias/guion.md`, «El tono de Barcada»).
 - **Una conversación por video.** Si la conversación se alarga, sugiere seguir en otra con «sigue el proyecto …».
 - Lo que el usuario corrige «para siempre», va a `preferencias.json`. Lo que costó un error y no debe repetirse, a
   `aprendido.md` (con su visto bueno).
