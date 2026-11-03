@@ -163,7 +163,7 @@
           "archivo": "propias/celulitis.jpg"
         },
         {
-          "desde": "9:hueso",
+          "desde": 9,
           "fuente": "foto",
           "buscar": "foot x-ray",
           "imagen": "x-ray of foot bones",
