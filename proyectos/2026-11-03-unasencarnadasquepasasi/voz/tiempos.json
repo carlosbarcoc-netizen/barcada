@@ -1,0 +1,763 @@
+{
+  "huella": "3481b253fa23",
+  "duracion": 50.197,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "¿Te cortas las uñas de los pies bien cortitas para que duren más?",
+      "clave": "cortitas",
+      "inicio": 0,
+      "fin": 3.518,
+      "palabras": [
+        {
+          "texto": "¿Te",
+          "inicio": 0,
+          "fin": 0.151
+        },
+        {
+          "texto": "cortas",
+          "inicio": 0.209,
+          "fin": 0.534
+        },
+        {
+          "texto": "las",
+          "inicio": 0.58,
+          "fin": 0.685
+        },
+        {
+          "texto": "uñas",
+          "inicio": 0.743,
+          "fin": 0.987
+        },
+        {
+          "texto": "de",
+          "inicio": 1.01,
+          "fin": 1.057
+        },
+        {
+          "texto": "los",
+          "inicio": 1.103,
+          "fin": 1.231
+        },
+        {
+          "texto": "pies",
+          "inicio": 1.289,
+          "fin": 1.556
+        },
+        {
+          "texto": "bien",
+          "inicio": 1.672,
+          "fin": 1.916
+        },
+        {
+          "texto": "cortitas",
+          "inicio": 1.962,
+          "fin": 2.415
+        },
+        {
+          "texto": "para",
+          "inicio": 2.473,
+          "fin": 2.635
+        },
+        {
+          "texto": "que",
+          "inicio": 2.694,
+          "fin": 2.763
+        },
+        {
+          "texto": "duren",
+          "inicio": 2.798,
+          "fin": 3.019
+        },
+        {
+          "texto": "más?",
+          "inicio": 3.088,
+          "fin": 3.518
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Ese corte puede terminar en una infección.",
+      "clave": "infección",
+      "inicio": 4.122,
+      "fin": 6.351,
+      "palabras": [
+        {
+          "texto": "Ese",
+          "inicio": 4.122,
+          "fin": 4.342
+        },
+        {
+          "texto": "corte",
+          "inicio": 4.389,
+          "fin": 4.621
+        },
+        {
+          "texto": "puede",
+          "inicio": 4.667,
+          "fin": 4.853
+        },
+        {
+          "texto": "terminar",
+          "inicio": 4.899,
+          "fin": 5.283
+        },
+        {
+          "texto": "en",
+          "inicio": 5.329,
+          "fin": 5.375
+        },
+        {
+          "texto": "una",
+          "inicio": 5.457,
+          "fin": 5.584
+        },
+        {
+          "texto": "infección.",
+          "inicio": 5.619,
+          "fin": 6.351
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Si cortas de más o redondeas las esquinas, el zapato empuja la uña contra la piel.",
+      "clave": "zapato",
+      "inicio": 6.954,
+      "fin": 11.854,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 6.954,
+          "fin": 7.094
+        },
+        {
+          "texto": "cortas",
+          "inicio": 7.152,
+          "fin": 7.454
+        },
+        {
+          "texto": "de",
+          "inicio": 7.488,
+          "fin": 7.535
+        },
+        {
+          "texto": "más",
+          "inicio": 7.593,
+          "fin": 7.779
+        },
+        {
+          "texto": "o",
+          "inicio": 7.848,
+          "fin": 7.872
+        },
+        {
+          "texto": "redondeas",
+          "inicio": 7.93,
+          "fin": 8.371
+        },
+        {
+          "texto": "las",
+          "inicio": 8.417,
+          "fin": 8.533
+        },
+        {
+          "texto": "esquinas,",
+          "inicio": 8.591,
+          "fin": 9.288
+        },
+        {
+          "texto": "el",
+          "inicio": 9.671,
+          "fin": 9.787
+        },
+        {
+          "texto": "zapato",
+          "inicio": 9.834,
+          "fin": 10.159
+        },
+        {
+          "texto": "empuja",
+          "inicio": 10.194,
+          "fin": 10.553
+        },
+        {
+          "texto": "la",
+          "inicio": 10.6,
+          "fin": 10.67
+        },
+        {
+          "texto": "uña",
+          "inicio": 10.739,
+          "fin": 10.948
+        },
+        {
+          "texto": "contra",
+          "inicio": 11.006,
+          "fin": 11.273
+        },
+        {
+          "texto": "la",
+          "inicio": 11.32,
+          "fin": 11.389
+        },
+        {
+          "texto": "piel.",
+          "inicio": 11.436,
+          "fin": 11.854
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "La esquina se clava como una astilla, y la uña se encarna.",
+      "clave": "encarna",
+      "inicio": 12.55,
+      "fin": 16.056,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 12.55,
+          "fin": 12.666
+        },
+        {
+          "texto": "esquina",
+          "inicio": 12.69,
+          "fin": 13.05
+        },
+        {
+          "texto": "se",
+          "inicio": 13.108,
+          "fin": 13.189
+        },
+        {
+          "texto": "clava",
+          "inicio": 13.235,
+          "fin": 13.526
+        },
+        {
+          "texto": "como",
+          "inicio": 13.572,
+          "fin": 13.769
+        },
+        {
+          "texto": "una",
+          "inicio": 13.839,
+          "fin": 13.99
+        },
+        {
+          "texto": "astilla,",
+          "inicio": 14.013,
+          "fin": 14.675
+        },
+        {
+          "texto": "y",
+          "inicio": 14.803,
+          "fin": 14.872
+        },
+        {
+          "texto": "la",
+          "inicio": 14.965,
+          "fin": 15.023
+        },
+        {
+          "texto": "uña",
+          "inicio": 15.081,
+          "fin": 15.29
+        },
+        {
+          "texto": "se",
+          "inicio": 15.337,
+          "fin": 15.406
+        },
+        {
+          "texto": "encarna.",
+          "inicio": 15.429,
+          "fin": 16.056
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "Llegan el dolor, el enrojecimiento y la hinchazón.",
+      "clave": "hinchazón",
+      "inicio": 16.66,
+      "fin": 19.76,
+      "palabras": [
+        {
+          "texto": "Llegan",
+          "inicio": 16.66,
+          "fin": 16.997
+        },
+        {
+          "texto": "el",
+          "inicio": 17.055,
+          "fin": 17.136
+        },
+        {
+          "texto": "dolor,",
+          "inicio": 17.159,
+          "fin": 17.717
+        },
+        {
+          "texto": "el",
+          "inicio": 17.891,
+          "fin": 18.018
+        },
+        {
+          "texto": "enrojecimiento",
+          "inicio": 18.088,
+          "fin": 18.901
+        },
+        {
+          "texto": "y",
+          "inicio": 18.936,
+          "fin": 18.971
+        },
+        {
+          "texto": "la",
+          "inicio": 19.029,
+          "fin": 19.075
+        },
+        {
+          "texto": "hinchazón.",
+          "inicio": 19.098,
+          "fin": 19.76
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Por esa herida entran bacterias, y aparece el pus.",
+      "clave": "pus",
+      "inicio": 20.364,
+      "fin": 23.406,
+      "palabras": [
+        {
+          "texto": "Por",
+          "inicio": 20.364,
+          "fin": 20.549
+        },
+        {
+          "texto": "esa",
+          "inicio": 20.596,
+          "fin": 20.712
+        },
+        {
+          "texto": "herida",
+          "inicio": 20.735,
+          "fin": 21.002
+        },
+        {
+          "texto": "entran",
+          "inicio": 21.025,
+          "fin": 21.293
+        },
+        {
+          "texto": "bacterias,",
+          "inicio": 21.339,
+          "fin": 22.128
+        },
+        {
+          "texto": "y",
+          "inicio": 22.279,
+          "fin": 22.326
+        },
+        {
+          "texto": "aparece",
+          "inicio": 22.372,
+          "fin": 22.744
+        },
+        {
+          "texto": "el",
+          "inicio": 22.767,
+          "fin": 22.825
+        },
+        {
+          "texto": "pus.",
+          "inicio": 22.906,
+          "fin": 23.406
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "¿Y si no haces nada?",
+      "clave": "nada",
+      "inicio": 23.58,
+      "fin": 24.799,
+      "palabras": [
+        {
+          "texto": "¿Y",
+          "inicio": 23.58,
+          "fin": 23.823
+        },
+        {
+          "texto": "si",
+          "inicio": 23.905,
+          "fin": 23.974
+        },
+        {
+          "texto": "no",
+          "inicio": 24.032,
+          "fin": 24.091
+        },
+        {
+          "texto": "haces",
+          "inicio": 24.114,
+          "fin": 24.311
+        },
+        {
+          "texto": "nada?",
+          "inicio": 24.369,
+          "fin": 24.799
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "La infección puede llegar hasta el hueso.",
+      "clave": "hueso",
+      "inicio": 25.402,
+      "fin": 27.214,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 25.402,
+          "fin": 25.484
+        },
+        {
+          "texto": "infección",
+          "inicio": 25.507,
+          "fin": 25.867
+        },
+        {
+          "texto": "puede",
+          "inicio": 25.913,
+          "fin": 26.099
+        },
+        {
+          "texto": "llegar",
+          "inicio": 26.122,
+          "fin": 26.366
+        },
+        {
+          "texto": "hasta",
+          "inicio": 26.401,
+          "fin": 26.575
+        },
+        {
+          "texto": "el",
+          "inicio": 26.598,
+          "fin": 26.668
+        },
+        {
+          "texto": "hueso.",
+          "inicio": 26.726,
+          "fin": 27.214
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Con diabetes es más grave: el pie siente menos y recibe menos sangre.",
+      "clave": "diabetes",
+      "inicio": 27.655,
+      "fin": 33.123,
+      "palabras": [
+        {
+          "texto": "Con",
+          "inicio": 27.655,
+          "fin": 27.841
+        },
+        {
+          "texto": "diabetes",
+          "inicio": 27.875,
+          "fin": 28.444
+        },
+        {
+          "texto": "es",
+          "inicio": 28.688,
+          "fin": 28.885
+        },
+        {
+          "texto": "más",
+          "inicio": 28.955,
+          "fin": 29.141
+        },
+        {
+          "texto": "grave:",
+          "inicio": 29.187,
+          "fin": 29.733
+        },
+        {
+          "texto": "el",
+          "inicio": 30.244,
+          "fin": 30.406
+        },
+        {
+          "texto": "pie",
+          "inicio": 30.476,
+          "fin": 30.661
+        },
+        {
+          "texto": "siente",
+          "inicio": 30.708,
+          "fin": 31.079
+        },
+        {
+          "texto": "menos",
+          "inicio": 31.149,
+          "fin": 31.567
+        },
+        {
+          "texto": "y",
+          "inicio": 31.741,
+          "fin": 31.822
+        },
+        {
+          "texto": "recibe",
+          "inicio": 31.939,
+          "fin": 32.275
+        },
+        {
+          "texto": "menos",
+          "inicio": 32.345,
+          "fin": 32.612
+        },
+        {
+          "texto": "sangre.",
+          "inicio": 32.635,
+          "fin": 33.123
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Por eso, córtalas rectas, sin redondear y no tan cortas.",
+      "clave": "rectas",
+      "inicio": 33.506,
+      "fin": 37.558,
+      "palabras": [
+        {
+          "texto": "Por",
+          "inicio": 33.506,
+          "fin": 33.68
+        },
+        {
+          "texto": "eso,",
+          "inicio": 33.726,
+          "fin": 34.017
+        },
+        {
+          "texto": "córtalas",
+          "inicio": 34.11,
+          "fin": 34.609
+        },
+        {
+          "texto": "rectas,",
+          "inicio": 34.725,
+          "fin": 35.34
+        },
+        {
+          "texto": "sin",
+          "inicio": 35.514,
+          "fin": 35.723
+        },
+        {
+          "texto": "redondear",
+          "inicio": 35.793,
+          "fin": 36.292
+        },
+        {
+          "texto": "y",
+          "inicio": 36.408,
+          "fin": 36.501
+        },
+        {
+          "texto": "no",
+          "inicio": 36.617,
+          "fin": 36.71
+        },
+        {
+          "texto": "tan",
+          "inicio": 36.768,
+          "fin": 36.908
+        },
+        {
+          "texto": "cortas.",
+          "inicio": 36.966,
+          "fin": 37.558
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Lava tus pies, sécalos bien entre los dedos y usa zapatos con espacio.",
+      "clave": "sécalos",
+      "inicio": 38.161,
+      "fin": 42.631,
+      "palabras": [
+        {
+          "texto": "Lava",
+          "inicio": 38.161,
+          "fin": 38.405
+        },
+        {
+          "texto": "tus",
+          "inicio": 38.452,
+          "fin": 38.603
+        },
+        {
+          "texto": "pies,",
+          "inicio": 38.661,
+          "fin": 39.172
+        },
+        {
+          "texto": "sécalos",
+          "inicio": 39.45,
+          "fin": 39.926
+        },
+        {
+          "texto": "bien",
+          "inicio": 39.996,
+          "fin": 40.205
+        },
+        {
+          "texto": "entre",
+          "inicio": 40.263,
+          "fin": 40.495
+        },
+        {
+          "texto": "los",
+          "inicio": 40.53,
+          "fin": 40.658
+        },
+        {
+          "texto": "dedos",
+          "inicio": 40.692,
+          "fin": 40.959
+        },
+        {
+          "texto": "y",
+          "inicio": 41.018,
+          "fin": 41.041
+        },
+        {
+          "texto": "usa",
+          "inicio": 41.076,
+          "fin": 41.25
+        },
+        {
+          "texto": "zapatos",
+          "inicio": 41.285,
+          "fin": 41.737
+        },
+        {
+          "texto": "con",
+          "inicio": 41.795,
+          "fin": 41.923
+        },
+        {
+          "texto": "espacio.",
+          "inicio": 41.981,
+          "fin": 42.631
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Si ya hay pus o mucho dolor, ve con un especialista.",
+      "clave": "especialista",
+      "inicio": 43.235,
+      "fin": 47.055,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 43.235,
+          "fin": 43.421
+        },
+        {
+          "texto": "ya",
+          "inicio": 43.456,
+          "fin": 43.525
+        },
+        {
+          "texto": "hay",
+          "inicio": 43.549,
+          "fin": 43.676
+        },
+        {
+          "texto": "pus",
+          "inicio": 43.746,
+          "fin": 44.071
+        },
+        {
+          "texto": "o",
+          "inicio": 44.245,
+          "fin": 44.315
+        },
+        {
+          "texto": "mucho",
+          "inicio": 44.373,
+          "fin": 44.686
+        },
+        {
+          "texto": "dolor,",
+          "inicio": 44.733,
+          "fin": 45.244
+        },
+        {
+          "texto": "ve",
+          "inicio": 45.569,
+          "fin": 45.685
+        },
+        {
+          "texto": "con",
+          "inicio": 45.743,
+          "fin": 45.859
+        },
+        {
+          "texto": "un",
+          "inicio": 45.929,
+          "fin": 45.998
+        },
+        {
+          "texto": "especialista.",
+          "inicio": 46.056,
+          "fin": 47.055
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "Sígueme para aprender más.",
+      "clave": "Sígueme",
+      "inicio": 47.658,
+      "fin": 49.597,
+      "palabras": [
+        {
+          "texto": "Sígueme",
+          "inicio": 47.658,
+          "fin": 48.111
+        },
+        {
+          "texto": "para",
+          "inicio": 48.169,
+          "fin": 48.367
+        },
+        {
+          "texto": "aprender",
+          "inicio": 48.401,
+          "fin": 48.843
+        },
+        {
+          "texto": "más.",
+          "inicio": 48.912,
+          "fin": 49.597
+        }
+      ]
+    }
+  ]
+}

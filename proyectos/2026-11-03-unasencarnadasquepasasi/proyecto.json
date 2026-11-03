@@ -1,73 +1,1272 @@
 {
-  "titulo": "Uñas encarnadas",
-  "estilo": "2d",
-  "calidad": "normal",
-  "sujeto": "",
-  "frases": [
+ "titulo": "Uñas encarnadas",
+ "estilo": "2d",
+ "calidad": "normal",
+ "frases": [
+  {
+   "texto": "¿Te cortas las uñas de los pies bien cortitas para que duren más?",
+   "clave": "cortitas"
+  },
+  {
+   "texto": "Ese corte puede terminar en una infección.",
+   "clave": "infección"
+  },
+  {
+   "texto": "Si cortas de más o redondeas las esquinas, el zapato empuja la uña contra la piel.",
+   "clave": "zapato"
+  },
+  {
+   "texto": "La esquina se clava como una astilla, y la uña se encarna.",
+   "clave": "encarna"
+  },
+  {
+   "texto": "Llegan el dolor, el enrojecimiento y la hinchazón.",
+   "clave": "hinchazón"
+  },
+  {
+   "texto": "Por esa herida entran bacterias, y aparece el pus.",
+   "clave": "pus"
+  },
+  {
+   "texto": "¿Y si no haces nada?",
+   "clave": "nada"
+  },
+  {
+   "texto": "La infección puede llegar hasta el hueso.",
+   "clave": "hueso"
+  },
+  {
+   "texto": "Con diabetes es más grave: el pie siente menos y recibe menos sangre.",
+   "clave": "diabetes"
+  },
+  {
+   "texto": "Por eso, córtalas rectas, sin redondear y no tan cortas.",
+   "clave": "rectas"
+  },
+  {
+   "texto": "Lava tus pies, sécalos bien entre los dedos y usa zapatos con espacio.",
+   "clave": "sécalos"
+  },
+  {
+   "texto": "Si ya hay pus o mucho dolor, ve con un especialista.",
+   "clave": "especialista"
+  },
+  {
+   "texto": "Sígueme para aprender más.",
+   "clave": "Sígueme"
+  }
+ ],
+ "escenas": [
+  {
+   "nombre": "uñas encarnadas",
+   "tomas": [
     {
-      "texto": "¿Te cortas las uñas de los pies bien cortitas para que duren más?",
-      "clave": "cortitas"
-    },
-    {
-      "texto": "Ese corte puede terminar en una infección.",
-      "clave": "infección"
-    },
-    {
-      "texto": "Si cortas de más o redondeas las esquinas, el zapato empuja la uña contra la piel.",
-      "clave": "zapato"
-    },
-    {
-      "texto": "La esquina se clava como una astilla, y la uña se encarna.",
-      "clave": "encarna"
-    },
-    {
-      "texto": "Llegan el dolor, el enrojecimiento y la hinchazón.",
-      "clave": "hinchazón"
-    },
-    {
-      "texto": "Por esa herida entran bacterias, y aparece el pus.",
-      "clave": "pus"
-    },
-    {
-      "texto": "¿Y si no haces nada?",
-      "clave": "nada"
-    },
-    {
-      "texto": "La infección puede llegar hasta el hueso.",
-      "clave": "hueso"
-    },
-    {
-      "texto": "Con diabetes es más grave: el pie siente menos y recibe menos sangre.",
-      "clave": "diabetes"
-    },
-    {
-      "texto": "Por eso, córtalas rectas, sin redondear y no tan cortas.",
-      "clave": "rectas"
-    },
-    {
-      "texto": "Lava tus pies, sécalos bien entre los dedos y usa zapatos con espacio.",
-      "clave": "sécalos"
-    },
-    {
-      "texto": "Si ya hay pus o mucho dolor, ve con un especialista.",
-      "clave": "especialista"
-    },
-    {
-      "texto": "Sígueme para aprender más.",
-      "clave": "Sígueme"
-    }
-  ],
-  "escenas": [
-    {
-      "nombre": "gancho",
-      "tomas": [
+     "desde": 0,
+     "rotulo": "¿BIEN *CORTITAS*?",
+     "sonido": "crujido",
+     "sonidoEn": 1.9,
+     "dibujo": {
+      "fondo": "estudio",
+      "camara": [
+       [
+        0,
         {
-          "desde": 0,
-          "imagen": "",
-          "movimiento": "acercar",
-          "rotulo": ""
+         "zoom": 1.15,
+         "y": 950
         }
+       ],
+       [
+        "1:cortitas",
+        {
+         "zoom": 1.3,
+         "y": 880
+        }
+       ],
+       [
+        "1:mas",
+        {
+         "zoom": 1.1,
+         "y": 960
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az1v1b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffd6b0\"/><stop offset=\"0.55\" stop-color=\"#e7a374\"/><stop offset=\"1\" stop-color=\"#a9643d\"/></linearGradient>\n    <linearGradient id=\"az1v1s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#a9643d\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#a9643d\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az1c2\"><path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az1c2)\">\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a9643d\" transform=\"translate(-9 -9)\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"url(#az1v1b)\" transform=\"translate(-30 -24)\"/>\n      \n    </g>\n    <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -120 300 C -80 270 80 270 120 300\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -60 250 C -20 238 20 238 60 250\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.25,
+        "entra": "sube",
+        "en": 0
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az2v3b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az2v3s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az2c4\"><path d=\"M -110 -150 L 110 -150 L 112 50 C 70 85 -70 85 -112 50 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az2c4)\">\n      <path d=\"M -110 -150 L 110 -150 L 112 50 C 70 85 -70 85 -112 50 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -110 -150 L 110 -150 L 112 50 C 70 85 -70 85 -112 50 Z\" fill=\"#d9a597\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -110 -150 L 110 -150 L 112 50 C 70 85 -70 85 -112 50 Z\" fill=\"url(#az2v3b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -110 -150 L 110 -150 L 112 50 C 70 85 -70 85 -112 50 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -110 -150 L 110 -150 L 110 -125 L -110 -125 Z\" fill=\"#fffdf8\" stroke=\"#2b1a14\" stroke-width=\"4\"/><ellipse cx=\"-50\" cy=\"-60\" rx=\"22\" ry=\"60\" fill=\"#fff\" opacity=\"0.5\"/><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.25,
+        "entra": "aparece",
+        "en": 0,
+        "hasta": "1:cortitas",
+        "duraSale": 0.1
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az3v5b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az3v5s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az3c6\"><path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az3c6)\">\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#d9a597\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"url(#az3v5b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><ellipse cx=\"-45\" cy=\"-20\" rx=\"20\" ry=\"45\" fill=\"#fff\" opacity=\"0.5\"/><path d=\"M -120 -20 C -150 -110 -140 -170 -120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M 120 -20 C 150 -110 140 -170 120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.25,
+        "entra": "ninguna",
+        "en": "1:cortitas"
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az4v7b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#f3f5f7\"/><stop offset=\"0.55\" stop-color=\"#aab3bd\"/><stop offset=\"1\" stop-color=\"#5b6470\"/></linearGradient>\n    <linearGradient id=\"az4v7s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#5b6470\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#5b6470\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az4c8\"><path d=\"M -20 -10 L 260 -40 L 270 -20 L -10 20 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az4c8)\">\n      <path d=\"M -20 -10 L 260 -40 L 270 -20 L -10 20 Z\" fill=\"#ffd9a8\"/>\n      <path d=\"M -20 -10 L 260 -40 L 270 -20 L -10 20 Z\" fill=\"#5b6470\" transform=\"translate(-3 -3)\"/>\n      <path d=\"M -20 -10 L 260 -40 L 270 -20 L -10 20 Z\" fill=\"url(#az4v7b)\" transform=\"translate(-8 -6.4)\"/>\n      \n    </g>\n    <path d=\"M -20 -10 L 260 -40 L 270 -20 L -10 20 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><g>\n    <defs>\n    <linearGradient id=\"az4v9b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#f3f5f7\"/><stop offset=\"0.55\" stop-color=\"#aab3bd\"/><stop offset=\"1\" stop-color=\"#5b6470\"/></linearGradient>\n    <linearGradient id=\"az4v9s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#5b6470\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#5b6470\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az4c10\"><path d=\"M -20 10 L 260 40 L 270 20 L -10 -20 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az4c10)\">\n      <path d=\"M -20 10 L 260 40 L 270 20 L -10 -20 Z\" fill=\"#ffd9a8\"/>\n      <path d=\"M -20 10 L 260 40 L 270 20 L -10 -20 Z\" fill=\"#5b6470\" transform=\"translate(-3 -3)\"/>\n      <path d=\"M -20 10 L 260 40 L 270 20 L -10 -20 Z\" fill=\"url(#az4v9b)\" transform=\"translate(-8 -6.4)\"/>\n      \n    </g>\n    <path d=\"M -20 10 L 260 40 L 270 20 L -10 -20 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><g>\n    <defs>\n    <linearGradient id=\"az4v11b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffc2c8\"/><stop offset=\"0.55\" stop-color=\"#f08592\"/><stop offset=\"1\" stop-color=\"#b4485e\"/></linearGradient>\n    <linearGradient id=\"az4v11s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#b4485e\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#b4485e\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az4c12\"><path d=\"M -40 -30 C -90 -100 -200 -80 -190 -30 C -180 10 -90 0 -40 -30 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az4c12)\">\n      <path d=\"M -40 -30 C -90 -100 -200 -80 -190 -30 C -180 10 -90 0 -40 -30 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -40 -30 C -90 -100 -200 -80 -190 -30 C -180 10 -90 0 -40 -30 Z\" fill=\"#b4485e\" transform=\"translate(-4 -4)\"/>\n      <path d=\"M -40 -30 C -90 -100 -200 -80 -190 -30 C -180 10 -90 0 -40 -30 Z\" fill=\"url(#az4v11b)\" transform=\"translate(-12 -9.600000000000001)\"/>\n      \n    </g>\n    <path d=\"M -40 -30 C -90 -100 -200 -80 -190 -30 C -180 10 -90 0 -40 -30 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><g>\n    <defs>\n    <linearGradient id=\"az4v13b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffc2c8\"/><stop offset=\"0.55\" stop-color=\"#f08592\"/><stop offset=\"1\" stop-color=\"#b4485e\"/></linearGradient>\n    <linearGradient id=\"az4v13s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#b4485e\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#b4485e\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az4c14\"><path d=\"M -40 30 C -90 100 -200 80 -190 30 C -180 -10 -90 0 -40 30 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az4c14)\">\n      <path d=\"M -40 30 C -90 100 -200 80 -190 30 C -180 -10 -90 0 -40 30 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -40 30 C -90 100 -200 80 -190 30 C -180 -10 -90 0 -40 30 Z\" fill=\"#b4485e\" transform=\"translate(-4 -4)\"/>\n      <path d=\"M -40 30 C -90 100 -200 80 -190 30 C -180 -10 -90 0 -40 30 Z\" fill=\"url(#az4v13b)\" transform=\"translate(-12 -9.600000000000001)\"/>\n      \n    </g>\n    <path d=\"M -40 30 C -90 100 -200 80 -190 30 C -180 -10 -90 0 -40 30 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><circle r=\"12\" fill=\"#2b1a14\"/><text>",
+        "tamano": 1,
+        "x": 900,
+        "y": 760,
+        "escala": 1,
+        "entra": "derecha",
+        "en": 0.3,
+        "rot": 180,
+        "mueve": [
+         [
+          "1:bien",
+          {
+           "rot": 180,
+           "x": 760,
+           "y": 820,
+           "escala": 1
+          }
+         ],
+         [
+          "1:cortitas",
+          {
+           "rot": 180,
+           "x": 700,
+           "y": 870,
+           "escala": 1
+          }
+         ],
+         [
+          "1:mas",
+          {
+           "rot": 180,
+           "x": 1500,
+           "y": 700,
+           "escala": 1
+          }
+         ]
+        ]
+       },
+       {
+        "pieza": "aro",
+        "x": 540,
+        "y": 870,
+        "radio": 200,
+        "tinta": "#ff4d4d",
+        "entra": "aparece",
+        "en": "1:duren",
+        "params": {
+         "dibuja": [
+          [
+           "1:duren",
+           0
+          ],
+          [
+           "1:mas",
+           1
+          ]
+         ]
+        }
+       }
       ]
+     }
+    },
+    {
+     "desde": 2,
+     "sonido": "impacto",
+     "sonidoEn": 1.4,
+     "dibujo": {
+      "fondo": "estudio",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.1,
+         "y": 960
+        }
+       ],
+       [
+        "2:infeccion",
+        {
+         "zoom": 1.35,
+         "x": 420,
+         "y": 900
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "texto",
+        "texto": "</text><circle r=\"170\" fill=\"#ff2a2a\" opacity=\"0.7\" style=\"filter:blur(51px)\"/><text>",
+        "tamano": 1,
+        "x": 400,
+        "y": 900,
+        "escala": 1.25,
+        "entra": "crece",
+        "en": "2:infeccion",
+        "dura": 0.8,
+        "accion": "late"
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az6v15b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffd6b0\"/><stop offset=\"0.55\" stop-color=\"#e7a374\"/><stop offset=\"1\" stop-color=\"#a9643d\"/></linearGradient>\n    <linearGradient id=\"az6v15s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#a9643d\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#a9643d\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az6c16\"><path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az6c16)\">\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a9643d\" transform=\"translate(-9 -9)\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"url(#az6v15b)\" transform=\"translate(-30 -24)\"/>\n      \n    </g>\n    <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -120 300 C -80 270 80 270 120 300\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -60 250 C -20 238 20 238 60 250\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.25,
+        "entra": "ninguna",
+        "en": 0
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az7v17b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az7v17s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az7c18\"><path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az7c18)\">\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#d9a597\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"url(#az7v17b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><ellipse cx=\"-45\" cy=\"-20\" rx=\"20\" ry=\"45\" fill=\"#fff\" opacity=\"0.5\"/><path d=\"M -120 -20 C -150 -110 -140 -170 -120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M 120 -20 C 150 -110 140 -170 120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.25,
+        "entra": "ninguna",
+        "en": 0
+       },
+       {
+        "pieza": "signo",
+        "tipo": "exclama",
+        "x": 680,
+        "y": 720,
+        "escala": 0.55,
+        "entra": "rebote",
+        "en": "2:terminar"
+       },
+       {
+        "pieza": "pildora",
+        "texto": "INFECCIÓN",
+        "color": "rojo",
+        "x": 540,
+        "y": 1460,
+        "entra": "sube",
+        "en": "2:infeccion"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 3,
+     "rotulo": "UÑA CORTA + ZAPATO = *PRESIÓN*",
+     "dibujo": {
+      "fondo": "estudio",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1
+        }
+       ],
+       [
+        "3:zapato",
+        {
+         "zoom": 1.12,
+         "y": 940
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az8v19b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffd6b0\"/><stop offset=\"0.55\" stop-color=\"#e7a374\"/><stop offset=\"1\" stop-color=\"#a9643d\"/></linearGradient>\n    <linearGradient id=\"az8v19s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#a9643d\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#a9643d\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az8c20\"><path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az8c20)\">\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a9643d\" transform=\"translate(-9 -9)\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"url(#az8v19b)\" transform=\"translate(-30 -24)\"/>\n      \n    </g>\n    <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -120 300 C -80 270 80 270 120 300\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -60 250 C -20 238 20 238 60 250\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.15,
+        "entra": "ninguna",
+        "en": 0
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az9v21b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az9v21s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az9c22\"><path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az9c22)\">\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#d9a597\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"url(#az9v21b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><ellipse cx=\"-45\" cy=\"-20\" rx=\"20\" ry=\"45\" fill=\"#fff\" opacity=\"0.5\"/><path d=\"M -120 -20 C -150 -110 -140 -170 -120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M 120 -20 C 150 -110 140 -170 120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.15,
+        "entra": "ninguna",
+        "en": 0
+       },
+       {
+        "pieza": "aro",
+        "x": 415,
+        "y": 900,
+        "radio": 75,
+        "tinta": "#ff4d4d",
+        "entra": "aparece",
+        "en": "3:redondeas",
+        "params": {
+         "dibuja": [
+          [
+           "3:redondeas",
+           0
+          ],
+          [
+           "3:esquinas",
+           1
+          ]
+         ]
+        }
+       },
+       {
+        "pieza": "aro",
+        "x": 665,
+        "y": 900,
+        "radio": 75,
+        "tinta": "#ff4d4d",
+        "entra": "aparece",
+        "en": "3:redondeas",
+        "params": {
+         "dibuja": [
+          [
+           "3:redondeas",
+           0
+          ],
+          [
+           "3:esquinas",
+           1
+          ]
+         ]
+        }
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az10v23b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#5b5f6a\"/><stop offset=\"0.55\" stop-color=\"#2e323b\"/><stop offset=\"1\" stop-color=\"#14161b\"/></linearGradient>\n    <linearGradient id=\"az10v23s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#14161b\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#14161b\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az10c24\"><path d=\"M -60 -260 C -60 -300 60 -300 60 -260 L 60 300 L -60 300 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az10c24)\">\n      <path d=\"M -60 -260 C -60 -300 60 -300 60 -260 L 60 300 L -60 300 Z\" fill=\"#7fd3ff\"/>\n      <path d=\"M -60 -260 C -60 -300 60 -300 60 -260 L 60 300 L -60 300 Z\" fill=\"#14161b\" transform=\"translate(-6 -6)\"/>\n      <path d=\"M -60 -260 C -60 -300 60 -300 60 -260 L 60 300 L -60 300 Z\" fill=\"url(#az10v23b)\" transform=\"translate(-18 -14.4)\"/>\n      \n    </g>\n    <path d=\"M -60 -260 C -60 -300 60 -300 60 -260 L 60 300 L -60 300 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -20 -220 L -20 260\" fill=\"none\" stroke=\"#5b5f6a\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"20 18\"/><text>",
+        "tamano": 1,
+        "x": 80,
+        "y": 1000,
+        "escala": 1,
+        "entra": "izquierda",
+        "en": "3:zapato",
+        "mueve": [
+         [
+          "3:empuja",
+          {
+           "rot": 0,
+           "x": 80,
+           "y": 1000,
+           "escala": 1
+          }
+         ],
+         [
+          "3:piel",
+          {
+           "rot": 0,
+           "x": 280,
+           "y": 1000,
+           "escala": 1
+          }
+         ]
+        ]
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az11v25b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#5b5f6a\"/><stop offset=\"0.55\" stop-color=\"#2e323b\"/><stop offset=\"1\" stop-color=\"#14161b\"/></linearGradient>\n    <linearGradient id=\"az11v25s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#14161b\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#14161b\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az11c26\"><path d=\"M -60 -260 C -60 -300 60 -300 60 -260 L 60 300 L -60 300 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az11c26)\">\n      <path d=\"M -60 -260 C -60 -300 60 -300 60 -260 L 60 300 L -60 300 Z\" fill=\"#7fd3ff\"/>\n      <path d=\"M -60 -260 C -60 -300 60 -300 60 -260 L 60 300 L -60 300 Z\" fill=\"#14161b\" transform=\"translate(-6 -6)\"/>\n      <path d=\"M -60 -260 C -60 -300 60 -300 60 -260 L 60 300 L -60 300 Z\" fill=\"url(#az11v25b)\" transform=\"translate(-18 -14.4)\"/>\n      \n    </g>\n    <path d=\"M -60 -260 C -60 -300 60 -300 60 -260 L 60 300 L -60 300 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -20 -220 L -20 260\" fill=\"none\" stroke=\"#5b5f6a\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"20 18\"/><text>",
+        "tamano": 1,
+        "x": 1000,
+        "y": 1000,
+        "escala": 1,
+        "entra": "derecha",
+        "en": "3:zapato",
+        "mueve": [
+         [
+          "3:empuja",
+          {
+           "rot": 0,
+           "x": 1000,
+           "y": 1000,
+           "escala": 1
+          }
+         ],
+         [
+          "3:piel",
+          {
+           "rot": 0,
+           "x": 800,
+           "y": 1000,
+           "escala": 1
+          }
+         ]
+        ]
+       },
+       {
+        "pieza": "flecha",
+        "x": 170,
+        "y": 640,
+        "escala": 0.6,
+        "largo": 300,
+        "color": "rojo",
+        "entra": "izquierda",
+        "en": "3:empuja"
+       },
+       {
+        "pieza": "flecha",
+        "x": 910,
+        "y": 640,
+        "escala": 0.6,
+        "largo": 300,
+        "color": "rojo",
+        "rot": 180,
+        "entra": "derecha",
+        "en": "3:empuja"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 4,
+     "rotulo": "UÑA *ENCARNADA*",
+     "sonido": "impacto",
+     "sonidoEn": 0.75,
+     "dibujo": {
+      "fondo": "estudio",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.15,
+         "y": 950
+        }
+       ],
+       [
+        "4:clava",
+        {
+         "zoom": 1.6,
+         "x": 380,
+         "y": 900
+        }
+       ],
+       [
+        "4:encarna",
+        {
+         "zoom": 1.45,
+         "x": 420,
+         "y": 920
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "texto",
+        "texto": "</text><circle r=\"120\" fill=\"#ff2a2a\" opacity=\"0.75\" style=\"filter:blur(36px)\"/><text>",
+        "tamano": 1,
+        "x": 360,
+        "y": 930,
+        "escala": 1.3,
+        "entra": "crece",
+        "en": "4:encarna",
+        "dura": 0.6,
+        "accion": "late"
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az13v27b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffd6b0\"/><stop offset=\"0.55\" stop-color=\"#e7a374\"/><stop offset=\"1\" stop-color=\"#a9643d\"/></linearGradient>\n    <linearGradient id=\"az13v27s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#a9643d\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#a9643d\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az13c28\"><path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az13c28)\">\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a9643d\" transform=\"translate(-9 -9)\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"url(#az13v27b)\" transform=\"translate(-30 -24)\"/>\n      \n    </g>\n    <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -120 300 C -80 270 80 270 120 300\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -60 250 C -20 238 20 238 60 250\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.3,
+        "entra": "ninguna",
+        "en": 0
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az14v29b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az14v29s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az14c30\"><path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az14c30)\">\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#d9a597\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"url(#az14v29b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><ellipse cx=\"-45\" cy=\"-20\" rx=\"20\" ry=\"45\" fill=\"#fff\" opacity=\"0.5\"/><path d=\"M -120 -20 C -150 -110 -140 -170 -120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M 120 -20 C 150 -110 140 -170 120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.3,
+        "entra": "ninguna",
+        "en": 0
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az15v31b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az15v31s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az15c32\"><path d=\"M -112 10 L -175 -75 L -100 -35 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az15c32)\">\n      <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"#d9a597\" transform=\"translate(-3 -3)\"/>\n      <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"url(#az15v31b)\" transform=\"translate(-6 -4.800000000000001)\"/>\n      \n    </g>\n    <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.3,
+        "entra": "crece",
+        "en": "4:clava",
+        "dura": 0.6
+       },
+       {
+        "pieza": "aro",
+        "x": 365,
+        "y": 925,
+        "radio": 80,
+        "tinta": "#FFD23F",
+        "entra": "aparece",
+        "en": "4:astilla",
+        "params": {
+         "dibuja": [
+          [
+           "4:astilla",
+           0
+          ],
+          [
+           "4:y",
+           1
+          ]
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "desde": 5,
+     "dibujo": {
+      "fondo": "estudio",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.05,
+         "y": 960
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "texto",
+        "texto": "</text><circle r=\"220\" fill=\"#ff2a2a\" opacity=\"0.6\" style=\"filter:blur(66px)\"/><text>",
+        "tamano": 1,
+        "x": 390,
+        "y": 920,
+        "escala": 1.2,
+        "entra": "crece",
+        "en": "5:dolor",
+        "accion": "late"
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az17v33b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffd6b0\"/><stop offset=\"0.55\" stop-color=\"#e7a374\"/><stop offset=\"1\" stop-color=\"#a9643d\"/></linearGradient>\n    <linearGradient id=\"az17v33s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#a9643d\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#a9643d\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az17c34\"><path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az17c34)\">\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a9643d\" transform=\"translate(-9 -9)\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"url(#az17v33b)\" transform=\"translate(-30 -24)\"/>\n      \n    </g>\n    <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -120 300 C -80 270 80 270 120 300\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -60 250 C -20 238 20 238 60 250\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1060,
+        "escala": 1.1,
+        "entra": "ninguna",
+        "en": 0,
+        "accion": "late"
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az18v35b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az18v35s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az18c36\"><path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az18c36)\">\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#d9a597\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"url(#az18v35b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><ellipse cx=\"-45\" cy=\"-20\" rx=\"20\" ry=\"45\" fill=\"#fff\" opacity=\"0.5\"/><path d=\"M -120 -20 C -150 -110 -140 -170 -120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M 120 -20 C 150 -110 140 -170 120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1060,
+        "escala": 1.1,
+        "entra": "ninguna",
+        "en": 0,
+        "accion": "late"
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az19v37b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az19v37s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az19c38\"><path d=\"M -112 10 L -175 -75 L -100 -35 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az19c38)\">\n      <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"#d9a597\" transform=\"translate(-3 -3)\"/>\n      <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"url(#az19v37b)\" transform=\"translate(-6 -4.800000000000001)\"/>\n      \n    </g>\n    <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1060,
+        "escala": 1.1,
+        "entra": "ninguna",
+        "en": 0,
+        "accion": "late"
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az20v39b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffb3a0\"/><stop offset=\"0.55\" stop-color=\"#e86a5a\"/><stop offset=\"1\" stop-color=\"#a2302a\"/></linearGradient>\n    <linearGradient id=\"az20v39s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#a2302a\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#a2302a\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az20c40\"><path d=\"M -60 0 C -60 -70 60 -70 60 0 C 60 60 -60 60 -60 0 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az20c40)\">\n      <path d=\"M -60 0 C -60 -70 60 -70 60 0 C 60 60 -60 60 -60 0 Z\" fill=\"#ffe0b0\"/>\n      <path d=\"M -60 0 C -60 -70 60 -70 60 0 C 60 60 -60 60 -60 0 Z\" fill=\"#a2302a\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -60 0 C -60 -70 60 -70 60 0 C 60 60 -60 60 -60 0 Z\" fill=\"url(#az20v39b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -60 0 C -60 -70 60 -70 60 0 C 60 60 -60 60 -60 0 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><text>",
+        "tamano": 1,
+        "x": 365,
+        "y": 960,
+        "escala": 1.3,
+        "entra": "rebote",
+        "en": "5:hinchazon"
+       },
+       {
+        "pieza": "pildora",
+        "texto": "DOLOR",
+        "color": "rojo",
+        "x": 300,
+        "y": 640,
+        "entra": "rebote",
+        "en": "5:dolor"
+       },
+       {
+        "pieza": "pildora",
+        "texto": "ENROJECIMIENTO",
+        "color": "naranja",
+        "x": 600,
+        "y": 540,
+        "entra": "rebote",
+        "en": "5:enrojecimiento"
+       },
+       {
+        "pieza": "pildora",
+        "texto": "HINCHAZÓN",
+        "color": "morado",
+        "x": 760,
+        "y": 680,
+        "entra": "rebote",
+        "en": "5:hinchazon"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 6,
+     "rotulo": "BACTERIAS → *PUS*",
+     "sonido": "burbujas",
+     "sonidoEn": 2.4,
+     "dibujo": {
+      "fondo": "estudio",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.1,
+         "y": 950
+        }
+       ],
+       [
+        "6:pus",
+        {
+         "zoom": 1.5,
+         "x": 400,
+         "y": 920
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "texto",
+        "texto": "</text><circle r=\"200\" fill=\"#ff2a2a\" opacity=\"0.6\" style=\"filter:blur(60px)\"/><text>",
+        "tamano": 1,
+        "x": 380,
+        "y": 930,
+        "escala": 1.2,
+        "entra": "ninguna",
+        "en": 0,
+        "accion": "late"
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az22v41b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffd6b0\"/><stop offset=\"0.55\" stop-color=\"#e7a374\"/><stop offset=\"1\" stop-color=\"#a9643d\"/></linearGradient>\n    <linearGradient id=\"az22v41s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#a9643d\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#a9643d\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az22c42\"><path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az22c42)\">\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a9643d\" transform=\"translate(-9 -9)\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"url(#az22v41b)\" transform=\"translate(-30 -24)\"/>\n      \n    </g>\n    <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -120 300 C -80 270 80 270 120 300\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -60 250 C -20 238 20 238 60 250\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.2,
+        "entra": "ninguna",
+        "en": 0
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az23v43b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az23v43s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az23c44\"><path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az23c44)\">\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"#d9a597\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"url(#az23v43b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -55 -95 C -20 -105 20 -105 55 -95 C 95 -80 112 -40 112 0 L 112 50 C 70 85 -70 85 -112 50 L -112 0 C -112 -40 -95 -80 -55 -95 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><ellipse cx=\"-45\" cy=\"-20\" rx=\"20\" ry=\"45\" fill=\"#fff\" opacity=\"0.5\"/><path d=\"M -120 -20 C -150 -110 -140 -170 -120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M 120 -20 C 150 -110 140 -170 120 -200\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.2,
+        "entra": "ninguna",
+        "en": 0
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az24v45b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az24v45s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az24c46\"><path d=\"M -112 10 L -175 -75 L -100 -35 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az24c46)\">\n      <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"#d9a597\" transform=\"translate(-3 -3)\"/>\n      <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"url(#az24v45b)\" transform=\"translate(-6 -4.800000000000001)\"/>\n      \n    </g>\n    <path d=\"M -112 10 L -175 -75 L -100 -35 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.2,
+        "entra": "ninguna",
+        "en": 0
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az25v47b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffb3a0\"/><stop offset=\"0.55\" stop-color=\"#e86a5a\"/><stop offset=\"1\" stop-color=\"#a2302a\"/></linearGradient>\n    <linearGradient id=\"az25v47s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#a2302a\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#a2302a\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az25c48\"><path d=\"M -60 0 C -60 -70 60 -70 60 0 C 60 60 -60 60 -60 0 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az25c48)\">\n      <path d=\"M -60 0 C -60 -70 60 -70 60 0 C 60 60 -60 60 -60 0 Z\" fill=\"#ffe0b0\"/>\n      <path d=\"M -60 0 C -60 -70 60 -70 60 0 C 60 60 -60 60 -60 0 Z\" fill=\"#a2302a\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -60 0 C -60 -70 60 -70 60 0 C 60 60 -60 60 -60 0 Z\" fill=\"url(#az25v47b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -60 0 C -60 -70 60 -70 60 0 C 60 60 -60 60 -60 0 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><text>",
+        "tamano": 1,
+        "x": 355,
+        "y": 960,
+        "escala": 1.4,
+        "entra": "ninguna",
+        "en": 0
+       },
+       {
+        "pieza": "celula",
+        "color": "verde",
+        "x": 120,
+        "y": 620,
+        "escala": 0.28,
+        "entra": "izquierda",
+        "en": "6:entran",
+        "accion": "tiembla",
+        "mueve": [
+         [
+          "6:bacterias",
+          {
+           "rot": 0,
+           "x": 120,
+           "y": 620,
+           "escala": 0.28
+          }
+         ],
+         [
+          "6:pus",
+          {
+           "rot": 0,
+           "x": 330,
+           "y": 880,
+           "escala": 0.22
+          }
+         ]
+        ]
+       },
+       {
+        "pieza": "celula",
+        "color": "verde",
+        "x": 80,
+        "y": 1150,
+        "escala": 0.24,
+        "entra": "izquierda",
+        "en": "6:bacterias",
+        "accion": "tiembla",
+        "mueve": [
+         [
+          "6:y",
+          {
+           "rot": 0,
+           "x": 80,
+           "y": 1150,
+           "escala": 0.24
+          }
+         ],
+         [
+          "6:pus",
+          {
+           "rot": 0,
+           "x": 300,
+           "y": 1000,
+           "escala": 0.2
+          }
+         ]
+        ]
+       },
+       {
+        "pieza": "celula",
+        "color": "verde",
+        "x": 200,
+        "y": 450,
+        "escala": 0.22,
+        "entra": "aparece",
+        "en": "6:bacterias",
+        "accion": "tiembla",
+        "mueve": [
+         [
+          "6:y",
+          {
+           "rot": 0,
+           "x": 200,
+           "y": 450,
+           "escala": 0.22
+          }
+         ],
+         [
+          "6:pus",
+          {
+           "rot": 0,
+           "x": 380,
+           "y": 830,
+           "escala": 0.18
+          }
+         ]
+        ]
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az26v49b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fffbd0\"/><stop offset=\"0.55\" stop-color=\"#f4e27a\"/><stop offset=\"1\" stop-color=\"#b9a032\"/></linearGradient>\n    <linearGradient id=\"az26v49s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#b9a032\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#b9a032\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az26c50\"><path d=\"M -38 0 C -38 -45 38 -45 38 0 C 38 35 -38 35 -38 0 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az26c50)\">\n      <path d=\"M -38 0 C -38 -45 38 -45 38 0 C 38 35 -38 35 -38 0 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -38 0 C -38 -45 38 -45 38 0 C 38 35 -38 35 -38 0 Z\" fill=\"#b9a032\" transform=\"translate(-3 -3)\"/>\n      <path d=\"M -38 0 C -38 -45 38 -45 38 0 C 38 35 -38 35 -38 0 Z\" fill=\"url(#az26v49b)\" transform=\"translate(-8 -6.4)\"/>\n      \n    </g>\n    <path d=\"M -38 0 C -38 -45 38 -45 38 0 C 38 35 -38 35 -38 0 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><ellipse cx=\"-12\" cy=\"-14\" rx=\"12\" ry=\"7\" fill=\"#fff\" opacity=\"0.8\"/><text>",
+        "tamano": 1,
+        "x": 345,
+        "y": 940,
+        "escala": 1.2,
+        "entra": "rebote",
+        "en": "6:pus"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 7,
+     "dibujo": {
+      "fondo": "luces",
+      "elementos": [
+       {
+        "pieza": "titular",
+        "texto": "¿Y SI NO HACES NADA?",
+        "tamano": 120,
+        "x": 540,
+        "y": 900,
+        "entra": "rebote",
+        "en": 0.05
+       },
+       {
+        "pieza": "signo",
+        "tipo": "pregunta",
+        "x": 540,
+        "y": 1200,
+        "escala": 0.7,
+        "entra": "rebote",
+        "en": "7:nada",
+        "accion": "balancea"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 8,
+     "rotulo": "HASTA EL *HUESO*",
+     "sonido": "impacto",
+     "sonidoEn": 1.3,
+     "dibujo": {
+      "fondo": "oscuro",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.05
+        }
+       ],
+       [
+        "8:hueso",
+        {
+         "zoom": 1.25,
+         "y": 1000
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "texto",
+        "texto": "</text><path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#2b4a6b\" opacity=\"0.55\" stroke=\"#9fd6ff\" stroke-width=\"8\"/><g>\n    <defs>\n    <linearGradient id=\"az27v51b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffffff\"/><stop offset=\"0.55\" stop-color=\"#f3efe8\"/><stop offset=\"1\" stop-color=\"#cfc6b8\"/></linearGradient>\n    <linearGradient id=\"az27v51s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#cfc6b8\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#cfc6b8\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az27c52\"><path d=\"M -60 -120 C -95 -170 -40 -200 0 -170 C 40 -200 95 -170 60 -120 L 50 40 C 90 70 70 110 30 95 L 0 85 L -30 95 C -70 110 -90 70 -50 40 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az27c52)\">\n      <path d=\"M -60 -120 C -95 -170 -40 -200 0 -170 C 40 -200 95 -170 60 -120 L 50 40 C 90 70 70 110 30 95 L 0 85 L -30 95 C -70 110 -90 70 -50 40 Z\" fill=\"#9fe2ff\"/>\n      <path d=\"M -60 -120 C -95 -170 -40 -200 0 -170 C 40 -200 95 -170 60 -120 L 50 40 C 90 70 70 110 30 95 L 0 85 L -30 95 C -70 110 -90 70 -50 40 Z\" fill=\"#cfc6b8\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -60 -120 C -95 -170 -40 -200 0 -170 C 40 -200 95 -170 60 -120 L 50 40 C 90 70 70 110 30 95 L 0 85 L -30 95 C -70 110 -90 70 -50 40 Z\" fill=\"url(#az27v51b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -60 -120 C -95 -170 -40 -200 0 -170 C 40 -200 95 -170 60 -120 L 50 40 C 90 70 70 110 30 95 L 0 85 L -30 95 C -70 110 -90 70 -50 40 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><g>\n    <defs>\n    <linearGradient id=\"az27v53b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffffff\"/><stop offset=\"0.55\" stop-color=\"#f3efe8\"/><stop offset=\"1\" stop-color=\"#cfc6b8\"/></linearGradient>\n    <linearGradient id=\"az27v53s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#cfc6b8\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#cfc6b8\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az27c54\"><path d=\"M -55 150 C -90 120 -50 100 -20 125 L 20 125 C 50 100 90 120 55 150 L 50 300 L -50 300 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az27c54)\">\n      <path d=\"M -55 150 C -90 120 -50 100 -20 125 L 20 125 C 50 100 90 120 55 150 L 50 300 L -50 300 Z\" fill=\"#9fe2ff\"/>\n      <path d=\"M -55 150 C -90 120 -50 100 -20 125 L 20 125 C 50 100 90 120 55 150 L 50 300 L -50 300 Z\" fill=\"#cfc6b8\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -55 150 C -90 120 -50 100 -20 125 L 20 125 C 50 100 90 120 55 150 L 50 300 L -50 300 Z\" fill=\"url(#az27v53b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -55 150 C -90 120 -50 100 -20 125 L 20 125 C 50 100 90 120 55 150 L 50 300 L -50 300 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.2,
+        "entra": "aparece",
+        "en": 0
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><circle r=\"110\" fill=\"#ff2a2a\" opacity=\"0.95\" style=\"filter:blur(33px)\"/><text>",
+        "tamano": 1,
+        "x": 390,
+        "y": 880,
+        "escala": 1.2,
+        "entra": "crece",
+        "en": 0.1,
+        "mueve": [
+         [
+          "8:llegar",
+          {
+           "rot": 0,
+           "x": 390,
+           "y": 880,
+           "escala": 1.2
+          }
+         ],
+         [
+          "8:hueso",
+          {
+           "rot": 0,
+           "x": 520,
+           "y": 950,
+           "escala": 1.7
+          }
+         ]
+        ]
+       },
+       {
+        "pieza": "diana",
+        "x": 540,
+        "y": 860,
+        "radio": 110,
+        "entra": "gira",
+        "en": "8:hueso"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 9,
+     "dibujo": {
+      "fondo": "interfaz",
+      "elementos": [
+       {
+        "pieza": "pildora",
+        "texto": "CON DIABETES",
+        "color": "rojo",
+        "x": 540,
+        "y": 560,
+        "entra": "rebote",
+        "en": "9:diabetes"
+       },
+       {
+        "pieza": "titular",
+        "texto": "MÁS GRAVE",
+        "tamano": 130,
+        "x": 540,
+        "y": 770,
+        "entra": "rebote",
+        "en": "9:grave"
+       },
+       {
+        "pieza": "etiqueta",
+        "texto": "SENSIBILIDAD",
+        "x": 300,
+        "y": 930,
+        "tamano": 40,
+        "entra": "aparece",
+        "en": "9:siente"
+       },
+       {
+        "pieza": "bateria",
+        "x": 300,
+        "y": 1170,
+        "escala": 0.75,
+        "entra": "rebote",
+        "en": "9:siente",
+        "params": {
+         "nivel": [
+          [
+           "9:siente",
+           1
+          ],
+          [
+           "9:menos",
+           0.2
+          ]
+         ]
+        }
+       },
+       {
+        "pieza": "etiqueta",
+        "texto": "SANGRE",
+        "x": 780,
+        "y": 930,
+        "tamano": 40,
+        "entra": "aparece",
+        "en": "9:recibe"
+       },
+       {
+        "pieza": "gota",
+        "color": "rojo",
+        "x": 780,
+        "y": 1170,
+        "escala": 0.8,
+        "entra": "rebote",
+        "en": "9:recibe",
+        "mueve": [
+         [
+          "9:menos#2",
+          {
+           "rot": 0,
+           "x": 780,
+           "y": 1170,
+           "escala": 0.8
+          }
+         ],
+         [
+          "9:sangre",
+          {
+           "rot": 0,
+           "x": 780,
+           "y": 1210,
+           "escala": 0.35
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "desde": 10,
+     "rotulo": "CORTE *RECTO*",
+     "sonido": "crujido",
+     "sonidoEn": 0.9,
+     "dibujo": {
+      "fondo": "estudio",
+      "fondoOpts": {
+       "paleta": [
+        "#e6f7ee",
+        "#c9ead8"
+       ]
+      },
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.1,
+         "y": 940
+        }
+       ],
+       [
+        "10:cortas",
+        {
+         "zoom": 1,
+         "y": 960
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az29v55b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffd6b0\"/><stop offset=\"0.55\" stop-color=\"#e7a374\"/><stop offset=\"1\" stop-color=\"#a9643d\"/></linearGradient>\n    <linearGradient id=\"az29v55s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#a9643d\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#a9643d\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az29c56\"><path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az29c56)\">\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"#a9643d\" transform=\"translate(-9 -9)\"/>\n      <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"url(#az29v55b)\" transform=\"translate(-30 -24)\"/>\n      \n    </g>\n    <path d=\"M -170 330 L -170 -40 C -170 -250 170 -250 170 -40 L 170 330 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -120 300 C -80 270 80 270 120 300\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><path d=\"M -60 250 C -20 238 20 238 60 250\" fill=\"none\" stroke=\"#a9643d\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.2,
+        "entra": "sube",
+        "en": 0
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az30v57b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#fff4f0\"/><stop offset=\"0.55\" stop-color=\"#f6cfc4\"/><stop offset=\"1\" stop-color=\"#d9a597\"/></linearGradient>\n    <linearGradient id=\"az30v57s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#d9a597\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#d9a597\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az30c58\"><path d=\"M -110 -150 L 110 -150 L 112 50 C 70 85 -70 85 -112 50 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az30c58)\">\n      <path d=\"M -110 -150 L 110 -150 L 112 50 C 70 85 -70 85 -112 50 Z\" fill=\"#ffffff\"/>\n      <path d=\"M -110 -150 L 110 -150 L 112 50 C 70 85 -70 85 -112 50 Z\" fill=\"#d9a597\" transform=\"translate(-5 -5)\"/>\n      <path d=\"M -110 -150 L 110 -150 L 112 50 C 70 85 -70 85 -112 50 Z\" fill=\"url(#az30v57b)\" transform=\"translate(-14 -11.200000000000001)\"/>\n      \n    </g>\n    <path d=\"M -110 -150 L 110 -150 L 112 50 C 70 85 -70 85 -112 50 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><path d=\"M -110 -150 L 110 -150 L 110 -125 L -110 -125 Z\" fill=\"#fffdf8\" stroke=\"#2b1a14\" stroke-width=\"4\"/><ellipse cx=\"-50\" cy=\"-60\" rx=\"22\" ry=\"60\" fill=\"#fff\" opacity=\"0.5\"/><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 1000,
+        "escala": 1.2,
+        "entra": "aparece",
+        "en": "10:cortalas"
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><path d=\"M -170 0 L 170 0\" fill=\"none\" stroke=\"#FFD23F\" stroke-width=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"26 20\"/><text>",
+        "tamano": 1,
+        "x": 540,
+        "y": 835,
+        "escala": 1.2,
+        "entra": "crece",
+        "en": "10:cortalas"
+       },
+       {
+        "pieza": "texto",
+        "texto": "</text><g>\n    <defs>\n    <linearGradient id=\"az32v59b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#f3f5f7\"/><stop offset=\"0.55\" stop-color=\"#aab3bd\"/><stop offset=\"1\" stop-color=\"#5b6470\"/></linearGradient>\n    <linearGradient id=\"az32v59s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#5b6470\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#5b6470\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az32c60\"><path d=\"M -20 -10 L 260 -40 L 270 -20 L -10 20 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az32c60)\">\n      <path d=\"M -20 -10 L 260 -40 L 270 -20 L -10 20 Z\" fill=\"#ffd9a8\"/>\n      <path d=\"M -20 -10 L 260 -40 L 270 -20 L -10 20 Z\" fill=\"#5b6470\" transform=\"translate(-3 -3)\"/>\n      <path d=\"M -20 -10 L 260 -40 L 270 -20 L -10 20 Z\" fill=\"url(#az32v59b)\" transform=\"translate(-8 -6.4)\"/>\n      \n    </g>\n    <path d=\"M -20 -10 L 260 -40 L 270 -20 L -10 20 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><g>\n    <defs>\n    <linearGradient id=\"az32v61b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#f3f5f7\"/><stop offset=\"0.55\" stop-color=\"#aab3bd\"/><stop offset=\"1\" stop-color=\"#5b6470\"/></linearGradient>\n    <linearGradient id=\"az32v61s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#5b6470\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#5b6470\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az32c62\"><path d=\"M -20 10 L 260 40 L 270 20 L -10 -20 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az32c62)\">\n      <path d=\"M -20 10 L 260 40 L 270 20 L -10 -20 Z\" fill=\"#ffd9a8\"/>\n      <path d=\"M -20 10 L 260 40 L 270 20 L -10 -20 Z\" fill=\"#5b6470\" transform=\"translate(-3 -3)\"/>\n      <path d=\"M -20 10 L 260 40 L 270 20 L -10 -20 Z\" fill=\"url(#az32v61b)\" transform=\"translate(-8 -6.4)\"/>\n      \n    </g>\n    <path d=\"M -20 10 L 260 40 L 270 20 L -10 -20 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><g>\n    <defs>\n    <linearGradient id=\"az32v63b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffc2c8\"/><stop offset=\"0.55\" stop-color=\"#f08592\"/><stop offset=\"1\" stop-color=\"#b4485e\"/></linearGradient>\n    <linearGradient id=\"az32v63s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#b4485e\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#b4485e\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az32c64\"><path d=\"M -40 -30 C -90 -100 -200 -80 -190 -30 C -180 10 -90 0 -40 -30 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az32c64)\">\n      <path d=\"M -40 -30 C -90 -100 -200 -80 -190 -30 C -180 10 -90 0 -40 -30 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -40 -30 C -90 -100 -200 -80 -190 -30 C -180 10 -90 0 -40 -30 Z\" fill=\"#b4485e\" transform=\"translate(-4 -4)\"/>\n      <path d=\"M -40 -30 C -90 -100 -200 -80 -190 -30 C -180 10 -90 0 -40 -30 Z\" fill=\"url(#az32v63b)\" transform=\"translate(-12 -9.600000000000001)\"/>\n      \n    </g>\n    <path d=\"M -40 -30 C -90 -100 -200 -80 -190 -30 C -180 10 -90 0 -40 -30 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><g>\n    <defs>\n    <linearGradient id=\"az32v65b\" x1=\"0.09042397785550405\" y1=\"0.21321178182447698\" x2=\"0.909576022144496\" y2=\"0.786788218175523\">\n      <stop offset=\"0\" stop-color=\"#ffc2c8\"/><stop offset=\"0.55\" stop-color=\"#f08592\"/><stop offset=\"1\" stop-color=\"#b4485e\"/></linearGradient>\n    <linearGradient id=\"az32v65s\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#b4485e\" stop-opacity=\"0.0\"/><stop offset=\"1\" stop-color=\"#b4485e\" stop-opacity=\"0.85\"/></linearGradient><clipPath id=\"az32c66\"><path d=\"M -40 30 C -90 100 -200 80 -190 30 C -180 -10 -90 0 -40 30 Z\"/></clipPath></defs>\n    <g clip-path=\"url(#az32c66)\">\n      <path d=\"M -40 30 C -90 100 -200 80 -190 30 C -180 -10 -90 0 -40 30 Z\" fill=\"#a6e9ff\"/>\n      <path d=\"M -40 30 C -90 100 -200 80 -190 30 C -180 -10 -90 0 -40 30 Z\" fill=\"#b4485e\" transform=\"translate(-4 -4)\"/>\n      <path d=\"M -40 30 C -90 100 -200 80 -190 30 C -180 -10 -90 0 -40 30 Z\" fill=\"url(#az32v65b)\" transform=\"translate(-12 -9.600000000000001)\"/>\n      \n    </g>\n    <path d=\"M -40 30 C -90 100 -200 80 -190 30 C -180 -10 -90 0 -40 30 Z\" fill=\"none\" stroke=\"#2b1a14\" stroke-width=\"5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n  </g><circle r=\"12\" fill=\"#2b1a14\"/><text>",
+        "tamano": 1,
+        "x": 1200,
+        "y": 760,
+        "escala": 0.8,
+        "entra": "ninguna",
+        "en": 0,
+        "rot": 180,
+        "mueve": [
+         [
+          "10:cortalas",
+          {
+           "rot": 180,
+           "x": 1200,
+           "y": 760,
+           "escala": 0.8
+          }
+         ],
+         [
+          "10:rectas",
+          {
+           "rot": 180,
+           "x": 820,
+           "y": 805,
+           "escala": 0.8
+          }
+         ],
+         [
+          "10:redondear",
+          {
+           "rot": 180,
+           "x": 450,
+           "y": 805,
+           "escala": 0.8
+          }
+         ]
+        ]
+       },
+       {
+        "pieza": "signo",
+        "tipo": "check",
+        "x": 860,
+        "y": 1330,
+        "escala": 0.45,
+        "entra": "rebote",
+        "en": "10:cortas"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 11,
+     "sonido": "vertido",
+     "sonidoEn": 0.1,
+     "dibujo": {
+      "fondo": "estudio",
+      "fondoOpts": {
+       "paleta": [
+        "#e6f3ff",
+        "#cfe4f7"
+       ]
+      },
+      "elementos": [
+       {
+        "pieza": "lista",
+        "titulo": "PIES SANOS",
+        "items": [
+         "LAVAR",
+         "SECAR BIEN",
+         "ZAPATO AMPLIO"
+        ],
+        "x": 540,
+        "y": 1000,
+        "escala": 1.5,
+        "entra": "rebote",
+        "en": 0.05,
+        "params": {
+         "hechos": [
+          [
+           "11:lava",
+           0
+          ],
+          [
+           "11:pies",
+           1
+          ],
+          [
+           "11:secalos",
+           1
+          ],
+          [
+           "11:dedos",
+           2
+          ],
+          [
+           "11:zapatos",
+           2
+          ],
+          [
+           "11:espacio",
+           3
+          ]
+         ]
+        }
+       },
+       {
+        "pieza": "gota",
+        "color": "agua",
+        "x": 200,
+        "y": 600,
+        "escala": 0.4,
+        "entra": "cae",
+        "en": "11:lava",
+        "accion": "flota"
+       },
+       {
+        "pieza": "gota",
+        "color": "agua",
+        "x": 880,
+        "y": 620,
+        "escala": 0.32,
+        "entra": "cae",
+        "en": "11:pies",
+        "accion": "flota"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 12,
+     "rotulo": "VE CON UN *ESPECIALISTA*",
+     "dibujo": {
+      "fondo": "estudio",
+      "elementos": [
+       {
+        "pieza": "pildora",
+        "texto": "PUS",
+        "color": "amarillo",
+        "x": 300,
+        "y": 620,
+        "entra": "rebote",
+        "en": "12:pus"
+       },
+       {
+        "pieza": "pildora",
+        "texto": "MUCHO DOLOR",
+        "color": "rojo",
+        "x": 720,
+        "y": 620,
+        "entra": "rebote",
+        "en": "12:dolor"
+       },
+       {
+        "pieza": "persona",
+        "color": "blanco",
+        "pelo": "negro",
+        "pose": "saluda",
+        "x": 540,
+        "y": 1080,
+        "escala": 1.15,
+        "entra": "sube",
+        "en": "12:ve"
+       },
+       {
+        "pieza": "signo",
+        "tipo": "check",
+        "x": 820,
+        "y": 860,
+        "escala": 0.4,
+        "entra": "rebote",
+        "en": "12:especialista"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 13,
+     "dibujo": {
+      "fondo": "luces",
+      "elementos": [
+       {
+        "pieza": "titular",
+        "texto": "SÍGUEME",
+        "debajo": "PARA APRENDER MÁS",
+        "tamano": 170,
+        "x": 540,
+        "y": 880,
+        "entra": "rebote",
+        "en": 0.05
+       },
+       {
+        "pieza": "pildora",
+        "texto": "@Azzure",
+        "color": "morado",
+        "x": 540,
+        "y": 1180,
+        "entra": "sube",
+        "en": "13:aprender"
+       }
+      ]
+     }
     }
-  ]
+   ]
+  }
+ ]
 }
