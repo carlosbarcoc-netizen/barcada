@@ -1,8 +1,8 @@
 {
-  "titulo": "Por qué cortarse bien las uñas - Azure",
+  "titulo": "Por qué cortarse bien las uñas - Azurre",
   "estilo": "luminoso",
   "calidad": "normal",
-  "sujeto": "",
+  "sujeto": "clean bright beauty studio, soft natural light, hands and feet with healthy natural nails",
   "frases": [
     {
       "texto": "¿Te cortas las uñas bien cortitas para que duren más?",
@@ -53,8 +53,8 @@
       "clave": "médico"
     },
     {
-      "texto": "Cuida tus manos y tus pies con Azure, tu estudio de belleza.",
-      "clave": "Azure"
+      "texto": "Cuida tus manos y tus pies con Azurre, tu estudio de belleza.",
+      "clave": "Azurre"
     }
   ],
   "escenas": [
@@ -63,12 +63,166 @@
       "tomas": [
         {
           "desde": 0,
-          "imagen": "",
+          "fuente": "clip",
+          "buscar": "cutting nails",
+          "imagen": "close-up of hands trimming fingernails with a nail clipper",
+          "movimiento": "acercar"
+        },
+        {
+          "desde": "2:Ese",
+          "fuente": "foto",
+          "buscar": "bare feet",
+          "imagen": "bare feet resting on a white towel, soft light",
+          "movimiento": "alejar",
+          "rotulo": "¿MÁS CORTITAS?|*MÁS RIESGO*"
+        }
+      ]
+    },
+    {
+      "nombre": "el caso",
+      "tomas": [
+        {
+          "desde": "3:Imagina",
+          "fuente": "foto",
+          "buscar": "woman feet",
+          "imagen": "woman's bare feet on a bed, relaxed, no face",
+          "movimiento": "derecha"
+        },
+        {
+          "desde": "3:ras",
+          "fuente": "foto",
+          "buscar": "toenail clipper",
+          "imagen": "toenail clipper trimming a toenail very short",
           "movimiento": "acercar",
-          "rotulo": ""
+          "rotulo": "AL *RAS*"
+        },
+        {
+          "desde": "4:Al",
+          "fuente": "foto",
+          "buscar": "toes close up",
+          "imagen": "close-up of toes and toenails",
+          "movimiento": "subir",
+          "rotulo": "LA ESQUINA|SE *CLAVA*"
+        },
+        {
+          "desde": "4:astilla",
+          "fuente": "foto",
+          "buscar": "wood splinter",
+          "imagen": "a sharp wooden splinter close up",
+          "movimiento": "acercar",
+          "rotulo": "COMO UNA *ASTILLA*"
+        },
+        {
+          "desde": "5:El",
+          "fuente": "foto",
+          "buscar": "foot pain",
+          "imagen": "person holding a painful foot, no face",
+          "movimiento": "izquierda",
+          "rotulo": "ROJO · HINCHADO|*DOLOR*"
+        },
+        {
+          "desde": "6:Luego",
+          "fuente": "foto",
+          "buscar": "bandaged toe",
+          "imagen": "toe wrapped in a white bandage",
+          "movimiento": "acercar",
+          "rotulo": "*INFECCIÓN*",
+          "sonido": "impacto"
+        }
+      ]
+    },
+    {
+      "nombre": "el dato",
+      "tomas": [
+        {
+          "desde": "7:Y",
+          "fuente": "foto",
+          "buscar": "stethoscope",
+          "imagen": "a stethoscope on a white desk",
+          "movimiento": "alejar"
+        },
+        {
+          "desde": "7:causa",
+          "fuente": "foto",
+          "buscar": "doctor clinic",
+          "imagen": "doctor in a clinic, face not visible",
+          "movimiento": "derecha",
+          "rotulo": "UNA CAUSA *COMÚN*"
+        }
+      ]
+    },
+    {
+      "nombre": "prevenir",
+      "tomas": [
+        {
+          "desde": "8:Para",
+          "fuente": "clip",
+          "buscar": "pedicure",
+          "imagen": "pedicure in a beauty salon, hands working on toenails",
+          "movimiento": "acercar"
+        },
+        {
+          "desde": "8:recta",
+          "fuente": "foto",
+          "buscar": "pedicure",
+          "imagen": "pedicure, neatly trimmed straight toenails",
+          "movimiento": "acercar",
+          "rotulo": "LÍNEA *RECTA*"
+        },
+        {
+          "desde": "9:Dejalas",
+          "fuente": "foto",
+          "buscar": "healthy toenails",
+          "imagen": "healthy well trimmed toenails",
+          "movimiento": "bajar",
+          "rotulo": "A LA ALTURA|DEL *DEDO*"
+        },
+        {
+          "desde": "10:No",
+          "fuente": "foto",
+          "buscar": "manicure cuticle",
+          "imagen": "manicure, care of the cuticles",
+          "movimiento": "acercar",
+          "rotulo": "CUTÍCULA =|*BARRERA*"
+        },
+        {
+          "desde": "10:barrera",
+          "fuente": "foto",
+          "buscar": "hand cream",
+          "imagen": "hands applying moisturizing cream",
+          "movimiento": "izquierda"
+        },
+        {
+          "desde": "11:Y",
+          "fuente": "foto",
+          "buscar": "manicure tools",
+          "imagen": "clean manicure tools on a towel",
+          "movimiento": "alejar",
+          "rotulo": "HERRAMIENTAS|*LIMPIAS*"
+        },
+        {
+          "desde": "12:Si",
+          "fuente": "foto",
+          "buscar": "doctor foot",
+          "imagen": "doctor examining a patient's foot",
+          "movimiento": "acercar",
+          "rotulo": "¿PUS? → *MÉDICO*"
+        }
+      ]
+    },
+    {
+      "nombre": "cierre",
+      "tomas": [
+        {
+          "desde": "13:Cuida",
+          "fuente": "clip",
+          "buscar": "manicure salon",
+          "imagen": "manicure in a bright beauty salon",
+          "movimiento": "acercar",
+          "rotulo": "*AZURRE*|ESTUDIO DE BELLEZA"
         }
       ]
     }
   ],
-  "marcaDeAgua": "Azure"
+  "marcaDeAgua": "Azurre"
 }

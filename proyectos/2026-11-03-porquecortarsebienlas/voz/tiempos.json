@@ -1,0 +1,878 @@
+{
+  "huella": "7f917e9abb01",
+  "duracion": 60.602000000000004,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "¿Te cortas las uñas bien cortitas para que duren más?",
+      "clave": "cortitas",
+      "inicio": 0,
+      "fin": 3.158,
+      "palabras": [
+        {
+          "texto": "¿Te",
+          "inicio": 0,
+          "fin": 0.128
+        },
+        {
+          "texto": "cortas",
+          "inicio": 0.174,
+          "fin": 0.43
+        },
+        {
+          "texto": "las",
+          "inicio": 0.464,
+          "fin": 0.58
+        },
+        {
+          "texto": "uñas",
+          "inicio": 0.639,
+          "fin": 0.882
+        },
+        {
+          "texto": "bien",
+          "inicio": 0.952,
+          "fin": 1.184
+        },
+        {
+          "texto": "cortitas",
+          "inicio": 1.242,
+          "fin": 1.741
+        },
+        {
+          "texto": "para",
+          "inicio": 1.811,
+          "fin": 2.009
+        },
+        {
+          "texto": "que",
+          "inicio": 2.078,
+          "fin": 2.183
+        },
+        {
+          "texto": "duren",
+          "inicio": 2.241,
+          "fin": 2.543
+        },
+        {
+          "texto": "más?",
+          "inicio": 2.635,
+          "fin": 3.158
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Ese hábito puede terminar en una infección.",
+      "clave": "infección",
+      "inicio": 3.855,
+      "fin": 6.165,
+      "palabras": [
+        {
+          "texto": "Ese",
+          "inicio": 3.855,
+          "fin": 4.075
+        },
+        {
+          "texto": "hábito",
+          "inicio": 4.098,
+          "fin": 4.365
+        },
+        {
+          "texto": "puede",
+          "inicio": 4.423,
+          "fin": 4.621
+        },
+        {
+          "texto": "terminar",
+          "inicio": 4.667,
+          "fin": 5.039
+        },
+        {
+          "texto": "en",
+          "inicio": 5.074,
+          "fin": 5.12
+        },
+        {
+          "texto": "una",
+          "inicio": 5.19,
+          "fin": 5.317
+        },
+        {
+          "texto": "infección.",
+          "inicio": 5.352,
+          "fin": 6.165
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Imagina a Ana: se cortó las uñas de los pies al ras y les redondeó las esquinas.",
+      "clave": "ras",
+      "inicio": 6.606,
+      "fin": 12.585,
+      "palabras": [
+        {
+          "texto": "Imagina",
+          "inicio": 6.606,
+          "fin": 7.129
+        },
+        {
+          "texto": "a",
+          "inicio": 7.221,
+          "fin": 7.546
+        },
+        {
+          "texto": "Ana:",
+          "inicio": 7.697,
+          "fin": 8.22
+        },
+        {
+          "texto": "se",
+          "inicio": 8.731,
+          "fin": 8.847
+        },
+        {
+          "texto": "cortó",
+          "inicio": 8.905,
+          "fin": 9.16
+        },
+        {
+          "texto": "las",
+          "inicio": 9.218,
+          "fin": 9.323
+        },
+        {
+          "texto": "uñas",
+          "inicio": 9.369,
+          "fin": 9.601
+        },
+        {
+          "texto": "de",
+          "inicio": 9.625,
+          "fin": 9.671
+        },
+        {
+          "texto": "los",
+          "inicio": 9.706,
+          "fin": 9.834
+        },
+        {
+          "texto": "pies",
+          "inicio": 9.88,
+          "fin": 10.066
+        },
+        {
+          "texto": "al",
+          "inicio": 10.124,
+          "fin": 10.205
+        },
+        {
+          "texto": "ras",
+          "inicio": 10.321,
+          "fin": 10.6
+        },
+        {
+          "texto": "y",
+          "inicio": 10.751,
+          "fin": 10.832
+        },
+        {
+          "texto": "les",
+          "inicio": 10.913,
+          "fin": 11.029
+        },
+        {
+          "texto": "redondeó",
+          "inicio": 11.146,
+          "fin": 11.564
+        },
+        {
+          "texto": "las",
+          "inicio": 11.622,
+          "fin": 11.761
+        },
+        {
+          "texto": "esquinas.",
+          "inicio": 11.819,
+          "fin": 12.585
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Al crecer, una esquina se clavó en la piel, como una astilla: una uña encarnada.",
+      "clave": "encarnada",
+      "inicio": 13.096,
+      "fin": 18.484,
+      "palabras": [
+        {
+          "texto": "Al",
+          "inicio": 13.096,
+          "fin": 13.235
+        },
+        {
+          "texto": "crecer,",
+          "inicio": 13.282,
+          "fin": 13.781
+        },
+        {
+          "texto": "una",
+          "inicio": 13.897,
+          "fin": 14.048
+        },
+        {
+          "texto": "esquina",
+          "inicio": 14.071,
+          "fin": 14.362
+        },
+        {
+          "texto": "se",
+          "inicio": 14.396,
+          "fin": 14.478
+        },
+        {
+          "texto": "clavó",
+          "inicio": 14.512,
+          "fin": 14.756
+        },
+        {
+          "texto": "en",
+          "inicio": 14.791,
+          "fin": 14.849
+        },
+        {
+          "texto": "la",
+          "inicio": 14.896,
+          "fin": 14.965
+        },
+        {
+          "texto": "piel,",
+          "inicio": 15.023,
+          "fin": 15.453
+        },
+        {
+          "texto": "como",
+          "inicio": 15.581,
+          "fin": 15.79
+        },
+        {
+          "texto": "una",
+          "inicio": 15.836,
+          "fin": 15.964
+        },
+        {
+          "texto": "astilla:",
+          "inicio": 15.987,
+          "fin": 16.614
+        },
+        {
+          "texto": "una",
+          "inicio": 17.218,
+          "fin": 17.404
+        },
+        {
+          "texto": "uña",
+          "inicio": 17.473,
+          "fin": 17.648
+        },
+        {
+          "texto": "encarnada.",
+          "inicio": 17.671,
+          "fin": 18.484
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "El dedo se puso rojo, se hinchó y le dolía al caminar.",
+      "clave": "rojo",
+      "inicio": 19.087,
+      "fin": 22.686,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 19.087,
+          "fin": 19.273
+        },
+        {
+          "texto": "dedo",
+          "inicio": 19.308,
+          "fin": 19.528
+        },
+        {
+          "texto": "se",
+          "inicio": 19.575,
+          "fin": 19.645
+        },
+        {
+          "texto": "puso",
+          "inicio": 19.691,
+          "fin": 19.946
+        },
+        {
+          "texto": "rojo,",
+          "inicio": 20.028,
+          "fin": 20.457
+        },
+        {
+          "texto": "se",
+          "inicio": 20.573,
+          "fin": 20.701
+        },
+        {
+          "texto": "hinchó",
+          "inicio": 20.736,
+          "fin": 21.154
+        },
+        {
+          "texto": "y",
+          "inicio": 21.398,
+          "fin": 21.456
+        },
+        {
+          "texto": "le",
+          "inicio": 21.537,
+          "fin": 21.607
+        },
+        {
+          "texto": "dolía",
+          "inicio": 21.653,
+          "fin": 21.943
+        },
+        {
+          "texto": "al",
+          "inicio": 21.967,
+          "fin": 22.025
+        },
+        {
+          "texto": "caminar.",
+          "inicio": 22.083,
+          "fin": 22.686
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Luego salió pus: la herida se infectó y la uña se dañó.",
+      "clave": "pus",
+      "inicio": 23.487,
+      "fin": 27.795,
+      "palabras": [
+        {
+          "texto": "Luego",
+          "inicio": 23.487,
+          "fin": 23.778
+        },
+        {
+          "texto": "salió",
+          "inicio": 23.824,
+          "fin": 24.091
+        },
+        {
+          "texto": "pus:",
+          "inicio": 24.149,
+          "fin": 24.753
+        },
+        {
+          "texto": "la",
+          "inicio": 25.345,
+          "fin": 25.438
+        },
+        {
+          "texto": "herida",
+          "inicio": 25.473,
+          "fin": 25.751
+        },
+        {
+          "texto": "se",
+          "inicio": 25.798,
+          "fin": 25.867
+        },
+        {
+          "texto": "infectó",
+          "inicio": 25.914,
+          "fin": 26.46
+        },
+        {
+          "texto": "y",
+          "inicio": 26.634,
+          "fin": 26.715
+        },
+        {
+          "texto": "la",
+          "inicio": 26.808,
+          "fin": 26.878
+        },
+        {
+          "texto": "uña",
+          "inicio": 26.936,
+          "fin": 27.145
+        },
+        {
+          "texto": "se",
+          "inicio": 27.191,
+          "fin": 27.272
+        },
+        {
+          "texto": "dañó.",
+          "inicio": 27.33,
+          "fin": 27.795
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "Y no es raro: cortarlas demasiado cortas es una causa común, según la Clínica Mayo.",
+      "clave": "común",
+      "inicio": 28.387,
+      "fin": 34.227,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 28.387,
+          "fin": 28.468
+        },
+        {
+          "texto": "no",
+          "inicio": 28.584,
+          "fin": 28.654
+        },
+        {
+          "texto": "es",
+          "inicio": 28.7,
+          "fin": 28.758
+        },
+        {
+          "texto": "raro:",
+          "inicio": 28.84,
+          "fin": 29.35
+        },
+        {
+          "texto": "cortarlas",
+          "inicio": 29.664,
+          "fin": 30.163
+        },
+        {
+          "texto": "demasiado",
+          "inicio": 30.198,
+          "fin": 30.616
+        },
+        {
+          "texto": "cortas",
+          "inicio": 30.674,
+          "fin": 31.022
+        },
+        {
+          "texto": "es",
+          "inicio": 31.069,
+          "fin": 31.127
+        },
+        {
+          "texto": "una",
+          "inicio": 31.231,
+          "fin": 31.371
+        },
+        {
+          "texto": "causa",
+          "inicio": 31.44,
+          "fin": 31.823
+        },
+        {
+          "texto": "común,",
+          "inicio": 31.893,
+          "fin": 32.427
+        },
+        {
+          "texto": "según",
+          "inicio": 32.799,
+          "fin": 33.124
+        },
+        {
+          "texto": "la",
+          "inicio": 33.182,
+          "fin": 33.251
+        },
+        {
+          "texto": "Clínica",
+          "inicio": 33.298,
+          "fin": 33.704
+        },
+        {
+          "texto": "Mayo.",
+          "inicio": 33.762,
+          "fin": 34.227
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "Para evitarlo, corta las de los pies en línea recta, sin redondear las esquinas.",
+      "clave": "recta",
+      "inicio": 34.819,
+      "fin": 39.684,
+      "palabras": [
+        {
+          "texto": "Para",
+          "inicio": 34.819,
+          "fin": 35.04
+        },
+        {
+          "texto": "evitarlo,",
+          "inicio": 35.063,
+          "fin": 35.736
+        },
+        {
+          "texto": "corta",
+          "inicio": 35.864,
+          "fin": 36.154
+        },
+        {
+          "texto": "las",
+          "inicio": 36.189,
+          "fin": 36.305
+        },
+        {
+          "texto": "de",
+          "inicio": 36.34,
+          "fin": 36.386
+        },
+        {
+          "texto": "los",
+          "inicio": 36.421,
+          "fin": 36.537
+        },
+        {
+          "texto": "pies",
+          "inicio": 36.595,
+          "fin": 36.793
+        },
+        {
+          "texto": "en",
+          "inicio": 36.851,
+          "fin": 36.909
+        },
+        {
+          "texto": "línea",
+          "inicio": 36.955,
+          "fin": 37.211
+        },
+        {
+          "texto": "recta,",
+          "inicio": 37.292,
+          "fin": 37.803
+        },
+        {
+          "texto": "sin",
+          "inicio": 38.047,
+          "fin": 38.267
+        },
+        {
+          "texto": "redondear",
+          "inicio": 38.337,
+          "fin": 38.778
+        },
+        {
+          "texto": "las",
+          "inicio": 38.825,
+          "fin": 38.941
+        },
+        {
+          "texto": "esquinas.",
+          "inicio": 38.999,
+          "fin": 39.684
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Déjalas a la altura de la punta del dedo, no más cortas.",
+      "clave": "punta",
+      "inicio": 40.287,
+      "fin": 43.167,
+      "palabras": [
+        {
+          "texto": "Déjalas",
+          "inicio": 40.287,
+          "fin": 40.694
+        },
+        {
+          "texto": "a",
+          "inicio": 40.752,
+          "fin": 40.775
+        },
+        {
+          "texto": "la",
+          "inicio": 40.81,
+          "fin": 40.868
+        },
+        {
+          "texto": "altura",
+          "inicio": 40.891,
+          "fin": 41.205
+        },
+        {
+          "texto": "de",
+          "inicio": 41.239,
+          "fin": 41.297
+        },
+        {
+          "texto": "la",
+          "inicio": 41.332,
+          "fin": 41.402
+        },
+        {
+          "texto": "punta",
+          "inicio": 41.448,
+          "fin": 41.715
+        },
+        {
+          "texto": "del",
+          "inicio": 41.762,
+          "fin": 41.866
+        },
+        {
+          "texto": "dedo,",
+          "inicio": 41.901,
+          "fin": 42.122
+        },
+        {
+          "texto": "no",
+          "inicio": 42.157,
+          "fin": 42.238
+        },
+        {
+          "texto": "más",
+          "inicio": 42.296,
+          "fin": 42.458
+        },
+        {
+          "texto": "cortas.",
+          "inicio": 42.528,
+          "fin": 43.167
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "No cortes las cutículas: son una barrera contra los gérmenes.",
+      "clave": "cutículas",
+      "inicio": 43.608,
+      "fin": 47.753,
+      "palabras": [
+        {
+          "texto": "No",
+          "inicio": 43.608,
+          "fin": 43.736
+        },
+        {
+          "texto": "cortes",
+          "inicio": 43.794,
+          "fin": 44.084
+        },
+        {
+          "texto": "las",
+          "inicio": 44.119,
+          "fin": 44.223
+        },
+        {
+          "texto": "cutículas:",
+          "inicio": 44.281,
+          "fin": 45.198
+        },
+        {
+          "texto": "son",
+          "inicio": 45.64,
+          "fin": 45.86
+        },
+        {
+          "texto": "una",
+          "inicio": 45.953,
+          "fin": 46.127
+        },
+        {
+          "texto": "barrera",
+          "inicio": 46.174,
+          "fin": 46.545
+        },
+        {
+          "texto": "contra",
+          "inicio": 46.603,
+          "fin": 46.87
+        },
+        {
+          "texto": "los",
+          "inicio": 46.905,
+          "fin": 47.021
+        },
+        {
+          "texto": "gérmenes.",
+          "inicio": 47.068,
+          "fin": 47.753
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Y usa herramientas limpias y desinfectadas.",
+      "clave": "desinfectadas",
+      "inicio": 48.263,
+      "fin": 51.027,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 48.263,
+          "fin": 48.345
+        },
+        {
+          "texto": "usa",
+          "inicio": 48.414,
+          "fin": 48.53
+        },
+        {
+          "texto": "herramientas",
+          "inicio": 48.554,
+          "fin": 49.076
+        },
+        {
+          "texto": "limpias",
+          "inicio": 49.146,
+          "fin": 49.633
+        },
+        {
+          "texto": "y",
+          "inicio": 49.808,
+          "fin": 49.889
+        },
+        {
+          "texto": "desinfectadas.",
+          "inicio": 49.971,
+          "fin": 51.027
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Si notas enrojecimiento o pus, consulta a un médico.",
+      "clave": "médico",
+      "inicio": 51.631,
+      "fin": 55.671,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 51.631,
+          "fin": 51.793
+        },
+        {
+          "texto": "notas",
+          "inicio": 51.863,
+          "fin": 52.118
+        },
+        {
+          "texto": "enrojecimiento",
+          "inicio": 52.176,
+          "fin": 53.152
+        },
+        {
+          "texto": "o",
+          "inicio": 53.268,
+          "fin": 53.337
+        },
+        {
+          "texto": "pus,",
+          "inicio": 53.419,
+          "fin": 53.988
+        },
+        {
+          "texto": "consulta",
+          "inicio": 54.429,
+          "fin": 54.882
+        },
+        {
+          "texto": "a",
+          "inicio": 54.905,
+          "fin": 54.928
+        },
+        {
+          "texto": "un",
+          "inicio": 55.021,
+          "fin": 55.091
+        },
+        {
+          "texto": "médico.",
+          "inicio": 55.137,
+          "fin": 55.671
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "Cuida tus manos y tus pies con Azurre, tu estudio de belleza.",
+      "clave": "Azurre",
+      "inicio": 56.054,
+      "fin": 60.002,
+      "palabras": [
+        {
+          "texto": "Cuida",
+          "inicio": 56.054,
+          "fin": 56.333
+        },
+        {
+          "texto": "tus",
+          "inicio": 56.379,
+          "fin": 56.519
+        },
+        {
+          "texto": "manos",
+          "inicio": 56.588,
+          "fin": 56.89
+        },
+        {
+          "texto": "y",
+          "inicio": 56.937,
+          "fin": 56.971
+        },
+        {
+          "texto": "tus",
+          "inicio": 57.029,
+          "fin": 57.192
+        },
+        {
+          "texto": "pies",
+          "inicio": 57.25,
+          "fin": 57.471
+        },
+        {
+          "texto": "con",
+          "inicio": 57.54,
+          "fin": 57.691
+        },
+        {
+          "texto": "Azurre,",
+          "inicio": 57.761,
+          "fin": 58.388
+        },
+        {
+          "texto": "tu",
+          "inicio": 58.632,
+          "fin": 58.736
+        },
+        {
+          "texto": "estudio",
+          "inicio": 58.794,
+          "fin": 59.154
+        },
+        {
+          "texto": "de",
+          "inicio": 59.189,
+          "fin": 59.259
+        },
+        {
+          "texto": "belleza.",
+          "inicio": 59.293,
+          "fin": 60.002
+        }
+      ]
+    }
+  ]
+}

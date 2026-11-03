@@ -1,6 +1,6 @@
-# Por qué cortarse bien las uñas - Azure
+# Por qué cortarse bien las uñas - Azurre
 
-Cliente: **Azure** (estudio de belleza). Marca de agua «Azure» suave en el centro. Cierre propio de Azure (no el de
+Cliente: **Azurre** (estudio de belleza). Marca de agua «Azurre» suave en el centro. Cierre propio de Azurre (no el de
 preferencias, que es de NativoTerrus).
 
 ## Datos (cada uno con su fuente)
