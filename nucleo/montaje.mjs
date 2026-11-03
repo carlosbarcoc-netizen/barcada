@@ -42,7 +42,7 @@ function filtroMovimiento(mov = "acercar", frames, fps, fuerza = 0.14) {
   return `scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},zoompan=z='${m[0]}':x='${m[1]}':y='${m[2]}':d=${frames}:s=${ANCHO}x${ALTO}:fps=${fps},setsar=1`;
 }
 
-// Los efectos de sonido de la biblioteca del usuario (sonidos/, los genera `node bv.mjs sonidos`).
+// Los efectos de sonido de la biblioteca del usuario (sonidos/, los genera `node barcada.mjs sonidos`).
 function sonido(nombre) {
   const d = join(RAIZ, "sonidos");
   if (!existsSync(d)) return null;

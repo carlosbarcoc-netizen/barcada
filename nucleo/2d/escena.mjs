@@ -1,4 +1,4 @@
-// Barco Viral 2D · la escena: convierte la descripción de una toma 2D (proyecto.json → toma.dibujo) en una función
+// Barcada 2D · la escena: convierte la descripción de una toma 2D (proyecto.json → toma.dibujo) en una función
 // cuadro(t) → SVG, con las piezas entrando, moviéndose y cambiando al ritmo de la voz.
 //
 //   "dibujo": {
@@ -19,6 +19,7 @@ import { fondo as pintarFondo, FONDOS } from "./fondos.mjs";
 import { TINTA } from "./estilo.mjs";
 
 const lim = (u) => Math.max(0, Math.min(1, u));
+const RESERVADAS = new Set(["pieza", "x", "y", "escala", "rot", "capa", "entra", "en", "dura", "sale", "hasta", "duraSale", "accion", "velocidad", "params", "mueve", "opacidad", "i", "t0", "t1"]);
 const suave = (u) => { u = lim(u); return u * u * (3 - 2 * u); };
 const salir = (u) => 1 - Math.pow(1 - lim(u), 3);
 const rebote = (u) => { u = lim(u); const c = 1.70158 * 1.4, c3 = c + 1; return 1 + c3 * Math.pow(u - 1, 3) + c * Math.pow(u - 1, 2); };
@@ -76,6 +77,8 @@ export function crearCuadro(dibujo, toma, aSegundos) {
   for (const e of elementos) if (!PIEZAS[e.pieza]) throw new Error(`No hay pieza «${e.pieza}». Hay: ${Object.keys(PIEZAS).join(", ")}`);
 
   let fondoImg = null, granoImg = null;
+  // los fondos que se mueven (lluvia, estrellas que titilan) se dibujan en cada cuadro; los demás, una vez
+  const fondoVivo = dibujo.fondoVivo ?? ["luces", "noche", "espacio"].includes(dibujo.fondo);
   const cuadro = (t) => {
     const c = { zoom: 1, x: 540, y: 960, ...claves(cam, t) };
     // la cámara nunca enseña lo que hay fuera del fondo: zoom ≥ 1 y el centro dentro de lo que cabe
@@ -100,9 +103,11 @@ export function crearCuadro(dibujo, toma, aSegundos) {
       s *= (a.s ?? 1) * (b.s ?? 1); r += (a.r || 0) + (b.r || 0);
       const op = (a.op ?? 1) * (b.op ?? 1) * (e.opacidad ?? 1);
       if (op <= 0.003 || s <= 0.003) return "";
-      const p = { t, color: e.color };
+      // a la pieza le llega todo lo del elemento (texto, pregunta, colores…) salvo lo de la escena, y los params ya
+      // calculados para este segundo
+      const p = { t };
+      for (const [k, v] of Object.entries(e)) if (!RESERVADAS.has(k)) p[k] = v;
       for (const [k, v] of Object.entries(e.params)) p[k] = claves(v, t);
-      for (const k of ["texto", "tipo", "pose", "gesto", "pantalla", "signo", "tinta", "tamano", "largo", "valores", "liquido", "contenido", "maceta", "pelo", "anillo", "tierra"]) if (e[k] !== undefined && p[k] === undefined) p[k] = e[k];
       return `<g transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${r.toFixed(2)}) scale(${s.toFixed(4)})" opacity="${op.toFixed(3)}">${PIEZAS[e.pieza](p)}</g>`;
     }).join("");
     const fondoSVG = fondoImg ? `<image href="${fondoImg}" width="1080" height="1920" preserveAspectRatio="none"/>` : pintarFondo(dibujo.fondo, { t, ...(dibujo.fondoOpts || {}) });
@@ -112,7 +117,7 @@ export function crearCuadro(dibujo, toma, aSegundos) {
   // Antes de grabar: el fondo (un poco más grande, para que la cámara no le vea los bordes) y el grano con la
   // viñeta se pintan una vez y se reutilizan como imágenes.
   cuadro.preparar = async (h) => {
-    fondoImg = await h.capa(pintarFondo(dibujo.fondo, { t: toma.inicio, ...(dibujo.fondoOpts || {}) }));
+    if (!fondoVivo) fondoImg = await h.capa(pintarFondo(dibujo.fondo, { t: toma.inicio, ...(dibujo.fondoOpts || {}) }));
     granoImg = await h.capa(`<rect width="1080" height="1920" fill="#fff"/><rect width="1080" height="1920" filter="url(#grano)"/><rect width="1080" height="1920" fill="url(#vinetaBV)"/>`);
   };
   cuadro.cuadro = () => cuadro;

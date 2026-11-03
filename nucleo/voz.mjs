@@ -5,7 +5,7 @@ import { existsSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { RAIZ, asegurar, ffmpeg, guardarJSON, hayClave, leerJSON } from "./comun.mjs";
 
-// La voz se elige al configurar (node bv.mjs voces) y se guarda en preferencias.json → voz. Si no hay ninguna, una voz
+// La voz se elige al configurar (node barcada.mjs voces) y se guarda en preferencias.json → voz. Si no hay ninguna, una voz
 // de las que trae toda cuenta de ElevenLabs («Adam»), que habla español con acento neutro-americano.
 export const VOZ_RESPALDO = "pNInz6obpgDQGcFmaJgB";
 const MODELO = "eleven_multilingual_v2";

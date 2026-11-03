@@ -1,6 +1,6 @@
-# Barco Viral 1.0
+# Barcada
 
-Reels verticales con imágenes realistas (IA a medida, o fotos y clips reales gratis), voz profesional, subtítulos animados y efectos, hechos por tu IA
+Reels verticales animados en 2D, contados con formatos virales (duelos, marcadores, cuentas que duelen), con voz profesional, subtítulos animados y efectos, hechos por tu IA
 (Claude Code o Codex) en tu computadora. Tú das la idea y apruebas tres cosas: el guion, las imágenes y el borrador.
 
 ## Qué necesitas
@@ -8,15 +8,12 @@ Reels verticales con imágenes realistas (IA a medida, o fotos y clips reales gr
 - Una computadora con Mac, Windows o Linux.
 - **Claude** (plan Pro o superior, con Claude Code) **o ChatGPT** (con Codex).
 - Una cuenta de **ElevenLabs** con plan de pago (Starter o superior) para la voz.
-- Para lo que se ve, una de estas (o las dos):
-  - **Gratis:** una clave de **Pixabay** (o de **Pexels**, si ya tienes una): fotos y videos reales, con licencia de
-    uso comercial.
-  - **IA a medida:** una cuenta de **fal.ai** (recomendado) **u OpenAI** con saldo: unos 1-2 USD por video (revisa
-    los precios actuales de tu proveedor).
+- Nada más: los dibujos animados de Barcada se hacen en tu computadora, sin pagar imágenes.
+  (Opcional, solo para el estilo realista: una cuenta de fal.ai u OpenAI con saldo.)
 
 ## Empezar en 3 pasos
 
-1. Descomprime Barco Viral en una carpeta (por ejemplo `Documentos/Barco Viral`).
+1. Descomprime Barcada en una carpeta (por ejemplo `Documentos/Barcada`).
 2. Abre esa carpeta con tu IA: en Claude, la app de escritorio → **Code** → elige la carpeta; en Codex, ábrelo en la
    carpeta.
 3. Escribe **«configurar»**. La IA instala lo que falte, te abre el archivo de claves para que pegues las tuyas, te

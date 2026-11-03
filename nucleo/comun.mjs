@@ -1,4 +1,4 @@
-// Barco Viral · utilidades comunes: rutas, claves, ejecutar ffmpeg y leer/guardar JSON.
+// Barcada · utilidades comunes: rutas, claves, ejecutar ffmpeg y leer/guardar JSON.
 import { spawn, spawnSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
@@ -27,7 +27,7 @@ export const asegurar = (d) => { mkdirSync(d, { recursive: true }); return d; };
 
 // La carpeta de un proyecto, a partir de su nombre o ruta.
 export function carpetaProyecto(arg) {
-  if (!arg) throw new Error("Falta el proyecto: node bv.mjs <orden> <proyecto>");
+  if (!arg) throw new Error("Falta el proyecto: node barcada.mjs <orden> <proyecto>");
   for (const c of [resolve(arg), join(RAIZ, "proyectos", arg)]) if (existsSync(join(c, "proyecto.json"))) return c;
   // también vale el final del nombre («prueba» encuentra proyectos/2026-10-27-prueba); el más reciente
   const d = join(RAIZ, "proyectos");

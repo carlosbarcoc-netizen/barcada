@@ -1,4 +1,4 @@
-// Barco Viral 2D · el dibujante: un navegador sin ventana que convierte cuadros SVG en imágenes, y de ahí a video.
+// Barcada 2D · el dibujante: un navegador sin ventana que convierte cuadros SVG en imágenes, y de ahí a video.
 // Cada cuadro se arma en Node (escena → SVG) y el navegador solo lo pinta y lo fotografía.
 import { spawn } from "node:child_process";
 import { readFileSync } from "node:fs";
@@ -21,13 +21,16 @@ export async function hoja(escala = 1) {
   const nav = await abrirNavegador();
   const pagina = await nav.newPage({ viewport: { width: Math.round(ANCHO * escala), height: Math.round(ALTO * escala) } });
   // las letras, incrustadas (una página en blanco no puede leer archivos del disco)
-  const f = (p) => `data:font/ttf;base64,${readFileSync(join(FUENTES, `Poppins-${p}.ttf`)).toString("base64")}`;
+  const f = (nombre) => `data:font/ttf;base64,${readFileSync(join(FUENTES, `${nombre}.ttf`)).toString("base64")}`;
   await pagina.setContent(`<html><head><style>
-    @font-face{font-family:Poppins;font-weight:800;src:url(${f("ExtraBold")})}
-    @font-face{font-family:Poppins;font-weight:700;src:url(${f("Bold")})}
+    @font-face{font-family:Poppins;font-weight:800;src:url(${f("Poppins-ExtraBold")})}
+    @font-face{font-family:Poppins;font-weight:700;src:url(${f("Poppins-Bold")})}
+    @font-face{font-family:Nunito;font-weight:900;src:url(${f("Nunito-Black")})}
+    @font-face{font-family:Nunito;font-weight:800;src:url(${f("Nunito-ExtraBold")})}
+    @font-face{font-family:Anton;src:url(${f("Anton-Regular")})}
     html,body{margin:0;background:#000;overflow:hidden} svg{display:block}</style></head>
     <body><div id="c"></div><span style="font:800 40px Poppins;position:absolute;opacity:0">Áa</span><span style="font:700 40px Poppins;position:absolute;opacity:0">Áa</span></body></html>`);
-  await pagina.evaluate(async () => { await document.fonts.load("800 40px Poppins"); await document.fonts.load("700 40px Poppins"); await document.fonts.ready; });
+  await pagina.evaluate(async () => { await document.fonts.load("800 40px Poppins"); await document.fonts.load("700 40px Poppins"); await document.fonts.load("900 40px Nunito"); await document.fonts.load("40px Anton"); await document.fonts.ready; });
   return {
     async pinta(interior) {
       const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${ANCHO * escala}" height="${ALTO * escala}" viewBox="0 0 ${ANCHO} ${ALTO}"><defs>${DEFS_COMUNES}${VINETA}</defs>${interior}</svg>`;

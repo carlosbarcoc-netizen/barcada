@@ -1,4 +1,4 @@
-// Barco Viral 2D · el sello visual: ilustración vectorial con volumen.
+// Barcada 2D · el sello visual: ilustración vectorial con volumen.
 // - Contorno entintado (marrón muy oscuro, trazo redondo), nunca negro puro.
 // - Volumen en tres capas: degradado base, una sombra «cel» de dos tonos recortada por la forma, y luz de borde de
 //   color frío en el lado contrario a la luz (la luz principal viene de arriba a la izquierda).

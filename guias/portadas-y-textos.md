@@ -2,7 +2,7 @@
 
 ## La portada
 
-`node bv.mjs portada <proyecto> "Título con *clave*|segunda línea" --toma <n>` → `entrega/portada.jpg`.
+`node barcada.mjs portada <proyecto> "Título con *clave*|segunda línea" --toma <n>` → `entrega/portada.jpg`.
 
 - 3 a 7 palabras, en 1-2 líneas (`|` parte la línea). La palabra o frase entre `*asteriscos*` sale enorme y en color.
 - Clickbait honesto: lo que promete pasa en el video. «La cocoa *NO ES*|chocolate», «Así se hace|tu *café*».

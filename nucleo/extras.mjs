@@ -2,7 +2,7 @@
 import { existsSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, ffmpeg, guardarJSON, hay, hayClave, leerJSON, sinTildes } from "./comun.mjs";
-import { ESTILOS, bancoDeStock, hacerImagenes, proveedor, textoCreditos } from "./imagenes.mjs";
+import { ESTILOS, hacerImagenes, proveedor } from "./imagenes.mjs";
 import { lineaDeTiempo } from "./montaje.mjs";
 
 // ---------------------------------------------------------------- revisar
@@ -16,12 +16,9 @@ export async function revisar() {
   fila(existsSync(join(RAIZ, "claves.env")), "claves.env", existsSync(join(RAIZ, "claves.env")) ? "existe" : "falta: copia claves.env.ejemplo como claves.env y pega tus claves");
   fila(hayClave("ELEVENLABS_API_KEY") || null, "voz", hayClave("ELEVENLABS_API_KEY") ? "clave de ElevenLabs puesta" : "sin clave: la voz sale en modo prueba (silencio)");
   const prov = proveedor();
-  fila(prov !== "prueba" || null, "imágenes IA", prov === "fal" ? "fal.ai (FLUX)" : prov === "openai" ? "OpenAI (gpt-image-1)" : "sin clave (opcional si usas stock)");
-  const banco = bancoDeStock();
-  fila(banco ? true : null, "stock gratis", banco === "pexels" ? "Pexels" + (hayClave("PIXABAY_API_KEY") ? " + Pixabay" : "") : banco === "pixabay" ? "Pixabay" : "sin clave (opcional: Pexels o Pixabay, gratis)");
-  if (prov === "prueba" && !banco) fila(false, "", "hace falta al menos una: fal.ai, OpenAI, Pexels o Pixabay");
+  fila(prov !== "prueba" || null, "imágenes IA", prov === "fal" ? "fal.ai (FLUX)" : prov === "openai" ? "OpenAI (gpt-image-1)" : "sin clave (opcional: solo para el estilo realista)");
   fila(existsSync(join(RAIZ, "node_modules", "playwright")) || (await (async () => { try { await (await import("./2d/navegador.mjs")).chromium(); return true; } catch { return false; } })()) || null, "dibujante 2D", "para el estilo 2D: npm install y npx playwright install chromium");
-  fila(existsSync(join(RAIZ, "sonidos", "transicion.mp3")) || null, "efectos", existsSync(join(RAIZ, "sonidos", "transicion.mp3")) ? "biblioteca lista" : "aún no: node bv.mjs sonidos (los crea con ElevenLabs, una vez)");
+  fila(existsSync(join(RAIZ, "sonidos", "transicion.mp3")) || null, "efectos", existsSync(join(RAIZ, "sonidos", "transicion.mp3")) ? "biblioteca lista" : "aún no: node barcada.mjs sonidos (los crea con ElevenLabs, una vez)");
   fila(existsSync(join(RAIZ, "preferencias.json")) || null, "preferencias", existsSync(join(RAIZ, "preferencias.json")) ? "guardadas" : "aún no: se preguntan al configurar");
   console.log(filas.join("\n"));
 }
@@ -99,15 +96,6 @@ export async function portada(dir, titulo, { toma = 1, acento } = {}) {
     "-frames:v", "1", "-q:v", "2", out]);
   console.log(`✓ ${out}`);
   return out;
-}
-
-// Los créditos del stock, junto a la entrega.
-export function escribirCreditos(dir) {
-  const t = textoCreditos(dir);
-  if (!t) return null;
-  const f = join(asegurar(join(dir, "entrega")), "creditos.md");
-  writeFileSync(f, `# Créditos de imágenes y clips\n\nFotos y videos de bancos con licencia gratuita de uso comercial. Mencionar a los autores no es obligatorio, pero se agradece (puedes pegarlo en la descripción).\n\n${t}\n`);
-  return f;
 }
 
 export { lineaDeTiempo };

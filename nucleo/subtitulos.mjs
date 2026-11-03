@@ -1,7 +1,7 @@
 // Subtítulos y rótulos en formato ASS (los dibuja ffmpeg con libass).
-// - Subtítulos: grupos de 2-4 palabras en el tercio de arriba; cada palabra se enciende al decirse (amarilla y con un
-//   pequeño rebote), las que faltan quedan invisibles pero guardan su sitio, y la palabra clave de la frase queda
-//   amarilla. Así el texto nunca salta.
+// - Subtítulos (estilo Barcada): letra redonda y gruesa (Nunito Black) con contorno oscuro, grupos de 2-4 palabras
+//   arriba; cada palabra entra al decirse con un rebote y en amarillo, luego queda blanca; las que faltan son
+//   invisibles pero guardan su sitio (el texto nunca salta) y la palabra clave de la frase queda amarilla.
 // - Rótulos: el texto grande de cada toma (rotulo), abajo, en una banda oscura, con *palabras* en amarillo.
 import { writeFileSync } from "node:fs";
 import { ALTO, ANCHO, sinTildes } from "./comun.mjs";
@@ -34,8 +34,8 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Poppins ExtraBold,82,${BLA},${BLA},&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,7,3,8,90,90,560,1
-Style: Rotulo,Poppins ExtraBold,62,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,22,0,2,80,80,520,1
+Style: Sub,Nunito Black,84,${BLA},${BLA},&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,9,4,8,80,80,330,1
+Style: Rotulo,Nunito Black,60,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,24,0,2,80,80,520,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -51,7 +51,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         const txt = g.map((x, j) => {
           const esClave = clave && sinTildes(x.texto) === clave;
           if (j > i) return `{\\alpha&HFF&}${limpio(x.texto)}{\\alpha&H00&}`;
-          if (j === i) return `{\\c${AMA}\\fscx118\\fscy118\\t(0,90,\\fscx100\\fscy100)}${limpio(x.texto)}{\\c${esClave ? AMA : BLA}\\fscx100\\fscy100}`;
+          if (j === i) return `{\\c${AMA}\\fscx128\\fscy128\\frz-3\\t(0,110,\\fscx100\\fscy100\\frz0)}${limpio(x.texto)}{\\c${esClave ? AMA : BLA}\\fscx100\\fscy100\\frz0}`;
           return esClave ? `{\\c${AMA}}${limpio(x.texto)}{\\c${BLA}}` : limpio(x.texto);
         }).join(" ");
         ev.push(`Dialogue: 1,${tiempo(t0)},${tiempo(t1)},Sub,,0,0,0,,${txt}`);
