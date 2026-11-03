@@ -75,7 +75,8 @@ export async function buscarVoces({ acento = "", genero = "" } = {}) {
   if (!hayClave("ELEVENLABS_API_KEY")) throw new Error("Falta ELEVENLABS_API_KEY en claves.env.");
   const q = new URLSearchParams({ page_size: "30", language: "es", sort: "usage_character_count_1y" });
   if (genero) q.set("gender", genero);
-  if (acento) q.set("accent", acento);
+  // «latin» es «latin american» en ElevenLabs; también valen «mexican», «argentine», «colombian», «peninsular»…
+  if (acento) q.set("accent", acento === "latin" || acento === "latino" ? "latin american" : acento);
   const r = await fetch(`https://api.elevenlabs.io/v1/shared-voices?${q}`, { headers: { "xi-api-key": process.env.ELEVENLABS_API_KEY } });
   if (!r.ok) throw new Error(`ElevenLabs dijo ${r.status}: ${(await r.text()).slice(0, 300)}`);
   const j = await r.json();
