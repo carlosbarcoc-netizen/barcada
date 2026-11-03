@@ -1,0 +1,398 @@
+{
+  "huella": "d9b89729f397",
+  "duracion": 27.814,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "Café contra cacao: ¿cuál te despierta más?",
+      "clave": "despierta",
+      "inicio": 0,
+      "fin": 3.111,
+      "palabras": [
+        {
+          "texto": "Café",
+          "inicio": 0,
+          "fin": 0.325
+        },
+        {
+          "texto": "contra",
+          "inicio": 0.383,
+          "fin": 0.662
+        },
+        {
+          "texto": "cacao:",
+          "inicio": 0.708,
+          "fin": 1.3
+        },
+        {
+          "texto": "¿cuál",
+          "inicio": 1.544,
+          "fin": 1.927
+        },
+        {
+          "texto": "te",
+          "inicio": 1.974,
+          "fin": 2.032
+        },
+        {
+          "texto": "despierta",
+          "inicio": 2.09,
+          "fin": 2.543
+        },
+        {
+          "texto": "más?",
+          "inicio": 2.601,
+          "fin": 3.111
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Ronda uno: la cafeína.",
+      "clave": "cafeína",
+      "inicio": 4.226,
+      "fin": 6.072,
+      "palabras": [
+        {
+          "texto": "Ronda",
+          "inicio": 4.226,
+          "fin": 4.528
+        },
+        {
+          "texto": "uno:",
+          "inicio": 4.609,
+          "fin": 4.969
+        },
+        {
+          "texto": "la",
+          "inicio": 5.143,
+          "fin": 5.224
+        },
+        {
+          "texto": "cafeína.",
+          "inicio": 5.271,
+          "fin": 6.072
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Una taza de café tiene unos noventa y cinco miligramos.",
+      "clave": "noventa",
+      "inicio": 6.769,
+      "fin": 10.089,
+      "palabras": [
+        {
+          "texto": "Una",
+          "inicio": 6.769,
+          "fin": 6.966
+        },
+        {
+          "texto": "taza",
+          "inicio": 7.012,
+          "fin": 7.221
+        },
+        {
+          "texto": "de",
+          "inicio": 7.268,
+          "fin": 7.326
+        },
+        {
+          "texto": "café",
+          "inicio": 7.361,
+          "fin": 7.616
+        },
+        {
+          "texto": "tiene",
+          "inicio": 7.651,
+          "fin": 7.883
+        },
+        {
+          "texto": "unos",
+          "inicio": 7.953,
+          "fin": 8.243
+        },
+        {
+          "texto": "noventa",
+          "inicio": 8.359,
+          "fin": 8.719
+        },
+        {
+          "texto": "y",
+          "inicio": 8.766,
+          "fin": 8.789
+        },
+        {
+          "texto": "cinco",
+          "inicio": 8.824,
+          "fin": 9.16
+        },
+        {
+          "texto": "miligramos.",
+          "inicio": 9.218,
+          "fin": 10.089
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Una de chocolate caliente, apenas unos cinco.",
+      "clave": "cinco",
+      "inicio": 10.693,
+      "fin": 13.665,
+      "palabras": [
+        {
+          "texto": "Una",
+          "inicio": 10.693,
+          "fin": 10.925
+        },
+        {
+          "texto": "de",
+          "inicio": 10.971,
+          "fin": 11.029
+        },
+        {
+          "texto": "chocolate",
+          "inicio": 11.076,
+          "fin": 11.54
+        },
+        {
+          "texto": "caliente,",
+          "inicio": 11.587,
+          "fin": 12.249
+        },
+        {
+          "texto": "apenas",
+          "inicio": 12.423,
+          "fin": 12.794
+        },
+        {
+          "texto": "unos",
+          "inicio": 12.864,
+          "fin": 13.05
+        },
+        {
+          "texto": "cinco.",
+          "inicio": 13.073,
+          "fin": 13.665
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "Uno a cero para el café.",
+      "clave": "café",
+      "inicio": 14.048,
+      "fin": 15.406,
+      "palabras": [
+        {
+          "texto": "Uno",
+          "inicio": 14.048,
+          "fin": 14.28
+        },
+        {
+          "texto": "a",
+          "inicio": 14.315,
+          "fin": 14.35
+        },
+        {
+          "texto": "cero",
+          "inicio": 14.373,
+          "fin": 14.594
+        },
+        {
+          "texto": "para",
+          "inicio": 14.64,
+          "fin": 14.791
+        },
+        {
+          "texto": "el",
+          "inicio": 14.814,
+          "fin": 14.872
+        },
+        {
+          "texto": "café.",
+          "inicio": 14.93,
+          "fin": 15.406
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Pero el cacao trae teobromina, que te activa más suave y por más tiempo.",
+      "clave": "teobromina",
+      "inicio": 16.103,
+      "fin": 20.724,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 16.103,
+          "fin": 16.312
+        },
+        {
+          "texto": "el",
+          "inicio": 16.347,
+          "fin": 16.405
+        },
+        {
+          "texto": "cacao",
+          "inicio": 16.463,
+          "fin": 16.811
+        },
+        {
+          "texto": "trae",
+          "inicio": 16.869,
+          "fin": 17.136
+        },
+        {
+          "texto": "teobromina,",
+          "inicio": 17.194,
+          "fin": 18.065
+        },
+        {
+          "texto": "que",
+          "inicio": 18.448,
+          "fin": 18.553
+        },
+        {
+          "texto": "te",
+          "inicio": 18.599,
+          "fin": 18.657
+        },
+        {
+          "texto": "activa",
+          "inicio": 18.681,
+          "fin": 18.971
+        },
+        {
+          "texto": "más",
+          "inicio": 19.017,
+          "fin": 19.18
+        },
+        {
+          "texto": "suave",
+          "inicio": 19.203,
+          "fin": 19.575
+        },
+        {
+          "texto": "y",
+          "inicio": 19.656,
+          "fin": 19.714
+        },
+        {
+          "texto": "por",
+          "inicio": 19.807,
+          "fin": 19.934
+        },
+        {
+          "texto": "más",
+          "inicio": 20.004,
+          "fin": 20.167
+        },
+        {
+          "texto": "tiempo.",
+          "inicio": 20.236,
+          "fin": 20.724
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "¿Tú con cuál te quedas?",
+      "clave": "quedas",
+      "inicio": 21.107,
+      "fin": 22.396,
+      "palabras": [
+        {
+          "texto": "¿Tú",
+          "inicio": 21.107,
+          "fin": 21.386
+        },
+        {
+          "texto": "con",
+          "inicio": 21.432,
+          "fin": 21.537
+        },
+        {
+          "texto": "cuál",
+          "inicio": 21.595,
+          "fin": 21.734
+        },
+        {
+          "texto": "te",
+          "inicio": 21.78,
+          "fin": 21.838
+        },
+        {
+          "texto": "quedas?",
+          "inicio": 21.897,
+          "fin": 22.396
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
+      "clave": "NativoTerrus",
+      "inicio": 22.999,
+      "fin": 27.214,
+      "palabras": [
+        {
+          "texto": "Síguenos",
+          "inicio": 22.999,
+          "fin": 23.382181818181817
+        },
+        {
+          "texto": "en",
+          "inicio": 23.382181818181817,
+          "fin": 23.765363636363634
+        },
+        {
+          "texto": "NativoTerrus",
+          "inicio": 23.765363636363634,
+          "fin": 24.148545454545452
+        },
+        {
+          "texto": "para",
+          "inicio": 24.148545454545452,
+          "fin": 24.53172727272727
+        },
+        {
+          "texto": "descubrir",
+          "inicio": 24.53172727272727,
+          "fin": 24.914909090909088
+        },
+        {
+          "texto": "la",
+          "inicio": 24.914909090909088,
+          "fin": 25.29809090909091
+        },
+        {
+          "texto": "ciencia",
+          "inicio": 25.29809090909091,
+          "fin": 25.681272727272727
+        },
+        {
+          "texto": "detrás",
+          "inicio": 25.681272727272727,
+          "fin": 26.064454545454545
+        },
+        {
+          "texto": "de",
+          "inicio": 26.064454545454545,
+          "fin": 26.447636363636363
+        },
+        {
+          "texto": "los",
+          "inicio": 26.447636363636363,
+          "fin": 26.83081818181818
+        },
+        {
+          "texto": "alimentos.",
+          "inicio": 26.83081818181818,
+          "fin": 27.214
+        }
+      ]
+    }
+  ]
+}
