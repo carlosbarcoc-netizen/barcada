@@ -118,12 +118,13 @@ export async function hacerImagenes(dir, { calidad } = {}) {
   const pref = existsSync(join(RAIZ, "preferencias.json")) ? leerJSON(join(RAIZ, "preferencias.json")) : {};
   const tomas = p.escenas.flatMap((e) => e.tomas);
   const prov = proveedor(), cal = calidad || p.calidad || "normal";
-  const fuentes = tomas.map((t) => fuenteDe(t, p, pref));
+  const fuentes = tomas.map((t) => (t.dibujo ? "2d" : fuenteDe(t, p, pref)));
   if (fuentes.includes("prueba")) console.log("⚠ Sin claves de imágenes (fal.ai, OpenAI, Pexels o Pixabay): imágenes de prueba (no se paga nada).");
   const base = parseInt(createHash("sha1").update(p.titulo || "bv").digest("hex").slice(0, 6), 16);
   const fCred = join(di, "creditos.json"), creditos = existsSync(fCred) ? leerJSON(fCred) : {};
   const archivos = await enParalelo(tomas, 3, async (toma, i) => {
     const n = i + 1, nn = String(n).padStart(2, "0"), fuente = fuentes[i];
+    if (toma.dibujo) return null;                                    // una toma 2D: se dibuja, no se busca
     if (toma.archivo) return join(dir, toma.archivo);                // una foto o video propio del creador
     const prompt = promptDe(p, toma), semilla = toma.semilla ?? base + n;
     const clave = fuente === "ia" ? [prompt, semilla, prov, cal] : fuente === "prueba" ? ["prueba", toma.imagen] : [fuente, busqueda(toma), toma.elegida || 0, bancoDeStock()];

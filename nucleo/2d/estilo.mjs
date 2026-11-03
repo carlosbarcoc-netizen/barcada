@@ -23,11 +23,23 @@ export const PALETA = {
   metal: ["#f3f5f7", "#aab3bd", "#5b6470", "#ffd9a8"],
   piel: ["#ffd6b0", "#e7a374", "#a9643d", "#a6e9ff"],
   rojo: ["#ff9a7a", "#e5483a", "#8f1f1f", "#ffe08a"],
+  verde: ["#b6f08a", "#45c06a", "#1d6b3f", "#fff2a0"],
+  morado: ["#d9b8ff", "#9a62e8", "#52288f", "#a6f0ff"],
+  agua: ["#c9f3ff", "#5cc8f0", "#1e6fa8", "#ffffff"],
+  madera: ["#e0a872", "#a8683a", "#5e3418", "#ffd9a8"],
+  papel: ["#ffffff", "#eef1f5", "#c3cad4", "#ffe6a6"],
+  gris: ["#e6e9ee", "#9aa3ae", "#4d5560", "#a6e9ff"],
+  negro: ["#5b5f6a", "#2e323b", "#14161b", "#7fd3ff"],
+  blanco: ["#ffffff", "#f3efe8", "#cfc6b8", "#9fe2ff"],
+  amarillo: ["#fff6a8", "#ffd23f", "#c48a0c", "#ffffff"],
+  naranja: ["#ffd0a0", "#ff9a3c", "#c0561a", "#a6e9ff"],
+  carne: ["#ffb3a0", "#e86a5a", "#a2302a", "#ffe0b0"],
 };
+export const paletaDe = (p) => (Array.isArray(p) ? p : PALETA[p] || PALETA.gris);
 
 // Los degradados de volumen de un material: devuelve { defs, base, sombra, borde } (base y sombra son url(#…)).
 export function vol(paleta, { ang = 35 } = {}) {
-  const [c, m, o, b] = Array.isArray(paleta) ? paleta : PALETA[paleta];
+  const [c, m, o, b] = paletaDe(paleta);
   const id = uid("v"), rad = (ang * Math.PI) / 180, x2 = 0.5 + Math.cos(rad) * 0.5, y2 = 0.5 + Math.sin(rad) * 0.5;
   const defs = `
     <linearGradient id="${id}b" x1="${1 - x2}" y1="${1 - y2}" x2="${x2}" y2="${y2}">
@@ -67,7 +79,21 @@ export const DEFS_COMUNES = `
 
 // Un brillo especular blando (encima de una pieza): una elipse blanca difuminada.
 export const brillo = (x, y, rx, ry, op = 0.6, rot = -25) =>
-  `<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="#fff" opacity="${op}" transform="rotate(${rot} ${x} ${y})" filter="url(#blando)" style="filter:blur(${Math.max(2, rx * 0.12)}px)"/>`;
+  `<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="#fff" opacity="${op}" transform="rotate(${rot} ${x} ${y})" style="filter:blur(${Math.max(2, Math.min(rx, ry) * 0.35)}px)"/>`;
+
+// Un trazo entintado (líneas de detalle, palitos, rayos): sin relleno.
+export const trazo = (d, color = TINTA, ancho = 6, op = 1) =>
+  `<path d="${d}" fill="none" stroke="${color}" stroke-width="${ancho}" stroke-linecap="round" stroke-linejoin="round" opacity="${op}"/>`;
+
+// Un círculo o una elipse con volumen (lo más usado).
+export const circulo = (cx, cy, r, paleta, o = {}) => forma(`M ${cx - r} ${cy} A ${r} ${r} 0 1 0 ${cx + r} ${cy} A ${r} ${r} 0 1 0 ${cx - r} ${cy} Z`, paleta, { sombra: r * 0.2, rim: Math.max(3, r * 0.06), ...o });
+export const elipse = (cx, cy, rx, ry, paleta, o = {}) => forma(`M ${cx - rx} ${cy} A ${rx} ${ry} 0 1 0 ${cx + rx} ${cy} A ${rx} ${ry} 0 1 0 ${cx - rx} ${cy} Z`, paleta, { sombra: Math.min(rx, ry) * 0.2, rim: Math.max(3, Math.min(rx, ry) * 0.06), ...o });
+// Un rectángulo redondeado con volumen.
+export function caja(x, y, w, h, r, paleta, o = {}) {
+  r = Math.min(r, w / 2, h / 2);
+  const d = `M ${x + r} ${y} H ${x + w - r} Q ${x + w} ${y} ${x + w} ${y + r} V ${y + h - r} Q ${x + w} ${y + h} ${x + w - r} ${y + h} H ${x + r} Q ${x} ${y + h} ${x} ${y + h - r} V ${y + r} Q ${x} ${y} ${x + r} ${y} Z`;
+  return forma(d, paleta, { sombra: Math.min(w, h) * 0.12, rim: Math.max(3, Math.min(w, h) * 0.04), ...o });
+}
 
 // La sombra en el suelo bajo una pieza.
 export const sombraSuelo = (x, y, rx, ry = rx * 0.18, op = 0.35) =>

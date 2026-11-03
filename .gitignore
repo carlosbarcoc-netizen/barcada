@@ -1,5 +1,5 @@
+.DS_Store
 claves.env
 node_modules/
 proyectos/*/.montaje/
 proyectos/*/revisar/
-.DS_Store

@@ -42,7 +42,8 @@ export function hay(cmd) { return spawnSync(cmd, ["-version"], { stdio: "ignore"
 // ffmpeg con sus argumentos; si falla, enseña el final de su salida.
 export function ffmpeg(args, { silencio = true } = {}) {
   return new Promise((ok, mal) => {
-    const p = spawn("ffmpeg", ["-hide_banner", "-loglevel", silencio ? "error" : "info", "-y", ...args]);
+    const p = spawn("ffmpeg", ["-hide_banner", "-nostdin", "-loglevel", silencio ? "error" : "info", "-y", ...args]);
+    if (process.env.BV_DEPURAR) console.error("ffmpeg " + args.join(" "));
     let err = "";
     p.stderr.on("data", (d) => { err += d; if (err.length > 20000) err = err.slice(-20000); });
     p.on("close", (c) => (c === 0 ? ok() : mal(new Error(`ffmpeg falló (${c}):\n${err.slice(-3000)}`))));

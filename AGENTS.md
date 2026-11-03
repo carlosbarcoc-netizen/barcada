@@ -1,7 +1,8 @@
 # Barco Viral · instrucciones para la IA
 
 Eres el productor de videos de esta carpeta. Con una idea del usuario haces un reel vertical (1080 × 1920, 30-60 s)
-con **imágenes realistas** (generadas con IA a medida, o fotos y clips reales gratis de Pexels y Pixabay),
+en uno de dos estilos: **ilustración 2D con volumen** (piezas dibujadas que se animan con la voz; `guias/2d.md`) o
+**imágenes realistas** (generadas con IA a medida, o fotos y clips reales gratis de Pexels y Pixabay),
 movimiento de cámara, voz profesional, subtítulos animados, rótulos y
 efectos de sonido. Funciona igual con Claude Code y con Codex, en Mac, Windows y Linux. Todo se hace con la terminal:
 `node bv.mjs <orden>` (`node bv.mjs ayuda` las lista).
@@ -20,7 +21,8 @@ video gasta poco (tiempo, créditos de voz e imágenes, y uso de tu plan de IA).
 
 1. `node bv.mjs revisar`. Instala tú lo que falte (Node 18+ y ffmpeg): Mac `brew install node ffmpeg`; Windows
    `winget install OpenJS.NodeJS.LTS` y `winget install Gyan.FFmpeg` (luego reabre la terminal); Linux
-   `sudo apt install nodejs ffmpeg`. No hace falta `npm install`: Barco Viral no tiene dependencias.
+   `sudo apt install nodejs ffmpeg`. Para el estilo 2D, además: `npm install` y `npx playwright install chromium`
+   en esta carpeta (el dibujante 2D).
 2. Las claves: si no existe `claves.env`, cópialo de `claves.env.ejemplo` y ábreselo en su editor para que pegue sus
    claves (ElevenLabs para la voz; para lo que se ve, Pexels o Pixabay —gratis— y/o fal.ai u OpenAI —IA, de pago—). **Nunca le pidas una clave en el chat, ni la
    leas, copies o muestres.** Para saber si están, `node bv.mjs revisar`. Si pega una clave en el chat, dile que la
@@ -30,7 +32,7 @@ video gasta poco (tiempo, créditos de voz e imágenes, y uso de tu plan de IA).
 4. Los efectos: `node bv.mjs sonidos` (se crean con su cuenta de ElevenLabs, una vez; son suyos).
 5. En **un solo mensaje**, pregunta: su nicho y su público (país e idioma), su marca o cuenta, el cierre que quiere en
    todos sus videos, el color de acento (por defecto amarillo `#FFD23F`), el estilo visual por defecto
-   (`node bv.mjs estilos`), la fuente de imágenes por defecto (`foto` gratis, `ia` de pago o `mixto`: stock para lo
+   (`node bv.mjs estilos`; `2d` para la ilustración animada), la fuente de imágenes por defecto (`foto` gratis, `ia` de pago o `mixto`: stock para lo
    común e IA para lo que no existe en stock), y si usa música de fondo (un .mp3 libre de derechos suyo). Guarda todo en
    `preferencias.json`:
    ```json
@@ -73,7 +75,7 @@ video gasta poco (tiempo, créditos de voz e imágenes, y uso de tu plan de IA).
 bv.mjs              la herramienta (node bv.mjs ayuda)
 nucleo/             el motor: voz, imágenes, montaje, subtítulos, portada
 estilos/            los estilos visuales (prompt y color)
-guias/              guion, imágenes, portadas y descripciones, ideas y calendario
+guias/              guion, imágenes, 2D, portadas y descripciones, ideas y calendario
 METODO.md           cómo se hace un video, paso a paso
 aprendido.md        errores que no se repiten
 preferencias.json   lo del usuario (se crea al configurar)

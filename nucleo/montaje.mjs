@@ -61,11 +61,16 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   tomas.at(-1).fin = Math.min(tomas.at(-1).fin, fin);
   const tmp = asegurar(join(dir, ".montaje"));
 
-  // 1. un clip por toma
-  await enParalelo(tomas, 3, async (t) => {
+  // 1. un clip por toma (las 2D, de dos en dos: cada una ocupa un navegador)
+  const { cpus } = await import("node:os");
+  await enParalelo(tomas, tomas.some((t) => t.dibujo) ? Math.max(2, Math.min(4, cpus().length)) : 3, async (t) => {
     const frames = Math.max(2, Math.round((t.fin - t.inicio) * FPSv)), src = imgs[t.n - 1];
     const salidaClip = ["-frames:v", String(frames), "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", borrador ? "28" : "16", "-pix_fmt", "yuv420p", join(tmp, `clip-${t.n}.mp4`)];
-    if (/\.(mp4|mov|webm)$/i.test(src)) {
+    if (t.dibujo) {
+      // una toma 2D: se dibuja cuadro a cuadro (borrador a media resolución)
+      const { crearCuadro } = await import("./2d/escena.mjs"), { grabar } = await import("./2d/dibujante.mjs");
+      await grabar(crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref)), t.inicio, t.inicio + frames / FPSv, FPSv, join(tmp, `clip-${t.n}.mp4`), { escala: borrador ? 0.5 : 1, crf: borrador ? 26 : 16 });
+    } else if (/\.(mp4|mov|webm)$/i.test(src)) {
       // un clip de video: se encuadra en vertical, se repite si es corto y, si se pide, va más lento (lenta: 0,5 = mitad)
       const lento = t.lenta ? `setpts=PTS/${t.lenta},` : "";
       await ffmpeg(["-stream_loop", "-1", "-ss", String(t.desdeClip || 0), "-i", src,
@@ -76,6 +81,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   });
   writeFileSync(join(tmp, "lista.txt"), tomas.map((t) => `file 'clip-${t.n}.mp4'`).join("\n") + "\n");
   await ffmpeg(["-f", "concat", "-safe", "0", "-i", join(tmp, "lista.txt"), "-c", "copy", join(tmp, "mudo.mp4")]);
+  if (tomas.some((t) => t.dibujo)) await (await import("./2d/dibujante.mjs")).cerrarNavegador();
 
   // 2. subtítulos y rótulos
   const ass = join(tmp, "textos.ass");
@@ -96,9 +102,11 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   const audio = `${mezcla.join(";")}${mezcla.length ? ";" : ""}${mus}[1:a]${ss}${mus ? "[mus]" : ""}amix=inputs=${1 + mezcla.length + (mus ? 1 : 0)}:normalize=0:duration=first,alimiter=limit=0.95[a]`;
 
   // 4. el color del estilo, viñeta, grano, textos y salida
-  const est = ESTILOS[p.estilo] || ESTILOS.documental;
+  const est = ESTILOS[p.estilo] || ESTILOS.documental, es2d = p.estilo === "2d";
   const esc = borrador ? `,scale=${ANCHO / 2}:${ALTO / 2}` : "";
-  const video = `[0:v]${est.color},vignette=PI/5,noise=alls=${borrador ? 0 : 5}:allf=t,subtitles=filename='${ass.replace(/'/g, "\\'")}':fontsdir='${FUENTES}'${esc}[v]`;
+  // el 2D ya trae su color, su viñeta y su grano: solo se le ponen los textos
+  const acabado = es2d ? "null" : `${est.color},vignette=PI/5,noise=alls=${borrador ? 0 : 5}:allf=t`;
+  const video = `[0:v]${acabado},subtitles=filename='${ass.replace(/'/g, "\\'")}':fontsdir='${FUENTES}'${esc}[v]`;
   const out = salida || join(dir, "revisar", `${borrador ? "borrador" : "final"}.mp4`);
   asegurar(join(out, ".."));
   await ffmpeg([...entradas, "-filter_complex", `${video};${audio}`, "-map", "[v]", "-map", "[a]", "-t", fin.toFixed(2),
@@ -114,6 +122,14 @@ export async function hojaDeTomas(dir) {
   const p = leerJSON(join(dir, "proyecto.json")), tiempos = leerJSON(join(dir, "voz", "tiempos.json"));
   const imgs = await hacerImagenes(dir), tomas = lineaDeTiempo(p, tiempos);
   const tmp = asegurar(join(dir, ".montaje")), cols = Math.min(5, tomas.length), filas = Math.ceil(tomas.length / cols);
+  // las tomas 2D: su cuadro del medio, como imagen
+  for (const t of tomas.filter((x) => x.dibujo)) {
+    const { crearCuadro } = await import("./2d/escena.mjs"), { foto } = await import("./2d/dibujante.mjs");
+    const f = join(tmp, `cuadro-${t.n}.jpg`);
+    await foto(crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref))(t.inicio + (t.fin - t.inicio) * 0.7), f, 0.5);
+    imgs[t.n - 1] = f;
+  }
+  if (tomas.some((t) => t.dibujo)) await (await import("./2d/dibujante.mjs")).cerrarNavegador();
   await enParalelo(tomas, 4, (t) => ffmpeg([...(/\.(mp4|mov|webm)$/i.test(imgs[t.n - 1]) ? ["-ss", "0.8"] : []), "-i", imgs[t.n - 1], "-vf",
     `scale=360:640:force_original_aspect_ratio=increase,crop=360:640,drawbox=y=0:w=iw:h=86:color=black@0.6:t=fill,drawtext=fontfile=${join(FUENTES, "Poppins-ExtraBold.ttf")}:text='${t.n}  ${t.inicio.toFixed(1)}s${/\.(mp4|mov|webm)$/i.test(imgs[t.n - 1]) ? "  VIDEO" : ""}':fontcolor=0xFFD23F:fontsize=40:x=18:y=22`,
     "-frames:v", "1", join(tmp, `mini-${String(t.n).padStart(2, "0")}.png`)]));

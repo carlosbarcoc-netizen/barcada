@@ -1,1 +1,9 @@
-{"type":"module","name":"barco-viral","version":"1.0.0","private":true}
+{
+  "type": "module",
+  "name": "barco-viral",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "playwright": "^1.50.0"
+  }
+}

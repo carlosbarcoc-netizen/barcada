@@ -1,6 +1,8 @@
 # Barco Viral
 
 ## 1.0
+- **Estilo 2D propio:** ilustración vectorial con volumen (contorno entintado, sombra de dos tonos, luz de borde y
+  grano), 41 piezas de muchos nichos, 9 fondos, entradas, acciones, cámara y parámetros animados al ritmo de la voz.
 - Imágenes realistas con IA (fal.ai FLUX u OpenAI), con 5 estilos visuales.
 - Modo gratis: fotos y clips de video reales de Pexels y Pixabay (licencia de uso comercial), con sus créditos.
 - Modo mixto: stock para lo común e IA solo para lo que no existe.

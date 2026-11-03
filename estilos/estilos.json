@@ -28,5 +28,11 @@
     "para": "historia, culturas, personajes, orígenes",
     "sufijo": "photorealistic historical reconstruction, natural window light, period-accurate details, painterly cinematic composition, muted earthy palette, no text, no logos, no watermark",
     "color": "eq=contrast=1.05:saturation=0.9,colorbalance=rm=0.03:bm=-0.03"
+  },
+  "2d": {
+    "nombre": "Ilustración 2D con volumen",
+    "para": "todo: explica procesos, ciencia, dinero, cuerpo, tecnología",
+    "sufijo": "",
+    "color": "null"
   }
 }

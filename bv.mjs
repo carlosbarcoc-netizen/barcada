@@ -33,7 +33,7 @@ const AYUDA = `Barco Viral · órdenes (todas desde esta carpeta):
 
 try {
   switch (orden) {
-    case "revisar": (await import("./nucleo/extras.mjs")).revisar(); break;
+    case "revisar": await (await import("./nucleo/extras.mjs")).revisar(); break;
     case "estilos": { const { ESTILOS } = await import("./nucleo/imagenes.mjs"); for (const [k, e] of Object.entries(ESTILOS)) console.log(`${k.padEnd(12)} ${e.nombre} — ${e.para}`); break; }
     case "voces": {
       const vs = await (await import("./nucleo/voz.mjs")).buscarVoces({ acento: opcion("acento", ""), genero: opcion("genero", "") });
