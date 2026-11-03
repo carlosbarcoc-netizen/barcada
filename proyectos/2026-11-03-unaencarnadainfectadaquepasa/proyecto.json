@@ -53,12 +53,9 @@
       "clave": "profesional"
     },
     {
-      "texto": "¿Quieres aprender a hacer estos videos que están siendo virales en internet?",
-      "clave": "virales"
-    },
-    {
-      "texto": "Escribe la palabra VIRAL y te explico.",
-      "clave": "VIRAL"
+      "texto": "Síguenos en @Azzure para más consejos de belleza y cuidado.",
+      "dicho": "Síguenos en Azur para más consejos de belleza y cuidado.",
+      "clave": "@Azzure"
     }
   ],
   "escenas": [
@@ -235,23 +232,13 @@
       "nombre": "cierre",
       "tomas": [
         {
-          "desde": "13:Quieres",
-          "fuente": "clip",
-          "buscar": "smartphone",
-          "imagen": "hand scrolling smartphone social media",
-          "movimiento": "quieto",
-          "sonido": "subida",
-          "elegida": 1
-        },
-        {
-          "desde": "14:Escribe",
-          "fuente": "clip",
-          "buscar": "smartphone",
-          "imagen": "hands typing a message on phone",
-          "movimiento": "acercar",
-          "rotulo": "ESCRIBE *VIRAL*",
-          "sonido": "pop",
-          "elegida": 4
+          "desde": "13:Síguenos",
+          "fuente": "foto",
+          "archivo": "propias/cierre.jpg",
+          "imagen": "well-groomed feet with painted toenails resting on a soft blanket",
+          "movimiento": "alejar",
+          "rotulo": "SÍGUENOS EN *@AZZURE*",
+          "sonido": "subida"
         }
       ]
     }

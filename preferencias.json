@@ -6,7 +6,20 @@
   "acento": "#FFD23F",
   "estilo": "documental",
   "fuente": "mixto",
-  "voz": { "id": "htFfPSZGJwjBv1CL0aMD", "nombre": "Antonio" },
+  "voz": {
+    "id": "htFfPSZGJwjBv1CL0aMD",
+    "nombre": "Antonio"
+  },
   "musica": null,
-  "redes": {}
+  "redes": {},
+  "clientes": {
+    "Azzure": {
+      "tipo": "salón de belleza",
+      "marcaAgua": "@Azzure",
+      "dicho": "Azur",
+      "cierre": "Síguenos en @Azzure para más consejos de belleza y cuidado.",
+      "estilo": "luminoso",
+      "fuente": "mixto"
+    }
+  }
 }

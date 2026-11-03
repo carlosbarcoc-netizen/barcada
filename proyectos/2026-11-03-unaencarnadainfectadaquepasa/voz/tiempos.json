@@ -1,83 +1,83 @@
 {
-  "huella": "e99b9086ba8c",
-  "duracion": 60.043,
+  "huella": "5682da85d72d",
+  "duracion": 57.674,
   "frases": [
     {
       "n": 1,
       "texto": "Un corte de más en la uña del pie puede terminar en el hueso.",
       "clave": "hueso",
       "inicio": 0,
-      "fin": 3.344,
+      "fin": 3.506,
       "palabras": [
         {
           "texto": "Un",
           "inicio": 0,
-          "fin": 0.244
+          "fin": 0.128
         },
         {
           "texto": "corte",
-          "inicio": 0.29,
-          "fin": 0.522
+          "inicio": 0.186,
+          "fin": 0.43
         },
         {
           "texto": "de",
-          "inicio": 0.569,
-          "fin": 0.639
+          "inicio": 0.476,
+          "fin": 0.546
         },
         {
           "texto": "más",
-          "inicio": 0.697,
-          "fin": 0.871
+          "inicio": 0.604,
+          "fin": 0.929
         },
         {
           "texto": "en",
-          "inicio": 0.929,
-          "fin": 0.987
+          "inicio": 1.103,
+          "fin": 1.231
         },
         {
           "texto": "la",
-          "inicio": 1.045,
-          "fin": 1.103
+          "inicio": 1.3,
+          "fin": 1.358
         },
         {
           "texto": "uña",
-          "inicio": 1.161,
-          "fin": 1.347
+          "inicio": 1.405,
+          "fin": 1.614
         },
         {
           "texto": "del",
-          "inicio": 1.382,
-          "fin": 1.486
+          "inicio": 1.649,
+          "fin": 1.765
         },
         {
           "texto": "pie",
-          "inicio": 1.556,
-          "fin": 1.73
+          "inicio": 1.823,
+          "fin": 2.055
         },
         {
           "texto": "puede",
-          "inicio": 1.776,
-          "fin": 2.02
+          "inicio": 2.148,
+          "fin": 2.38
         },
         {
           "texto": "terminar",
-          "inicio": 2.067,
-          "fin": 2.519
+          "inicio": 2.426,
+          "fin": 2.833
         },
         {
           "texto": "en",
-          "inicio": 2.566,
-          "fin": 2.624
+          "inicio": 2.879,
+          "fin": 2.926
         },
         {
           "texto": "el",
-          "inicio": 2.694,
-          "fin": 2.798
+          "inicio": 2.984,
+          "fin": 3.077
         },
         {
           "texto": "hueso.",
-          "inicio": 2.833,
-          "fin": 3.344
+          "inicio": 3.1,
+          "fin": 3.506
         }
       ]
     },
@@ -85,63 +85,63 @@
       "n": 2,
       "texto": "Así empieza: la cortas muy corta y le redondeas las esquinas.",
       "clave": "esquinas",
-      "inicio": 3.855,
-      "fin": 8.092,
+      "inicio": 3.657,
+      "fin": 8.429,
       "palabras": [
         {
           "texto": "Así",
-          "inicio": 3.855,
-          "fin": 4.11
+          "inicio": 3.657,
+          "fin": 3.901
         },
         {
           "texto": "empieza:",
-          "inicio": 4.156,
-          "fin": 4.865
+          "inicio": 3.959,
+          "fin": 4.598
         },
         {
           "texto": "la",
-          "inicio": 5.375,
-          "fin": 5.457
+          "inicio": 5.294,
+          "fin": 5.375
         },
         {
           "texto": "cortas",
-          "inicio": 5.526,
-          "fin": 5.875
+          "inicio": 5.445,
+          "fin": 5.805
         },
         {
           "texto": "muy",
-          "inicio": 5.944,
-          "fin": 6.107
+          "inicio": 5.863,
+          "fin": 6.014
         },
         {
           "texto": "corta",
-          "inicio": 6.188,
-          "fin": 6.513
+          "inicio": 6.072,
+          "fin": 6.49
         },
         {
           "texto": "y",
-          "inicio": 6.536,
-          "fin": 6.56
+          "inicio": 6.664,
+          "fin": 6.745
         },
         {
           "texto": "le",
-          "inicio": 6.618,
-          "fin": 6.687
+          "inicio": 6.838,
+          "fin": 6.908
         },
         {
           "texto": "redondeas",
-          "inicio": 6.745,
-          "fin": 7.175
+          "inicio": 6.966,
+          "fin": 7.477
         },
         {
           "texto": "las",
-          "inicio": 7.233,
-          "fin": 7.349
+          "inicio": 7.523,
+          "fin": 7.651
         },
         {
           "texto": "esquinas.",
-          "inicio": 7.419,
-          "fin": 8.092
+          "inicio": 7.709,
+          "fin": 8.429
         }
       ]
     },
@@ -149,73 +149,73 @@
       "n": 3,
       "texto": "Al crecer, la esquina no encuentra salida y se clava en la piel.",
       "clave": "clava",
-      "inicio": 8.789,
-      "fin": 12.399,
+      "inicio": 9.125,
+      "fin": 12.62,
       "palabras": [
         {
           "texto": "Al",
-          "inicio": 8.789,
-          "fin": 8.94
+          "inicio": 9.125,
+          "fin": 9.3
         },
         {
           "texto": "crecer,",
-          "inicio": 8.986,
-          "fin": 9.427
+          "inicio": 9.346,
+          "fin": 9.764
         },
         {
           "texto": "la",
-          "inicio": 9.462,
-          "fin": 9.532
+          "inicio": 9.799,
+          "fin": 9.857
         },
         {
           "texto": "esquina",
-          "inicio": 9.567,
-          "fin": 9.938
+          "inicio": 9.892,
+          "fin": 10.24
         },
         {
           "texto": "no",
-          "inicio": 9.985,
-          "fin": 10.054
+          "inicio": 10.286,
+          "fin": 10.356
         },
         {
           "texto": "encuentra",
-          "inicio": 10.089,
-          "fin": 10.507
+          "inicio": 10.391,
+          "fin": 10.82
         },
         {
           "texto": "salida",
-          "inicio": 10.553,
-          "fin": 11.018
+          "inicio": 10.867,
+          "fin": 11.308
         },
         {
           "texto": "y",
-          "inicio": 11.192,
-          "fin": 11.273
+          "inicio": 11.378,
+          "fin": 11.424
         },
         {
           "texto": "se",
-          "inicio": 11.355,
-          "fin": 11.436
+          "inicio": 11.494,
+          "fin": 11.598
         },
         {
           "texto": "clava",
-          "inicio": 11.471,
-          "fin": 11.714
+          "inicio": 11.656,
+          "fin": 11.947
         },
         {
           "texto": "en",
-          "inicio": 11.738,
-          "fin": 11.784
+          "inicio": 11.97,
+          "fin": 12.016
         },
         {
           "texto": "la",
-          "inicio": 11.831,
-          "fin": 11.889
+          "inicio": 12.074,
+          "fin": 12.132
         },
         {
           "texto": "piel.",
-          "inicio": 11.947,
-          "fin": 12.399
+          "inicio": 12.19,
+          "fin": 12.62
         }
       ]
     },
@@ -223,43 +223,43 @@
       "n": 4,
       "texto": "Y el zapato la empuja todavía más.",
       "clave": "zapato",
-      "inicio": 13.003,
-      "fin": 15.093,
+      "inicio": 13.131,
+      "fin": 15.174,
       "palabras": [
         {
           "texto": "Y",
-          "inicio": 13.003,
-          "fin": 13.061
+          "inicio": 13.131,
+          "fin": 13.201
         },
         {
           "texto": "el",
-          "inicio": 13.131,
-          "fin": 13.177
+          "inicio": 13.259,
+          "fin": 13.305
         },
         {
           "texto": "zapato",
-          "inicio": 13.212,
-          "fin": 13.549
+          "inicio": 13.351,
+          "fin": 13.688
         },
         {
           "texto": "la",
-          "inicio": 13.595,
-          "fin": 13.642
+          "inicio": 13.735,
+          "fin": 13.781
         },
         {
           "texto": "empuja",
-          "inicio": 13.665,
-          "fin": 14.025
+          "inicio": 13.804,
+          "fin": 14.141
         },
         {
           "texto": "todavía",
-          "inicio": 14.071,
-          "fin": 14.489
+          "inicio": 14.187,
+          "fin": 14.605
         },
         {
           "texto": "más.",
-          "inicio": 14.547,
-          "fin": 15.093
+          "inicio": 14.663,
+          "fin": 15.174
         }
       ]
     },
@@ -267,63 +267,63 @@
       "n": 5,
       "texto": "El dedo se pone rojo, se hincha y duele al caminar.",
       "clave": "duele",
-      "inicio": 15.79,
-      "fin": 19.4,
+      "inicio": 15.871,
+      "fin": 19.655,
       "palabras": [
         {
           "texto": "El",
-          "inicio": 15.79,
-          "fin": 15.975
+          "inicio": 15.871,
+          "fin": 16.068
         },
         {
           "texto": "dedo",
-          "inicio": 16.021,
-          "fin": 16.23
+          "inicio": 16.114,
+          "fin": 16.335
         },
         {
           "texto": "se",
-          "inicio": 16.288,
-          "fin": 16.37
+          "inicio": 16.405,
+          "fin": 16.486
         },
         {
           "texto": "pone",
-          "inicio": 16.428,
-          "fin": 16.672
+          "inicio": 16.544,
+          "fin": 16.753
         },
         {
           "texto": "rojo,",
-          "inicio": 16.741,
-          "fin": 17.206
+          "inicio": 16.811,
+          "fin": 17.275
         },
         {
           "texto": "se",
-          "inicio": 17.322,
-          "fin": 17.473
+          "inicio": 17.45,
+          "fin": 17.601
         },
         {
           "texto": "hincha",
-          "inicio": 17.508,
-          "fin": 18.018
+          "inicio": 17.635,
+          "fin": 18.135
         },
         {
           "texto": "y",
-          "inicio": 18.193,
-          "fin": 18.309
+          "inicio": 18.46,
+          "fin": 18.576
         },
         {
           "texto": "duele",
-          "inicio": 18.39,
-          "fin": 18.669
+          "inicio": 18.657,
+          "fin": 18.936
         },
         {
           "texto": "al",
-          "inicio": 18.703,
-          "fin": 18.761
+          "inicio": 18.959,
+          "fin": 19.017
         },
         {
           "texto": "caminar.",
-          "inicio": 18.831,
-          "fin": 19.4
+          "inicio": 19.075,
+          "fin": 19.655
         }
       ]
     },
@@ -331,58 +331,58 @@
       "n": 6,
       "texto": "Esa pequeña herida es una puerta abierta para las bacterias.",
       "clave": "bacterias",
-      "inicio": 20.097,
-      "fin": 23.104,
+      "inicio": 20.259,
+      "fin": 23.162,
       "palabras": [
         {
           "texto": "Esa",
-          "inicio": 20.097,
-          "fin": 20.329
+          "inicio": 20.259,
+          "fin": 20.491
         },
         {
           "texto": "pequeña",
-          "inicio": 20.375,
-          "fin": 20.7
+          "inicio": 20.538,
+          "fin": 20.863
         },
         {
           "texto": "herida",
-          "inicio": 20.723,
-          "fin": 20.991
+          "inicio": 20.886,
+          "fin": 21.153
         },
         {
           "texto": "es",
-          "inicio": 21.014,
-          "fin": 21.072
+          "inicio": 21.176,
+          "fin": 21.234
         },
         {
           "texto": "una",
-          "inicio": 21.153,
-          "fin": 21.292
+          "inicio": 21.316,
+          "fin": 21.455
         },
         {
           "texto": "puerta",
-          "inicio": 21.35,
-          "fin": 21.629
+          "inicio": 21.513,
+          "fin": 21.78
         },
         {
           "texto": "abierta",
-          "inicio": 21.652,
-          "fin": 22.059
+          "inicio": 21.803,
+          "fin": 22.14
         },
         {
           "texto": "para",
-          "inicio": 22.105,
-          "fin": 22.244
+          "inicio": 22.186,
+          "fin": 22.314
         },
         {
           "texto": "las",
-          "inicio": 22.279,
-          "fin": 22.372
+          "inicio": 22.361,
+          "fin": 22.465
         },
         {
           "texto": "bacterias.",
-          "inicio": 22.407,
-          "fin": 23.104
+          "inicio": 22.5,
+          "fin": 23.162
         }
       ]
     },
@@ -390,43 +390,43 @@
       "n": 7,
       "texto": "Si sale pus, ya es una infección.",
       "clave": "infección",
-      "inicio": 23.545,
-      "fin": 25.774,
+      "inicio": 23.765,
+      "fin": 26.552,
       "palabras": [
         {
           "texto": "Si",
-          "inicio": 23.545,
-          "fin": 23.672
+          "inicio": 23.765,
+          "fin": 23.94
         },
         {
           "texto": "sale",
-          "inicio": 23.719,
-          "fin": 23.916
+          "inicio": 24.009,
+          "fin": 24.288
         },
         {
           "texto": "pus,",
-          "inicio": 23.974,
-          "fin": 24.415
+          "inicio": 24.346,
+          "fin": 24.868
         },
         {
           "texto": "ya",
-          "inicio": 24.624,
-          "fin": 24.729
+          "inicio": 25.251,
+          "fin": 25.391
         },
         {
           "texto": "es",
-          "inicio": 24.764,
-          "fin": 24.822
+          "inicio": 25.46,
+          "fin": 25.542
         },
         {
           "texto": "una",
-          "inicio": 24.903,
-          "fin": 25.008
+          "inicio": 25.658,
+          "fin": 25.774
         },
         {
           "texto": "infección.",
-          "inicio": 25.042,
-          "fin": 25.774
+          "inicio": 25.797,
+          "fin": 26.552
         }
       ]
     },
@@ -434,83 +434,83 @@
       "n": 8,
       "texto": "Y si no haces nada, puede extenderse por la piel del pie: se llama celulitis.",
       "clave": "celulitis",
-      "inicio": 26.285,
-      "fin": 30.696,
+      "inicio": 27.156,
+      "fin": 32.206,
       "palabras": [
         {
           "texto": "Y",
-          "inicio": 26.285,
-          "fin": 26.366
+          "inicio": 27.156,
+          "fin": 27.248
         },
         {
           "texto": "si",
-          "inicio": 26.436,
-          "fin": 26.505
+          "inicio": 27.341,
+          "fin": 27.434
         },
         {
           "texto": "no",
-          "inicio": 26.563,
-          "fin": 26.633
+          "inicio": 27.504,
+          "fin": 27.597
         },
         {
           "texto": "haces",
-          "inicio": 26.656,
-          "fin": 26.854
+          "inicio": 27.643,
+          "fin": 27.922
         },
         {
           "texto": "nada,",
-          "inicio": 26.9,
-          "fin": 27.132
+          "inicio": 27.991,
+          "fin": 28.421
         },
         {
           "texto": "puede",
-          "inicio": 27.167,
-          "fin": 27.364
+          "inicio": 28.537,
+          "fin": 28.746
         },
         {
           "texto": "extenderse",
-          "inicio": 27.388,
-          "fin": 27.91
+          "inicio": 28.769,
+          "fin": 29.303
         },
         {
           "texto": "por",
-          "inicio": 27.968,
-          "fin": 28.073
+          "inicio": 29.35,
+          "fin": 29.478
         },
         {
           "texto": "la",
-          "inicio": 28.119,
-          "fin": 28.189
+          "inicio": 29.524,
+          "fin": 29.582
         },
         {
           "texto": "piel",
-          "inicio": 28.235,
-          "fin": 28.432
+          "inicio": 29.628,
+          "fin": 29.803
         },
         {
           "texto": "del",
-          "inicio": 28.479,
-          "fin": 28.583
+          "inicio": 29.849,
+          "fin": 29.954
         },
         {
           "texto": "pie:",
-          "inicio": 28.641,
-          "fin": 29.059
+          "inicio": 30.012,
+          "fin": 30.43
         },
         {
           "texto": "se",
-          "inicio": 29.443,
-          "fin": 29.559
+          "inicio": 30.813,
+          "fin": 30.94
         },
         {
           "texto": "llama",
-          "inicio": 29.582,
-          "fin": 29.826
+          "inicio": 30.964,
+          "fin": 31.231
         },
         {
           "texto": "celulitis.",
-          "inicio": 29.861,
-          "fin": 30.696
+          "inicio": 31.265,
+          "fin": 32.206
         }
       ]
     },
@@ -518,73 +518,73 @@
       "n": 9,
       "texto": "En casos raros llega al hueso, y con diabetes el riesgo es mayor.",
       "clave": "diabetes",
-      "inicio": 31.207,
-      "fin": 34.83,
+      "inicio": 32.902,
+      "fin": 37.523,
       "palabras": [
         {
           "texto": "En",
-          "inicio": 31.207,
-          "fin": 31.347
+          "inicio": 32.902,
+          "fin": 33.041
         },
         {
           "texto": "casos",
-          "inicio": 31.393,
-          "fin": 31.649
+          "inicio": 33.099,
+          "fin": 33.39
         },
         {
           "texto": "raros",
-          "inicio": 31.742,
-          "fin": 32.009
+          "inicio": 33.483,
+          "fin": 33.866
         },
         {
           "texto": "llega",
-          "inicio": 32.032,
-          "fin": 32.253
+          "inicio": 34.017,
+          "fin": 34.319
         },
         {
           "texto": "al",
-          "inicio": 32.276,
-          "fin": 32.334
+          "inicio": 34.342,
+          "fin": 34.423
         },
         {
           "texto": "hueso,",
-          "inicio": 32.38,
-          "fin": 32.81
+          "inicio": 34.458,
+          "fin": 35.004
         },
         {
           "texto": "y",
-          "inicio": 32.926,
-          "fin": 33.007
+          "inicio": 35.329,
+          "fin": 35.421
         },
         {
           "texto": "con",
-          "inicio": 33.088,
-          "fin": 33.205
+          "inicio": 35.503,
+          "fin": 35.63
         },
         {
           "texto": "diabetes",
-          "inicio": 33.251,
-          "fin": 33.692
+          "inicio": 35.677,
+          "fin": 36.176
         },
         {
           "texto": "el",
-          "inicio": 33.75,
-          "fin": 33.808
+          "inicio": 36.292,
+          "fin": 36.432
         },
         {
           "texto": "riesgo",
-          "inicio": 33.878,
-          "fin": 34.18
+          "inicio": 36.501,
+          "fin": 36.826
         },
         {
           "texto": "es",
-          "inicio": 34.203,
-          "fin": 34.249
+          "inicio": 36.873,
+          "fin": 36.931
         },
         {
           "texto": "mayor.",
-          "inicio": 34.308,
-          "fin": 34.83
+          "inicio": 37,
+          "fin": 37.523
         }
       ]
     },
@@ -592,83 +592,83 @@
       "n": 10,
       "texto": "Por eso la higiene de tus pies no es un lujo: limpios y bien secos.",
       "clave": "higiene",
-      "inicio": 35.527,
-      "fin": 40.716,
+      "inicio": 38.127,
+      "fin": 42.968,
       "palabras": [
         {
           "texto": "Por",
-          "inicio": 35.527,
-          "fin": 35.701
+          "inicio": 38.127,
+          "fin": 38.301
         },
         {
           "texto": "eso",
-          "inicio": 35.736,
-          "fin": 35.863
+          "inicio": 38.347,
+          "fin": 38.487
         },
         {
           "texto": "la",
-          "inicio": 35.921,
-          "fin": 35.968
+          "inicio": 38.533,
+          "fin": 38.591
         },
         {
           "texto": "higiene",
-          "inicio": 35.991,
-          "fin": 36.339
+          "inicio": 38.614,
+          "fin": 38.963
         },
         {
           "texto": "de",
-          "inicio": 36.374,
-          "fin": 36.444
+          "inicio": 39.009,
+          "fin": 39.067
         },
         {
           "texto": "tus",
-          "inicio": 36.49,
-          "fin": 36.653
+          "inicio": 39.113,
+          "fin": 39.276
         },
         {
           "texto": "pies",
-          "inicio": 36.711,
-          "fin": 37.036
+          "inicio": 39.334,
+          "fin": 39.531
         },
         {
           "texto": "no",
-          "inicio": 37.28,
-          "fin": 37.407
+          "inicio": 39.601,
+          "fin": 39.682
         },
         {
           "texto": "es",
-          "inicio": 37.442,
-          "fin": 37.5
+          "inicio": 39.717,
+          "fin": 39.775
         },
         {
           "texto": "un",
-          "inicio": 37.582,
-          "fin": 37.651
+          "inicio": 39.868,
+          "fin": 39.938
         },
         {
           "texto": "lujo:",
-          "inicio": 37.709,
-          "fin": 38.197
+          "inicio": 39.996,
+          "fin": 40.53
         },
         {
           "texto": "limpios",
-          "inicio": 39.01,
-          "fin": 39.532
+          "inicio": 41.482,
+          "fin": 41.993
         },
         {
           "texto": "y",
-          "inicio": 39.683,
-          "fin": 39.764
+          "inicio": 42.039,
+          "fin": 42.074
         },
         {
           "texto": "bien",
-          "inicio": 39.834,
-          "fin": 40.043
+          "inicio": 42.12,
+          "fin": 42.295
         },
         {
           "texto": "secos.",
-          "inicio": 40.113,
-          "fin": 40.716
+          "inicio": 42.364,
+          "fin": 42.968
         }
       ]
     },
@@ -676,68 +676,68 @@
       "n": 11,
       "texto": "Córtalas en línea recta, a la altura de la punta del dedo.",
       "clave": "recta",
-      "inicio": 41.668,
-      "fin": 44.965,
+      "inicio": 43.572,
+      "fin": 46.846,
       "palabras": [
         {
           "texto": "Córtalas",
-          "inicio": 41.668,
-          "fin": 42.167
+          "inicio": 43.572,
+          "fin": 44.048
         },
         {
           "texto": "en",
-          "inicio": 42.237,
-          "fin": 42.295
+          "inicio": 44.117,
+          "fin": 44.175
         },
         {
           "texto": "línea",
-          "inicio": 42.353,
-          "fin": 42.597
+          "inicio": 44.21,
+          "fin": 44.466
         },
         {
           "texto": "recta,",
-          "inicio": 42.667,
-          "fin": 43.143
+          "inicio": 44.535,
+          "fin": 45.011
         },
         {
           "texto": "a",
-          "inicio": 43.294,
-          "fin": 43.328
+          "inicio": 45.162,
+          "fin": 45.22
         },
         {
           "texto": "la",
-          "inicio": 43.398,
-          "fin": 43.445
+          "inicio": 45.278,
+          "fin": 45.336
         },
         {
           "texto": "altura",
-          "inicio": 43.468,
-          "fin": 43.735
+          "inicio": 45.36,
+          "fin": 45.661
         },
         {
           "texto": "de",
-          "inicio": 43.781,
-          "fin": 43.839
+          "inicio": 45.696,
+          "fin": 45.754
         },
         {
           "texto": "la",
-          "inicio": 43.874,
-          "fin": 43.944
+          "inicio": 45.789,
+          "fin": 45.859
         },
         {
           "texto": "punta",
-          "inicio": 44.002,
-          "fin": 44.292
+          "inicio": 45.917,
+          "fin": 46.219
         },
         {
           "texto": "del",
-          "inicio": 44.327,
-          "fin": 44.455
+          "inicio": 46.254,
+          "fin": 46.381
         },
         {
           "texto": "dedo.",
-          "inicio": 44.501,
-          "fin": 44.965
+          "inicio": 46.428,
+          "fin": 46.846
         }
       ]
     },
@@ -745,201 +745,147 @@
       "n": 12,
       "texto": "Y si ya está roja o con pus, no la cortes tú: busca a un profesional.",
       "clave": "profesional",
-      "inicio": 45.778,
-      "fin": 51.699,
+      "inicio": 47.542,
+      "fin": 53.371,
       "palabras": [
         {
           "texto": "Y",
-          "inicio": 45.778,
-          "fin": 45.894
+          "inicio": 47.542,
+          "fin": 47.624
         },
         {
           "texto": "si",
-          "inicio": 45.976,
-          "fin": 46.068
+          "inicio": 47.74,
+          "fin": 47.844
         },
         {
           "texto": "ya",
-          "inicio": 46.115,
-          "fin": 46.196
+          "inicio": 47.902,
+          "fin": 48.007
         },
         {
           "texto": "está",
-          "inicio": 46.231,
-          "fin": 46.417
+          "inicio": 48.042,
+          "fin": 48.251
         },
         {
           "texto": "roja",
-          "inicio": 46.498,
-          "fin": 46.904
+          "inicio": 48.32,
+          "fin": 48.657
         },
         {
           "texto": "o",
-          "inicio": 47.148,
-          "fin": 47.241
+          "inicio": 48.773,
+          "fin": 48.843
         },
         {
           "texto": "con",
-          "inicio": 47.311,
-          "fin": 47.438
+          "inicio": 48.901,
+          "fin": 49.028
         },
         {
           "texto": "pus,",
-          "inicio": 47.52,
-          "fin": 48.17
+          "inicio": 49.098,
+          "fin": 49.586
         },
         {
           "texto": "no",
-          "inicio": 48.681,
-          "fin": 48.797
+          "inicio": 50.189,
+          "fin": 50.305
         },
         {
           "texto": "la",
-          "inicio": 48.855,
-          "fin": 48.913
+          "inicio": 50.352,
+          "fin": 50.422
         },
         {
           "texto": "cortes",
-          "inicio": 48.971,
-          "fin": 49.319
+          "inicio": 50.48,
+          "fin": 50.828
         },
         {
           "texto": "tú:",
-          "inicio": 49.377,
-          "fin": 49.818
+          "inicio": 50.898,
+          "fin": 51.339
         },
         {
           "texto": "busca",
-          "inicio": 50.26,
-          "fin": 50.608
+          "inicio": 51.943,
+          "fin": 52.314
         },
         {
           "texto": "a",
-          "inicio": 50.631,
-          "fin": 50.654
+          "inicio": 52.337,
+          "fin": 52.361
         },
         {
           "texto": "un",
-          "inicio": 50.747,
-          "fin": 50.817
+          "inicio": 52.442,
+          "fin": 52.512
         },
         {
           "texto": "profesional.",
-          "inicio": 50.875,
-          "fin": 51.699
+          "inicio": 52.558,
+          "fin": 53.371
         }
       ]
     },
     {
       "n": 13,
-      "texto": "¿Quieres aprender a hacer estos videos que están siendo virales en internet?",
-      "clave": "virales",
-      "inicio": 52.082,
-      "fin": 55.902,
+      "texto": "Síguenos en @Azzure para más consejos de belleza y cuidado.",
+      "clave": "@Azzure",
+      "inicio": 53.812,
+      "fin": 57.074,
       "palabras": [
         {
-          "texto": "¿Quieres",
-          "inicio": 52.082,
-          "fin": 52.524
-        },
-        {
-          "texto": "aprender",
-          "inicio": 52.582,
-          "fin": 52.918
-        },
-        {
-          "texto": "a",
-          "inicio": 52.965,
-          "fin": 53.139
-        },
-        {
-          "texto": "hacer",
-          "inicio": 53.174,
-          "fin": 53.464
-        },
-        {
-          "texto": "estos",
-          "inicio": 53.51,
-          "fin": 53.719
-        },
-        {
-          "texto": "videos",
-          "inicio": 53.766,
-          "fin": 53.998
-        },
-        {
-          "texto": "que",
-          "inicio": 54.044,
-          "fin": 54.114
-        },
-        {
-          "texto": "están",
-          "inicio": 54.137,
-          "fin": 54.37
-        },
-        {
-          "texto": "siendo",
-          "inicio": 54.428,
-          "fin": 54.683
-        },
-        {
-          "texto": "virales",
-          "inicio": 54.729,
-          "fin": 55.113
+          "texto": "Síguenos",
+          "inicio": 53.812,
+          "fin": 54.253
         },
         {
           "texto": "en",
-          "inicio": 55.171,
-          "fin": 55.217
+          "inicio": 54.323,
+          "fin": 54.369
         },
         {
-          "texto": "internet?",
-          "inicio": 55.263,
-          "fin": 55.902
-        }
-      ]
-    },
-    {
-      "n": 14,
-      "texto": "Escribe la palabra VIRAL y te explico.",
-      "clave": "VIRAL",
-      "inicio": 56.285,
-      "fin": 59.443,
-      "palabras": [
-        {
-          "texto": "Escribe",
-          "inicio": 56.285,
-          "fin": 56.692
+          "texto": "@Azzure",
+          "inicio": 54.439,
+          "fin": 54.683
         },
         {
-          "texto": "la",
-          "inicio": 56.726,
-          "fin": 56.784
+          "texto": "para",
+          "inicio": 54.741,
+          "fin": 54.927
         },
         {
-          "texto": "palabra",
-          "inicio": 56.831,
-          "fin": 57.226
+          "texto": "más",
+          "inicio": 54.973,
+          "fin": 55.135
         },
         {
-          "texto": "VIRAL",
-          "inicio": 57.295,
-          "fin": 57.713
+          "texto": "consejos",
+          "inicio": 55.194,
+          "fin": 55.635
+        },
+        {
+          "texto": "de",
+          "inicio": 55.67,
+          "fin": 55.716
+        },
+        {
+          "texto": "belleza",
+          "inicio": 55.762,
+          "fin": 56.099
         },
         {
           "texto": "y",
-          "inicio": 58.41,
-          "fin": 58.526
+          "inicio": 56.134,
+          "fin": 56.169
         },
         {
-          "texto": "te",
-          "inicio": 58.607,
-          "fin": 58.665
-        },
-        {
-          "texto": "explico.",
-          "inicio": 58.688,
-          "fin": 59.443
+          "texto": "cuidado.",
+          "inicio": 56.215,
+          "fin": 57.074
         }
       ]
     }

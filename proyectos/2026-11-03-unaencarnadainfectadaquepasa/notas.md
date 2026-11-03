@@ -1,7 +1,7 @@
 # uña encarnada infectada que pasa si no haces nada
 
 Para: salón de belleza **@Azzure** (marca de agua suave en todo el video). Cierre propio de este video (no el de preferencias):
-«¿Quieres aprender a hacer estos videos que están siendo virales en internet? Escribe la palabra VIRAL y te explico.»
+«Síguenos en @Azzure para más consejos de belleza y cuidado.» (guardado en preferencias.json → clientes.Azzure)
 
 ## Datos (cada uno con su fuente)
 
