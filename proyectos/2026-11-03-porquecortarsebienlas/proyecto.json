@@ -1,0 +1,74 @@
+{
+  "titulo": "Por qué cortarse bien las uñas - Azure",
+  "estilo": "luminoso",
+  "calidad": "normal",
+  "sujeto": "",
+  "frases": [
+    {
+      "texto": "¿Te cortas las uñas bien cortitas para que duren más?",
+      "clave": "cortitas"
+    },
+    {
+      "texto": "Ese hábito puede terminar en una infección.",
+      "clave": "infección"
+    },
+    {
+      "texto": "Imagina a Ana: se cortó las uñas de los pies al ras y les redondeó las esquinas.",
+      "clave": "ras"
+    },
+    {
+      "texto": "Al crecer, una esquina se clavó en la piel, como una astilla: una uña encarnada.",
+      "clave": "encarnada"
+    },
+    {
+      "texto": "El dedo se puso rojo, se hinchó y le dolía al caminar.",
+      "clave": "rojo"
+    },
+    {
+      "texto": "Luego salió pus: la herida se infectó y la uña se dañó.",
+      "clave": "pus"
+    },
+    {
+      "texto": "Y no es raro: cortarlas demasiado cortas es una causa común, según la Clínica Mayo.",
+      "clave": "común"
+    },
+    {
+      "texto": "Para evitarlo, corta las de los pies en línea recta, sin redondear las esquinas.",
+      "clave": "recta"
+    },
+    {
+      "texto": "Déjalas a la altura de la punta del dedo, no más cortas.",
+      "clave": "punta"
+    },
+    {
+      "texto": "No cortes las cutículas: son una barrera contra los gérmenes.",
+      "clave": "cutículas"
+    },
+    {
+      "texto": "Y usa herramientas limpias y desinfectadas.",
+      "clave": "desinfectadas"
+    },
+    {
+      "texto": "Si notas enrojecimiento o pus, consulta a un médico.",
+      "clave": "médico"
+    },
+    {
+      "texto": "Cuida tus manos y tus pies con Azure, tu estudio de belleza.",
+      "clave": "Azure"
+    }
+  ],
+  "escenas": [
+    {
+      "nombre": "gancho",
+      "tomas": [
+        {
+          "desde": 0,
+          "imagen": "",
+          "movimiento": "acercar",
+          "rotulo": ""
+        }
+      ]
+    }
+  ],
+  "marcaDeAgua": "Azure"
+}
