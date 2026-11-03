@@ -1,37 +1,323 @@
-{ "titulo": "Café contra cacao", "estilo": "2d",
+{
+  "titulo": "Café contra cacao",
+  "estilo": "2d",
   "frases": [
-    { "texto": "Café contra cacao: ¿cuál te despierta más?", "clave": "despierta" },
-    { "texto": "Ronda uno: la cafeína.", "clave": "cafeína" },
-    { "texto": "Una taza de café tiene unos noventa y cinco miligramos.", "clave": "noventa" },
-    { "texto": "Una de chocolate caliente, apenas unos cinco.", "clave": "cinco" },
-    { "texto": "Uno a cero para el café.", "clave": "café" },
-    { "texto": "Pero el cacao trae teobromina, que te activa más suave y por más tiempo.", "clave": "teobromina" },
-    { "texto": "¿Tú con cuál te quedas?", "clave": "quedas" },
-    { "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.", "clave": "NativoTerrus", "dicho": "Síguenos en Nativo Terrus para descubrir la ciencia detrás de los alimentos." }
+    {
+      "texto": "¡Café contra cacao! ¿Cuál te despierta más?",
+      "clave": "despierta"
+    },
+    {
+      "texto": "Ronda uno: ¡la cafeína!",
+      "clave": "cafeína"
+    },
+    {
+      "texto": "Una taza de café: ¡noventa y cinco miligramos!",
+      "clave": "noventa"
+    },
+    {
+      "texto": "¿Y una de chocolate caliente? Apenas unos cinco.",
+      "clave": "cinco"
+    },
+    {
+      "texto": "¡Uno a cero para el café!",
+      "clave": "café"
+    },
+    {
+      "texto": "Pero ojo, el cacao trae teobromina: te activa más suave y por más tiempo.",
+      "clave": "teobromina"
+    },
+    {
+      "texto": "Y tú, ¿con cuál te quedas? ¡Te leo!",
+      "clave": "quedas"
+    },
+    {
+      "texto": "Síguenos para más duelos como este.",
+      "clave": "duelos"
+    }
   ],
-  "escenas": [ { "nombre": "el duelo", "tomas": [
-    { "desde": 0, "dibujo": { "fondo": "mitades", "fondoOpts": { "paleta": ["#d6e8ff", "#fbe3cf"], "suelo": 1430 },
-      "camara": [[0, { "zoom": 1.12, "y": 1000 }], ["1:despierta", { "zoom": 1 }]],
-      "elementos": [
-        { "pieza": "etiqueta", "texto": "CAFÉ", "x": 270, "y": 820, "entra": "aparece", "en": "1:cafe", "tinta": "#1f3f8f", "tamano": 54 },
-        { "pieza": "etiqueta", "texto": "CACAO", "x": 810, "y": 820, "entra": "aparece", "en": "1:cacao", "tinta": "#8a3a12", "tamano": 54 },
-        { "pieza": "taza", "x": 270, "y": 1180, "escala": 0.95, "entra": "izquierda", "en": 0.05 },
-        { "pieza": "taza", "liquido": "cacao", "color": "blanco", "x": 810, "y": 1180, "escala": 0.95, "entra": "derecha", "en": "1:cacao" },
-        { "pieza": "marcador", "x": 540, "y": 640, "escala": 0.9, "entra": "rebote", "en": "1:despierta", "params": { "a": [["5:uno", 0], ["5:cero", 1]] }, "a": 0, "b": 0 },
-        { "pieza": "pildora", "texto": "RONDA 1 · CAFEÍNA", "color": "naranja", "x": 540, "y": 1490, "entra": "sube", "en": "2:ronda", "hasta": "6:pero" },
-        { "pieza": "contador", "x": 270, "y": 960, "tamano": 120, "tinta": "#3a6bff", "despues": " mg", "entra": "rebote", "en": "3:taza", "params": { "valor": [["3:taza", 0], ["3:miligramos", 95]] }, "hasta": "6:pero" },
-        { "pieza": "contador", "x": 810, "y": 960, "tamano": 120, "tinta": "#c0561a", "despues": " mg", "entra": "rebote", "en": "4:chocolate", "params": { "valor": [["4:chocolate", 0], ["4:cinco", 5]] }, "hasta": "6:pero" },
-        { "pieza": "signo", "tipo": "check", "x": 400, "y": 1050, "escala": 0.35, "entra": "rebote", "en": "5:cafe", "hasta": "6:pero" },
-        { "pieza": "pildora", "texto": "RONDA 2 · DURACIÓN", "color": "morado", "x": 540, "y": 1490, "entra": "sube", "en": "6:pero" },
-        { "pieza": "bateria", "x": 270, "y": 960, "escala": 0.75, "entra": "rebote", "en": "6:teobromina", "params": { "nivel": [["6:activa", 1], ["6:tiempo", 0.15]] } },
-        { "pieza": "bateria", "x": 810, "y": 960, "escala": 0.75, "entra": "rebote", "en": "6:teobromina", "params": { "nivel": [["6:activa", 0.75], ["6:tiempo", 0.7]] } },
-        { "pieza": "aro", "x": 810, "y": 1180, "radio": 260, "entra": "aparece", "en": "6:suave", "params": { "dibuja": [["6:suave", 0], ["6:tiempo", 1]] } }
-      ] } },
-    { "desde": 7, "dibujo": { "fondo": "luces",
-      "elementos": [
-        { "pieza": "encuesta", "pregunta": "¿CON CUÁL TE QUEDAS?", "a": "CAFÉ", "b": "CACAO", "colorA": "#3a6bff", "colorB": "#c0561a", "x": 540, "y": 900, "entra": "rebote", "en": 0.05, "hasta": "8:siguenos" },
-        { "pieza": "orbe", "texto": "CAFÉ", "tinta": "#8fb6ff", "x": 330, "y": 1250, "largo": 600, "entra": "aparece", "en": 0.3, "hasta": "8:siguenos" },
-        { "pieza": "orbe", "texto": "CACAO", "tinta": "#ffb27a", "x": 750, "y": 1250, "largo": 600, "entra": "aparece", "en": 0.5, "hasta": "8:siguenos" },
-        { "pieza": "titular", "texto": "NATIVOTERRUS", "debajo": "APRENDE · TRANSFORMA · EMPRENDE", "tamano": 150, "x": 540, "y": 980, "entra": "rebote", "en": "8:nativoterrus" }
-      ] } }
-  ] } ] }
+  "escenas": [
+    {
+      "nombre": "el duelo",
+      "tomas": [
+        {
+          "desde": 0,
+          "dibujo": {
+            "fondo": "mitades",
+            "fondoOpts": {
+              "paleta": [
+                "#d6e8ff",
+                "#fbe3cf"
+              ],
+              "suelo": 1430
+            },
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.12,
+                  "y": 1000
+                }
+              ],
+              [
+                "1:despierta",
+                {
+                  "zoom": 1
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "etiqueta",
+                "texto": "CAFÉ",
+                "x": 270,
+                "y": 820,
+                "entra": "aparece",
+                "en": "1:cafe",
+                "tinta": "#1f3f8f",
+                "tamano": 54
+              },
+              {
+                "pieza": "etiqueta",
+                "texto": "CACAO",
+                "x": 810,
+                "y": 820,
+                "entra": "aparece",
+                "en": "1:cacao",
+                "tinta": "#8a3a12",
+                "tamano": 54
+              },
+              {
+                "pieza": "taza",
+                "x": 270,
+                "y": 1180,
+                "escala": 0.95,
+                "entra": "izquierda",
+                "en": 0.05
+              },
+              {
+                "pieza": "taza",
+                "liquido": "cacao",
+                "color": "blanco",
+                "x": 810,
+                "y": 1180,
+                "escala": 0.95,
+                "entra": "derecha",
+                "en": "1:cacao"
+              },
+              {
+                "pieza": "marcador",
+                "x": 540,
+                "y": 640,
+                "escala": 0.9,
+                "entra": "rebote",
+                "en": "1:despierta",
+                "params": {
+                  "a": [
+                    [
+                      "5:uno",
+                      0
+                    ],
+                    [
+                      "5:cero",
+                      1
+                    ]
+                  ]
+                },
+                "a": 0,
+                "b": 0
+              },
+              {
+                "pieza": "pildora",
+                "texto": "RONDA 1 · CAFEÍNA",
+                "color": "naranja",
+                "x": 540,
+                "y": 1490,
+                "entra": "sube",
+                "en": "2:ronda",
+                "hasta": "6:pero"
+              },
+              {
+                "pieza": "contador",
+                "x": 270,
+                "y": 960,
+                "tamano": 120,
+                "tinta": "#3a6bff",
+                "despues": " mg",
+                "entra": "rebote",
+                "en": "3:taza",
+                "params": {
+                  "valor": [
+                    [
+                      "3:taza",
+                      0
+                    ],
+                    [
+                      "3:miligramos",
+                      95
+                    ]
+                  ]
+                },
+                "hasta": "6:pero"
+              },
+              {
+                "pieza": "contador",
+                "x": 810,
+                "y": 960,
+                "tamano": 120,
+                "tinta": "#c0561a",
+                "despues": " mg",
+                "entra": "rebote",
+                "en": "4:chocolate",
+                "params": {
+                  "valor": [
+                    [
+                      "4:chocolate",
+                      0
+                    ],
+                    [
+                      "4:cinco",
+                      5
+                    ]
+                  ]
+                },
+                "hasta": "6:pero"
+              },
+              {
+                "pieza": "signo",
+                "tipo": "check",
+                "x": 400,
+                "y": 1050,
+                "escala": 0.35,
+                "entra": "rebote",
+                "en": "5:cafe",
+                "hasta": "6:pero"
+              },
+              {
+                "pieza": "pildora",
+                "texto": "RONDA 2 · DURACIÓN",
+                "color": "morado",
+                "x": 540,
+                "y": 1490,
+                "entra": "sube",
+                "en": "6:pero"
+              },
+              {
+                "pieza": "bateria",
+                "x": 270,
+                "y": 960,
+                "escala": 0.75,
+                "entra": "rebote",
+                "en": "6:teobromina",
+                "params": {
+                  "nivel": [
+                    [
+                      "6:activa",
+                      1
+                    ],
+                    [
+                      "6:tiempo",
+                      0.15
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "bateria",
+                "x": 810,
+                "y": 960,
+                "escala": 0.75,
+                "entra": "rebote",
+                "en": "6:teobromina",
+                "params": {
+                  "nivel": [
+                    [
+                      "6:activa",
+                      0.75
+                    ],
+                    [
+                      "6:tiempo",
+                      0.7
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "aro",
+                "x": 810,
+                "y": 1180,
+                "radio": 260,
+                "entra": "aparece",
+                "en": "6:suave",
+                "params": {
+                  "dibuja": [
+                    [
+                      "6:suave",
+                      0
+                    ],
+                    [
+                      "6:tiempo",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 7,
+          "dibujo": {
+            "fondo": "luces",
+            "elementos": [
+              {
+                "pieza": "encuesta",
+                "pregunta": "¿CON CUÁL TE QUEDAS?",
+                "a": "CAFÉ",
+                "b": "CACAO",
+                "colorA": "#3a6bff",
+                "colorB": "#c0561a",
+                "x": 540,
+                "y": 900,
+                "entra": "rebote",
+                "en": 0.05,
+                "hasta": "8:siguenos"
+              },
+              {
+                "pieza": "orbe",
+                "texto": "CAFÉ",
+                "tinta": "#8fb6ff",
+                "x": 330,
+                "y": 1250,
+                "largo": 600,
+                "entra": "aparece",
+                "en": 0.3,
+                "hasta": "8:siguenos"
+              },
+              {
+                "pieza": "orbe",
+                "texto": "CACAO",
+                "tinta": "#ffb27a",
+                "x": 750,
+                "y": 1250,
+                "largo": 600,
+                "entra": "aparece",
+                "en": 0.5,
+                "hasta": "8:siguenos"
+              },
+              {
+                "pieza": "titular",
+                "texto": "TU MARCA",
+                "debajo": "SÍGUENOS PARA MÁS",
+                "tamano": 150,
+                "x": 540,
+                "y": 980,
+                "entra": "rebote",
+                "en": "8:siguenos"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

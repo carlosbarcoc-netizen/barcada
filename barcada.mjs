@@ -29,11 +29,13 @@ const AYUDA = `Barcada · órdenes (todas desde esta carpeta):
   node barcada.mjs final <proyecto> [--fps 60]     video final 1080×1920 → entrega/video.mp4
   node barcada.mjs portada <proyecto> "Título con *clave*|segunda línea" [--toma n] [--etiqueta "¡nadie te lo dijo!"]
   node barcada.mjs estilos                         los estilos visuales disponibles
+  node barcada.mjs empaquetar                      el .zip de venta, limpio (dist/Barcada-vX.zip)
 `;
 
 try {
   switch (orden) {
     case "revisar": await (await import("./nucleo/extras.mjs")).revisar(); break;
+    case "empaquetar": (await import("./nucleo/empaquetar.mjs")).empaquetar(); break;
     case "estilos": { const { ESTILOS } = await import("./nucleo/imagenes.mjs"); for (const [k, e] of Object.entries(ESTILOS)) console.log(`${k.padEnd(12)} ${e.nombre} — ${e.para}`); break; }
     case "voces": {
       const vs = await (await import("./nucleo/voz.mjs")).buscarVoces({ acento: opcion("acento", ""), genero: opcion("genero", "") });

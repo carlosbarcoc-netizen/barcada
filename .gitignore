@@ -3,3 +3,4 @@ claves.env
 node_modules/
 proyectos/*/.montaje/
 proyectos/*/revisar/
+dist/
