@@ -1,0 +1,73 @@
+{
+  "titulo": "Uñas encarnadas",
+  "estilo": "2d",
+  "calidad": "normal",
+  "sujeto": "",
+  "frases": [
+    {
+      "texto": "¿Te cortas las uñas de los pies bien cortitas para que duren más?",
+      "clave": "cortitas"
+    },
+    {
+      "texto": "Ese corte puede terminar en una infección.",
+      "clave": "infección"
+    },
+    {
+      "texto": "Si cortas de más o redondeas las esquinas, el zapato empuja la uña contra la piel.",
+      "clave": "zapato"
+    },
+    {
+      "texto": "La esquina se clava como una astilla, y la uña se encarna.",
+      "clave": "encarna"
+    },
+    {
+      "texto": "Llegan el dolor, el enrojecimiento y la hinchazón.",
+      "clave": "hinchazón"
+    },
+    {
+      "texto": "Por esa herida entran bacterias, y aparece el pus.",
+      "clave": "pus"
+    },
+    {
+      "texto": "¿Y si no haces nada?",
+      "clave": "nada"
+    },
+    {
+      "texto": "La infección puede llegar hasta el hueso.",
+      "clave": "hueso"
+    },
+    {
+      "texto": "Con diabetes es más grave: el pie siente menos y recibe menos sangre.",
+      "clave": "diabetes"
+    },
+    {
+      "texto": "Por eso, córtalas rectas, sin redondear y no tan cortas.",
+      "clave": "rectas"
+    },
+    {
+      "texto": "Lava tus pies, sécalos bien entre los dedos y usa zapatos con espacio.",
+      "clave": "sécalos"
+    },
+    {
+      "texto": "Si ya hay pus o mucho dolor, ve con un especialista.",
+      "clave": "especialista"
+    },
+    {
+      "texto": "Sígueme para aprender más.",
+      "clave": "Sígueme"
+    }
+  ],
+  "escenas": [
+    {
+      "nombre": "gancho",
+      "tomas": [
+        {
+          "desde": 0,
+          "imagen": "",
+          "movimiento": "acercar",
+          "rotulo": ""
+        }
+      ]
+    }
+  ]
+}
