@@ -1,0 +1,716 @@
+{
+  "huella": "varias-voces",
+  "duracion": 47.355,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "¡SEÑORA, POR FAVOR! ¡LLEVAMOS TRES MESES SIN MANTENIMIENTO!",
+      "clave": "MANTENIMIENTO",
+      "quien": "pies",
+      "inicio": 0.15,
+      "fin": 4.097,
+      "palabras": [
+        {
+          "texto": "¡SEÑORA,",
+          "inicio": 0.15,
+          "fin": 0.626
+        },
+        {
+          "texto": "POR",
+          "inicio": 0.649,
+          "fin": 0.789
+        },
+        {
+          "texto": "FAVOR!",
+          "inicio": 0.8350000000000001,
+          "fin": 1.3459999999999999
+        },
+        {
+          "texto": "¡LLEVAMOS",
+          "inicio": 1.5659999999999998,
+          "fin": 2.042
+        },
+        {
+          "texto": "TRES",
+          "inicio": 2.112,
+          "fin": 2.3329999999999997
+        },
+        {
+          "texto": "MESES",
+          "inicio": 2.4019999999999997,
+          "fin": 2.7039999999999997
+        },
+        {
+          "texto": "SIN",
+          "inicio": 2.727,
+          "fin": 2.913
+        },
+        {
+          "texto": "MANTENIMIENTO!",
+          "inicio": 2.96,
+          "fin": 4.097
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "¡Ay, cálmate! Apenas llevo dos meses y medio...",
+      "clave": "cálmate",
+      "quien": "senora",
+      "inicio": 4.397,
+      "fin": 7.1370000000000005,
+      "palabras": [
+        {
+          "texto": "¡Ay,",
+          "inicio": 4.397,
+          "fin": 4.641
+        },
+        {
+          "texto": "cálmate!",
+          "inicio": 4.676,
+          "fin": 5.186
+        },
+        {
+          "texto": "Apenas",
+          "inicio": 5.2330000000000005,
+          "fin": 5.581
+        },
+        {
+          "texto": "llevo",
+          "inicio": 5.604,
+          "fin": 5.8020000000000005
+        },
+        {
+          "texto": "dos",
+          "inicio": 5.848000000000001,
+          "fin": 5.976
+        },
+        {
+          "texto": "meses",
+          "inicio": 6.034000000000001,
+          "fin": 6.289
+        },
+        {
+          "texto": "y",
+          "inicio": 6.336,
+          "fin": 6.359
+        },
+        {
+          "texto": "medio...",
+          "inicio": 6.417,
+          "fin": 7.1370000000000005
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "¡DOS MESES Y MEDIO! ¡YA ESTAMOS PIDIENDO PENSIÓN!",
+      "clave": "PENSIÓN",
+      "quien": "pies",
+      "inicio": 7.437,
+      "fin": 10.781,
+      "palabras": [
+        {
+          "texto": "¡DOS",
+          "inicio": 7.437,
+          "fin": 7.681
+        },
+        {
+          "texto": "MESES",
+          "inicio": 7.75,
+          "fin": 8.006
+        },
+        {
+          "texto": "Y",
+          "inicio": 8.052,
+          "fin": 8.087
+        },
+        {
+          "texto": "MEDIO!",
+          "inicio": 8.134,
+          "fin": 8.563
+        },
+        {
+          "texto": "¡YA",
+          "inicio": 8.853,
+          "fin": 9.097
+        },
+        {
+          "texto": "ESTAMOS",
+          "inicio": 9.132,
+          "fin": 9.492
+        },
+        {
+          "texto": "PIDIENDO",
+          "inicio": 9.55,
+          "fin": 9.922
+        },
+        {
+          "texto": "PENSIÓN!",
+          "inicio": 9.968,
+          "fin": 10.781
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Lo recomendable para muchas mujeres es hacerse un pedicure cada 3 a 4 semanas.",
+      "clave": "semanas",
+      "quien": "narradora",
+      "inicio": 11.081000000000001,
+      "fin": 15.725000000000001,
+      "palabras": [
+        {
+          "texto": "Lo",
+          "inicio": 11.081000000000001,
+          "fin": 11.22
+        },
+        {
+          "texto": "recomendable",
+          "inicio": 11.278,
+          "fin": 11.836000000000002
+        },
+        {
+          "texto": "para",
+          "inicio": 11.882000000000001,
+          "fin": 12.045000000000002
+        },
+        {
+          "texto": "muchas",
+          "inicio": 12.079,
+          "fin": 12.323
+        },
+        {
+          "texto": "mujeres",
+          "inicio": 12.346000000000002,
+          "fin": 12.683000000000002
+        },
+        {
+          "texto": "es",
+          "inicio": 12.741000000000001,
+          "fin": 12.811000000000002
+        },
+        {
+          "texto": "hacerse",
+          "inicio": 12.857000000000001,
+          "fin": 13.206000000000001
+        },
+        {
+          "texto": "un",
+          "inicio": 13.275000000000002,
+          "fin": 13.357000000000001
+        },
+        {
+          "texto": "pedicure",
+          "inicio": 13.403000000000002,
+          "fin": 13.856000000000002
+        },
+        {
+          "texto": "cada",
+          "inicio": 14.076,
+          "fin": 14.32
+        },
+        {
+          "texto": "3",
+          "inicio": 14.378000000000002,
+          "fin": 14.599
+        },
+        {
+          "texto": "a",
+          "inicio": 14.657000000000002,
+          "fin": 14.703000000000001
+        },
+        {
+          "texto": "4",
+          "inicio": 14.750000000000002,
+          "fin": 15.005
+        },
+        {
+          "texto": "semanas.",
+          "inicio": 15.040000000000001,
+          "fin": 15.725000000000001
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "Pero ojo, depende del crecimiento de tus uñas, la condición de tu piel y tus necesidades.",
+      "clave": "depende",
+      "quien": "narradora",
+      "inicio": 16.105,
+      "fin": 21.213,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 16.105,
+          "fin": 16.395
+        },
+        {
+          "texto": "ojo,",
+          "inicio": 16.465,
+          "fin": 16.767
+        },
+        {
+          "texto": "depende",
+          "inicio": 17.057000000000002,
+          "fin": 17.498
+        },
+        {
+          "texto": "del",
+          "inicio": 17.521,
+          "fin": 17.603
+        },
+        {
+          "texto": "crecimiento",
+          "inicio": 17.661,
+          "fin": 18.183
+        },
+        {
+          "texto": "de",
+          "inicio": 18.218,
+          "fin": 18.264
+        },
+        {
+          "texto": "tus",
+          "inicio": 18.311,
+          "fin": 18.462
+        },
+        {
+          "texto": "uñas,",
+          "inicio": 18.52,
+          "fin": 18.775
+        },
+        {
+          "texto": "la",
+          "inicio": 18.833000000000002,
+          "fin": 18.915
+        },
+        {
+          "texto": "condición",
+          "inicio": 18.973,
+          "fin": 19.391000000000002
+        },
+        {
+          "texto": "de",
+          "inicio": 19.425,
+          "fin": 19.495
+        },
+        {
+          "texto": "tu",
+          "inicio": 19.542,
+          "fin": 19.646
+        },
+        {
+          "texto": "piel",
+          "inicio": 19.704,
+          "fin": 19.925
+        },
+        {
+          "texto": "y",
+          "inicio": 19.983,
+          "fin": 20.018
+        },
+        {
+          "texto": "tus",
+          "inicio": 20.076,
+          "fin": 20.203
+        },
+        {
+          "texto": "necesidades.",
+          "inicio": 20.238,
+          "fin": 21.213
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Porque dejar pasar demasiado tiempo puede favorecer la acumulación de piel muerta, durezas y uñas demasiado largas.",
+      "clave": "durezas",
+      "quien": "narradora",
+      "inicio": 21.593,
+      "fin": 27.955,
+      "palabras": [
+        {
+          "texto": "Porque",
+          "inicio": 21.593,
+          "fin": 21.941
+        },
+        {
+          "texto": "dejar",
+          "inicio": 21.988,
+          "fin": 22.232
+        },
+        {
+          "texto": "pasar",
+          "inicio": 22.301,
+          "fin": 22.615
+        },
+        {
+          "texto": "demasiado",
+          "inicio": 22.673000000000002,
+          "fin": 23.114
+        },
+        {
+          "texto": "tiempo",
+          "inicio": 23.172,
+          "fin": 23.474
+        },
+        {
+          "texto": "puede",
+          "inicio": 23.509,
+          "fin": 23.683
+        },
+        {
+          "texto": "favorecer",
+          "inicio": 23.741,
+          "fin": 24.194
+        },
+        {
+          "texto": "la",
+          "inicio": 24.24,
+          "fin": 24.31
+        },
+        {
+          "texto": "acumulación",
+          "inicio": 24.356,
+          "fin": 24.995
+        },
+        {
+          "texto": "de",
+          "inicio": 25.03,
+          "fin": 25.088
+        },
+        {
+          "texto": "piel",
+          "inicio": 25.134,
+          "fin": 25.297
+        },
+        {
+          "texto": "muerta,",
+          "inicio": 25.343,
+          "fin": 25.715
+        },
+        {
+          "texto": "durezas",
+          "inicio": 25.738,
+          "fin": 26.214
+        },
+        {
+          "texto": "y",
+          "inicio": 26.283,
+          "fin": 26.317999999999998
+        },
+        {
+          "texto": "uñas",
+          "inicio": 26.376,
+          "fin": 26.678
+        },
+        {
+          "texto": "demasiado",
+          "inicio": 26.817,
+          "fin": 27.27
+        },
+        {
+          "texto": "largas.",
+          "inicio": 27.328,
+          "fin": 27.955
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "Un cuidado periódico también permite detectar cambios en tus uñas y problemas en la piel.",
+      "clave": "detectar",
+      "quien": "narradora",
+      "inicio": 28.485,
+      "fin": 33.268,
+      "palabras": [
+        {
+          "texto": "Un",
+          "inicio": 28.485,
+          "fin": 28.636
+        },
+        {
+          "texto": "cuidado",
+          "inicio": 28.671,
+          "fin": 28.961
+        },
+        {
+          "texto": "periódico",
+          "inicio": 29.019,
+          "fin": 29.518
+        },
+        {
+          "texto": "también",
+          "inicio": 29.564999999999998,
+          "fin": 29.809
+        },
+        {
+          "texto": "permite",
+          "inicio": 29.867,
+          "fin": 30.226
+        },
+        {
+          "texto": "detectar",
+          "inicio": 30.261,
+          "fin": 30.703
+        },
+        {
+          "texto": "cambios",
+          "inicio": 30.761,
+          "fin": 31.144
+        },
+        {
+          "texto": "en",
+          "inicio": 31.213,
+          "fin": 31.294999999999998
+        },
+        {
+          "texto": "tus",
+          "inicio": 31.352999999999998,
+          "fin": 31.492
+        },
+        {
+          "texto": "uñas",
+          "inicio": 31.561999999999998,
+          "fin": 31.805
+        },
+        {
+          "texto": "y",
+          "inicio": 31.864,
+          "fin": 31.933
+        },
+        {
+          "texto": "problemas",
+          "inicio": 31.991,
+          "fin": 32.421
+        },
+        {
+          "texto": "en",
+          "inicio": 32.479,
+          "fin": 32.56
+        },
+        {
+          "texto": "la",
+          "inicio": 32.618,
+          "fin": 32.699
+        },
+        {
+          "texto": "piel.",
+          "inicio": 32.757,
+          "fin": 33.268
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "¿Entonces tengo que volver el próximo mes?",
+      "clave": "volver",
+      "quien": "senora",
+      "inicio": 33.568,
+      "fin": 35.89,
+      "palabras": [
+        {
+          "texto": "¿Entonces",
+          "inicio": 33.568,
+          "fin": 34.044
+        },
+        {
+          "texto": "tengo",
+          "inicio": 34.067,
+          "fin": 34.241
+        },
+        {
+          "texto": "que",
+          "inicio": 34.288,
+          "fin": 34.381
+        },
+        {
+          "texto": "volver",
+          "inicio": 34.403999999999996,
+          "fin": 34.693999999999996
+        },
+        {
+          "texto": "el",
+          "inicio": 34.741,
+          "fin": 34.787
+        },
+        {
+          "texto": "próximo",
+          "inicio": 34.845,
+          "fin": 35.263
+        },
+        {
+          "texto": "mes?",
+          "inicio": 35.309,
+          "fin": 35.89
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "¡CLARO! ¡QUE NOSOTROS TAMBIÉN TENEMOS DERECHO A UNA VIDA DIGNA!",
+      "clave": "DIGNA",
+      "quien": "pies",
+      "inicio": 36.19,
+      "fin": 40.695,
+      "palabras": [
+        {
+          "texto": "¡CLARO!",
+          "inicio": 36.19,
+          "fin": 36.875
+        },
+        {
+          "texto": "¡QUE",
+          "inicio": 36.91,
+          "fin": 37.129999999999995
+        },
+        {
+          "texto": "NOSOTROS",
+          "inicio": 37.177,
+          "fin": 37.617999999999995
+        },
+        {
+          "texto": "TAMBIÉN",
+          "inicio": 37.663999999999994,
+          "fin": 38.047999999999995
+        },
+        {
+          "texto": "TENEMOS",
+          "inicio": 38.105999999999995,
+          "fin": 38.5
+        },
+        {
+          "texto": "DERECHO",
+          "inicio": 38.558,
+          "fin": 38.942
+        },
+        {
+          "texto": "A",
+          "inicio": 38.976,
+          "fin": 39.010999999999996
+        },
+        {
+          "texto": "UNA",
+          "inicio": 39.092,
+          "fin": 39.254999999999995
+        },
+        {
+          "texto": "VIDA",
+          "inicio": 39.544999999999995,
+          "fin": 39.812
+        },
+        {
+          "texto": "DIGNA!",
+          "inicio": 39.858999999999995,
+          "fin": 40.695
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "¡Guarda este video para que no se te olvide y síguenos para más consejos de belleza y cuidado personal!",
+      "clave": "Guarda",
+      "quien": "narradora",
+      "inicio": 40.995,
+      "fin": 46.474999999999994,
+      "palabras": [
+        {
+          "texto": "¡Guarda",
+          "inicio": 40.995,
+          "fin": 41.367
+        },
+        {
+          "texto": "este",
+          "inicio": 41.39,
+          "fin": 41.552
+        },
+        {
+          "texto": "video",
+          "inicio": 41.599,
+          "fin": 41.888999999999996
+        },
+        {
+          "texto": "para",
+          "inicio": 41.946999999999996,
+          "fin": 42.11
+        },
+        {
+          "texto": "que",
+          "inicio": 42.168,
+          "fin": 42.236999999999995
+        },
+        {
+          "texto": "no",
+          "inicio": 42.284,
+          "fin": 42.364999999999995
+        },
+        {
+          "texto": "se",
+          "inicio": 42.4,
+          "fin": 42.480999999999995
+        },
+        {
+          "texto": "te",
+          "inicio": 42.528,
+          "fin": 42.596999999999994
+        },
+        {
+          "texto": "olvide",
+          "inicio": 42.644,
+          "fin": 42.957
+        },
+        {
+          "texto": "y",
+          "inicio": 43.004,
+          "fin": 43.05
+        },
+        {
+          "texto": "síguenos",
+          "inicio": 43.108,
+          "fin": 43.619
+        },
+        {
+          "texto": "para",
+          "inicio": 43.839,
+          "fin": 44.037
+        },
+        {
+          "texto": "más",
+          "inicio": 44.095,
+          "fin": 44.245999999999995
+        },
+        {
+          "texto": "consejos",
+          "inicio": 44.303999999999995,
+          "fin": 44.709999999999994
+        },
+        {
+          "texto": "de",
+          "inicio": 44.745,
+          "fin": 44.803
+        },
+        {
+          "texto": "belleza",
+          "inicio": 44.849999999999994,
+          "fin": 45.244
+        },
+        {
+          "texto": "y",
+          "inicio": 45.302,
+          "fin": 45.349
+        },
+        {
+          "texto": "cuidado",
+          "inicio": 45.407,
+          "fin": 45.72
+        },
+        {
+          "texto": "personal!",
+          "inicio": 45.778,
+          "fin": 46.474999999999994
+        }
+      ]
+    }
+  ]
+}
