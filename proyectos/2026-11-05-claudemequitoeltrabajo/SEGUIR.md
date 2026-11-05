@@ -1,8 +1,8 @@
 # Claude me quitó el trabajo
 
 - [x] 1. Idea y análisis del video de referencia → notas.md
-- [ ] 2. Guion aprobado
-- [ ] 3. Voz (dos voces: editor = Antonio, Claude = Mauricio)
+- [x] 2. Guion aprobado
+- [x] 3. Voz (dos voces: editor = Antonio, Claude = Mauricio) → herramientas/voces.mjs (no usar «barcada voz»: es de una sola voz)
 - [ ] 4. Tomas aprobadas (revisar/tomas.jpg)
 - [ ] 5. Borrador aprobado
 - [ ] 6. Final (con marca de agua @carlosbarcoc), portada y descripción de Instagram

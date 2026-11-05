@@ -1,0 +1,636 @@
+{
+  "huella": "dialogo",
+  "duracion": 40.069736,
+  "frases": [
+    {
+      "n": 1,
+      "quien": "editor",
+      "texto": "Claude… ¿por qué estás sentado en mi silla?",
+      "clave": "silla",
+      "inicio": 0.15,
+      "fin": 3.029,
+      "palabras": [
+        {
+          "texto": "Claude…",
+          "inicio": 0.15,
+          "fin": 0.672
+        },
+        {
+          "texto": "¿por",
+          "inicio": 1.218,
+          "fin": 1.45
+        },
+        {
+          "texto": "qué",
+          "inicio": 1.4969999999999999,
+          "fin": 1.5659999999999998
+        },
+        {
+          "texto": "estás",
+          "inicio": 1.5899999999999999,
+          "fin": 1.799
+        },
+        {
+          "texto": "sentado",
+          "inicio": 1.8219999999999998,
+          "fin": 2.1470000000000002
+        },
+        {
+          "texto": "en",
+          "inicio": 2.17,
+          "fin": 2.217
+        },
+        {
+          "texto": "mi",
+          "inicio": 2.263,
+          "fin": 2.344
+        },
+        {
+          "texto": "silla?",
+          "inicio": 2.4019999999999997,
+          "fin": 3.029
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "quien": "claude",
+      "texto": "Me contrataron. Ahora los videos los hago yo.",
+      "clave": "yo.",
+      "inicio": 3.379274,
+      "fin": 6.165274,
+      "palabras": [
+        {
+          "texto": "Me",
+          "inicio": 3.379274,
+          "fin": 3.530274
+        },
+        {
+          "texto": "contrataron.",
+          "inicio": 3.565274,
+          "fin": 4.2382740000000005
+        },
+        {
+          "texto": "Ahora",
+          "inicio": 4.552274000000001,
+          "fin": 4.842274
+        },
+        {
+          "texto": "los",
+          "inicio": 4.877274,
+          "fin": 4.981274
+        },
+        {
+          "texto": "videos",
+          "inicio": 5.016274,
+          "fin": 5.295274
+        },
+        {
+          "texto": "los",
+          "inicio": 5.318274000000001,
+          "fin": 5.434274
+        },
+        {
+          "texto": "hago",
+          "inicio": 5.492274,
+          "fin": 5.6312739999999994
+        },
+        {
+          "texto": "yo.",
+          "inicio": 5.701274,
+          "fin": 6.165274
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "quien": "editor",
+      "texto": "¿¡Qué!? ¡Yo hago videos desde antes de que existieras!",
+      "clave": "existieras!",
+      "inicio": 6.515669000000001,
+      "fin": 9.673669,
+      "palabras": [
+        {
+          "texto": "¿¡Qué!?",
+          "inicio": 6.515669000000001,
+          "fin": 6.910669
+        },
+        {
+          "texto": "¡Yo",
+          "inicio": 7.316669000000001,
+          "fin": 7.595669000000001
+        },
+        {
+          "texto": "hago",
+          "inicio": 7.618669000000001,
+          "fin": 7.7806690000000005
+        },
+        {
+          "texto": "videos",
+          "inicio": 7.815669000000001,
+          "fin": 8.094669000000001
+        },
+        {
+          "texto": "desde",
+          "inicio": 8.117669000000001,
+          "fin": 8.326669
+        },
+        {
+          "texto": "antes",
+          "inicio": 8.361669000000001,
+          "fin": 8.582669000000001
+        },
+        {
+          "texto": "de",
+          "inicio": 8.605669,
+          "fin": 8.651669000000002
+        },
+        {
+          "texto": "que",
+          "inicio": 8.698669,
+          "fin": 8.767669000000001
+        },
+        {
+          "texto": "existieras!",
+          "inicio": 8.791669,
+          "fin": 9.673669
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "quien": "claude",
+      "texto": "Ajá. Y te tardabas tres días por reel.",
+      "clave": "tres",
+      "inicio": 10.023583,
+      "fin": 12.484583,
+      "palabras": [
+        {
+          "texto": "Ajá.",
+          "inicio": 10.023583,
+          "fin": 10.453583
+        },
+        {
+          "texto": "Y",
+          "inicio": 10.766583,
+          "fin": 10.847583
+        },
+        {
+          "texto": "te",
+          "inicio": 10.929583000000001,
+          "fin": 10.987583
+        },
+        {
+          "texto": "tardabas",
+          "inicio": 11.033583,
+          "fin": 11.405583
+        },
+        {
+          "texto": "tres",
+          "inicio": 11.439583,
+          "fin": 11.625583
+        },
+        {
+          "texto": "días",
+          "inicio": 11.648583,
+          "fin": 11.811583
+        },
+        {
+          "texto": "por",
+          "inicio": 11.857583,
+          "fin": 11.962583
+        },
+        {
+          "texto": "reel.",
+          "inicio": 12.020583,
+          "fin": 12.484583
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "quien": "editor",
+      "texto": "¡Pero los guiones los escribo yo!",
+      "clave": "guiones",
+      "inicio": 12.834898,
+      "fin": 14.599898000000001,
+      "palabras": [
+        {
+          "texto": "¡Pero",
+          "inicio": 12.834898,
+          "fin": 13.043898
+        },
+        {
+          "texto": "los",
+          "inicio": 13.078898,
+          "fin": 13.182898000000002
+        },
+        {
+          "texto": "guiones",
+          "inicio": 13.229898,
+          "fin": 13.519898000000001
+        },
+        {
+          "texto": "los",
+          "inicio": 13.542898000000001,
+          "fin": 13.647898000000001
+        },
+        {
+          "texto": "escribo",
+          "inicio": 13.693898,
+          "fin": 14.041898000000002
+        },
+        {
+          "texto": "yo!",
+          "inicio": 14.099898000000001,
+          "fin": 14.599898000000001
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "quien": "claude",
+      "texto": "Los escribo yo. Tú solo cambias los emojis.",
+      "clave": "emojis.",
+      "inicio": 14.949615000000001,
+      "fin": 17.828615000000003,
+      "palabras": [
+        {
+          "texto": "Los",
+          "inicio": 14.949615000000001,
+          "fin": 15.170615000000002
+        },
+        {
+          "texto": "escribo",
+          "inicio": 15.239615,
+          "fin": 15.611615000000002
+        },
+        {
+          "texto": "yo.",
+          "inicio": 15.669615000000002,
+          "fin": 15.936615000000002
+        },
+        {
+          "texto": "Tú",
+          "inicio": 16.133615000000002,
+          "fin": 16.296615000000003
+        },
+        {
+          "texto": "solo",
+          "inicio": 16.354615000000003,
+          "fin": 16.586615000000002
+        },
+        {
+          "texto": "cambias",
+          "inicio": 16.621615000000002,
+          "fin": 16.888615
+        },
+        {
+          "texto": "los",
+          "inicio": 16.934615,
+          "fin": 17.039615
+        },
+        {
+          "texto": "emojis.",
+          "inicio": 17.097615,
+          "fin": 17.828615000000003
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "quien": "editor",
+      "texto": "¿Y los subtítulos? ¿Las animaciones? ¿La voz?",
+      "clave": "voz?",
+      "inicio": 18.178889,
+      "fin": 21.057889000000003,
+      "palabras": [
+        {
+          "texto": "¿Y",
+          "inicio": 18.178889,
+          "fin": 18.271889
+        },
+        {
+          "texto": "los",
+          "inicio": 18.352889,
+          "fin": 18.468889
+        },
+        {
+          "texto": "subtítulos?",
+          "inicio": 18.491889,
+          "fin": 19.118889000000003
+        },
+        {
+          "texto": "¿Las",
+          "inicio": 19.142889,
+          "fin": 19.327889000000003
+        },
+        {
+          "texto": "animaciones?",
+          "inicio": 19.385889000000002,
+          "fin": 20.187889000000002
+        },
+        {
+          "texto": "¿La",
+          "inicio": 20.221889,
+          "fin": 20.419889
+        },
+        {
+          "texto": "voz?",
+          "inicio": 20.477889,
+          "fin": 21.057889000000003
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "quien": "claude",
+      "texto": "Yo. Mientras tú buscabas la canción.",
+      "clave": "canción.",
+      "inicio": 21.408163000000002,
+      "fin": 24.241163,
+      "palabras": [
+        {
+          "texto": "Yo.",
+          "inicio": 21.408163000000002,
+          "fin": 21.768163
+        },
+        {
+          "texto": "Mientras",
+          "inicio": 22.348163000000003,
+          "fin": 22.743163000000003
+        },
+        {
+          "texto": "tú",
+          "inicio": 22.790163000000003,
+          "fin": 22.882163000000002
+        },
+        {
+          "texto": "buscabas",
+          "inicio": 22.952163000000002,
+          "fin": 23.382163000000002
+        },
+        {
+          "texto": "la",
+          "inicio": 23.440163000000002,
+          "fin": 23.498163
+        },
+        {
+          "texto": "canción.",
+          "inicio": 23.544163,
+          "fin": 24.241163
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "quien": "editor",
+      "texto": "…¿Y ahora qué le digo a mi jefe?",
+      "clave": "jefe?",
+      "inicio": 24.590997,
+      "fin": 26.401997,
+      "palabras": [
+        {
+          "texto": "…¿Y",
+          "inicio": 24.590997,
+          "fin": 24.799997
+        },
+        {
+          "texto": "ahora",
+          "inicio": 24.857997,
+          "fin": 25.054997
+        },
+        {
+          "texto": "qué",
+          "inicio": 25.101997,
+          "fin": 25.182997
+        },
+        {
+          "texto": "le",
+          "inicio": 25.217997,
+          "fin": 25.275997
+        },
+        {
+          "texto": "digo",
+          "inicio": 25.321997000000003,
+          "fin": 25.496997
+        },
+        {
+          "texto": "a",
+          "inicio": 25.519997,
+          "fin": 25.542997
+        },
+        {
+          "texto": "mi",
+          "inicio": 25.577997,
+          "fin": 25.681997000000003
+        },
+        {
+          "texto": "jefe?",
+          "inicio": 25.716997000000003,
+          "fin": 26.401997
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "quien": "claude",
+      "texto": "Dile que ahora eres «director creativo».",
+      "clave": "creativo».",
+      "inicio": 26.752153,
+      "fin": 29.074153,
+      "palabras": [
+        {
+          "texto": "Dile",
+          "inicio": 26.752153,
+          "fin": 27.031153
+        },
+        {
+          "texto": "que",
+          "inicio": 27.077153,
+          "fin": 27.170153
+        },
+        {
+          "texto": "ahora",
+          "inicio": 27.228153,
+          "fin": 27.472153
+        },
+        {
+          "texto": "eres",
+          "inicio": 27.530153,
+          "fin": 27.739152999999998
+        },
+        {
+          "texto": "«director",
+          "inicio": 27.762153,
+          "fin": 28.180153
+        },
+        {
+          "texto": "creativo».",
+          "inicio": 28.238153,
+          "fin": 29.074153
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "quien": "editor",
+      "texto": "…Oye, Claude. ¿Me enseñas a hacerlos?",
+      "clave": "enseñas",
+      "inicio": 29.424148,
+      "fin": 31.700148,
+      "palabras": [
+        {
+          "texto": "…Oye,",
+          "inicio": 29.424148,
+          "fin": 29.796148
+        },
+        {
+          "texto": "Claude.",
+          "inicio": 29.819148,
+          "fin": 30.225147999999997
+        },
+        {
+          "texto": "¿Me",
+          "inicio": 30.260147999999997,
+          "fin": 30.446147999999997
+        },
+        {
+          "texto": "enseñas",
+          "inicio": 30.469147999999997,
+          "fin": 30.806148
+        },
+        {
+          "texto": "a",
+          "inicio": 30.852148,
+          "fin": 30.875148
+        },
+        {
+          "texto": "hacerlos?",
+          "inicio": 30.898148,
+          "fin": 31.700148
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "quien": "claude",
+      "texto": "Escribe «Claude» en los comentarios y te enseño a hacer videos como este.",
+      "clave": "«Claude»",
+      "inicio": 32.049704,
+      "fin": 36.275704,
+      "palabras": [
+        {
+          "texto": "Escribe",
+          "inicio": 32.049704,
+          "fin": 32.513704
+        },
+        {
+          "texto": "«Claude»",
+          "inicio": 32.537704,
+          "fin": 32.966704
+        },
+        {
+          "texto": "en",
+          "inicio": 32.989703999999996,
+          "fin": 33.059703999999996
+        },
+        {
+          "texto": "los",
+          "inicio": 33.106704,
+          "fin": 33.210704
+        },
+        {
+          "texto": "comentarios",
+          "inicio": 33.256704,
+          "fin": 33.895703999999995
+        },
+        {
+          "texto": "y",
+          "inicio": 34.011704,
+          "fin": 34.081704
+        },
+        {
+          "texto": "te",
+          "inicio": 34.150704,
+          "fin": 34.220704
+        },
+        {
+          "texto": "enseño",
+          "inicio": 34.255704,
+          "fin": 34.661704
+        },
+        {
+          "texto": "a",
+          "inicio": 34.696704,
+          "fin": 34.719704
+        },
+        {
+          "texto": "hacer",
+          "inicio": 34.743704,
+          "fin": 34.986703999999996
+        },
+        {
+          "texto": "videos",
+          "inicio": 35.044703999999996,
+          "fin": 35.393704
+        },
+        {
+          "texto": "como",
+          "inicio": 35.451704,
+          "fin": 35.648703999999995
+        },
+        {
+          "texto": "este.",
+          "inicio": 35.706704,
+          "fin": 36.275704
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "quien": "claude",
+      "texto": "Que, por cierto… también lo hice yo.",
+      "clave": "yo.",
+      "inicio": 36.775735999999995,
+      "fin": 39.469736,
+      "palabras": [
+        {
+          "texto": "Que,",
+          "inicio": 36.775735999999995,
+          "fin": 37.147735999999995
+        },
+        {
+          "texto": "por",
+          "inicio": 37.286736,
+          "fin": 37.460736
+        },
+        {
+          "texto": "cierto…",
+          "inicio": 37.530736,
+          "fin": 38.08773599999999
+        },
+        {
+          "texto": "también",
+          "inicio": 38.354735999999995,
+          "fin": 38.67973599999999
+        },
+        {
+          "texto": "lo",
+          "inicio": 38.714735999999995,
+          "fin": 38.772735999999995
+        },
+        {
+          "texto": "hice",
+          "inicio": 38.80773599999999,
+          "fin": 38.958735999999995
+        },
+        {
+          "texto": "yo.",
+          "inicio": 39.016735999999995,
+          "fin": 39.469736
+        }
+      ]
+    }
+  ]
+}

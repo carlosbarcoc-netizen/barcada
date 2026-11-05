@@ -4,24 +4,981 @@
   "calidad": "normal",
   "formato": "sketch de diálogo (humano vs. Claude), como el video de referencia",
   "voces": {
-    "editor": { "id": "htFfPSZGJwjBv1CL0aMD", "nombre": "Antonio" },
-    "claude": { "id": "94zOad0g7T7K4oa7zhDq", "nombre": "Mauricio", "estabilidad": 0.5, "estilo": 0.3, "velocidad": 1.05 }
+    "editor": {
+      "id": "htFfPSZGJwjBv1CL0aMD",
+      "nombre": "Antonio"
+    },
+    "claude": {
+      "id": "94zOad0g7T7K4oa7zhDq",
+      "nombre": "Mauricio",
+      "estabilidad": 0.5,
+      "estilo": 0.3,
+      "velocidad": 1.05
+    }
   },
   "marcaDeAgua": "@carlosbarcoc",
   "frases": [
-    { "quien": "editor", "texto": "Claude… ¿por qué estás sentado en mi silla?", "clave": "silla" },
-    { "quien": "claude", "texto": "Me contrataron. Ahora los videos los hago yo.", "clave": "yo." },
-    { "quien": "editor", "texto": "¿¡Qué!? ¡Yo hago videos desde antes de que existieras!", "clave": "existieras!" },
-    { "quien": "claude", "texto": "Ajá. Y te tardabas tres días por reel.", "clave": "tres" },
-    { "quien": "editor", "texto": "¡Pero los guiones los escribo yo!", "clave": "guiones" },
-    { "quien": "claude", "texto": "Los escribo yo. Tú solo cambias los emojis.", "clave": "emojis." },
-    { "quien": "editor", "texto": "¿Y los subtítulos? ¿Las animaciones? ¿La voz?", "clave": "voz?" },
-    { "quien": "claude", "texto": "Yo. Mientras tú buscabas la canción.", "clave": "canción." },
-    { "quien": "editor", "texto": "…¿Y ahora qué le digo a mi jefe?", "clave": "jefe?" },
-    { "quien": "claude", "texto": "Dile que ahora eres «director creativo».", "clave": "creativo»." },
-    { "quien": "editor", "texto": "…Oye, Claude. ¿Me enseñas a hacerlos?", "clave": "enseñas" },
-    { "quien": "claude", "texto": "Escribe «Claude» en los comentarios y te enseño a hacer videos como este.", "clave": "«Claude»" },
-    { "quien": "claude", "texto": "Que, por cierto… también lo hice yo.", "clave": "yo." }
+    {
+      "quien": "editor",
+      "texto": "Claude… ¿por qué estás sentado en mi silla?",
+      "clave": "silla"
+    },
+    {
+      "quien": "claude",
+      "texto": "Me contrataron. Ahora los videos los hago yo.",
+      "clave": "yo."
+    },
+    {
+      "quien": "editor",
+      "texto": "¿¡Qué!? ¡Yo hago videos desde antes de que existieras!",
+      "clave": "existieras!"
+    },
+    {
+      "quien": "claude",
+      "texto": "Ajá. Y te tardabas tres días por reel.",
+      "clave": "tres"
+    },
+    {
+      "quien": "editor",
+      "texto": "¡Pero los guiones los escribo yo!",
+      "clave": "guiones"
+    },
+    {
+      "quien": "claude",
+      "texto": "Los escribo yo. Tú solo cambias los emojis.",
+      "clave": "emojis."
+    },
+    {
+      "quien": "editor",
+      "texto": "¿Y los subtítulos? ¿Las animaciones? ¿La voz?",
+      "clave": "voz?"
+    },
+    {
+      "quien": "claude",
+      "texto": "Yo. Mientras tú buscabas la canción.",
+      "clave": "canción."
+    },
+    {
+      "quien": "editor",
+      "texto": "…¿Y ahora qué le digo a mi jefe?",
+      "clave": "jefe?"
+    },
+    {
+      "quien": "claude",
+      "texto": "Dile que ahora eres «director creativo».",
+      "clave": "creativo»."
+    },
+    {
+      "quien": "editor",
+      "texto": "…Oye, Claude. ¿Me enseñas a hacerlos?",
+      "clave": "enseñas"
+    },
+    {
+      "quien": "claude",
+      "texto": "Escribe «Claude» en los comentarios y te enseño a hacer videos como este.",
+      "clave": "«Claude»"
+    },
+    {
+      "quien": "claude",
+      "texto": "Que, por cierto… también lo hice yo.",
+      "clave": "yo."
+    }
   ],
-  "escenas": []
+  "escenas": [
+    {
+      "nombre": "el sketch",
+      "tomas": [
+        {
+          "desde": 0,
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "robot",
+                "x": 720,
+                "y": 1180,
+                "escala": 1.0,
+                "color": "naranja",
+                "entra": "ninguna",
+                "en": 0
+              },
+              {
+                "pieza": "orbe",
+                "x": 680.0,
+                "y": 1015.0,
+                "radio": 13.0,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "orbe",
+                "x": 760.0,
+                "y": 1015.0,
+                "radio": 13.0,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "laptop",
+                "x": 720,
+                "y": 1390,
+                "escala": 0.7,
+                "capa": 3,
+                "pantalla": "REEL",
+                "entra": "ninguna"
+              },
+              {
+                "pieza": "etiqueta",
+                "texto": "CLAUDE",
+                "x": 720,
+                "y": 780,
+                "entra": "aparece",
+                "en": "1:Claude…"
+              },
+              {
+                "pieza": "persona",
+                "x": 270,
+                "y": 1200,
+                "escala": 1.0,
+                "color": "azul",
+                "pelo": "negro",
+                "entra": "izquierda",
+                "en": 0.05,
+                "accion": "tiembla"
+              },
+              {
+                "pieza": "etiqueta",
+                "texto": "EDITOR",
+                "x": 270,
+                "y": 800,
+                "entra": "aparece",
+                "en": 0.5
+              },
+              {
+                "pieza": "signo",
+                "tipo": "pregunta",
+                "x": 300,
+                "y": 640,
+                "escala": 0.6,
+                "entra": "rebote",
+                "en": "1:silla?"
+              }
+            ],
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.0
+                }
+              ],
+              [
+                "1:silla?",
+                {
+                  "zoom": 1.18,
+                  "x": 540,
+                  "y": 1050
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "desde": "2:Me",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "robot",
+                "x": 540,
+                "y": 1230,
+                "escala": 1.6,
+                "color": "naranja",
+                "entra": "ninguna",
+                "en": 0
+              },
+              {
+                "pieza": "orbe",
+                "x": 476.0,
+                "y": 966.0,
+                "radio": 20.8,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "orbe",
+                "x": 604.0,
+                "y": 966.0,
+                "radio": 20.8,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "pildora",
+                "texto": "NUEVO EDITOR",
+                "color": "naranja",
+                "x": 540,
+                "y": 1600,
+                "entra": "rebote",
+                "en": "2:videos",
+                "capa": 6
+              }
+            ],
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.0
+                }
+              ],
+              [
+                "2:yo.",
+                {
+                  "zoom": 1.12,
+                  "y": 1050
+                }
+              ]
+            ]
+          },
+          "sonido": "pop"
+        },
+        {
+          "desde": "3:¿¡Qué!?",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "persona",
+                "x": 540,
+                "y": 1250,
+                "escala": 1.7,
+                "color": "azul",
+                "pelo": "negro",
+                "entra": "ninguna",
+                "en": 0,
+                "accion": "tiembla",
+                "pose": "piensa"
+              },
+              {
+                "pieza": "signo",
+                "tipo": "exclama",
+                "x": 860,
+                "y": 700,
+                "escala": 0.8,
+                "entra": "rebote",
+                "en": 0.05,
+                "capa": 6
+              }
+            ],
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.25,
+                  "y": 950
+                }
+              ],
+              [
+                "3:existieras!",
+                {
+                  "zoom": 1.05
+                }
+              ]
+            ]
+          },
+          "sonido": "impacto"
+        },
+        {
+          "desde": "4:Ajá.",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "robot",
+                "x": 300,
+                "y": 1250,
+                "escala": 1.1,
+                "color": "naranja",
+                "entra": "ninguna",
+                "en": 0
+              },
+              {
+                "pieza": "orbe",
+                "x": 256.0,
+                "y": 1068.5,
+                "radio": 14.3,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "orbe",
+                "x": 344.0,
+                "y": 1068.5,
+                "radio": 14.3,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "reloj",
+                "x": 760,
+                "y": 900,
+                "escala": 0.8,
+                "entra": "rebote",
+                "en": "4:tardabas",
+                "params": {
+                  "hora": [
+                    [
+                      "4:tardabas",
+                      0
+                    ],
+                    [
+                      "4:reel.",
+                      12
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "numero",
+                "texto": "3 DÍAS",
+                "x": 740,
+                "y": 1330,
+                "escala": 0.75,
+                "entra": "rebote",
+                "en": "4:tres",
+                "capa": 6
+              }
+            ]
+          }
+        },
+        {
+          "desde": "5:¡Pero",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "persona",
+                "x": 380,
+                "y": 1260,
+                "escala": 1.4,
+                "color": "azul",
+                "pelo": "negro",
+                "entra": "ninguna",
+                "en": 0,
+                "pose": "saluda"
+              },
+              {
+                "pieza": "celular",
+                "x": 800,
+                "y": 1050,
+                "escala": 0.7,
+                "pantalla": "GUION",
+                "entra": "rebote",
+                "en": "5:guiones",
+                "rot": 8
+              }
+            ],
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "y": 1000
+                }
+              ],
+              [
+                "5:yo!",
+                {
+                  "zoom": 1.0
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "desde": "6:Los",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "laptop",
+                "x": 540,
+                "y": 1080,
+                "escala": 1.5,
+                "pantalla": "GUION ✓",
+                "entra": "aparece",
+                "en": 0
+              },
+              {
+                "pieza": "etiqueta",
+                "texto": "HECHO POR CLAUDE",
+                "x": 540,
+                "y": 720,
+                "tinta": "#ffb347",
+                "entra": "aparece",
+                "en": "6:escribo"
+              },
+              {
+                "pieza": "pildora",
+                "texto": "TÚ: CAMBIAR EMOJIS",
+                "color": "azul",
+                "x": 540,
+                "y": 1450,
+                "tamano": 46,
+                "entra": "rebote",
+                "en": "6:Tú",
+                "capa": 6
+              }
+            ],
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.15,
+                  "y": 1000
+                }
+              ],
+              [
+                "6:emojis.",
+                {
+                  "zoom": 1.0
+                }
+              ]
+            ]
+          },
+          "sonido": "pop",
+          "sonidoEn": 0.9
+        },
+        {
+          "desde": "7:¿Y",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "persona",
+                "x": 260,
+                "y": 1300,
+                "escala": 1.1,
+                "color": "azul",
+                "pelo": "negro",
+                "entra": "ninguna",
+                "en": 0,
+                "pose": "piensa"
+              },
+              {
+                "pieza": "pildora",
+                "texto": "SUBTÍTULOS",
+                "color": "morado",
+                "x": 720,
+                "y": 820,
+                "tamano": 46,
+                "entra": "rebote",
+                "en": "7:subtítulos?"
+              },
+              {
+                "pieza": "pildora",
+                "texto": "ANIMACIONES",
+                "color": "verde",
+                "x": 720,
+                "y": 980,
+                "tamano": 46,
+                "entra": "rebote",
+                "en": "7:animaciones?"
+              },
+              {
+                "pieza": "pildora",
+                "texto": "VOZ",
+                "color": "rojo",
+                "x": 720,
+                "y": 1140,
+                "tamano": 46,
+                "entra": "rebote",
+                "en": "7:voz?"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "8:Yo.",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "robot",
+                "x": 300,
+                "y": 1300,
+                "escala": 0.95,
+                "color": "naranja",
+                "entra": "ninguna",
+                "en": 0
+              },
+              {
+                "pieza": "orbe",
+                "x": 262.0,
+                "y": 1143.25,
+                "radio": 12.35,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "orbe",
+                "x": 338.0,
+                "y": 1143.25,
+                "radio": 12.35,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "lista",
+                "titulo": "CLAUDE",
+                "items": [
+                  "SUBTÍTULOS",
+                  "ANIMACIONES",
+                  "VOZ"
+                ],
+                "x": 720,
+                "y": 900,
+                "escala": 0.85,
+                "entra": "aparece",
+                "en": 0,
+                "params": {
+                  "hechos": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      0.9,
+                      3.4
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "celular",
+                "x": 770,
+                "y": 1400,
+                "escala": 0.5,
+                "pantalla": "♪ ...",
+                "entra": "sube",
+                "en": "8:Mientras",
+                "accion": "balancea"
+              }
+            ]
+          },
+          "sonido": "campana",
+          "sonidoEn": 0.9
+        },
+        {
+          "desde": "9:…¿Y",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "persona",
+                "x": 540,
+                "y": 1250,
+                "escala": 1.6,
+                "color": "azul",
+                "pelo": "negro",
+                "entra": "ninguna",
+                "en": 0,
+                "pose": "piensa"
+              },
+              {
+                "pieza": "signo",
+                "tipo": "pregunta",
+                "x": 830,
+                "y": 680,
+                "escala": 0.7,
+                "entra": "rebote",
+                "en": "9:jefe?",
+                "accion": "flota"
+              }
+            ],
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.0
+                }
+              ],
+              [
+                "9:jefe?",
+                {
+                  "zoom": 1.2,
+                  "y": 950
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "desde": "10:Dile",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "robot",
+                "x": 540,
+                "y": 1350,
+                "escala": 1.1,
+                "color": "naranja",
+                "entra": "ninguna",
+                "en": 0
+              },
+              {
+                "pieza": "orbe",
+                "x": 496.0,
+                "y": 1168.5,
+                "radio": 14.3,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "orbe",
+                "x": 584.0,
+                "y": 1168.5,
+                "radio": 14.3,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "titular",
+                "texto": "DIRECTOR",
+                "debajo": "CREATIVO",
+                "x": 540,
+                "y": 790,
+                "tamano": 170,
+                "entra": "rebote",
+                "en": "10:«director",
+                "capa": 6
+              }
+            ]
+          },
+          "sonido": "subida",
+          "sonidoEn": 0.8
+        },
+        {
+          "desde": "11:…Oye,",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "persona",
+                "x": 300,
+                "y": 1220,
+                "escala": 1.1,
+                "color": "azul",
+                "pelo": "negro",
+                "entra": "ninguna",
+                "en": 0,
+                "pose": "saluda"
+              },
+              {
+                "pieza": "robot",
+                "x": 780,
+                "y": 1220,
+                "escala": 1.1,
+                "color": "naranja",
+                "entra": "ninguna",
+                "en": 0
+              },
+              {
+                "pieza": "orbe",
+                "x": 736.0,
+                "y": 1038.5,
+                "radio": 14.3,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "orbe",
+                "x": 824.0,
+                "y": 1038.5,
+                "radio": 14.3,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "burbuja",
+                "texto": "¿ME ENSEÑAS?",
+                "x": 380,
+                "y": 690,
+                "escala": 0.85,
+                "entra": "rebote",
+                "en": "11:enseñas"
+              }
+            ],
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 450
+                }
+              ],
+              [
+                "11:hacerlos?",
+                {
+                  "zoom": 1.0,
+                  "x": 540
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "desde": "12:Escribe",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "etiqueta",
+                "texto": "ESCRIBE EN LOS COMENTARIOS",
+                "x": 540,
+                "y": 700,
+                "tamano": 36,
+                "entra": "aparece",
+                "en": 0
+              },
+              {
+                "pieza": "burbuja",
+                "texto": "Claude",
+                "x": 560,
+                "y": 900,
+                "escala": 1.6,
+                "entra": "rebote",
+                "en": "12:«Claude»",
+                "accion": "late",
+                "capa": 6
+              },
+              {
+                "pieza": "robot",
+                "x": 540,
+                "y": 1380,
+                "escala": 0.9,
+                "color": "naranja",
+                "entra": "sube",
+                "en": 0.1
+              },
+              {
+                "pieza": "orbe",
+                "x": 504.0,
+                "y": 1231.5,
+                "radio": 11.700000000000001,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.4,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "orbe",
+                "x": 576.0,
+                "y": 1231.5,
+                "radio": 11.700000000000001,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.4,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              }
+            ]
+          },
+          "sonido": "pop",
+          "sonidoEn": 0.6,
+          "rotulo": "COMENTA *CLAUDE*"
+        },
+        {
+          "desde": "13:Que,",
+          "dibujo": {
+            "fondo": "noche",
+            "fondoOpts": {
+              "suelo": 1500
+            },
+            "elementos": [
+              {
+                "pieza": "robot",
+                "x": 540,
+                "y": 1250,
+                "escala": 1.6,
+                "color": "naranja",
+                "entra": "ninguna",
+                "en": 0
+              },
+              {
+                "pieza": "orbe",
+                "x": 476.0,
+                "y": 986.0,
+                "radio": 20.8,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "orbe",
+                "x": 604.0,
+                "y": 986.0,
+                "radio": 20.8,
+                "tinta": "#bff4ff",
+                "hilo": false,
+                "entra": "aparece",
+                "en": 0.3,
+                "capa": 5,
+                "params": {
+                  "brillo": 1
+                }
+              },
+              {
+                "pieza": "pildora",
+                "texto": "HECHO CON IA",
+                "color": "naranja",
+                "x": 540,
+                "y": 620,
+                "entra": "rebote",
+                "en": "13:yo.",
+                "capa": 6
+              }
+            ],
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.0
+                }
+              ],
+              [
+                "13:yo.",
+                {
+                  "zoom": 1.1,
+                  "y": 960
+                }
+              ]
+            ]
+          },
+          "sonido": "impacto",
+          "sonidoEn": 1.6
+        }
+      ]
+    }
+  ]
 }
