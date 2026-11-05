@@ -1,0 +1,27 @@
+{
+  "titulo": "Claude me quitó el trabajo",
+  "estilo": "2d",
+  "calidad": "normal",
+  "formato": "sketch de diálogo (humano vs. Claude), como el video de referencia",
+  "voces": {
+    "editor": { "id": "htFfPSZGJwjBv1CL0aMD", "nombre": "Antonio" },
+    "claude": { "id": "94zOad0g7T7K4oa7zhDq", "nombre": "Mauricio", "estabilidad": 0.5, "estilo": 0.3, "velocidad": 1.05 }
+  },
+  "marcaDeAgua": "@carlosbarcoc",
+  "frases": [
+    { "quien": "editor", "texto": "Claude… ¿por qué estás sentado en mi silla?", "clave": "silla" },
+    { "quien": "claude", "texto": "Me contrataron. Ahora los videos los hago yo.", "clave": "yo." },
+    { "quien": "editor", "texto": "¿¡Qué!? ¡Yo hago videos desde antes de que existieras!", "clave": "existieras!" },
+    { "quien": "claude", "texto": "Ajá. Y te tardabas tres días por reel.", "clave": "tres" },
+    { "quien": "editor", "texto": "¡Pero los guiones los escribo yo!", "clave": "guiones" },
+    { "quien": "claude", "texto": "Los escribo yo. Tú solo cambias los emojis.", "clave": "emojis." },
+    { "quien": "editor", "texto": "¿Y los subtítulos? ¿Las animaciones? ¿La voz?", "clave": "voz?" },
+    { "quien": "claude", "texto": "Yo. Mientras tú buscabas la canción.", "clave": "canción." },
+    { "quien": "editor", "texto": "…¿Y ahora qué le digo a mi jefe?", "clave": "jefe?" },
+    { "quien": "claude", "texto": "Dile que ahora eres «director creativo».", "clave": "creativo»." },
+    { "quien": "editor", "texto": "…Oye, Claude. ¿Me enseñas a hacerlos?", "clave": "enseñas" },
+    { "quien": "claude", "texto": "Escribe «Claude» en los comentarios y te enseño a hacer videos como este.", "clave": "«Claude»" },
+    { "quien": "claude", "texto": "Que, por cierto… también lo hice yo.", "clave": "yo." }
+  ],
+  "escenas": []
+}
