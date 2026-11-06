@@ -63,14 +63,25 @@
   "juego": {
     "piel": "arcade",
     "progreso": {
-      "titulo": "",
-      "etiqueta": "",
+      "titulo": "DUELO",
       "pasos": [
         {
-          "texto": "",
-          "en": ""
+          "texto": "GRASA",
+          "en": "3:grasa"
+        },
+        {
+          "texto": "BOCA",
+          "en": "6:boca"
+        },
+        {
+          "texto": "ETIQUETA",
+          "en": "10:etiqueta"
         }
-      ]
+      ],
+      "final": {
+        "texto": "¡REAL!",
+        "en": "12:real"
+      }
     },
     "tiempo": true,
     "firma": "@nativoterrus"
@@ -81,9 +92,877 @@
       "tomas": [
         {
           "desde": 0,
+          "titulo": "¿Es cacao|de *VERDAD*?",
+          "tituloEn": [
+            0,
+            "1:cacao"
+          ],
+          "dibujo": {
+            "fondo": "arcade-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.12
+                }
+              ],
+              [
+                "1:ojo",
+                {
+                  "zoom": 1
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "chocolate",
+                "x": 540,
+                "y": 860,
+                "escala": 1.05,
+                "entra": "cae",
+                "en": 0
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1210,
+                "escala": 0.9,
+                "color": "blanco",
+                "cara": "sorprendido",
+                "entra": "sube",
+                "en": 0.2
+              },
+              {
+                "pieza": "icono",
+                "nombre": "pregunta",
+                "x": 860,
+                "y": 720,
+                "entra": "gira",
+                "en": "1:verdad",
+                "accion": "late"
+              },
+              {
+                "pieza": "letrero",
+                "x": 540,
+                "y": 620,
+                "texto": "¿FALSO?",
+                "estilo": "sello",
+                "fondo": "#E9493F",
+                "tamano": 40,
+                "entra": "rebote",
+                "en": "1:ojo",
+                "sonido": "error"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "2:cacao",
           "titulo": "",
           "dibujo": {
-            "elementos": []
+            "fondo": "arcade-escenario",
+            "elementos": [
+              {
+                "pieza": "vs",
+                "x": 540,
+                "y": 960,
+                "izq": "CACAO REAL",
+                "der": "SUCEDÁNEO",
+                "subIzq": "MANTECA",
+                "subDer": "¿?",
+                "colorIzq": "#7a3a12",
+                "colorDer": "#3a3f4a",
+                "entra": "aparece",
+                "en": 0,
+                "dura": 0.2
+              },
+              {
+                "pieza": "personaje",
+                "x": 290,
+                "y": 1130,
+                "escala": 1.2,
+                "color": "cacao",
+                "cara": "feliz",
+                "entra": "izquierda",
+                "en": 0.05
+              },
+              {
+                "pieza": "personaje",
+                "x": 800,
+                "y": 1130,
+                "escala": 1.2,
+                "color": "gris",
+                "cara": "enfadado",
+                "gafas": "sol",
+                "entra": "derecha",
+                "en": "2:sucedaneo"
+              },
+              {
+                "pieza": "dialogo",
+                "x": 540,
+                "y": 640,
+                "texto": "¡MIRA LA DIFERENCIA!",
+                "entra": "rebote",
+                "en": "2:mira"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "3:ronda",
+          "titulo": "RONDA 1|*GRASA*",
+          "dibujo": {
+            "fondo": "arcade",
+            "fondoOpts": {
+              "rayos": true
+            },
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.08
+                }
+              ],
+              [
+                "3:grasa",
+                {
+                  "zoom": 1
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "maquina",
+                "x": 540,
+                "y": 1000,
+                "escala": 0.95,
+                "titulo": "RONDA 1",
+                "texto": "GRASA|PLAY",
+                "entra": "cae",
+                "en": 0.05
+              },
+              {
+                "pieza": "personaje",
+                "x": 190,
+                "y": 1210,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "feliz",
+                "brazo": "arriba",
+                "entra": "rebote",
+                "en": "3:grasa"
+              },
+              {
+                "pieza": "personaje",
+                "x": 890,
+                "y": 1210,
+                "escala": 0.85,
+                "color": "gris",
+                "cara": "enfadado",
+                "entra": "rebote",
+                "en": "3:grasa"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "4:el",
+          "titulo": "El real:|*MANTECA* de cacao",
+          "tituloEn": [
+            0,
+            "4:manteca"
+          ],
+          "dibujo": {
+            "fondo": "arcade-atardecer",
+            "elementos": [
+              {
+                "pieza": "mazorca",
+                "x": 300,
+                "y": 900,
+                "escala": 0.8,
+                "entra": "cae",
+                "en": 0,
+                "params": {
+                  "abre": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      "4:grasa",
+                      0
+                    ],
+                    [
+                      "4:grano",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "gota",
+                "x": 780,
+                "y": 860,
+                "color": "oro",
+                "escala": 0.7,
+                "entra": "rebote",
+                "en": "4:manteca",
+                "accion": "late"
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1210,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "feliz",
+                "brazo": "saluda",
+                "entra": "sube",
+                "en": 0.1
+              },
+              {
+                "pieza": "letrero",
+                "x": 780,
+                "y": 1060,
+                "texto": "NATURAL",
+                "estilo": "sello",
+                "tamano": 28,
+                "entra": "rebote",
+                "en": "4:natural"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "5:el",
+          "titulo": "Sucedáneo:|!GRASA VEGETAL!",
+          "tituloEn": [
+            0,
+            "5:grasa"
+          ],
+          "dibujo": {
+            "fondo": "arcade-sala",
+            "elementos": [
+              {
+                "pieza": "frasco",
+                "x": 760,
+                "y": 880,
+                "escala": 0.75,
+                "contenido": "oro",
+                "entra": "cae",
+                "en": "5:grasa"
+              },
+              {
+                "pieza": "letrero",
+                "x": 760,
+                "y": 1110,
+                "texto": "PALMISTE",
+                "tamano": 30,
+                "color": "rojo",
+                "entra": "rebote",
+                "en": "5:palmiste"
+              },
+              {
+                "pieza": "chocolate",
+                "x": 300,
+                "y": 860,
+                "escala": 0.75,
+                "color": "leche",
+                "entra": "aparece",
+                "en": 0
+              },
+              {
+                "pieza": "icono",
+                "nombre": "equis",
+                "x": 300,
+                "y": 860,
+                "entra": "gira",
+                "en": "5:cambia",
+                "sonido": "error"
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1220,
+                "escala": 0.8,
+                "color": "gris",
+                "cara": "guino",
+                "entra": "sube",
+                "en": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "desde": "6:ronda",
+          "titulo": "RONDA 2|*BOCA*",
+          "dibujo": {
+            "fondo": "arcade",
+            "fondoOpts": {
+              "rayos": true
+            },
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.08
+                }
+              ],
+              [
+                "6:boca",
+                {
+                  "zoom": 1
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "maquina",
+                "x": 540,
+                "y": 1000,
+                "escala": 0.95,
+                "titulo": "RONDA 2",
+                "texto": "BOCA|PLAY",
+                "entra": "cae",
+                "en": 0.05
+              },
+              {
+                "pieza": "personaje",
+                "x": 190,
+                "y": 1210,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "feliz",
+                "brazo": "arriba",
+                "entra": "rebote",
+                "en": "6:boca"
+              },
+              {
+                "pieza": "personaje",
+                "x": 890,
+                "y": 1210,
+                "escala": 0.85,
+                "color": "gris",
+                "cara": "enfadado",
+                "entra": "rebote",
+                "en": "6:boca"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "7:la",
+          "titulo": "Se derrite a…",
+          "dibujo": {
+            "fondo": "arcade-sala",
+            "elementos": [
+              {
+                "pieza": "monitor",
+                "x": 540,
+                "y": 700,
+                "escala": 0.9,
+                "texto": "MANTECA|DE CACAO",
+                "entra": "cae",
+                "en": 0
+              },
+              {
+                "pieza": "cifra",
+                "x": 540,
+                "y": 1040,
+                "despues": " GRADOS",
+                "tamano": 92,
+                "color": "amarillo",
+                "entra": "rebote",
+                "en": "7:unos",
+                "params": {
+                  "valor": [
+                    [
+                      "7:unos",
+                      0
+                    ],
+                    [
+                      "7:grados",
+                      34
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 200,
+                "y": 1230,
+                "escala": 0.7,
+                "color": "cacao",
+                "cara": "sorprendido",
+                "entra": "sube",
+                "en": "7:derrite"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "8:justo",
+          "titulo": "Se *FUNDE*|en tu boca",
+          "tituloEn": [
+            0,
+            "8:funde"
+          ],
+          "dibujo": {
+            "fondo": "arcade-atardecer",
+            "elementos": [
+              {
+                "pieza": "balanza",
+                "x": 540,
+                "y": 900,
+                "escala": 1,
+                "izq": "34 GRADOS",
+                "der": "TU CUERPO: 37",
+                "entra": "aparece",
+                "en": 0,
+                "params": {
+                  "inclina": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      "8:cuerpo",
+                      -0.5
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1220,
+                "escala": 0.85,
+                "color": "blanco",
+                "cara": "feliz",
+                "habla": true,
+                "entra": "sube",
+                "en": "8:por"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "corazon",
+                "x": 830,
+                "y": 1130,
+                "entra": "rebote",
+                "en": "8:funde",
+                "accion": "late",
+                "sonido": "moneda"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "9:pero",
+          "alerta": true,
+          "titulo": "",
+          "dibujo": {
+            "fondo": "arcade",
+            "elementos": [
+              {
+                "pieza": "advertencia",
+                "x": 540,
+                "y": 960,
+                "texto": "WARNING",
+                "sub": "SIN TEMPLADO",
+                "entra": "ninguna",
+                "en": 0
+              }
+            ]
+          }
+        },
+        {
+          "desde": "9:es",
+          "titulo": "El truco del|*SUCEDÁNEO*",
+          "dibujo": {
+            "fondo": "arcade-escenario",
+            "elementos": [
+              {
+                "pieza": "ficha",
+                "x": 540,
+                "y": 820,
+                "ancho": 880,
+                "filas": [
+                  [
+                    "TEMPLADO",
+                    "NO"
+                  ],
+                  [
+                    "FÁCIL",
+                    "SÍ"
+                  ],
+                  [
+                    "BARATO",
+                    "SÍ"
+                  ]
+                ],
+                "colores": [
+                  "#E9493F",
+                  "#45C46A",
+                  "#45C46A"
+                ],
+                "entra": "aparece",
+                "en": 0,
+                "params": {
+                  "n": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      "9:facil",
+                      1
+                    ],
+                    [
+                      "9:facil",
+                      2
+                    ],
+                    [
+                      "9:barato",
+                      2
+                    ],
+                    [
+                      "9:barato",
+                      3
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1190,
+                "escala": 0.95,
+                "color": "gris",
+                "cara": "guino",
+                "gafas": "sol",
+                "entra": "sube",
+                "en": 0.05,
+                "accion": "flota"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "10:ronda",
+          "titulo": "RONDA 3|*ETIQUETA*",
+          "dibujo": {
+            "fondo": "arcade",
+            "fondoOpts": {
+              "rayos": true
+            },
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.08
+                }
+              ],
+              [
+                "10:etiqueta",
+                {
+                  "zoom": 1
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "maquina",
+                "x": 540,
+                "y": 1000,
+                "escala": 0.95,
+                "titulo": "RONDA 3",
+                "texto": "ETIQUETA|PLAY",
+                "entra": "cae",
+                "en": 0.05
+              },
+              {
+                "pieza": "personaje",
+                "x": 190,
+                "y": 1210,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "feliz",
+                "brazo": "arriba",
+                "entra": "rebote",
+                "en": "10:etiqueta"
+              },
+              {
+                "pieza": "personaje",
+                "x": 890,
+                "y": 1210,
+                "escala": 0.85,
+                "color": "gris",
+                "cara": "enfadado",
+                "entra": "rebote",
+                "en": "10:etiqueta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "11:si",
+          "titulo": "Lee los|*INGREDIENTES*",
+          "dibujo": {
+            "fondo": "arcade-sala",
+            "elementos": [
+              {
+                "pieza": "ficha",
+                "x": 540,
+                "y": 800,
+                "ancho": 920,
+                "filas": [
+                  [
+                    "1",
+                    "AZÚCAR"
+                  ],
+                  [
+                    "2",
+                    "GRASA VEGETAL"
+                  ],
+                  [
+                    "3",
+                    "SABOR A CHOCOLATE"
+                  ]
+                ],
+                "colores": [
+                  "#fff",
+                  "#E9493F",
+                  "#E9493F"
+                ],
+                "entra": "aparece",
+                "en": 0,
+                "params": {
+                  "n": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      "11:grasa",
+                      1
+                    ],
+                    [
+                      "11:grasa",
+                      2
+                    ],
+                    [
+                      "11:sabor",
+                      2
+                    ],
+                    [
+                      "11:sabor",
+                      3
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "letrero",
+                "x": 540,
+                "y": 1080,
+                "texto": "SUCEDÁNEO",
+                "estilo": "sello",
+                "fondo": "#E9493F",
+                "tamano": 40,
+                "entra": "rebote",
+                "en": "11:sucedaneo",
+                "sonido": "error"
+              },
+              {
+                "pieza": "personaje",
+                "x": 880,
+                "y": 1240,
+                "escala": 0.7,
+                "color": "gris",
+                "cara": "asustado",
+                "entra": "sube",
+                "en": "11:sucedaneo"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "12:si",
+          "titulo": "¡Gana el|*REAL*!",
+          "tituloEn": [
+            0,
+            "12:gana"
+          ],
+          "dibujo": {
+            "fondo": "arcade",
+            "fondoOpts": {
+              "rayos": true,
+              "color": "#2a1470"
+            },
+            "elementos": [
+              {
+                "pieza": "ficha",
+                "x": 540,
+                "y": 740,
+                "ancho": 920,
+                "filas": [
+                  [
+                    "1",
+                    "CACAO"
+                  ],
+                  [
+                    "2",
+                    "MANTECA DE CACAO"
+                  ]
+                ],
+                "colores": [
+                  "#45C46A",
+                  "#45C46A"
+                ],
+                "entra": "aparece",
+                "en": 0,
+                "params": {
+                  "n": [
+                    [
+                      0,
+                      1
+                    ],
+                    [
+                      "12:manteca",
+                      1
+                    ],
+                    [
+                      "12:manteca",
+                      2
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "explosion",
+                "x": 540,
+                "y": 1000,
+                "escala": 1.4,
+                "entra": "ninguna",
+                "en": "12:gana"
+              },
+              {
+                "pieza": "mejora",
+                "x": 540,
+                "y": 1000,
+                "titulo": "GANADOR",
+                "texto": "CACAO REAL",
+                "icono": "estrella",
+                "entra": "aparece",
+                "en": "12:gana"
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1240,
+                "escala": 0.8,
+                "color": "cacao",
+                "gorro": "corona",
+                "cara": "feliz",
+                "brazo": "saluda",
+                "entra": "rebote",
+                "en": "12:real"
+              },
+              {
+                "pieza": "confeti",
+                "x": 540,
+                "y": 960,
+                "entra": "ninguna",
+                "en": "12:real"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "13:quieres",
+          "titulo": "¿Quieres hacer|estos *VIDEOS*?",
+          "tituloEn": [
+            0,
+            "13:videos"
+          ],
+          "dibujo": {
+            "fondo": "arcade-escenario",
+            "elementos": [
+              {
+                "pieza": "cta",
+                "x": 540,
+                "y": 880,
+                "palabra": "VIRAL",
+                "texto": "y aprende a hacer estos videos",
+                "entra": "rebote",
+                "en": "13:escribe"
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1230,
+                "escala": 0.8,
+                "color": "blanco",
+                "cara": "feliz",
+                "brazo": "arriba",
+                "entra": "sube",
+                "en": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "desde": "14:ideal",
+          "titulo": "Ideal para tu|*NEGOCIO*",
+          "tituloEn": [
+            0,
+            "14:negocio"
+          ],
+          "dibujo": {
+            "fondo": "arcade",
+            "elementos": [
+              {
+                "pieza": "continuar",
+                "x": 540,
+                "y": 860,
+                "texto": "¿CONTINUAR?",
+                "sub": "ESCRIBE VIRAL",
+                "entra": "aparece",
+                "en": 0,
+                "params": {
+                  "n": [
+                    [
+                      0,
+                      5
+                    ],
+                    [
+                      2.3,
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1220,
+                "escala": 0.75,
+                "color": "cacao",
+                "cara": "feliz",
+                "entra": "rebote",
+                "en": 0.1
+              },
+              {
+                "pieza": "personaje",
+                "x": 780,
+                "y": 1220,
+                "escala": 0.75,
+                "color": "blanco",
+                "cara": "guino",
+                "entra": "rebote",
+                "en": 0.2
+              }
+            ]
           }
         }
       ]

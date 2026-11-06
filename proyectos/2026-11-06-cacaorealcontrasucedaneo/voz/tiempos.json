@@ -1,0 +1,777 @@
+{
+  "huella": "7410babe6c64",
+  "duracion": 54.842,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "¿Ese chocolate que compraste es cacao de verdad? Ojo, a lo mejor no.",
+      "clave": "verdad",
+      "inicio": 0,
+      "fin": 4.319,
+      "palabras": [
+        {
+          "texto": "¿Ese",
+          "inicio": 0,
+          "fin": 0.244
+        },
+        {
+          "texto": "chocolate",
+          "inicio": 0.302,
+          "fin": 0.743
+        },
+        {
+          "texto": "que",
+          "inicio": 0.789,
+          "fin": 0.859
+        },
+        {
+          "texto": "compraste",
+          "inicio": 0.906,
+          "fin": 1.324
+        },
+        {
+          "texto": "es",
+          "inicio": 1.347,
+          "fin": 1.405
+        },
+        {
+          "texto": "cacao",
+          "inicio": 1.463,
+          "fin": 1.765
+        },
+        {
+          "texto": "de",
+          "inicio": 1.8,
+          "fin": 1.858
+        },
+        {
+          "texto": "verdad?",
+          "inicio": 1.904,
+          "fin": 2.392
+        },
+        {
+          "texto": "Ojo,",
+          "inicio": 3.135,
+          "fin": 3.495
+        },
+        {
+          "texto": "a",
+          "inicio": 3.564,
+          "fin": 3.599
+        },
+        {
+          "texto": "lo",
+          "inicio": 3.657,
+          "fin": 3.715
+        },
+        {
+          "texto": "mejor",
+          "inicio": 3.762,
+          "fin": 3.982
+        },
+        {
+          "texto": "no.",
+          "inicio": 4.04,
+          "fin": 4.319
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "¡Cacao real contra sucedáneo! Mira la diferencia.",
+      "clave": "sucedáneo",
+      "inicio": 4.54,
+      "fin": 7.848,
+      "palabras": [
+        {
+          "texto": "¡Cacao",
+          "inicio": 4.54,
+          "fin": 5.004
+        },
+        {
+          "texto": "real",
+          "inicio": 5.074,
+          "fin": 5.329
+        },
+        {
+          "texto": "contra",
+          "inicio": 5.387,
+          "fin": 5.654
+        },
+        {
+          "texto": "sucedáneo!",
+          "inicio": 5.689,
+          "fin": 6.281
+        },
+        {
+          "texto": "Mira",
+          "inicio": 6.827,
+          "fin": 7.024
+        },
+        {
+          "texto": "la",
+          "inicio": 7.07,
+          "fin": 7.129
+        },
+        {
+          "texto": "diferencia.",
+          "inicio": 7.163,
+          "fin": 7.848
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Ronda uno: la grasa.",
+      "clave": "grasa",
+      "inicio": 8.394,
+      "fin": 9.973,
+      "palabras": [
+        {
+          "texto": "Ronda",
+          "inicio": 8.394,
+          "fin": 8.707
+        },
+        {
+          "texto": "uno:",
+          "inicio": 8.812,
+          "fin": 9.16
+        },
+        {
+          "texto": "la",
+          "inicio": 9.346,
+          "fin": 9.427
+        },
+        {
+          "texto": "grasa.",
+          "inicio": 9.485,
+          "fin": 9.973
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "El real lleva manteca de cacao: la grasa natural del propio grano.",
+      "clave": "manteca",
+      "inicio": 10.263,
+      "fin": 14.292,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 10.263,
+          "fin": 10.414
+        },
+        {
+          "texto": "real",
+          "inicio": 10.495,
+          "fin": 10.716
+        },
+        {
+          "texto": "lleva",
+          "inicio": 10.751,
+          "fin": 10.983
+        },
+        {
+          "texto": "manteca",
+          "inicio": 11.041,
+          "fin": 11.436
+        },
+        {
+          "texto": "de",
+          "inicio": 11.471,
+          "fin": 11.529
+        },
+        {
+          "texto": "cacao:",
+          "inicio": 11.564,
+          "fin": 12.109
+        },
+        {
+          "texto": "la",
+          "inicio": 12.574,
+          "fin": 12.655
+        },
+        {
+          "texto": "grasa",
+          "inicio": 12.713,
+          "fin": 12.968
+        },
+        {
+          "texto": "natural",
+          "inicio": 13.015,
+          "fin": 13.351
+        },
+        {
+          "texto": "del",
+          "inicio": 13.386,
+          "fin": 13.491
+        },
+        {
+          "texto": "propio",
+          "inicio": 13.549,
+          "fin": 13.839
+        },
+        {
+          "texto": "grano.",
+          "inicio": 13.874,
+          "fin": 14.292
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "El sucedáneo la cambia por grasa vegetal, casi siempre de palmiste.",
+      "clave": "palmiste",
+      "inicio": 14.838,
+      "fin": 19.192,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 14.838,
+          "fin": 14.977
+        },
+        {
+          "texto": "sucedáneo",
+          "inicio": 15.035,
+          "fin": 15.499
+        },
+        {
+          "texto": "la",
+          "inicio": 15.546,
+          "fin": 15.616
+        },
+        {
+          "texto": "cambia",
+          "inicio": 15.674,
+          "fin": 15.999
+        },
+        {
+          "texto": "por",
+          "inicio": 16.045,
+          "fin": 16.196
+        },
+        {
+          "texto": "grasa",
+          "inicio": 16.266,
+          "fin": 16.568
+        },
+        {
+          "texto": "vegetal,",
+          "inicio": 16.603,
+          "fin": 17.195
+        },
+        {
+          "texto": "casi",
+          "inicio": 17.74,
+          "fin": 17.984
+        },
+        {
+          "texto": "siempre",
+          "inicio": 18.031,
+          "fin": 18.367
+        },
+        {
+          "texto": "de",
+          "inicio": 18.402,
+          "fin": 18.46
+        },
+        {
+          "texto": "palmiste.",
+          "inicio": 18.507,
+          "fin": 19.192
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Ronda dos: la boca.",
+      "clave": "boca",
+      "inicio": 19.935,
+      "fin": 21.885,
+      "palabras": [
+        {
+          "texto": "Ronda",
+          "inicio": 19.935,
+          "fin": 20.237
+        },
+        {
+          "texto": "dos:",
+          "inicio": 20.283,
+          "fin": 20.771
+        },
+        {
+          "texto": "la",
+          "inicio": 21.316,
+          "fin": 21.409
+        },
+        {
+          "texto": "boca.",
+          "inicio": 21.467,
+          "fin": 21.885
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "La manteca de cacao se derrite a unos treinta y cuatro grados.",
+      "clave": "treinta",
+      "inicio": 22.895,
+      "fin": 26.065,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 22.895,
+          "fin": 22.988
+        },
+        {
+          "texto": "manteca",
+          "inicio": 23.035,
+          "fin": 23.336
+        },
+        {
+          "texto": "de",
+          "inicio": 23.371,
+          "fin": 23.429
+        },
+        {
+          "texto": "cacao",
+          "inicio": 23.464,
+          "fin": 23.754
+        },
+        {
+          "texto": "se",
+          "inicio": 23.789,
+          "fin": 23.882
+        },
+        {
+          "texto": "derrite",
+          "inicio": 23.94,
+          "fin": 24.288
+        },
+        {
+          "texto": "a",
+          "inicio": 24.335,
+          "fin": 24.358
+        },
+        {
+          "texto": "unos",
+          "inicio": 24.416,
+          "fin": 24.614
+        },
+        {
+          "texto": "treinta",
+          "inicio": 24.695,
+          "fin": 25.008
+        },
+        {
+          "texto": "y",
+          "inicio": 25.032,
+          "fin": 25.066
+        },
+        {
+          "texto": "cuatro",
+          "inicio": 25.124,
+          "fin": 25.426
+        },
+        {
+          "texto": "grados.",
+          "inicio": 25.461,
+          "fin": 26.065
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "¡Justo debajo de tu cuerpo! Por eso se funde en tu boca.",
+      "clave": "funde",
+      "inicio": 26.251,
+      "fin": 29.548,
+      "palabras": [
+        {
+          "texto": "¡Justo",
+          "inicio": 26.251,
+          "fin": 26.669
+        },
+        {
+          "texto": "debajo",
+          "inicio": 26.727,
+          "fin": 27.005
+        },
+        {
+          "texto": "de",
+          "inicio": 27.04,
+          "fin": 27.098
+        },
+        {
+          "texto": "tu",
+          "inicio": 27.145,
+          "fin": 27.237
+        },
+        {
+          "texto": "cuerpo!",
+          "inicio": 27.284,
+          "fin": 27.83
+        },
+        {
+          "texto": "Por",
+          "inicio": 28.085,
+          "fin": 28.247
+        },
+        {
+          "texto": "eso",
+          "inicio": 28.294,
+          "fin": 28.422
+        },
+        {
+          "texto": "se",
+          "inicio": 28.468,
+          "fin": 28.549
+        },
+        {
+          "texto": "funde",
+          "inicio": 28.596,
+          "fin": 28.84
+        },
+        {
+          "texto": "en",
+          "inicio": 28.863,
+          "fin": 28.909
+        },
+        {
+          "texto": "tu",
+          "inicio": 28.967,
+          "fin": 29.06
+        },
+        {
+          "texto": "boca.",
+          "inicio": 29.107,
+          "fin": 29.548
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Pero ojo: el sucedáneo no necesita templado. Es más fácil y más barato de trabajar.",
+      "clave": "templado",
+      "inicio": 30.012,
+      "fin": 35.434,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 30.012,
+          "fin": 30.256
+        },
+        {
+          "texto": "ojo:",
+          "inicio": 30.36,
+          "fin": 30.836
+        },
+        {
+          "texto": "el",
+          "inicio": 30.976,
+          "fin": 31.08
+        },
+        {
+          "texto": "sucedáneo",
+          "inicio": 31.127,
+          "fin": 31.58
+        },
+        {
+          "texto": "no",
+          "inicio": 31.638,
+          "fin": 31.742
+        },
+        {
+          "texto": "necesita",
+          "inicio": 31.8,
+          "fin": 32.299
+        },
+        {
+          "texto": "templado.",
+          "inicio": 32.357,
+          "fin": 33.031
+        },
+        {
+          "texto": "Es",
+          "inicio": 33.379,
+          "fin": 33.518
+        },
+        {
+          "texto": "más",
+          "inicio": 33.565,
+          "fin": 33.693
+        },
+        {
+          "texto": "fácil",
+          "inicio": 33.751,
+          "fin": 34.006
+        },
+        {
+          "texto": "y",
+          "inicio": 34.041,
+          "fin": 34.064
+        },
+        {
+          "texto": "más",
+          "inicio": 34.111,
+          "fin": 34.238
+        },
+        {
+          "texto": "barato",
+          "inicio": 34.296,
+          "fin": 34.598
+        },
+        {
+          "texto": "de",
+          "inicio": 34.656,
+          "fin": 34.714
+        },
+        {
+          "texto": "trabajar.",
+          "inicio": 34.761,
+          "fin": 35.434
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Ronda tres: lee la etiqueta.",
+      "clave": "etiqueta",
+      "inicio": 36.305,
+      "fin": 38.871,
+      "palabras": [
+        {
+          "texto": "Ronda",
+          "inicio": 36.305,
+          "fin": 36.549
+        },
+        {
+          "texto": "tres:",
+          "inicio": 36.595,
+          "fin": 37.106
+        },
+        {
+          "texto": "lee",
+          "inicio": 37.745,
+          "fin": 37.942
+        },
+        {
+          "texto": "la",
+          "inicio": 38,
+          "fin": 38.07
+        },
+        {
+          "texto": "etiqueta.",
+          "inicio": 38.104,
+          "fin": 38.871
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Si dice grasa vegetal o «sabor a chocolate», es sucedáneo.",
+      "clave": "sucedáneo",
+      "inicio": 39.335,
+      "fin": 44.258,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 39.335,
+          "fin": 39.521
+        },
+        {
+          "texto": "dice",
+          "inicio": 39.579,
+          "fin": 39.811
+        },
+        {
+          "texto": "grasa",
+          "inicio": 39.881,
+          "fin": 40.194
+        },
+        {
+          "texto": "vegetal",
+          "inicio": 40.241,
+          "fin": 40.74
+        },
+        {
+          "texto": "o",
+          "inicio": 41.286,
+          "fin": 41.541
+        },
+        {
+          "texto": "«sabor",
+          "inicio": 41.599,
+          "fin": 42.121
+        },
+        {
+          "texto": "a",
+          "inicio": 42.168,
+          "fin": 42.191
+        },
+        {
+          "texto": "chocolate»,",
+          "inicio": 42.238,
+          "fin": 43.166
+        },
+        {
+          "texto": "es",
+          "inicio": 43.352,
+          "fin": 43.468
+        },
+        {
+          "texto": "sucedáneo.",
+          "inicio": 43.584,
+          "fin": 44.258
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Si dice manteca de cacao, ¡gana el real!",
+      "clave": "real",
+      "inicio": 44.664,
+      "fin": 47.323,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 44.664,
+          "fin": 44.792
+        },
+        {
+          "texto": "dice",
+          "inicio": 44.838,
+          "fin": 45.012
+        },
+        {
+          "texto": "manteca",
+          "inicio": 45.07,
+          "fin": 45.43
+        },
+        {
+          "texto": "de",
+          "inicio": 45.477,
+          "fin": 45.535
+        },
+        {
+          "texto": "cacao,",
+          "inicio": 45.57,
+          "fin": 46.208
+        },
+        {
+          "texto": "¡gana",
+          "inicio": 46.348,
+          "fin": 46.673
+        },
+        {
+          "texto": "el",
+          "inicio": 46.696,
+          "fin": 46.754
+        },
+        {
+          "texto": "real!",
+          "inicio": 46.835,
+          "fin": 47.323
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "¿Quieres aprender a hacer estos videos? Escribe la palabra VIRAL.",
+      "clave": "VIRAL",
+      "inicio": 47.729,
+      "fin": 51.851,
+      "palabras": [
+        {
+          "texto": "¿Quieres",
+          "inicio": 47.729,
+          "fin": 48.124
+        },
+        {
+          "texto": "aprender",
+          "inicio": 48.182,
+          "fin": 48.461
+        },
+        {
+          "texto": "a",
+          "inicio": 48.484,
+          "fin": 48.623
+        },
+        {
+          "texto": "hacer",
+          "inicio": 48.786,
+          "fin": 49.018
+        },
+        {
+          "texto": "estos",
+          "inicio": 49.053,
+          "fin": 49.238
+        },
+        {
+          "texto": "videos?",
+          "inicio": 49.296,
+          "fin": 49.819
+        },
+        {
+          "texto": "Escribe",
+          "inicio": 50.365,
+          "fin": 50.759
+        },
+        {
+          "texto": "la",
+          "inicio": 50.794,
+          "fin": 50.852
+        },
+        {
+          "texto": "palabra",
+          "inicio": 50.899,
+          "fin": 51.27
+        },
+        {
+          "texto": "VIRAL.",
+          "inicio": 51.328,
+          "fin": 51.851
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "texto": "Ideal para tu idea de negocio.",
+      "clave": "negocio",
+      "inicio": 52.489,
+      "fin": 54.242,
+      "palabras": [
+        {
+          "texto": "Ideal",
+          "inicio": 52.489,
+          "fin": 52.849
+        },
+        {
+          "texto": "para",
+          "inicio": 52.907,
+          "fin": 53.035
+        },
+        {
+          "texto": "tu",
+          "inicio": 53.081,
+          "fin": 53.163
+        },
+        {
+          "texto": "idea",
+          "inicio": 53.197,
+          "fin": 53.383
+        },
+        {
+          "texto": "de",
+          "inicio": 53.406,
+          "fin": 53.476
+        },
+        {
+          "texto": "negocio.",
+          "inicio": 53.522,
+          "fin": 54.242
+        }
+      ]
+    }
+  ]
+}
