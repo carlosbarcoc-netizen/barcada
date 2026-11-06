@@ -889,13 +889,26 @@
             "fondo": "arcade-escenario",
             "elementos": [
               {
-                "pieza": "cta",
+                "pieza": "letrero",
                 "x": 540,
-                "y": 880,
-                "palabra": "VIRAL",
-                "texto": "y aprende a hacer estos videos",
+                "y": 830,
+                "texto": "ESCRIBE\n\"VIRAL\"",
+                "fondo": "#fff",
+                "tinta": "#000",
+                "tamano": 50,
                 "entra": "rebote",
                 "en": "13:escribe"
+              },
+              {
+                "pieza": "letrero",
+                "x": 540,
+                "y": 1010,
+                "texto": "Y APRENDE A HACER\nESTOS VIDEOS",
+                "estilo": "plano",
+                "tinta": "#FFD23F",
+                "tamano": 26,
+                "entra": "aparece",
+                "en": "13:viral"
               },
               {
                 "pieza": "personaje",
