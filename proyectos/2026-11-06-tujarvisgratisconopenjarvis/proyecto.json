@@ -1,0 +1,38 @@
+{
+  "titulo": "Tu Jarvis gratis con OpenJarvis",
+  "estilo": "2d",
+  "frases": [
+    {
+      "texto": "",
+      "clave": ""
+    }
+  ],
+  "juego": {
+    "piel": "arcade",
+    "progreso": {
+      "titulo": "",
+      "etiqueta": "",
+      "pasos": [
+        {
+          "texto": "",
+          "en": ""
+        }
+      ]
+    },
+    "tiempo": true
+  },
+  "escenas": [
+    {
+      "nombre": "partida",
+      "tomas": [
+        {
+          "desde": 0,
+          "titulo": "",
+          "dibujo": {
+            "elementos": []
+          }
+        }
+      ]
+    }
+  ]
+}
