@@ -3,23 +3,84 @@
   "estilo": "2d",
   "frases": [
     {
-      "texto": "",
-      "clave": ""
+      "texto": "Los millonarios tienen asistente personal. ¿Y tú? Tú vas a tener a Jarvis… ¡gratis!",
+      "clave": "gratis",
+      "dicho": "Los millonarios tienen asistente personal. ¿Y tú? Tú vas a tener a Yarvis… ¡gratis!"
+    },
+    {
+      "texto": "Se llama OpenJarvis y lo hicieron en la Universidad de Stanford.",
+      "clave": "Stanford",
+      "dicho": "Se llama Open Yarvis y lo hicieron en la Universidad de Stanford."
+    },
+    {
+      "texto": "Es código abierto: la IA vive en tu computadora, no en la nube.",
+      "clave": "computadora"
+    },
+    {
+      "texto": "Mira qué fácil. Paso uno: pegas una línea en tu terminal… ¡y se instala solito!",
+      "clave": "terminal"
+    },
+    {
+      "texto": "Paso dos: le conectas tu Gmail y tu calendario.",
+      "clave": "calendario",
+      "dicho": "Paso dos: le conectas tu yi meil y tu calendario."
+    },
+    {
+      "texto": "Paso tres: activas el resumen de la mañana.",
+      "clave": "mañana"
+    },
+    {
+      "texto": "¿Y sabes qué pasa? Ojo, aquí viene lo bueno.",
+      "clave": "bueno"
+    },
+    {
+      "texto": "Mañana te levantas con cuarenta correos sin leer…",
+      "clave": "cuarenta"
+    },
+    {
+      "texto": "y Jarvis te lo cuenta en voz alta: tus reuniones, tus pendientes y las noticias.",
+      "clave": "voz",
+      "dicho": "y Yarvis te lo cuenta en voz alta: tus reuniones, tus pendientes y las noticias."
+    },
+    {
+      "texto": "Sin pagar suscripción, y con la IA corriendo en tu propia casa.",
+      "clave": "suscripción"
+    },
+    {
+      "texto": "Los millonarios pagan un asistente. Tú lo tienes con una sola línea.",
+      "clave": "línea"
+    },
+    {
+      "texto": "Comenta VIRAL y te enseño a hacer videos como este.",
+      "clave": "VIRAL",
+      "dicho": "Comenta VIRAL, y te enseño a hacer videos como este."
     }
   ],
   "juego": {
     "piel": "arcade",
+    "firma": "@carlosbarcoc",
+    "tiempo": true,
     "progreso": {
-      "titulo": "",
-      "etiqueta": "",
+      "titulo": "JARVIS",
       "pasos": [
         {
-          "texto": "",
-          "en": ""
+          "texto": "INSTALAR",
+          "en": "4:instala"
+        },
+        {
+          "texto": "CONECTAR",
+          "en": "5:calendario"
+        },
+        {
+          "texto": "RESUMEN",
+          "en": "6:manana"
         }
-      ]
-    },
-    "tiempo": true
+      ],
+      "final": {
+        "texto": "ACTIVO",
+        "en": "9:voz"
+      }
+    }
   },
   "escenas": [
     {
@@ -27,9 +88,714 @@
       "tomas": [
         {
           "desde": 0,
+          "titulo": "Asistente de|*MILLONARIO*",
+          "dibujo": {
+            "fondo": "arcade-escenario",
+            "elementos": [
+              {
+                "pieza": "maquina",
+                "x": 540,
+                "y": 930,
+                "titulo": "ASISTENTE",
+                "texto": "PRECIO",
+                "precio": "$ 99.999",
+                "entra": "cae",
+                "en": 0,
+                "hasta": "1:gratis"
+              },
+              {
+                "pieza": "maquina",
+                "x": 540,
+                "y": 930,
+                "titulo": "ASISTENTE",
+                "texto": "PLAY",
+                "precio": "GRATIS",
+                "entra": "aparece",
+                "en": "1:gratis"
+              },
+              {
+                "pieza": "personaje",
+                "x": 210,
+                "y": 1190,
+                "escala": 1.05,
+                "color": "morado",
+                "gafas": "sol",
+                "gorro": "corona",
+                "cara": "feliz",
+                "entra": "izquierda",
+                "en": 0.1
+              },
+              {
+                "pieza": "icono",
+                "nombre": "dinero",
+                "x": 210,
+                "y": 980,
+                "entra": "rebote",
+                "en": "1:asistente",
+                "accion": "late"
+              },
+              {
+                "pieza": "personaje",
+                "x": 870,
+                "y": 1190,
+                "color": "blanco",
+                "antena": true,
+                "escala": 1.05,
+                "cara": "sorprendido",
+                "entra": "derecha",
+                "en": "1:y"
+              },
+              {
+                "pieza": "dialogo",
+                "x": 840,
+                "y": 960,
+                "texto": "¿Y YO?",
+                "entra": "rebote",
+                "en": "1:tu"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "1:jarvis",
+          "titulo": "Tu propio|*JARVIS* gratis",
+          "dibujo": {
+            "fondo": "arcade",
+            "fondoOpts": {
+              "rayos": true
+            },
+            "elementos": [
+              {
+                "pieza": "rayos",
+                "x": 540,
+                "y": 900,
+                "capa": -1,
+                "entra": "aparece",
+                "en": 0
+              },
+              {
+                "pieza": "maquina",
+                "x": 540,
+                "y": 930,
+                "titulo": "JARVIS",
+                "texto": "PLAY",
+                "precio": "0 $",
+                "entra": "rebote",
+                "en": 0
+              },
+              {
+                "pieza": "personaje",
+                "x": 860,
+                "y": 1190,
+                "color": "blanco",
+                "antena": true,
+                "cara": "feliz",
+                "brazo": "arriba",
+                "entra": "rebote",
+                "en": 0.1
+              },
+              {
+                "pieza": "sello",
+                "x": 330,
+                "y": 700,
+                "texto": "GRATIS",
+                "entra": "rebote",
+                "en": "1:gratis"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "2:se",
           "titulo": "",
           "dibujo": {
-            "elementos": []
+            "fondo": "arcade",
+            "elementos": [
+              {
+                "pieza": "monitor",
+                "x": 540,
+                "y": 690,
+                "texto": "OPEN|JARVIS",
+                "sello": "GRATIS",
+                "entra": "cae",
+                "en": 0
+              },
+              {
+                "pieza": "ficha",
+                "x": 540,
+                "y": 1110,
+                "ancho": 880,
+                "filas": [
+                  [
+                    "NOMBRE",
+                    "OPENJARVIS"
+                  ],
+                  [
+                    "HECHO EN",
+                    "STANFORD"
+                  ],
+                  [
+                    "PRECIO",
+                    "0 $"
+                  ]
+                ],
+                "entra": "aparece",
+                "en": "2:llama",
+                "colores": [
+                  "#3FE0F0",
+                  "#FF3B4E",
+                  "#4BF06A"
+                ],
+                "params": {
+                  "n": [
+                    [
+                      "2:llama",
+                      0
+                    ],
+                    [
+                      "2:openjarvis",
+                      1
+                    ],
+                    [
+                      "2:universidad",
+                      1
+                    ],
+                    [
+                      "2:stanford",
+                      2
+                    ],
+                    [
+                      "3:es",
+                      2
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": "3:es",
+          "titulo": "Código|*ABIERTO*",
+          "dibujo": {
+            "fondo": "arcade-sala",
+            "elementos": [
+              {
+                "pieza": "dispositivo",
+                "tipo": "laptop",
+                "x": 540,
+                "y": 900,
+                "escala": 1.6,
+                "pantalla": "TU PC",
+                "entra": "cae",
+                "en": 0
+              },
+              {
+                "pieza": "robot",
+                "x": 540,
+                "y": 830,
+                "escala": 0.55,
+                "cara": "feliz",
+                "entra": "rebote",
+                "en": "3:vive",
+                "brilla": 1
+              },
+              {
+                "pieza": "letrero",
+                "x": 860,
+                "y": 640,
+                "texto": "NUBE",
+                "estilo": "caja",
+                "entra": "rebote",
+                "en": "3:nube"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "equis",
+                "x": 860,
+                "y": 760,
+                "entra": "gira",
+                "en": "3:nube"
+              },
+              {
+                "pieza": "personaje",
+                "x": 200,
+                "y": 1200,
+                "color": "blanco",
+                "antena": true,
+                "cara": "feliz",
+                "entra": "izquierda",
+                "en": "3:computadora"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "4:mira",
+          "titulo": "PASO 1|*INSTALAR*",
+          "dibujo": {
+            "fondo": "arcade-sala",
+            "elementos": [
+              {
+                "pieza": "terminal",
+                "x": 540,
+                "y": 820,
+                "ancho": 860,
+                "alto": 380,
+                "titulo": "TERMINAL",
+                "texto": "$ curl ... install.sh | bash\n> instalando...\n> modelo local: OK\n✓ listo",
+                "entra": "aparece",
+                "en": "4:pegas"
+              },
+              {
+                "pieza": "personaje",
+                "x": 260,
+                "y": 1200,
+                "color": "blanco",
+                "antena": true,
+                "cara": "normal",
+                "brazo": "arriba",
+                "entra": "izquierda",
+                "en": 0
+              },
+              {
+                "pieza": "icono",
+                "nombre": "check",
+                "x": 820,
+                "y": 1150,
+                "entra": "rebote",
+                "en": "4:solito"
+              },
+              {
+                "pieza": "robot",
+                "x": 820,
+                "y": 1190,
+                "escala": 0.6,
+                "cara": "feliz",
+                "entra": "sube",
+                "en": "4:instala"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "5:paso",
+          "titulo": "PASO 2|*CONECTAR*",
+          "dibujo": {
+            "fondo": "arcade-sala",
+            "elementos": [
+              {
+                "pieza": "robot",
+                "x": 540,
+                "y": 1020,
+                "escala": 0.9,
+                "cara": "normal",
+                "entra": "aparece",
+                "en": 0
+              },
+              {
+                "pieza": "icono",
+                "nombre": "correo",
+                "x": 240,
+                "y": 700,
+                "entra": "rebote",
+                "en": "5:gmail"
+              },
+              {
+                "pieza": "letrero",
+                "x": 240,
+                "y": 820,
+                "texto": "CORREO",
+                "estilo": "plano",
+                "tamano": 30,
+                "entra": "aparece",
+                "en": "5:gmail"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "calendario",
+                "x": 840,
+                "y": 700,
+                "entra": "rebote",
+                "en": "5:calendario"
+              },
+              {
+                "pieza": "letrero",
+                "x": 840,
+                "y": 820,
+                "texto": "CALENDARIO",
+                "estilo": "plano",
+                "tamano": 30,
+                "entra": "aparece",
+                "en": "5:calendario"
+              },
+              {
+                "pieza": "personaje",
+                "x": 200,
+                "y": 1220,
+                "color": "blanco",
+                "antena": true,
+                "escala": 0.8,
+                "cara": "feliz",
+                "entra": "izquierda",
+                "en": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "desde": "6:paso",
+          "titulo": "PASO 3|*RESUMEN*",
+          "dibujo": {
+            "fondo": "arcade",
+            "fondoOpts": {
+              "rayos": true
+            },
+            "elementos": [
+              {
+                "pieza": "mejora",
+                "x": 540,
+                "y": 720,
+                "titulo": "MEJORA CONSEGUIDA",
+                "texto": "RESUMEN 7 AM",
+                "icono": "reloj",
+                "entra": "aparece",
+                "en": "6:activas"
+              },
+              {
+                "pieza": "robot",
+                "x": 540,
+                "y": 1080,
+                "escala": 0.85,
+                "cara": "feliz",
+                "brilla": 1,
+                "entra": "rebote",
+                "en": "6:resumen"
+              },
+              {
+                "pieza": "personaje",
+                "x": 200,
+                "y": 1220,
+                "color": "blanco",
+                "antena": true,
+                "escala": 0.8,
+                "cara": "feliz",
+                "brazo": "arriba",
+                "entra": "izquierda",
+                "en": 0
+              }
+            ]
+          }
+        },
+        {
+          "desde": "7:y",
+          "titulo": "",
+          "dibujo": {
+            "fondo": "arcade",
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1120,
+                "color": "blanco",
+                "antena": true,
+                "escala": 1.2,
+                "cara": "sorprendido",
+                "entra": "rebote",
+                "en": 0
+              },
+              {
+                "pieza": "dialogo",
+                "x": 540,
+                "y": 780,
+                "texto": "¿QUÉ PASA?",
+                "entra": "rebote",
+                "en": "7:sabes"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "7:ojo",
+          "alerta": true,
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "advertencia",
+                "x": 540,
+                "y": 960,
+                "texto": "WARNING",
+                "sub": "LO BUENO",
+                "entra": "ninguna",
+                "en": 0
+              }
+            ]
+          }
+        },
+        {
+          "desde": "8:manana",
+          "titulo": "!40! SIN LEER",
+          "tituloEn": [
+            "8:cuarenta"
+          ],
+          "dibujo": {
+            "fondo": "arcade-atardecer",
+            "elementos": [
+              {
+                "pieza": "muchos",
+                "icono": "correo",
+                "x": 540,
+                "y": 800,
+                "columnas": 8,
+                "separa": 105,
+                "entra": "aparece",
+                "en": 0,
+                "params": {
+                  "n": [
+                    [
+                      "8:manana",
+                      1
+                    ],
+                    [
+                      "8:cuarenta",
+                      4
+                    ],
+                    [
+                      "8:leer",
+                      40
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1210,
+                "color": "blanco",
+                "antena": true,
+                "cara": "dormido",
+                "entra": "sube",
+                "en": 0,
+                "params": {
+                  "cara": [
+                    [
+                      0,
+                      "dormido"
+                    ],
+                    [
+                      "8:cuarenta",
+                      "asustado"
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": "9:y",
+          "titulo": "Jarvis te lo|*CUENTA*",
+          "dibujo": {
+            "fondo": "arcade-atardecer",
+            "elementos": [
+              {
+                "pieza": "robot",
+                "x": 640,
+                "y": 1060,
+                "escala": 0.9,
+                "cara": "feliz",
+                "brilla": 1,
+                "entra": "rebote",
+                "en": 0
+              },
+              {
+                "pieza": "dialogo",
+                "x": 640,
+                "y": 700,
+                "texto": "¡BUENOS DÍAS!",
+                "entra": "rebote",
+                "en": "9:voz"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "calendario",
+                "x": 220,
+                "y": 640,
+                "entra": "rebote",
+                "en": "9:reuniones"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "check",
+                "x": 220,
+                "y": 820,
+                "entra": "rebote",
+                "en": "9:pendientes"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "mundo",
+                "x": 220,
+                "y": 1000,
+                "entra": "rebote",
+                "en": "9:noticias"
+              },
+              {
+                "pieza": "personaje",
+                "x": 260,
+                "y": 1220,
+                "color": "blanco",
+                "antena": true,
+                "escala": 0.8,
+                "cara": "feliz",
+                "entra": "izquierda",
+                "en": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "desde": "10:sin",
+          "titulo": "*0 $* al mes",
+          "dibujo": {
+            "fondo": "arcade",
+            "elementos": [
+              {
+                "pieza": "letrero",
+                "x": 540,
+                "y": 640,
+                "texto": "SUSCRIPCIÓN",
+                "estilo": "caja",
+                "entra": "rebote",
+                "en": 0
+              },
+              {
+                "pieza": "icono",
+                "nombre": "equis",
+                "x": 540,
+                "y": 780,
+                "entra": "gira",
+                "en": "10:suscripcion"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "casa",
+                "x": 540,
+                "y": 1000,
+                "tam": 14,
+                "entra": "rebote",
+                "en": "10:casa"
+              },
+              {
+                "pieza": "robot",
+                "x": 780,
+                "y": 1180,
+                "escala": 0.6,
+                "cara": "corazon",
+                "entra": "rebote",
+                "en": "10:ia"
+              },
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1210,
+                "color": "blanco",
+                "antena": true,
+                "escala": 0.85,
+                "cara": "feliz",
+                "entra": "izquierda",
+                "en": "10:propia"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "11:los",
+          "titulo": "",
+          "dibujo": {
+            "fondo": "arcade",
+            "elementos": [
+              {
+                "pieza": "vs",
+                "x": 540,
+                "y": 960,
+                "izq": "ELLOS",
+                "subIzq": "$ 99.999",
+                "der": "TÚ",
+                "subDer": "1 LÍNEA",
+                "entra": "aparece",
+                "en": 0
+              },
+              {
+                "pieza": "personaje",
+                "x": 280,
+                "y": 1200,
+                "escala": 1,
+                "color": "morado",
+                "gafas": "sol",
+                "gorro": "corona",
+                "cara": "triste",
+                "entra": "izquierda",
+                "en": 0.1
+              },
+              {
+                "pieza": "icono",
+                "nombre": "dinero",
+                "x": 200,
+                "y": 760,
+                "entra": "rebote",
+                "en": "11:pagan"
+              },
+              {
+                "pieza": "personaje",
+                "x": 800,
+                "y": 1200,
+                "color": "blanco",
+                "antena": true,
+                "cara": "guino",
+                "brazo": "arriba",
+                "entra": "derecha",
+                "en": "11:tu"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "12:comenta",
+          "titulo": "",
+          "dibujo": {
+            "fondo": "arcade",
+            "fondoOpts": {
+              "rayos": true
+            },
+            "elementos": [
+              {
+                "pieza": "cta",
+                "x": 540,
+                "y": 800,
+                "palabra": "VIRAL",
+                "texto": "y te enseño a hacer estos videos",
+                "entra": "rebote",
+                "en": 0
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1210,
+                "color": "blanco",
+                "antena": true,
+                "cara": "feliz",
+                "brazo": "saluda",
+                "entra": "sube",
+                "en": "12:enseno"
+              },
+              {
+                "pieza": "confeti",
+                "x": 540,
+                "y": 900,
+                "en": "12:viral"
+              }
+            ]
           }
         }
       ]

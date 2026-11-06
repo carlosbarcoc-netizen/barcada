@@ -1,0 +1,794 @@
+{
+  "huella": "f6cc5e2a6820",
+  "duracion": 50.755,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "Los millonarios tienen asistente personal. ¿Y tú? Tú vas a tener a Jarvis… ¡gratis!",
+      "clave": "gratis",
+      "inicio": 0,
+      "fin": 6.258,
+      "palabras": [
+        {
+          "texto": "Los",
+          "inicio": 0,
+          "fin": 0.267
+        },
+        {
+          "texto": "millonarios",
+          "inicio": 0.325,
+          "fin": 0.766
+        },
+        {
+          "texto": "tienen",
+          "inicio": 0.801,
+          "fin": 1.022
+        },
+        {
+          "texto": "asistente",
+          "inicio": 1.08,
+          "fin": 1.544
+        },
+        {
+          "texto": "personal.",
+          "inicio": 1.591,
+          "fin": 2.159
+        },
+        {
+          "texto": "¿Y",
+          "inicio": 2.705,
+          "fin": 2.902
+        },
+        {
+          "texto": "tú?",
+          "inicio": 2.972,
+          "fin": 3.274
+        },
+        {
+          "texto": "Tú",
+          "inicio": 3.913,
+          "fin": 4.156
+        },
+        {
+          "texto": "vas",
+          "inicio": 4.238,
+          "fin": 4.4
+        },
+        {
+          "texto": "a",
+          "inicio": 4.458,
+          "fin": 4.481
+        },
+        {
+          "texto": "tener",
+          "inicio": 4.54,
+          "fin": 4.795
+        },
+        {
+          "texto": "a",
+          "inicio": 4.841,
+          "fin": 4.865
+        },
+        {
+          "texto": "Jarvis…",
+          "inicio": 4.934,
+          "fin": 5.492
+        },
+        {
+          "texto": "¡gratis!",
+          "inicio": 5.608,
+          "fin": 6.258
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Se llama OpenJarvis y lo hicieron en la Universidad de Stanford.",
+      "clave": "Stanford",
+      "inicio": 6.513,
+      "fin": 9.81,
+      "palabras": [
+        {
+          "texto": "Se",
+          "inicio": 6.513,
+          "fin": 6.8127272727272725
+        },
+        {
+          "texto": "llama",
+          "inicio": 6.8127272727272725,
+          "fin": 7.112454545454545
+        },
+        {
+          "texto": "OpenJarvis",
+          "inicio": 7.112454545454545,
+          "fin": 7.412181818181818
+        },
+        {
+          "texto": "y",
+          "inicio": 7.412181818181818,
+          "fin": 7.711909090909091
+        },
+        {
+          "texto": "lo",
+          "inicio": 7.711909090909091,
+          "fin": 8.011636363636363
+        },
+        {
+          "texto": "hicieron",
+          "inicio": 8.011636363636363,
+          "fin": 8.311363636363637
+        },
+        {
+          "texto": "en",
+          "inicio": 8.311363636363637,
+          "fin": 8.61109090909091
+        },
+        {
+          "texto": "la",
+          "inicio": 8.61109090909091,
+          "fin": 8.910818181818183
+        },
+        {
+          "texto": "Universidad",
+          "inicio": 8.910818181818183,
+          "fin": 9.210545454545455
+        },
+        {
+          "texto": "de",
+          "inicio": 9.210545454545455,
+          "fin": 9.510272727272728
+        },
+        {
+          "texto": "Stanford.",
+          "inicio": 9.510272727272728,
+          "fin": 9.81
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Es código abierto: la IA vive en tu computadora, no en la nube.",
+      "clave": "computadora",
+      "inicio": 10.159,
+      "fin": 14.002,
+      "palabras": [
+        {
+          "texto": "Es",
+          "inicio": 10.159,
+          "fin": 10.321
+        },
+        {
+          "texto": "código",
+          "inicio": 10.379,
+          "fin": 10.623
+        },
+        {
+          "texto": "abierto:",
+          "inicio": 10.658,
+          "fin": 11.238
+        },
+        {
+          "texto": "la",
+          "inicio": 11.645,
+          "fin": 11.749
+        },
+        {
+          "texto": "IA",
+          "inicio": 11.807,
+          "fin": 11.935
+        },
+        {
+          "texto": "vive",
+          "inicio": 11.993,
+          "fin": 12.202
+        },
+        {
+          "texto": "en",
+          "inicio": 12.225,
+          "fin": 12.272
+        },
+        {
+          "texto": "tu",
+          "inicio": 12.33,
+          "fin": 12.434
+        },
+        {
+          "texto": "computadora,",
+          "inicio": 12.492,
+          "fin": 13.084
+        },
+        {
+          "texto": "no",
+          "inicio": 13.119,
+          "fin": 13.235
+        },
+        {
+          "texto": "en",
+          "inicio": 13.27,
+          "fin": 13.328
+        },
+        {
+          "texto": "la",
+          "inicio": 13.386,
+          "fin": 13.456
+        },
+        {
+          "texto": "nube.",
+          "inicio": 13.514,
+          "fin": 14.002
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Mira qué fácil. Paso uno: pegas una línea en tu terminal… ¡y se instala solito!",
+      "clave": "terminal",
+      "inicio": 14.547,
+      "fin": 20.097,
+      "palabras": [
+        {
+          "texto": "Mira",
+          "inicio": 14.547,
+          "fin": 14.768
+        },
+        {
+          "texto": "qué",
+          "inicio": 14.826,
+          "fin": 14.907
+        },
+        {
+          "texto": "fácil.",
+          "inicio": 14.953,
+          "fin": 15.453
+        },
+        {
+          "texto": "Paso",
+          "inicio": 15.743,
+          "fin": 16.033
+        },
+        {
+          "texto": "uno:",
+          "inicio": 16.114,
+          "fin": 16.521
+        },
+        {
+          "texto": "pegas",
+          "inicio": 16.811,
+          "fin": 17.066
+        },
+        {
+          "texto": "una",
+          "inicio": 17.136,
+          "fin": 17.252
+        },
+        {
+          "texto": "línea",
+          "inicio": 17.299,
+          "fin": 17.519
+        },
+        {
+          "texto": "en",
+          "inicio": 17.542,
+          "fin": 17.589
+        },
+        {
+          "texto": "tu",
+          "inicio": 17.635,
+          "fin": 17.74
+        },
+        {
+          "texto": "terminal…",
+          "inicio": 17.798,
+          "fin": 18.494
+        },
+        {
+          "texto": "¡y",
+          "inicio": 18.715,
+          "fin": 18.924
+        },
+        {
+          "texto": "se",
+          "inicio": 18.982,
+          "fin": 19.04
+        },
+        {
+          "texto": "instala",
+          "inicio": 19.075,
+          "fin": 19.447
+        },
+        {
+          "texto": "solito!",
+          "inicio": 19.505,
+          "fin": 20.097
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "Paso dos: le conectas tu Gmail y tu calendario.",
+      "clave": "calendario",
+      "inicio": 20.642,
+      "fin": 23.719,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 20.642,
+          "fin": 20.983888888888888
+        },
+        {
+          "texto": "dos:",
+          "inicio": 20.983888888888888,
+          "fin": 21.325777777777777
+        },
+        {
+          "texto": "le",
+          "inicio": 21.325777777777777,
+          "fin": 21.667666666666666
+        },
+        {
+          "texto": "conectas",
+          "inicio": 21.667666666666666,
+          "fin": 22.009555555555554
+        },
+        {
+          "texto": "tu",
+          "inicio": 22.009555555555554,
+          "fin": 22.351444444444446
+        },
+        {
+          "texto": "Gmail",
+          "inicio": 22.351444444444446,
+          "fin": 22.693333333333335
+        },
+        {
+          "texto": "y",
+          "inicio": 22.693333333333335,
+          "fin": 23.035222222222224
+        },
+        {
+          "texto": "tu",
+          "inicio": 23.035222222222224,
+          "fin": 23.377111111111113
+        },
+        {
+          "texto": "calendario.",
+          "inicio": 23.377111111111113,
+          "fin": 23.719
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Paso tres: activas el resumen de la mañana.",
+      "clave": "mañana",
+      "inicio": 24.009,
+      "fin": 26.842,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 24.009,
+          "fin": 24.253
+        },
+        {
+          "texto": "tres:",
+          "inicio": 24.311,
+          "fin": 24.799
+        },
+        {
+          "texto": "activas",
+          "inicio": 25.147,
+          "fin": 25.577
+        },
+        {
+          "texto": "el",
+          "inicio": 25.635,
+          "fin": 25.693
+        },
+        {
+          "texto": "resumen",
+          "inicio": 25.751,
+          "fin": 26.076
+        },
+        {
+          "texto": "de",
+          "inicio": 26.111,
+          "fin": 26.157
+        },
+        {
+          "texto": "la",
+          "inicio": 26.203,
+          "fin": 26.262
+        },
+        {
+          "texto": "mañana.",
+          "inicio": 26.32,
+          "fin": 26.842
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "¿Y sabes qué pasa? Ojo, aquí viene lo bueno.",
+      "clave": "bueno",
+      "inicio": 27.005,
+      "fin": 30.244,
+      "palabras": [
+        {
+          "texto": "¿Y",
+          "inicio": 27.005,
+          "fin": 27.179
+        },
+        {
+          "texto": "sabes",
+          "inicio": 27.237,
+          "fin": 27.434
+        },
+        {
+          "texto": "qué",
+          "inicio": 27.481,
+          "fin": 27.55
+        },
+        {
+          "texto": "pasa?",
+          "inicio": 27.597,
+          "fin": 28.003
+        },
+        {
+          "texto": "Ojo,",
+          "inicio": 28.642,
+          "fin": 29.129
+        },
+        {
+          "texto": "aquí",
+          "inicio": 29.187,
+          "fin": 29.419
+        },
+        {
+          "texto": "viene",
+          "inicio": 29.466,
+          "fin": 29.675
+        },
+        {
+          "texto": "lo",
+          "inicio": 29.721,
+          "fin": 29.803
+        },
+        {
+          "texto": "bueno.",
+          "inicio": 29.837,
+          "fin": 30.244
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "Mañana te levantas con cuarenta correos sin leer…",
+      "clave": "cuarenta",
+      "inicio": 30.708,
+      "fin": 33.088,
+      "palabras": [
+        {
+          "texto": "Mañana",
+          "inicio": 30.708,
+          "fin": 31.01
+        },
+        {
+          "texto": "te",
+          "inicio": 31.056,
+          "fin": 31.126
+        },
+        {
+          "texto": "levantas",
+          "inicio": 31.161,
+          "fin": 31.509
+        },
+        {
+          "texto": "con",
+          "inicio": 31.555,
+          "fin": 31.671
+        },
+        {
+          "texto": "cuarenta",
+          "inicio": 31.73,
+          "fin": 32.066
+        },
+        {
+          "texto": "correos",
+          "inicio": 32.124,
+          "fin": 32.415
+        },
+        {
+          "texto": "sin",
+          "inicio": 32.438,
+          "fin": 32.612
+        },
+        {
+          "texto": "leer…",
+          "inicio": 32.67,
+          "fin": 33.088
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "y Jarvis te lo cuenta en voz alta: tus reuniones, tus pendientes y las noticias.",
+      "clave": "voz",
+      "inicio": 33.494,
+      "fin": 38.069,
+      "palabras": [
+        {
+          "texto": "y",
+          "inicio": 33.494,
+          "fin": 33.576
+        },
+        {
+          "texto": "Jarvis",
+          "inicio": 33.634,
+          "fin": 33.924
+        },
+        {
+          "texto": "te",
+          "inicio": 33.97,
+          "fin": 34.028
+        },
+        {
+          "texto": "lo",
+          "inicio": 34.063,
+          "fin": 34.144
+        },
+        {
+          "texto": "cuenta",
+          "inicio": 34.179,
+          "fin": 34.446
+        },
+        {
+          "texto": "en",
+          "inicio": 34.47,
+          "fin": 34.516
+        },
+        {
+          "texto": "voz",
+          "inicio": 34.562,
+          "fin": 34.713
+        },
+        {
+          "texto": "alta:",
+          "inicio": 34.771,
+          "fin": 35.143
+        },
+        {
+          "texto": "tus",
+          "inicio": 35.491,
+          "fin": 35.654
+        },
+        {
+          "texto": "reuniones,",
+          "inicio": 35.758,
+          "fin": 36.49
+        },
+        {
+          "texto": "tus",
+          "inicio": 36.524,
+          "fin": 36.675
+        },
+        {
+          "texto": "pendientes",
+          "inicio": 36.722,
+          "fin": 37.151
+        },
+        {
+          "texto": "y",
+          "inicio": 37.198,
+          "fin": 37.221
+        },
+        {
+          "texto": "las",
+          "inicio": 37.279,
+          "fin": 37.384
+        },
+        {
+          "texto": "noticias.",
+          "inicio": 37.43,
+          "fin": 38.069
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Sin pagar suscripción, y con la IA corriendo en tu propia casa.",
+      "clave": "suscripción",
+      "inicio": 38.533,
+      "fin": 42.016,
+      "palabras": [
+        {
+          "texto": "Sin",
+          "inicio": 38.533,
+          "fin": 38.684
+        },
+        {
+          "texto": "pagar",
+          "inicio": 38.73,
+          "fin": 38.928
+        },
+        {
+          "texto": "suscripción,",
+          "inicio": 38.963,
+          "fin": 39.729
+        },
+        {
+          "texto": "y",
+          "inicio": 40.019,
+          "fin": 40.1
+        },
+        {
+          "texto": "con",
+          "inicio": 40.17,
+          "fin": 40.298
+        },
+        {
+          "texto": "la",
+          "inicio": 40.344,
+          "fin": 40.425
+        },
+        {
+          "texto": "IA",
+          "inicio": 40.495,
+          "fin": 40.634
+        },
+        {
+          "texto": "corriendo",
+          "inicio": 40.716,
+          "fin": 41.087
+        },
+        {
+          "texto": "en",
+          "inicio": 41.11,
+          "fin": 41.157
+        },
+        {
+          "texto": "tu",
+          "inicio": 41.203,
+          "fin": 41.273
+        },
+        {
+          "texto": "propia",
+          "inicio": 41.319,
+          "fin": 41.61
+        },
+        {
+          "texto": "casa.",
+          "inicio": 41.656,
+          "fin": 42.016
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Los millonarios pagan un asistente. Tú lo tienes con una sola línea.",
+      "clave": "línea",
+      "inicio": 42.48,
+      "fin": 46.486,
+      "palabras": [
+        {
+          "texto": "Los",
+          "inicio": 42.48,
+          "fin": 42.62
+        },
+        {
+          "texto": "millonarios",
+          "inicio": 42.678,
+          "fin": 43.154
+        },
+        {
+          "texto": "pagan",
+          "inicio": 43.212,
+          "fin": 43.444
+        },
+        {
+          "texto": "un",
+          "inicio": 43.502,
+          "fin": 43.56
+        },
+        {
+          "texto": "asistente.",
+          "inicio": 43.618,
+          "fin": 44.315
+        },
+        {
+          "texto": "Tú",
+          "inicio": 44.86,
+          "fin": 45.011
+        },
+        {
+          "texto": "lo",
+          "inicio": 45.058,
+          "fin": 45.139
+        },
+        {
+          "texto": "tienes",
+          "inicio": 45.174,
+          "fin": 45.429
+        },
+        {
+          "texto": "con",
+          "inicio": 45.487,
+          "fin": 45.592
+        },
+        {
+          "texto": "una",
+          "inicio": 45.65,
+          "fin": 45.778
+        },
+        {
+          "texto": "sola",
+          "inicio": 45.824,
+          "fin": 46.021
+        },
+        {
+          "texto": "línea.",
+          "inicio": 46.068,
+          "fin": 46.486
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Comenta VIRAL y te enseño a hacer videos como este.",
+      "clave": "VIRAL",
+      "inicio": 46.834,
+      "fin": 50.155,
+      "palabras": [
+        {
+          "texto": "Comenta",
+          "inicio": 46.834,
+          "fin": 47.229
+        },
+        {
+          "texto": "VIRAL",
+          "inicio": 47.275,
+          "fin": 47.705
+        },
+        {
+          "texto": "y",
+          "inicio": 47.867,
+          "fin": 47.925
+        },
+        {
+          "texto": "te",
+          "inicio": 47.983,
+          "fin": 48.065
+        },
+        {
+          "texto": "enseño",
+          "inicio": 48.088,
+          "fin": 48.378
+        },
+        {
+          "texto": "a",
+          "inicio": 48.413,
+          "fin": 48.668
+        },
+        {
+          "texto": "hacer",
+          "inicio": 48.738,
+          "fin": 48.935
+        },
+        {
+          "texto": "videos",
+          "inicio": 48.994,
+          "fin": 49.284
+        },
+        {
+          "texto": "como",
+          "inicio": 49.342,
+          "fin": 49.562
+        },
+        {
+          "texto": "este.",
+          "inicio": 49.609,
+          "fin": 50.155
+        }
+      ]
+    }
+  ]
+}
