@@ -793,7 +793,8 @@
                 "pieza": "confeti",
                 "x": 540,
                 "y": 900,
-                "en": "12:viral"
+                "en": "12:viral",
+                "capa": -1
               }
             ]
           }
