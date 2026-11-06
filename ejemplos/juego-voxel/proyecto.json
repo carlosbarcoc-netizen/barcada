@@ -1,0 +1,465 @@
+{
+  "titulo": "Café contra cacao · bloques",
+  "estilo": "2d",
+  "frases": [
+    {
+      "texto": "¡Café contra cacao! ¿Cuál te despierta más?",
+      "clave": "despierta"
+    },
+    {
+      "texto": "Ronda uno: ¡la cafeína!",
+      "clave": "cafeína"
+    },
+    {
+      "texto": "Una taza de café: ¡noventa y cinco miligramos!",
+      "clave": "noventa"
+    },
+    {
+      "texto": "¿Y una de chocolate caliente? Apenas unos cinco.",
+      "clave": "cinco"
+    },
+    {
+      "texto": "¡Uno a cero para el café!",
+      "clave": "café"
+    },
+    {
+      "texto": "Pero ojo, el cacao trae teobromina: te activa más suave y por más tiempo.",
+      "clave": "teobromina"
+    },
+    {
+      "texto": "Y tú, ¿con cuál te quedas? ¡Te leo!",
+      "clave": "quedas"
+    },
+    {
+      "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
+      "clave": "NativoTerrus",
+      "dicho": "Síguenos en Nativo Terrus para descubrir la ciencia detrás de los alimentos."
+    }
+  ],
+  "juego": {
+    "piel": "voxel",
+    "progreso": {
+      "etiqueta": "PUNTOS CACAO:",
+      "pasos": [
+        {
+          "texto": "SUAVE",
+          "en": "6:suave"
+        },
+        {
+          "texto": "DURA",
+          "en": "6:tiempo"
+        },
+        {
+          "texto": "TU VOTO",
+          "en": "7:quedas"
+        }
+      ]
+    },
+    "mundo": {
+      "elementos": [
+        {
+          "pieza": "isla",
+          "x": 300,
+          "y": 1090,
+          "ancho": 380,
+          "entra": "ninguna"
+        },
+        {
+          "pieza": "isla",
+          "x": 790,
+          "y": 1150,
+          "ancho": 380,
+          "entra": "ninguna"
+        },
+        {
+          "pieza": "nubebloque",
+          "x": 160,
+          "y": 700,
+          "escala": 0.6,
+          "entra": "ninguna",
+          "accion": "flota"
+        },
+        {
+          "pieza": "arbolbloque",
+          "x": 190,
+          "y": 980,
+          "escala": 0.4,
+          "entra": "ninguna"
+        },
+        {
+          "pieza": "arbolbloque",
+          "x": 900,
+          "y": 1040,
+          "escala": 0.4,
+          "entra": "ninguna"
+        },
+        {
+          "pieza": "personaje",
+          "x": 330,
+          "y": 1010,
+          "escala": 0.55,
+          "color": "cafe",
+          "cara": "enfadado",
+          "entra": "ninguna",
+          "hasta": "5:uno"
+        },
+        {
+          "pieza": "personaje",
+          "x": 330,
+          "y": 1010,
+          "escala": 0.55,
+          "color": "cafe",
+          "cara": "feliz",
+          "gorro": "corona",
+          "entra": "aparece",
+          "en": "5:uno"
+        },
+        {
+          "pieza": "personaje",
+          "x": 760,
+          "y": 1070,
+          "escala": 0.55,
+          "color": "cacao",
+          "cara": "normal",
+          "entra": "ninguna",
+          "hasta": "6:teobromina"
+        },
+        {
+          "pieza": "personaje",
+          "x": 760,
+          "y": 1070,
+          "escala": 0.55,
+          "color": "cacao",
+          "cara": "feliz",
+          "gafas": "sol",
+          "entra": "aparece",
+          "en": "6:teobromina"
+        }
+      ]
+    }
+  },
+  "escenas": [
+    {
+      "nombre": "mundo",
+      "tomas": [
+        {
+          "desde": 0,
+          "titulo": "*Café* vs|*cacao*",
+          "subtitulo": "¿cuál te despierta más?",
+          "dibujo": {
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.2,
+                  "x": 540,
+                  "y": 1000
+                }
+              ],
+              [
+                "1:despierta",
+                {
+                  "zoom": 1,
+                  "x": 540,
+                  "y": 960
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "letrero",
+                "texto": "CAFÉ",
+                "x": 330,
+                "y": 860,
+                "escala": 0.8,
+                "entra": "rebote",
+                "en": "1:cafe"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "CACAO",
+                "x": 760,
+                "y": 920,
+                "escala": 0.8,
+                "entra": "rebote",
+                "en": "1:cacao"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "2:ronda",
+          "titulo": "1 · la cafeína",
+          "subtitulo": "ronda uno",
+          "dibujo": {
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 540,
+                  "y": 960
+                }
+              ],
+              [
+                1.2,
+                {
+                  "zoom": 1.35,
+                  "x": 330,
+                  "y": 1000
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "letrero",
+                "texto": "RONDA 1",
+                "x": 540,
+                "y": 700,
+                "entra": "rebote",
+                "en": 0.1,
+                "hasta": "2:cafeina"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "3:taza",
+          "dibujo": {
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.35,
+                  "x": 330,
+                  "y": 1000
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "cifra",
+                "x": 330,
+                "y": 790,
+                "despues": " mg",
+                "tamano": 110,
+                "entra": "rebote",
+                "en": "3:noventa",
+                "params": {
+                  "valor": [
+                    [
+                      "3:noventa",
+                      0
+                    ],
+                    [
+                      "3:miligramos",
+                      95
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "icono",
+                "nombre": "rayo",
+                "x": 450,
+                "y": 900,
+                "tam": 8,
+                "entra": "gira",
+                "en": "3:miligramos"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "4:chocolate",
+          "dibujo": {
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.35,
+                  "x": 330,
+                  "y": 1000
+                }
+              ],
+              [
+                0.6,
+                {
+                  "zoom": 1.35,
+                  "x": 760,
+                  "y": 1000
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "cifra",
+                "x": 760,
+                "y": 850,
+                "despues": " mg",
+                "tamano": 110,
+                "color": "rojo",
+                "entra": "rebote",
+                "en": "4:apenas",
+                "params": {
+                  "valor": [
+                    [
+                      "4:apenas",
+                      0
+                    ],
+                    [
+                      "4:cinco",
+                      5
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": "5:uno",
+          "titulo": "1 – 0",
+          "subtitulo": "para el café",
+          "dibujo": {
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.35,
+                  "x": 760,
+                  "y": 1000
+                }
+              ],
+              [
+                0.5,
+                {
+                  "zoom": 1,
+                  "x": 540,
+                  "y": 960
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "confeti",
+                "x": 330,
+                "y": 700,
+                "entra": "ninguna",
+                "en": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "desde": "6:pero",
+          "titulo": "pero ojo…",
+          "dibujo": {
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 540,
+                  "y": 960
+                }
+              ],
+              [
+                0.8,
+                {
+                  "zoom": 1.35,
+                  "x": 760,
+                  "y": 1000
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dialogo",
+                "texto": "¡teobromina!",
+                "x": 760,
+                "y": 850,
+                "escala": 0.9,
+                "entra": "rebote",
+                "en": "6:teobromina"
+              },
+              {
+                "pieza": "cofre",
+                "x": 900,
+                "y": 1100,
+                "escala": 0.35,
+                "entra": "cae",
+                "en": "6:trae",
+                "params": {
+                  "abierto": [
+                    [
+                      "6:teobromina",
+                      0
+                    ],
+                    [
+                      "6:te",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": "7:tu",
+          "titulo": "¿y tú?",
+          "subtitulo": "¿con cuál te quedas?",
+          "dibujo": {
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.35,
+                  "x": 760,
+                  "y": 1000
+                }
+              ],
+              [
+                0.6,
+                {
+                  "zoom": 1,
+                  "x": 540,
+                  "y": 960
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": "8:siguenos",
+          "dibujo": {
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 540,
+                  "y": 960
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "cta",
+                "x": 540,
+                "y": 620,
+                "palabra": "CACAO",
+                "texto": "o «CAFÉ»: y síguenos en NativoTerrus",
+                "boton": "la ciencia de los alimentos",
+                "entra": "rebote",
+                "en": 0.1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

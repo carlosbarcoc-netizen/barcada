@@ -1,5 +1,23 @@
 # Barcada
 
+## 2.1 · Barcada 2.0 · modo juego
+- **Modo juego:** el reel se cuenta como una partida, con tres pieles sacadas de los formatos que más se comparten:
+  **neón** (cuadrícula negra, cian, barra de chips arriba, título con la palabra en una caja), **bloques** (islas
+  flotantes de bloques, fichas numeradas que se llenan, cámara que viaja) y **arcade** (8 bits, HUD con barra en % y
+  TIEMPO en cuenta atrás, cuadro de diálogo a máquina, WARNING, VS y ¿CONTINUAR?).
+- Barra de progreso automática (`juego.progreso`), títulos que se escriben solos con *resaltado* y !rojo!, subtítulos
+  dibujados en el cuadro (palabra que suena encendida), firma con tu cuenta, pantalla de alerta con sacudida y un
+  «mundo» de piezas que vive en todas las tomas.
+- 47 piezas nuevas: el personaje-cubo («tú», con 8 caras y accesorios), el robot (la IA), iconos de píxel, interfaz
+  (terminal que escribe, edificio de servidores, puerta con candado, monitor de vida…), mundo de bloques (islas,
+  tienda, cofre, estante…) y salón arcade (máquina, tele de tubo, ficha, mejora, WARNING, VS, continuar).
+- **Sintetizador propio:** música original para cada piel (synth, alegre o chiptune) que baja sola cuando habla la voz,
+  y 17 efectos de videojuego (blip, clic, nivel, moneda, error, alarma, tecleo…) que suenan solos con lo que pasa en
+  pantalla. Sin créditos ni derechos de terceros.
+- Letras nuevas (OFL): Press Start 2P, Lilita One y Space Mono.
+- Formatos nuevos: la misión, el mapa y la partida (`guias/juego.md`, `guias/formatos.md`).
+- Órdenes nuevas: `nuevo --piel`, `pieles`, `muestrario <piel>`, `musica <piel>`.
+
 ## 2.0 · Barcada
 - Nuevo nombre (antes Barco Viral) y estilo propio: 2D con volumen + formatos de historia virales (el duelo, un día en dos caminos, la cuenta, mito y verdad).
 - 15 piezas de «juego»: titular, píldora, etiqueta, marcador, contador, batería, lista, cronómetro, encuesta, orbe, panel, globo, aro, diana y cinta.

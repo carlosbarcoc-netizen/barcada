@@ -24,13 +24,20 @@ export async function revisar() {
 }
 
 // ---------------------------------------------------------------- nuevo proyecto
-export function nuevo(idea, { estilo = "documental", nombre } = {}) {
+export function nuevo(idea, { estilo = "documental", nombre, piel = null } = {}) {
   const hoy = new Date().toISOString().slice(0, 10);
   const slug = nombre || sinTildes(idea.split(/\s+/).slice(0, 5).join("-").replace(/\s+/g, "-")).slice(0, 40) || "video";
   const dir = join(RAIZ, "proyectos", `${hoy}-${slug}`);
   if (existsSync(join(dir, "proyecto.json"))) throw new Error(`Ya existe ${dir}`);
   asegurar(dir);
-  guardarJSON(join(dir, "proyecto.json"), {
+  // modo juego (Barcada 2.0): una piel (neon, voxel, arcade) con su barra de progreso, títulos y mundo
+  if (piel && !["neon", "voxel", "arcade"].includes(piel)) throw new Error(`No hay piel «${piel}». Hay: neon, voxel, arcade`);
+  guardarJSON(join(dir, "proyecto.json"), piel ? {
+    titulo: idea, estilo: "2d",
+    frases: [{ texto: "", clave: "" }],
+    juego: { piel, progreso: { titulo: "", etiqueta: "", pasos: [{ texto: "", en: "" }] }, ...(piel === "arcade" ? { tiempo: true } : {}) },
+    escenas: [{ nombre: "partida", tomas: [{ desde: 0, titulo: "", dibujo: { elementos: [] } }] }],
+  } : {
     titulo: idea, estilo, calidad: "normal",
     sujeto: "",
     frases: [{ texto: "", clave: "" }],
@@ -80,9 +87,12 @@ export async function portada(dir, titulo, { toma = 1, acento, etiqueta } = {}) 
   // una toma 2D: su cuadro, casi al final de la toma (con todo ya en escena)
   if (!imgs[toma - 1]) {
     const tiempos = leerJSON(join(dir, "voz", "tiempos.json")), t = lineaDeTiempo(p, tiempos)[toma - 1];
-    const { crearCuadro } = await import("./2d/escena.mjs"), { foto, cerrarNavegador } = await import("./2d/dibujante.mjs"), { cuando } = await import("./montaje.mjs");
+    const { crearCuadro } = await import("./2d/escena.mjs"), { foto, cerrarNavegador } = await import("./2d/dibujante.mjs"), { cuando, contextoJuego } = await import("./montaje.mjs");
     imgs[toma - 1] = join(asegurar(join(dir, ".montaje")), "portada-cuadro.jpg");
-    await foto(crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref))(t.fin - 0.25), imgs[toma - 1]);
+    const juego = await contextoJuego(p, tiempos, lineaDeTiempo(p, tiempos));
+    if (juego) { juego.subtitulos = false; juego.titulos = juego.titulos.map(() => null); }   // la portada lleva su propio título
+    const cu = crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref), juego);
+    await foto({ preparar: cu.preparar, cuadro: () => cu(t.fin - 0.25) }, imgs[toma - 1]);
     await cerrarNavegador();
   }
   // la imagen de fondo, a 1080 × 1920, con más color

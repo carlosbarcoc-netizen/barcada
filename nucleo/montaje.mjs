@@ -1,10 +1,20 @@
 // El montaje: cuándo empieza y acaba cada toma (según las palabras de la voz) y el video con movimiento de cámara,
 // color, grano, subtítulos, rótulos, voz, efectos y música.
-import { existsSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, enParalelo, ffmpeg, leerJSON, sinTildes } from "./comun.mjs";
 import { ESTILOS, hacerImagenes } from "./imagenes.mjs";
 import { escribirASS } from "./subtitulos.mjs";
+
+// El modo juego (Barcada 2.0) de un proyecto, si lo tiene: piel, HUD, títulos, subtítulos dentro del cuadro y mundo.
+export async function contextoJuego(p, tiempos, tomas) {
+  if (!p.juego) return null;
+  const { prepararJuego } = await import("./2d/juego.mjs");
+  const pref = existsSync(join(RAIZ, "preferencias.json")) ? leerJSON(join(RAIZ, "preferencias.json")) : {};
+  const J = { ...p.juego };
+  if (!J.avatar && pref.avatar && existsSync(join(RAIZ, pref.avatar))) J.avatar = `data:image/${pref.avatar.endsWith(".png") ? "png" : "jpeg"};base64,${readFileSync(join(RAIZ, pref.avatar)).toString("base64")}`;
+  return prepararJuego({ ...p, juego: J }, tiempos, tomas, (ref) => cuando(tiempos, ref), pref);
+}
 
 // «desde» de una toma: 0 / un número de frase (2) / "frase:palabra" ("2:fermenta") / "palabra" (la primera en la voz).
 export function cuando(tiempos, desde) {
@@ -42,12 +52,14 @@ function filtroMovimiento(mov = "acercar", frames, fps, fuerza = 0.14) {
   return `scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},zoompan=z='${m[0]}':x='${m[1]}':y='${m[2]}':d=${frames}:s=${ANCHO}x${ALTO}:fps=${fps},setsar=1`;
 }
 
-// Los efectos de sonido de la biblioteca del usuario (sonidos/, los genera `node barcada.mjs sonidos`).
+// Los efectos de sonido: primero la biblioteca del usuario (sonidos/, los genera `node barcada.mjs sonidos`); si no
+// está, los del sintetizador del modo juego (sonidos/juego/, se crean solos: blip, clic, pop, nivel, moneda, error…).
 function sonido(nombre) {
   const d = join(RAIZ, "sonidos");
-  if (!existsSync(d)) return null;
-  const f = readdirSync(d).find((x) => x.startsWith(nombre + "."));
-  return f ? join(d, f) : null;
+  const f = existsSync(d) ? readdirSync(d).find((x) => x.startsWith(nombre + ".")) : null;
+  if (f) return join(d, f);
+  const j = join(d, "juego", `${nombre}.wav`);
+  return existsSync(j) ? j : null;
 }
 
 export async function montar(dir, { borrador = false, hasta = null, salida, fps } = {}) {
@@ -60,6 +72,8 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   const fin = hasta === null ? tiempos.duracion : Math.min(hasta, tiempos.duracion);
   tomas.at(-1).fin = Math.min(tomas.at(-1).fin, fin);
   const tmp = asegurar(join(dir, ".montaje"));
+  const juego = await contextoJuego(p, tiempos, lineaDeTiempo(p, tiempos));
+  if (juego) (await import("./sintetizador.mjs")).asegurarEfectos(join(RAIZ, "sonidos", "juego"));
 
   // 1. un clip por toma (las 2D, de dos en dos: cada una ocupa un navegador)
   const { cpus } = await import("node:os");
@@ -69,7 +83,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
     if (t.dibujo) {
       // una toma 2D: se dibuja cuadro a cuadro (borrador a media resolución)
       const { crearCuadro } = await import("./2d/escena.mjs"), { grabar } = await import("./2d/dibujante.mjs");
-      await grabar(crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref)), t.inicio, t.inicio + frames / FPSv, FPSv, join(tmp, `clip-${t.n}.mp4`), { escala: borrador ? 0.5 : 1, crf: borrador ? 26 : 16 });
+      await grabar(crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref), juego), t.inicio, t.inicio + frames / FPSv, FPSv, join(tmp, `clip-${t.n}.mp4`), { escala: borrador ? 0.5 : 1, crf: borrador ? 26 : 16 });
     } else if (/\.(mp4|mov|webm)$/i.test(src)) {
       // un clip de video: se encuadra en vertical, se repite si es corto y, si se pide, va más lento (lenta: 0,5 = mitad)
       const lento = t.lenta ? `setpts=PTS/${t.lenta},` : "";
@@ -85,21 +99,39 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
 
   // 2. subtítulos y rótulos
   const ass = join(tmp, "textos.ass");
-  escribirASS(ass, tiempos, tomas, { acento: pref.acento || p.acento || "#FFD23F", subtitulos: p.subtitulos !== false });
+  // (en el modo juego, los subtítulos y los títulos ya van dibujados dentro de cada cuadro)
+  escribirASS(ass, tiempos, juego ? [] : tomas, { acento: pref.acento || p.acento || "#FFD23F", subtitulos: !juego && p.subtitulos !== false });
 
   // 3. el sonido: voz + efectos (un «whoosh» en cada corte, un «pop» en cada rótulo, los de cada toma) + música
   const entradas = ["-i", join(tmp, "mudo.mp4"), "-i", join(dir, "voz", "voz.mp3")], mezcla = [];
   let n = 2;
   const pon = (archivo, t, db) => { if (!archivo || t >= fin) return; entradas.push("-i", archivo); mezcla.push(`[${n}:a]adelay=${Math.round(t * 1000)}|${Math.round(t * 1000)},volume=${db}dB[s${n}]`); n++; };
-  if (p.efectos !== false) {
+  if (juego && p.efectos !== false && p.juego.sonidos !== false) {
+    // modo juego: los efectos salen solos de lo que pasa en pantalla (cortes, piezas que entran, títulos, pasos)
+    const { sonidosJuego } = await import("./2d/juego.mjs");
+    for (const e of sonidosJuego(juego, tomas, (ref) => cuando(tiempos, ref))) pon(sonido(e.nombre), e.t, e.db);
+    tomas.forEach((t) => { if (t.sonido) pon(sonido(t.sonido), t.inicio + (t.sonidoEn || 0.1), t.sonidoDb ?? -12); });
+  } else if (p.efectos !== false) {
     tomas.slice(1).forEach((t) => pon(sonido("transicion"), Math.max(0, t.inicio - 0.12), -14));
     tomas.forEach((t) => { if (t.rotulo) pon(sonido("pop"), t.inicio + 0.15, -16); if (t.sonido) pon(sonido(t.sonido), t.inicio + (t.sonidoEn || 0.1), t.sonidoDb ?? -12); });
   }
-  const musica = p.musica ? join(dir, p.musica) : pref.musica ? join(RAIZ, pref.musica) : null;
-  let mus = "";
-  if (musica && existsSync(musica)) { entradas.push("-stream_loop", "-1", "-i", musica); mus = `[${n}:a]volume=${p.musicaDb ?? -22}dB,afade=t=out:st=${Math.max(0, fin - 1.5)}:d=1.5[mus];`; n++; }
+  let musica = p.musica ? join(dir, p.musica) : pref.musica ? join(RAIZ, pref.musica) : null;
+  // modo juego sin música propia: el sintetizador compone una para la piel (original, sin derechos de nadie)
+  if (juego && !musica && p.juego.musica !== false) {
+    musica = join(tmp, `musica-${juego.N}.wav`);
+    const semilla = [...(p.titulo || "barcada")].reduce((a, c) => a + c.charCodeAt(0), 0) + (p.juego.semilla || 0);
+    (await import("./sintetizador.mjs")).musica(juego.N, tiempos.duracion + 1, musica, semilla);
+  }
+  let mus = "", voz = "[1:a]";
+  if (musica && existsSync(musica)) {
+    entradas.push("-stream_loop", "-1", "-i", musica);
+    mus = `[${n}:a]volume=${p.musicaDb ?? (juego ? -17 : -22)}dB,afade=t=out:st=${Math.max(0, fin - 1.5)}:d=1.5[musb];`;
+    // la música baja sola cuando habla la voz (y sube en los silencios)
+    mus += `[1:a]asplit=2[vz][vzc];[musb][vzc]sidechaincompress=threshold=0.03:ratio=5:attack=15:release=350[mus];`;
+    voz = "[vz]"; n++;
+  }
   const ss = mezcla.map((_, i) => `[s${i + 2}]`).join("");
-  const audio = `${mezcla.join(";")}${mezcla.length ? ";" : ""}${mus}[1:a]${ss}${mus ? "[mus]" : ""}amix=inputs=${1 + mezcla.length + (mus ? 1 : 0)}:normalize=0:duration=first,alimiter=limit=0.95[a]`;
+  const audio = `${mezcla.join(";")}${mezcla.length ? ";" : ""}${mus}${voz}${ss}${mus ? "[mus]" : ""}amix=inputs=${1 + mezcla.length + (mus ? 1 : 0)}:normalize=0:duration=first,alimiter=limit=0.95[a]`;
 
   // 4. el color del estilo, viñeta, grano, textos y salida
   const est = ESTILOS[p.estilo] || ESTILOS.documental, es2d = p.estilo === "2d";
@@ -120,13 +152,14 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
 // antes de montar: cambiar una imagen aquí es barato; en el video, caro.
 export async function hojaDeTomas(dir) {
   const p = leerJSON(join(dir, "proyecto.json")), tiempos = leerJSON(join(dir, "voz", "tiempos.json"));
-  const imgs = await hacerImagenes(dir), tomas = lineaDeTiempo(p, tiempos);
+  const imgs = await hacerImagenes(dir), tomas = lineaDeTiempo(p, tiempos), juego = await contextoJuego(p, tiempos, tomas);
   const tmp = asegurar(join(dir, ".montaje")), cols = Math.min(5, tomas.length), filas = Math.ceil(tomas.length / cols);
   // las tomas 2D: su cuadro del medio, como imagen
   for (const t of tomas.filter((x) => x.dibujo)) {
     const { crearCuadro } = await import("./2d/escena.mjs"), { foto } = await import("./2d/dibujante.mjs");
     const f = join(tmp, `cuadro-${t.n}.jpg`);
-    await foto(crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref))(t.inicio + (t.fin - t.inicio) * 0.7), f, 0.5);
+    const cu = crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref), juego);
+    await foto({ preparar: cu.preparar, cuadro: () => cu(t.inicio + (t.fin - t.inicio) * 0.7) }, f, 0.5);
     imgs[t.n - 1] = f;
   }
   if (tomas.some((t) => t.dibujo)) await (await import("./2d/dibujante.mjs")).cerrarNavegador();

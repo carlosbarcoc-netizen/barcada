@@ -1,6 +1,6 @@
 # Barcada
 
-Reels verticales animados en 2D, contados con formatos virales (duelos, marcadores, cuentas que duelen), con voz profesional, subtítulos animados y efectos, hechos por tu IA
+Reels verticales animados como un videojuego (Barcada 2.0 · modo juego: neón, bloques o arcade), contados con formatos virales (duelos, marcadores, cuentas que duelen), con voz profesional, subtítulos animados y efectos, hechos por tu IA
 (Claude Code o Codex) en tu computadora. Tú das la idea y apruebas tres cosas: el guion, las imágenes y el borrador.
 
 ## Qué necesitas

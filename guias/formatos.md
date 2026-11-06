@@ -1,5 +1,7 @@
 # Los formatos de Barcada (cómo se cuenta una historia que se ve hasta el final)
 
+Los formatos 1-4 sirven en cualquier estilo; los 5-7 nacen del **modo juego** (Barcada 2.0, `guias/juego.md`).
+
 Cada video usa **uno** de estos formatos. Se elige antes del guion: el formato decide el gancho, la estructura y las
 piezas. Todos comparten las mismas reglas de oro (al final).
 
@@ -51,6 +53,45 @@ Algo que casi todos creen, desmontado con **una comparación de casa**. Engancha
 - **Cierre:** qué hacer entonces, y la cifra que cambia (`cinta` «91 cm»).
 - **Look:** el fondo que vaya con el tema; piezas grandes, en el centro.
 
+## 5. La misión — «Tu servidor en 4 pasos» (modo juego · `neon`)
+
+Un problema que duele y los N pasos para arreglarlo, con la **barra de pasos** arriba. Engancha porque quieres ver el 4/4.
+
+- **Gancho (0-3 s):** la escena del problema, en rojo: «Cierras el portátil… y tu agente se muere.» (`alerta`,
+  `pulso` que pasa a muerto).
+- **La solución en una frase** y la barra en 0/N: «Lo que necesitas es un ordenador que nunca se apaga.»
+- **Cada paso**, con su nombre corto en la barra (24 H, LLAVE, IP…) y **una metáfora de casa** («una dirección», «una
+  llave», «un menú del día»). El paso se enciende en la palabra que lo nombra.
+- **Pregunta o duda del público** a mitad: «¿Y eso no es caro?» → la respuesta con una comparación (`balanza`).
+- **Cierre en bucle:** la escena del principio, arreglada («…y tu agente sigue DESPIERTO»), barra completa, y el CTA.
+
+## 6. El mapa — «Tu app vive en 6 sitios» (modo juego · `voxel`)
+
+Algo invisible que tiene N partes, cada una convertida en **un lugar con nombre** de un mundo de islas. Engancha porque
+cada isla nueva es un descubrimiento y las fichas de abajo se llenan.
+
+- **Gancho:** lo que se pierde: «Claude te hizo la app… y se esfumó.» (se rompe en cubos).
+- **El mapa entero** de un vistazo, con las N islas y su etiqueta (`1 · TALLER`, `2 · ARCHIVO`…); fichas en 0/N.
+- **Una isla por paso** (la cámara viaja): su nombre, para qué sirve en 5 palabras (`subtitulo`) y el nombre real de la
+  herramienta en un `letrero`. Una ficha se enciende con su color.
+- **La duda:** «¿Y todo esto se paga?» → la respuesta sobre el mapa («casi todo gratis», sellos verdes).
+- **Cierre en bucle:** la escena del gancho, ahora con todo vivo (`final`: «6/6 · VIVA») y el CTA.
+
+## 7. La partida — «Esto es gratis antes de que acabe este video» (modo juego · `arcade`)
+
+Un reto contra el reloj, como un videojuego: el `TIEMPO` baja arriba y la barra de poder sube. Engancha por la promesa
+y por el reloj.
+
+- **Gancho:** el rico contra tú: «Fulano gastó mil millones en esto. Tú lo vas a tener gratis antes de que acabe este
+  video.» (`maquina` con precio que sube, `vs`).
+- **La ficha del premio** (`ficha` que se rellena: NOMBRE, HECHO EN, ESTÁ EN) sin logos.
+- **Los pasos como mejoras:** «Paso uno…», cada uno con su `mejora` («MEJORA CONSEGUIDA · VOZ») y la barra en %.
+- **WARNING** (`advertencia`): «Y ahora viene lo bueno» → el antes y el después (40 correos → 3 que importan).
+- **El VS final** (lo que gastó él contra lo que gastas tú) y **¿CONTINUAR?** con la cuenta atrás y el CTA.
+
+Los tres formatos de juego se combinan con los de antes: un duelo puede jugarse en `arcade` (con `vs` y rondas en la
+barra), una cuenta en `neon` y un mito y verdad en cualquiera. Cómo se dibuja todo: `guias/juego.md`.
+
 ## Las reglas de oro (en todos los formatos)
 
 1. **El primer segundo ya se mueve** y ya dice de qué va (con el nombre de la cosa). Nunca un título quieto.
@@ -70,3 +111,6 @@ Algo que casi todos creen, desmontado con **una comparación de casa**. Engancha
 | Cifras y titulares | Anton | Enormes, dorado `#F7C65A` con contorno; la línea de abajo, blanca y más pequeña |
 | Etiquetas y nombres | Poppins ExtraBold | Mayúsculas muy espaciadas (`TÚ`, `CAFÉ`, `UN DÍA · DOS CAMINOS`) |
 | Píldoras, encuestas, globos | Nunito Black | Dentro de su forma de color |
+
+En el modo juego cada piel trae sus letras: `neon` Poppins ExtraBold + Space Mono, `voxel` Lilita One con contorno,
+`arcade` Press Start 2P + Space Mono.

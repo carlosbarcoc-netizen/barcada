@@ -1,0 +1,507 @@
+{
+  "titulo": "Café contra cacao · arcade",
+  "estilo": "2d",
+  "frases": [
+    {
+      "texto": "¡Café contra cacao! ¿Cuál te despierta más?",
+      "clave": "despierta"
+    },
+    {
+      "texto": "Ronda uno: ¡la cafeína!",
+      "clave": "cafeína"
+    },
+    {
+      "texto": "Una taza de café: ¡noventa y cinco miligramos!",
+      "clave": "noventa"
+    },
+    {
+      "texto": "¿Y una de chocolate caliente? Apenas unos cinco.",
+      "clave": "cinco"
+    },
+    {
+      "texto": "¡Uno a cero para el café!",
+      "clave": "café"
+    },
+    {
+      "texto": "Pero ojo, el cacao trae teobromina: te activa más suave y por más tiempo.",
+      "clave": "teobromina"
+    },
+    {
+      "texto": "Y tú, ¿con cuál te quedas? ¡Te leo!",
+      "clave": "quedas"
+    },
+    {
+      "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
+      "clave": "NativoTerrus",
+      "dicho": "Síguenos en Nativo Terrus para descubrir la ciencia detrás de los alimentos."
+    }
+  ],
+  "juego": {
+    "piel": "arcade",
+    "progreso": {
+      "titulo": "DUELO",
+      "pasos": [
+        {
+          "texto": "R1",
+          "en": "5:uno"
+        },
+        {
+          "texto": "R2",
+          "en": "6:tiempo"
+        },
+        {
+          "texto": "R3",
+          "en": "7:quedas"
+        }
+      ]
+    },
+    "tiempo": true
+  },
+  "escenas": [
+    {
+      "nombre": "partida",
+      "tomas": [
+        {
+          "desde": 0,
+          "dibujo": {
+            "fondo": "arcade-escenario",
+            "elementos": [
+              {
+                "pieza": "vs",
+                "x": 540,
+                "y": 960,
+                "izq": "CAFÉ",
+                "der": "CACAO",
+                "subIzq": "95 MG",
+                "subDer": "¿?",
+                "entra": "aparece",
+                "en": 0,
+                "dura": 0.2
+              },
+              {
+                "pieza": "personaje",
+                "x": 290,
+                "y": 1130,
+                "escala": 1.25,
+                "color": "cafe",
+                "cara": "enfadado",
+                "entra": "izquierda",
+                "en": 0.05
+              },
+              {
+                "pieza": "personaje",
+                "x": 800,
+                "y": 1130,
+                "escala": 1.25,
+                "color": "cacao",
+                "gafas": "sol",
+                "entra": "derecha",
+                "en": "1:cacao"
+              },
+              {
+                "pieza": "dialogo",
+                "x": 540,
+                "y": 620,
+                "texto": "¿QUIÉN TE DESPIERTA?",
+                "entra": "rebote",
+                "en": "1:cual"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "2:ronda",
+          "titulo": "RONDA 1|*CAFEÍNA*",
+          "dibujo": {
+            "fondo": "arcade",
+            "fondoOpts": {
+              "rayos": true
+            },
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.08
+                }
+              ],
+              [
+                "2:cafeina",
+                {
+                  "zoom": 1
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "maquina",
+                "x": 540,
+                "y": 1000,
+                "escala": 0.95,
+                "titulo": "RONDA 1",
+                "texto": "CAFEÍNA|PLAY",
+                "precio": "1 TAZA",
+                "entra": "cae",
+                "en": 0.1
+              },
+              {
+                "pieza": "personaje",
+                "x": 200,
+                "y": 1200,
+                "escala": 0.9,
+                "color": "cafe",
+                "cara": "feliz",
+                "brazo": "arriba",
+                "entra": "rebote",
+                "en": "2:cafeina"
+              },
+              {
+                "pieza": "personaje",
+                "x": 880,
+                "y": 1200,
+                "escala": 0.9,
+                "color": "cacao",
+                "cara": "normal",
+                "entra": "rebote",
+                "en": "2:cafeina"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "3:taza",
+          "titulo": "",
+          "dibujo": {
+            "fondo": "arcade-sala",
+            "elementos": [
+              {
+                "pieza": "monitor",
+                "x": 540,
+                "y": 640,
+                "escala": 0.95,
+                "texto": "TAZA DE|CAFÉ",
+                "entra": "cae",
+                "en": 0
+              },
+              {
+                "pieza": "cifra",
+                "x": 540,
+                "y": 1000,
+                "despues": " MG",
+                "tamano": 110,
+                "color": "amarillo",
+                "entra": "rebote",
+                "en": "3:noventa",
+                "params": {
+                  "valor": [
+                    [
+                      "3:noventa",
+                      0
+                    ],
+                    [
+                      "3:miligramos",
+                      95
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1210,
+                "escala": 0.85,
+                "color": "cafe",
+                "cara": "feliz",
+                "entra": "sube",
+                "en": "3:cafe"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "rayo",
+                "x": 880,
+                "y": 820,
+                "entra": "gira",
+                "en": "3:miligramos",
+                "accion": "late"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "4:chocolate",
+          "dibujo": {
+            "fondo": "arcade-sala",
+            "elementos": [
+              {
+                "pieza": "monitor",
+                "x": 540,
+                "y": 640,
+                "escala": 0.95,
+                "texto": "CHOCOLATE|CALIENTE",
+                "entra": "cae",
+                "en": 0
+              },
+              {
+                "pieza": "cifra",
+                "x": 540,
+                "y": 1000,
+                "despues": " MG",
+                "tamano": 110,
+                "entra": "rebote",
+                "en": "4:apenas",
+                "params": {
+                  "valor": [
+                    [
+                      "4:apenas",
+                      0
+                    ],
+                    [
+                      "4:cinco",
+                      5
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1210,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "triste",
+                "entra": "sube",
+                "en": "4:chocolate"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "5:uno",
+          "dibujo": {
+            "fondo": "arcade",
+            "fondoOpts": {
+              "rayos": true,
+              "color": "#2a1470"
+            },
+            "elementos": [
+              {
+                "pieza": "explosion",
+                "x": 540,
+                "y": 820,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "en": 0.05
+              },
+              {
+                "pieza": "letrero",
+                "x": 540,
+                "y": 820,
+                "texto": "1 - 0",
+                "estilo": "plano",
+                "tamano": 130,
+                "entra": "rebote",
+                "en": 0.05
+              },
+              {
+                "pieza": "mejora",
+                "x": 540,
+                "y": 1060,
+                "titulo": "RONDA GANADA",
+                "texto": "CAFÉ",
+                "icono": "estrella",
+                "entra": "aparece",
+                "en": "5:para"
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1260,
+                "escala": 0.8,
+                "color": "cafe",
+                "gorro": "corona",
+                "cara": "feliz",
+                "brazo": "saluda",
+                "entra": "rebote",
+                "en": "5:cafe"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "6:pero",
+          "alerta": true,
+          "dibujo": {
+            "fondo": "arcade",
+            "elementos": [
+              {
+                "pieza": "advertencia",
+                "x": 540,
+                "y": 960,
+                "texto": "WARNING",
+                "sub": "GIRO DE GUION",
+                "entra": "ninguna",
+                "en": 0
+              }
+            ]
+          }
+        },
+        {
+          "desde": "6:trae",
+          "titulo": "ARMA SECRETA",
+          "dibujo": {
+            "fondo": "arcade-atardecer",
+            "elementos": [
+              {
+                "pieza": "ficha",
+                "x": 540,
+                "y": 820,
+                "ancho": 900,
+                "filas": [
+                  [
+                    "ARMA",
+                    "TEOBROMINA"
+                  ],
+                  [
+                    "EFECTO",
+                    "+ SUAVE"
+                  ],
+                  [
+                    "DURA",
+                    "+ TIEMPO"
+                  ]
+                ],
+                "entra": "aparece",
+                "en": 0,
+                "params": {
+                  "n": [
+                    [
+                      "6:teobromina",
+                      0.4
+                    ],
+                    [
+                      "6:teobromina",
+                      1
+                    ],
+                    [
+                      "6:suave",
+                      1
+                    ],
+                    [
+                      "6:suave",
+                      2
+                    ],
+                    [
+                      "6:tiempo",
+                      2
+                    ],
+                    [
+                      "6:tiempo",
+                      3
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1180,
+                "escala": 1,
+                "color": "cacao",
+                "gafas": "sol",
+                "cara": "normal",
+                "entra": "sube",
+                "en": "6:teobromina",
+                "accion": "flota"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "7:tu",
+          "titulo": "¿CAFÉ O|CACAO?",
+          "dibujo": {
+            "fondo": "arcade-escenario",
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 290,
+                "y": 1130,
+                "escala": 1.1,
+                "color": "cafe",
+                "cara": "sorprendido",
+                "entra": "izquierda",
+                "en": 0
+              },
+              {
+                "pieza": "personaje",
+                "x": 790,
+                "y": 1130,
+                "escala": 1.1,
+                "color": "cacao",
+                "cara": "guino",
+                "entra": "derecha",
+                "en": 0.1
+              },
+              {
+                "pieza": "dialogo",
+                "x": 540,
+                "y": 760,
+                "texto": "¡COMENTA!",
+                "entra": "rebote",
+                "en": "7:leo"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "8:siguenos",
+          "dibujo": {
+            "fondo": "arcade",
+            "elementos": [
+              {
+                "pieza": "continuar",
+                "x": 540,
+                "y": 820,
+                "texto": "¿CONTINUAR?",
+                "sub": "NATIVOTERRUS",
+                "entra": "aparece",
+                "en": 0,
+                "params": {
+                  "n": [
+                    [
+                      0,
+                      9
+                    ],
+                    [
+                      "8:alimentos",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1210,
+                "escala": 0.75,
+                "color": "cafe",
+                "cara": "feliz",
+                "entra": "rebote",
+                "en": "8:ciencia"
+              },
+              {
+                "pieza": "personaje",
+                "x": 780,
+                "y": 1210,
+                "escala": 0.75,
+                "color": "cacao",
+                "cara": "feliz",
+                "entra": "rebote",
+                "en": "8:ciencia"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

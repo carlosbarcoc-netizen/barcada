@@ -2,7 +2,7 @@
 // Barcada · la herramienta. Todas las órdenes: node barcada.mjs ayuda
 import { spawnSync } from "node:child_process";
 import { join } from "node:path";
-import { cargarClaves, carpetaProyecto, guardarJSON, leerJSON } from "./nucleo/comun.mjs";
+import { RAIZ, cargarClaves, carpetaProyecto, guardarJSON, leerJSON } from "./nucleo/comun.mjs";
 
 // Detrás de un proxy (empresas, entornos en la nube), el fetch de Node lo usa solo con NODE_USE_ENV_PROXY=1.
 if ((process.env.HTTPS_PROXY || process.env.https_proxy) && !process.env.NODE_USE_ENV_PROXY) {
@@ -21,7 +21,8 @@ const AYUDA = `Barcada · órdenes (todas desde esta carpeta):
   node barcada.mjs revisar                         qué está instalado y qué falta
   node barcada.mjs voces [--acento latin] [--genero male]   voces de ElevenLabs en español para elegir
   node barcada.mjs sonidos                         crea tu biblioteca de efectos con ElevenLabs (una vez)
-  node barcada.mjs nuevo "<idea>" [--estilo documental]     crea el proyecto en proyectos/
+  node barcada.mjs nuevo "<idea>" --piel neon      crea un proyecto en modo juego (Barcada 2.0): neon, voxel o arcade
+  node barcada.mjs nuevo "<idea>" [--estilo documental]     crea el proyecto en proyectos/ (2D con volumen o realista)
   node barcada.mjs voz <proyecto> [--rehacer]      la voz con sus tiempos (una vez, con el guion aprobado)
   node barcada.mjs tomas <proyecto>                genera las imágenes y la hoja revisar/tomas.jpg
   node barcada.mjs otra <proyecto> <n> [<n>...]    otra versión de esas tomas (nueva imagen)
@@ -29,6 +30,9 @@ const AYUDA = `Barcada · órdenes (todas desde esta carpeta):
   node barcada.mjs final <proyecto> [--fps 60]     video final 1080×1920 → entrega/video.mp4
   node barcada.mjs portada <proyecto> "Título con *clave*|segunda línea" [--toma n] [--etiqueta "¡nadie te lo dijo!"]
   node barcada.mjs estilos                         los estilos visuales disponibles
+  node barcada.mjs pieles                          las pieles del modo juego (Barcada 2.0)
+  node barcada.mjs muestrario [neon|voxel|arcade]  hojas con todas las piezas → muestrario/
+  node barcada.mjs musica <neon|voxel|arcade> [segundos]    escucha la música que compone el sintetizador → muestrario/
   node barcada.mjs empaquetar                      el .zip de venta, limpio (dist/Barcada-vX.zip)
 `;
 
@@ -43,7 +47,15 @@ try {
       break;
     }
     case "sonidos": await (await import("./nucleo/extras.mjs")).crearSonidos({ rehacer: marca("rehacer") }); break;
-    case "nuevo": (await import("./nucleo/extras.mjs")).nuevo(primero, { estilo: opcion("estilo", "documental"), nombre: opcion("nombre") }); break;
+    case "nuevo": { const piel = opcion("piel"); (await import("./nucleo/extras.mjs")).nuevo(primero, { estilo: piel ? "2d" : opcion("estilo", "documental"), nombre: opcion("nombre"), piel }); break; }
+    case "pieles": { const { PIELES } = await import("./nucleo/2d/juego.mjs"); for (const [k, e] of Object.entries(PIELES)) console.log(`${k.padEnd(8)} ${e.nombre} — ${e.para}`); break; }
+    case "muestrario": spawnSync(process.execPath, [join(RAIZ, "nucleo", "2d", "muestrario.mjs"), join(RAIZ, "muestrario"), ...(primero ? [primero] : [])], { stdio: "inherit" }); break;
+    case "musica": {
+      const piel = primero || "neon", seg = Number(resto.filter((x) => !x.startsWith("--"))[1] || 30), out = join(RAIZ, "muestrario", `musica-${piel}.wav`);
+      (await import("./nucleo/sintetizador.mjs")).musica(piel, seg, out, Math.floor(Math.random() * 1e6));
+      console.log(`✓ ${out}`);
+      break;
+    }
     case "voz": await (await import("./nucleo/voz.mjs")).hacerVoz(carpetaProyecto(primero), { rehacer: marca("rehacer") }); break;
     case "tomas": await (await import("./nucleo/montaje.mjs")).hojaDeTomas(carpetaProyecto(primero)); break;
     case "otra": {

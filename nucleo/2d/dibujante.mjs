@@ -28,9 +28,12 @@ export async function hoja(escala = 1) {
     @font-face{font-family:Nunito;font-weight:900;src:url(${f("Nunito-Black")})}
     @font-face{font-family:Nunito;font-weight:800;src:url(${f("Nunito-ExtraBold")})}
     @font-face{font-family:Anton;src:url(${f("Anton-Regular")})}
+    @font-face{font-family:'Press Start 2P';src:url(${f("PressStart2P-Regular")})}
+    @font-face{font-family:'Lilita One';src:url(${f("LilitaOne-Regular")})}
+    @font-face{font-family:'Space Mono';font-weight:700;src:url(${f("SpaceMono-Bold")})}
     html,body{margin:0;background:#000;overflow:hidden} svg{display:block}</style></head>
-    <body><div id="c"></div><span style="font:800 40px Poppins;position:absolute;opacity:0">Áa</span><span style="font:700 40px Poppins;position:absolute;opacity:0">Áa</span></body></html>`);
-  await pagina.evaluate(async () => { await document.fonts.load("800 40px Poppins"); await document.fonts.load("700 40px Poppins"); await document.fonts.load("900 40px Nunito"); await document.fonts.load("40px Anton"); await document.fonts.ready; });
+    <body><div id="c"></div><span style="font:800 40px Poppins;position:absolute;opacity:0">Áa</span><span style="font:700 40px Poppins;position:absolute;opacity:0">Áa</span><span style="font:40px 'Press Start 2P';position:absolute;opacity:0">Áa</span><span style="font:40px 'Lilita One';position:absolute;opacity:0">Áa</span><span style="font:700 40px 'Space Mono';position:absolute;opacity:0">Áa</span></body></html>`);
+  await pagina.evaluate(async () => { await document.fonts.load("800 40px Poppins"); await document.fonts.load("700 40px Poppins"); await document.fonts.load("900 40px Nunito"); await document.fonts.load("40px Anton"); await document.fonts.load("40px 'Press Start 2P'"); await document.fonts.load("40px 'Lilita One'"); await document.fonts.load("700 40px 'Space Mono'"); await document.fonts.ready; });
   return {
     async pinta(interior) {
       const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${ANCHO * escala}" height="${ALTO * escala}" viewBox="0 0 ${ANCHO} ${ALTO}"><defs>${DEFS_COMUNES}${VINETA}</defs>${interior}</svg>`;
@@ -41,9 +44,9 @@ export async function hoja(escala = 1) {
     // cada cuadro, que es lo que más tarda.
     async capa(interior, transparente = false) {
       const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${ANCHO * escala}" height="${ALTO * escala}" viewBox="0 0 ${ANCHO} ${ALTO}"><defs>${DEFS_COMUNES}${VINETA}</defs>${interior}</svg>`;
-      await pagina.evaluate(([s, tr]) => { document.body.style.background = tr ? "transparent" : "#000"; document.getElementById("c").innerHTML = s; }, [svg, transparente]);
+      await pagina.evaluate(([s, tr]) => { for (const el of [document.documentElement, document.body]) el.style.background = tr ? "transparent" : "#000"; document.getElementById("c").innerHTML = s; }, [svg, transparente]);
       const png = await pagina.screenshot({ type: "png", omitBackground: transparente });
-      await pagina.evaluate(() => { document.body.style.background = "#000"; });
+      await pagina.evaluate(() => { for (const el of [document.documentElement, document.body]) el.style.background = "#000"; });
       return `data:image/png;base64,${png.toString("base64")}`;
     },
     cerrar: () => pagina.close(),

@@ -4,7 +4,7 @@
   "marca": "NativoTerrus",
   "cierre": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
   "acento": "#FFD23F",
-  "estilo": "2d",
+  "estilo": "juego",
   "voz": {
     "id": "htFfPSZGJwjBv1CL0aMD",
     "nombre": "Antonio",
@@ -15,5 +15,7 @@
   "musica": null,
   "redes": {},
   "portada": "Letras centradas (en horizontal y en el medio de la imagen) y llamativas, con colores vivos: Anton enorme, la clave en amarillo-naranja sobre franja de color intenso, sello amarillo debajo.",
-  "tono": "Voz movida, alegre y cercana, nada pausada: que quien escucha sienta que se lo cuenta un amigo."
+  "tono": "Voz movida, alegre y cercana, nada pausada: que quien escucha sienta que se lo cuenta un amigo.",
+  "piel": "auto",
+  "avatar": null
 }

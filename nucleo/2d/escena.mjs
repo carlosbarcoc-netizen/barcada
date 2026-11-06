@@ -14,12 +14,19 @@
 //     ]
 //   }
 // «cuándo»: segundos desde que empieza la toma (0.5) o una palabra de la voz ("frase:palabra", "palabra").
-import { PIEZAS } from "./piezas.mjs";
-import { fondo as pintarFondo, FONDOS } from "./fondos.mjs";
+import { PIEZAS as PIEZAS_2D } from "./piezas.mjs";
+import { FONDOS as FONDOS_2D } from "./fondos.mjs";
 import { TINTA } from "./estilo.mjs";
+import { FONDOS_JUEGO, FONDOS_VIVOS, acabadoJuego, piel as pielDe } from "./juego.mjs";
+import { PIEZAS_JUEGO } from "./piezas-juego.mjs";
+
+// Las piezas y los fondos de los dos estilos (2D con volumen y modo juego) en un solo catálogo.
+export const PIEZAS = { ...PIEZAS_2D, ...PIEZAS_JUEGO };
+export const FONDOS = { ...FONDOS_2D, ...FONDOS_JUEGO };
+const pintarFondo = (nombre, o = {}) => (FONDOS[nombre] || FONDOS.estudio)({ t: 0, ...o });
 
 const lim = (u) => Math.max(0, Math.min(1, u));
-const RESERVADAS = new Set(["pieza", "x", "y", "escala", "rot", "capa", "entra", "en", "dura", "sale", "hasta", "duraSale", "accion", "velocidad", "params", "mueve", "opacidad", "i", "t0", "t1"]);
+const RESERVADAS = new Set(["pieza", "x", "y", "escala", "rot", "capa", "entra", "en", "dura", "sale", "hasta", "duraSale", "accion", "velocidad", "params", "mueve", "opacidad", "i", "t0", "t1", "abs", "sonido", "sonidoEn", "sonidoDb"]);
 const suave = (u) => { u = lim(u); return u * u * (3 - 2 * u); };
 const salir = (u) => 1 - Math.pow(1 - lim(u), 3);
 const rebote = (u) => { u = lim(u); const c = 1.70158 * 1.4, c3 = c + 1; return 1 + c3 * Math.pow(u - 1, 3) + c * Math.pow(u - 1, 2); };
@@ -59,11 +66,21 @@ function transicion(tipo, u) {
 }
 
 // La toma, ya con los tiempos de la voz: cuadro(t) → SVG (t, segundos del video).
-export function crearCuadro(dibujo, toma, aSegundos) {
-  const T = (ref) => (typeof ref === "number" ? toma.inicio + ref : aSegundos(ref));
+// juego (opcional): el contexto del modo juego (prepararJuego en juego.mjs): piel, HUD, títulos, subtítulos y mundo.
+export function crearCuadro(dibujo, toma, aSegundos, juego = null) {
+  dibujo = { ...dibujo };
+  if (juego) {
+    dibujo.fondo = dibujo.fondo || pielDe(juego.N).fondo;
+    if (!dibujo.camara && juego.J.mundo?.camara) dibujo.camara = juego.J.mundo.camara.map(([a, v]) => [typeof a === "number" ? { abs: a } : a, v]);
+  }
+  const T = (ref) => (typeof ref === "number" ? toma.inicio + ref : ref && typeof ref === "object" && "abs" in ref ? ref.abs : aSegundos(ref));
   const conT = (l) => (Array.isArray(l) ? l.map(([a, v]) => [T(a), v]) : l);
   const cam = conT(dibujo.camara || [[0, { zoom: 1, x: 540, y: 960 }]]);
-  const elementos = (dibujo.elementos || []).map((e, i) => {
+  // las piezas del mundo (modo juego) viven en todas las tomas: sus tiempos en número son desde el inicio del video
+  const delMundo = juego?.J.mundo?.elementos || [];
+  const aAbs = (e) => { const o = { ...e }; for (const k of ["en", "hasta"]) if (typeof o[k] === "number") o[k] = { abs: o[k] }; if (o.en === undefined) o.en = { abs: 0 }; return o; };
+  const lista = [...delMundo.map((e) => ({ capa: -1, ...aAbs(e) })), ...(dibujo.elementos || [])];
+  const elementos = lista.map((e, i) => {
     const params = {};
     for (const [k, v] of Object.entries(e.params || {})) params[k] = Array.isArray(v) && Array.isArray(v[0]) ? conT(v) : v;
     return {
@@ -78,9 +95,11 @@ export function crearCuadro(dibujo, toma, aSegundos) {
 
   let fondoImg = null, granoImg = null;
   // los fondos que se mueven (lluvia, estrellas que titilan) se dibujan en cada cuadro; los demás, una vez
-  const fondoVivo = dibujo.fondoVivo ?? ["luces", "noche", "espacio"].includes(dibujo.fondo);
+  const fondoVivo = dibujo.fondoVivo ?? (["luces", "noche", "espacio"].includes(dibujo.fondo) || FONDOS_VIVOS.has(dibujo.fondo));
   const cuadro = (t) => {
     const c = { zoom: 1, x: 540, y: 960, ...claves(cam, t) };
+    // la sacudida (modo juego: alerta o sacude): unos píxeles, que se apagan en medio segundo
+    if (juego && (toma.alerta || toma.sacude)) { const u = t - toma.inicio, a = 18 * Math.exp(-u * 6); c.x += a * Math.sin(u * 61); c.y += a * Math.cos(u * 47); }
     // la cámara nunca enseña lo que hay fuera del fondo: zoom ≥ 1 y el centro dentro de lo que cabe
     c.zoom = Math.max(1, c.zoom);
     const mx = 540 / c.zoom, my = 960 / c.zoom;
@@ -105,20 +124,22 @@ export function crearCuadro(dibujo, toma, aSegundos) {
       if (op <= 0.003 || s <= 0.003) return "";
       // a la pieza le llega todo lo del elemento (texto, pregunta, colores…) salvo lo de la escena, y los params ya
       // calculados para este segundo
-      const p = { t };
+      const p = { t, tl: t - e.t0, piel: juego?.N };
       for (const [k, v] of Object.entries(e)) if (!RESERVADAS.has(k)) p[k] = v;
       for (const [k, v] of Object.entries(e.params)) p[k] = claves(v, t);
       return `<g transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${r.toFixed(2)}) scale(${s.toFixed(4)})" opacity="${op.toFixed(3)}">${PIEZAS[e.pieza](p)}</g>`;
     }).join("");
     const fondoSVG = fondoImg ? `<image href="${fondoImg}" width="1080" height="1920" preserveAspectRatio="none"/>` : pintarFondo(dibujo.fondo, { t, ...(dibujo.fondoOpts || {}) });
-    const acabado = granoImg ? `<image href="${granoImg}" width="1080" height="1920" style="mix-blend-mode:multiply"/>` : `<rect width="1080" height="1920" filter="url(#grano)" style="mix-blend-mode:multiply"/><rect width="1080" height="1920" fill="url(#vinetaBV)"/>`;
-    return `<g transform="translate(540 960) scale(${c.zoom}) translate(${-c.x} ${-c.y})">${fondoSVG}${capas}</g>${acabado}`;
+    const acabado = juego ? (granoImg ? `<image href="${granoImg}" width="1080" height="1920"/>` : acabadoJuego(juego.N))
+      : granoImg ? `<image href="${granoImg}" width="1080" height="1920" style="mix-blend-mode:multiply"/>` : `<rect width="1080" height="1920" filter="url(#grano)" style="mix-blend-mode:multiply"/><rect width="1080" height="1920" fill="url(#vinetaBV)"/>`;
+    return `<g transform="translate(540 960) scale(${c.zoom}) translate(${-c.x} ${-c.y})">${fondoSVG}${capas}</g>${acabado}${juego ? juego.capa(t) : ""}`;
   };
   // Antes de grabar: el fondo (un poco más grande, para que la cámara no le vea los bordes) y el grano con la
   // viñeta se pintan una vez y se reutilizan como imágenes.
   cuadro.preparar = async (h) => {
     if (!fondoVivo) fondoImg = await h.capa(pintarFondo(dibujo.fondo, { t: toma.inicio, ...(dibujo.fondoOpts || {}) }));
-    granoImg = await h.capa(`<rect width="1080" height="1920" fill="#fff"/><rect width="1080" height="1920" filter="url(#grano)"/><rect width="1080" height="1920" fill="url(#vinetaBV)"/>`);
+    granoImg = juego ? await h.capa(acabadoJuego(juego.N), true)
+      : await h.capa(`<rect width="1080" height="1920" fill="#fff"/><rect width="1080" height="1920" filter="url(#grano)"/><rect width="1080" height="1920" fill="url(#vinetaBV)"/>`);
   };
   cuadro.cuadro = () => cuadro;
   return cuadro;
