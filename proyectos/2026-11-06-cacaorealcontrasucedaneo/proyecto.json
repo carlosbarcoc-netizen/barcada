@@ -1,0 +1,92 @@
+{
+  "titulo": "Cacao real contra sucedáneo",
+  "estilo": "2d",
+  "frases": [
+    {
+      "texto": "¿Ese chocolate que compraste es cacao de verdad? Ojo, a lo mejor no.",
+      "clave": "verdad"
+    },
+    {
+      "texto": "¡Cacao real contra sucedáneo! Mira la diferencia.",
+      "clave": "sucedáneo"
+    },
+    {
+      "texto": "Ronda uno: la grasa.",
+      "clave": "grasa"
+    },
+    {
+      "texto": "El real lleva manteca de cacao: la grasa natural del propio grano.",
+      "clave": "manteca"
+    },
+    {
+      "texto": "El sucedáneo la cambia por grasa vegetal, casi siempre de palmiste.",
+      "clave": "palmiste"
+    },
+    {
+      "texto": "Ronda dos: la boca.",
+      "clave": "boca"
+    },
+    {
+      "texto": "La manteca de cacao se derrite a unos treinta y cuatro grados.",
+      "clave": "treinta"
+    },
+    {
+      "texto": "¡Justo debajo de tu cuerpo! Por eso se funde en tu boca.",
+      "clave": "funde"
+    },
+    {
+      "texto": "Pero ojo: el sucedáneo no necesita templado. Es más fácil y más barato de trabajar.",
+      "clave": "templado"
+    },
+    {
+      "texto": "Ronda tres: lee la etiqueta.",
+      "clave": "etiqueta"
+    },
+    {
+      "texto": "Si dice grasa vegetal o «sabor a chocolate», es sucedáneo.",
+      "clave": "sucedáneo"
+    },
+    {
+      "texto": "Si dice manteca de cacao, ¡gana el real!",
+      "clave": "real"
+    },
+    {
+      "texto": "¿Quieres aprender a hacer estos videos? Escribe la palabra VIRAL.",
+      "clave": "VIRAL",
+      "dicho": "¿Quieres aprender a hacer estos videos? Escribe la palabra viral."
+    },
+    {
+      "texto": "Ideal para tu idea de negocio.",
+      "clave": "negocio"
+    }
+  ],
+  "juego": {
+    "piel": "arcade",
+    "progreso": {
+      "titulo": "",
+      "etiqueta": "",
+      "pasos": [
+        {
+          "texto": "",
+          "en": ""
+        }
+      ]
+    },
+    "tiempo": true,
+    "firma": "@nativoterrus"
+  },
+  "escenas": [
+    {
+      "nombre": "partida",
+      "tomas": [
+        {
+          "desde": 0,
+          "titulo": "",
+          "dibujo": {
+            "elementos": []
+          }
+        }
+      ]
+    }
+  ]
+}
