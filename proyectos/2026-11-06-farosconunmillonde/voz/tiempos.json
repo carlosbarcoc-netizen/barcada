@@ -1,0 +1,788 @@
+{
+  "huella": "baf3d6b79983",
+  "duracion": 47.273,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "¿Y si los faros de tu carro fueran un proyector?",
+      "clave": "proyector",
+      "inicio": 0,
+      "fin": 2.531,
+      "palabras": [
+        {
+          "texto": "¿Y",
+          "inicio": 0,
+          "fin": 0.163
+        },
+        {
+          "texto": "si",
+          "inicio": 0.232,
+          "fin": 0.302
+        },
+        {
+          "texto": "los",
+          "inicio": 0.36,
+          "fin": 0.476
+        },
+        {
+          "texto": "faros",
+          "inicio": 0.522,
+          "fin": 0.743
+        },
+        {
+          "texto": "de",
+          "inicio": 0.778,
+          "fin": 0.836
+        },
+        {
+          "texto": "tu",
+          "inicio": 0.894,
+          "fin": 0.987
+        },
+        {
+          "texto": "carro",
+          "inicio": 1.045,
+          "fin": 1.382
+        },
+        {
+          "texto": "fueran",
+          "inicio": 1.44,
+          "fin": 1.718
+        },
+        {
+          "texto": "un",
+          "inicio": 1.8,
+          "fin": 1.858
+        },
+        {
+          "texto": "proyector?",
+          "inicio": 1.916,
+          "fin": 2.531
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Mira esto: hay faros con más de un millón de espejos.",
+      "clave": "millón",
+      "inicio": 3.715,
+      "fin": 7.163,
+      "palabras": [
+        {
+          "texto": "Mira",
+          "inicio": 3.715,
+          "fin": 3.947
+        },
+        {
+          "texto": "esto:",
+          "inicio": 4.005,
+          "fin": 4.493
+        },
+        {
+          "texto": "hay",
+          "inicio": 4.783,
+          "fin": 4.911
+        },
+        {
+          "texto": "faros",
+          "inicio": 4.981,
+          "fin": 5.329
+        },
+        {
+          "texto": "con",
+          "inicio": 5.399,
+          "fin": 5.538
+        },
+        {
+          "texto": "más",
+          "inicio": 5.596,
+          "fin": 5.747
+        },
+        {
+          "texto": "de",
+          "inicio": 5.77,
+          "fin": 5.828
+        },
+        {
+          "texto": "un",
+          "inicio": 5.898,
+          "fin": 5.991
+        },
+        {
+          "texto": "millón",
+          "inicio": 6.049,
+          "fin": 6.339
+        },
+        {
+          "texto": "de",
+          "inicio": 6.385,
+          "fin": 6.444
+        },
+        {
+          "texto": "espejos.",
+          "inicio": 6.467,
+          "fin": 7.163
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "¡Sí, un millón! Y cada uno, más fino que un pelo.",
+      "clave": "pelo",
+      "inicio": 7.384,
+      "fin": 11.389,
+      "palabras": [
+        {
+          "texto": "¡Sí,",
+          "inicio": 7.384,
+          "fin": 7.964
+        },
+        {
+          "texto": "un",
+          "inicio": 8.313,
+          "fin": 8.406
+        },
+        {
+          "texto": "millón!",
+          "inicio": 8.44,
+          "fin": 8.835
+        },
+        {
+          "texto": "Y",
+          "inicio": 9.3,
+          "fin": 9.404
+        },
+        {
+          "texto": "cada",
+          "inicio": 9.509,
+          "fin": 9.764
+        },
+        {
+          "texto": "uno,",
+          "inicio": 9.845,
+          "fin": 10.17
+        },
+        {
+          "texto": "más",
+          "inicio": 10.31,
+          "fin": 10.472
+        },
+        {
+          "texto": "fino",
+          "inicio": 10.53,
+          "fin": 10.751
+        },
+        {
+          "texto": "que",
+          "inicio": 10.797,
+          "fin": 10.879
+        },
+        {
+          "texto": "un",
+          "inicio": 10.925,
+          "fin": 10.983
+        },
+        {
+          "texto": "pelo.",
+          "inicio": 11.041,
+          "fin": 11.389
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Van todos dentro de un chip, apuntando a la carretera.",
+      "clave": "chip",
+      "inicio": 11.854,
+      "fin": 14.71,
+      "palabras": [
+        {
+          "texto": "Van",
+          "inicio": 11.854,
+          "fin": 12.04
+        },
+        {
+          "texto": "todos",
+          "inicio": 12.109,
+          "fin": 12.376
+        },
+        {
+          "texto": "dentro",
+          "inicio": 12.423,
+          "fin": 12.69
+        },
+        {
+          "texto": "de",
+          "inicio": 12.725,
+          "fin": 12.771
+        },
+        {
+          "texto": "un",
+          "inicio": 12.806,
+          "fin": 12.864
+        },
+        {
+          "texto": "chip,",
+          "inicio": 12.91,
+          "fin": 13.305
+        },
+        {
+          "texto": "apuntando",
+          "inicio": 13.421,
+          "fin": 13.897
+        },
+        {
+          "texto": "a",
+          "inicio": 13.92,
+          "fin": 13.944
+        },
+        {
+          "texto": "la",
+          "inicio": 13.967,
+          "fin": 14.036
+        },
+        {
+          "texto": "carretera.",
+          "inicio": 14.083,
+          "fin": 14.71
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "Cada espejito se inclina doce grados: o manda la luz al camino, o la esconde.",
+      "clave": "grados",
+      "inicio": 15.256,
+      "fin": 20.271,
+      "palabras": [
+        {
+          "texto": "Cada",
+          "inicio": 15.256,
+          "fin": 15.464
+        },
+        {
+          "texto": "espejito",
+          "inicio": 15.488,
+          "fin": 15.917
+        },
+        {
+          "texto": "se",
+          "inicio": 15.964,
+          "fin": 16.045
+        },
+        {
+          "texto": "inclina",
+          "inicio": 16.092,
+          "fin": 16.475
+        },
+        {
+          "texto": "doce",
+          "inicio": 16.521,
+          "fin": 16.754
+        },
+        {
+          "texto": "grados:",
+          "inicio": 16.812,
+          "fin": 17.439
+        },
+        {
+          "texto": "o",
+          "inicio": 17.903,
+          "fin": 17.961
+        },
+        {
+          "texto": "manda",
+          "inicio": 18.019,
+          "fin": 18.286
+        },
+        {
+          "texto": "la",
+          "inicio": 18.333,
+          "fin": 18.391
+        },
+        {
+          "texto": "luz",
+          "inicio": 18.437,
+          "fin": 18.565
+        },
+        {
+          "texto": "al",
+          "inicio": 18.611,
+          "fin": 18.681
+        },
+        {
+          "texto": "camino,",
+          "inicio": 18.739,
+          "fin": 19.25
+        },
+        {
+          "texto": "o",
+          "inicio": 19.54,
+          "fin": 19.598
+        },
+        {
+          "texto": "la",
+          "inicio": 19.656,
+          "fin": 19.726
+        },
+        {
+          "texto": "esconde.",
+          "inicio": 19.749,
+          "fin": 20.271
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "¡Y cambian de posición miles de veces por segundo!",
+      "clave": "miles",
+      "inicio": 20.562,
+      "fin": 23.267,
+      "palabras": [
+        {
+          "texto": "¡Y",
+          "inicio": 20.562,
+          "fin": 20.84
+        },
+        {
+          "texto": "cambian",
+          "inicio": 20.945,
+          "fin": 21.223
+        },
+        {
+          "texto": "de",
+          "inicio": 21.27,
+          "fin": 21.328
+        },
+        {
+          "texto": "posición",
+          "inicio": 21.374,
+          "fin": 21.816
+        },
+        {
+          "texto": "miles",
+          "inicio": 21.874,
+          "fin": 22.141
+        },
+        {
+          "texto": "de",
+          "inicio": 22.176,
+          "fin": 22.234
+        },
+        {
+          "texto": "veces",
+          "inicio": 22.28,
+          "fin": 22.501
+        },
+        {
+          "texto": "por",
+          "inicio": 22.559,
+          "fin": 22.698
+        },
+        {
+          "texto": "segundo!",
+          "inicio": 22.756,
+          "fin": 23.267
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "Juntos dibujan la luz como los píxeles de una pantalla.",
+      "clave": "píxeles",
+      "inicio": 24.01,
+      "fin": 27.121,
+      "palabras": [
+        {
+          "texto": "Juntos",
+          "inicio": 24.01,
+          "fin": 24.416
+        },
+        {
+          "texto": "dibujan",
+          "inicio": 24.451,
+          "fin": 24.857
+        },
+        {
+          "texto": "la",
+          "inicio": 24.962,
+          "fin": 25.032
+        },
+        {
+          "texto": "luz",
+          "inicio": 25.09,
+          "fin": 25.275
+        },
+        {
+          "texto": "como",
+          "inicio": 25.333,
+          "fin": 25.531
+        },
+        {
+          "texto": "los",
+          "inicio": 25.566,
+          "fin": 25.682
+        },
+        {
+          "texto": "píxeles",
+          "inicio": 25.74,
+          "fin": 26.158
+        },
+        {
+          "texto": "de",
+          "inicio": 26.181,
+          "fin": 26.239
+        },
+        {
+          "texto": "una",
+          "inicio": 26.297,
+          "fin": 26.448
+        },
+        {
+          "texto": "pantalla.",
+          "inicio": 26.506,
+          "fin": 27.121
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "¿Y para qué sirve? Aquí viene lo bueno.",
+      "clave": "bueno",
+      "inicio": 27.307,
+      "fin": 30.047,
+      "palabras": [
+        {
+          "texto": "¿Y",
+          "inicio": 27.307,
+          "fin": 27.528
+        },
+        {
+          "texto": "para",
+          "inicio": 27.609,
+          "fin": 27.783
+        },
+        {
+          "texto": "qué",
+          "inicio": 27.83,
+          "fin": 27.922
+        },
+        {
+          "texto": "sirve?",
+          "inicio": 27.969,
+          "fin": 28.538
+        },
+        {
+          "texto": "Aquí",
+          "inicio": 29.002,
+          "fin": 29.246
+        },
+        {
+          "texto": "viene",
+          "inicio": 29.281,
+          "fin": 29.513
+        },
+        {
+          "texto": "lo",
+          "inicio": 29.559,
+          "fin": 29.641
+        },
+        {
+          "texto": "bueno.",
+          "inicio": 29.676,
+          "fin": 30.047
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Una cámara ve que viene otro carro…",
+      "clave": "cámara",
+      "inicio": 30.79,
+      "fin": 32.892,
+      "palabras": [
+        {
+          "texto": "Una",
+          "inicio": 30.79,
+          "fin": 30.999
+        },
+        {
+          "texto": "cámara",
+          "inicio": 31.046,
+          "fin": 31.347
+        },
+        {
+          "texto": "ve",
+          "inicio": 31.394,
+          "fin": 31.487
+        },
+        {
+          "texto": "que",
+          "inicio": 31.533,
+          "fin": 31.615
+        },
+        {
+          "texto": "viene",
+          "inicio": 31.661,
+          "fin": 31.917
+        },
+        {
+          "texto": "otro",
+          "inicio": 31.975,
+          "fin": 32.242
+        },
+        {
+          "texto": "carro…",
+          "inicio": 32.288,
+          "fin": 32.892
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "…y apaga solo los espejos que le darían en los ojos.",
+      "clave": "ojos",
+      "inicio": 33.113,
+      "fin": 35.969,
+      "palabras": [
+        {
+          "texto": "…y",
+          "inicio": 33.113,
+          "fin": 33.589
+        },
+        {
+          "texto": "apaga",
+          "inicio": 33.647,
+          "fin": 33.89
+        },
+        {
+          "texto": "solo",
+          "inicio": 33.937,
+          "fin": 34.134
+        },
+        {
+          "texto": "los",
+          "inicio": 34.169,
+          "fin": 34.285
+        },
+        {
+          "texto": "espejos",
+          "inicio": 34.332,
+          "fin": 34.668
+        },
+        {
+          "texto": "que",
+          "inicio": 34.715,
+          "fin": 34.784
+        },
+        {
+          "texto": "le",
+          "inicio": 34.842,
+          "fin": 34.912
+        },
+        {
+          "texto": "darían",
+          "inicio": 34.959,
+          "fin": 35.226
+        },
+        {
+          "texto": "en",
+          "inicio": 35.284,
+          "fin": 35.33
+        },
+        {
+          "texto": "los",
+          "inicio": 35.365,
+          "fin": 35.493
+        },
+        {
+          "texto": "ojos.",
+          "inicio": 35.574,
+          "fin": 35.969
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Tú sigues con luces altas, ¡y él no se encandila!",
+      "clave": "encandila",
+      "inicio": 36.433,
+      "fin": 39.556,
+      "palabras": [
+        {
+          "texto": "Tú",
+          "inicio": 36.433,
+          "fin": 36.654
+        },
+        {
+          "texto": "sigues",
+          "inicio": 36.758,
+          "fin": 37.06
+        },
+        {
+          "texto": "con",
+          "inicio": 37.118,
+          "fin": 37.246
+        },
+        {
+          "texto": "luces",
+          "inicio": 37.28,
+          "fin": 37.501
+        },
+        {
+          "texto": "altas,",
+          "inicio": 37.559,
+          "fin": 38.093
+        },
+        {
+          "texto": "¡y",
+          "inicio": 38.279,
+          "fin": 38.5
+        },
+        {
+          "texto": "él",
+          "inicio": 38.523,
+          "fin": 38.604
+        },
+        {
+          "texto": "no",
+          "inicio": 38.662,
+          "fin": 38.732
+        },
+        {
+          "texto": "se",
+          "inicio": 38.778,
+          "fin": 38.836
+        },
+        {
+          "texto": "encandila!",
+          "inicio": 38.859,
+          "fin": 39.556
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Hasta pueden pintar una cebra en el suelo para que alguien cruce.",
+      "clave": "cebra",
+      "inicio": 39.962,
+      "fin": 42.876,
+      "palabras": [
+        {
+          "texto": "Hasta",
+          "inicio": 39.962,
+          "fin": 40.206
+        },
+        {
+          "texto": "pueden",
+          "inicio": 40.241,
+          "fin": 40.427
+        },
+        {
+          "texto": "pintar",
+          "inicio": 40.462,
+          "fin": 40.705
+        },
+        {
+          "texto": "una",
+          "inicio": 40.74,
+          "fin": 40.856
+        },
+        {
+          "texto": "cebra",
+          "inicio": 40.903,
+          "fin": 41.147
+        },
+        {
+          "texto": "en",
+          "inicio": 41.17,
+          "fin": 41.216
+        },
+        {
+          "texto": "el",
+          "inicio": 41.274,
+          "fin": 41.344
+        },
+        {
+          "texto": "suelo",
+          "inicio": 41.39,
+          "fin": 41.623
+        },
+        {
+          "texto": "para",
+          "inicio": 41.681,
+          "fin": 41.89
+        },
+        {
+          "texto": "que",
+          "inicio": 41.948,
+          "fin": 42.064
+        },
+        {
+          "texto": "alguien",
+          "inicio": 42.11,
+          "fin": 42.354
+        },
+        {
+          "texto": "cruce.",
+          "inicio": 42.412,
+          "fin": 42.876
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "Sígueme y aprende a hacer estos videos con IA.",
+      "clave": "IA",
+      "inicio": 43.283,
+      "fin": 46.673,
+      "palabras": [
+        {
+          "texto": "Sígueme",
+          "inicio": 43.283,
+          "fin": 43.659666666666666
+        },
+        {
+          "texto": "y",
+          "inicio": 43.659666666666666,
+          "fin": 44.03633333333333
+        },
+        {
+          "texto": "aprende",
+          "inicio": 44.03633333333333,
+          "fin": 44.413000000000004
+        },
+        {
+          "texto": "a",
+          "inicio": 44.413000000000004,
+          "fin": 44.78966666666667
+        },
+        {
+          "texto": "hacer",
+          "inicio": 44.78966666666667,
+          "fin": 45.166333333333334
+        },
+        {
+          "texto": "estos",
+          "inicio": 45.166333333333334,
+          "fin": 45.543
+        },
+        {
+          "texto": "videos",
+          "inicio": 45.543,
+          "fin": 45.91966666666667
+        },
+        {
+          "texto": "con",
+          "inicio": 45.91966666666667,
+          "fin": 46.29633333333334
+        },
+        {
+          "texto": "IA.",
+          "inicio": 46.29633333333334,
+          "fin": 46.673
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,805 @@
+{
+  "titulo": "Faros con un millón de espejos",
+  "estilo": "2d",
+  "frases": [
+    {
+      "texto": "¿Y si los faros de tu carro fueran un proyector?",
+      "clave": "proyector"
+    },
+    {
+      "texto": "Mira esto: hay faros con más de un millón de espejos.",
+      "clave": "millón"
+    },
+    {
+      "texto": "¡Sí, un millón! Y cada uno, más fino que un pelo.",
+      "clave": "pelo"
+    },
+    {
+      "texto": "Van todos dentro de un chip, apuntando a la carretera.",
+      "clave": "chip"
+    },
+    {
+      "texto": "Cada espejito se inclina doce grados: o manda la luz al camino, o la esconde.",
+      "clave": "grados"
+    },
+    {
+      "texto": "¡Y cambian de posición miles de veces por segundo!",
+      "clave": "miles"
+    },
+    {
+      "texto": "Juntos dibujan la luz como los píxeles de una pantalla.",
+      "clave": "píxeles"
+    },
+    {
+      "texto": "¿Y para qué sirve? Aquí viene lo bueno.",
+      "clave": "bueno"
+    },
+    {
+      "texto": "Una cámara ve que viene otro carro…",
+      "clave": "cámara"
+    },
+    {
+      "texto": "…y apaga solo los espejos que le darían en los ojos.",
+      "clave": "ojos"
+    },
+    {
+      "texto": "Tú sigues con luces altas, ¡y él no se encandila!",
+      "clave": "encandila"
+    },
+    {
+      "texto": "Hasta pueden pintar una cebra en el suelo para que alguien cruce.",
+      "clave": "cebra"
+    },
+    {
+      "texto": "Sígueme y aprende a hacer estos videos con IA.",
+      "clave": "IA",
+      "dicho": "Sígueme y aprende a hacer estos videos con í a."
+    }
+  ],
+  "juego": {
+    "piel": "neon",
+    "firma": "@carlosbarcoc",
+    "progreso": {
+      "titulo": "TU FARO",
+      "pasos": [
+        {
+          "texto": "1 MILLÓN",
+          "en": "2:millon"
+        },
+        {
+          "texto": "12°",
+          "en": "5:grados"
+        },
+        {
+          "texto": "PÍXELES",
+          "en": "7:pixeles"
+        },
+        {
+          "texto": "SIN CEGAR",
+          "en": "11:encandila"
+        }
+      ],
+      "final": {
+        "texto": "PROYECTOR",
+        "en": "12:cruce"
+      }
+    }
+  },
+  "escenas": [
+    {
+      "nombre": "partida",
+      "tomas": [
+        {
+          "desde": 0,
+          "titulo": "¿Y si tu faro fuera|un *proyector*?",
+          "tituloEn": [
+            0,
+            "1:proyector"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "rayos",
+                "x": 700,
+                "y": 900,
+                "capa": -1,
+                "entra": "aparece",
+                "en": "1:proyector"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "bombilla",
+                "tam": 22,
+                "x": 700,
+                "y": 900,
+                "entra": "rebote",
+                "en": "1:faros",
+                "accion": "late"
+              },
+              {
+                "pieza": "linea",
+                "x": 700,
+                "y": 900,
+                "dx": -380,
+                "dy": 380,
+                "entra": "ninguna",
+                "en": "1:fueran",
+                "params": {
+                  "dibuja": [
+                    [
+                      "1:fueran",
+                      0
+                    ],
+                    [
+                      "1:proyector",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 260,
+                "y": 1250,
+                "escala": 0.8,
+                "cara": "sorprendido",
+                "entra": "izquierda",
+                "en": 0.1
+              }
+            ]
+          }
+        },
+        {
+          "desde": "2:mira",
+          "titulo": "Más de *1 MILLÓN*|de espejos",
+          "tituloEn": [
+            0,
+            "2:millon"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "cifra",
+                "x": 540,
+                "y": 760,
+                "tamano": 140,
+                "entra": "rebote",
+                "en": "2:faros",
+                "params": {
+                  "valor": [
+                    [
+                      "2:faros",
+                      0
+                    ],
+                    [
+                      "2:espejos",
+                      1000000
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "muchos",
+                "icono": "chispa",
+                "columnas": 8,
+                "separa": 100,
+                "tam": 6,
+                "x": 540,
+                "y": 1130,
+                "entra": "aparece",
+                "en": "2:con",
+                "params": {
+                  "n": [
+                    [
+                      "2:con",
+                      4
+                    ],
+                    [
+                      "3:millon",
+                      48
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": "3:cada",
+          "titulo": "Cada uno, más fino|que un *pelo*",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "chip",
+                "x": 300,
+                "y": 820,
+                "sub": "UN ESPEJO",
+                "texto": "7,6 µm",
+                "entra": "rebote",
+                "en": "3:cada"
+              },
+              {
+                "pieza": "chip",
+                "x": 780,
+                "y": 820,
+                "sub": "UN PELO",
+                "texto": "~70 µm",
+                "tinta": "#FF3B5C",
+                "entra": "rebote",
+                "en": "3:pelo"
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1180,
+                "escala": 0.9,
+                "cara": "sorprendido",
+                "gafas": "nerd",
+                "entra": "sube",
+                "en": "3:fino"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "4:van",
+          "titulo": "Todos dentro|de un *chip*",
+          "tituloEn": [
+            0,
+            "4:chip"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "ventana",
+                "x": 360,
+                "y": 950,
+                "ancho": 480,
+                "alto": 420,
+                "titulo": "CHIP · 0,55\"",
+                "lineas": 0,
+                "entra": "aparece",
+                "en": 0.05
+              },
+              {
+                "pieza": "muchos",
+                "icono": "chispa",
+                "columnas": 5,
+                "separa": 80,
+                "tam": 5,
+                "n": 20,
+                "x": 360,
+                "y": 980,
+                "entra": "aparece",
+                "en": "4:chip"
+              },
+              {
+                "pieza": "linea",
+                "x": 600,
+                "y": 950,
+                "dx": 300,
+                "dy": 250,
+                "entra": "ninguna",
+                "en": "4:apuntando",
+                "params": {
+                  "dibuja": [
+                    [
+                      "4:apuntando",
+                      0
+                    ],
+                    [
+                      "4:carretera",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "letrero",
+                "texto": "CARRETERA",
+                "tamano": 34,
+                "x": 840,
+                "y": 1270,
+                "entra": "sube",
+                "en": "4:carretera"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "5:cada",
+          "titulo": "Cada espejo se|inclina *12°*",
+          "tituloEn": [
+            0,
+            "5:grados"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "barra",
+                "x": 540,
+                "y": 950,
+                "ancho": 420,
+                "texto": "ESPEJO",
+                "valor": 1,
+                "entra": "aparece",
+                "en": 0.05,
+                "mueve": [
+                  [
+                    "5:grados",
+                    {
+                      "x": 540,
+                      "y": 950,
+                      "escala": 1,
+                      "rot": 0
+                    }
+                  ],
+                  [
+                    "5:manda",
+                    {
+                      "x": 540,
+                      "y": 950,
+                      "escala": 1,
+                      "rot": -12
+                    }
+                  ],
+                  [
+                    "5:o",
+                    {
+                      "x": 540,
+                      "y": 950,
+                      "escala": 1,
+                      "rot": -12
+                    }
+                  ],
+                  [
+                    "5:esconde",
+                    {
+                      "x": 540,
+                      "y": 950,
+                      "escala": 1,
+                      "rot": 12
+                    }
+                  ]
+                ],
+                "params": {
+                  "valor": [
+                    [
+                      0,
+                      1
+                    ]
+                  ]
+                },
+                "tinta": "#2EE6F5"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "✓ LUZ AL CAMINO",
+                "tamano": 34,
+                "tinta": "#3BF58C",
+                "x": 540,
+                "y": 1200,
+                "entra": "sube",
+                "en": "5:manda",
+                "hasta": "5:esconde"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "✗ LUZ ESCONDIDA",
+                "tamano": 34,
+                "tinta": "#FF3B5C",
+                "x": 540,
+                "y": 1200,
+                "entra": "sube",
+                "en": "5:esconde"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "6:y",
+          "titulo": "*Miles* de veces|por segundo",
+          "tituloEn": [
+            0,
+            "6:veces"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "cifra",
+                "x": 540,
+                "y": 820,
+                "tamano": 130,
+                "antes": "hasta ",
+                "despues": "",
+                "entra": "rebote",
+                "en": "6:cambian",
+                "params": {
+                  "valor": [
+                    [
+                      "6:cambian",
+                      0
+                    ],
+                    [
+                      "6:segundo",
+                      10000
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "letrero",
+                "texto": "VECES POR SEGUNDO",
+                "tamano": 34,
+                "estilo": "plano",
+                "x": 540,
+                "y": 950,
+                "entra": "aparece",
+                "en": "6:veces"
+              },
+              {
+                "pieza": "esfera",
+                "x": 540,
+                "y": 1180,
+                "escala": 0.8,
+                "gira": true,
+                "entra": "aparece",
+                "en": "6:miles"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "7:juntos",
+          "titulo": "Como los *píxeles*|de una pantalla",
+          "tituloEn": [
+            0,
+            "7:pixeles"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "dispositivo",
+                "tipo": "monitor",
+                "x": 540,
+                "y": 930,
+                "escala": 1.5,
+                "entra": "aparece",
+                "en": 0.05
+              },
+              {
+                "pieza": "muchos",
+                "icono": "chispa",
+                "columnas": 6,
+                "separa": 70,
+                "tam": 4,
+                "x": 540,
+                "y": 890,
+                "entra": "aparece",
+                "en": "7:dibujan",
+                "params": {
+                  "n": [
+                    [
+                      "7:dibujan",
+                      2
+                    ],
+                    [
+                      "7:pantalla",
+                      24
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": "8:y",
+          "titulo": "¿Y para qué *sirve*?",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1100,
+                "escala": 1.1,
+                "cara": "sorprendido",
+                "entra": "rebote",
+                "en": 0.05
+              },
+              {
+                "pieza": "icono",
+                "nombre": "pregunta",
+                "tam": 12,
+                "x": 760,
+                "y": 800,
+                "entra": "rebote",
+                "en": "8:sirve",
+                "accion": "flota"
+              },
+              {
+                "pieza": "sello",
+                "texto": "¡LO BUENO!",
+                "x": 300,
+                "y": 790,
+                "entra": "rebote",
+                "en": "8:bueno"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "9:una",
+          "titulo": "Viene *otro carro*…",
+          "sacude": "9:carro",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "robot",
+                "x": 260,
+                "y": 1050,
+                "escala": 0.8,
+                "cara": "normal",
+                "brilla": 1,
+                "entra": "izquierda",
+                "en": 0.05
+              },
+              {
+                "pieza": "letrero",
+                "texto": "CÁMARA",
+                "tamano": 28,
+                "x": 260,
+                "y": 1290,
+                "entra": "aparece",
+                "en": "9:camara"
+              },
+              {
+                "pieza": "linea",
+                "x": 380,
+                "y": 1000,
+                "dx": 320,
+                "dy": 0,
+                "entra": "ninguna",
+                "en": "9:ve",
+                "params": {
+                  "dibuja": [
+                    [
+                      "9:ve",
+                      0
+                    ],
+                    [
+                      "9:viene",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 840,
+                "y": 1060,
+                "escala": 0.8,
+                "color": "azul",
+                "cara": "normal",
+                "entra": "derecha",
+                "en": "9:otro"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "10:y",
+          "titulo": "Apaga *solo* esos|espejos",
+          "alerta": true,
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "barra",
+                "x": 540,
+                "y": 820,
+                "ancho": 760,
+                "texto": "LUZ AL CAMINO",
+                "cuenta": "ON",
+                "valor": 1,
+                "entra": "aparece",
+                "en": 0.05,
+                "tinta": "#3BF58C"
+              },
+              {
+                "pieza": "barra",
+                "x": 540,
+                "y": 990,
+                "ancho": 760,
+                "texto": "LUZ A SUS OJOS",
+                "cuenta": "OFF",
+                "tinta": "#FF3B5C",
+                "entra": "aparece",
+                "en": "10:apaga",
+                "params": {
+                  "valor": [
+                    [
+                      "10:apaga",
+                      1
+                    ],
+                    [
+                      "10:ojos",
+                      0
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1230,
+                "escala": 0.7,
+                "color": "azul",
+                "cara": "asustado",
+                "entra": "sube",
+                "en": "10:darian"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "11:tu",
+          "titulo": "¡Y él no se|*encandila*!",
+          "tituloEn": [
+            0,
+            "11:encandila"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1080,
+                "escala": 0.9,
+                "cara": "feliz",
+                "gafas": "sol",
+                "entra": "izquierda",
+                "en": 0.05
+              },
+              {
+                "pieza": "personaje",
+                "x": 780,
+                "y": 1080,
+                "escala": 0.9,
+                "color": "azul",
+                "cara": "feliz",
+                "brazo": "saluda",
+                "entra": "derecha",
+                "en": "11:el"
+              },
+              {
+                "pieza": "confeti",
+                "x": 540,
+                "y": 900,
+                "entra": "ninguna",
+                "en": "11:encandila"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "12:hasta",
+          "titulo": "Hasta pinta una|*cebra* en el suelo",
+          "tituloEn": [
+            0,
+            "12:cebra"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "letrero",
+                "texto": "▇▇▇▇▇▇",
+                "tamano": 40,
+                "estilo": "plano",
+                "x": 540,
+                "y": 900,
+                "entra": "aparece",
+                "en": "12:pintar"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "▇▇▇▇▇▇",
+                "tamano": 40,
+                "estilo": "plano",
+                "x": 540,
+                "y": 990,
+                "entra": "aparece",
+                "en": "12:una"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "▇▇▇▇▇▇",
+                "tamano": 40,
+                "estilo": "plano",
+                "x": 540,
+                "y": 1080,
+                "entra": "aparece",
+                "en": "12:cebra"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "▇▇▇▇▇▇",
+                "tamano": 40,
+                "estilo": "plano",
+                "x": 540,
+                "y": 1170,
+                "entra": "aparece",
+                "en": "12:en"
+              },
+              {
+                "pieza": "personaje",
+                "x": 120,
+                "y": 1300,
+                "escala": 0.6,
+                "color": "verde",
+                "cara": "feliz",
+                "camina": true,
+                "entra": "aparece",
+                "en": "12:alguien",
+                "mueve": [
+                  [
+                    "12:alguien",
+                    {
+                      "x": 120
+                    }
+                  ],
+                  [
+                    "13:sigueme",
+                    {
+                      "x": 960
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "desde": "13:sigueme",
+          "titulo": "Aprende a hacerlos|*CON IA*",
+          "tituloEn": [
+            0,
+            "13:videos"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "cta",
+                "x": 540,
+                "y": 900,
+                "palabra": "SÍGUEME",
+                "texto": "y aprende a hacer estos videos con IA",
+                "nombre": "@carlosbarcoc",
+                "entra": "sube",
+                "en": 0.05
+              },
+              {
+                "pieza": "robot",
+                "x": 380,
+                "y": 1230,
+                "escala": 0.6,
+                "cara": "feliz",
+                "entra": "rebote",
+                "en": "13:ia"
+              },
+              {
+                "pieza": "personaje",
+                "x": 700,
+                "y": 1240,
+                "escala": 0.6,
+                "cara": "feliz",
+                "brazo": "saluda",
+                "entra": "rebote",
+                "en": "13:aprende"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
