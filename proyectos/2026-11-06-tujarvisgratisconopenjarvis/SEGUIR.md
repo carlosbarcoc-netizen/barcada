@@ -12,4 +12,4 @@ Estado del proyecto (se actualiza en cada paso).
 Para seguir en otra conversación: «sigue el proyecto 2026-11-06-tujarvisgratisconopenjarvis».
 
 Nota: marca de agua grande en el centro (pedida por el usuario). Se pone encima del video con ffmpeg después de `final`:
-`ffmpeg -i entrega/video-sin-marca.mp4 -vf "drawtext=fontfile=../../fuentes/Poppins-ExtraBold.ttf:text='@carlosbarcoc':fontsize=w*0.105:fontcolor=white@0.38:borderw=4:bordercolor=black@0.28:x=(w-tw)/2:y=(h-th)/2" -c:a copy entrega/video.mp4`
+`ffmpeg -i entrega/video-sin-marca.mp4 -vf "drawtext=fontfile=../../fuentes/Poppins-ExtraBold.ttf:text='@carlosbarcoc':fontsize=w*0.075:fontcolor=white@0.22:borderw=3:bordercolor=black@0.15:x=(w-tw)/2:y=(h-th)/2" -c:a copy entrega/video.mp4`
