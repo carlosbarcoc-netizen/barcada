@@ -60,16 +60,31 @@
     }
   ],
   "juego": {
-    "piel": "neon",
+    "piel": "nativo",
     "progreso": {
-      "titulo": "",
-      "etiqueta": "",
+      "titulo": "GOMITAS DE CACAO",
       "pasos": [
         {
-          "texto": "",
-          "en": ""
+          "texto": "JUGO",
+          "en": "6:cuela"
+        },
+        {
+          "texto": "PECTINA",
+          "en": "7:pectina"
+        },
+        {
+          "texto": "PUNTO",
+          "en": "9:espese"
+        },
+        {
+          "texto": "MOLDE",
+          "en": "11:moldes"
         }
-      ]
+      ],
+      "final": {
+        "texto": "LISTAS",
+        "en": "13:dulce"
+      }
     },
     "firma": "@nativoterrus"
   },
@@ -79,9 +94,719 @@
       "tomas": [
         {
           "desde": 0,
-          "titulo": "",
+          "titulo": "¿Gomitas de *cacao*?",
           "dibujo": {
-            "elementos": []
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 250,
+                "y": 1190,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "sorprendido",
+                "entra": "rebote"
+              },
+              {
+                "pieza": "cubo",
+                "x": 640,
+                "y": 1180,
+                "color": "#C8694A",
+                "cara": "feliz",
+                "escala": 0.9,
+                "entra": "cae",
+                "en": 0.2
+              },
+              {
+                "pieza": "cubo",
+                "x": 800,
+                "y": 1180,
+                "color": "#D9A441",
+                "cara": "feliz",
+                "escala": 0.9,
+                "entra": "cae",
+                "en": 0.4
+              },
+              {
+                "pieza": "cubo",
+                "x": 720,
+                "y": 1040,
+                "color": "#B23A2B",
+                "cara": "guino",
+                "escala": 0.9,
+                "entra": "cae",
+                "en": 0.6
+              },
+              {
+                "pieza": "sello",
+                "x": 740,
+                "y": 800,
+                "texto": "SIN CHOCOLATE",
+                "fondo": "#F3F1EC",
+                "en": "1:sin",
+                "entra": "rebote",
+                "giro": -6
+              }
+            ]
+          }
+        },
+        {
+          "desde": "2:secreto",
+          "titulo": "El secreto: la *pulpa*",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 230,
+                "y": 1190,
+                "escala": 0.7,
+                "color": "cacao",
+                "cara": "normal"
+              },
+              {
+                "pieza": "mazorca",
+                "x": 680,
+                "y": 1000,
+                "escala": 1.2,
+                "entra": "rebote",
+                "params": {
+                  "abre": [
+                    [
+                      "2:pulpa",
+                      0
+                    ],
+                    [
+                      "2:blanca",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": "3:esa",
+          "alerta": true,
+          "titulo": "Y casi siempre… !SE BOTA!",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1190,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "triste"
+              },
+              {
+                "pieza": "gota",
+                "x": 700,
+                "y": 850,
+                "escala": 1.1,
+                "color": "blanco",
+                "mueve": [
+                  [
+                    "3:bota",
+                    {
+                      "x": 700,
+                      "y": 1250,
+                      "escala": 0.8
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "gota",
+                "x": 820,
+                "y": 760,
+                "escala": 0.8,
+                "color": "blanco",
+                "en": "3:siempre",
+                "mueve": [
+                  [
+                    "3:fermentar",
+                    {
+                      "x": 840,
+                      "y": 1250,
+                      "escala": 0.6
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "desde": "4:solo",
+          "titulo": "Solo en *Ghana*",
+          "subtitulo": "litros de baba al año, en la cosecha",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "cifra",
+                "x": 540,
+                "y": 900,
+                "tamano": 150,
+                "despues": " L",
+                "params": {
+                  "valor": [
+                    [
+                      "4:ghana",
+                      0
+                    ],
+                    [
+                      "4:litros",
+                      1900000
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "gota",
+                "x": 220,
+                "y": 1180,
+                "escala": 0.55,
+                "color": "blanco",
+                "en": "4:millones",
+                "entra": "cae",
+                "dura": 0.5
+              },
+              {
+                "pieza": "gota",
+                "x": 380,
+                "y": 1180,
+                "escala": 0.55,
+                "color": "blanco",
+                "en": "4:millones",
+                "entra": "cae",
+                "dura": 0.58
+              },
+              {
+                "pieza": "gota",
+                "x": 540,
+                "y": 1180,
+                "escala": 0.55,
+                "color": "blanco",
+                "en": "4:millones",
+                "entra": "cae",
+                "dura": 0.66
+              },
+              {
+                "pieza": "gota",
+                "x": 700,
+                "y": 1180,
+                "escala": 0.55,
+                "color": "blanco",
+                "en": "4:millones",
+                "entra": "cae",
+                "dura": 0.74
+              },
+              {
+                "pieza": "gota",
+                "x": 860,
+                "y": 1180,
+                "escala": 0.55,
+                "color": "blanco",
+                "en": "4:millones",
+                "entra": "cae",
+                "dura": 0.8200000000000001
+              }
+            ]
+          }
+        },
+        {
+          "desde": "5:mira",
+          "titulo": "La pulpa *ya trae*…",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 230,
+                "y": 1190,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "sorprendido"
+              },
+              {
+                "pieza": "letrero",
+                "x": 680,
+                "y": 820,
+                "texto": "AZÚCAR",
+                "estilo": "pildora",
+                "en": "5:azucar,",
+                "entra": "derecha"
+              },
+              {
+                "pieza": "letrero",
+                "x": 680,
+                "y": 980,
+                "texto": "ÁCIDO",
+                "estilo": "pildora",
+                "en": "5:acido…",
+                "entra": "derecha"
+              },
+              {
+                "pieza": "letrero",
+                "x": 680,
+                "y": 1140,
+                "texto": "PECTINA",
+                "estilo": "pildora",
+                "fondo": "#C8694A",
+                "tinta": "#fff",
+                "en": "5:pectina,",
+                "entra": "rebote"
+              },
+              {
+                "pieza": "letrero",
+                "x": 680,
+                "y": 1250,
+                "texto": "= el gel de las mermeladas",
+                "estilo": "plano",
+                "tamano": 34,
+                "en": "5:gel"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "6:paso",
+          "titulo": "Paso 1 · *Jugo*",
+          "subtitulo": "cuela la pulpa fresca",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 250,
+                "y": 1190,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "feliz"
+              },
+              {
+                "pieza": "frasco",
+                "x": 700,
+                "y": 1060,
+                "escala": 1.3,
+                "contenido": "blanco",
+                "entra": "rebote",
+                "params": {
+                  "lleno": [
+                    [
+                      "6:cuela",
+                      0
+                    ],
+                    [
+                      "6:jugo",
+                      0.8
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "gota",
+                "x": 700,
+                "y": 700,
+                "escala": 0.6,
+                "color": "blanco",
+                "en": "6:cuela",
+                "mueve": [
+                  [
+                    "6:quedate",
+                    {
+                      "x": 700,
+                      "y": 930,
+                      "escala": 0.4
+                    }
+                  ]
+                ],
+                "hasta": "6:quedate"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "7:paso",
+          "titulo": "Paso 2 · *Pectina*|y azúcar",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "frasco",
+                "x": 700,
+                "y": 1060,
+                "escala": 1.3,
+                "contenido": "blanco",
+                "params": {
+                  "lleno": 0.8
+                }
+              },
+              {
+                "pieza": "letrero",
+                "x": 300,
+                "y": 900,
+                "texto": "+ PECTINA",
+                "estilo": "pildora",
+                "fondo": "#C8694A",
+                "tinta": "#fff",
+                "en": "7:pectina",
+                "entra": "izquierda"
+              },
+              {
+                "pieza": "letrero",
+                "x": 300,
+                "y": 1060,
+                "texto": "+ AZÚCAR",
+                "estilo": "pildora",
+                "en": "7:azucar.",
+                "entra": "izquierda"
+              },
+              {
+                "pieza": "personaje",
+                "x": 260,
+                "y": 1240,
+                "escala": 0.55,
+                "color": "cacao",
+                "cara": "feliz",
+                "en": "7:poquito"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "8:por",
+          "titulo": "Sin azúcar…|!NO CUAJA!",
+          "tituloEn": [
+            0,
+            "8:no"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 260,
+                "y": 1190,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "sorprendido"
+              },
+              {
+                "pieza": "dialogo",
+                "x": 360,
+                "y": 880,
+                "texto": "¿Por qué azúcar?",
+                "cola": "abajo"
+              },
+              {
+                "pieza": "cubo",
+                "x": 780,
+                "y": 1170,
+                "color": "#C8694A",
+                "cara": "triste",
+                "escala": 1.1,
+                "accion": "tiembla",
+                "en": "8:sin"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "equis",
+                "x": 780,
+                "y": 930,
+                "en": "8:cuaja",
+                "entra": "rebote",
+                "sonido": "error"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "9:paso",
+          "titulo": "Paso 3 · *Punto*",
+          "subtitulo": "a fuego medio, removiendo",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "barra",
+                "x": 540,
+                "y": 760,
+                "texto": "ESPESOR",
+                "ancho": 760,
+                "params": {
+                  "valor": [
+                    [
+                      "9:cocina",
+                      0
+                    ],
+                    [
+                      "9:espese",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "frasco",
+                "x": 540,
+                "y": 1000,
+                "escala": 1.2,
+                "contenido": "cacao",
+                "params": {
+                  "lleno": 0.7
+                }
+              },
+              {
+                "pieza": "icono",
+                "nombre": "fuego",
+                "x": 540,
+                "y": 1270,
+                "accion": "late",
+                "en": "9:fuego"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "10:y",
+          "titulo": "Lo bueno: la *acidez*",
+          "subtitulo": "la pulpa ya es ácida",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 250,
+                "y": 1190,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "guino"
+              },
+              {
+                "pieza": "cifra",
+                "x": 680,
+                "y": 960,
+                "tamano": 150,
+                "antes": "pH ",
+                "decimales": 1,
+                "params": {
+                  "valor": [
+                    [
+                      "10:acidez",
+                      7
+                    ],
+                    [
+                      "10:cacao",
+                      3.5
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "sello",
+                "x": 680,
+                "y": 1180,
+                "texto": "¡JUSTO PARA CUAJAR!",
+                "fondo": "#6E8B4E",
+                "en": "10:parte",
+                "entra": "rebote",
+                "giro": -4
+              }
+            ]
+          }
+        },
+        {
+          "desde": "11:paso",
+          "titulo": "Paso 4 · *Molde*",
+          "subtitulo": "reposa hasta que estén firmes",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "cubo",
+                "x": 220,
+                "y": 1180,
+                "color": "#C8694A",
+                "cara": "feliz",
+                "escala": 0.9,
+                "en": "11:moldes",
+                "entra": "cae"
+              },
+              {
+                "pieza": "cubo",
+                "x": 380,
+                "y": 1180,
+                "color": "#D9A441",
+                "cara": "feliz",
+                "escala": 0.9,
+                "en": "11:y",
+                "entra": "cae"
+              },
+              {
+                "pieza": "cubo",
+                "x": 540,
+                "y": 1180,
+                "color": "#B23A2B",
+                "cara": "guino",
+                "escala": 0.9,
+                "en": "11:deja",
+                "entra": "cae"
+              },
+              {
+                "pieza": "cubo",
+                "x": 700,
+                "y": 1180,
+                "color": "#E08A4C",
+                "cara": "feliz",
+                "escala": 0.9,
+                "en": "11:reposar",
+                "entra": "cae"
+              },
+              {
+                "pieza": "cubo",
+                "x": 860,
+                "y": 1180,
+                "color": "#C8694A",
+                "cara": "feliz",
+                "escala": 0.9,
+                "en": "11:hasta",
+                "entra": "cae"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "reloj",
+                "x": 540,
+                "y": 860,
+                "en": "11:reposar",
+                "entra": "rebote"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "check",
+                "x": 860,
+                "y": 960,
+                "en": "11:firmes",
+                "entra": "rebote"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "12:y",
+          "titulo": "¿A qué *saben*?",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 250,
+                "y": 1190,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "sorprendido"
+              },
+              {
+                "pieza": "chocolate",
+                "x": 720,
+                "y": 1000,
+                "escala": 1.1,
+                "en": "12:no",
+                "hasta": "12:fruta"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "equis",
+                "x": 720,
+                "y": 1000,
+                "en": "12:chocolate…",
+                "hasta": "12:fruta",
+                "entra": "rebote"
+              },
+              {
+                "pieza": "sello",
+                "x": 720,
+                "y": 1000,
+                "texto": "FRUTA TROPICAL",
+                "fondo": "#D9A441",
+                "en": "12:fruta",
+                "entra": "rebote",
+                "giro": -5
+              }
+            ]
+          }
+        },
+        {
+          "desde": "13:lo",
+          "titulo": "Lo que se botaba…|ahora es *dulce*",
+          "tituloEn": [
+            0,
+            "13:convertido"
+          ],
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 250,
+                "y": 1190,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "feliz",
+                "brazo": "arriba"
+              },
+              {
+                "pieza": "cubo",
+                "x": 640,
+                "y": 1180,
+                "color": "#C8694A",
+                "cara": "feliz",
+                "escala": 0.9
+              },
+              {
+                "pieza": "cubo",
+                "x": 800,
+                "y": 1180,
+                "color": "#D9A441",
+                "cara": "feliz",
+                "escala": 0.9
+              },
+              {
+                "pieza": "cubo",
+                "x": 720,
+                "y": 1040,
+                "color": "#B23A2B",
+                "cara": "guino",
+                "escala": 0.9
+              },
+              {
+                "pieza": "confeti",
+                "x": 540,
+                "y": 700,
+                "en": "13:dulce",
+                "capa": -1
+              }
+            ]
+          }
+        },
+        {
+          "desde": "14:quieres",
+          "titulo": "Hazlas *paso a paso*",
+          "dibujo": {
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 540,
+                "y": 1220,
+                "escala": 0.85,
+                "color": "cacao",
+                "cara": "feliz",
+                "brazo": "arriba"
+              },
+              {
+                "pieza": "letrero",
+                "x": 540,
+                "y": 900,
+                "texto": "INFO: LINK EN LA BIO",
+                "estilo": "caja",
+                "fondo": "#C8694A",
+                "tinta": "#fff",
+                "tamano": 64,
+                "en": "14:info",
+                "entra": "rebote"
+              }
+            ]
           }
         }
       ]

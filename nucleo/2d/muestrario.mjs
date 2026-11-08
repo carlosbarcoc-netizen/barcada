@@ -34,7 +34,7 @@ for (let h = 0; h * porHoja < lista.length; h++) {
     const x = (i % cols) * celW + celW / 2, y = Math.floor(i / cols) * celH + celH / 2 + 10;
     const [ej, esc] = piel ? ejemplosJuego[n] || [{}, 0.6] : [ejemplos2d[n] || {}, 0.62];
     const clip = `<clipPath id="cel${i}"><rect x="${x - celW / 2 + 6}" y="${y - celH / 2 + 6}" width="${celW - 12}" height="${celH - 12}"/></clipPath>`;
-    return `${clip}<g clip-path="url(#cel${i})"><g transform="translate(${x} ${y - 20}) scale(${esc})">${PZ[n]({ t: 0.5, tl: 2, piel, ...ej })}</g></g>
+    return `${clip}<g clip-path="url(#cel${i})"><g transform="translate(${x} ${y - 20}) scale(${esc})">${PZ[n]({ t: 0.5, tl: 2, piel: piel ? pielDe(piel).piezas || piel : piel, pielReal: piel, ...ej })}</g></g>
       <text x="${x}" y="${y + 200}" text-anchor="middle" font-family="Poppins" font-weight="800" font-size="34" fill="#fff" stroke="#2b1a14" stroke-width="7" paint-order="stroke">${n}</text>`;
   }).join("");
   const fondo = piel ? FONDOS[pielDe(piel).fondo]({ t: 0 }) : FONDOS.estudio({ t: 0, suelo: 2400 });

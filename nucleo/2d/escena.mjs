@@ -124,10 +124,10 @@ export function crearCuadro(dibujo, toma, aSegundos, juego = null) {
       if (op <= 0.003 || s <= 0.003) return "";
       // a la pieza le llega todo lo del elemento (texto, pregunta, colores…) salvo lo de la escena, y los params ya
       // calculados para este segundo
-      const p = { t, tl: t - e.t0, piel: juego?.N };
+      const p = { t, tl: t - e.t0, piel: juego ? (pielDe(juego.N).piezas || juego.N) : undefined, pielReal: juego?.N };
       for (const [k, v] of Object.entries(e)) if (!RESERVADAS.has(k)) p[k] = v;
       for (const [k, v] of Object.entries(e.params)) p[k] = claves(v, t);
-      return `<g transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${r.toFixed(2)}) scale(${s.toFixed(4)})" opacity="${op.toFixed(3)}">${PIEZAS[e.pieza](p)}</g>`;
+      return `<g transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${r.toFixed(2)}) scale(${s.toFixed(4)})" opacity="${op.toFixed(3)}"${juego?.N === "nativo" ? ' class="piel-nativo"' : ""}>${PIEZAS[e.pieza](p)}</g>`;
     }).join("");
     const fondoSVG = fondoImg ? `<image href="${fondoImg}" width="1080" height="1920" preserveAspectRatio="none"/>` : pintarFondo(dibujo.fondo, { t, ...(dibujo.fondoOpts || {}) });
     const acabado = juego ? (granoImg ? `<image href="${granoImg}" width="1080" height="1920"/>` : acabadoJuego(juego.N))

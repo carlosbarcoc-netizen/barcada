@@ -31,7 +31,7 @@ export function nuevo(idea, { estilo = "documental", nombre, piel = null } = {})
   if (existsSync(join(dir, "proyecto.json"))) throw new Error(`Ya existe ${dir}`);
   asegurar(dir);
   // modo juego (Barcada 2.0): una piel (neon, voxel, arcade) con su barra de progreso, títulos y mundo
-  if (piel && !["neon", "voxel", "arcade"].includes(piel)) throw new Error(`No hay piel «${piel}». Hay: neon, voxel, arcade`);
+  if (piel && !["neon", "voxel", "arcade", "nativo"].includes(piel)) throw new Error(`No hay piel «${piel}». Hay: neon, voxel, arcade, nativo`);
   guardarJSON(join(dir, "proyecto.json"), piel ? {
     titulo: idea, estilo: "2d",
     frases: [{ texto: "", clave: "" }],

@@ -120,7 +120,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   if (juego && !musica && p.juego.musica !== false) {
     musica = join(tmp, `musica-${juego.N}.wav`);
     const semilla = [...(p.titulo || "barcada")].reduce((a, c) => a + c.charCodeAt(0), 0) + (p.juego.semilla || 0);
-    (await import("./sintetizador.mjs")).musica(juego.N, tiempos.duracion + 1, musica, semilla);
+    (await import("./sintetizador.mjs")).musica(juego.P.musica || juego.N, tiempos.duracion + 1, musica, semilla);
   }
   let mus = "", voz = "[1:a]";
   if (musica && existsSync(musica)) {

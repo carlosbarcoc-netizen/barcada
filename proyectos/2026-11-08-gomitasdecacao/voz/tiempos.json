@@ -1,0 +1,897 @@
+{
+  "huella": "8b66207b3bc3",
+  "duracion": 53.263,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "¿Gomitas de cacao? ¡Y sin una gota de chocolate!",
+      "clave": "gomitas",
+      "inicio": 0,
+      "fin": 3.529,
+      "palabras": [
+        {
+          "texto": "¿Gomitas",
+          "inicio": 0,
+          "fin": 0.464
+        },
+        {
+          "texto": "de",
+          "inicio": 0.499,
+          "fin": 0.557
+        },
+        {
+          "texto": "cacao?",
+          "inicio": 0.615,
+          "fin": 1.289
+        },
+        {
+          "texto": "¡Y",
+          "inicio": 1.544,
+          "fin": 1.765
+        },
+        {
+          "texto": "sin",
+          "inicio": 1.869,
+          "fin": 2.02
+        },
+        {
+          "texto": "una",
+          "inicio": 2.101,
+          "fin": 2.287
+        },
+        {
+          "texto": "gota",
+          "inicio": 2.345,
+          "fin": 2.601
+        },
+        {
+          "texto": "de",
+          "inicio": 2.647,
+          "fin": 2.717
+        },
+        {
+          "texto": "chocolate!",
+          "inicio": 2.763,
+          "fin": 3.529
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "El secreto está en la pulpa blanca que envuelve las semillas.",
+      "clave": "pulpa",
+      "inicio": 3.994,
+      "fin": 6.838,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 3.994,
+          "fin": 4.11
+        },
+        {
+          "texto": "secreto",
+          "inicio": 4.156,
+          "fin": 4.47
+        },
+        {
+          "texto": "está",
+          "inicio": 4.493,
+          "fin": 4.644
+        },
+        {
+          "texto": "en",
+          "inicio": 4.679,
+          "fin": 4.737
+        },
+        {
+          "texto": "la",
+          "inicio": 4.76,
+          "fin": 4.807
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 4.865,
+          "fin": 5.132
+        },
+        {
+          "texto": "blanca",
+          "inicio": 5.178,
+          "fin": 5.492
+        },
+        {
+          "texto": "que",
+          "inicio": 5.55,
+          "fin": 5.631
+        },
+        {
+          "texto": "envuelve",
+          "inicio": 5.654,
+          "fin": 5.979
+        },
+        {
+          "texto": "las",
+          "inicio": 6.026,
+          "fin": 6.142
+        },
+        {
+          "texto": "semillas.",
+          "inicio": 6.165,
+          "fin": 6.838
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Esa baba que casi siempre se bota al fermentar.",
+      "clave": "bota",
+      "inicio": 7.245,
+      "fin": 9.741,
+      "palabras": [
+        {
+          "texto": "Esa",
+          "inicio": 7.245,
+          "fin": 7.488
+        },
+        {
+          "texto": "baba",
+          "inicio": 7.535,
+          "fin": 7.755
+        },
+        {
+          "texto": "que",
+          "inicio": 7.814,
+          "fin": 7.895
+        },
+        {
+          "texto": "casi",
+          "inicio": 7.953,
+          "fin": 8.173
+        },
+        {
+          "texto": "siempre",
+          "inicio": 8.208,
+          "fin": 8.557
+        },
+        {
+          "texto": "se",
+          "inicio": 8.591,
+          "fin": 8.661
+        },
+        {
+          "texto": "bota",
+          "inicio": 8.707,
+          "fin": 8.905
+        },
+        {
+          "texto": "al",
+          "inicio": 8.928,
+          "fin": 8.986
+        },
+        {
+          "texto": "fermentar.",
+          "inicio": 9.044,
+          "fin": 9.741
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Solo en Ghana se escurren casi dos millones de litros al año.",
+      "clave": "millones",
+      "inicio": 10.286,
+      "fin": 13.584,
+      "palabras": [
+        {
+          "texto": "Solo",
+          "inicio": 10.286,
+          "fin": 10.553
+        },
+        {
+          "texto": "en",
+          "inicio": 10.588,
+          "fin": 10.646
+        },
+        {
+          "texto": "Ghana",
+          "inicio": 10.704,
+          "fin": 11.018
+        },
+        {
+          "texto": "se",
+          "inicio": 11.18,
+          "fin": 11.297
+        },
+        {
+          "texto": "escurren",
+          "inicio": 11.32,
+          "fin": 11.656
+        },
+        {
+          "texto": "casi",
+          "inicio": 11.714,
+          "fin": 11.947
+        },
+        {
+          "texto": "dos",
+          "inicio": 11.993,
+          "fin": 12.179
+        },
+        {
+          "texto": "millones",
+          "inicio": 12.237,
+          "fin": 12.597
+        },
+        {
+          "texto": "de",
+          "inicio": 12.62,
+          "fin": 12.678
+        },
+        {
+          "texto": "litros",
+          "inicio": 12.725,
+          "fin": 13.038
+        },
+        {
+          "texto": "al",
+          "inicio": 13.096,
+          "fin": 13.189
+        },
+        {
+          "texto": "año.",
+          "inicio": 13.212,
+          "fin": 13.584
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "Y mira esto: ya trae azúcar, ácido… y pectina, el gel de las mermeladas.",
+      "clave": "pectina",
+      "inicio": 14.048,
+      "fin": 19.458,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 14.048,
+          "fin": 14.118
+        },
+        {
+          "texto": "mira",
+          "inicio": 14.187,
+          "fin": 14.385
+        },
+        {
+          "texto": "esto:",
+          "inicio": 14.431,
+          "fin": 14.896
+        },
+        {
+          "texto": "ya",
+          "inicio": 15.244,
+          "fin": 15.348
+        },
+        {
+          "texto": "trae",
+          "inicio": 15.395,
+          "fin": 15.639
+        },
+        {
+          "texto": "azúcar,",
+          "inicio": 15.662,
+          "fin": 16.289
+        },
+        {
+          "texto": "ácido…",
+          "inicio": 16.428,
+          "fin": 17.02
+        },
+        {
+          "texto": "y",
+          "inicio": 17.125,
+          "fin": 17.194
+        },
+        {
+          "texto": "pectina,",
+          "inicio": 17.264,
+          "fin": 17.891
+        },
+        {
+          "texto": "el",
+          "inicio": 18.054,
+          "fin": 18.158
+        },
+        {
+          "texto": "gel",
+          "inicio": 18.205,
+          "fin": 18.309
+        },
+        {
+          "texto": "de",
+          "inicio": 18.344,
+          "fin": 18.39
+        },
+        {
+          "texto": "las",
+          "inicio": 18.437,
+          "fin": 18.541
+        },
+        {
+          "texto": "mermeladas.",
+          "inicio": 18.588,
+          "fin": 19.458
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Paso uno: cuela la pulpa fresca y quédate con el jugo.",
+      "clave": "jugo",
+      "inicio": 19.621,
+      "fin": 22.523,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 19.621,
+          "fin": 19.888
+        },
+        {
+          "texto": "uno:",
+          "inicio": 19.946,
+          "fin": 20.306
+        },
+        {
+          "texto": "cuela",
+          "inicio": 20.492,
+          "fin": 20.747
+        },
+        {
+          "texto": "la",
+          "inicio": 20.794,
+          "fin": 20.863
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 20.91,
+          "fin": 21.177
+        },
+        {
+          "texto": "fresca",
+          "inicio": 21.235,
+          "fin": 21.537
+        },
+        {
+          "texto": "y",
+          "inicio": 21.571,
+          "fin": 21.606
+        },
+        {
+          "texto": "quédate",
+          "inicio": 21.664,
+          "fin": 21.978
+        },
+        {
+          "texto": "con",
+          "inicio": 22.013,
+          "fin": 22.14
+        },
+        {
+          "texto": "el",
+          "inicio": 22.187,
+          "fin": 22.256
+        },
+        {
+          "texto": "jugo.",
+          "inicio": 22.303,
+          "fin": 22.523
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "Paso dos: refuérzalo con un poquito de pectina y azúcar.",
+      "clave": "azúcar",
+      "inicio": 22.547,
+      "fin": 25.739,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 22.547,
+          "fin": 22.779
+        },
+        {
+          "texto": "dos:",
+          "inicio": 22.837,
+          "fin": 23.29
+        },
+        {
+          "texto": "refuérzalo",
+          "inicio": 23.51,
+          "fin": 23.951
+        },
+        {
+          "texto": "con",
+          "inicio": 23.986,
+          "fin": 24.091
+        },
+        {
+          "texto": "un",
+          "inicio": 24.149,
+          "fin": 24.195
+        },
+        {
+          "texto": "poquito",
+          "inicio": 24.23,
+          "fin": 24.567
+        },
+        {
+          "texto": "de",
+          "inicio": 24.613,
+          "fin": 24.671
+        },
+        {
+          "texto": "pectina",
+          "inicio": 24.718,
+          "fin": 25.089
+        },
+        {
+          "texto": "y",
+          "inicio": 25.147,
+          "fin": 25.17
+        },
+        {
+          "texto": "azúcar.",
+          "inicio": 25.217,
+          "fin": 25.739
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "¿Por qué azúcar? Porque sin ella la pectina no cuaja.",
+      "clave": "cuaja",
+      "inicio": 25.855,
+      "fin": 29.107,
+      "palabras": [
+        {
+          "texto": "¿Por",
+          "inicio": 25.855,
+          "fin": 26.111
+        },
+        {
+          "texto": "qué",
+          "inicio": 26.169,
+          "fin": 26.285
+        },
+        {
+          "texto": "azúcar?",
+          "inicio": 26.32,
+          "fin": 26.877
+        },
+        {
+          "texto": "Porque",
+          "inicio": 27.225,
+          "fin": 27.504
+        },
+        {
+          "texto": "sin",
+          "inicio": 27.539,
+          "fin": 27.667
+        },
+        {
+          "texto": "ella",
+          "inicio": 27.725,
+          "fin": 27.876
+        },
+        {
+          "texto": "la",
+          "inicio": 27.934,
+          "fin": 28.003
+        },
+        {
+          "texto": "pectina",
+          "inicio": 28.05,
+          "fin": 28.398
+        },
+        {
+          "texto": "no",
+          "inicio": 28.456,
+          "fin": 28.561
+        },
+        {
+          "texto": "cuaja.",
+          "inicio": 28.619,
+          "fin": 29.107
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Paso tres: cocina a fuego medio, removiendo, hasta que espese.",
+      "clave": "espese",
+      "inicio": 29.513,
+      "fin": 33.124,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 29.513,
+          "fin": 29.745
+        },
+        {
+          "texto": "tres:",
+          "inicio": 29.803,
+          "fin": 30.024
+        },
+        {
+          "texto": "cocina",
+          "inicio": 30.047,
+          "fin": 30.326
+        },
+        {
+          "texto": "a",
+          "inicio": 30.349,
+          "fin": 30.43
+        },
+        {
+          "texto": "fuego",
+          "inicio": 30.465,
+          "fin": 30.674
+        },
+        {
+          "texto": "medio,",
+          "inicio": 30.72,
+          "fin": 31.196
+        },
+        {
+          "texto": "removiendo,",
+          "inicio": 31.487,
+          "fin": 32.044
+        },
+        {
+          "texto": "hasta",
+          "inicio": 32.067,
+          "fin": 32.265
+        },
+        {
+          "texto": "que",
+          "inicio": 32.323,
+          "fin": 32.427
+        },
+        {
+          "texto": "espese.",
+          "inicio": 32.45,
+          "fin": 33.124
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Y aquí viene lo bueno: la acidez natural del cacao ya hace su parte.",
+      "clave": "acidez",
+      "inicio": 33.53,
+      "fin": 37.431,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 33.53,
+          "fin": 33.6
+        },
+        {
+          "texto": "aquí",
+          "inicio": 33.669,
+          "fin": 33.855
+        },
+        {
+          "texto": "viene",
+          "inicio": 33.902,
+          "fin": 34.122
+        },
+        {
+          "texto": "lo",
+          "inicio": 34.169,
+          "fin": 34.25
+        },
+        {
+          "texto": "bueno:",
+          "inicio": 34.273,
+          "fin": 34.621
+        },
+        {
+          "texto": "la",
+          "inicio": 35.086,
+          "fin": 35.202
+        },
+        {
+          "texto": "acidez",
+          "inicio": 35.225,
+          "fin": 35.55
+        },
+        {
+          "texto": "natural",
+          "inicio": 35.608,
+          "fin": 35.957
+        },
+        {
+          "texto": "del",
+          "inicio": 35.98,
+          "fin": 36.084
+        },
+        {
+          "texto": "cacao",
+          "inicio": 36.131,
+          "fin": 36.433
+        },
+        {
+          "texto": "ya",
+          "inicio": 36.491,
+          "fin": 36.583
+        },
+        {
+          "texto": "hace",
+          "inicio": 36.618,
+          "fin": 36.804
+        },
+        {
+          "texto": "su",
+          "inicio": 36.851,
+          "fin": 36.955
+        },
+        {
+          "texto": "parte.",
+          "inicio": 37.013,
+          "fin": 37.431
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Paso cuatro: sirve en moldes y deja reposar hasta que estén firmes.",
+      "clave": "moldes",
+      "inicio": 37.895,
+      "fin": 41.68,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 37.895,
+          "fin": 38.128
+        },
+        {
+          "texto": "cuatro:",
+          "inicio": 38.186,
+          "fin": 38.534
+        },
+        {
+          "texto": "sirve",
+          "inicio": 38.557,
+          "fin": 38.917
+        },
+        {
+          "texto": "en",
+          "inicio": 38.975,
+          "fin": 39.056
+        },
+        {
+          "texto": "moldes",
+          "inicio": 39.126,
+          "fin": 39.59
+        },
+        {
+          "texto": "y",
+          "inicio": 39.707,
+          "fin": 39.776
+        },
+        {
+          "texto": "deja",
+          "inicio": 39.846,
+          "fin": 40.008
+        },
+        {
+          "texto": "reposar",
+          "inicio": 40.066,
+          "fin": 40.438
+        },
+        {
+          "texto": "hasta",
+          "inicio": 40.473,
+          "fin": 40.647
+        },
+        {
+          "texto": "que",
+          "inicio": 40.693,
+          "fin": 40.775
+        },
+        {
+          "texto": "estén",
+          "inicio": 40.798,
+          "fin": 41.019
+        },
+        {
+          "texto": "firmes.",
+          "inicio": 41.077,
+          "fin": 41.68
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "¿Y a qué saben? No a chocolate… ¡a fruta tropical!",
+      "clave": "tropical",
+      "inicio": 42.145,
+      "fin": 45.419,
+      "palabras": [
+        {
+          "texto": "¿Y",
+          "inicio": 42.145,
+          "fin": 42.365
+        },
+        {
+          "texto": "a",
+          "inicio": 42.423,
+          "fin": 42.447
+        },
+        {
+          "texto": "qué",
+          "inicio": 42.493,
+          "fin": 42.586
+        },
+        {
+          "texto": "saben?",
+          "inicio": 42.632,
+          "fin": 43.039
+        },
+        {
+          "texto": "No",
+          "inicio": 43.155,
+          "fin": 43.248
+        },
+        {
+          "texto": "a",
+          "inicio": 43.271,
+          "fin": 43.294
+        },
+        {
+          "texto": "chocolate…",
+          "inicio": 43.329,
+          "fin": 43.979
+        },
+        {
+          "texto": "¡a",
+          "inicio": 44.142,
+          "fin": 44.362
+        },
+        {
+          "texto": "fruta",
+          "inicio": 44.42,
+          "fin": 44.653
+        },
+        {
+          "texto": "tropical!",
+          "inicio": 44.699,
+          "fin": 45.419
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "Lo que se botaba, convertido en dulce.",
+      "clave": "dulce",
+      "inicio": 45.883,
+      "fin": 47.88,
+      "palabras": [
+        {
+          "texto": "Lo",
+          "inicio": 45.883,
+          "fin": 45.999
+        },
+        {
+          "texto": "que",
+          "inicio": 46.046,
+          "fin": 46.115
+        },
+        {
+          "texto": "se",
+          "inicio": 46.162,
+          "fin": 46.243
+        },
+        {
+          "texto": "botaba,",
+          "inicio": 46.29,
+          "fin": 46.789
+        },
+        {
+          "texto": "convertido",
+          "inicio": 46.847,
+          "fin": 47.334
+        },
+        {
+          "texto": "en",
+          "inicio": 47.358,
+          "fin": 47.404
+        },
+        {
+          "texto": "dulce.",
+          "inicio": 47.451,
+          "fin": 47.88
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "texto": "¿Quieres aprender a hacerlas paso a paso? Info en el link de la biografía.",
+      "clave": "link",
+      "inicio": 48.287,
+      "fin": 52.663,
+      "palabras": [
+        {
+          "texto": "¿Quieres",
+          "inicio": 48.287,
+          "fin": 48.739
+        },
+        {
+          "texto": "aprender",
+          "inicio": 48.797,
+          "fin": 49.122
+        },
+        {
+          "texto": "a",
+          "inicio": 49.169,
+          "fin": 49.192
+        },
+        {
+          "texto": "hacerlas",
+          "inicio": 49.239,
+          "fin": 49.587
+        },
+        {
+          "texto": "paso",
+          "inicio": 49.633,
+          "fin": 49.807
+        },
+        {
+          "texto": "a",
+          "inicio": 49.842,
+          "fin": 49.865
+        },
+        {
+          "texto": "paso?",
+          "inicio": 49.9,
+          "fin": 50.33
+        },
+        {
+          "texto": "Info",
+          "inicio": 50.678,
+          "fin": 51.038
+        },
+        {
+          "texto": "en",
+          "inicio": 51.096,
+          "fin": 51.166
+        },
+        {
+          "texto": "el",
+          "inicio": 51.235,
+          "fin": 51.293
+        },
+        {
+          "texto": "link",
+          "inicio": 51.34,
+          "fin": 51.572
+        },
+        {
+          "texto": "de",
+          "inicio": 51.642,
+          "fin": 51.688
+        },
+        {
+          "texto": "la",
+          "inicio": 51.735,
+          "fin": 51.804
+        },
+        {
+          "texto": "biografía.",
+          "inicio": 51.839,
+          "fin": 52.663
+        }
+      ]
+    }
+  ]
+}

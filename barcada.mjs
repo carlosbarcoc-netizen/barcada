@@ -21,7 +21,7 @@ const AYUDA = `Barcada · órdenes (todas desde esta carpeta):
   node barcada.mjs revisar                         qué está instalado y qué falta
   node barcada.mjs voces [--acento latin] [--genero male]   voces de ElevenLabs en español para elegir
   node barcada.mjs sonidos                         crea tu biblioteca de efectos con ElevenLabs (una vez)
-  node barcada.mjs nuevo "<idea>" --piel neon      crea un proyecto en modo juego (Barcada 2.0): neon, voxel o arcade
+  node barcada.mjs nuevo "<idea>" --piel neon      crea un proyecto en modo juego (Barcada 2.0): neon, voxel, arcade o nativo (marca)
   node barcada.mjs nuevo "<idea>" [--estilo documental]     crea el proyecto en proyectos/ (2D con volumen o realista)
   node barcada.mjs voz <proyecto> [--rehacer]      la voz con sus tiempos (una vez, con el guion aprobado)
   node barcada.mjs tomas <proyecto>                genera las imágenes y la hoja revisar/tomas.jpg

@@ -3,9 +3,9 @@
 Estado del proyecto (se actualiza en cada paso).
 
 - [x] 1. Investigación → notas.md
-- [ ] 2. Guion aprobado (enseñado, esperando visto bueno; incluye el look de marca)
-- [ ] 3. Voz
-- [ ] 4. Tomas aprobadas (revisar/tomas.jpg)
+- [x] 2. Guion aprobado (y la piel de marca «nativo»)
+- [x] 3. Voz (53,3 s)
+- [ ] 4. Tomas aprobadas (revisar/tomas.jpg) — enseñadas, esperando visto bueno; borrador ya hecho
 - [ ] 5. Borrador aprobado
 - [ ] 6. Final, portada y descripciones entregados
 

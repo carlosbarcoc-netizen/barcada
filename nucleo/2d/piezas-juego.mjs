@@ -5,7 +5,7 @@
 import { PIELES, esc, html, tono } from "./juego.mjs";
 
 const lim = (u, a = 0, b = 1) => Math.max(a, Math.min(b, u ?? 0));
-const P = (o) => PIELES[o.piel] || PIELES.neon;
+const P = (o) => PIELES[o.pielReal] || PIELES[o.piel] || PIELES.neon; // pielReal: la de marca, que dibuja con la forma de otra
 const fuente = (o) => P(o).titulo;
 
 // Colores planos: [base, sombra, luz]

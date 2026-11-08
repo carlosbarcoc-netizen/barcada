@@ -48,6 +48,17 @@ export const PIELES = {
     titulo: "Press Start 2P", hud: "Press Start 2P", sub: "Space Mono",
     sonidos: { corte: ["blip", -18], aparece: ["blip", -17], titulo: ["salto", -15], paso: ["nivel", -12], alerta: ["alarma", -12], fin: ["moneda", -12] },
   },
+  // la piel de marca de NativoTerrus: papel crema, letra condensada Oswald y terracota (como sus carruseles).
+  // Las piezas se dibujan con la forma de «bloques» (planas, con cara y lado) y los colores de la marca.
+  nativo: {
+    nombre: "NativoTerrus", para: "la marca @nativoterrus: crema, Oswald y terracota; limpio y editorial",
+    fondo: "nativo", piezas: "voxel", musica: "voxel",
+    acento: "#C8694A", cian: "#C8694A", rojo: "#B23A2B", verde: "#6E8B4E", amarillo: "#D9A441", texto: "#1C1A17", apagado: "#DCCFBE", tinta: "#1C1A17",
+    gris: "#5A5650", arena: "#DCCFBE", papel: "#F3F1EC",
+    titulo: "Oswald", hud: "Oswald", sub: "Oswald",
+    colores: ["#C8694A", "#C8694A", "#C8694A", "#C8694A", "#C8694A", "#C8694A"],
+    sonidos: { corte: ["whoosh", -24], aparece: ["bloop", -15], titulo: ["pop", -14], paso: ["moneda", -13], alerta: ["error", -11], fin: ["exito", -12] },
+  },
 };
 export const piel = (n) => PIELES[n] || PIELES.neon;
 
@@ -88,6 +99,9 @@ const rayos = (cx, cy, n, color, op, giro) => Array.from({ length: n }, (_, i) =
 }).join("");
 
 export const FONDOS_JUEGO = {
+  // NativoTerrus: papel crema liso, con una luz blanca muy suave en el centro y un suelo de arena apenas marcado
+  nativo: ({ suelo = 1330 }) => `<defs><radialGradient id="fNat" cx="0.5" cy="0.45" r="0.8"><stop offset="0" stop-color="#FBFAF7"/><stop offset="1" stop-color="#F3F1EC"/></radialGradient></defs>
+    <rect width="1080" height="1920" fill="url(#fNat)"/><rect y="${suelo}" width="1080" height="${1920 - suelo}" fill="#EDE7DD"/><rect y="${suelo}" width="1080" height="4" fill="#DCCFBE"/>`,
   // negro azulado con cuadrícula fina y un halo central; tono: "rojo" para el problema
   neon: ({ t = 0, tono: tn, rejilla = 54 }) => {
     const [c0, c1] = tn === "rojo" ? ["#3a0e18", "#14050a"] : tn === "verde" ? ["#0b2a1c", "#050d09"] : ["#0e1726", "#05080e"];
@@ -197,6 +211,19 @@ function estado(ctx, t) {
 const popEscala = (u) => (u >= 1 ? 1 : 1 + 0.35 * Math.sin(Math.PI * u) * (1 - u));
 
 const HUD = {
+  // NativoTerrus: arriba, la etiqueta espaciada a la izquierda y «02 / 04» a la derecha (como sus carruseles); debajo,
+  // las fichas de los pasos: blancas con borde arena, y en terracota cuando se encienden
+  nativo(ctx, t) {
+    const { P } = ctx, e = estado(ctx, t), n = e.pasos.length, gap = 14, w = (920 - gap * (n - 1)) / n, col = e.final ? P.verde : P.acento;
+    const fichas = e.pasos.map((s, i) => {
+      const on = s.activo || e.final, c = e.final ? P.verde : P.acento;
+      return `<div style="width:${w}px;height:74px;margin-right:${i < n - 1 ? gap : 0}px;border:3px solid ${on ? c : P.arena};border-radius:14px;background:${on ? c : "#fff"};box-shadow:0 6px 0 ${on ? tono(c, 0.8) : "#E9E3D9"};box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:10px;transform:scale(${popEscala(on ? (e.final ? e.uFinal : s.uPop) : 1).toFixed(3)});color:${on ? "#fff" : P.gris}">
+        <span style="font:700 40px Oswald;color:${on ? "#fff" : P.acento}">${i + 1}</span><span style="font:700 ${n > 4 ? 20 : 25}px Oswald;letter-spacing:1px;text-transform:uppercase">${esc(s.texto)}</span></div>`;
+    }).join("");
+    return html(80, 120, 920, 50, `<div style="display:flex;justify-content:space-between;align-items:center;height:100%;font:400 30px Oswald;letter-spacing:5px;color:${P.gris};text-transform:uppercase">
+      <span>${esc(ctx.prog.titulo || "")}</span><span style="letter-spacing:3px"><b style="color:${col};font-weight:700">${String(e.final ? n : e.hechos).padStart(2, "0")}</b> / ${String(n).padStart(2, "0")}${e.final && ctx.prog.final?.texto ? ` · <b style="color:${col}">${esc(ctx.prog.final.texto)}</b>` : ""}</span></div>`)
+      + html(80, 186, 920, 90, `<div style="display:flex">${fichas}</div>`);
+  },
   neon(ctx, t) {
     const { P } = ctx, e = estado(ctx, t), total = e.pasos.length, col = e.final ? P.verde : P.acento;
     const chips = e.pasos.map((s) => `<span style="display:inline-block;padding:3px 12px;margin-right:10px;border:2px solid ${s.activo ? col : "#283444"};border-radius:6px;background:${s.activo ? col : "transparent"};color:${s.activo ? P.tinta : "#4d5a6b"};transform:scale(${popEscala(s.activo ? s.uPop : 1).toFixed(3)});${s.activo ? `box-shadow:0 0 18px ${col}` : ""}">${esc(s.texto)}</span>`).join("");
@@ -245,6 +272,15 @@ function tipeo(lineas, t, P, N, vel = 42) {
   }).join("");
 }
 const TITULO = {
+  // NativoTerrus: Oswald 700 en mayúsculas, a la izquierda, casi negro con la palabra en terracota y la raya arena debajo
+  nativo(ctx, ti, t) {
+    const { P } = ctx;
+    const lineas = ti.lineas.filter((x) => t >= x.t).map((x) => { const u = lim((t - x.t) / 0.35), d = 40 * (1 - u) * (1 - u); return `<div style="transform:translateY(${d.toFixed(1)}px);opacity:${u.toFixed(3)}">${marcado(x.l, P, "nativo", { caja: false })}</div>`; }).join("");
+    const uRaya = lim((t - (ti.lineas[0]?.t ?? 0) - 0.2) / 0.4);
+    return html(80, 300, 920, 330, `<div style="font:700 92px/1.08 Oswald;color:${P.tinta};text-transform:uppercase;letter-spacing:0.5px">${lineas}</div>
+      <div style="margin-top:22px;width:${Math.round(120 * uRaya)}px;height:8px;background:${P.arena}"></div>
+      ${ti.sub && t >= ti.tSub ? `<div style="margin-top:16px;font:300 40px Oswald;color:${P.gris};opacity:${lim((t - ti.tSub) * 4)}">${esc(ti.sub)}</div>` : ""}`);
+  },
   neon(ctx, ti, t) {
     return html(60, 270, 960, 360, `<div style="font:800 82px/1.1 Poppins;color:#fff;letter-spacing:-0.5px">${tipeo(ti.lineas, t, ctx.P, "neon")}</div>
       ${ti.sub && t >= ti.tSub ? `<div style="margin-top:14px;font:700 34px 'Space Mono';color:#8a97a8">${esc(ti.sub)}</div>` : ""}`);
@@ -265,6 +301,15 @@ const TITULO = {
 // arcade (cuadro de diálogo con el texto a máquina)
 const bloqueEn = (ctx, t) => ctx.bloques.find((b) => t >= b.t0 && t < b.t1);
 const SUBS = {
+  // NativoTerrus: en una tarjeta blanca con borde arena (como las de sus carruseles); lo dicho en tinta, lo que falta en
+  // arena y la palabra que suena (y la clave) en terracota
+  nativo(ctx, t) {
+    const b = bloqueEn(ctx, t); if (!b) return "";
+    const { P } = ctx;
+    const pal = b.map((w, i) => { const dicha = t >= w.inicio - 0.04, actual = dicha && (i === b.length - 1 || t < b[i + 1].inicio - 0.04); return `<span style="color:${actual || (dicha && w.clave) ? P.acento : dicha ? P.tinta : "#C4B8A8"}">${esc(w.texto)}</span>`; }).join(" ");
+    return html(80, 1440, 920, 190, `<div style="display:flex;align-items:center;justify-content:center;height:100%;text-align:center;padding:0 30px;box-sizing:border-box;font:700 62px/1.15 Oswald;text-transform:uppercase;letter-spacing:0.5px"><div>${pal}</div></div>`,
+      `border:3px solid ${P.arena};border-radius:22px;background:#fff;box-sizing:border-box;box-shadow:0 8px 0 #E9E3D9`);
+  },
   neon(ctx, t) {
     const b = bloqueEn(ctx, t); if (!b) return "";
     const { P } = ctx;
@@ -295,6 +340,8 @@ function avatar(ctx, r, borde) {
     : `<div style="width:${r * 2}px;height:${r * 2}px;border-radius:50%;background:${ctx.P.acento};color:${ctx.P.tinta};display:flex;align-items:center;justify-content:center;font:800 ${r}px Poppins;border:${borde};box-sizing:border-box">${ini}</div>`;
 }
 const FIRMA = {
+  nativo: (ctx) => html(80, 1690, 920, 70, `<div style="display:flex;align-items:center;justify-content:space-between;height:100%;font:400 32px Oswald;color:${ctx.P.gris};letter-spacing:1px">
+    <span style="display:flex;align-items:center;gap:14px">${ctx.avatar ? avatar(ctx, 24, `2px solid ${ctx.P.arena}`) : ""}${esc(ctx.firma)}</span><span>Sigue →</span></div>`),
   neon: (ctx) => html(0, 1690, 1080, 70, `<div style="display:flex;align-items:center;justify-content:center;gap:14px;height:100%;font:700 28px 'Space Mono';color:#fff">${avatar(ctx, 26, "2px solid #2b3646")}${esc(ctx.firma)}</div>`),
   voxel: (ctx) => html(0, 1690, 1080, 80, `<div style="display:flex;justify-content:center;height:100%"><div style="display:flex;align-items:center;gap:12px;padding:6px 26px 6px 8px;border-radius:40px;background:rgba(27,36,51,.88);font:34px 'Lilita One';color:#fff">${avatar(ctx, 28, "3px solid #fff")}${esc(ctx.firma)}</div></div>`),
   arcade: (ctx) => html(0, 1690, 1080, 60, `<div style="display:flex;align-items:center;justify-content:center;gap:12px;height:100%;font:700 26px 'Space Mono';color:#c9cde0">${avatar(ctx, 22, "2px solid #fff")}${esc(ctx.firma)}</div>`),
@@ -305,6 +352,7 @@ export function acabadoJuego(N) {
   const vin = (op) => `<defs><radialGradient id="vinJ" cx="0.5" cy="0.5" r="0.75"><stop offset="0.65" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="${op}"/></radialGradient></defs><rect width="1080" height="1920" fill="url(#vinJ)"/>`;
   if (N === "arcade") return vin(0.45) + `<defs><pattern id="crt" width="4" height="6" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity="0.16"/></pattern></defs><rect width="1080" height="1920" fill="url(#crt)"/>`;
   if (N === "voxel") return vin(0.12);
+  if (N === "nativo") return "";
   return vin(0.5);
 }
 

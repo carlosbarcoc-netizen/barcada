@@ -31,9 +31,11 @@ export async function hoja(escala = 1) {
     @font-face{font-family:'Press Start 2P';src:url(${f("PressStart2P-Regular")})}
     @font-face{font-family:'Lilita One';src:url(${f("LilitaOne-Regular")})}
     @font-face{font-family:'Space Mono';font-weight:700;src:url(${f("SpaceMono-Bold")})}
-    html,body{margin:0;background:#000;overflow:hidden} svg{display:block}</style></head>
+    ${[300, 400, 700].map((w) => `@font-face{font-family:Oswald;font-weight:${w};src:url(data:font/woff2;base64,${readFileSync(join(FUENTES, `Oswald-${w}.woff2`)).toString("base64")}) format("woff2")}`).join("")}
+    html,body{margin:0;background:#000;overflow:hidden} svg{display:block}
+    .piel-nativo text,.piel-nativo div,.piel-nativo span{font-family:Oswald!important;font-weight:700!important}</style></head>
     <body><div id="c"></div><span style="font:800 40px Poppins;position:absolute;opacity:0">Áa</span><span style="font:700 40px Poppins;position:absolute;opacity:0">Áa</span><span style="font:40px 'Press Start 2P';position:absolute;opacity:0">Áa</span><span style="font:40px 'Lilita One';position:absolute;opacity:0">Áa</span><span style="font:700 40px 'Space Mono';position:absolute;opacity:0">Áa</span></body></html>`);
-  await pagina.evaluate(async () => { await document.fonts.load("800 40px Poppins"); await document.fonts.load("700 40px Poppins"); await document.fonts.load("900 40px Nunito"); await document.fonts.load("40px Anton"); await document.fonts.load("40px 'Press Start 2P'"); await document.fonts.load("40px 'Lilita One'"); await document.fonts.load("700 40px 'Space Mono'"); await document.fonts.ready; });
+  await pagina.evaluate(async () => { await document.fonts.load("800 40px Poppins"); await document.fonts.load("700 40px Poppins"); await document.fonts.load("900 40px Nunito"); await document.fonts.load("40px Anton"); await document.fonts.load("40px 'Press Start 2P'"); await document.fonts.load("40px 'Lilita One'"); await document.fonts.load("700 40px 'Space Mono'"); for (const w of [300, 400, 700]) await document.fonts.load(`${w} 40px Oswald`); await document.fonts.ready; });
   return {
     async pinta(interior) {
       const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${ANCHO * escala}" height="${ALTO * escala}" viewBox="0 0 ${ANCHO} ${ALTO}"><defs>${DEFS_COMUNES}${VINETA}</defs>${interior}</svg>`;
