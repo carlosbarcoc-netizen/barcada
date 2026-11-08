@@ -102,7 +102,7 @@ export async function portada(dir, titulo, { toma = 1, acento, etiqueta } = {}) 
     `scale=${ANCHO}:${ALTO}:force_original_aspect_ratio=increase,crop=${ANCHO}:${ALTO},${est.color === "null" ? "null" : est.color},eq=saturation=1.3:contrast=1.08`, "-frames:v", "1", "-q:v", "2", fondoJpg]);
   const out = join(asegurar(join(dir, "entrega")), "portada.jpg");
   const { foto, cerrarNavegador } = await import("./2d/dibujante.mjs");
-  await foto(svgPortada(titulo, `data:image/jpeg;base64,${readFileSync(fondoJpg).toString("base64")}`, { acento: acento || pref.acento, etiqueta }), out);
+  await foto(svgPortada(titulo, `data:image/jpeg;base64,${readFileSync(fondoJpg).toString("base64")}`, { acento: acento || pref.acento, etiqueta, ...(p.juego?.piel === "nativo" ? { franja: "#C8694A", acento: acento || "#F3F1EC", clave: "#FFFFFF" } : {}) }), out);
   await cerrarNavegador();
   console.log(`✓ ${out}`);
   return out;
@@ -113,7 +113,7 @@ export async function portada(dir, titulo, { toma = 1, acento, etiqueta } = {}) 
 // sobre una franja de color intenso un poco girada; las demás, blancas con contorno grueso. Cada línea se ajusta a lo
 // ancho para que nada se corte. etiqueta: un sello pequeño debajo («¡NADIE TE LO DIJO!»).
 const ESC = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-export function svgPortada(titulo, fondo, { acento = "#FFD23F", franja = "#FF2E63", etiqueta = null } = {}) {
+export function svgPortada(titulo, fondo, { acento = "#FFD23F", franja = "#FF2E63", etiqueta = null, clave: colorClave = null } = {}) {
   const lineas = titulo.split("|").map((l) => l.trim()).filter(Boolean);
   const ancho = 940, info = lineas.map((l) => {
     const clave = /\*[^*]+\*/.test(l), limpio = l.replace(/\*/g, "").toUpperCase();
@@ -127,7 +127,7 @@ export function svgPortada(titulo, fondo, { acento = "#FFD23F", franja = "#FF2E6
     const sw = (x.tam * 0.085).toFixed(1);
     const partes = x.l.split(/(\*[^*]+\*)/).filter(Boolean).map((seg) => {
       const k = seg.startsWith("*");
-      return `<tspan ${k ? 'fill="url(#vivo)"' : 'fill="#ffffff"'}>${ESC(seg.replace(/\*/g, "").toUpperCase())}</tspan>`;
+      return `<tspan ${k ? `fill="${colorClave || "url(#vivo)"}"` : 'fill="#ffffff"'}>${ESC(seg.replace(/\*/g, "").toUpperCase())}</tspan>`;
     }).join("");
     const w = Math.min(ancho, x.limpio.length * x.tam * 0.5) + 70;
     const fila = `${x.clave ? `<rect x="${540 - w / 2}" y="${y - x.tam * 0.88}" width="${w}" height="${x.tam * 1.06}" rx="${x.tam * 0.16}" fill="${franja}" stroke="#160b06" stroke-width="10" transform="rotate(-3 540 ${y - x.tam * 0.35})" style="filter:drop-shadow(0 14px 0 #160b06)"/>` : ""}

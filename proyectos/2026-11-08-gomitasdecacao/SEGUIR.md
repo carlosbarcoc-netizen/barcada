@@ -5,9 +5,9 @@ Estado del proyecto (se actualiza en cada paso).
 - [x] 1. Investigación → notas.md
 - [x] 2. Guion aprobado (y la piel de marca «nativo»)
 - [x] 3. Voz (53,3 s)
-- [ ] 4. Tomas aprobadas (revisar/tomas.jpg) — enseñadas, esperando visto bueno; borrador ya hecho
-- [ ] 5. Borrador aprobado
-- [ ] 6. Final, portada y descripciones entregados
+- [x] 4. Tomas aprobadas
+- [x] 5. Borrador aprobado
+- [x] 6. Final, portada y descripciones entregados (entrega/)
 
 Marca para este video: tipografía condensada tipo Oswald/Anton, crema #F3F1EC, tinta #1C1A17, terracota #C8694A,
 arena #DCCFBE. CTA: «Info en el link de la biografía». Firma @nativoterrus.
