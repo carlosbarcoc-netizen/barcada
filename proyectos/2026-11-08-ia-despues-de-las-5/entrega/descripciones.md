@@ -1,16 +1,28 @@
 # Descripciones
 
 ## Instagram
-Cómo empezar con IA después de las 5 (sin dejar tu empleo).
+⏰ CÓMO EMPEZAR CON IA DESPUÉS DE LAS 5
 
-Si trabajas de 8 a 5, tu día ya está lleno. No necesitas renunciar: necesitas un método y 20 minutos al día.
+Si trabajas de 8 a 5, sé que terminas el día sin energía y sientes que no te queda tiempo para aprender nada nuevo.
+
+No necesitas dejar tu empleo. Necesitas un método y 20 minutos al día.
+
 1️⃣ Elige una sola habilidad
-2️⃣ Usa la IA para organizar tu tarea
-3️⃣ Practica todos los días, aunque sea poco
+Contenido, marketing, diseño… una. Si intentas aprender todo a la vez, no avanzas en nada.
 
-No es dinero rápido. Es un método. Guarda y comparte este video con alguien que trabaje de 8 a 5.
+2️⃣ Usa la IA para organizar
+Pídele un plan corto: "Tengo 20 minutos al día. Arma un plan de 4 semanas para aprender [tu habilidad], con una tarea pequeña por día."
 
-#inteligenciaartificial #IA #aprenderIA #productividad #crecimientopersonal
+3️⃣ Practica todos los días
+Aunque sea poco. 20 minutos diarios valen más que 3 horas un domingo.
+
+La IA no reemplaza tu trabajo. Te ayuda a ahorrar tiempo para lo que sí quieres construir.
+
+📌 Guarda este video y compártelo con alguien que también trabaja de 8 a 5.
+
+⚠️ No es dinero rápido. Los resultados dependen de la constancia y la práctica de cada persona.
+
+#IA #InteligenciaArtificial #ProductividadConIA #AprenderIA #CrecimientoPersonal #EmprendimientoDigital
 
 ## TikTok
 IA después de las 5: 3 pasos para aprender con 20 minutos al día sin dejar tu trabajo. #IA #inteligenciaartificial #productividad #aprenderIA

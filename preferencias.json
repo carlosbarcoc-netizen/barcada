@@ -14,8 +14,38 @@
   },
   "musica": null,
   "redes": {},
-  "portada": "Estilo de la marca (plantilla: estilos/portada-marca/portada.html): fondo crema #F7F5F0; arriba @carlosbarcoc (Inter, gris #45433F) y etiqueta oscura «Reel»; título en serif negrita (Source Serif 4, 900), alineado a la izquierda, tinta #1A1916, una palabra clave en terracota #BB5D3E; subtítulo corto en Inter; recuadro blanco con borde suave (cifra o palabra clave en terracota) y fila de botones #ECE7E0 con íconos de línea terracota. Todo dentro del recorte 3:4.",
+  "portada": "Letras centradas (en horizontal y en el medio de la imagen) y llamativas, con colores vivos: Anton enorme, la clave en amarillo-naranja sobre franja de color intenso, sello amarillo debajo.",
   "tono": "Voz movida, alegre y cercana, nada pausada: que quien escucha sienta que se lo cuenta un amigo.",
   "piel": "auto",
-  "avatar": null
+  "avatar": null,
+  "marcas": {
+    "_como": "Dos marcas por separado. Lo de arriba (nivel principal) es NativoTerrus. Si el video es para @carlosbarcoc, usa este bloque en lugar del principal.",
+    "carlosbarcoc": {
+      "nicho": "Inteligencia artificial aplicada a generar ingresos y crecimiento personal",
+      "publico": "Latinoamérica, español neutro",
+      "marca": "@carlosbarcoc",
+      "cierre": "Guarda y comparte este video.",
+      "marca_de_agua": "@carlosbarcoc abajo, discreta, todo el video; no se nombra en la voz del cierre",
+      "colores": {
+        "crema": "#F7F5F0",
+        "terracota": "#BB5D3E",
+        "tinta": "#1A1916",
+        "gris": "#45433F",
+        "tarjeta": "#ECE7E0"
+      },
+      "letras": "Títulos en serif negrita (Source Serif 4, 900) con una palabra clave en terracota; texto en Inter",
+      "voz": {
+        "id": "htFfPSZGJwjBv1CL0aMD",
+        "modelo": "eleven_v4",
+        "estabilidad": 0.35,
+        "similitud": 0.7,
+        "velocidad": 1.0
+      },
+      "portada": "Estilo de la marca (plantilla: estilos/portada-marca/portada.html): fondo crema #F7F5F0; arriba @carlosbarcoc (Inter, gris #45433F) y etiqueta oscura «Reel»; título en serif negrita (Source Serif 4, 900), alineado a la izquierda, tinta #1A1916, una palabra clave en terracota #BB5D3E; subtítulo corto en Inter; recuadro blanco con borde suave (cifra o palabra clave en terracota) y fila de botones #ECE7E0 con íconos de línea terracota. Todo dentro del recorte 3:4.",
+      "descripcion_instagram": "Con la skill instagram-personal (su voz: gancho con emoji, lista 1️⃣2️⃣3️⃣, un solo CTA, disclaimer honesto, 5-10 hashtags)",
+      "redes": {
+        "instagram": "@carlosbarcoc"
+      }
+    }
+  }
 }
