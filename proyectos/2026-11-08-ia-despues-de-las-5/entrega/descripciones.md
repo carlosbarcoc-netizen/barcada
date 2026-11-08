@@ -8,7 +8,7 @@ Si trabajas de 8 a 5, tu día ya está lleno. No necesitas renunciar: necesitas 
 2️⃣ Usa la IA para organizar tu tarea
 3️⃣ Practica todos los días, aunque sea poco
 
-No es dinero rápido. Es un método. Guárdalo para empezar hoy y sígueme para aprender paso a paso.
+No es dinero rápido. Es un método. Guarda y comparte este video con alguien que trabaje de 8 a 5.
 
 #inteligenciaartificial #IA #aprenderIA #productividad #crecimientopersonal
 

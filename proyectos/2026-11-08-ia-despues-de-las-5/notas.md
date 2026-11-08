@@ -12,3 +12,7 @@ crema #F7F5F0. Se aplicó sobre los fondos azul marino/negro que pidió en la fi
 
 Voz: ElevenLabs, voz htFfPSZGJwjBv1CL0aMD (la suya), eleven_v4. Dicha natural dura 41 s; se aceleró ×1,15 con
 rubberband (sin cambiar el tono) para acercarla a los 35 s → video de 37,2 s.
+
+Cambio (8 nov): el cierre ya no nombra @carlosbarcoc (la marca de agua va todo el video). Nuevo CTA de voz y en
+pantalla: «Guarda y comparte este video» (botones Guardar / Compartir de su marca). Solo esa frase se generó de
+nuevo (voz/cta.mp3) y se unió al resto. Video: 36,2 s.

@@ -64,8 +64,9 @@ svg{display:block}
 .mini svg{position:absolute;right:26px;top:34px;width:76px;height:76px}
 .mini .tx{position:absolute;left:30px;right:24px;bottom:34px;font:900 44px/1.02 Serif4}
 /* escena 5 */
-.hand{position:absolute;left:0;right:0;text-align:center;font:600 50px Inter;color:var(--cream);letter-spacing:.02em;z-index:45;opacity:0}
-.hand span{color:var(--terra)}
+.cta{position:absolute;left:120px;right:120px;top:570px;display:flex;gap:28px;z-index:45}
+.bt{flex:1;height:210px;border-radius:30px;background:#ECE7E0;color:var(--ink);font:700 44px Inter;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;box-shadow:0 30px 70px rgba(0,0,0,.45);opacity:0}
+.bt svg{width:66px;height:66px}
 </style></head>
 <body><div id="stage">
 
@@ -275,7 +276,7 @@ svg{display:block}
   </svg>
  </div>
  <div class="tt" id="t5" style="top:260px"><span data-at="29.95">Descansa.</span> <span data-at="30.72">Entrena.</span><br><span data-at="31.45">Cuida</span> <span data-at="31.7">tu</span> <span data-at="31.85"><em>energía.</em></span></div>
- <div class="hand" id="hd" style="top:575px"><span>@</span>carlosbarcoc</div>
+ <div class="cta" id="hd"><div class="bt" id="bt1"><svg viewBox="0 0 48 48" fill="none" stroke="#BB5D3E" stroke-width="4" stroke-linejoin="round"><path d="M13 6h22v36L24 33 13 42Z"/></svg>Guardar</div><div class="bt" id="bt2"><svg viewBox="0 0 48 48" fill="none" stroke="#BB5D3E" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><path d="M43 6 5 21l15 6 6 15Z"/><path d="M43 6 20 27"/></svg>Compartir</div></div>
 </div>
 
 <div id="scrim"></div>
@@ -287,9 +288,9 @@ svg{display:block}
 </div>
 <script src="datos.js"></script>
 <script>
-const T=37.2;
+const T=36.2;
 const SC=[[0,3.3],[3.3,8.72],[8.72,17.86],[17.86,29.85],[29.85,T]];
-const CUTS=[1.65,3.3,5.5,7.15,8.72,11.65,13.87,16.4,17.86,20.2,23.2,26.55,28.2,29.85,32.6,34.7];
+const CUTS=[1.65,3.3,5.5,7.15,8.72,11.65,13.87,16.4,17.86,20.2,23.2,26.55,28.2,29.85,32.3,34.2];
 const $=id=>document.getElementById(id);
 const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
 const seg=(t,a,b)=>cl((t-a)/(b-a));
@@ -395,9 +396,9 @@ function legPath(ang,knee){// cadera en (0,-130); ang en grados (adelante = haci
 function s5(t){const c=$('c5');
  const lt=t-29.85,k=seg(t,29.85,T);
  const sc=lerp(1.05,.78,k),gy=lerp(1610,1470,k);
- if(t<32.6)cam(c,1+.04*seg(t,29.85,32.6),540,1000,1000);
- else if(t<34.7)cam(c,1.6+.06*seg(t,32.6,34.7),540,gy-220*sc,1260);
- else cam(c,1.06-.03*seg(t,34.7,T),540,1020,1000);
+ if(t<32.3)cam(c,1+.04*seg(t,29.85,32.3),540,1000,1000);
+ else if(t<34.2)cam(c,1.6+.06*seg(t,32.3,34.2),540,gy-220*sc,1260);
+ else cam(c,1.06-.03*seg(t,34.2,T),540,1020,1000);
  // sol que sube
  const sy=lerp(1100,1010,k);$('s5sun').setAttribute('cy',sy);$('s5sunglow').setAttribute('cy',sy-10);$('s5sunglow').setAttribute('r',420+40*k);
  // líneas del centro de la calle
@@ -415,7 +416,7 @@ function s5(t){const c=$('c5');
  $('s5armL').setAttribute('d',arm(-1,p+Math.PI));$('s5armR').setAttribute('d',arm(1,p));
  $('s5shadow').setAttribute('rx',70-14*Math.abs(sw));
  words($('t5'),t);
- const kh=eo(seg(t,32.7,33.1));const hd=$('hd');hd.style.opacity=kh;hd.style.transform=`translateY(${(1-kh)*30}px)`}
+ [['bt1',32.85],['bt2',33.45]].forEach(([id,a])=>{const k=back(seg(t,a,a+.38));const e=$(id);e.style.opacity=cl(k*1.5);e.style.transform=`translateY(${(1-k)*50}px) scale(${.8+.2*k})`})}
 
 function setTime(t){
  const fns=[s1,s2,s3,s4,s5];let cur=0;
@@ -423,8 +424,7 @@ function setTime(t){
  SC.forEach(([a,b],i)=>{if(t>=a&&(t<b||i==4))fns[i](t)});
  parts(t,cur==0?1.6:cur==4?.8:.55);
  caption(t);
- const sk=(cur==2)?1:(cur==4)?(t>=32.6&&t<34.7?1:.55):cur==1?.45:0;$('scrim').style.opacity=sk;
- $('mark').style.opacity=t>=29.85?0:1;
+ const sk=(cur==2)?1:(cur==4)?(t>=32.3&&t<34.2?1:.6):cur==1?.45:0;$('scrim').style.opacity=sk;
  // destello breve en los cortes de escena
  let fl=0;for(const x of [3.3,8.72,17.86,29.85]){const d=t-x;if(d>=0&&d<.16)fl=Math.max(fl,.22*(1-d/.16))}$('flash').style.opacity=fl;
 }

@@ -1,19 +1,65 @@
 {
   "titulo": "Cómo empezar con IA después de las 5",
   "estilo": "reel-marca",
-  "voz": { "id": "htFfPSZGJwjBv1CL0aMD", "modelo": "eleven_v4", "estabilidad": 0.35, "similitud": 0.7, "estilo": 0.45, "velocidad": 1.15 },
+  "voz": {
+    "id": "htFfPSZGJwjBv1CL0aMD",
+    "modelo": "eleven_v4",
+    "estabilidad": 0.35,
+    "similitud": 0.7,
+    "estilo": 0.45,
+    "velocidad": 1.15
+  },
   "frases": [
-    { "texto": "Si trabajas de 8 a 5, tu día ya está lleno.", "dicho": "Si trabajas de ocho a cinco, tu día ya está lleno.", "clave": "lleno" },
-    { "texto": "Pero después de las cinco hay tiempo que puedes usar para aprender algo nuevo.", "clave": "aprender" },
-    { "texto": "No necesitas dejar tu empleo.", "clave": "empleo" },
-    { "texto": "Necesitas un método y veinte minutos al día.", "clave": "método" },
-    { "texto": "La IA no reemplaza tu trabajo.", "dicho": "La I A no reemplaza tu trabajo.", "clave": "IA" },
-    { "texto": "Te ayuda a preparar contenido, a entender marketing y a ahorrar tiempo.", "clave": "tiempo" },
-    { "texto": "Primero, elige una sola habilidad.", "clave": "habilidad" },
-    { "texto": "Segundo, usa la IA para organizar tu tarea.", "dicho": "Segundo, usa la I A para organizar tu tarea.", "clave": "organizar" },
-    { "texto": "Tercero, practica todos los días, aunque sea poco.", "clave": "practica" },
-    { "texto": "No te prometo dinero rápido. Te comparto un método.", "clave": "método" },
-    { "texto": "Descansa, entrena y cuida tu energía.", "clave": "energía" },
-    { "texto": "Sigue @carlosbarcoc para aprender paso a paso.", "dicho": "Sigue a arroba carlos barco ce, para aprender paso a paso.", "clave": "@carlosbarcoc" }
+    {
+      "texto": "Si trabajas de 8 a 5, tu día ya está lleno.",
+      "dicho": "Si trabajas de ocho a cinco, tu día ya está lleno.",
+      "clave": "lleno"
+    },
+    {
+      "texto": "Pero después de las cinco hay tiempo que puedes usar para aprender algo nuevo.",
+      "clave": "aprender"
+    },
+    {
+      "texto": "No necesitas dejar tu empleo.",
+      "clave": "empleo"
+    },
+    {
+      "texto": "Necesitas un método y veinte minutos al día.",
+      "clave": "método"
+    },
+    {
+      "texto": "La IA no reemplaza tu trabajo.",
+      "dicho": "La I A no reemplaza tu trabajo.",
+      "clave": "IA"
+    },
+    {
+      "texto": "Te ayuda a preparar contenido, a entender marketing y a ahorrar tiempo.",
+      "clave": "tiempo"
+    },
+    {
+      "texto": "Primero, elige una sola habilidad.",
+      "clave": "habilidad"
+    },
+    {
+      "texto": "Segundo, usa la IA para organizar tu tarea.",
+      "dicho": "Segundo, usa la I A para organizar tu tarea.",
+      "clave": "organizar"
+    },
+    {
+      "texto": "Tercero, practica todos los días, aunque sea poco.",
+      "clave": "practica"
+    },
+    {
+      "texto": "No te prometo dinero rápido. Te comparto un método.",
+      "clave": "método"
+    },
+    {
+      "texto": "Descansa, entrena y cuida tu energía.",
+      "clave": "energía"
+    },
+    {
+      "texto": "Guarda y comparte este video.",
+      "clave": "comparte"
+    }
   ]
 }

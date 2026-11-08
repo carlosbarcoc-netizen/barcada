@@ -1,0 +1,40 @@
+{
+  "huella": "2a5835851b6d",
+  "duracion": 2.68,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "Guarda y comparte este video.",
+      "clave": "comparte",
+      "inicio": 0,
+      "fin": 2.08,
+      "palabras": [
+        {
+          "texto": "Guarda",
+          "inicio": 0,
+          "fin": 0.56
+        },
+        {
+          "texto": "y",
+          "inicio": 0.6,
+          "fin": 0.64
+        },
+        {
+          "texto": "comparte",
+          "inicio": 0.72,
+          "fin": 1.28
+        },
+        {
+          "texto": "este",
+          "inicio": 1.4,
+          "fin": 1.52
+        },
+        {
+          "texto": "video.",
+          "inicio": 1.6,
+          "fin": 2.08
+        }
+      ]
+    }
+  ]
+}
