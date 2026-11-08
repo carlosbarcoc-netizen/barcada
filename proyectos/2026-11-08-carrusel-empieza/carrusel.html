@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Carrusel · Empieza hoy</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+@font-face { font-family: "Anton"; src: url("../../fuentes/Anton-Regular.ttf"); }
+:root {
+  --crema: #F5F3EE;
+  --tinta: #1B1A17;
+  --gris: #4A4843;
+  --suave: #8A857C;
+  --chip: #ECE6DF;
+  --borde: #E2DBD1;
+  --acento: #C2603F;
+  --noche: #161512;
+  --noche2: #24221E;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #888; display: flex; flex-direction: column; gap: 40px; padding: 40px; align-items: center; }
+.slide {
+  width: 1080px; height: 1350px; position: relative; overflow: hidden;
+  background: var(--crema); color: var(--tinta);
+  font-family: "Oswald", sans-serif;
+  padding: 92px 96px;
+}
+.slide.oscura { background: var(--noche); color: #F5F3EE; }
+.top { display: flex; justify-content: space-between; align-items: center; font-size: 34px; font-weight: 400; color: var(--gris); letter-spacing: .5px; }
+.oscura .top { color: #A9A398; }
+.pill { background: #45433E; color: #F5F3EE; border-radius: 999px; padding: 10px 30px; font-size: 30px; font-weight: 500; letter-spacing: 1px; }
+.oscura .pill { background: #2F2D28; color: #D9D3C8; }
+h1 { font-family: "Anton", sans-serif; font-weight: 400; text-transform: uppercase; line-height: 1.02; letter-spacing: .5px; margin-top: 70px; }
+.ac { color: var(--acento); }
+.sub { font-size: 44px; font-weight: 300; line-height: 1.32; color: var(--gris); margin-top: 40px; }
+.oscura .sub { color: #CFC9BE; }
+.sub b { font-weight: 500; color: var(--tinta); }
+.oscura .sub b { color: #F5F3EE; }
+
+/* 1 */
+.s1 h1 { font-size: 112px; }
+.s1 .ilus { position: absolute; left: 0; right: 0; bottom: 0; height: 560px; }
+.flecha { position: absolute; right: 80px; bottom: 80px; width: 120px; height: 120px; border-radius: 50%; background: var(--acento); display: grid; place-items: center; box-shadow: 0 12px 30px rgba(120,50,20,.28); }
+
+/* 2 */
+.s2 h1 { font-size: 150px; }
+.pasos { display: flex; flex-direction: column; gap: 30px; margin-top: 70px; }
+.paso { display: flex; align-items: center; gap: 44px; background: #fff; border: 3px solid var(--borde); border-radius: 36px; padding: 40px 48px; }
+.num { font-family: "Anton"; font-size: 130px; line-height: 1; color: var(--acento); width: 96px; text-align: center; flex: none; }
+.paso p { font-size: 46px; line-height: 1.22; font-weight: 400; }
+.paso p b { font-weight: 600; }
+
+/* 3 */
+.s3 h1 { font-size: 168px; }
+.s3 h1 .ac { font-size: 1.15em; }
+.reloj { position: absolute; left: 50%; bottom: 70px; transform: translateX(-50%); width: 470px; height: 470px; }
+
+/* 4 */
+.s4 h1 { font-size: 150px; margin-top: 90px; }
+.linea { width: 180px; height: 6px; background: var(--acento); margin-top: 56px; border-radius: 3px; }
+.s4 .sub { font-size: 50px; margin-top: 56px; max-width: 860px; }
+.s4 .nota { position: absolute; left: 96px; right: 96px; bottom: 92px; border-top: 1px solid #3A3832; padding-top: 34px; font-size: 32px; color: #8E887D; letter-spacing: 1px; display: flex; justify-content: space-between; }
+
+/* 5 */
+.s5 h1 { font-size: 168px; }
+.start-wrap { position: absolute; left: 0; right: 0; top: 700px; display: flex; flex-direction: column; align-items: center; }
+.start { font-family: "Anton"; font-size: 290px; line-height: 1; color: var(--acento); letter-spacing: 6px; }
+.burbuja { margin-top: 30px; background: #fff; border: 3px solid var(--borde); border-radius: 999px; padding: 18px 44px; font-size: 36px; color: var(--gris); display: flex; gap: 16px; align-items: center; }
+.pie { position: absolute; left: 0; right: 0; bottom: 84px; text-align: center; font-size: 40px; font-weight: 500; letter-spacing: 1px; }
+</style>
+</head>
+<body>
+
+<!-- 1 · Gancho -->
+<section class="slide s1" id="s1">
+  <div class="top"><span>@carlosbarcoc</span><span class="pill">1 / 5</span></div>
+  <h1>Puedes empezar en <span class="ac">marketing</span> sin quitarle tiempo a tu familia</h1>
+  <p class="sub">Tu día termina a las <b class="ac" style="color:var(--acento)">5 p. m.</b></p>
+  <svg class="ilus" viewBox="0 0 1080 560" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="mesa" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#E6DCCF"/><stop offset="1" stop-color="#D9CBB9"/>
+      </linearGradient>
+      <linearGradient id="luz" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#FFE7C7" stop-opacity="0"/>
+        <stop offset=".5" stop-color="#FFE3BC" stop-opacity=".75"/>
+        <stop offset="1" stop-color="#FFE7C7" stop-opacity="0"/>
+      </linearGradient>
+      <filter id="sombra" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="-26" dy="22" stdDeviation="16" flood-color="#6B4A2E" flood-opacity=".25"/></filter>
+      <clipPath id="clipMesa"><rect x="0" y="120" width="1080" height="440"/></clipPath>
+    </defs>
+    <!-- mesa -->
+    <rect x="0" y="120" width="1080" height="440" fill="url(#mesa)"/>
+    <line x1="0" y1="120" x2="1080" y2="120" stroke="#CDBDA8" stroke-width="3"/>
+    <!-- luz de la tarde: franjas de ventana -->
+    <g clip-path="url(#clipMesa)" opacity=".9">
+      <polygon points="560,120 720,120 420,560 160,560" fill="url(#luz)"/>
+      <polygon points="770,120 900,120 680,560 470,560" fill="url(#luz)"/>
+      <polygon points="950,120 1060,120 920,560 740,560" fill="url(#luz)"/>
+    </g>
+    <!-- libreta abierta -->
+    <g transform="translate(250 175) rotate(-6)" filter="url(#sombra)">
+      <path d="M0 18 Q140 0 280 20 L280 330 Q140 310 0 330 Z" fill="#FFFDF8"/>
+      <path d="M280 20 Q420 0 560 18 L560 330 Q420 310 280 330 Z" fill="#FBF8F1"/>
+      <path d="M272 20 L288 20 L288 330 L272 330 Z" fill="#E8E1D5"/>
+      <g stroke="#E3DCCF" stroke-width="3">
+        <line x1="34" y1="80" x2="250" y2="74"/><line x1="34" y1="122" x2="250" y2="118"/>
+        <line x1="34" y1="164" x2="250" y2="160"/><line x1="34" y1="206" x2="250" y2="202"/>
+        <line x1="34" y1="248" x2="250" y2="244"/>
+        <line x1="312" y1="74" x2="528" y2="80"/><line x1="312" y1="118" x2="528" y2="122"/>
+        <line x1="312" y1="160" x2="528" y2="164"/><line x1="312" y1="202" x2="528" y2="206"/>
+        <line x1="312" y1="244" x2="528" y2="248"/>
+      </g>
+      <!-- notas a mano -->
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M40 66 l10 10 l18 -22" stroke="#C2603F" stroke-width="5"/>
+        <path d="M84 64 q30 -6 60 0 t60 -2" stroke="#45433E" stroke-width="4"/>
+        <path d="M40 108 l10 10 l18 -22" stroke="#C2603F" stroke-width="5"/>
+        <path d="M84 106 q40 -6 80 0 t40 -2" stroke="#45433E" stroke-width="4"/>
+        <circle cx="54" cy="148" r="11" stroke="#C2603F" stroke-width="4"/>
+        <path d="M84 150 q26 -6 52 0 t50 -2" stroke="#45433E" stroke-width="4"/>
+        <path d="M320 64 q40 -6 80 0" stroke="#45433E" stroke-width="4"/>
+        <path d="M320 108 q60 -6 120 0 t60 -2" stroke="#45433E" stroke-width="4" opacity=".7"/>
+        <path d="M320 150 q50 -6 100 0" stroke="#45433E" stroke-width="4" opacity=".7"/>
+      </g>
+      <text x="320" y="230" font-family="Anton" font-size="46" fill="#C2603F">20 MIN</text>
+    </g>
+    <!-- lápiz -->
+    <g transform="translate(600 500) rotate(-22)" filter="url(#sombra)">
+      <rect x="0" y="0" width="250" height="20" rx="4" fill="#C2603F"/>
+      <rect x="0" y="0" width="250" height="7" rx="3" fill="#D57A5B"/>
+      <rect x="250" y="0" width="22" height="20" fill="#CFC6B8"/>
+      <polygon points="0,0 -40,10 0,20" fill="#EBD7BE"/>
+      <polygon points="-28,7 -40,10 -28,13" fill="#1B1A17"/>
+    </g>
+    <!-- taza -->
+    <g transform="translate(860 230)" filter="url(#sombra)">
+      <ellipse cx="0" cy="96" rx="76" ry="20" fill="#E8E1D5"/>
+      <path d="M-52 0 L52 0 L44 92 Q0 104 -44 92 Z" fill="#FFFDF8"/>
+      <path d="M52 22 q36 4 30 34 q-6 24 -36 22" fill="none" stroke="#FFFDF8" stroke-width="12"/>
+      <ellipse cx="0" cy="0" rx="52" ry="13" fill="#6B4A2E"/>
+    </g>
+  </svg>
+  <div class="flecha">
+    <svg width="58" height="58" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </div>
+</section>
+
+<!-- 2 · Tres pasos -->
+<section class="slide s2" id="s2">
+  <div class="top"><span>@carlosbarcoc</span><span class="pill">2 / 5</span></div>
+  <h1><span class="ac">3</span> pasos para empezar</h1>
+  <div class="pasos">
+    <div class="paso"><span class="num">1</span><p><b>Elige una sola</b> habilidad de marketing.</p></div>
+    <div class="paso"><span class="num">2</span><p><b>Usa IA</b> para organizar lo que aprendes.</p></div>
+    <div class="paso"><span class="num">3</span><p><b>Practica un contenido</b> por semana.</p></div>
+  </div>
+</section>
+
+<!-- 3 · Tiempo realista -->
+<section class="slide s3 oscura" id="s3">
+  <div class="top"><span>@carlosbarcoc</span><span class="pill">3 / 5</span></div>
+  <h1><span class="ac">20</span> minutos al día</h1>
+  <p class="sub">No necesitas madrugar ni dejar tu empleo. Con <b>constancia</b>, 20 minutos bastan para avanzar.</p>
+  <svg class="reloj" viewBox="0 0 560 560" xmlns="http://www.w3.org/2000/svg">
+    <rect x="245" y="0" width="70" height="34" rx="10" fill="#3A3832"/>
+    <rect x="268" y="30" width="24" height="26" fill="#3A3832"/>
+    <circle cx="280" cy="300" r="250" fill="#1F1D1A" stroke="#2F2D28" stroke-width="4"/>
+    <circle cx="280" cy="300" r="205" fill="none" stroke="#33302B" stroke-width="30"/>
+    <!-- 20 de 60 min = 1/3 de vuelta -->
+    <circle cx="280" cy="300" r="205" fill="none" stroke="#C2603F" stroke-width="30" stroke-linecap="round"
+      stroke-dasharray="429.35 1288" transform="rotate(-90 280 300)"/>
+    <g stroke="#5A564E" stroke-width="4" stroke-linecap="round">
+      <line x1="280" y1="70" x2="280" y2="84"/><line x1="510" y1="300" x2="496" y2="300"/>
+      <line x1="280" y1="530" x2="280" y2="516"/><line x1="50" y1="300" x2="64" y2="300"/>
+    </g>
+    <text x="280" y="330" text-anchor="middle" font-family="Anton" font-size="150" fill="#F5F3EE">20:00</text>
+    <text x="280" y="392" text-anchor="middle" font-family="Oswald" font-weight="500" font-size="34" letter-spacing="8" fill="#A9A398">MINUTOS</text>
+  </svg>
+</section>
+
+<!-- 4 · Honestidad -->
+<section class="slide s4 oscura" id="s4">
+  <div class="top"><span>@carlosbarcoc</span><span class="pill">4 / 5</span></div>
+  <h1>Sin promesas de dinero rápido</h1>
+  <div class="linea"></div>
+  <p class="sub">Esto es un <b>proceso</b>. Los resultados dependen de tu <b>constancia</b> y de cuánto <b>practiques</b>.</p>
+  <div class="nota"><span>PASO A PASO</span><span>SIN ATAJOS</span></div>
+</section>
+
+<!-- 5 · Cierre -->
+<section class="slide s5" id="s5">
+  <div class="top"><span>@carlosbarcoc</span><span class="pill">5 / 5</span></div>
+  <h1>Empieza hoy</h1>
+  <p class="sub">Escribe <b class="ac" style="color:var(--acento)">START</b> y te comparto la guía para arrancar.</p>
+  <div class="start-wrap">
+    <div class="start">START</div>
+    <div class="burbuja">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C2603F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+      Escríbelo en los comentarios
+    </div>
+  </div>
+  <div class="pie">@carlosbarcoc</div>
+</section>
+
+</body>
+</html>
