@@ -1,0 +1,37 @@
+{
+  "titulo": "Los 3 pasos para limpiar, desinfectar y esterilizar tus herramientas de uñas",
+  "estilo": "2d",
+  "frases": [
+    {
+      "texto": "",
+      "clave": ""
+    }
+  ],
+  "juego": {
+    "piel": "voxel",
+    "progreso": {
+      "titulo": "",
+      "etiqueta": "",
+      "pasos": [
+        {
+          "texto": "",
+          "en": ""
+        }
+      ]
+    }
+  },
+  "escenas": [
+    {
+      "nombre": "partida",
+      "tomas": [
+        {
+          "desde": 0,
+          "titulo": "",
+          "dibujo": {
+            "elementos": []
+          }
+        }
+      ]
+    }
+  ]
+}
