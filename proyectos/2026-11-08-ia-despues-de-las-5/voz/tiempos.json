@@ -1,0 +1,609 @@
+{
+  "huella": "9471de61a0a1",
+  "duracion": 41.96,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "Si trabajas de 8 a 5, tu día ya está lleno.",
+      "clave": "lleno",
+      "inicio": 0,
+      "fin": 3.6,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 0,
+          "fin": 0.16
+        },
+        {
+          "texto": "trabajas",
+          "inicio": 0.2,
+          "fin": 0.64
+        },
+        {
+          "texto": "de",
+          "inicio": 0.68,
+          "fin": 0.72
+        },
+        {
+          "texto": "8",
+          "inicio": 0.8,
+          "fin": 0.96
+        },
+        {
+          "texto": "a",
+          "inicio": 1.04,
+          "fin": 1.12
+        },
+        {
+          "texto": "5,",
+          "inicio": 1.2,
+          "fin": 1.76
+        },
+        {
+          "texto": "tu",
+          "inicio": 1.84,
+          "fin": 1.92
+        },
+        {
+          "texto": "día",
+          "inicio": 2.08,
+          "fin": 2.24
+        },
+        {
+          "texto": "ya",
+          "inicio": 2.4,
+          "fin": 2.48
+        },
+        {
+          "texto": "está",
+          "inicio": 2.56,
+          "fin": 2.8
+        },
+        {
+          "texto": "lleno.",
+          "inicio": 2.84,
+          "fin": 3.6
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Pero después de las cinco hay tiempo que puedes usar para aprender algo nuevo.",
+      "clave": "aprender",
+      "inicio": 3.64,
+      "fin": 8,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 3.64,
+          "fin": 3.84
+        },
+        {
+          "texto": "después",
+          "inicio": 3.96,
+          "fin": 4.24
+        },
+        {
+          "texto": "de",
+          "inicio": 4.28,
+          "fin": 4.32
+        },
+        {
+          "texto": "las",
+          "inicio": 4.4,
+          "fin": 4.48
+        },
+        {
+          "texto": "cinco",
+          "inicio": 4.56,
+          "fin": 4.88
+        },
+        {
+          "texto": "hay",
+          "inicio": 5.04,
+          "fin": 5.28
+        },
+        {
+          "texto": "tiempo",
+          "inicio": 5.36,
+          "fin": 5.6
+        },
+        {
+          "texto": "que",
+          "inicio": 5.68,
+          "fin": 5.76
+        },
+        {
+          "texto": "puedes",
+          "inicio": 5.84,
+          "fin": 6.08
+        },
+        {
+          "texto": "usar",
+          "inicio": 6.16,
+          "fin": 6.4
+        },
+        {
+          "texto": "para",
+          "inicio": 6.48,
+          "fin": 6.56
+        },
+        {
+          "texto": "aprender",
+          "inicio": 6.64,
+          "fin": 6.96
+        },
+        {
+          "texto": "algo",
+          "inicio": 7.08,
+          "fin": 7.2
+        },
+        {
+          "texto": "nuevo.",
+          "inicio": 7.24,
+          "fin": 8
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "No necesitas dejar tu empleo.",
+      "clave": "empleo",
+      "inicio": 8.08,
+      "fin": 9.84,
+      "palabras": [
+        {
+          "texto": "No",
+          "inicio": 8.08,
+          "fin": 8.16
+        },
+        {
+          "texto": "necesitas",
+          "inicio": 8.2,
+          "fin": 8.72
+        },
+        {
+          "texto": "dejar",
+          "inicio": 8.76,
+          "fin": 8.96
+        },
+        {
+          "texto": "tu",
+          "inicio": 9,
+          "fin": 9.04
+        },
+        {
+          "texto": "empleo.",
+          "inicio": 9.2,
+          "fin": 9.84
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Necesitas un método y veinte minutos al día.",
+      "clave": "método",
+      "inicio": 9.88,
+      "fin": 13.2,
+      "palabras": [
+        {
+          "texto": "Necesitas",
+          "inicio": 9.88,
+          "fin": 10.4
+        },
+        {
+          "texto": "un",
+          "inicio": 10.48,
+          "fin": 10.64
+        },
+        {
+          "texto": "método",
+          "inicio": 10.72,
+          "fin": 11.2
+        },
+        {
+          "texto": "y",
+          "inicio": 11.28,
+          "fin": 11.36
+        },
+        {
+          "texto": "veinte",
+          "inicio": 11.52,
+          "fin": 11.76
+        },
+        {
+          "texto": "minutos",
+          "inicio": 11.84,
+          "fin": 12.24
+        },
+        {
+          "texto": "al",
+          "inicio": 12.32,
+          "fin": 12.4
+        },
+        {
+          "texto": "día.",
+          "inicio": 12.52,
+          "fin": 13.2
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "La IA no reemplaza tu trabajo.",
+      "clave": "IA",
+      "inicio": 13.28,
+      "fin": 15.76,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 13.28,
+          "fin": 13.693333333333333
+        },
+        {
+          "texto": "IA",
+          "inicio": 13.693333333333333,
+          "fin": 14.106666666666666
+        },
+        {
+          "texto": "no",
+          "inicio": 14.106666666666666,
+          "fin": 14.52
+        },
+        {
+          "texto": "reemplaza",
+          "inicio": 14.52,
+          "fin": 14.933333333333334
+        },
+        {
+          "texto": "tu",
+          "inicio": 14.933333333333334,
+          "fin": 15.346666666666666
+        },
+        {
+          "texto": "trabajo.",
+          "inicio": 15.346666666666666,
+          "fin": 15.76
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Te ayuda a preparar contenido, a entender marketing y a ahorrar tiempo.",
+      "clave": "tiempo",
+      "inicio": 15.8,
+      "fin": 20.32,
+      "palabras": [
+        {
+          "texto": "Te",
+          "inicio": 15.8,
+          "fin": 15.84
+        },
+        {
+          "texto": "ayuda",
+          "inicio": 15.92,
+          "fin": 16.08
+        },
+        {
+          "texto": "a",
+          "inicio": 16.16,
+          "fin": 16.24
+        },
+        {
+          "texto": "preparar",
+          "inicio": 16.32,
+          "fin": 16.64
+        },
+        {
+          "texto": "contenido,",
+          "inicio": 16.96,
+          "fin": 17.52
+        },
+        {
+          "texto": "a",
+          "inicio": 17.547,
+          "fin": 17.573
+        },
+        {
+          "texto": "entender",
+          "inicio": 17.6,
+          "fin": 18
+        },
+        {
+          "texto": "marketing",
+          "inicio": 18.08,
+          "fin": 18.72
+        },
+        {
+          "texto": "y",
+          "inicio": 18.76,
+          "fin": 18.8
+        },
+        {
+          "texto": "a",
+          "inicio": 18.88,
+          "fin": 18.933
+        },
+        {
+          "texto": "ahorrar",
+          "inicio": 18.987,
+          "fin": 19.28
+        },
+        {
+          "texto": "tiempo.",
+          "inicio": 19.36,
+          "fin": 20.32
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "Primero, elige una sola habilidad.",
+      "clave": "habilidad",
+      "inicio": 20.4,
+      "fin": 23.04,
+      "palabras": [
+        {
+          "texto": "Primero,",
+          "inicio": 20.4,
+          "fin": 20.88
+        },
+        {
+          "texto": "elige",
+          "inicio": 21.12,
+          "fin": 21.36
+        },
+        {
+          "texto": "una",
+          "inicio": 21.44,
+          "fin": 21.68
+        },
+        {
+          "texto": "sola",
+          "inicio": 21.76,
+          "fin": 21.92
+        },
+        {
+          "texto": "habilidad.",
+          "inicio": 22,
+          "fin": 23.04
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "Segundo, usa la IA para organizar tu tarea.",
+      "clave": "organizar",
+      "inicio": 23.12,
+      "fin": 26.48,
+      "palabras": [
+        {
+          "texto": "Segundo,",
+          "inicio": 23.12,
+          "fin": 23.54
+        },
+        {
+          "texto": "usa",
+          "inicio": 23.54,
+          "fin": 23.96
+        },
+        {
+          "texto": "la",
+          "inicio": 23.96,
+          "fin": 24.380000000000003
+        },
+        {
+          "texto": "IA",
+          "inicio": 24.380000000000003,
+          "fin": 24.8
+        },
+        {
+          "texto": "para",
+          "inicio": 24.8,
+          "fin": 25.22
+        },
+        {
+          "texto": "organizar",
+          "inicio": 25.22,
+          "fin": 25.64
+        },
+        {
+          "texto": "tu",
+          "inicio": 25.64,
+          "fin": 26.060000000000002
+        },
+        {
+          "texto": "tarea.",
+          "inicio": 26.060000000000002,
+          "fin": 26.48
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Tercero, practica todos los días, aunque sea poco.",
+      "clave": "practica",
+      "inicio": 26.56,
+      "fin": 30.32,
+      "palabras": [
+        {
+          "texto": "Tercero,",
+          "inicio": 26.56,
+          "fin": 27.36
+        },
+        {
+          "texto": "practica",
+          "inicio": 27.4,
+          "fin": 28
+        },
+        {
+          "texto": "todos",
+          "inicio": 28.16,
+          "fin": 28.32
+        },
+        {
+          "texto": "los",
+          "inicio": 28.4,
+          "fin": 28.48
+        },
+        {
+          "texto": "días,",
+          "inicio": 28.56,
+          "fin": 29.04
+        },
+        {
+          "texto": "aunque",
+          "inicio": 29.08,
+          "fin": 29.28
+        },
+        {
+          "texto": "sea",
+          "inicio": 29.4,
+          "fin": 29.52
+        },
+        {
+          "texto": "poco.",
+          "inicio": 29.627,
+          "fin": 30.32
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "No te prometo dinero rápido. Te comparto un método.",
+      "clave": "método",
+      "inicio": 30.4,
+      "fin": 34.08,
+      "palabras": [
+        {
+          "texto": "No",
+          "inicio": 30.4,
+          "fin": 30.48
+        },
+        {
+          "texto": "te",
+          "inicio": 30.56,
+          "fin": 30.64
+        },
+        {
+          "texto": "prometo",
+          "inicio": 30.72,
+          "fin": 31.04
+        },
+        {
+          "texto": "dinero",
+          "inicio": 31.12,
+          "fin": 31.36
+        },
+        {
+          "texto": "rápido.",
+          "inicio": 31.44,
+          "fin": 32.16
+        },
+        {
+          "texto": "Te",
+          "inicio": 32.24,
+          "fin": 32.32
+        },
+        {
+          "texto": "comparto",
+          "inicio": 32.44,
+          "fin": 32.96
+        },
+        {
+          "texto": "un",
+          "inicio": 33.08,
+          "fin": 33.2
+        },
+        {
+          "texto": "método.",
+          "inicio": 33.28,
+          "fin": 34.08
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Descansa, entrena y cuida tu energía.",
+      "clave": "energía",
+      "inicio": 34.24,
+      "fin": 37.36,
+      "palabras": [
+        {
+          "texto": "Descansa,",
+          "inicio": 34.24,
+          "fin": 34.96
+        },
+        {
+          "texto": "entrena",
+          "inicio": 35.12,
+          "fin": 35.76
+        },
+        {
+          "texto": "y",
+          "inicio": 35.84,
+          "fin": 35.92
+        },
+        {
+          "texto": "cuida",
+          "inicio": 36,
+          "fin": 36.24
+        },
+        {
+          "texto": "tu",
+          "inicio": 36.32,
+          "fin": 36.4
+        },
+        {
+          "texto": "energía.",
+          "inicio": 36.52,
+          "fin": 37.36
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Sigue @carlosbarcoc para aprender paso a paso.",
+      "clave": "@carlosbarcoc",
+      "inicio": 37.4,
+      "fin": 41.36,
+      "palabras": [
+        {
+          "texto": "Sigue",
+          "inicio": 37.4,
+          "fin": 37.965714285714284
+        },
+        {
+          "texto": "@carlosbarcoc",
+          "inicio": 37.965714285714284,
+          "fin": 38.53142857142857
+        },
+        {
+          "texto": "para",
+          "inicio": 38.53142857142857,
+          "fin": 39.097142857142856
+        },
+        {
+          "texto": "aprender",
+          "inicio": 39.097142857142856,
+          "fin": 39.66285714285714
+        },
+        {
+          "texto": "paso",
+          "inicio": 39.66285714285714,
+          "fin": 40.22857142857143
+        },
+        {
+          "texto": "a",
+          "inicio": 40.22857142857143,
+          "fin": 40.794285714285714
+        },
+        {
+          "texto": "paso.",
+          "inicio": 40.794285714285714,
+          "fin": 41.36
+        }
+      ]
+    }
+  ]
+}
