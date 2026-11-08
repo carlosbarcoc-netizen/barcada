@@ -4,9 +4,10 @@ Estado del proyecto (se actualiza en cada paso).
 
 - [x] 1. Investigación → notas.md
 - [x] 2. Guion aprobado
-- [ ] 3. Voz
+- [x] 3. Voz
 - [ ] 4. Tomas aprobadas (revisar/tomas.jpg)
 - [ ] 5. Borrador aprobado
 - [ ] 6. Final, portada y descripciones entregados
 
 Para seguir en otra conversación: «sigue el proyecto 2026-11-08-los3pasosparalimpiar».
+Voz: Daniela (ajOR9IDAaubDK5qtLUqQ), en proyecto.json → voz. Piel bloques con fondo lavanda de la marca; acento #FFE45C.

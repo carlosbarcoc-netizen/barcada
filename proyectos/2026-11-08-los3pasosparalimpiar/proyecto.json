@@ -61,13 +61,53 @@
   ],
   "juego": {
     "piel": "voxel",
+    "acento": "#FFE45C",
+    "firma": "@azzure_estudiodebelleza",
     "progreso": {
-      "titulo": "",
-      "etiqueta": "",
+      "etiqueta": "HERRAMIENTAS SEGURAS:",
       "pasos": [
         {
-          "texto": "",
-          "en": ""
+          "texto": "LIMPIAR",
+          "en": "6:limpiar"
+        },
+        {
+          "texto": "DESINFECTAR",
+          "en": "8:desinfectar"
+        },
+        {
+          "texto": "ESTERILIZAR",
+          "en": "10:tres"
+        }
+      ],
+      "final": {
+        "texto": "SEGURAS",
+        "en": "12:profesional"
+      }
+    },
+    "mundo": {
+      "elementos": [
+        {
+          "pieza": "isla",
+          "x": 540,
+          "y": 1120,
+          "ancho": 820,
+          "entra": "ninguna"
+        },
+        {
+          "pieza": "nubebloque",
+          "x": 170,
+          "y": 640,
+          "escala": 0.6,
+          "entra": "ninguna",
+          "accion": "flota"
+        },
+        {
+          "pieza": "nubebloque",
+          "x": 930,
+          "y": 560,
+          "escala": 0.45,
+          "entra": "ninguna",
+          "accion": "flota"
         }
       ]
     }
@@ -78,12 +118,1138 @@
       "tomas": [
         {
           "desde": 0,
-          "titulo": "",
+          "titulo": "¿Limpias…|…o solo lo *PARECEN*?",
           "dibujo": {
-            "elementos": []
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "feliz",
+                "hasta": "1:parecen",
+                "sale": "ninguna"
+              },
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "sorprendido",
+                "en": "1:parecen"
+              },
+              {
+                "pieza": "letrero",
+                "x": 760,
+                "y": 820,
+                "texto": "TIJERAS\nY PUSHERS",
+                "tamano": 46,
+                "fondo": "#F6EC9C",
+                "entra": "rebote",
+                "en": 0.1
+              },
+              {
+                "pieza": "icono",
+                "nombre": "chispa",
+                "x": 930,
+                "y": 700,
+                "tam": 10,
+                "entra": "rebote",
+                "en": 0.4,
+                "accion": "late"
+              },
+              {
+                "pieza": "lupa",
+                "x": 620,
+                "y": 930,
+                "escala": 0.55,
+                "rot": -10,
+                "entra": "derecha",
+                "en": "1:limpias"
+              },
+              {
+                "pieza": "celula",
+                "x": 620,
+                "y": 740,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "rebote",
+                "en": "1:parecen"
+              },
+              {
+                "pieza": "celula",
+                "x": 900,
+                "y": 900,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "rebote",
+                "en": "1:parecen",
+                "dura": 0.5
+              },
+              {
+                "pieza": "celula",
+                "x": 630,
+                "y": 900,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "rebote",
+                "en": "1:solo"
+              }
+            ]
+          },
+          "tituloEn": [
+            0,
+            "1:o"
+          ]
+        },
+        {
+          "desde": "2:ojo",
+          "titulo": "Agua y jabón…|¡*NO BASTA*!",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "triste"
+              },
+              {
+                "pieza": "letrero",
+                "x": 760,
+                "y": 820,
+                "texto": "TIJERAS\nY PUSHERS",
+                "tamano": 46,
+                "fondo": "#F6EC9C",
+                "entra": "ninguna"
+              },
+              {
+                "pieza": "gota",
+                "x": 700,
+                "y": 560,
+                "escala": 0.25,
+                "color": "agua",
+                "entra": "cae",
+                "en": "2:agua"
+              },
+              {
+                "pieza": "gota",
+                "x": 820,
+                "y": 600,
+                "escala": 0.2,
+                "color": "agua",
+                "entra": "cae",
+                "en": "2:jabón"
+              },
+              {
+                "pieza": "celula",
+                "x": 620,
+                "y": 740,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "ninguna"
+              },
+              {
+                "pieza": "celula",
+                "x": 900,
+                "y": 900,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "ninguna"
+              },
+              {
+                "pieza": "celula",
+                "x": 630,
+                "y": 900,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "ninguna"
+              },
+              {
+                "pieza": "signo",
+                "tipo": "x",
+                "x": 560,
+                "y": 700,
+                "escala": 0.4,
+                "entra": "rebote",
+                "en": "2:basta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "3:máquina",
+          "titulo": "¿Y el *ULTRASONIDO*?",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "normal"
+              },
+              {
+                "pieza": "ventana",
+                "x": 740,
+                "y": 860,
+                "titulo": "ULTRASONIDO",
+                "texto": "LIMPIANDO…",
+                "ancho": 480,
+                "alto": 300,
+                "color": "#3B4096",
+                "entra": "rebote",
+                "en": 0
+              },
+              {
+                "pieza": "celula",
+                "x": 600,
+                "y": 690,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "ninguna",
+                "capa": 3
+              },
+              {
+                "pieza": "celula",
+                "x": 880,
+                "y": 760,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "rebote",
+                "en": "3:tampoco",
+                "capa": 3
+              },
+              {
+                "pieza": "celula",
+                "x": 760,
+                "y": 1000,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "rebote",
+                "en": "3:libres",
+                "capa": 3
+              },
+              {
+                "pieza": "sello",
+                "texto": "¡SIGUEN AHÍ!",
+                "fondo": "#FF5A4E",
+                "x": 740,
+                "y": 640,
+                "entra": "rebote",
+                "en": "3:bacterias"
+              }
+            ]
+          }
+        },
+        {
+          "desde": "4:una",
+          "titulo": "*HONGOS* e|!INFECCIONES!",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "asustado"
+              },
+              {
+                "pieza": "personaje",
+                "x": 800,
+                "y": 1020,
+                "escala": 0.75,
+                "color": "rosa",
+                "cara": "normal",
+                "entra": "derecha",
+                "en": 0,
+                "hasta": "4:hongos",
+                "sale": "ninguna"
+              },
+              {
+                "pieza": "personaje",
+                "x": 800,
+                "y": 1020,
+                "escala": 0.75,
+                "color": "rosa",
+                "cara": "asustado",
+                "entra": "ninguna",
+                "en": "4:hongos"
+              },
+              {
+                "pieza": "celula",
+                "x": 560,
+                "y": 720,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "rebote",
+                "en": 0.2,
+                "mueve": [
+                  [
+                    0,
+                    {
+                      "x": 560,
+                      "y": 720,
+                      "escala": 0.22,
+                      "rot": 0
+                    }
+                  ],
+                  [
+                    "4:hongos",
+                    {
+                      "x": 720,
+                      "y": 880,
+                      "escala": 0.22,
+                      "rot": 0
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "celula",
+                "x": 600,
+                "y": 820,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "rebote",
+                "en": 0.3,
+                "mueve": [
+                  [
+                    0,
+                    {
+                      "x": 600,
+                      "y": 820,
+                      "escala": 0.22,
+                      "rot": 0
+                    }
+                  ],
+                  [
+                    "4:infecciones",
+                    {
+                      "x": 850,
+                      "y": 900,
+                      "escala": 0.22,
+                      "rot": 0
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "celula",
+                "x": 500,
+                "y": 640,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "rebote",
+                "en": 0.4,
+                "mueve": [
+                  [
+                    0,
+                    {
+                      "x": 500,
+                      "y": 640,
+                      "escala": 0.22,
+                      "rot": 0
+                    }
+                  ],
+                  [
+                    "4:clienta",
+                    {
+                      "x": 790,
+                      "y": 820,
+                      "escala": 0.22,
+                      "rot": 0
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "dialogo",
+                "texto": "¡¿Qué es eso?!",
+                "x": 780,
+                "y": 720,
+                "entra": "rebote",
+                "en": "4:clienta"
+              }
+            ]
+          },
+          "alerta": true
+        },
+        {
+          "desde": "5:eso",
+          "titulo": "*3 PASOS*|en este orden",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "feliz",
+                "brazo": "arriba"
+              },
+              {
+                "pieza": "cajas",
+                "items": [
+                  "3 ESTERILIZAR",
+                  "2 DESINFECTAR",
+                  "1 LIMPIAR"
+                ],
+                "x": 760,
+                "y": 900,
+                "escala": 1.15,
+                "entra": "aparece",
+                "en": 0,
+                "params": {
+                  "n": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      "5:tres",
+                      1
+                    ],
+                    [
+                      "5:pasos",
+                      2
+                    ],
+                    [
+                      "5:orden",
+                      3
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": "6:paso",
+          "titulo": "1 · *LIMPIAR*",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "feliz"
+              },
+              {
+                "pieza": "frasco",
+                "x": 720,
+                "y": 880,
+                "escala": 0.55,
+                "contenido": "agua",
+                "entra": "rebote",
+                "en": "6:cepillo",
+                "params": {
+                  "lleno": [
+                    [
+                      "6:cepillo",
+                      0.2
+                    ],
+                    [
+                      "6:enzimático",
+                      0.85
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "letrero",
+                "texto": "DETERGENTE\nENZIMÁTICO",
+                "x": 720,
+                "y": 620,
+                "tamano": 38,
+                "entra": "rebote",
+                "en": "6:detergente"
+              },
+              {
+                "pieza": "cubo",
+                "color": "marron",
+                "x": 900,
+                "y": 1000,
+                "escala": 0.5,
+                "entra": "aparece",
+                "en": 0,
+                "hasta": "6:mugre",
+                "sale": "gira"
+              },
+              {
+                "pieza": "explosion",
+                "x": 900,
+                "y": 1000,
+                "en": "6:mugre",
+                "hasta": "7:por"
+              }
+            ]
+          },
+          "subtitulo": "cepillo + detergente: ¡fuera la mugre!"
+        },
+        {
+          "desde": "7:por",
+          "titulo": "Sobre la *SUCIEDAD*…|…el desinfectante !NO SIRVE!",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "enfadado"
+              },
+              {
+                "pieza": "cubo",
+                "color": "marron",
+                "x": 740,
+                "y": 960,
+                "escala": 0.9,
+                "entra": "rebote",
+                "en": "7:suciedad",
+                "capa": 2
+              },
+              {
+                "pieza": "celula",
+                "x": 740,
+                "y": 870,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "ninguna",
+                "capa": 1
+              },
+              {
+                "pieza": "gota",
+                "x": 740,
+                "y": 560,
+                "escala": 0.25,
+                "color": "agua",
+                "entra": "cae",
+                "en": "7:desinfectante",
+                "mueve": [
+                  [
+                    "7:no",
+                    {
+                      "x": 980,
+                      "y": 700,
+                      "rot": 60,
+                      "escala": 0.25
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "signo",
+                "tipo": "x",
+                "x": 900,
+                "y": 700,
+                "escala": 0.35,
+                "entra": "rebote",
+                "en": "7:funciona"
+              }
+            ]
+          },
+          "tituloEn": [
+            0,
+            "7:desinfectante"
+          ]
+        },
+        {
+          "desde": "8:paso",
+          "titulo": "2 · *DESINFECTAR*",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "feliz"
+              },
+              {
+                "pieza": "frasco",
+                "x": 640,
+                "y": 880,
+                "escala": 0.6,
+                "contenido": "azul",
+                "entra": "rebote",
+                "en": 0.2,
+                "params": {
+                  "lleno": [
+                    [
+                      0.2,
+                      0.1
+                    ],
+                    [
+                      "8:sumerges",
+                      0.9
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "letrero",
+                "texto": "GRADO MÉDICO",
+                "estilo": "sello",
+                "fondo": "#F6EC9C",
+                "x": 660,
+                "y": 620,
+                "tamano": 40,
+                "entra": "rebote",
+                "en": "8:médico"
+              },
+              {
+                "pieza": "temporizador",
+                "x": 900,
+                "y": 880,
+                "escala": 0.6,
+                "entra": "rebote",
+                "en": "8:tiempo",
+                "params": {
+                  "segundos": [
+                    [
+                      "8:tiempo",
+                      10
+                    ],
+                    [
+                      6.3,
+                      0
+                    ]
+                  ]
+                },
+                "total": 10
+              },
+              {
+                "pieza": "celula",
+                "x": 600,
+                "y": 900,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "ninguna",
+                "capa": 3,
+                "hasta": "8:etiqueta",
+                "sale": "gira"
+              },
+              {
+                "pieza": "celula",
+                "x": 700,
+                "y": 940,
+                "escala": 0.22,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "ninguna",
+                "capa": 3,
+                "hasta": "8:diga",
+                "sale": "gira"
+              }
+            ]
+          },
+          "subtitulo": "el tiempo que diga la etiqueta"
+        },
+        {
+          "desde": "9:pero",
+          "titulo": "Desinfectar *≠*|*ESTERILIZAR*",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "sorprendido"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "DESINFECTAR",
+                "x": 740,
+                "y": 640,
+                "tamano": 46,
+                "entra": "izquierda",
+                "en": "9:desinfectar"
+              },
+              {
+                "pieza": "signo",
+                "tipo": "distinto",
+                "x": 740,
+                "y": 800,
+                "escala": 0.33,
+                "entra": "rebote",
+                "en": "9:no"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "ESTERILIZAR",
+                "x": 740,
+                "y": 960,
+                "tamano": 46,
+                "fondo": "#F6EC9C",
+                "entra": "derecha",
+                "en": "9:esterilizar"
+              },
+              {
+                "pieza": "celula",
+                "x": 960,
+                "y": 1030,
+                "escala": 0.12,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "rebote",
+                "en": "9:esterilizar"
+              }
+            ]
+          },
+          "tituloEn": [
+            0,
+            "9:esterilizar"
+          ]
+        },
+        {
+          "desde": "10:paso",
+          "titulo": "3 · *ESTERILIZAR*",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "feliz",
+                "gafas": "sol"
+              },
+              {
+                "pieza": "paquete",
+                "x": 560,
+                "y": 980,
+                "escala": 0.55,
+                "entra": "cae",
+                "en": "10:bolsa",
+                "params": {
+                  "abierto": 0
+                }
+              },
+              {
+                "pieza": "letrero",
+                "texto": "BOLSA\nSELLADA",
+                "x": 470,
+                "y": 800,
+                "tamano": 34,
+                "entra": "rebote",
+                "en": "10:sellada"
+              },
+              {
+                "pieza": "ventana",
+                "x": 840,
+                "y": 660,
+                "titulo": "AUTOCLAVE",
+                "texto": "VAPOR A PRESIÓN",
+                "ancho": 400,
+                "alto": 240,
+                "color": "#3B4096",
+                "entra": "rebote",
+                "en": "10:autoclave"
+              },
+              {
+                "pieza": "fuego",
+                "x": 830,
+                "y": 930,
+                "escala": 0.3,
+                "entra": "crece",
+                "en": "10:vapor",
+                "accion": "late"
+              },
+              {
+                "pieza": "celula",
+                "x": 960,
+                "y": 1030,
+                "escala": 0.12,
+                "color": "verde",
+                "accion": "tiembla",
+                "entra": "ninguna",
+                "hasta": "10:esporas",
+                "sale": "gira"
+              },
+              {
+                "pieza": "explosion",
+                "x": 960,
+                "y": 1030,
+                "en": "10:esporas"
+              }
+            ]
+          },
+          "subtitulo": "¡adiós hasta a las esporas!"
+        },
+        {
+          "desde": "11:y",
+          "titulo": "Se abre frente a|tu *CLIENTA*",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "feliz"
+              },
+              {
+                "pieza": "paquete",
+                "x": 560,
+                "y": 980,
+                "escala": 0.55,
+                "entra": "ninguna",
+                "params": {
+                  "abierto": [
+                    [
+                      0,
+                      0
+                    ],
+                    [
+                      "11:abre",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "rayos",
+                "x": 560,
+                "y": 900,
+                "capa": -1,
+                "entra": "crece",
+                "en": "11:abre"
+              },
+              {
+                "pieza": "personaje",
+                "x": 800,
+                "y": 1020,
+                "escala": 0.75,
+                "color": "rosa",
+                "cara": "feliz",
+                "entra": "derecha",
+                "en": 0.1
+              },
+              {
+                "pieza": "icono",
+                "nombre": "corazon",
+                "x": 780,
+                "y": 760,
+                "tam": 9,
+                "entra": "rebote",
+                "en": "11:clienta",
+                "accion": "late"
+              }
+            ]
+          },
+          "tituloEn": [
+            0,
+            "11:tu"
+          ]
+        },
+        {
+          "desde": "12:esa",
+          "titulo": "Aficionada →|*PROFESIONAL*",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "normal",
+                "hasta": "12:profesional",
+                "sale": "ninguna"
+              },
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "aparece",
+                "cara": "feliz",
+                "gorro": "corona",
+                "brazo": "arriba",
+                "en": "12:profesional"
+              },
+              {
+                "pieza": "personaje",
+                "x": 800,
+                "y": 1020,
+                "escala": 0.75,
+                "color": "rosa",
+                "cara": "feliz",
+                "entra": "ninguna"
+              },
+              {
+                "pieza": "sello",
+                "texto": "3/3 · PRO",
+                "x": 560,
+                "y": 700,
+                "entra": "rebote",
+                "en": "12:profesional"
+              },
+              {
+                "pieza": "confeti",
+                "x": 540,
+                "y": 600,
+                "en": "12:profesional"
+              }
+            ]
+          },
+          "tituloEn": [
+            0,
+            "12:profesional"
+          ]
+        },
+        {
+          "desde": "13:guarda",
+          "titulo": "*GUARDA* y|*COMPARTE*",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "guino",
+                "brazo": "saluda"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "bandera",
+                "x": 640,
+                "y": 640,
+                "tam": 14,
+                "entra": "rebote",
+                "en": "13:guarda"
+              },
+              {
+                "pieza": "icono",
+                "nombre": "corazon",
+                "x": 880,
+                "y": 640,
+                "tam": 14,
+                "entra": "rebote",
+                "en": "13:comparte"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "¡GUÁRDALO!",
+                "x": 700,
+                "y": 800,
+                "tamano": 46,
+                "entra": "rebote",
+                "en": "13:guarda"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "¡COMPÁRTELO!",
+                "x": 740,
+                "y": 920,
+                "tamano": 46,
+                "fondo": "#F6EC9C",
+                "entra": "rebote",
+                "en": "13:comparte"
+              }
+            ]
+          },
+          "tituloEn": [
+            0,
+            "13:comparte"
+          ]
+        },
+        {
+          "desde": "14:qué",
+          "titulo": "¿Qué *APRENDISTE*?",
+          "dibujo": {
+            "fondo": "liso",
+            "fondoOpts": {
+              "paleta": [
+                "#E4E6FB",
+                "#9AA1DD"
+              ]
+            },
+            "elementos": [
+              {
+                "pieza": "personaje",
+                "x": 300,
+                "y": 1010,
+                "escala": 0.85,
+                "color": "#A9AEE3",
+                "entra": "ninguna",
+                "cara": "feliz",
+                "brazo": "arriba"
+              },
+              {
+                "pieza": "dialogo",
+                "texto": "¡Limpiar va primero!",
+                "x": 760,
+                "y": 640,
+                "cola": "izq",
+                "entra": "rebote",
+                "en": "14:cuéntanos"
+              },
+              {
+                "pieza": "letrero",
+                "texto": "CUÉNTANOS EN\nLOS COMENTARIOS",
+                "x": 700,
+                "y": 860,
+                "tamano": 44,
+                "fondo": "#F6EC9C",
+                "entra": "rebote",
+                "en": "14:comentarios"
+              },
+              {
+                "pieza": "letrero",
+                "x": 760,
+                "y": 1010,
+                "texto": "TIJERAS ✓",
+                "tamano": 34,
+                "fondo": "#F6EC9C",
+                "entra": "aparece",
+                "en": 0.2
+              }
+            ]
           }
         }
       ]
     }
-  ]
+  ],
+  "voz": {
+    "id": "ajOR9IDAaubDK5qtLUqQ",
+    "nombre": "Daniela"
+  }
 }

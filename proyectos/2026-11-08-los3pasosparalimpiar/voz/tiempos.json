@@ -1,0 +1,837 @@
+{
+  "huella": "3fe2cc9ada32",
+  "duracion": 56.561,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "¿Tus herramientas de uñas están limpias… o solo lo parecen?",
+      "clave": "parecen",
+      "inicio": 0,
+      "fin": 3.704,
+      "palabras": [
+        {
+          "texto": "¿Tus",
+          "inicio": 0,
+          "fin": 0.302
+        },
+        {
+          "texto": "herramientas",
+          "inicio": 0.337,
+          "fin": 0.882
+        },
+        {
+          "texto": "de",
+          "inicio": 0.917,
+          "fin": 0.975
+        },
+        {
+          "texto": "uñas",
+          "inicio": 1.033,
+          "fin": 1.265
+        },
+        {
+          "texto": "están",
+          "inicio": 1.324,
+          "fin": 1.602
+        },
+        {
+          "texto": "limpias…",
+          "inicio": 1.672,
+          "fin": 2.345
+        },
+        {
+          "texto": "o",
+          "inicio": 2.566,
+          "fin": 2.647
+        },
+        {
+          "texto": "solo",
+          "inicio": 2.705,
+          "fin": 2.995
+        },
+        {
+          "texto": "lo",
+          "inicio": 3.053,
+          "fin": 3.146
+        },
+        {
+          "texto": "parecen?",
+          "inicio": 3.193,
+          "fin": 3.704
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Ojo: lavarlas con agua y jabón no basta.",
+      "clave": "basta",
+      "inicio": 3.82,
+      "fin": 6.966,
+      "palabras": [
+        {
+          "texto": "Ojo:",
+          "inicio": 3.82,
+          "fin": 4.389
+        },
+        {
+          "texto": "lavarlas",
+          "inicio": 4.609,
+          "fin": 5.19
+        },
+        {
+          "texto": "con",
+          "inicio": 5.248,
+          "fin": 5.399
+        },
+        {
+          "texto": "agua",
+          "inicio": 5.503,
+          "fin": 5.759
+        },
+        {
+          "texto": "y",
+          "inicio": 5.828,
+          "fin": 5.875
+        },
+        {
+          "texto": "jabón",
+          "inicio": 5.933,
+          "fin": 6.258
+        },
+        {
+          "texto": "no",
+          "inicio": 6.316,
+          "fin": 6.409
+        },
+        {
+          "texto": "basta.",
+          "inicio": 6.455,
+          "fin": 6.966
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Y la máquina de ultrasonido tampoco las deja libres de bacterias.",
+      "clave": "bacterias",
+      "inicio": 7.129,
+      "fin": 10.6,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 7.129,
+          "fin": 7.187
+        },
+        {
+          "texto": "la",
+          "inicio": 7.291,
+          "fin": 7.372
+        },
+        {
+          "texto": "máquina",
+          "inicio": 7.43,
+          "fin": 7.755
+        },
+        {
+          "texto": "de",
+          "inicio": 7.802,
+          "fin": 7.86
+        },
+        {
+          "texto": "ultrasonido",
+          "inicio": 7.895,
+          "fin": 8.545
+        },
+        {
+          "texto": "tampoco",
+          "inicio": 8.603,
+          "fin": 9.009
+        },
+        {
+          "texto": "las",
+          "inicio": 9.056,
+          "fin": 9.172
+        },
+        {
+          "texto": "deja",
+          "inicio": 9.207,
+          "fin": 9.404
+        },
+        {
+          "texto": "libres",
+          "inicio": 9.462,
+          "fin": 9.752
+        },
+        {
+          "texto": "de",
+          "inicio": 9.776,
+          "fin": 9.822
+        },
+        {
+          "texto": "bacterias.",
+          "inicio": 9.868,
+          "fin": 10.6
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Una herramienta mal tratada le puede pasar hongos e infecciones a tu clienta.",
+      "clave": "hongos",
+      "inicio": 11.006,
+      "fin": 16.056,
+      "palabras": [
+        {
+          "texto": "Una",
+          "inicio": 11.006,
+          "fin": 11.215
+        },
+        {
+          "texto": "herramienta",
+          "inicio": 11.238,
+          "fin": 11.796
+        },
+        {
+          "texto": "mal",
+          "inicio": 11.854,
+          "fin": 12.04
+        },
+        {
+          "texto": "tratada",
+          "inicio": 12.098,
+          "fin": 12.597
+        },
+        {
+          "texto": "le",
+          "inicio": 12.759,
+          "fin": 12.875
+        },
+        {
+          "texto": "puede",
+          "inicio": 12.934,
+          "fin": 13.189
+        },
+        {
+          "texto": "pasar",
+          "inicio": 13.235,
+          "fin": 13.537
+        },
+        {
+          "texto": "hongos",
+          "inicio": 13.618,
+          "fin": 13.99
+        },
+        {
+          "texto": "e",
+          "inicio": 14.129,
+          "fin": 14.187
+        },
+        {
+          "texto": "infecciones",
+          "inicio": 14.245,
+          "fin": 15.023
+        },
+        {
+          "texto": "a",
+          "inicio": 15.127,
+          "fin": 15.197
+        },
+        {
+          "texto": "tu",
+          "inicio": 15.255,
+          "fin": 15.348
+        },
+        {
+          "texto": "clienta.",
+          "inicio": 15.394,
+          "fin": 16.056
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "Por eso son tres pasos, y en este orden.",
+      "clave": "tres",
+      "inicio": 16.347,
+      "fin": 18.738,
+      "palabras": [
+        {
+          "texto": "Por",
+          "inicio": 16.347,
+          "fin": 16.532
+        },
+        {
+          "texto": "eso",
+          "inicio": 16.59,
+          "fin": 16.753
+        },
+        {
+          "texto": "son",
+          "inicio": 16.811,
+          "fin": 16.939
+        },
+        {
+          "texto": "tres",
+          "inicio": 16.985,
+          "fin": 17.171
+        },
+        {
+          "texto": "pasos,",
+          "inicio": 17.229,
+          "fin": 17.705
+        },
+        {
+          "texto": "y",
+          "inicio": 17.809,
+          "fin": 17.891
+        },
+        {
+          "texto": "en",
+          "inicio": 17.96,
+          "fin": 18.053
+        },
+        {
+          "texto": "este",
+          "inicio": 18.111,
+          "fin": 18.32
+        },
+        {
+          "texto": "orden.",
+          "inicio": 18.39,
+          "fin": 18.738
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Paso uno: limpiar. Cepillo, detergente enzimático, y fuera toda la mugre.",
+      "clave": "limpiar",
+      "inicio": 18.773,
+      "fin": 24.276,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 18.773,
+          "fin": 19.11
+        },
+        {
+          "texto": "uno:",
+          "inicio": 19.214,
+          "fin": 19.539
+        },
+        {
+          "texto": "limpiar.",
+          "inicio": 19.655,
+          "fin": 20.34
+        },
+        {
+          "texto": "Cepillo,",
+          "inicio": 20.526,
+          "fin": 21.199
+        },
+        {
+          "texto": "detergente",
+          "inicio": 21.304,
+          "fin": 21.838
+        },
+        {
+          "texto": "enzimático,",
+          "inicio": 21.861,
+          "fin": 22.662
+        },
+        {
+          "texto": "y",
+          "inicio": 22.802,
+          "fin": 22.86
+        },
+        {
+          "texto": "fuera",
+          "inicio": 22.964,
+          "fin": 23.243
+        },
+        {
+          "texto": "toda",
+          "inicio": 23.312,
+          "fin": 23.568
+        },
+        {
+          "texto": "la",
+          "inicio": 23.626,
+          "fin": 23.707
+        },
+        {
+          "texto": "mugre.",
+          "inicio": 23.765,
+          "fin": 24.276
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "¿Por qué primero? Porque sobre la suciedad, el desinfectante no funciona.",
+      "clave": "suciedad",
+      "inicio": 24.439,
+      "fin": 29.257,
+      "palabras": [
+        {
+          "texto": "¿Por",
+          "inicio": 24.439,
+          "fin": 24.706
+        },
+        {
+          "texto": "qué",
+          "inicio": 24.764,
+          "fin": 24.845
+        },
+        {
+          "texto": "primero?",
+          "inicio": 24.891,
+          "fin": 25.507
+        },
+        {
+          "texto": "Porque",
+          "inicio": 25.623,
+          "fin": 25.936
+        },
+        {
+          "texto": "sobre",
+          "inicio": 26.018,
+          "fin": 26.25
+        },
+        {
+          "texto": "la",
+          "inicio": 26.296,
+          "fin": 26.366
+        },
+        {
+          "texto": "suciedad,",
+          "inicio": 26.424,
+          "fin": 27.028
+        },
+        {
+          "texto": "el",
+          "inicio": 27.167,
+          "fin": 27.318
+        },
+        {
+          "texto": "desinfectante",
+          "inicio": 27.376,
+          "fin": 28.096
+        },
+        {
+          "texto": "no",
+          "inicio": 28.177,
+          "fin": 28.34
+        },
+        {
+          "texto": "funciona.",
+          "inicio": 28.398,
+          "fin": 29.257
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "Paso dos: desinfectar. Las sumerges en desinfectante de grado médico, el tiempo que diga la etiqueta.",
+      "clave": "desinfectar",
+      "inicio": 29.605,
+      "fin": 36.142,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 29.605,
+          "fin": 29.919
+        },
+        {
+          "texto": "dos:",
+          "inicio": 29.977,
+          "fin": 30.441
+        },
+        {
+          "texto": "desinfectar.",
+          "inicio": 30.627,
+          "fin": 31.452
+        },
+        {
+          "texto": "Las",
+          "inicio": 31.707,
+          "fin": 31.846
+        },
+        {
+          "texto": "sumerges",
+          "inicio": 31.87,
+          "fin": 32.299
+        },
+        {
+          "texto": "en",
+          "inicio": 32.357,
+          "fin": 32.404
+        },
+        {
+          "texto": "desinfectante",
+          "inicio": 32.438,
+          "fin": 33.112
+        },
+        {
+          "texto": "de",
+          "inicio": 33.158,
+          "fin": 33.239
+        },
+        {
+          "texto": "grado",
+          "inicio": 33.286,
+          "fin": 33.565
+        },
+        {
+          "texto": "médico,",
+          "inicio": 33.623,
+          "fin": 34.122
+        },
+        {
+          "texto": "el",
+          "inicio": 34.284,
+          "fin": 34.435
+        },
+        {
+          "texto": "tiempo",
+          "inicio": 34.54,
+          "fin": 34.911
+        },
+        {
+          "texto": "que",
+          "inicio": 34.958,
+          "fin": 35.062
+        },
+        {
+          "texto": "diga",
+          "inicio": 35.12,
+          "fin": 35.364
+        },
+        {
+          "texto": "la",
+          "inicio": 35.422,
+          "fin": 35.48
+        },
+        {
+          "texto": "etiqueta.",
+          "inicio": 35.503,
+          "fin": 36.142
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Pero ojo: desinfectar no es esterilizar.",
+      "clave": "esterilizar",
+      "inicio": 36.328,
+      "fin": 39.312,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 36.328,
+          "fin": 36.606
+        },
+        {
+          "texto": "ojo:",
+          "inicio": 36.711,
+          "fin": 37.129
+        },
+        {
+          "texto": "desinfectar",
+          "inicio": 37.291,
+          "fin": 37.965
+        },
+        {
+          "texto": "no",
+          "inicio": 38.127,
+          "fin": 38.336
+        },
+        {
+          "texto": "es",
+          "inicio": 38.394,
+          "fin": 38.476
+        },
+        {
+          "texto": "esterilizar.",
+          "inicio": 38.534,
+          "fin": 39.312
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Paso tres: bolsa sellada y al autoclave: el vapor a presión acaba hasta con las esporas.",
+      "clave": "autoclave",
+      "inicio": 39.602,
+      "fin": 45.058,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 39.602,
+          "fin": 39.88
+        },
+        {
+          "texto": "tres:",
+          "inicio": 39.938,
+          "fin": 40.356
+        },
+        {
+          "texto": "bolsa",
+          "inicio": 40.519,
+          "fin": 40.856
+        },
+        {
+          "texto": "sellada",
+          "inicio": 40.902,
+          "fin": 41.32
+        },
+        {
+          "texto": "y",
+          "inicio": 41.401,
+          "fin": 41.448
+        },
+        {
+          "texto": "al",
+          "inicio": 41.506,
+          "fin": 41.599
+        },
+        {
+          "texto": "autoclave:",
+          "inicio": 41.657,
+          "fin": 42.295
+        },
+        {
+          "texto": "el",
+          "inicio": 42.435,
+          "fin": 42.586
+        },
+        {
+          "texto": "vapor",
+          "inicio": 42.644,
+          "fin": 42.922
+        },
+        {
+          "texto": "a",
+          "inicio": 42.969,
+          "fin": 42.992
+        },
+        {
+          "texto": "presión",
+          "inicio": 43.027,
+          "fin": 43.41
+        },
+        {
+          "texto": "acaba",
+          "inicio": 43.479,
+          "fin": 43.851
+        },
+        {
+          "texto": "hasta",
+          "inicio": 43.886,
+          "fin": 44.118
+        },
+        {
+          "texto": "con",
+          "inicio": 44.164,
+          "fin": 44.292
+        },
+        {
+          "texto": "las",
+          "inicio": 44.315,
+          "fin": 44.42
+        },
+        {
+          "texto": "esporas.",
+          "inicio": 44.478,
+          "fin": 45.058
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Y la bolsa se abre delante de tu clienta.",
+      "clave": "clienta",
+      "inicio": 45.198,
+      "fin": 47.427,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 45.198,
+          "fin": 45.256
+        },
+        {
+          "texto": "la",
+          "inicio": 45.36,
+          "fin": 45.43
+        },
+        {
+          "texto": "bolsa",
+          "inicio": 45.477,
+          "fin": 45.756
+        },
+        {
+          "texto": "se",
+          "inicio": 45.802,
+          "fin": 45.906
+        },
+        {
+          "texto": "abre",
+          "inicio": 45.964,
+          "fin": 46.162
+        },
+        {
+          "texto": "delante",
+          "inicio": 46.208,
+          "fin": 46.649
+        },
+        {
+          "texto": "de",
+          "inicio": 46.673,
+          "fin": 46.731
+        },
+        {
+          "texto": "tu",
+          "inicio": 46.789,
+          "fin": 46.87
+        },
+        {
+          "texto": "clienta.",
+          "inicio": 46.917,
+          "fin": 47.427
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Esa es la diferencia entre una aficionada y una profesional.",
+      "clave": "profesional",
+      "inicio": 47.59,
+      "fin": 50.899,
+      "palabras": [
+        {
+          "texto": "Esa",
+          "inicio": 47.59,
+          "fin": 47.822
+        },
+        {
+          "texto": "es",
+          "inicio": 47.845,
+          "fin": 47.915
+        },
+        {
+          "texto": "la",
+          "inicio": 47.938,
+          "fin": 47.985
+        },
+        {
+          "texto": "diferencia",
+          "inicio": 48.043,
+          "fin": 48.612
+        },
+        {
+          "texto": "entre",
+          "inicio": 48.67,
+          "fin": 48.971
+        },
+        {
+          "texto": "una",
+          "inicio": 49.03,
+          "fin": 49.157
+        },
+        {
+          "texto": "aficionada",
+          "inicio": 49.18,
+          "fin": 49.796
+        },
+        {
+          "texto": "y",
+          "inicio": 49.865,
+          "fin": 49.9
+        },
+        {
+          "texto": "una",
+          "inicio": 49.982,
+          "fin": 50.144
+        },
+        {
+          "texto": "profesional.",
+          "inicio": 50.191,
+          "fin": 50.899
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "Guarda y comparte esta información.",
+      "clave": "comparte",
+      "inicio": 51.119,
+      "fin": 53.128,
+      "palabras": [
+        {
+          "texto": "Guarda",
+          "inicio": 51.119,
+          "fin": 51.491
+        },
+        {
+          "texto": "y",
+          "inicio": 51.561,
+          "fin": 51.607
+        },
+        {
+          "texto": "comparte",
+          "inicio": 51.677,
+          "fin": 52.153
+        },
+        {
+          "texto": "esta",
+          "inicio": 52.199,
+          "fin": 52.35
+        },
+        {
+          "texto": "información.",
+          "inicio": 52.373,
+          "fin": 53.128
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "texto": "¿Qué aprendiste? Cuéntanos en los comentarios.",
+      "clave": "comentarios",
+      "inicio": 53.198,
+      "fin": 55.961,
+      "palabras": [
+        {
+          "texto": "¿Qué",
+          "inicio": 53.198,
+          "fin": 53.453
+        },
+        {
+          "texto": "aprendiste?",
+          "inicio": 53.488,
+          "fin": 54.242
+        },
+        {
+          "texto": "Cuéntanos",
+          "inicio": 54.428,
+          "fin": 54.904
+        },
+        {
+          "texto": "en",
+          "inicio": 54.962,
+          "fin": 55.02
+        },
+        {
+          "texto": "los",
+          "inicio": 55.043,
+          "fin": 55.136
+        },
+        {
+          "texto": "comentarios.",
+          "inicio": 55.171,
+          "fin": 55.961
+        }
+      ]
+    }
+  ]
+}
