@@ -7,7 +7,7 @@ const base = `
 *{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1080px;overflow:hidden}
 body{background:var(--bg);font-family:'Oswald',sans-serif;color:${C.car};position:relative}
-.safe{position:absolute;left:80px;top:80px;width:920px;height:920px;display:flex;flex-direction:column}
+.safe{position:absolute;left:150px;top:90px;width:780px;height:900px;display:flex;flex-direction:column}
 .top{display:flex;justify-content:space-between;align-items:center;font:400 24px 'Oswald';letter-spacing:3px;color:${C.gri};text-transform:uppercase}
 .top b{color:${C.ter};font-weight:700}
 h1{font-family:'Anton';font-weight:400;text-transform:uppercase;line-height:1.04;letter-spacing:.5px}
@@ -21,7 +21,7 @@ const top = (n, tag) => `<div class="top"><span>${tag}</span><span><b>0${n}</b> 
 const foot = (r) => `<div class="foot"><span>@carlosbarcoc</span><span>${r}</span></div>`;
 
 const notebook = `
-<svg width="920" height="330" viewBox="0 0 920 330">
+<svg width="780" height="280" viewBox="0 0 920 330">
  <defs>
   <linearGradient id="luz" x1="1" y1="0" x2="0" y2="1">
    <stop offset="0" stop-color="#F2C9A4" stop-opacity=".75"/><stop offset=".6" stop-color="#F4F3EE" stop-opacity="0"/>
@@ -56,7 +56,7 @@ const notebook = `
 </svg>`;
 
 const clock = `
-<svg width="300" height="300" viewBox="-150 -150 300 300">
+<svg width="260" height="260" viewBox="-150 -150 300 300">
  <circle r="140" fill="#FFFFFF" stroke="${C.bei}" stroke-width="6"/>
  <path d="M0 0 L0 -118 A118 118 0 0 1 102.2 59 Z" fill="${C.ter}" opacity=".9"/>
  ${Array.from({length:12},(_,i)=>{const a=i*Math.PI/6;return `<line x1="${Math.sin(a)*124}" y1="${-Math.cos(a)*124}" x2="${Math.sin(a)*134}" y2="${-Math.cos(a)*134}" stroke="${C.car}" stroke-width="4"/>`}).join('')}
@@ -67,7 +67,7 @@ const slides = [
 // 1 Gancho
 {bg:C.mar, html:`<div class="safe">
  ${top(1,'Marca personal · Marketing')}
- <h1 style="font-size:74px;margin-top:40px">Puedes empezar en marketing sin quitarle tiempo a tu familia</h1>
+ <h1 style="font-size:66px;margin-top:40px">Puedes empezar en marketing sin quitarle tiempo a tu familia</h1>
  <p class="sub" style="margin-top:26px">Tu día termina a las <span class="t">5 p. m.</span></p>
  <div style="margin-top:auto">${notebook}</div>
  <div class="foot" style="margin-top:22px"><span>@carlosbarcoc</span><span>Desliza →</span></div>
@@ -80,10 +80,10 @@ const slides = [
  ${[['Elige una sola habilidad.','Si quieres aprender todo, no avanzas en nada.'],
     ['Usa IA para organizar lo que aprendes.','Resúmenes, planes y repasos en minutos.'],
     ['Practica un contenido por semana.','La constancia pesa más que la intensidad.']].map((s,i)=>`
-  <div style="display:flex;align-items:center;gap:34px;background:#fff;border:3px solid ${C.bei};border-radius:22px;padding:28px 36px;box-shadow:0 10px 0 ${C.mar}">
+  <div style="display:flex;align-items:center;gap:34px;background:#fff;border:3px solid ${C.bei};border-radius:22px;padding:24px 30px;box-shadow:0 10px 0 ${C.mar}">
    <div style="font:400 92px/1 'Anton';color:${C.ter};width:70px;text-align:center">${i+1}</div>
    <div style="width:3px;align-self:stretch;background:${C.bei}"></div>
-   <div><div style="font:700 40px/1.15 'Oswald'">${s[0]}</div><div style="font:300 28px/1.35 'Oswald';color:${C.gri};margin-top:6px">${s[1]}</div></div>
+   <div><div style="font:700 36px/1.15 'Oswald'">${s[0]}</div><div style="font:300 28px/1.35 'Oswald';color:${C.gri};margin-top:6px">${s[1]}</div></div>
   </div>`).join('')}
  </div>
  ${foot('Sigue →')}
@@ -93,7 +93,7 @@ const slides = [
  ${top(3,'Tiempo realista')}
  <h1 style="font-size:76px;margin-top:40px">20 minutos al día</h1>
  <div class="rule" style="width:120px;margin-top:28px;background:${C.bei};height:6px"></div>
- <div style="display:flex;align-items:center;gap:56px;margin-top:auto;margin-bottom:auto">
+ <div style="display:flex;align-items:center;gap:40px;margin-top:auto;margin-bottom:auto">
   <div style="flex:none">${clock}</div>
   <div>
    <p class="sub" style="font-size:42px">No necesitas madrugar ni dejar tu empleo.</p>
@@ -131,7 +131,7 @@ const slides = [
   const s=slides[i];
   await p.setContent(`<!doctype html><html><head><meta charset="utf-8">${base}<style>:root{--bg:${s.bg}}</style></head><body>${s.html}</body></html>`,{waitUntil:'networkidle'});
   await p.evaluate(()=>document.fonts.ready);
-  const over = await p.evaluate(()=>[...document.querySelectorAll('.safe *')].filter(e=>{const r=e.getBoundingClientRect();return r.width&&(r.left<79||r.top<79||r.right>1001||r.bottom>1001)}).map(e=>e.tagName+':'+e.textContent.slice(0,20)));
+  const over = await p.evaluate(()=>[...document.querySelectorAll('.safe *')].filter(e=>{const r=e.getBoundingClientRect();return r.width&&(r.left<149||r.top<89||r.right>931||r.bottom>991)}).map(e=>e.tagName+':'+e.textContent.slice(0,20)));
   if(over.length) console.log('slide',i+1,'fuera del margen:',over);
   await p.screenshot({path:`${out}/carrusel-0${i+1}.png`});
  }
