@@ -3,8 +3,60 @@
   "estilo": "2d",
   "frases": [
     {
-      "texto": "",
-      "clave": ""
+      "texto": "¿Tus herramientas de uñas están limpias… o solo lo parecen?",
+      "clave": "parecen"
+    },
+    {
+      "texto": "Ojo: lavarlas con agua y jabón no basta.",
+      "clave": "basta"
+    },
+    {
+      "texto": "Y la máquina de ultrasonido tampoco las deja libres de bacterias.",
+      "clave": "bacterias"
+    },
+    {
+      "texto": "Una herramienta mal tratada le puede pasar hongos e infecciones a tu clienta.",
+      "clave": "hongos"
+    },
+    {
+      "texto": "Por eso son tres pasos, y en este orden.",
+      "clave": "tres"
+    },
+    {
+      "texto": "Paso uno: limpiar. Cepillo, detergente enzimático, y fuera toda la mugre.",
+      "clave": "limpiar"
+    },
+    {
+      "texto": "¿Por qué primero? Porque sobre la suciedad, el desinfectante no funciona.",
+      "clave": "suciedad"
+    },
+    {
+      "texto": "Paso dos: desinfectar. Las sumerges en desinfectante de grado médico, el tiempo que diga la etiqueta.",
+      "clave": "desinfectar"
+    },
+    {
+      "texto": "Pero ojo: desinfectar no es esterilizar.",
+      "clave": "esterilizar"
+    },
+    {
+      "texto": "Paso tres: bolsa sellada y al autoclave: el vapor a presión acaba hasta con las esporas.",
+      "clave": "autoclave"
+    },
+    {
+      "texto": "Y la bolsa se abre delante de tu clienta.",
+      "clave": "clienta"
+    },
+    {
+      "texto": "Esa es la diferencia entre una aficionada y una profesional.",
+      "clave": "profesional"
+    },
+    {
+      "texto": "Guarda y comparte esta información.",
+      "clave": "comparte"
+    },
+    {
+      "texto": "¿Qué aprendiste? Cuéntanos en los comentarios.",
+      "clave": "comentarios"
     }
   ],
   "juego": {

@@ -2,8 +2,8 @@
 
 Estado del proyecto (se actualiza en cada paso).
 
-- [ ] 1. Investigación → notas.md
-- [ ] 2. Guion aprobado
+- [x] 1. Investigación → notas.md
+- [x] 2. Guion aprobado
 - [ ] 3. Voz
 - [ ] 4. Tomas aprobadas (revisar/tomas.jpg)
 - [ ] 5. Borrador aprobado
