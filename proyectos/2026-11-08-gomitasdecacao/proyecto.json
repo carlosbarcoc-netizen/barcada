@@ -1,0 +1,90 @@
+{
+  "titulo": "Gomitas de cacao en 4 pasos",
+  "estilo": "2d",
+  "frases": [
+    {
+      "texto": "¿Gomitas de cacao? ¡Y sin una gota de chocolate!",
+      "clave": "gomitas"
+    },
+    {
+      "texto": "El secreto está en la pulpa blanca que envuelve las semillas.",
+      "clave": "pulpa"
+    },
+    {
+      "texto": "Esa baba que casi siempre se bota al fermentar.",
+      "clave": "bota"
+    },
+    {
+      "texto": "Solo en Ghana se escurren casi dos millones de litros al año.",
+      "clave": "millones"
+    },
+    {
+      "texto": "Y mira esto: ya trae azúcar, ácido… y pectina, el gel de las mermeladas.",
+      "clave": "pectina"
+    },
+    {
+      "texto": "Paso uno: cuela la pulpa fresca y quédate con el jugo.",
+      "clave": "jugo"
+    },
+    {
+      "texto": "Paso dos: refuérzalo con un poquito de pectina y azúcar.",
+      "clave": "azúcar"
+    },
+    {
+      "texto": "¿Por qué azúcar? Porque sin ella la pectina no cuaja.",
+      "clave": "cuaja"
+    },
+    {
+      "texto": "Paso tres: cocina a fuego medio, removiendo, hasta que espese.",
+      "clave": "espese"
+    },
+    {
+      "texto": "Y aquí viene lo bueno: la acidez natural del cacao ya hace su parte.",
+      "clave": "acidez"
+    },
+    {
+      "texto": "Paso cuatro: sirve en moldes y deja reposar hasta que estén firmes.",
+      "clave": "moldes"
+    },
+    {
+      "texto": "¿Y a qué saben? No a chocolate… ¡a fruta tropical!",
+      "clave": "tropical"
+    },
+    {
+      "texto": "Lo que se botaba, convertido en dulce.",
+      "clave": "dulce"
+    },
+    {
+      "texto": "¿Quieres aprender a hacerlas paso a paso? Info en el link de la biografía.",
+      "clave": "link"
+    }
+  ],
+  "juego": {
+    "piel": "neon",
+    "progreso": {
+      "titulo": "",
+      "etiqueta": "",
+      "pasos": [
+        {
+          "texto": "",
+          "en": ""
+        }
+      ]
+    },
+    "firma": "@nativoterrus"
+  },
+  "escenas": [
+    {
+      "nombre": "partida",
+      "tomas": [
+        {
+          "desde": 0,
+          "titulo": "",
+          "dibujo": {
+            "elementos": []
+          }
+        }
+      ]
+    }
+  ]
+}
