@@ -1,0 +1,893 @@
+{
+  "huella": "af0845a6b8cf",
+  "duracion": 60.414,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "¿Le echas el sorbato a ojo a tu mermelada? ¡Error!",
+      "clave": "ojo",
+      "inicio": 0,
+      "fin": 2.902,
+      "palabras": [
+        {
+          "texto": "¿Le",
+          "inicio": 0,
+          "fin": 0.151
+        },
+        {
+          "texto": "echas",
+          "inicio": 0.174,
+          "fin": 0.383
+        },
+        {
+          "texto": "el",
+          "inicio": 0.441,
+          "fin": 0.511
+        },
+        {
+          "texto": "sorbato",
+          "inicio": 0.569,
+          "fin": 0.975
+        },
+        {
+          "texto": "a",
+          "inicio": 1.01,
+          "fin": 1.033
+        },
+        {
+          "texto": "ojo",
+          "inicio": 1.091,
+          "fin": 1.254
+        },
+        {
+          "texto": "a",
+          "inicio": 1.289,
+          "fin": 1.312
+        },
+        {
+          "texto": "tu",
+          "inicio": 1.358,
+          "fin": 1.451
+        },
+        {
+          "texto": "mermelada?",
+          "inicio": 1.509,
+          "fin": 2.171
+        },
+        {
+          "texto": "¡Error!",
+          "inicio": 2.31,
+          "fin": 2.902
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Te enseño la cuenta exacta en cuatro pasos.",
+      "clave": "cuenta",
+      "inicio": 3.448,
+      "fin": 5.689,
+      "palabras": [
+        {
+          "texto": "Te",
+          "inicio": 3.448,
+          "fin": 3.564
+        },
+        {
+          "texto": "enseño",
+          "inicio": 3.587,
+          "fin": 3.889
+        },
+        {
+          "texto": "la",
+          "inicio": 3.913,
+          "fin": 3.971
+        },
+        {
+          "texto": "cuenta",
+          "inicio": 4.017,
+          "fin": 4.249
+        },
+        {
+          "texto": "exacta",
+          "inicio": 4.272,
+          "fin": 4.598
+        },
+        {
+          "texto": "en",
+          "inicio": 4.621,
+          "fin": 4.679
+        },
+        {
+          "texto": "cuatro",
+          "inicio": 4.748,
+          "fin": 5.074
+        },
+        {
+          "texto": "pasos.",
+          "inicio": 5.12,
+          "fin": 5.689
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Paso uno: el límite. El Codex permite mil miligramos por kilo en mermeladas.",
+      "clave": "límite",
+      "inicio": 5.979,
+      "fin": 10.995,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 5.979,
+          "fin": 6.246
+        },
+        {
+          "texto": "uno:",
+          "inicio": 6.351,
+          "fin": 6.653
+        },
+        {
+          "texto": "el",
+          "inicio": 6.838,
+          "fin": 6.966
+        },
+        {
+          "texto": "límite.",
+          "inicio": 7.024,
+          "fin": 7.593
+        },
+        {
+          "texto": "El",
+          "inicio": 7.779,
+          "fin": 7.941
+        },
+        {
+          "texto": "Codex",
+          "inicio": 8.011,
+          "fin": 8.371
+        },
+        {
+          "texto": "permite",
+          "inicio": 8.452,
+          "fin": 8.87
+        },
+        {
+          "texto": "mil",
+          "inicio": 8.94,
+          "fin": 9.137
+        },
+        {
+          "texto": "miligramos",
+          "inicio": 9.207,
+          "fin": 9.718
+        },
+        {
+          "texto": "por",
+          "inicio": 9.776,
+          "fin": 9.915
+        },
+        {
+          "texto": "kilo",
+          "inicio": 9.973,
+          "fin": 10.217
+        },
+        {
+          "texto": "en",
+          "inicio": 10.275,
+          "fin": 10.356
+        },
+        {
+          "texto": "mermeladas.",
+          "inicio": 10.414,
+          "fin": 10.995
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "O sea, un gramo por kilo. ¡Ese es tu techo!",
+      "clave": "techo",
+      "inicio": 11.018,
+      "fin": 13.839,
+      "palabras": [
+        {
+          "texto": "O",
+          "inicio": 11.018,
+          "fin": 11.041
+        },
+        {
+          "texto": "sea,",
+          "inicio": 11.088,
+          "fin": 11.262
+        },
+        {
+          "texto": "un",
+          "inicio": 11.32,
+          "fin": 11.413
+        },
+        {
+          "texto": "gramo",
+          "inicio": 11.471,
+          "fin": 11.796
+        },
+        {
+          "texto": "por",
+          "inicio": 11.854,
+          "fin": 12.005
+        },
+        {
+          "texto": "kilo.",
+          "inicio": 12.063,
+          "fin": 12.539
+        },
+        {
+          "texto": "¡Ese",
+          "inicio": 12.759,
+          "fin": 13.154
+        },
+        {
+          "texto": "es",
+          "inicio": 13.177,
+          "fin": 13.235
+        },
+        {
+          "texto": "tu",
+          "inicio": 13.282,
+          "fin": 13.386
+        },
+        {
+          "texto": "techo!",
+          "inicio": 13.444,
+          "fin": 13.839
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "Paso dos: pesa tu tanda ya terminada. ¿Diez kilos? Diez gramos.",
+      "clave": "pesa",
+      "inicio": 14.303,
+      "fin": 19.133,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 14.303,
+          "fin": 14.582
+        },
+        {
+          "texto": "dos:",
+          "inicio": 14.64,
+          "fin": 15.163
+        },
+        {
+          "texto": "pesa",
+          "inicio": 15.348,
+          "fin": 15.627
+        },
+        {
+          "texto": "tu",
+          "inicio": 15.685,
+          "fin": 15.789
+        },
+        {
+          "texto": "tanda",
+          "inicio": 15.848,
+          "fin": 16.138
+        },
+        {
+          "texto": "ya",
+          "inicio": 16.207,
+          "fin": 16.312
+        },
+        {
+          "texto": "terminada.",
+          "inicio": 16.382,
+          "fin": 17.055
+        },
+        {
+          "texto": "¿Diez",
+          "inicio": 17.345,
+          "fin": 17.705
+        },
+        {
+          "texto": "kilos?",
+          "inicio": 17.775,
+          "fin": 18.216
+        },
+        {
+          "texto": "Diez",
+          "inicio": 18.297,
+          "fin": 18.483
+        },
+        {
+          "texto": "gramos.",
+          "inicio": 18.541,
+          "fin": 19.133
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Pero ojo, aquí viene la trampa.",
+      "clave": "trampa",
+      "inicio": 19.389,
+      "fin": 21.49,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 19.389,
+          "fin": 19.598
+        },
+        {
+          "texto": "ojo,",
+          "inicio": 19.667,
+          "fin": 20.05
+        },
+        {
+          "texto": "aquí",
+          "inicio": 20.236,
+          "fin": 20.468
+        },
+        {
+          "texto": "viene",
+          "inicio": 20.515,
+          "fin": 20.759
+        },
+        {
+          "texto": "la",
+          "inicio": 20.817,
+          "fin": 20.898
+        },
+        {
+          "texto": "trampa.",
+          "inicio": 20.956,
+          "fin": 21.49
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "Ese límite cuenta el ácido sórbico… y tú compras sorbato de potasio, que trae solo un setenta y cinco por ciento.",
+      "clave": "ácido",
+      "inicio": 21.78,
+      "fin": 28.073,
+      "palabras": [
+        {
+          "texto": "Ese",
+          "inicio": 21.78,
+          "fin": 22.047
+        },
+        {
+          "texto": "límite",
+          "inicio": 22.105,
+          "fin": 22.465
+        },
+        {
+          "texto": "cuenta",
+          "inicio": 22.523,
+          "fin": 22.848
+        },
+        {
+          "texto": "el",
+          "inicio": 22.906,
+          "fin": 22.988
+        },
+        {
+          "texto": "ácido",
+          "inicio": 23.046,
+          "fin": 23.29
+        },
+        {
+          "texto": "sórbico…",
+          "inicio": 23.348,
+          "fin": 23.951
+        },
+        {
+          "texto": "y",
+          "inicio": 24.3,
+          "fin": 24.369
+        },
+        {
+          "texto": "tú",
+          "inicio": 24.427,
+          "fin": 24.52
+        },
+        {
+          "texto": "compras",
+          "inicio": 24.567,
+          "fin": 24.868
+        },
+        {
+          "texto": "sorbato",
+          "inicio": 24.892,
+          "fin": 25.263
+        },
+        {
+          "texto": "de",
+          "inicio": 25.31,
+          "fin": 25.368
+        },
+        {
+          "texto": "potasio,",
+          "inicio": 25.414,
+          "fin": 25.925
+        },
+        {
+          "texto": "que",
+          "inicio": 26.006,
+          "fin": 26.111
+        },
+        {
+          "texto": "trae",
+          "inicio": 26.157,
+          "fin": 26.343
+        },
+        {
+          "texto": "solo",
+          "inicio": 26.378,
+          "fin": 26.587
+        },
+        {
+          "texto": "un",
+          "inicio": 26.645,
+          "fin": 26.703
+        },
+        {
+          "texto": "setenta",
+          "inicio": 26.761,
+          "fin": 27.074
+        },
+        {
+          "texto": "y",
+          "inicio": 27.109,
+          "fin": 27.156
+        },
+        {
+          "texto": "cinco",
+          "inicio": 27.179,
+          "fin": 27.423
+        },
+        {
+          "texto": "por",
+          "inicio": 27.469,
+          "fin": 27.597
+        },
+        {
+          "texto": "ciento.",
+          "inicio": 27.632,
+          "fin": 28.073
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "Paso tres: multiplica por 1,34. ¡Te dan 13,4 gramos! ¿Usas benzoato? Por 1,18.",
+      "clave": "multiplica",
+      "inicio": 28.363,
+      "fin": 36.722,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 28.363,
+          "fin": 29.006
+        },
+        {
+          "texto": "tres:",
+          "inicio": 29.006,
+          "fin": 29.649
+        },
+        {
+          "texto": "multiplica",
+          "inicio": 29.649,
+          "fin": 30.292
+        },
+        {
+          "texto": "por",
+          "inicio": 30.292,
+          "fin": 30.935
+        },
+        {
+          "texto": "1,34.",
+          "inicio": 30.935,
+          "fin": 31.578
+        },
+        {
+          "texto": "¡Te",
+          "inicio": 31.578,
+          "fin": 32.221000000000004
+        },
+        {
+          "texto": "dan",
+          "inicio": 32.221000000000004,
+          "fin": 32.864000000000004
+        },
+        {
+          "texto": "13,4",
+          "inicio": 32.864000000000004,
+          "fin": 33.507
+        },
+        {
+          "texto": "gramos!",
+          "inicio": 33.507,
+          "fin": 34.15
+        },
+        {
+          "texto": "¿Usas",
+          "inicio": 34.15,
+          "fin": 34.793
+        },
+        {
+          "texto": "benzoato?",
+          "inicio": 34.793,
+          "fin": 35.436
+        },
+        {
+          "texto": "Por",
+          "inicio": 35.436,
+          "fin": 36.079
+        },
+        {
+          "texto": "1,18.",
+          "inicio": 36.079,
+          "fin": 36.722
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Disuélvelo en un chorrito de agua y mezcla bien.",
+      "clave": "disuélvelo",
+      "inicio": 37.013,
+      "fin": 39.044,
+      "palabras": [
+        {
+          "texto": "Disuélvelo",
+          "inicio": 37.013,
+          "fin": 37.524
+        },
+        {
+          "texto": "en",
+          "inicio": 37.558,
+          "fin": 37.605
+        },
+        {
+          "texto": "un",
+          "inicio": 37.674,
+          "fin": 37.756
+        },
+        {
+          "texto": "chorrito",
+          "inicio": 37.802,
+          "fin": 38.162
+        },
+        {
+          "texto": "de",
+          "inicio": 38.209,
+          "fin": 38.267
+        },
+        {
+          "texto": "agua",
+          "inicio": 38.325,
+          "fin": 38.464
+        },
+        {
+          "texto": "y",
+          "inicio": 38.487,
+          "fin": 38.51
+        },
+        {
+          "texto": "mezcla",
+          "inicio": 38.568,
+          "fin": 38.835
+        },
+        {
+          "texto": "bien.",
+          "inicio": 38.87,
+          "fin": 39.044
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Paso cuatro: mide el pH. A pH cuatro trabaja casi todo; a pH cinco, ¡apenas un tercio!",
+      "clave": "pH",
+      "inicio": 39.068,
+      "fin": 46.66,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 39.068,
+          "fin": 39.51458823529411
+        },
+        {
+          "texto": "cuatro:",
+          "inicio": 39.51458823529411,
+          "fin": 39.961176470588235
+        },
+        {
+          "texto": "mide",
+          "inicio": 39.961176470588235,
+          "fin": 40.40776470588235
+        },
+        {
+          "texto": "el",
+          "inicio": 40.40776470588235,
+          "fin": 40.854352941176465
+        },
+        {
+          "texto": "pH.",
+          "inicio": 40.854352941176465,
+          "fin": 41.30094117647059
+        },
+        {
+          "texto": "A",
+          "inicio": 41.30094117647059,
+          "fin": 41.7475294117647
+        },
+        {
+          "texto": "pH",
+          "inicio": 41.7475294117647,
+          "fin": 42.19411764705882
+        },
+        {
+          "texto": "cuatro",
+          "inicio": 42.19411764705882,
+          "fin": 42.64070588235294
+        },
+        {
+          "texto": "trabaja",
+          "inicio": 42.64070588235294,
+          "fin": 43.087294117647055
+        },
+        {
+          "texto": "casi",
+          "inicio": 43.087294117647055,
+          "fin": 43.53388235294118
+        },
+        {
+          "texto": "todo;",
+          "inicio": 43.53388235294118,
+          "fin": 43.98047058823529
+        },
+        {
+          "texto": "a",
+          "inicio": 43.98047058823529,
+          "fin": 44.42705882352941
+        },
+        {
+          "texto": "pH",
+          "inicio": 44.42705882352941,
+          "fin": 44.87364705882353
+        },
+        {
+          "texto": "cinco,",
+          "inicio": 44.87364705882353,
+          "fin": 45.320235294117644
+        },
+        {
+          "texto": "¡apenas",
+          "inicio": 45.320235294117644,
+          "fin": 45.76682352941176
+        },
+        {
+          "texto": "un",
+          "inicio": 45.76682352941176,
+          "fin": 46.21341176470588
+        },
+        {
+          "texto": "tercio!",
+          "inicio": 46.21341176470588,
+          "fin": 46.66
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "¿Y en pulpas? La misma cuenta: solo cambia el límite que fija la norma de tu país.",
+      "clave": "pulpas",
+      "inicio": 47.008,
+      "fin": 51.699,
+      "palabras": [
+        {
+          "texto": "¿Y",
+          "inicio": 47.008,
+          "fin": 47.183
+        },
+        {
+          "texto": "en",
+          "inicio": 47.241,
+          "fin": 47.287
+        },
+        {
+          "texto": "pulpas?",
+          "inicio": 47.334,
+          "fin": 47.856
+        },
+        {
+          "texto": "La",
+          "inicio": 48.32,
+          "fin": 48.413
+        },
+        {
+          "texto": "misma",
+          "inicio": 48.448,
+          "fin": 48.657
+        },
+        {
+          "texto": "cuenta:",
+          "inicio": 48.692,
+          "fin": 49.017
+        },
+        {
+          "texto": "solo",
+          "inicio": 49.04,
+          "fin": 49.238
+        },
+        {
+          "texto": "cambia",
+          "inicio": 49.284,
+          "fin": 49.539
+        },
+        {
+          "texto": "el",
+          "inicio": 49.574,
+          "fin": 49.632
+        },
+        {
+          "texto": "límite",
+          "inicio": 49.667,
+          "fin": 50.004
+        },
+        {
+          "texto": "que",
+          "inicio": 50.062,
+          "fin": 50.143
+        },
+        {
+          "texto": "fija",
+          "inicio": 50.201,
+          "fin": 50.433
+        },
+        {
+          "texto": "la",
+          "inicio": 50.48,
+          "fin": 50.549
+        },
+        {
+          "texto": "norma",
+          "inicio": 50.608,
+          "fin": 50.863
+        },
+        {
+          "texto": "de",
+          "inicio": 50.898,
+          "fin": 50.944
+        },
+        {
+          "texto": "tu",
+          "inicio": 51.002,
+          "fin": 51.107
+        },
+        {
+          "texto": "país.",
+          "inicio": 51.165,
+          "fin": 51.699
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Kilos, límite y factor. ¡Nunca más a ojo!",
+      "clave": "nunca",
+      "inicio": 51.989,
+      "fin": 55.019,
+      "palabras": [
+        {
+          "texto": "Kilos,",
+          "inicio": 51.989,
+          "fin": 52.395
+        },
+        {
+          "texto": "límite",
+          "inicio": 52.43,
+          "fin": 52.79
+        },
+        {
+          "texto": "y",
+          "inicio": 52.813,
+          "fin": 52.837
+        },
+        {
+          "texto": "factor.",
+          "inicio": 52.895,
+          "fin": 53.464
+        },
+        {
+          "texto": "¡Nunca",
+          "inicio": 53.87,
+          "fin": 54.288
+        },
+        {
+          "texto": "más",
+          "inicio": 54.334,
+          "fin": 54.474
+        },
+        {
+          "texto": "a",
+          "inicio": 54.532,
+          "fin": 54.555
+        },
+        {
+          "texto": "ojo!",
+          "inicio": 54.636,
+          "fin": 55.019
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
+      "clave": "NativoTerrus",
+      "inicio": 55.426,
+      "fin": 59.814,
+      "palabras": [
+        {
+          "texto": "Síguenos",
+          "inicio": 55.426,
+          "fin": 55.824909090909095
+        },
+        {
+          "texto": "en",
+          "inicio": 55.824909090909095,
+          "fin": 56.22381818181818
+        },
+        {
+          "texto": "NativoTerrus",
+          "inicio": 56.22381818181818,
+          "fin": 56.622727272727275
+        },
+        {
+          "texto": "para",
+          "inicio": 56.622727272727275,
+          "fin": 57.02163636363637
+        },
+        {
+          "texto": "descubrir",
+          "inicio": 57.02163636363637,
+          "fin": 57.420545454545454
+        },
+        {
+          "texto": "la",
+          "inicio": 57.420545454545454,
+          "fin": 57.81945454545455
+        },
+        {
+          "texto": "ciencia",
+          "inicio": 57.81945454545455,
+          "fin": 58.218363636363634
+        },
+        {
+          "texto": "detrás",
+          "inicio": 58.218363636363634,
+          "fin": 58.61727272727273
+        },
+        {
+          "texto": "de",
+          "inicio": 58.61727272727273,
+          "fin": 59.01618181818182
+        },
+        {
+          "texto": "los",
+          "inicio": 59.01618181818182,
+          "fin": 59.41509090909091
+        },
+        {
+          "texto": "alimentos.",
+          "inicio": 59.41509090909091,
+          "fin": 59.814
+        }
+      ]
+    }
+  ]
+}
