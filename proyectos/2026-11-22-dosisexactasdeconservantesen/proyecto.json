@@ -1,0 +1,88 @@
+{
+  "titulo": "Conservantes: la dosis exacta",
+  "estilo": "2d",
+  "frases": [
+    {
+      "texto": "¿Le echas el sorbato a ojo a tu mermelada? ¡Error!",
+      "clave": "ojo"
+    },
+    {
+      "texto": "Te enseño la cuenta exacta en cuatro pasos.",
+      "clave": "cuenta"
+    },
+    {
+      "texto": "Paso uno: el límite. El Codex permite mil miligramos por kilo en mermeladas.",
+      "clave": "límite"
+    },
+    {
+      "texto": "O sea, un gramo por kilo. ¡Ese es tu techo!",
+      "clave": "techo"
+    },
+    {
+      "texto": "Paso dos: pesa tu tanda ya terminada. ¿Diez kilos? Diez gramos.",
+      "clave": "pesa"
+    },
+    {
+      "texto": "Pero ojo, aquí viene la trampa.",
+      "clave": "trampa"
+    },
+    {
+      "texto": "Ese límite cuenta el ácido sórbico… y tú compras sorbato de potasio, que trae solo un setenta y cinco por ciento.",
+      "clave": "ácido"
+    },
+    {
+      "texto": "Paso tres: multiplica por 1,34. ¡Te dan 13,4 gramos! ¿Usas benzoato? Por 1,18.",
+      "clave": "multiplica",
+      "dicho": "Paso tres: multiplica por uno coma treinta y cuatro. ¡Te dan trece coma cuatro gramos! ¿Usas benzoato? Por uno coma dieciocho."
+    },
+    {
+      "texto": "Disuélvelo en un chorrito de agua y mezcla bien.",
+      "clave": "disuélvelo"
+    },
+    {
+      "texto": "Paso cuatro: mide el pH. A pH cuatro trabaja casi todo; a pH cinco, ¡apenas un tercio!",
+      "clave": "pH",
+      "dicho": "Paso cuatro: mide el pe hache. A pe hache cuatro trabaja casi todo; a pe hache cinco, ¡apenas un tercio!"
+    },
+    {
+      "texto": "¿Y en pulpas? La misma cuenta: solo cambia el límite que fija la norma de tu país.",
+      "clave": "pulpas"
+    },
+    {
+      "texto": "Kilos, límite y factor. ¡Nunca más a ojo!",
+      "clave": "nunca"
+    },
+    {
+      "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
+      "clave": "NativoTerrus",
+      "dicho": "Síguenos en Nativo Terrus para descubrir la ciencia detrás de los alimentos."
+    }
+  ],
+  "juego": {
+    "piel": "neon",
+    "progreso": {
+      "titulo": "",
+      "etiqueta": "",
+      "pasos": [
+        {
+          "texto": "",
+          "en": ""
+        }
+      ]
+    }
+  },
+  "escenas": [
+    {
+      "nombre": "partida",
+      "tomas": [
+        {
+          "desde": 0,
+          "titulo": "",
+          "dibujo": {
+            "elementos": []
+          }
+        }
+      ]
+    }
+  ]
+}
