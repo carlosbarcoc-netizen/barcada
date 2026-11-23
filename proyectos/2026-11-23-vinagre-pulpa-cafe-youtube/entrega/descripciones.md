@@ -51,3 +51,12 @@ Dato extra: con pulpa sola, un estudio en Indonesia llegó apenas a 2,4 % de aci
 ## Ficha
 - Categoría: Educación
 - Contenido alterado o sintético: No (fotos reales de Pexels; voz generada con IA → márcalo si YouTube lo pregunta sobre la voz)
+
+## Prompt para ChatGPT (miniatura 16:9)
+Crea una miniatura de YouTube horizontal 16:9 (1280 × 720), fotorrealista y muy llamativa, con colores vivos y saturados.
+Fondo: una finca cafetera latinoamericana en la montaña, desenfocada. En primer plano, a la izquierda, un montón de pulpa de café fresca, roja y brillante. A la derecha, una botella de vidrio transparente sin etiqueta con vinagre color ámbar dorado, iluminada desde atrás para que brille, con unas cerezas de café rojas al lado. Entre las dos, una flecha curva gruesa de color amarillo que va de la pulpa a la botella. El centro de la imagen, más oscuro y desenfocado, para que el texto resalte.
+Texto centrado en horizontal y en vertical, en tipografía condensada, gruesa y en mayúsculas (estilo Anton), con borde negro y sombra:
+línea 1, en blanco: «VINAGRE DE»
+línea 2, enorme, en amarillo-naranja degradado, sobre una franja inclinada de color rosa-fucsia intenso: «PULPA DE CAFÉ»
+debajo, un sello redondeado amarillo con letras negras: «PASO A PASO DESDE LA FINCA»
+Escribe el texto exactamente así, con la tilde en CAFÉ y sin faltas de ortografía. Sin personas, caras ni manos, y sin marcas, logos ni ningún otro texto. Alto contraste, que se lea bien en tamaño pequeño en el celular.
