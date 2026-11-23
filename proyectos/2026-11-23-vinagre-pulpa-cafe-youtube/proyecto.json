@@ -1,0 +1,386 @@
+{
+  "titulo": "Vinagre de pulpa de café",
+  "estilo": "documental",
+  "calidad": "normal",
+  "formato": "horizontal",
+  "sujeto": "",
+  "frases": [
+    {
+      "texto": "¿Esa montaña de pulpa que sale de tu despulpadora? Mucha gente la bota. ¡Y es vinagre esperando a nacer!",
+      "clave": "vinagre"
+    },
+    {
+      "texto": "Sí, vinagre. Ácido, aromático, con un color ámbar precioso, y hecho con lo que hoy es un problema en la finca.",
+      "clave": "finca"
+    },
+    {
+      "texto": "Hoy te enseño a hacerlo paso a paso, con la ciencia detrás, para que no te salga un frasco de moho.",
+      "clave": "ciencia"
+    },
+    {
+      "texto": "Son dos fermentaciones, cinco pasos y una cuenta muy sencilla.",
+      "clave": "fermentaciones"
+    },
+    {
+      "texto": "Y quédate hasta el final, porque hay un error que arruina el vinagre justo cuando ya está listo.",
+      "clave": "error"
+    },
+    {
+      "texto": "Primero, mira cuánta pulpa estamos hablando.",
+      "clave": "cuánta"
+    },
+    {
+      "texto": "Según Cenicafé, la pulpa es casi el cuarenta y cuatro por ciento del peso del fruto fresco.",
+      "clave": "cuarenta"
+    },
+    {
+      "texto": "O sea: de cada cien kilos de café cereza, unos cuarenta y cuatro se vuelven pulpa.",
+      "clave": "cien"
+    },
+    {
+      "texto": "Y esa pulpa trae azúcar. En base seca, Cenicafé reporta alrededor de un dieciocho por ciento de azúcares totales.",
+      "clave": "azúcar"
+    },
+    {
+      "texto": "Azúcar es comida para microbios. Y eso es justo lo que necesitamos.",
+      "clave": "microbios"
+    },
+    {
+      "texto": "Pero ojo: esa misma humedad y ese azúcar hacen que la pulpa se dañe rapidísimo.",
+      "clave": "rapidísimo"
+    },
+    {
+      "texto": "Por eso la regla número uno es: pulpa fresca, del mismo día. Nada de pulpa que lleva días amontonada.",
+      "clave": "fresca"
+    },
+    {
+      "texto": "Ahora, ¿cómo se convierte una fruta en vinagre? En dos fermentaciones, una detrás de la otra.",
+      "clave": "dos"
+    },
+    {
+      "texto": "La primera la hacen las levaduras: se comen el azúcar y lo convierten en alcohol.",
+      "clave": "alcohol"
+    },
+    {
+      "texto": "Es lo mismo que pasa con un vino o una chicha. Sin aire, tapado, burbujeando.",
+      "clave": "tapado"
+    },
+    {
+      "texto": "La segunda la hacen las bacterias acéticas, como el Acetobacter.",
+      "clave": "Acetobacter"
+    },
+    {
+      "texto": "Estas se comen el alcohol y lo convierten en ácido acético. Eso es el vinagre.",
+      "clave": "acético"
+    },
+    {
+      "texto": "Y aquí viene lo bueno: las bacterias acéticas necesitan oxígeno. Mucho oxígeno.",
+      "clave": "oxígeno"
+    },
+    {
+      "texto": "La primera fermentación es cerrada. La segunda es abierta. Si las confundes, no hay vinagre.",
+      "clave": "abierta"
+    },
+    {
+      "texto": "Un estudio en Indonesia lo hizo justo así con pulpa de café: diez días de alcohol y siete de fermentación acética.",
+      "clave": "Indonesia"
+    },
+    {
+      "texto": "Llegaron a un vinagre con pe hache de tres. O sea, bien ácido.",
+      "clave": "tres"
+    },
+    {
+      "texto": "Pero, ¿qué tan ácido tiene que quedar para llamarse vinagre?",
+      "clave": "ácido"
+    },
+    {
+      "texto": "La norma del Codex Alimentarius pide, para los vinagres que no son de vino, mínimo cincuenta gramos de ácido acético por litro.",
+      "clave": "cincuenta"
+    },
+    {
+      "texto": "Eso es un cinco por ciento de acidez. Y ojo, tu país puede tener su propia norma, así que revísala.",
+      "clave": "cinco"
+    },
+    {
+      "texto": "Ahora la cuenta. En teoría, un gramo de alcohol da un gramo con tres de ácido acético.",
+      "clave": "gramo"
+    },
+    {
+      "texto": "Entonces, para llegar a cincuenta gramos de ácido, necesitas unos treinta y ocho gramos de alcohol por litro.",
+      "clave": "treinta"
+    },
+    {
+      "texto": "Eso es casi un cinco por ciento de alcohol en tu mosto.",
+      "clave": "alcohol"
+    },
+    {
+      "texto": "Y para hacer ese alcohol, las levaduras necesitan azúcar: más o menos el doble.",
+      "clave": "doble"
+    },
+    {
+      "texto": "Haciendo la cuenta con lo que se pierde en el camino, apunta a unos diez grados Brix al empezar.",
+      "clave": "Brix"
+    },
+    {
+      "texto": "Y aquí está el detalle: la pulpa sola casi nunca llega.",
+      "clave": "sola"
+    },
+    {
+      "texto": "En el estudio de Indonesia, con pulpa sola, el vinagre se quedó en dos coma cuatro por ciento de acidez.",
+      "clave": "dos"
+    },
+    {
+      "texto": "Por eso muchos productores ajustan el azúcar con panela. Y lo mides, no lo adivinas.",
+      "clave": "panela"
+    },
+    {
+      "texto": "Vamos con el método. Paso uno: prepara el mosto.",
+      "clave": "mosto"
+    },
+    {
+      "texto": "Arranca con fruto maduro, sano y bien lavado. La pulpa, recién despulpada, en un equipo limpio.",
+      "clave": "limpio"
+    },
+    {
+      "texto": "Mezcla la pulpa con agua potable y deja que suelte sus azúcares.",
+      "clave": "agua"
+    },
+    {
+      "texto": "Luego cuela y mide los grados Brix con un refractómetro. Es un aparatico pequeño y te salva la producción.",
+      "clave": "refractómetro"
+    },
+    {
+      "texto": "Si estás por debajo de diez, agrega panela disuelta, poco a poco, y vuelve a medir.",
+      "clave": "panela"
+    },
+    {
+      "texto": "Antes de fermentar, calienta el mosto unos minutos para bajar la carga de microbios salvajes. Y lo dejas enfriar.",
+      "clave": "calienta"
+    },
+    {
+      "texto": "Así, los que trabajan son los microbios que tú pones, no los que llegaron solos.",
+      "clave": "pones"
+    },
+    {
+      "texto": "Paso dos: la fermentación alcohólica.",
+      "clave": "alcohólica"
+    },
+    {
+      "texto": "Pon el mosto frío en un recipiente de vidrio o plástico de grado alimenticio, nunca de metal.",
+      "clave": "metal"
+    },
+    {
+      "texto": "Agrega levadura para vino o de panadería, y tapa con una trampa de aire o un globo pinchado.",
+      "clave": "levadura"
+    },
+    {
+      "texto": "Así sale el gas, pero no entra el aire ni las moscas.",
+      "clave": "moscas"
+    },
+    {
+      "texto": "Déjalo en un lugar fresco y oscuro. Vas a ver burbujas los primeros días.",
+      "clave": "burbujas"
+    },
+    {
+      "texto": "¿Cómo sabes que terminó? Cuando el Brix deja de bajar dos días seguidos.",
+      "clave": "terminó"
+    },
+    {
+      "texto": "En el estudio de Indonesia, la mejor fase alcohólica duró unos diez días.",
+      "clave": "diez"
+    },
+    {
+      "texto": "Ahora te pregunto: ¿tú qué haces hoy con la pulpa en tu finca? ¿Abono, la botas, la vendes? Déjamelo en los comentarios.",
+      "clave": "comentarios"
+    },
+    {
+      "texto": "Paso tres: la fermentación acética. Aquí nace el vinagre.",
+      "clave": "nace"
+    },
+    {
+      "texto": "Cuela tu vino de pulpa y pásalo a un recipiente ancho. Mientras más superficie, más oxígeno.",
+      "clave": "ancho"
+    },
+    {
+      "texto": "Si tu vino quedó muy fuerte, rebájalo con agua. Por encima de un seis por ciento de alcohol, las bacterias se frenan.",
+      "clave": "seis"
+    },
+    {
+      "texto": "Ahora el truco: agrega un buen chorro de vinagre vivo, sin pasteurizar, o un pedazo de madre del vinagre.",
+      "clave": "madre"
+    },
+    {
+      "texto": "Eso hace dos cosas: siembra las bacterias acéticas y baja el pe hache, para que no se cuele nada raro.",
+      "clave": "siembra"
+    },
+    {
+      "texto": "Tapa con una tela limpia y una liga. Que respire, pero que no entren las moscas de la fruta.",
+      "clave": "tela"
+    },
+    {
+      "texto": "La temperatura ideal anda entre veinticinco y treinta grados. Con frío, todo va lentísimo.",
+      "clave": "treinta"
+    },
+    {
+      "texto": "Y no lo muevas. Las bacterias trabajan en la superficie.",
+      "clave": "superficie"
+    },
+    {
+      "texto": "En unos días vas a ver una capa como gelatina, lisa y clarita. ¡Esa es la madre! Es buena señal.",
+      "clave": "madre"
+    },
+    {
+      "texto": "Este es el método tradicional, el de Orleans: lento, quieto, y da vinagres de muy buena calidad.",
+      "clave": "Orleans"
+    },
+    {
+      "texto": "Paso cuatro: medir. Aquí es donde un vinagre artesanal se vuelve profesional.",
+      "clave": "medir"
+    },
+    {
+      "texto": "Lo más usado es la titulación: hidróxido de sodio, unas gotas de fenolftaleína, y una jeringa.",
+      "clave": "titulación"
+    },
+    {
+      "texto": "Tomas diez mililitros de vinagre, le pones el indicador y vas agregando hidróxido de sodio cero coma uno normal hasta que se ponga rosado.",
+      "clave": "rosado"
+    },
+    {
+      "texto": "Y la cuenta es muy fácil: los mililitros que gastaste, por cero coma cero seis, te dan el porcentaje de acidez.",
+      "clave": "cero"
+    },
+    {
+      "texto": "Ejemplo: gastaste ocho mililitros. Ocho por cero coma cero seis: cuatro coma ocho por ciento.",
+      "clave": "ocho"
+    },
+    {
+      "texto": "Mídelo cada pocos días. Cuando la acidez deja de subir, se acabó el alcohol. Tu vinagre está listo.",
+      "clave": "listo"
+    },
+    {
+      "texto": "Paso cinco: termina y envasa.",
+      "clave": "envasa"
+    },
+    {
+      "texto": "Saca la madre y guárdala con un poco de vinagre: es tu semilla para la próxima tanda.",
+      "clave": "semilla"
+    },
+    {
+      "texto": "Filtra con tela fina o papel de filtro, hasta que quede brillante.",
+      "clave": "brillante"
+    },
+    {
+      "texto": "Si lo vas a vender, pasteurízalo entre sesenta y setenta grados unos minutos, para que no siga cambiando en la botella.",
+      "clave": "pasteurízalo"
+    },
+    {
+      "texto": "Y envasa en vidrio, bien lleno y bien tapado. Con su etiqueta, su lote y su fecha.",
+      "clave": "vidrio"
+    },
+    {
+      "texto": "¿Y a qué sabe un vinagre de pulpa de café? No sabe a café tostado, eso sorprende a mucha gente.",
+      "clave": "sabe"
+    },
+    {
+      "texto": "Sabe a fruta, a la cereza de donde viene. Y cambia según tu variedad y tu punto de madurez.",
+      "clave": "fruta"
+    },
+    {
+      "texto": "Por eso cada finca saca un vinagre distinto. Y esa es tu historia para venderlo.",
+      "clave": "historia"
+    },
+    {
+      "texto": "Va perfecto en aderezos, en encurtidos, en marinadas, y hasta en coctelería sin alcohol.",
+      "clave": "aderezos"
+    },
+    {
+      "texto": "Y piensa en esto: es un producto que nace de algo que hoy sale gratis de tu beneficio.",
+      "clave": "gratis"
+    },
+    {
+      "texto": "Ahora, los errores que más vemos.",
+      "clave": "errores"
+    },
+    {
+      "texto": "Error uno: confundir moho con madre. La madre es lisa y gelatinosa. El moho es peludo, seco y de colores.",
+      "clave": "moho"
+    },
+    {
+      "texto": "Si ves moho, no lo raspes: esa tanda se bota. Sin pena.",
+      "clave": "bota"
+    },
+    {
+      "texto": "Error dos: tapar herméticamente en la fase acética. Sin aire, las bacterias se ahogan.",
+      "clave": "aire"
+    },
+    {
+      "texto": "Error tres: usar metal. El ácido ataca el metal y el vinagre sabe raro.",
+      "clave": "metal"
+    },
+    {
+      "texto": "Error cuatro: la pulpa vieja. Si ya huele mal antes de empezar, el vinagre va a oler mal.",
+      "clave": "vieja"
+    },
+    {
+      "texto": "Y el error que te prometí: dejarlo destapado cuando ya está listo.",
+      "clave": "listo"
+    },
+    {
+      "texto": "Cuando se acaba el alcohol, algunas bacterias acéticas empiezan a comerse el propio ácido acético.",
+      "clave": "comerse"
+    },
+    {
+      "texto": "Tu vinagre pierde fuerza y se arruina. Por eso, cuando la acidez deja de subir, lo filtras, lo tapas y listo.",
+      "clave": "fuerza"
+    },
+    {
+      "texto": "Resumamos. Pulpa fresca y limpia, el mismo día.",
+      "clave": "fresca"
+    },
+    {
+      "texto": "Mosto a unos diez grados Brix, con panela si hace falta.",
+      "clave": "Brix"
+    },
+    {
+      "texto": "Primera fermentación, cerrada: el azúcar se vuelve alcohol.",
+      "clave": "cerrada"
+    },
+    {
+      "texto": "Segunda, abierta: el alcohol se vuelve ácido acético, con madre y entre veinticinco y treinta grados.",
+      "clave": "abierta"
+    },
+    {
+      "texto": "Mides hasta pasar el cinco por ciento, filtras, pasteurizas y envasas.",
+      "clave": "cinco"
+    },
+    {
+      "texto": "Y lo que ayer era un residuo de la finca, hoy es un producto con valor.",
+      "clave": "valor"
+    },
+    {
+      "texto": "Si quieres aprender a transformar la pulpa y el mucílago del café y del cacao en productos que se venden, inscríbete a nuestros cursos.",
+      "clave": "cursos"
+    },
+    {
+      "texto": "El enlace está en la descripción de este video.",
+      "clave": "descripción"
+    },
+    {
+      "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
+      "clave": "NativoTerrus"
+    }
+  ],
+  "escenas": [
+    {
+      "nombre": "gancho",
+      "tomas": [
+        {
+          "desde": 0,
+          "imagen": "",
+          "movimiento": "acercar",
+          "rotulo": ""
+        }
+      ]
+    }
+  ]
+}
