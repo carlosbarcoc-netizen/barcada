@@ -372,13 +372,733 @@
   ],
   "escenas": [
     {
-      "nombre": "gancho",
+      "nombre": "guia",
       "tomas": [
         {
           "desde": 0,
-          "imagen": "",
+          "imagen": "Pexels 13819623",
+          "archivo": "imagenes/pexels-13819623.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "¿Pulpa de café? → *VINAGRE*"
+        },
+        {
+          "desde": 2,
+          "imagen": "Pexels 145406",
+          "archivo": "imagenes/pexels-145406.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Ácido · aromático · *ámbar*"
+        },
+        {
+          "desde": 3,
+          "imagen": "Pexels 30717831",
+          "archivo": "imagenes/pexels-30717831.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Paso a paso, con *ciencia*"
+        },
+        {
+          "desde": 4,
+          "imagen": "Pexels 6605199",
+          "archivo": "imagenes/pexels-6605199.jpg",
           "movimiento": "acercar",
-          "rotulo": ""
+          "fuerza": 0.1,
+          "rotulo": "2 fermentaciones · 5 pasos · *1 cuenta*"
+        },
+        {
+          "desde": 5,
+          "imagen": "Pexels 29011872",
+          "archivo": "imagenes/pexels-29011872.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "El *error* final"
+        },
+        {
+          "desde": 6,
+          "imagen": "Pexels 13802102",
+          "archivo": "imagenes/pexels-13802102.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1
+        },
+        {
+          "desde": 7,
+          "imagen": "Pexels 29639312",
+          "archivo": "imagenes/pexels-29639312.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Pulpa ≈ *44 %* del fruto"
+        },
+        {
+          "desde": 8,
+          "imagen": "Pexels 7125739",
+          "archivo": "imagenes/pexels-7125739.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "100 kg cereza → *44 kg* pulpa"
+        },
+        {
+          "desde": 9,
+          "imagen": "Pexels 19455179",
+          "archivo": "imagenes/pexels-19455179.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "≈ *18 %* azúcares (base seca)"
+        },
+        {
+          "desde": 10,
+          "imagen": "Pexels 33474632",
+          "archivo": "imagenes/pexels-33474632.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Azúcar = comida de *microbios*"
+        },
+        {
+          "desde": 11,
+          "imagen": "Pexels 1973983",
+          "archivo": "imagenes/pexels-1973983.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Se daña *rapidísimo*"
+        },
+        {
+          "desde": 12,
+          "imagen": "Pexels 1187761",
+          "archivo": "imagenes/pexels-1187761.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Regla 1: pulpa *fresca*"
+        },
+        {
+          "desde": 13,
+          "imagen": "Pexels 5732740",
+          "archivo": "imagenes/pexels-5732740.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "*2* fermentaciones"
+        },
+        {
+          "desde": 14,
+          "imagen": "Pexels 12625114",
+          "archivo": "imagenes/pexels-12625114.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Levaduras: azúcar → *alcohol*"
+        },
+        {
+          "desde": 15,
+          "imagen": "Pexels 6605199",
+          "archivo": "imagenes/pexels-6605199.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "1.ª fermentación: *cerrada*"
+        },
+        {
+          "desde": 16,
+          "imagen": "Pexels 8539753",
+          "archivo": "imagenes/pexels-8539753.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Bacterias *acéticas*"
+        },
+        {
+          "desde": 17,
+          "imagen": "Pexels 3737651",
+          "archivo": "imagenes/pexels-3737651.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Alcohol → *ácido acético*"
+        },
+        {
+          "desde": 18,
+          "imagen": "Pexels 39166104",
+          "archivo": "imagenes/pexels-39166104.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Necesitan *oxígeno*"
+        },
+        {
+          "desde": 19,
+          "imagen": "Pexels 6605199",
+          "archivo": "imagenes/pexels-6605199.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Cerrada → *abierta*"
+        },
+        {
+          "desde": 20,
+          "imagen": "Pexels 29639312",
+          "archivo": "imagenes/pexels-29639312.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Indonesia: *10 + 7 días*"
+        },
+        {
+          "desde": 21,
+          "imagen": "Pexels 8325703",
+          "archivo": "imagenes/pexels-8325703.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "pH ≈ *3*"
+        },
+        {
+          "desde": 22,
+          "imagen": "Pexels 145406",
+          "archivo": "imagenes/pexels-145406.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "¿Qué tan *ácido*?"
+        },
+        {
+          "desde": 23,
+          "imagen": "Pexels 7723287",
+          "archivo": "imagenes/pexels-7723287.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Codex: ≥ *50 g/L*"
+        },
+        {
+          "desde": 24,
+          "imagen": "Pexels 8325758",
+          "archivo": "imagenes/pexels-8325758.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "= *5 %* de acidez"
+        },
+        {
+          "desde": 25,
+          "imagen": "Pexels 8250947",
+          "archivo": "imagenes/pexels-8250947.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "1 g alcohol → *1,3 g* ácido"
+        },
+        {
+          "desde": 26,
+          "imagen": "Pexels 5964491",
+          "archivo": "imagenes/pexels-5964491.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "50 g ácido → *38 g/L* alcohol"
+        },
+        {
+          "desde": 27,
+          "imagen": "Pexels 8544958",
+          "archivo": "imagenes/pexels-8544958.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "≈ *5 %* de alcohol"
+        },
+        {
+          "desde": 28,
+          "imagen": "Pexels 7110136",
+          "archivo": "imagenes/pexels-7110136.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Azúcar ≈ *el doble*"
+        },
+        {
+          "desde": 29,
+          "imagen": "Pexels 8392533",
+          "archivo": "imagenes/pexels-8392533.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Arranca en ≈ *10 °Brix*"
+        },
+        {
+          "desde": 30,
+          "imagen": "Pexels 7125698",
+          "archivo": "imagenes/pexels-7125698.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "La pulpa *sola* no llega"
+        },
+        {
+          "desde": 31,
+          "imagen": "Pexels 7298559",
+          "archivo": "imagenes/pexels-7298559.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Pulpa sola: *2,4 %*"
+        },
+        {
+          "desde": 32,
+          "imagen": "Pexels 29748150",
+          "archivo": "imagenes/pexels-29748150.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Ajusta con *panela*"
+        },
+        {
+          "desde": 33,
+          "imagen": "Pexels 3298605",
+          "archivo": "imagenes/pexels-3298605.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "PASO 1 · El *mosto*"
+        },
+        {
+          "desde": 34,
+          "imagen": "Pexels 9462224",
+          "archivo": "imagenes/pexels-9462224.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Todo *limpio*"
+        },
+        {
+          "desde": 35,
+          "imagen": "Pexels 5503110",
+          "archivo": "imagenes/pexels-5503110.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Pulpa + *agua* potable"
+        },
+        {
+          "desde": 36,
+          "imagen": "Pexels 8392533",
+          "archivo": "imagenes/pexels-8392533.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Mide con *refractómetro*"
+        },
+        {
+          "desde": 37,
+          "imagen": "Pexels 29748150",
+          "archivo": "imagenes/pexels-29748150.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "< 10 °Brix → *+ panela*"
+        },
+        {
+          "desde": 38,
+          "imagen": "Pexels 20008786",
+          "archivo": "imagenes/pexels-20008786.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "*Calienta* y enfría"
+        },
+        {
+          "desde": 39,
+          "imagen": "Pexels 33474632",
+          "archivo": "imagenes/pexels-33474632.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Tus microbios, *no los salvajes*"
+        },
+        {
+          "desde": 40,
+          "imagen": "Pexels 6605199",
+          "archivo": "imagenes/pexels-6605199.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "PASO 2 · *El alcohol*"
+        },
+        {
+          "desde": 41,
+          "imagen": "Pexels 39166104",
+          "archivo": "imagenes/pexels-39166104.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Vidrio o plástico · *nunca metal*"
+        },
+        {
+          "desde": 42,
+          "imagen": "Pexels 12625114",
+          "archivo": "imagenes/pexels-12625114.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Levadura + *trampa de aire*"
+        },
+        {
+          "desde": 43,
+          "imagen": "Pexels 28645472",
+          "archivo": "imagenes/pexels-28645472.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1
+        },
+        {
+          "desde": 44,
+          "imagen": "Pexels 5732740",
+          "archivo": "imagenes/pexels-5732740.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Fresco y *oscuro*"
+        },
+        {
+          "desde": 45,
+          "imagen": "Pexels 8392533",
+          "archivo": "imagenes/pexels-8392533.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Brix quieto 2 días = *terminó*"
+        },
+        {
+          "desde": 46,
+          "imagen": "Pexels 29639312",
+          "archivo": "imagenes/pexels-29639312.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "≈ *10 días*"
+        },
+        {
+          "desde": 47,
+          "imagen": "Pexels 13802102",
+          "archivo": "imagenes/pexels-13802102.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "¿Qué haces con la pulpa? → *comentarios*"
+        },
+        {
+          "desde": 48,
+          "imagen": "Pexels 6605199",
+          "archivo": "imagenes/pexels-6605199.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "PASO 3 · *El vinagre*"
+        },
+        {
+          "desde": 49,
+          "imagen": "Pexels 39166104",
+          "archivo": "imagenes/pexels-39166104.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Recipiente *ancho*"
+        },
+        {
+          "desde": 50,
+          "imagen": "Pexels 5503110",
+          "archivo": "imagenes/pexels-5503110.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Alcohol ≤ *6 %*"
+        },
+        {
+          "desde": 51,
+          "imagen": "Pexels 6605199",
+          "archivo": "imagenes/pexels-6605199.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "+ vinagre vivo o *madre*"
+        },
+        {
+          "desde": 52,
+          "imagen": "Pexels 8325703",
+          "archivo": "imagenes/pexels-8325703.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Siembra y *baja el pH*"
+        },
+        {
+          "desde": 53,
+          "imagen": "Pexels 28645472",
+          "archivo": "imagenes/pexels-28645472.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Tapa con *tela*"
+        },
+        {
+          "desde": 54,
+          "imagen": "Pexels 6755611",
+          "archivo": "imagenes/pexels-6755611.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "*25-30 °C*"
+        },
+        {
+          "desde": 55,
+          "imagen": "Pexels 3737651",
+          "archivo": "imagenes/pexels-3737651.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Quieto: trabajan en la *superficie*"
+        },
+        {
+          "desde": 56,
+          "imagen": "Pexels 6605199",
+          "archivo": "imagenes/pexels-6605199.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "La *madre*: lisa y gelatinosa"
+        },
+        {
+          "desde": 57,
+          "imagen": "Pexels 5732740",
+          "archivo": "imagenes/pexels-5732740.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Método *Orleans*"
+        },
+        {
+          "desde": 58,
+          "imagen": "Pexels 8539753",
+          "archivo": "imagenes/pexels-8539753.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "PASO 4 · *Medir*"
+        },
+        {
+          "desde": 59,
+          "imagen": "Pexels 3825366",
+          "archivo": "imagenes/pexels-3825366.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "*Titulación*"
+        },
+        {
+          "desde": 60,
+          "imagen": "Pexels 3825368",
+          "archivo": "imagenes/pexels-3825368.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "10 mL + NaOH 0,1 N → *rosado*"
+        },
+        {
+          "desde": 61,
+          "imagen": "Pexels 8250947",
+          "archivo": "imagenes/pexels-8250947.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "mL × 0,06 = *% acidez*"
+        },
+        {
+          "desde": 62,
+          "imagen": "Pexels 3825378",
+          "archivo": "imagenes/pexels-3825378.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "8 mL × 0,06 = *4,8 %*"
+        },
+        {
+          "desde": 63,
+          "imagen": "Pexels 8325758",
+          "archivo": "imagenes/pexels-8325758.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Acidez quieta = *listo*"
+        },
+        {
+          "desde": 64,
+          "imagen": "Pexels 145406",
+          "archivo": "imagenes/pexels-145406.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "PASO 5 · *Envasa*"
+        },
+        {
+          "desde": 65,
+          "imagen": "Pexels 6605199",
+          "archivo": "imagenes/pexels-6605199.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "La madre: tu *semilla*"
+        },
+        {
+          "desde": 66,
+          "imagen": "Pexels 8064390",
+          "archivo": "imagenes/pexels-8064390.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Filtra hasta *brillante*"
+        },
+        {
+          "desde": 67,
+          "imagen": "Pexels 6755611",
+          "archivo": "imagenes/pexels-6755611.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Pasteuriza *60-70 °C*"
+        },
+        {
+          "desde": 68,
+          "imagen": "Pexels 39166104",
+          "archivo": "imagenes/pexels-39166104.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Vidrio · lote · *fecha*"
+        },
+        {
+          "desde": 69,
+          "imagen": "Pexels 3737651",
+          "archivo": "imagenes/pexels-3737651.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "¿A qué *sabe*?"
+        },
+        {
+          "desde": 70,
+          "imagen": "Pexels 7125698",
+          "archivo": "imagenes/pexels-7125698.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "A *fruta*"
+        },
+        {
+          "desde": 71,
+          "imagen": "Pexels 30717831",
+          "archivo": "imagenes/pexels-30717831.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Cada finca, *su vinagre*"
+        },
+        {
+          "desde": 72,
+          "imagen": "Pexels 9213857",
+          "archivo": "imagenes/pexels-9213857.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Aderezos · encurtidos · *marinadas*"
+        },
+        {
+          "desde": 73,
+          "imagen": "Pexels 13819623",
+          "archivo": "imagenes/pexels-13819623.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Nace de lo que hoy es *gratis*"
+        },
+        {
+          "desde": 74,
+          "imagen": "Pexels 1973983",
+          "archivo": "imagenes/pexels-1973983.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "ERRORES *comunes*"
+        },
+        {
+          "desde": 75,
+          "imagen": "Pexels 29011872",
+          "archivo": "imagenes/pexels-29011872.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Moho ≠ *madre*"
+        },
+        {
+          "desde": 76,
+          "imagen": "Pexels 33474632",
+          "archivo": "imagenes/pexels-33474632.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Moho → *se bota*"
+        },
+        {
+          "desde": 77,
+          "imagen": "Pexels 28645472",
+          "archivo": "imagenes/pexels-28645472.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Fase acética: *con aire*"
+        },
+        {
+          "desde": 78,
+          "imagen": "Pexels 20008786",
+          "archivo": "imagenes/pexels-20008786.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Nada de *metal*"
+        },
+        {
+          "desde": 79,
+          "imagen": "Pexels 1973983",
+          "archivo": "imagenes/pexels-1973983.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Pulpa *vieja*"
+        },
+        {
+          "desde": 80,
+          "imagen": "Pexels 6605199",
+          "archivo": "imagenes/pexels-6605199.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "EL ERROR: *destapado* al final"
+        },
+        {
+          "desde": 81,
+          "imagen": "Pexels 8539753",
+          "archivo": "imagenes/pexels-8539753.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Se comen el *ácido*"
+        },
+        {
+          "desde": 82,
+          "imagen": "Pexels 39166104",
+          "archivo": "imagenes/pexels-39166104.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Listo → filtra y *tapa*"
+        },
+        {
+          "desde": 83,
+          "imagen": "Pexels 1187761",
+          "archivo": "imagenes/pexels-1187761.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Pulpa *fresca*"
+        },
+        {
+          "desde": 84,
+          "imagen": "Pexels 29748150",
+          "archivo": "imagenes/pexels-29748150.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "≈ *10 °Brix*"
+        },
+        {
+          "desde": 85,
+          "imagen": "Pexels 5732740",
+          "archivo": "imagenes/pexels-5732740.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "1.ª: *cerrada*"
+        },
+        {
+          "desde": 86,
+          "imagen": "Pexels 6605199",
+          "archivo": "imagenes/pexels-6605199.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "2.ª: *abierta* · 25-30 °C"
+        },
+        {
+          "desde": 87,
+          "imagen": "Pexels 8325758",
+          "archivo": "imagenes/pexels-8325758.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "≥ *5 %* → envasa"
+        },
+        {
+          "desde": 88,
+          "imagen": "Pexels 145406",
+          "archivo": "imagenes/pexels-145406.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Residuo → *valor*"
+        },
+        {
+          "desde": 89,
+          "imagen": "Pexels 13802102",
+          "archivo": "imagenes/pexels-13802102.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Inscríbete a nuestros *cursos*"
+        },
+        {
+          "desde": 90,
+          "imagen": "Pexels 10060232",
+          "archivo": "imagenes/pexels-10060232.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Enlace en la *descripción*"
+        },
+        {
+          "desde": 91,
+          "imagen": "Pexels 29639312",
+          "archivo": "imagenes/pexels-29639312.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Síguenos en *NativoTerrus*"
         }
       ]
     }

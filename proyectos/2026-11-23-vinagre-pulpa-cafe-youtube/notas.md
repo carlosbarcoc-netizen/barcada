@@ -22,3 +22,51 @@
 
 ## El video en una frase
 La pulpa que botas, con dos fermentaciones (cerrada y abierta) y una cuenta, se vuelve vinagre de verdad.
+
+## Imágenes (Pexels, licencia libre: https://www.pexels.com/license/)
+
+- https://www.pexels.com/photo/13819623/
+- https://www.pexels.com/photo/1187761/
+- https://www.pexels.com/photo/92354/
+- https://www.pexels.com/photo/7125698/
+- https://www.pexels.com/photo/7125739/
+- https://www.pexels.com/photo/29639312/
+- https://www.pexels.com/photo/30717831/
+- https://www.pexels.com/photo/6605199/
+- https://www.pexels.com/photo/145406/
+- https://www.pexels.com/photo/3737651/
+- https://www.pexels.com/photo/39166104/
+- https://www.pexels.com/photo/3825378/
+- https://www.pexels.com/photo/3825368/
+- https://www.pexels.com/photo/3825366/
+- https://www.pexels.com/photo/8544958/
+- https://www.pexels.com/photo/1366944/
+- https://www.pexels.com/photo/9213857/
+- https://www.pexels.com/photo/10060232/
+- https://www.pexels.com/photo/7832585/
+- https://www.pexels.com/photo/28645472/
+- https://www.pexels.com/photo/5503110/
+- https://www.pexels.com/photo/29011872/
+- https://www.pexels.com/photo/5732740/
+- https://www.pexels.com/photo/29748150/
+- https://www.pexels.com/photo/6755611/
+- https://www.pexels.com/photo/12673645/
+- https://www.pexels.com/photo/20008786/
+- https://www.pexels.com/photo/13802102/
+- https://www.pexels.com/photo/19455179/
+- https://www.pexels.com/photo/8064390/
+- https://www.pexels.com/photo/3298605/
+- https://www.pexels.com/photo/5964491/
+- https://www.pexels.com/photo/7298559/
+- https://www.pexels.com/photo/7723287/
+- https://www.pexels.com/photo/8325703/
+- https://www.pexels.com/photo/8325758/
+- https://www.pexels.com/photo/8392533/
+- https://www.pexels.com/photo/8539753/
+- https://www.pexels.com/photo/33474632/
+- https://www.pexels.com/photo/1973983/
+- https://www.pexels.com/photo/9462224/
+- https://www.pexels.com/photo/5908190/
+- https://www.pexels.com/photo/12625114/
+- https://www.pexels.com/photo/7110136/
+- https://www.pexels.com/photo/8250947/
