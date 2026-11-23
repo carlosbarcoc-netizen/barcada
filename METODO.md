@@ -2,6 +2,9 @@
 
 Seis pasos. El usuario decide en tres (✋). Marca cada paso en el `SEGUIR.md` del proyecto al terminarlo.
 
+**¿Es para YouTube (video largo)?** Los mismos seis pasos, en horizontal, de 8 minutos o más y con fotos de Pexels:
+lee antes `guias/youtube.md`.
+
 ## 1. La idea y los datos
 
 1. `node barcada.mjs nuevo "<la idea>" --piel <neon|voxel|arcade>` (modo juego, Barcada 2.0: lo normal; elige la

@@ -5,3 +5,7 @@ Errores que no se repiten. Se lee antes de cada video. Solo entra lo que el usua
 - Las imágenes con texto o letreros salen deformadas: los textos van como rótulos, nunca en el prompt.
 - Voz: el creador la quiere movida, alegre y cercana, no pausada (ajustes por defecto más expresivos y guion de tú a tú).
 - Portadas: el título siempre centrado y con colores vivos (lo pidió el creador para todos sus videos); el fondo, desenfocado y oscurecido en el centro para que el título salte.
+- YouTube: los videos van en 16:9 (1920 × 1080), de 8 minutos o más, con fotos reales de Pexels (`guias/youtube.md`); el
+  creador no quiere el 2D ni el neón para YouTube.
+- Sin clave de imágenes IA, las fotos salen de Pexels (`node barcada.mjs pexels`), nunca imágenes de prueba ni 2D: y
+  antes de usarlas se miran (sin caras reconocibles, marcas ni texto).

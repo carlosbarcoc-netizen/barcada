@@ -17,5 +17,11 @@
   "portada": "Letras centradas (en horizontal y en el medio de la imagen) y llamativas, con colores vivos: Anton enorme, la clave en amarillo-naranja sobre franja de color intenso, sello amarillo debajo.",
   "tono": "Voz movida, alegre y cercana, nada pausada: que quien escucha sienta que se lo cuenta un amigo.",
   "piel": "auto",
-  "avatar": null
+  "avatar": null,
+  "youtube": {
+    "formato": "horizontal",
+    "duracionMinima": "8 min",
+    "estilo": "documental",
+    "nota": "Videos de YouTube: 16:9 (1920x1080), mínimo 8 minutos, estilo realista con fotos. Los reels siguen en vertical."
+  }
 }

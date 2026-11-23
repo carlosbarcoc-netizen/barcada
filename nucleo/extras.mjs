@@ -1,7 +1,7 @@
 // Lo demás: revisar la instalación, crear un proyecto, los efectos de sonido propios y la portada.
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, ffmpeg, guardarJSON, hay, hayClave, leerJSON, sinTildes } from "./comun.mjs";
+import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, ffmpeg, fijarFormato, guardarJSON, hay, hayClave, leerJSON, sinTildes } from "./comun.mjs";
 import { ESTILOS, hacerImagenes, proveedor } from "./imagenes.mjs";
 import { lineaDeTiempo } from "./montaje.mjs";
 
@@ -24,7 +24,7 @@ export async function revisar() {
 }
 
 // ---------------------------------------------------------------- nuevo proyecto
-export function nuevo(idea, { estilo = "documental", nombre, piel = null } = {}) {
+export function nuevo(idea, { estilo = "documental", nombre, piel = null, formato = "vertical" } = {}) {
   const hoy = new Date().toISOString().slice(0, 10);
   const slug = nombre || sinTildes(idea.split(/\s+/).slice(0, 5).join("-").replace(/\s+/g, "-")).slice(0, 40) || "video";
   const dir = join(RAIZ, "proyectos", `${hoy}-${slug}`);
@@ -32,13 +32,14 @@ export function nuevo(idea, { estilo = "documental", nombre, piel = null } = {})
   asegurar(dir);
   // modo juego (Barcada 2.0): una piel (neon, voxel, arcade) con su barra de progreso, títulos y mundo
   if (piel && !["neon", "voxel", "arcade"].includes(piel)) throw new Error(`No hay piel «${piel}». Hay: neon, voxel, arcade`);
+  if (formato === "horizontal" && (piel || estilo === "2d")) throw new Error("El formato horizontal (16:9) es solo para el estilo realista, no para el 2D ni el modo juego.");
   guardarJSON(join(dir, "proyecto.json"), piel ? {
     titulo: idea, estilo: "2d",
     frases: [{ texto: "", clave: "" }],
     juego: { piel, progreso: { titulo: "", etiqueta: "", pasos: [{ texto: "", en: "" }] }, ...(piel === "arcade" ? { tiempo: true } : {}) },
     escenas: [{ nombre: "partida", tomas: [{ desde: 0, titulo: "", dibujo: { elementos: [] } }] }],
   } : {
-    titulo: idea, estilo, calidad: "normal",
+    titulo: idea, estilo, calidad: "normal", ...(formato === "horizontal" ? { formato } : {}),
     sujeto: "",
     frases: [{ texto: "", clave: "" }],
     escenas: [{ nombre: "gancho", tomas: [{ desde: 0, imagen: "", movimiento: "acercar", rotulo: "" }] }],
@@ -47,6 +48,29 @@ export function nuevo(idea, { estilo = "documental", nombre, piel = null } = {})
   writeFileSync(join(dir, "notas.md"), `# ${idea}\n\n## Datos (cada uno con su fuente)\n\n- \n`);
   console.log(dir);
   return dir;
+}
+
+// ---------------------------------------------------------------- fotos libres de Pexels
+// Descarga fotos de Pexels por su número (el de pexels.com/photo/…-<número>/) a imagenes/pexels-<número>.jpg, a 1920 px,
+// y apunta el crédito en notas.md. No necesita clave: va directo al servidor de imágenes de Pexels (licencia libre:
+// https://www.pexels.com/license/). En cada toma: "archivo": "imagenes/pexels-<número>.jpg".
+export async function pexels(dir, ids) {
+  if (!ids.length) throw new Error("Faltan los números de las fotos: node barcada.mjs pexels <proyecto> 1435296 5964491 …");
+  const di = asegurar(join(dir, "imagenes")), notas = join(dir, "notas.md"), hechos = [];
+  for (const id of ids) {
+    const f = join(di, `pexels-${id}.jpg`);
+    if (!existsSync(f)) {
+      const r = await fetch(`https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=1920`);
+      if (!r.ok) { console.log(`✗ ${id}: Pexels dijo ${r.status} (¿número equivocado?)`); continue; }
+      writeFileSync(f, Buffer.from(await r.arrayBuffer()));
+    }
+    hechos.push(id);
+    console.log(`✓ imagenes/pexels-${id}.jpg`);
+  }
+  const previo = existsSync(notas) ? readFileSync(notas, "utf8") : "";
+  const nuevos = hechos.filter((id) => !previo.includes(`pexels.com/photo/${id}/`));
+  if (nuevos.length) writeFileSync(notas, previo + (previo.includes("## Imágenes (Pexels") ? "" : "\n## Imágenes (Pexels, licencia libre: https://www.pexels.com/license/)\n\n") + nuevos.map((id) => `- https://www.pexels.com/photo/${id}/`).join("\n") + "\n");
+  return hechos;
 }
 
 // ---------------------------------------------------------------- efectos de sonido propios
@@ -83,6 +107,7 @@ export async function crearSonidos({ rehacer = false } = {}) {
 // Una imagen de una toma, con el título enorme arriba: *palabra* en el color de acento, sobre un degradado oscuro.
 export async function portada(dir, titulo, { toma = 1, acento, etiqueta } = {}) {
   const p = leerJSON(join(dir, "proyecto.json")), pref = existsSync(join(RAIZ, "preferencias.json")) ? leerJSON(join(RAIZ, "preferencias.json")) : {};
+  fijarFormato(p.formato);
   const imgs = await hacerImagenes(dir);
   // una toma 2D: su cuadro, casi al final de la toma (con todo ya en escena)
   if (!imgs[toma - 1]) {
@@ -95,7 +120,7 @@ export async function portada(dir, titulo, { toma = 1, acento, etiqueta } = {}) 
     await foto({ preparar: cu.preparar, cuadro: () => cu(t.fin - 0.25) }, imgs[toma - 1]);
     await cerrarNavegador();
   }
-  // la imagen de fondo, a 1080 × 1920, con más color
+  // la imagen de fondo, al tamaño del video (1080 × 1920 o 1920 × 1080), con más color
   const tmp = asegurar(join(dir, ".montaje")), fondoJpg = join(tmp, "portada-fondo.jpg");
   const est = ESTILOS[p.estilo] || ESTILOS.documental;
   await ffmpeg([...(/\.(mp4|mov|webm)$/i.test(imgs[toma - 1]) ? ["-ss", "1"] : []), "-i", imgs[toma - 1], "-vf",
@@ -114,14 +139,17 @@ export async function portada(dir, titulo, { toma = 1, acento, etiqueta } = {}) 
 // ancho para que nada se corte. etiqueta: un sello pequeño debajo («¡NADIE TE LO DIJO!»).
 const ESC = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 export function svgPortada(titulo, fondo, { acento = "#FFD23F", franja = "#FF2E63", etiqueta = null } = {}) {
+  // el lienzo es el del video: en vertical, el bloque va en el medio del recorte 3:4; en horizontal (miniatura de
+  // YouTube), en el centro y un poco más alto
+  const W = ANCHO, H = ALTO, cx = W / 2, cy = W > H ? H * 0.47 : 900;
   const lineas = titulo.split("|").map((l) => l.trim()).filter(Boolean);
-  const ancho = 940, info = lineas.map((l) => {
+  const ancho = W > H ? 1500 : 940, info = lineas.map((l) => {
     const clave = /\*[^*]+\*/.test(l), limpio = l.replace(/\*/g, "").toUpperCase();
     const base = clave ? 210 : 128, tam = Math.min(base, ancho / Math.max(1, limpio.length * 0.5));
     return { l, clave, limpio, tam };
   });
   const alto = info.reduce((a, x) => a + x.tam * 1.08, 0) + (etiqueta ? 190 : 0);
-  let y = 900 - alto / 2;                                   // el bloque, centrado en el medio de la imagen
+  let y = cy - alto / 2;                                   // el bloque, centrado en el medio de la imagen
   const filas = info.map((x) => {
     y += x.tam * 0.98;
     const sw = (x.tam * 0.085).toFixed(1);
@@ -130,20 +158,20 @@ export function svgPortada(titulo, fondo, { acento = "#FFD23F", franja = "#FF2E6
       return `<tspan ${k ? 'fill="url(#vivo)"' : 'fill="#ffffff"'}>${ESC(seg.replace(/\*/g, "").toUpperCase())}</tspan>`;
     }).join("");
     const w = Math.min(ancho, x.limpio.length * x.tam * 0.5) + 70;
-    const fila = `${x.clave ? `<rect x="${540 - w / 2}" y="${y - x.tam * 0.88}" width="${w}" height="${x.tam * 1.06}" rx="${x.tam * 0.16}" fill="${franja}" stroke="#160b06" stroke-width="10" transform="rotate(-3 540 ${y - x.tam * 0.35})" style="filter:drop-shadow(0 14px 0 #160b06)"/>` : ""}
-      <text x="540" y="${y}" text-anchor="middle" font-family="Anton" font-size="${x.tam.toFixed(0)}" stroke="#160b06" stroke-width="${sw}" paint-order="stroke" stroke-linejoin="round" letter-spacing="2"
-        ${x.limpio.length * x.tam * 0.5 > ancho ? `textLength="${ancho}" lengthAdjust="spacingAndGlyphs"` : ""} style="filter:drop-shadow(0 10px 0 #160b06)" ${x.clave ? `transform="rotate(-3 540 ${y - x.tam * 0.35})"` : ""}>${partes}</text>`;
+    const fila = `${x.clave ? `<rect x="${cx - w / 2}" y="${y - x.tam * 0.88}" width="${w}" height="${x.tam * 1.06}" rx="${x.tam * 0.16}" fill="${franja}" stroke="#160b06" stroke-width="10" transform="rotate(-3 ${cx} ${y - x.tam * 0.35})" style="filter:drop-shadow(0 14px 0 #160b06)"/>` : ""}
+      <text x="${cx}" y="${y}" text-anchor="middle" font-family="Anton" font-size="${x.tam.toFixed(0)}" stroke="#160b06" stroke-width="${sw}" paint-order="stroke" stroke-linejoin="round" letter-spacing="2"
+        ${x.limpio.length * x.tam * 0.5 > ancho ? `textLength="${ancho}" lengthAdjust="spacingAndGlyphs"` : ""} style="filter:drop-shadow(0 10px 0 #160b06)" ${x.clave ? `transform="rotate(-3 ${cx} ${y - x.tam * 0.35})"` : ""}>${partes}</text>`;
     y += x.tam * 0.1;
     return fila;
   }).join("");
   const we = Math.min(900, etiqueta ? etiqueta.length * 31 + 90 : 0);
-  const sello = etiqueta ? `<g transform="translate(540 ${y + 140}) rotate(3)"><rect x="${-we / 2}" y="-48" width="${we}" height="96" rx="48" fill="${acento}" stroke="#160b06" stroke-width="8" style="filter:drop-shadow(0 8px 0 #160b06)"/>
+  const sello = etiqueta ? `<g transform="translate(${cx} ${y + 140}) rotate(3)"><rect x="${-we / 2}" y="-48" width="${we}" height="96" rx="48" fill="${acento}" stroke="#160b06" stroke-width="8" style="filter:drop-shadow(0 8px 0 #160b06)"/>
     <text y="20" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="54" fill="#160b06">${ESC(etiqueta.toUpperCase())}</text></g>` : "";
   return `<defs><linearGradient id="vivo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF36B"/><stop offset="0.55" stop-color="${acento}"/><stop offset="1" stop-color="#FF8A00"/></linearGradient>
       <radialGradient id="foco" cx="0.5" cy="0.47" r="0.6"><stop offset="0" stop-color="#000" stop-opacity="0.55"/><stop offset="0.7" stop-color="#000" stop-opacity="0.25"/><stop offset="1" stop-color="#000" stop-opacity="0.55"/></radialGradient>
       <radialGradient id="halo" cx="0.5" cy="0.47" r="0.45"><stop offset="0" stop-color="${franja}" stop-opacity="0.45"/><stop offset="1" stop-color="${franja}" stop-opacity="0"/></radialGradient></defs>
-    <image href="${fondo}" x="-40" y="-40" width="1160" height="2000" preserveAspectRatio="xMidYMid slice" style="filter:blur(5px) saturate(1.2)"/>
-    <rect width="1080" height="1920" fill="url(#foco)"/><rect width="1080" height="1920" fill="url(#halo)"/>
+    <image href="${fondo}" x="-40" y="-40" width="${W + 80}" height="${H + 80}" preserveAspectRatio="xMidYMid slice" style="filter:blur(5px) saturate(1.2)"/>
+    <rect width="${W}" height="${H}" fill="url(#foco)"/><rect width="${W}" height="${H}" fill="url(#halo)"/>
     ${filas}${sello}`;
 }
 

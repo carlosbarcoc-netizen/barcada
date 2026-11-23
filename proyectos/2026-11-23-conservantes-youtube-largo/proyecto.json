@@ -1,0 +1,1155 @@
+{
+  "titulo": "Conservantes: la dosis exacta",
+  "estilo": "documental",
+  "calidad": "normal",
+  "formato": "horizontal",
+  "sujeto": "",
+  "frases": [
+    {
+      "texto": "¿Le echas el sorbato a ojo a tu mermelada? Cuidado, porque ahí puedes fallar por partida doble.",
+      "clave": "ojo"
+    },
+    {
+      "texto": "O le pones de menos y te aparece el moho, o le pones de más y te pasas del límite legal.",
+      "clave": "moho"
+    },
+    {
+      "texto": "Hoy te enseño a calcular la dosis exacta de conservante, gramo por gramo, en mermeladas y en pulpas.",
+      "clave": "exacta"
+    },
+    {
+      "texto": "Solo necesitas cuatro pasos, una calculadora y una buena balanza.",
+      "clave": "balanza"
+    },
+    {
+      "texto": "Y quédate hasta el final, porque hay una trampa que casi nadie ve… y está en la bolsa que compras.",
+      "clave": "trampa"
+    },
+    {
+      "texto": "Primero lo primero: ¿para qué sirve un conservante como el sorbato?",
+      "clave": "sirve"
+    },
+    {
+      "texto": "Su trabajo es frenar a los mohos y a las levaduras, los grandes enemigos de una mermelada.",
+      "clave": "mohos"
+    },
+    {
+      "texto": "Ojo: no esteriliza nada. Solo les pone el freno. Por eso la limpieza y la cocción siguen siendo lo primero.",
+      "clave": "freno"
+    },
+    {
+      "texto": "Hoy vamos a calcular los dos que más vas a encontrar: el sorbato de potasio y el benzoato de sodio.",
+      "clave": "sorbato"
+    },
+    {
+      "texto": "Y los dos tienen un límite máximo. No es un capricho: existe porque hay una ingesta diaria admisible.",
+      "clave": "límite"
+    },
+    {
+      "texto": "Para el sorbato, en Europa se usa una ingesta diaria admisible de tres miligramos por kilo de peso al día.",
+      "clave": "tres"
+    },
+    {
+      "texto": "Una persona de sesenta kilos: ciento ochenta miligramos al día, sumando todo lo que come.",
+      "clave": "sesenta"
+    },
+    {
+      "texto": "Los límites de cada alimento están pensados para que, sumando todo, no te acerques a esa cifra.",
+      "clave": "sumando"
+    },
+    {
+      "texto": "Vamos con el método. Paso uno: encuentra tu límite.",
+      "clave": "límite"
+    },
+    {
+      "texto": "La referencia internacional es el Codex Alimentarius, la norma de la FAO y la Organización Mundial de la Salud.",
+      "clave": "Codex"
+    },
+    {
+      "texto": "Para mermeladas, jaleas y confituras, el Codex permite hasta mil miligramos de sorbatos por kilo.",
+      "clave": "mil"
+    },
+    {
+      "texto": "Y para los benzoatos, lo mismo: mil miligramos por kilo.",
+      "clave": "benzoatos"
+    },
+    {
+      "texto": "Mil miligramos son un gramo. O sea, un gramo por cada kilo de producto.",
+      "clave": "gramo"
+    },
+    {
+      "texto": "Pero ojo: tu país puede tener su propia norma, y a veces es más estricta que el Codex.",
+      "clave": "país"
+    },
+    {
+      "texto": "Así que antes de producir, busca la norma de aditivos de tu país y anota el número exacto. Ese es tu techo.",
+      "clave": "techo"
+    },
+    {
+      "texto": "Paso dos: pesa tu tanda… pero ya terminada.",
+      "clave": "terminada"
+    },
+    {
+      "texto": "¿Por qué? Porque al cocinar se evapora agua, y la mezcla pierde peso.",
+      "clave": "evapora"
+    },
+    {
+      "texto": "Imagínate que empiezas con doce kilos de fruta y azúcar, y al final de la cocción te quedan diez.",
+      "clave": "diez"
+    },
+    {
+      "texto": "El límite se aplica al producto que vendes. Así que la cuenta se hace con esos diez kilos.",
+      "clave": "vendes"
+    },
+    {
+      "texto": "Si calculas con los doce kilos del inicio, te pasas del límite sin darte cuenta.",
+      "clave": "pasas"
+    },
+    {
+      "texto": "Entonces: diez kilos, por un gramo por kilo, son diez gramos.",
+      "clave": "gramos"
+    },
+    {
+      "texto": "Y aquí viene la trampa de la que te hablé.",
+      "clave": "trampa"
+    },
+    {
+      "texto": "Esos diez gramos son de ácido sórbico. Porque la norma cuenta el ácido, no la sal.",
+      "clave": "ácido"
+    },
+    {
+      "texto": "Pero lo más normal es que tú compres sorbato de potasio, porque se disuelve muchísimo mejor en agua.",
+      "clave": "compres"
+    },
+    {
+      "texto": "Y el sorbato de potasio no es puro ácido: de cada cien gramos, solo unos setenta y cinco son ácido sórbico.",
+      "clave": "setenta"
+    },
+    {
+      "texto": "El resto del peso lo pone el potasio. Por eso hay que corregir.",
+      "clave": "corregir"
+    },
+    {
+      "texto": "Paso tres: multiplica por el factor.",
+      "clave": "factor"
+    },
+    {
+      "texto": "Para el sorbato de potasio, el factor es 1,34.",
+      "clave": "1,34",
+      "dicho": "Para el sorbato de potasio, el factor es uno coma treinta y cuatro."
+    },
+    {
+      "texto": "Diez gramos por 1,34 dan 13,4 gramos de sorbato de potasio. ¡Esa es tu dosis máxima!",
+      "clave": "máxima",
+      "dicho": "Diez gramos por uno coma treinta y cuatro dan trece coma cuatro gramos de sorbato de potasio. ¡Esa es tu dosis máxima!"
+    },
+    {
+      "texto": "¿Y el benzoato de sodio? Pasa lo mismo: la norma cuenta ácido benzoico, y el benzoato trae cerca de un ochenta y cinco por ciento.",
+      "clave": "ochenta"
+    },
+    {
+      "texto": "Su factor es 1,18. Diez gramos por 1,18 son 11,8 gramos de benzoato de sodio.",
+      "clave": "1,18",
+      "dicho": "Su factor es uno coma dieciocho. Diez gramos por uno coma dieciocho son once coma ocho gramos de benzoato de sodio."
+    },
+    {
+      "texto": "¿Y de dónde salen esos números? De dividir el peso de la molécula de la sal entre el de la molécula del ácido.",
+      "clave": "molécula"
+    },
+    {
+      "texto": "Química básica, nada más. Y te ahorra un error enorme.",
+      "clave": "error"
+    },
+    {
+      "texto": "Así que la fórmula completa queda así: kilos de producto terminado, por el límite en gramos por kilo, por el factor.",
+      "clave": "fórmula"
+    },
+    {
+      "texto": "Hagamos otra. Una tanda de veinticinco kilos de mermelada con sorbato de potasio.",
+      "clave": "veinticinco"
+    },
+    {
+      "texto": "Veinticinco, por uno, por 1,34: 33,5 gramos.",
+      "clave": "33,5",
+      "dicho": "Veinticinco, por uno, por uno coma treinta y cuatro: treinta y tres coma cinco gramos."
+    },
+    {
+      "texto": "Ahora una pequeñita, de dos kilos: dos, por uno, por 1,34. Te da 2,68 gramos.",
+      "clave": "2,68",
+      "dicho": "Ahora una pequeñita, de dos kilos: dos, por uno, por uno coma treinta y cuatro. Te da dos coma sesenta y ocho gramos."
+    },
+    {
+      "texto": "Y si tu norma fuera más estricta, digamos medio gramo por kilo, cambias ese número y listo.",
+      "clave": "medio"
+    },
+    {
+      "texto": "¿Tú con qué tamaño de tanda trabajas? Déjamelo en los comentarios y te hago la cuenta.",
+      "clave": "comentarios"
+    },
+    {
+      "texto": "Ahora, ¿cómo pesas 2,68 gramos? Con una balanza de cocina normal, imposible.",
+      "clave": "imposible",
+      "dicho": "Ahora, ¿cómo pesas dos coma sesenta y ocho gramos? Con una balanza de cocina normal, imposible."
+    },
+    {
+      "texto": "Muchas balanzas de cocina van de gramo en gramo. Para dosis pequeñas necesitas una de precisión, de décimas o centésimas de gramo.",
+      "clave": "precisión"
+    },
+    {
+      "texto": "Y hay un truco muy útil: la solución madre.",
+      "clave": "madre"
+    },
+    {
+      "texto": "Disuelves, por ejemplo, cien gramos de sorbato de potasio en agua, hasta completar un litro.",
+      "clave": "litro"
+    },
+    {
+      "texto": "Así, cada diez mililitros llevan un gramo. ¿Necesitas 13,4 gramos? Mides 134 mililitros.",
+      "clave": "mililitros",
+      "dicho": "Así, cada diez mililitros llevan un gramo. ¿Necesitas trece coma cuatro gramos? Mides ciento treinta y cuatro mililitros."
+    },
+    {
+      "texto": "Medir un líquido con una probeta es mucho más fácil que pesar polvo fino.",
+      "clave": "probeta"
+    },
+    {
+      "texto": "Funciona porque el sorbato de potasio se disuelve de maravilla en agua.",
+      "clave": "disuelve"
+    },
+    {
+      "texto": "Eso sí: esa agua también entra a la mezcla, así que no prepares la solución demasiado diluida.",
+      "clave": "diluida"
+    },
+    {
+      "texto": "¿Y cuándo lo agregas? Al final de la cocción, ya disuelto.",
+      "clave": "final"
+    },
+    {
+      "texto": "Y mezcla muy, muy bien, para que llegue a toda la tanda.",
+      "clave": "mezcla"
+    },
+    {
+      "texto": "Si lo echas en polvo directo, se te hacen grumos: unas partes quedan con mucho conservante y otras sin nada.",
+      "clave": "grumos"
+    },
+    {
+      "texto": "Y justo donde no llegó, es donde aparece el moho.",
+      "clave": "moho"
+    },
+    {
+      "texto": "Paso cuatro, el que casi todo el mundo se salta: mide el pH.",
+      "clave": "pH",
+      "dicho": "Paso cuatro, el que casi todo el mundo se salta: mide el pe hache."
+    },
+    {
+      "texto": "Estos conservantes son ácidos débiles. Y solo trabajan bien en su forma ácida, la que no se ha disociado.",
+      "clave": "disociado"
+    },
+    {
+      "texto": "Cuanto más ácido es tu producto, más conservante queda en esa forma activa.",
+      "clave": "activa"
+    },
+    {
+      "texto": "Mira los números del ácido sórbico: a pH cuatro, cerca del ochenta y seis por ciento está activo.",
+      "clave": "ochenta",
+      "dicho": "Mira los números del ácido sórbico: a pe hache cuatro, cerca del ochenta y seis por ciento está activo."
+    },
+    {
+      "texto": "Pero a pH cinco, ¡apenas el treinta y siete!",
+      "clave": "treinta",
+      "dicho": "Pero a pe hache cinco, ¡apenas el treinta y siete!"
+    },
+    {
+      "texto": "Con el benzoato es peor: sesenta por ciento a pH cuatro, y solo trece por ciento a pH cinco.",
+      "clave": "trece",
+      "dicho": "Con el benzoato es peor: sesenta por ciento a pe hache cuatro, y solo trece por ciento a pe hache cinco."
+    },
+    {
+      "texto": "O sea: el benzoato es para productos bien ácidos. Si tu producto es poco ácido, el sorbato aguanta mejor.",
+      "clave": "ácidos"
+    },
+    {
+      "texto": "¿La buena noticia? Una mermelada clásica ya es muy ácida.",
+      "clave": "ácida"
+    },
+    {
+      "texto": "Para que la pectina forme el gel, el pH suele estar entre 2,8 y 3,5.",
+      "clave": "pectina",
+      "dicho": "Para que la pectina forme el gel, el pe hache suele estar entre dos coma ocho y tres coma cinco."
+    },
+    {
+      "texto": "Pero las pulpas cambian muchísimo según la fruta. Por eso, mide el pH de cada tanda, con un pHmetro o con tiras.",
+      "clave": "tiras",
+      "dicho": "Pero las pulpas cambian muchísimo según la fruta. Por eso, mide el pe hache de cada tanda, con un pe hachímetro o con tiras."
+    },
+    {
+      "texto": "Hablemos de las pulpas. La fórmula es exactamente la misma.",
+      "clave": "misma"
+    },
+    {
+      "texto": "Lo que cambia es el límite: la pulpa está en otra categoría de la norma, y el número puede ser distinto.",
+      "clave": "categoría"
+    },
+    {
+      "texto": "Así que busca tu producto exacto en la norma de tu país: no es lo mismo una pulpa congelada que una fruta procesada.",
+      "clave": "producto"
+    },
+    {
+      "texto": "Hagamos un ejemplo, con números inventados solo para practicar.",
+      "clave": "practicar"
+    },
+    {
+      "texto": "Imagina que tu norma permitiera quinientos miligramos por kilo en tu pulpa, y que tienes cuarenta kilos.",
+      "clave": "cuarenta"
+    },
+    {
+      "texto": "Cuarenta, por 0,5, por 1,34: 26,8 gramos de sorbato de potasio.",
+      "clave": "26,8",
+      "dicho": "Cuarenta, por cero coma cinco, por uno coma treinta y cuatro: veintiséis coma ocho gramos de sorbato de potasio."
+    },
+    {
+      "texto": "¿Ves? Cambia el límite, pero la cuenta es idéntica.",
+      "clave": "idéntica"
+    },
+    {
+      "texto": "Y luego repites los cuatro pasos: límite, peso, factor y pH.",
+      "clave": "repites",
+      "dicho": "Y luego repites los cuatro pasos: límite, peso, factor y pe hache."
+    },
+    {
+      "texto": "Un consejo de producción que vale oro: anota cada tanda.",
+      "clave": "anota"
+    },
+    {
+      "texto": "Fecha, kilos terminados, gramos de conservante y pH.",
+      "clave": "fecha",
+      "dicho": "Fecha, kilos terminados, gramos de conservante y pe hache."
+    },
+    {
+      "texto": "Si un día algo sale mal, ese registro te dice exactamente qué pasó.",
+      "clave": "registro"
+    },
+    {
+      "texto": "Y si te visita la autoridad sanitaria, tienes cómo demostrar que cumples.",
+      "clave": "demostrar"
+    },
+    {
+      "texto": "Y guarda la ficha técnica de tu conservante: ahí tu proveedor indica qué producto es y su pureza.",
+      "clave": "ficha"
+    },
+    {
+      "texto": "Así sabes que lo que pesas es de verdad lo que crees que pesas.",
+      "clave": "pesas"
+    },
+    {
+      "texto": "Ahora, repasemos los errores más comunes.",
+      "clave": "errores"
+    },
+    {
+      "texto": "Uno: echarlo a ojo, con cuchara.",
+      "clave": "cuchara"
+    },
+    {
+      "texto": "Dos: calcular con el peso de la fruta cruda, y no con el producto terminado.",
+      "clave": "cruda"
+    },
+    {
+      "texto": "Tres: olvidar el factor, y confundir el ácido con la sal.",
+      "clave": "factor"
+    },
+    {
+      "texto": "Cuatro: echarlo en polvo, sin disolver.",
+      "clave": "polvo"
+    },
+    {
+      "texto": "Cinco: usar benzoato en un producto poco ácido y creer que está protegido.",
+      "clave": "protegido"
+    },
+    {
+      "texto": "Y un error extra: pensar que más es mejor. Más conservante no arregla una mala higiene, y pasarte del límite no está permitido.",
+      "clave": "higiene"
+    },
+    {
+      "texto": "Resumen rápido, para que lo guardes.",
+      "clave": "guardes"
+    },
+    {
+      "texto": "Uno: busca tu límite en la norma. Dos: pesa la tanda terminada.",
+      "clave": "norma"
+    },
+    {
+      "texto": "Tres: multiplica kilos por límite por factor. 1,34 para el sorbato de potasio, 1,18 para el benzoato de sodio.",
+      "clave": "multiplica",
+      "dicho": "Tres: multiplica kilos por límite por factor. Uno coma treinta y cuatro para el sorbato de potasio, uno coma dieciocho para el benzoato de sodio."
+    },
+    {
+      "texto": "Y cuatro: mide el pH, porque decide cuánto de ese conservante trabaja de verdad.",
+      "clave": "decide",
+      "dicho": "Y cuatro: mide el pe hache, porque decide cuánto de ese conservante trabaja de verdad."
+    },
+    {
+      "texto": "Con eso, ¡nunca más a ojo!",
+      "clave": "nunca"
+    },
+    {
+      "texto": "Si este video te sirvió, compártelo con alguien que haga mermeladas o pulpas para vender.",
+      "clave": "compártelo"
+    },
+    {
+      "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
+      "clave": "NativoTerrus",
+      "dicho": "Síguenos en Nativo Terrus para descubrir la ciencia detrás de los alimentos."
+    }
+  ],
+  "escenas": [
+    {
+      "nombre": "guia",
+      "tomas": [
+        {
+          "desde": 0,
+          "imagen": "Pexels 6588491",
+          "archivo": "imagenes/pexels-6588491.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "¿Sorbato a *OJO*?"
+        },
+        {
+          "desde": 2,
+          "imagen": "Pexels 29011872",
+          "archivo": "imagenes/pexels-29011872.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "De menos → *moho* · De más → fuera de la ley"
+        },
+        {
+          "desde": 3,
+          "imagen": "Pexels 16115339",
+          "archivo": "imagenes/pexels-16115339.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "La dosis *exacta*, gramo a gramo"
+        },
+        {
+          "desde": 4,
+          "imagen": "Pexels 8250947",
+          "archivo": "imagenes/pexels-8250947.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "4 pasos · calculadora · balanza"
+        },
+        {
+          "desde": 5,
+          "imagen": "Pexels 12625114",
+          "archivo": "imagenes/pexels-12625114.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1,
+          "rotulo": "La *trampa* está en la bolsa"
+        },
+        {
+          "desde": 6,
+          "imagen": "Pexels 5078582",
+          "archivo": "imagenes/pexels-5078582.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "¿Para qué sirve un *conservante*?"
+        },
+        {
+          "desde": 7,
+          "imagen": "Pexels 33474632",
+          "archivo": "imagenes/pexels-33474632.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1,
+          "rotulo": "Frena *mohos* y levaduras"
+        },
+        {
+          "desde": 8,
+          "imagen": "Pexels 9462224",
+          "archivo": "imagenes/pexels-9462224.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "No esteriliza: la *limpieza* va primero"
+        },
+        {
+          "desde": 9,
+          "imagen": "Pexels 7110136",
+          "archivo": "imagenes/pexels-7110136.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Sorbato de potasio · Benzoato de sodio"
+        },
+        {
+          "desde": 10,
+          "imagen": "Pexels 1350964",
+          "archivo": "imagenes/pexels-1350964.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Todos tienen un *límite*"
+        },
+        {
+          "desde": 11,
+          "imagen": "Pexels 8282240",
+          "archivo": "imagenes/pexels-8282240.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "IDA sorbatos (EFSA): *3 mg/kg* de peso al día"
+        },
+        {
+          "desde": 12,
+          "imagen": "Pexels 1765024",
+          "archivo": "imagenes/pexels-1765024.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "60 kg → *180 mg* al día"
+        },
+        {
+          "desde": 13,
+          "imagen": "Pexels 10165683",
+          "archivo": "imagenes/pexels-10165683.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1
+        },
+        {
+          "desde": 14,
+          "imagen": "Pexels 16115339",
+          "archivo": "imagenes/pexels-16115339.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "PASO 1 · El *límite*"
+        },
+        {
+          "desde": 15,
+          "imagen": "Pexels 6368842",
+          "archivo": "imagenes/pexels-6368842.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1,
+          "rotulo": "Codex Alimentarius · FAO / OMS"
+        },
+        {
+          "desde": 16,
+          "imagen": "Pexels 4963713",
+          "archivo": "imagenes/pexels-4963713.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Mermeladas: *1000 mg/kg* de sorbatos"
+        },
+        {
+          "desde": 17,
+          "imagen": "Pexels 8896839",
+          "archivo": "imagenes/pexels-8896839.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Benzoatos: *1000 mg/kg*"
+        },
+        {
+          "desde": 18,
+          "imagen": "Pexels 5078582",
+          "archivo": "imagenes/pexels-5078582.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "1000 mg = *1 g* por kilo"
+        },
+        {
+          "desde": 19,
+          "imagen": "Pexels 8293680",
+          "archivo": "imagenes/pexels-8293680.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Revisa la norma de *tu país*"
+        },
+        {
+          "desde": 20,
+          "imagen": "Pexels 6368842",
+          "archivo": "imagenes/pexels-6368842.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Ese número es tu *techo*"
+        },
+        {
+          "desde": 21,
+          "imagen": "Pexels 5964491",
+          "archivo": "imagenes/pexels-5964491.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1,
+          "rotulo": "PASO 2 · Pesa la tanda *terminada*"
+        },
+        {
+          "desde": 22,
+          "imagen": "Pexels 3298605",
+          "archivo": "imagenes/pexels-3298605.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Al cocinar se *evapora* agua"
+        },
+        {
+          "desde": 23,
+          "imagen": "Pexels 1435296",
+          "archivo": "imagenes/pexels-1435296.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1,
+          "rotulo": "12 kg al inicio → *10 kg* al final"
+        },
+        {
+          "desde": 24,
+          "imagen": "Pexels 16115339",
+          "archivo": "imagenes/pexels-16115339.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "El límite va sobre lo que *vendes*"
+        },
+        {
+          "desde": 25,
+          "imagen": "Pexels 29011872",
+          "archivo": "imagenes/pexels-29011872.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Con 12 kg → te *pasas*"
+        },
+        {
+          "desde": 26,
+          "imagen": "Pexels 8450351",
+          "archivo": "imagenes/pexels-8450351.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "10 kg × 1 g/kg = *10 g*"
+        },
+        {
+          "desde": 27,
+          "imagen": "Pexels 7110136",
+          "archivo": "imagenes/pexels-7110136.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "La *trampa*"
+        },
+        {
+          "desde": 28,
+          "imagen": "Pexels 12625114",
+          "archivo": "imagenes/pexels-12625114.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "La norma cuenta el *ácido*, no la sal"
+        },
+        {
+          "desde": 29,
+          "imagen": "Pexels 8282240",
+          "archivo": "imagenes/pexels-8282240.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1,
+          "rotulo": "Tú compras *sorbato de potasio*"
+        },
+        {
+          "desde": 30,
+          "imagen": "Pexels 5078582",
+          "archivo": "imagenes/pexels-5078582.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Sorbato de potasio ≈ *75 %* ácido sórbico"
+        },
+        {
+          "desde": 31,
+          "imagen": "Pexels 3825527",
+          "archivo": "imagenes/pexels-3825527.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1
+        },
+        {
+          "desde": 32,
+          "imagen": "Pexels 8250947",
+          "archivo": "imagenes/pexels-8250947.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "PASO 3 · Multiplica por el *factor*"
+        },
+        {
+          "desde": 33,
+          "imagen": "Pexels 6368842",
+          "archivo": "imagenes/pexels-6368842.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Sorbato de potasio: *× 1,34*"
+        },
+        {
+          "desde": 34,
+          "imagen": "Pexels 5964491",
+          "archivo": "imagenes/pexels-5964491.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "10 g × 1,34 = *13,4 g*"
+        },
+        {
+          "desde": 35,
+          "imagen": "Pexels 7723287",
+          "archivo": "imagenes/pexels-7723287.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Benzoato de sodio ≈ *85 %* ácido benzoico"
+        },
+        {
+          "desde": 36,
+          "imagen": "Pexels 8450351",
+          "archivo": "imagenes/pexels-8450351.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Benzoato: *× 1,18* → 10 g = *11,8 g*"
+        },
+        {
+          "desde": 37,
+          "imagen": "Pexels 3825527",
+          "archivo": "imagenes/pexels-3825527.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1,
+          "rotulo": "Peso de la sal ÷ peso del ácido"
+        },
+        {
+          "desde": 38,
+          "imagen": "Pexels 8539753",
+          "archivo": "imagenes/pexels-8539753.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1
+        },
+        {
+          "desde": 39,
+          "imagen": "Pexels 8250947",
+          "archivo": "imagenes/pexels-8250947.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1,
+          "rotulo": "Kilos × límite × *factor*"
+        },
+        {
+          "desde": 40,
+          "imagen": "Pexels 6588491",
+          "archivo": "imagenes/pexels-6588491.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Tanda de *25 kg*"
+        },
+        {
+          "desde": 41,
+          "imagen": "Pexels 5964491",
+          "archivo": "imagenes/pexels-5964491.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "25 × 1 × 1,34 = *33,5 g*"
+        },
+        {
+          "desde": 42,
+          "imagen": "Pexels 4963713",
+          "archivo": "imagenes/pexels-4963713.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "2 × 1 × 1,34 = *2,68 g*"
+        },
+        {
+          "desde": 43,
+          "imagen": "Pexels 6368842",
+          "archivo": "imagenes/pexels-6368842.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "¿Norma de 0,5 g/kg? Cambia ese *número*"
+        },
+        {
+          "desde": 44,
+          "imagen": "Pexels 16115339",
+          "archivo": "imagenes/pexels-16115339.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "¿Tu tanda? Déjala en los *comentarios*"
+        },
+        {
+          "desde": 45,
+          "imagen": "Pexels 8450351",
+          "archivo": "imagenes/pexels-8450351.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1,
+          "rotulo": "¿Cómo pesar *2,68 g*?"
+        },
+        {
+          "desde": 46,
+          "imagen": "Pexels 5964491",
+          "archivo": "imagenes/pexels-5964491.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Balanza de *precisión*: 0,1 o 0,01 g"
+        },
+        {
+          "desde": 47,
+          "imagen": "Pexels 8392533",
+          "archivo": "imagenes/pexels-8392533.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1,
+          "rotulo": "El truco: *solución madre*"
+        },
+        {
+          "desde": 48,
+          "imagen": "Pexels 7298559",
+          "archivo": "imagenes/pexels-7298559.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "100 g en agua → *1 litro*"
+        },
+        {
+          "desde": 49,
+          "imagen": "Pexels 7723287",
+          "archivo": "imagenes/pexels-7723287.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "10 mL = 1 g → 13,4 g = *134 mL*"
+        },
+        {
+          "desde": 50,
+          "imagen": "Pexels 8325758",
+          "archivo": "imagenes/pexels-8325758.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1
+        },
+        {
+          "desde": 51,
+          "imagen": "Pexels 8392533",
+          "archivo": "imagenes/pexels-8392533.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Se *disuelve* muy bien en agua"
+        },
+        {
+          "desde": 52,
+          "imagen": "Pexels 7298559",
+          "archivo": "imagenes/pexels-7298559.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Ojo: esa agua también *suma*"
+        },
+        {
+          "desde": 53,
+          "imagen": "Pexels 3298605",
+          "archivo": "imagenes/pexels-3298605.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1,
+          "rotulo": "Al *final* de la cocción, disuelto"
+        },
+        {
+          "desde": 54,
+          "imagen": "Pexels 5908190",
+          "archivo": "imagenes/pexels-5908190.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Mezcla *muy bien*"
+        },
+        {
+          "desde": 55,
+          "imagen": "Pexels 7110136",
+          "archivo": "imagenes/pexels-7110136.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1,
+          "rotulo": "En polvo → *grumos*"
+        },
+        {
+          "desde": 56,
+          "imagen": "Pexels 29011872",
+          "archivo": "imagenes/pexels-29011872.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Donde no llegó → *moho*"
+        },
+        {
+          "desde": 57,
+          "imagen": "Pexels 8325703",
+          "archivo": "imagenes/pexels-8325703.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "PASO 4 · Mide el *pH*"
+        },
+        {
+          "desde": 58,
+          "imagen": "Pexels 8539753",
+          "archivo": "imagenes/pexels-8539753.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Solo trabaja la forma *no disociada*"
+        },
+        {
+          "desde": 59,
+          "imagen": "Pexels 8325703",
+          "archivo": "imagenes/pexels-8325703.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "Más ácido = más conservante *activo*"
+        },
+        {
+          "desde": 60,
+          "imagen": "Pexels 8539753",
+          "archivo": "imagenes/pexels-8539753.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Ácido sórbico · pH 4 → *86 %* activo"
+        },
+        {
+          "desde": 61,
+          "imagen": "Pexels 8325703",
+          "archivo": "imagenes/pexels-8325703.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1,
+          "rotulo": "pH 5 → apenas *37 %*"
+        },
+        {
+          "desde": 62,
+          "imagen": "Pexels 8539753",
+          "archivo": "imagenes/pexels-8539753.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Benzoato · pH 4 → 60 % · pH 5 → *13 %*"
+        },
+        {
+          "desde": 63,
+          "imagen": "Pexels 27861254",
+          "archivo": "imagenes/pexels-27861254.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1,
+          "rotulo": "Benzoato: solo productos *muy ácidos*"
+        },
+        {
+          "desde": 64,
+          "imagen": "Pexels 16115339",
+          "archivo": "imagenes/pexels-16115339.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1
+        },
+        {
+          "desde": 65,
+          "imagen": "Pexels 10165683",
+          "archivo": "imagenes/pexels-10165683.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Pectina: pH *2,8 – 3,5*"
+        },
+        {
+          "desde": 66,
+          "imagen": "Pexels 18348176",
+          "archivo": "imagenes/pexels-18348176.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "En pulpas, mide el *pH* de cada tanda"
+        },
+        {
+          "desde": 67,
+          "imagen": "Pexels 8230033",
+          "archivo": "imagenes/pexels-8230033.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "¿Y en *pulpas*?"
+        },
+        {
+          "desde": 68,
+          "imagen": "Pexels 15048305",
+          "archivo": "imagenes/pexels-15048305.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Otra *categoría* de la norma"
+        },
+        {
+          "desde": 69,
+          "imagen": "Pexels 6823362",
+          "archivo": "imagenes/pexels-6823362.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1,
+          "rotulo": "Busca tu producto *exacto*"
+        },
+        {
+          "desde": 70,
+          "imagen": "Pexels 6368842",
+          "archivo": "imagenes/pexels-6368842.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Ejemplo con números *inventados*"
+        },
+        {
+          "desde": 71,
+          "imagen": "Pexels 18348176",
+          "archivo": "imagenes/pexels-18348176.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1,
+          "rotulo": "Límite 0,5 g/kg · *40 kg*"
+        },
+        {
+          "desde": 72,
+          "imagen": "Pexels 5964491",
+          "archivo": "imagenes/pexels-5964491.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "40 × 0,5 × 1,34 = *26,8 g*"
+        },
+        {
+          "desde": 73,
+          "imagen": "Pexels 8250947",
+          "archivo": "imagenes/pexels-8250947.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1
+        },
+        {
+          "desde": 74,
+          "imagen": "Pexels 27861254",
+          "archivo": "imagenes/pexels-27861254.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Límite · Peso · Factor · *pH*"
+        },
+        {
+          "desde": 75,
+          "imagen": "Pexels 6368842",
+          "archivo": "imagenes/pexels-6368842.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "*Anota* cada tanda"
+        },
+        {
+          "desde": 76,
+          "imagen": "Pexels 8250947",
+          "archivo": "imagenes/pexels-8250947.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "Fecha · kilos · gramos · pH"
+        },
+        {
+          "desde": 77,
+          "imagen": "Pexels 29011872",
+          "archivo": "imagenes/pexels-29011872.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1
+        },
+        {
+          "desde": 78,
+          "imagen": "Pexels 8293680",
+          "archivo": "imagenes/pexels-8293680.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Demuestra que *cumples*"
+        },
+        {
+          "desde": 79,
+          "imagen": "Pexels 7110136",
+          "archivo": "imagenes/pexels-7110136.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1,
+          "rotulo": "Guarda la *ficha técnica*"
+        },
+        {
+          "desde": 80,
+          "imagen": "Pexels 8450351",
+          "archivo": "imagenes/pexels-8450351.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1
+        },
+        {
+          "desde": 81,
+          "imagen": "Pexels 1973983",
+          "archivo": "imagenes/pexels-1973983.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "Los errores más *comunes*"
+        },
+        {
+          "desde": 82,
+          "imagen": "Pexels 5078582",
+          "archivo": "imagenes/pexels-5078582.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "1 · A ojo, con *cuchara*"
+        },
+        {
+          "desde": 83,
+          "imagen": "Pexels 1435296",
+          "archivo": "imagenes/pexels-1435296.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "2 · Pesar la fruta *cruda*"
+        },
+        {
+          "desde": 84,
+          "imagen": "Pexels 12625114",
+          "archivo": "imagenes/pexels-12625114.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "3 · Olvidar el *factor*"
+        },
+        {
+          "desde": 85,
+          "imagen": "Pexels 7110136",
+          "archivo": "imagenes/pexels-7110136.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1,
+          "rotulo": "4 · En polvo, sin *disolver*"
+        },
+        {
+          "desde": 86,
+          "imagen": "Pexels 27861254",
+          "archivo": "imagenes/pexels-27861254.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "5 · Benzoato en producto poco ácido"
+        },
+        {
+          "desde": 87,
+          "imagen": "Pexels 9462224",
+          "archivo": "imagenes/pexels-9462224.jpg",
+          "movimiento": "bajar",
+          "fuerza": 0.1,
+          "rotulo": "Más no es mejor: *higiene* primero"
+        },
+        {
+          "desde": 88,
+          "imagen": "Pexels 6368842",
+          "archivo": "imagenes/pexels-6368842.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "*Resumen*"
+        },
+        {
+          "desde": 89,
+          "imagen": "Pexels 16115339",
+          "archivo": "imagenes/pexels-16115339.jpg",
+          "movimiento": "derecha",
+          "fuerza": 0.1,
+          "rotulo": "1 Límite · 2 Peso terminado"
+        },
+        {
+          "desde": 90,
+          "imagen": "Pexels 5964491",
+          "archivo": "imagenes/pexels-5964491.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "3 Kilos × límite × factor (1,34 · 1,18)"
+        },
+        {
+          "desde": 91,
+          "imagen": "Pexels 8325703",
+          "archivo": "imagenes/pexels-8325703.jpg",
+          "movimiento": "izquierda",
+          "fuerza": 0.1,
+          "rotulo": "4 Mide el *pH*"
+        },
+        {
+          "desde": 92,
+          "imagen": "Pexels 4963713",
+          "archivo": "imagenes/pexels-4963713.jpg",
+          "movimiento": "acercar",
+          "fuerza": 0.1,
+          "rotulo": "¡Nunca más a *ojo*!"
+        },
+        {
+          "desde": 93,
+          "imagen": "Pexels 8896839",
+          "archivo": "imagenes/pexels-8896839.jpg",
+          "movimiento": "subir",
+          "fuerza": 0.1,
+          "rotulo": "*Compártelo*"
+        },
+        {
+          "desde": 94,
+          "imagen": "Pexels 10165683",
+          "archivo": "imagenes/pexels-10165683.jpg",
+          "movimiento": "alejar",
+          "fuerza": 0.1,
+          "rotulo": "Síguenos en *NativoTerrus*"
+        }
+      ]
+    }
+  ]
+}

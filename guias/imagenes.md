@@ -42,3 +42,16 @@ voz o que parece otra cosa → `node barcada.mjs otra <proyecto> <n>` o mejora e
 
 Si el usuario tiene una foto propia para una toma (su producto, su finca), ponla en el proyecto y en la toma
 `"archivo": "mi-foto.jpg"`.
+
+## Formato horizontal (16:9, YouTube)
+
+`node barcada.mjs nuevo "<idea>" --formato horizontal` (o `"formato": "horizontal"` en `proyecto.json`): el video sale
+a 1920 × 1080, con los subtítulos abajo, los rótulos arriba y la portada como miniatura de YouTube. Solo para el
+estilo realista (imágenes, fotos o clips); el 2D y el modo juego siguen siendo verticales.
+
+## Fotos libres de Pexels (sin clave)
+
+Sin clave de fal.ai u OpenAI, las fotos reales salen de Pexels: búscalas en la web (limitada a `pexels.com`), toma el
+número de cada una (`pexels.com/photo/…-<número>/`) y `node barcada.mjs pexels <proyecto> <número> …` las descarga a
+`imagenes/pexels-<número>.jpg` con su crédito en `notas.md`. En la toma, `"archivo": "imagenes/pexels-<número>.jpg"`.
+Antes de usarlas, míralas: nada de caras reconocibles, marcas ni etiquetas con texto. Detalles: `guias/youtube.md`.
