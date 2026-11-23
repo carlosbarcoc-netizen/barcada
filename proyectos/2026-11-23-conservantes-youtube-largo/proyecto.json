@@ -1,0 +1,417 @@
+{
+  "titulo": "Conservantes: la dosis exacta",
+  "estilo": "documental",
+  "calidad": "normal",
+  "formato": "horizontal",
+  "sujeto": "",
+  "frases": [
+    {
+      "texto": "¿Le echas el sorbato a ojo a tu mermelada? Cuidado, porque ahí puedes fallar por partida doble.",
+      "clave": "ojo"
+    },
+    {
+      "texto": "O le pones de menos y te aparece el moho, o le pones de más y te pasas del límite legal.",
+      "clave": "moho"
+    },
+    {
+      "texto": "Hoy te enseño a calcular la dosis exacta de conservante, gramo por gramo, en mermeladas y en pulpas.",
+      "clave": "exacta"
+    },
+    {
+      "texto": "Solo necesitas cuatro pasos, una calculadora y una buena balanza.",
+      "clave": "balanza"
+    },
+    {
+      "texto": "Y quédate hasta el final, porque hay una trampa que casi nadie ve… y está en la bolsa que compras.",
+      "clave": "trampa"
+    },
+    {
+      "texto": "Primero lo primero: ¿para qué sirve un conservante como el sorbato?",
+      "clave": "sirve"
+    },
+    {
+      "texto": "Su trabajo es frenar a los mohos y a las levaduras, los grandes enemigos de una mermelada.",
+      "clave": "mohos"
+    },
+    {
+      "texto": "Ojo: no esteriliza nada. Solo les pone el freno. Por eso la limpieza y la cocción siguen siendo lo primero.",
+      "clave": "freno"
+    },
+    {
+      "texto": "Hoy vamos a calcular los dos que más vas a encontrar: el sorbato de potasio y el benzoato de sodio.",
+      "clave": "sorbato"
+    },
+    {
+      "texto": "Y los dos tienen un límite máximo. No es un capricho: existe porque hay una ingesta diaria admisible.",
+      "clave": "límite"
+    },
+    {
+      "texto": "Para el sorbato, en Europa se usa una ingesta diaria admisible de tres miligramos por kilo de peso al día.",
+      "clave": "tres"
+    },
+    {
+      "texto": "Una persona de sesenta kilos: ciento ochenta miligramos al día, sumando todo lo que come.",
+      "clave": "sesenta"
+    },
+    {
+      "texto": "Los límites de cada alimento están pensados para que, sumando todo, no te acerques a esa cifra.",
+      "clave": "sumando"
+    },
+    {
+      "texto": "Vamos con el método. Paso uno: encuentra tu límite.",
+      "clave": "límite"
+    },
+    {
+      "texto": "La referencia internacional es el Codex Alimentarius, la norma de la FAO y la Organización Mundial de la Salud.",
+      "clave": "Codex"
+    },
+    {
+      "texto": "Para mermeladas, jaleas y confituras, el Codex permite hasta mil miligramos de sorbatos por kilo.",
+      "clave": "mil"
+    },
+    {
+      "texto": "Y para los benzoatos, lo mismo: mil miligramos por kilo.",
+      "clave": "benzoatos"
+    },
+    {
+      "texto": "Mil miligramos son un gramo. O sea, un gramo por cada kilo de producto.",
+      "clave": "gramo"
+    },
+    {
+      "texto": "Pero ojo: tu país puede tener su propia norma, y a veces es más estricta que el Codex.",
+      "clave": "país"
+    },
+    {
+      "texto": "Así que antes de producir, busca la norma de aditivos de tu país y anota el número exacto. Ese es tu techo.",
+      "clave": "techo"
+    },
+    {
+      "texto": "Paso dos: pesa tu tanda… pero ya terminada.",
+      "clave": "terminada"
+    },
+    {
+      "texto": "¿Por qué? Porque al cocinar se evapora agua, y la mezcla pierde peso.",
+      "clave": "evapora"
+    },
+    {
+      "texto": "Imagínate que empiezas con doce kilos de fruta y azúcar, y al final de la cocción te quedan diez.",
+      "clave": "diez"
+    },
+    {
+      "texto": "El límite se aplica al producto que vendes. Así que la cuenta se hace con esos diez kilos.",
+      "clave": "vendes"
+    },
+    {
+      "texto": "Si calculas con los doce kilos del inicio, te pasas del límite sin darte cuenta.",
+      "clave": "pasas"
+    },
+    {
+      "texto": "Entonces: diez kilos, por un gramo por kilo, son diez gramos.",
+      "clave": "gramos"
+    },
+    {
+      "texto": "Y aquí viene la trampa de la que te hablé.",
+      "clave": "trampa"
+    },
+    {
+      "texto": "Esos diez gramos son de ácido sórbico. Porque la norma cuenta el ácido, no la sal.",
+      "clave": "ácido"
+    },
+    {
+      "texto": "Pero lo más normal es que tú compres sorbato de potasio, porque se disuelve muchísimo mejor en agua.",
+      "clave": "compres"
+    },
+    {
+      "texto": "Y el sorbato de potasio no es puro ácido: de cada cien gramos, solo unos setenta y cinco son ácido sórbico.",
+      "clave": "setenta"
+    },
+    {
+      "texto": "El resto del peso lo pone el potasio. Por eso hay que corregir.",
+      "clave": "corregir"
+    },
+    {
+      "texto": "Paso tres: multiplica por el factor.",
+      "clave": "factor"
+    },
+    {
+      "texto": "Para el sorbato de potasio, el factor es 1,34.",
+      "clave": "1,34",
+      "dicho": "Para el sorbato de potasio, el factor es uno coma treinta y cuatro."
+    },
+    {
+      "texto": "Diez gramos por 1,34 dan 13,4 gramos de sorbato de potasio. ¡Esa es tu dosis máxima!",
+      "clave": "máxima",
+      "dicho": "Diez gramos por uno coma treinta y cuatro dan trece coma cuatro gramos de sorbato de potasio. ¡Esa es tu dosis máxima!"
+    },
+    {
+      "texto": "¿Y el benzoato de sodio? Pasa lo mismo: la norma cuenta ácido benzoico, y el benzoato trae cerca de un ochenta y cinco por ciento.",
+      "clave": "ochenta"
+    },
+    {
+      "texto": "Su factor es 1,18. Diez gramos por 1,18 son 11,8 gramos de benzoato de sodio.",
+      "clave": "1,18",
+      "dicho": "Su factor es uno coma dieciocho. Diez gramos por uno coma dieciocho son once coma ocho gramos de benzoato de sodio."
+    },
+    {
+      "texto": "¿Y de dónde salen esos números? De dividir el peso de la molécula de la sal entre el de la molécula del ácido.",
+      "clave": "molécula"
+    },
+    {
+      "texto": "Química básica, nada más. Y te ahorra un error enorme.",
+      "clave": "error"
+    },
+    {
+      "texto": "Así que la fórmula completa queda así: kilos de producto terminado, por el límite en gramos por kilo, por el factor.",
+      "clave": "fórmula"
+    },
+    {
+      "texto": "Hagamos otra. Una tanda de veinticinco kilos de mermelada con sorbato de potasio.",
+      "clave": "veinticinco"
+    },
+    {
+      "texto": "Veinticinco, por uno, por 1,34: 33,5 gramos.",
+      "clave": "33,5",
+      "dicho": "Veinticinco, por uno, por uno coma treinta y cuatro: treinta y tres coma cinco gramos."
+    },
+    {
+      "texto": "Ahora una pequeñita, de dos kilos: dos, por uno, por 1,34. Te da 2,68 gramos.",
+      "clave": "2,68",
+      "dicho": "Ahora una pequeñita, de dos kilos: dos, por uno, por uno coma treinta y cuatro. Te da dos coma sesenta y ocho gramos."
+    },
+    {
+      "texto": "Y si tu norma fuera más estricta, digamos medio gramo por kilo, cambias ese número y listo.",
+      "clave": "medio"
+    },
+    {
+      "texto": "¿Tú con qué tamaño de tanda trabajas? Déjamelo en los comentarios y te hago la cuenta.",
+      "clave": "comentarios"
+    },
+    {
+      "texto": "Ahora, ¿cómo pesas 2,68 gramos? Con una balanza de cocina normal, imposible.",
+      "clave": "imposible",
+      "dicho": "Ahora, ¿cómo pesas dos coma sesenta y ocho gramos? Con una balanza de cocina normal, imposible."
+    },
+    {
+      "texto": "Muchas balanzas de cocina van de gramo en gramo. Para dosis pequeñas necesitas una de precisión, de décimas o centésimas de gramo.",
+      "clave": "precisión"
+    },
+    {
+      "texto": "Y hay un truco muy útil: la solución madre.",
+      "clave": "madre"
+    },
+    {
+      "texto": "Disuelves, por ejemplo, cien gramos de sorbato de potasio en agua, hasta completar un litro.",
+      "clave": "litro"
+    },
+    {
+      "texto": "Así, cada diez mililitros llevan un gramo. ¿Necesitas 13,4 gramos? Mides 134 mililitros.",
+      "clave": "mililitros",
+      "dicho": "Así, cada diez mililitros llevan un gramo. ¿Necesitas trece coma cuatro gramos? Mides ciento treinta y cuatro mililitros."
+    },
+    {
+      "texto": "Medir un líquido con una probeta es mucho más fácil que pesar polvo fino.",
+      "clave": "probeta"
+    },
+    {
+      "texto": "Funciona porque el sorbato de potasio se disuelve de maravilla en agua.",
+      "clave": "disuelve"
+    },
+    {
+      "texto": "Eso sí: esa agua también entra a la mezcla, así que no prepares la solución demasiado diluida.",
+      "clave": "diluida"
+    },
+    {
+      "texto": "¿Y cuándo lo agregas? Al final de la cocción, ya disuelto.",
+      "clave": "final"
+    },
+    {
+      "texto": "Y mezcla muy, muy bien, para que llegue a toda la tanda.",
+      "clave": "mezcla"
+    },
+    {
+      "texto": "Si lo echas en polvo directo, se te hacen grumos: unas partes quedan con mucho conservante y otras sin nada.",
+      "clave": "grumos"
+    },
+    {
+      "texto": "Y justo donde no llegó, es donde aparece el moho.",
+      "clave": "moho"
+    },
+    {
+      "texto": "Paso cuatro, el que casi todo el mundo se salta: mide el pH.",
+      "clave": "pH",
+      "dicho": "Paso cuatro, el que casi todo el mundo se salta: mide el pe hache."
+    },
+    {
+      "texto": "Estos conservantes son ácidos débiles. Y solo trabajan bien en su forma ácida, la que no se ha disociado.",
+      "clave": "disociado"
+    },
+    {
+      "texto": "Cuanto más ácido es tu producto, más conservante queda en esa forma activa.",
+      "clave": "activa"
+    },
+    {
+      "texto": "Mira los números del ácido sórbico: a pH cuatro, cerca del ochenta y seis por ciento está activo.",
+      "clave": "ochenta",
+      "dicho": "Mira los números del ácido sórbico: a pe hache cuatro, cerca del ochenta y seis por ciento está activo."
+    },
+    {
+      "texto": "Pero a pH cinco, ¡apenas el treinta y siete!",
+      "clave": "treinta",
+      "dicho": "Pero a pe hache cinco, ¡apenas el treinta y siete!"
+    },
+    {
+      "texto": "Con el benzoato es peor: sesenta por ciento a pH cuatro, y solo trece por ciento a pH cinco.",
+      "clave": "trece",
+      "dicho": "Con el benzoato es peor: sesenta por ciento a pe hache cuatro, y solo trece por ciento a pe hache cinco."
+    },
+    {
+      "texto": "O sea: el benzoato es para productos bien ácidos. Si tu producto es poco ácido, el sorbato aguanta mejor.",
+      "clave": "ácidos"
+    },
+    {
+      "texto": "¿La buena noticia? Una mermelada clásica ya es muy ácida.",
+      "clave": "ácida"
+    },
+    {
+      "texto": "Para que la pectina forme el gel, el pH suele estar entre 2,8 y 3,5.",
+      "clave": "pectina",
+      "dicho": "Para que la pectina forme el gel, el pe hache suele estar entre dos coma ocho y tres coma cinco."
+    },
+    {
+      "texto": "Pero las pulpas cambian muchísimo según la fruta. Por eso, mide el pH de cada tanda, con un pHmetro o con tiras.",
+      "clave": "tiras",
+      "dicho": "Pero las pulpas cambian muchísimo según la fruta. Por eso, mide el pe hache de cada tanda, con un pe hachímetro o con tiras."
+    },
+    {
+      "texto": "Hablemos de las pulpas. La fórmula es exactamente la misma.",
+      "clave": "misma"
+    },
+    {
+      "texto": "Lo que cambia es el límite: la pulpa está en otra categoría de la norma, y el número puede ser distinto.",
+      "clave": "categoría"
+    },
+    {
+      "texto": "Así que busca tu producto exacto en la norma de tu país: no es lo mismo una pulpa congelada que una fruta procesada.",
+      "clave": "producto"
+    },
+    {
+      "texto": "Hagamos un ejemplo, con números inventados solo para practicar.",
+      "clave": "practicar"
+    },
+    {
+      "texto": "Imagina que tu norma permitiera quinientos miligramos por kilo en tu pulpa, y que tienes cuarenta kilos.",
+      "clave": "cuarenta"
+    },
+    {
+      "texto": "Cuarenta, por 0,5, por 1,34: 26,8 gramos de sorbato de potasio.",
+      "clave": "26,8",
+      "dicho": "Cuarenta, por cero coma cinco, por uno coma treinta y cuatro: veintiséis coma ocho gramos de sorbato de potasio."
+    },
+    {
+      "texto": "¿Ves? Cambia el límite, pero la cuenta es idéntica.",
+      "clave": "idéntica"
+    },
+    {
+      "texto": "Y luego repites los cuatro pasos: límite, peso, factor y pH.",
+      "clave": "repites",
+      "dicho": "Y luego repites los cuatro pasos: límite, peso, factor y pe hache."
+    },
+    {
+      "texto": "Un consejo de producción que vale oro: anota cada tanda.",
+      "clave": "anota"
+    },
+    {
+      "texto": "Fecha, kilos terminados, gramos de conservante y pH.",
+      "clave": "fecha",
+      "dicho": "Fecha, kilos terminados, gramos de conservante y pe hache."
+    },
+    {
+      "texto": "Si un día algo sale mal, ese registro te dice exactamente qué pasó.",
+      "clave": "registro"
+    },
+    {
+      "texto": "Y si te visita la autoridad sanitaria, tienes cómo demostrar que cumples.",
+      "clave": "demostrar"
+    },
+    {
+      "texto": "Y guarda la ficha técnica de tu conservante: ahí tu proveedor indica qué producto es y su pureza.",
+      "clave": "ficha"
+    },
+    {
+      "texto": "Así sabes que lo que pesas es de verdad lo que crees que pesas.",
+      "clave": "pesas"
+    },
+    {
+      "texto": "Ahora, repasemos los errores más comunes.",
+      "clave": "errores"
+    },
+    {
+      "texto": "Uno: echarlo a ojo, con cuchara.",
+      "clave": "cuchara"
+    },
+    {
+      "texto": "Dos: calcular con el peso de la fruta cruda, y no con el producto terminado.",
+      "clave": "cruda"
+    },
+    {
+      "texto": "Tres: olvidar el factor, y confundir el ácido con la sal.",
+      "clave": "factor"
+    },
+    {
+      "texto": "Cuatro: echarlo en polvo, sin disolver.",
+      "clave": "polvo"
+    },
+    {
+      "texto": "Cinco: usar benzoato en un producto poco ácido y creer que está protegido.",
+      "clave": "protegido"
+    },
+    {
+      "texto": "Y un error extra: pensar que más es mejor. Más conservante no arregla una mala higiene, y pasarte del límite no está permitido.",
+      "clave": "higiene"
+    },
+    {
+      "texto": "Resumen rápido, para que lo guardes.",
+      "clave": "guardes"
+    },
+    {
+      "texto": "Uno: busca tu límite en la norma. Dos: pesa la tanda terminada.",
+      "clave": "norma"
+    },
+    {
+      "texto": "Tres: multiplica kilos por límite por factor. 1,34 para el sorbato de potasio, 1,18 para el benzoato de sodio.",
+      "clave": "multiplica",
+      "dicho": "Tres: multiplica kilos por límite por factor. Uno coma treinta y cuatro para el sorbato de potasio, uno coma dieciocho para el benzoato de sodio."
+    },
+    {
+      "texto": "Y cuatro: mide el pH, porque decide cuánto de ese conservante trabaja de verdad.",
+      "clave": "decide",
+      "dicho": "Y cuatro: mide el pe hache, porque decide cuánto de ese conservante trabaja de verdad."
+    },
+    {
+      "texto": "Con eso, ¡nunca más a ojo!",
+      "clave": "nunca"
+    },
+    {
+      "texto": "Si este video te sirvió, compártelo con alguien que haga mermeladas o pulpas para vender.",
+      "clave": "compártelo"
+    },
+    {
+      "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
+      "clave": "NativoTerrus",
+      "dicho": "Síguenos en Nativo Terrus para descubrir la ciencia detrás de los alimentos."
+    }
+  ],
+  "escenas": [
+    {
+      "nombre": "gancho",
+      "tomas": [
+        {
+          "desde": 0,
+          "imagen": "",
+          "movimiento": "acercar",
+          "rotulo": ""
+        }
+      ]
+    }
+  ]
+}
