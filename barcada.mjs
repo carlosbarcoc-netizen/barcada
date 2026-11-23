@@ -24,6 +24,7 @@ const AYUDA = `Barcada · órdenes (todas desde esta carpeta):
   node barcada.mjs nuevo "<idea>" --piel neon      crea un proyecto en modo juego (Barcada 2.0): neon, voxel o arcade
   node barcada.mjs nuevo "<idea>" [--estilo documental] [--formato horizontal]   crea el proyecto en proyectos/ (2D con volumen o realista; horizontal = 16:9, solo realista)
   node barcada.mjs voz <proyecto> [--rehacer]      la voz con sus tiempos (una vez, con el guion aprobado)
+  node barcada.mjs pexels <proyecto> <n> [<n>...]   descarga fotos libres de Pexels por su número → imagenes/pexels-<n>.jpg
   node barcada.mjs tomas <proyecto>                genera las imágenes y la hoja revisar/tomas.jpg
   node barcada.mjs otra <proyecto> <n> [<n>...]    otra versión de esas tomas (nueva imagen)
   node barcada.mjs borrador <proyecto> [--hasta s] video rápido en baja calidad → revisar/borrador.mp4
@@ -57,6 +58,7 @@ try {
       break;
     }
     case "voz": await (await import("./nucleo/voz.mjs")).hacerVoz(carpetaProyecto(primero), { rehacer: marca("rehacer") }); break;
+    case "pexels": await (await import("./nucleo/extras.mjs")).pexels(carpetaProyecto(primero), resto.filter((x) => /^\d+$/.test(x))); break;
     case "tomas": await (await import("./nucleo/montaje.mjs")).hojaDeTomas(carpetaProyecto(primero)); break;
     case "otra": {
       const dir = carpetaProyecto(primero), f = join(dir, "proyecto.json"), p = leerJSON(f);

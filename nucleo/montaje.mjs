@@ -149,7 +149,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   const out = salida || join(dir, "revisar", `${borrador ? "borrador" : "final"}.mp4`);
   asegurar(join(out, ".."));
   await ffmpeg([...entradas, "-filter_complex", `${video};${audio}`, "-map", "[v]", "-map", "[a]", "-t", fin.toFixed(2),
-    "-c:v", "libx264", "-preset", borrador ? "veryfast" : "slow", "-crf", borrador ? "27" : "17", "-pix_fmt", "yuv420p", "-r", String(FPSv),
+    "-c:v", "libx264", "-preset", borrador ? "veryfast" : "slow", "-crf", borrador ? "27" : esHorizontal() ? "23" : "17", "-pix_fmt", "yuv420p", "-r", String(FPSv),
     "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out]);
   console.log(`✓ ${out} (${fin.toFixed(1)} s, ${tomas.length} tomas)`);
   return out;

@@ -40,7 +40,7 @@ export async function hacerImagenes(dir, { calidad } = {}) {
   const pref = existsSync(join(RAIZ, "preferencias.json")) ? leerJSON(join(RAIZ, "preferencias.json")) : {};
   const tomas = p.escenas.flatMap((e) => e.tomas);
   const prov = proveedor(), cal = calidad || p.calidad || "normal";
-  const fuentes = tomas.map((t) => (t.dibujo ? "2d" : fuenteDe(t, p, pref)));
+  const fuentes = tomas.map((t) => (t.dibujo ? "2d" : t.archivo ? "archivo" : fuenteDe(t, p, pref)));
   if (fuentes.includes("prueba")) console.log("⚠ Sin clave de imágenes IA (fal.ai u OpenAI): imágenes de prueba (no se paga nada).");
   const base = parseInt(createHash("sha1").update(p.titulo || "bv").digest("hex").slice(0, 6), 16);
   const archivos = await enParalelo(tomas, 3, async (toma, i) => {

@@ -50,6 +50,29 @@ export function nuevo(idea, { estilo = "documental", nombre, piel = null, format
   return dir;
 }
 
+// ---------------------------------------------------------------- fotos libres de Pexels
+// Descarga fotos de Pexels por su número (el de pexels.com/photo/…-<número>/) a imagenes/pexels-<número>.jpg, a 1920 px,
+// y apunta el crédito en notas.md. No necesita clave: va directo al servidor de imágenes de Pexels (licencia libre:
+// https://www.pexels.com/license/). En cada toma: "archivo": "imagenes/pexels-<número>.jpg".
+export async function pexels(dir, ids) {
+  if (!ids.length) throw new Error("Faltan los números de las fotos: node barcada.mjs pexels <proyecto> 1435296 5964491 …");
+  const di = asegurar(join(dir, "imagenes")), notas = join(dir, "notas.md"), hechos = [];
+  for (const id of ids) {
+    const f = join(di, `pexels-${id}.jpg`);
+    if (!existsSync(f)) {
+      const r = await fetch(`https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=1920`);
+      if (!r.ok) { console.log(`✗ ${id}: Pexels dijo ${r.status} (¿número equivocado?)`); continue; }
+      writeFileSync(f, Buffer.from(await r.arrayBuffer()));
+    }
+    hechos.push(id);
+    console.log(`✓ imagenes/pexels-${id}.jpg`);
+  }
+  const previo = existsSync(notas) ? readFileSync(notas, "utf8") : "";
+  const nuevos = hechos.filter((id) => !previo.includes(`pexels.com/photo/${id}/`));
+  if (nuevos.length) writeFileSync(notas, previo + (previo.includes("## Imágenes (Pexels") ? "" : "\n## Imágenes (Pexels, licencia libre: https://www.pexels.com/license/)\n\n") + nuevos.map((id) => `- https://www.pexels.com/photo/${id}/`).join("\n") + "\n");
+  return hechos;
+}
+
 // ---------------------------------------------------------------- efectos de sonido propios
 // Se generan con ElevenLabs en la cuenta del usuario (son suyos) y se guardan en sonidos/. Se hace una vez.
 export const BIBLIOTECA = {

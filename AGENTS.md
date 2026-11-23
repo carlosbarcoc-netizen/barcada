@@ -15,6 +15,8 @@ video gasta poco (tiempo, créditos de voz y uso de tu plan de IA).
 ## Lo primero
 
 - Si el usuario dice «configurar», «empezar», o no existe `preferencias.json`: haz **Configurar** (abajo).
+- Si pide un video **para YouTube** (no un reel ni un Short): 16:9, mínimo 8 minutos, estilo realista con fotos de
+  Pexels. Sigue `METODO.md` con los cambios de `guias/youtube.md`.
 - Si pide un video, un guion o ideas: sigue `METODO.md` paso a paso, en modo juego (`guias/juego.md`) salvo que pida
   otro estilo. Antes lee `aprendido.md`.
 - Si dice «sigue el proyecto …»: lee `proyectos/<…>/SEGUIR.md` y continúa desde el paso pendiente.
@@ -53,6 +55,7 @@ video gasta poco (tiempo, créditos de voz y uso de tu plan de IA).
 > - «Dame 10 ideas» → temas virales de tu nicho, comprobados, cada uno con su formato.
 > - «Arma el calendario del mes» → 30 videos, uno por día. Luego: «hazme el video del día 4».
 > - «Hazme una serie sobre …» → 3 a 5 partes conectadas.
+> - «Hazme un video de YouTube sobre …» → horizontal (16:9), de 8 minutos o más, con fotos reales y capítulos.
 > - «Cambia la toma 3» → solo esa escena.
 > - «Sigue el proyecto …» → para continuar en otra conversación.
 
@@ -77,7 +80,7 @@ video gasta poco (tiempo, créditos de voz y uso de tu plan de IA).
 ```
 barcada.mjs         la herramienta (node barcada.mjs ayuda)
 nucleo/             el motor: voz, montaje, subtítulos, portada, sintetizador (música y efectos) y el dibujante (nucleo/2d/)
-guias/              formatos (cómo contar), guion, juego (Barcada 2.0), 2D (piezas y animación), portadas, ideas
+guias/              formatos (cómo contar), guion, juego (Barcada 2.0), 2D (piezas y animación), portadas, ideas, youtube
 METODO.md           cómo se hace un video, paso a paso
 aprendido.md        errores que no se repiten
 preferencias.json   lo del usuario (se crea al configurar)
