@@ -5,14 +5,14 @@
 import { createHash } from "node:crypto";
 import { existsSync, readdirSync, unlinkSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, enParalelo, ffmpeg, hayClave, leerJSON } from "./comun.mjs";
+import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, enParalelo, esHorizontal, ffmpeg, hayClave, leerJSON } from "./comun.mjs";
 
 export const ESTILOS = leerJSON(join(RAIZ, "estilos", "estilos.json"));
 
 // El prompt completo de una toma: el sujeto del video (para que todo se parezca), lo que se ve y el estilo.
 export function promptDe(p, toma) {
   const est = ESTILOS[p.estilo] || ESTILOS.documental;
-  return [toma.imagen, p.sujeto ? `Visual continuity: ${p.sujeto}` : "", "vertical 9:16 composition, main subject centered and large", est.sufijo].filter(Boolean).join(". ");
+  return [toma.imagen, p.sujeto ? `Visual continuity: ${p.sujeto}` : "", esHorizontal() ? "horizontal 16:9 widescreen composition, main subject centered and large" : "vertical 9:16 composition, main subject centered and large", est.sufijo].filter(Boolean).join(". ");
 }
 
 export function proveedor() {
@@ -29,7 +29,7 @@ async function deMuestra(archivo, n, toma) {
   for (const w of palabras) { if (!lineas.length || (lineas.at(-1) + " " + w).length > 26) lineas.push(w); else lineas[lineas.length - 1] += " " + w; }
   const txt = archivo + ".txt";
   writeFileSync(txt, `TOMA ${n}\n\n${lineas.slice(0, 8).join("\n")}`);
-  await ffmpeg(["-f", "lavfi", "-i", `gradients=s=${ANCHO}x${ALTO}:c0=0x3a2214:c1=0x0e0805:x0=200:y0=300:x1=900:y1=1700:d=1`, "-frames:v", "1",
+  await ffmpeg(["-f", "lavfi", "-i", `gradients=s=${ANCHO}x${ALTO}:c0=0x3a2214:c1=0x0e0805:x0=${ANCHO*0.2}:y0=${ALTO*0.15}:x1=${ANCHO*0.8}:y1=${ALTO*0.9}:d=1`, "-frames:v", "1",
     "-vf", `drawtext=fontfile=${join(FUENTES, "Poppins-Bold.ttf")}:textfile=${txt}:fontcolor=white@0.85:fontsize=54:x=(w-tw)/2:y=(h-th)/2:line_spacing=14`, archivo]);
   unlinkSync(txt);
 }

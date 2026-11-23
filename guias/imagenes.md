@@ -42,3 +42,9 @@ voz o que parece otra cosa → `node barcada.mjs otra <proyecto> <n>` o mejora e
 
 Si el usuario tiene una foto propia para una toma (su producto, su finca), ponla en el proyecto y en la toma
 `"archivo": "mi-foto.jpg"`.
+
+## Formato horizontal (16:9, YouTube)
+
+`node barcada.mjs nuevo "<idea>" --formato horizontal` (o `"formato": "horizontal"` en `proyecto.json`): el video sale
+a 1920 × 1080, con los subtítulos abajo, los rótulos arriba y la portada como miniatura de YouTube. Solo para el
+estilo realista (imágenes, fotos o clips); el 2D y el modo juego siguen siendo verticales.

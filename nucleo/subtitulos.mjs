@@ -4,14 +4,14 @@
 //   invisibles pero guardan su sitio (el texto nunca salta) y la palabra clave de la frase queda amarilla.
 // - Rótulos: el texto grande de cada toma (rotulo), abajo, en una banda oscura, con *palabras* en amarillo.
 import { writeFileSync } from "node:fs";
-import { ALTO, ANCHO, sinTildes } from "./comun.mjs";
+import { ALTO, ANCHO, esHorizontal, sinTildes } from "./comun.mjs";
 
 const hexASS = (hex, alfa = 0) => { const h = hex.replace("#", ""); return `&H${alfa.toString(16).padStart(2, "0").toUpperCase()}${h.slice(4, 6)}${h.slice(2, 4)}${h.slice(0, 2)}`.toUpperCase(); };
 const tiempo = (t) => { t = Math.max(0, t); const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), s = t % 60; return `${h}:${String(m).padStart(2, "0")}:${s.toFixed(2).padStart(5, "0")}`; };
 const limpio = (s) => String(s).replace(/[{}\\]/g, "");
 
 // Parte las palabras de una frase en grupos cortos, cortando mejor tras una coma o un punto.
-function grupos(palabras, max = 4, maxLetras = 20) {
+function grupos(palabras, max = esHorizontal() ? 6 : 4, maxLetras = esHorizontal() ? 34 : 20) {
   const gs = []; let g = [];
   for (const w of palabras) {
     const largo = g.map((x) => x.texto).join(" ").length + w.texto.length;
@@ -25,6 +25,13 @@ function grupos(palabras, max = 4, maxLetras = 20) {
 
 export function escribirASS(archivo, tiempos, tomas, { acento = "#FFD23F", subtitulos = true } = {}) {
   const AMA = hexASS(acento), BLA = "&H00FFFFFF";
+  // vertical: subtítulos en el tercio de arriba y rótulos abajo; horizontal (16:9): subtítulos abajo, como en
+  // YouTube, y rótulos arriba
+  const H = esHorizontal();
+  const sub = H ? "Style: Sub,Nunito Black,76,COLA,COLA,&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,8,4,2,160,160,90,1"
+    : "Style: Sub,Nunito Black,84,COLA,COLA,&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,9,4,8,80,80,330,1";
+  const rot = H ? "Style: Rotulo,Nunito Black,56,COLA,COLA,&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,22,0,8,160,160,70,1"
+    : "Style: Rotulo,Nunito Black,60,COLA,COLA,&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,24,0,2,80,80,520,1";
   const cab = `[Script Info]
 ScriptType: v4.00+
 PlayResX: ${ANCHO}
@@ -34,8 +41,8 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Nunito Black,84,${BLA},${BLA},&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,9,4,8,80,80,330,1
-Style: Rotulo,Nunito Black,60,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,24,0,2,80,80,520,1
+${sub.replaceAll("COLA", BLA)}
+${rot.replaceAll("COLA", BLA)}
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text

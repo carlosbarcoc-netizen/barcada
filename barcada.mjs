@@ -22,12 +22,12 @@ const AYUDA = `Barcada · órdenes (todas desde esta carpeta):
   node barcada.mjs voces [--acento latin] [--genero male]   voces de ElevenLabs en español para elegir
   node barcada.mjs sonidos                         crea tu biblioteca de efectos con ElevenLabs (una vez)
   node barcada.mjs nuevo "<idea>" --piel neon      crea un proyecto en modo juego (Barcada 2.0): neon, voxel o arcade
-  node barcada.mjs nuevo "<idea>" [--estilo documental]     crea el proyecto en proyectos/ (2D con volumen o realista)
+  node barcada.mjs nuevo "<idea>" [--estilo documental] [--formato horizontal]   crea el proyecto en proyectos/ (2D con volumen o realista; horizontal = 16:9, solo realista)
   node barcada.mjs voz <proyecto> [--rehacer]      la voz con sus tiempos (una vez, con el guion aprobado)
   node barcada.mjs tomas <proyecto>                genera las imágenes y la hoja revisar/tomas.jpg
   node barcada.mjs otra <proyecto> <n> [<n>...]    otra versión de esas tomas (nueva imagen)
   node barcada.mjs borrador <proyecto> [--hasta s] video rápido en baja calidad → revisar/borrador.mp4
-  node barcada.mjs final <proyecto> [--fps 60]     video final 1080×1920 → entrega/video.mp4
+  node barcada.mjs final <proyecto> [--fps 60]     video final 1080×1920 (o 1920×1080) → entrega/video.mp4
   node barcada.mjs portada <proyecto> "Título con *clave*|segunda línea" [--toma n] [--etiqueta "¡nadie te lo dijo!"]
   node barcada.mjs estilos                         los estilos visuales disponibles
   node barcada.mjs pieles                          las pieles del modo juego (Barcada 2.0)
@@ -47,7 +47,7 @@ try {
       break;
     }
     case "sonidos": await (await import("./nucleo/extras.mjs")).crearSonidos({ rehacer: marca("rehacer") }); break;
-    case "nuevo": { const piel = opcion("piel"); (await import("./nucleo/extras.mjs")).nuevo(primero, { estilo: piel ? "2d" : opcion("estilo", "documental"), nombre: opcion("nombre"), piel }); break; }
+    case "nuevo": { const piel = opcion("piel"); (await import("./nucleo/extras.mjs")).nuevo(primero, { estilo: piel ? "2d" : opcion("estilo", "documental"), nombre: opcion("nombre"), piel, formato: opcion("formato", "vertical") }); break; }
     case "pieles": { const { PIELES } = await import("./nucleo/2d/juego.mjs"); for (const [k, e] of Object.entries(PIELES)) console.log(`${k.padEnd(8)} ${e.nombre} — ${e.para}`); break; }
     case "muestrario": spawnSync(process.execPath, [join(RAIZ, "nucleo", "2d", "muestrario.mjs"), join(RAIZ, "muestrario"), ...(primero ? [primero] : [])], { stdio: "inherit" }); break;
     case "musica": {
