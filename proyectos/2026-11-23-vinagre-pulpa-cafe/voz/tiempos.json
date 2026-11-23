@@ -1,0 +1,7776 @@
+{
+  "huella": "aa5d5d286ecf",
+  "duracion": 532.106,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "Mira esto. Esto es pulpa de café. Y en la mayoría de fincas… se bota.",
+      "clave": "",
+      "inicio": 0,
+      "fin": 5.677,
+      "palabras": [
+        {
+          "texto": "Mira",
+          "inicio": 0,
+          "fin": 0.232
+        },
+        {
+          "texto": "esto.",
+          "inicio": 0.279,
+          "fin": 0.65
+        },
+        {
+          "texto": "Esto",
+          "inicio": 1.057,
+          "fin": 1.358
+        },
+        {
+          "texto": "es",
+          "inicio": 1.428,
+          "fin": 1.602
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 1.707,
+          "fin": 2.009
+        },
+        {
+          "texto": "de",
+          "inicio": 2.043,
+          "fin": 2.101
+        },
+        {
+          "texto": "café.",
+          "inicio": 2.148,
+          "fin": 2.612
+        },
+        {
+          "texto": "Y",
+          "inicio": 3.077,
+          "fin": 3.181
+        },
+        {
+          "texto": "en",
+          "inicio": 3.262,
+          "fin": 3.32
+        },
+        {
+          "texto": "la",
+          "inicio": 3.379,
+          "fin": 3.437
+        },
+        {
+          "texto": "mayoría",
+          "inicio": 3.495,
+          "fin": 3.889
+        },
+        {
+          "texto": "de",
+          "inicio": 3.947,
+          "fin": 4.017
+        },
+        {
+          "texto": "fincas…",
+          "inicio": 4.075,
+          "fin": 4.841
+        },
+        {
+          "texto": "se",
+          "inicio": 5.062,
+          "fin": 5.178
+        },
+        {
+          "texto": "bota.",
+          "inicio": 5.213,
+          "fin": 5.677
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "¿Sabes cuánto pesa? ¡Casi la mitad de cada cereza que cosechas!",
+      "clave": "",
+      "inicio": 5.863,
+      "fin": 9.822,
+      "palabras": [
+        {
+          "texto": "¿Sabes",
+          "inicio": 5.863,
+          "fin": 6.269
+        },
+        {
+          "texto": "cuánto",
+          "inicio": 6.327,
+          "fin": 6.583
+        },
+        {
+          "texto": "pesa?",
+          "inicio": 6.641,
+          "fin": 7.082
+        },
+        {
+          "texto": "¡Casi",
+          "inicio": 7.43,
+          "fin": 7.825
+        },
+        {
+          "texto": "la",
+          "inicio": 7.883,
+          "fin": 7.953
+        },
+        {
+          "texto": "mitad",
+          "inicio": 7.999,
+          "fin": 8.278
+        },
+        {
+          "texto": "de",
+          "inicio": 8.301,
+          "fin": 8.359
+        },
+        {
+          "texto": "cada",
+          "inicio": 8.406,
+          "fin": 8.603
+        },
+        {
+          "texto": "cereza",
+          "inicio": 8.638,
+          "fin": 8.951
+        },
+        {
+          "texto": "que",
+          "inicio": 9.009,
+          "fin": 9.091
+        },
+        {
+          "texto": "cosechas!",
+          "inicio": 9.137,
+          "fin": 9.822
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "O sea: tú pagas la recolección de un fruto entero… y la mitad termina pudriéndose en una esquina.",
+      "clave": "",
+      "inicio": 10.17,
+      "fin": 15.65,
+      "palabras": [
+        {
+          "texto": "O",
+          "inicio": 10.17,
+          "fin": 10.228
+        },
+        {
+          "texto": "sea:",
+          "inicio": 10.31,
+          "fin": 10.693
+        },
+        {
+          "texto": "tú",
+          "inicio": 10.983,
+          "fin": 11.099
+        },
+        {
+          "texto": "pagas",
+          "inicio": 11.157,
+          "fin": 11.401
+        },
+        {
+          "texto": "la",
+          "inicio": 11.447,
+          "fin": 11.494
+        },
+        {
+          "texto": "recolección",
+          "inicio": 11.552,
+          "fin": 12.098
+        },
+        {
+          "texto": "de",
+          "inicio": 12.144,
+          "fin": 12.19
+        },
+        {
+          "texto": "un",
+          "inicio": 12.26,
+          "fin": 12.33
+        },
+        {
+          "texto": "fruto",
+          "inicio": 12.388,
+          "fin": 12.655
+        },
+        {
+          "texto": "entero…",
+          "inicio": 12.701,
+          "fin": 13.247
+        },
+        {
+          "texto": "y",
+          "inicio": 13.537,
+          "fin": 13.595
+        },
+        {
+          "texto": "la",
+          "inicio": 13.665,
+          "fin": 13.723
+        },
+        {
+          "texto": "mitad",
+          "inicio": 13.769,
+          "fin": 13.978
+        },
+        {
+          "texto": "termina",
+          "inicio": 14.002,
+          "fin": 14.327
+        },
+        {
+          "texto": "pudriéndose",
+          "inicio": 14.373,
+          "fin": 14.896
+        },
+        {
+          "texto": "en",
+          "inicio": 14.919,
+          "fin": 14.965
+        },
+        {
+          "texto": "una",
+          "inicio": 15.023,
+          "fin": 15.139
+        },
+        {
+          "texto": "esquina.",
+          "inicio": 15.162,
+          "fin": 15.65
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Pero esa misma pulpa, si sabes lo que haces, se convierte en vinagre. Vinagre de verdad, con su acidez, su aroma afrutado y su color ámbar.",
+      "clave": "",
+      "inicio": 16.196,
+      "fin": 25.716,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 16.196,
+          "fin": 16.393
+        },
+        {
+          "texto": "esa",
+          "inicio": 16.428,
+          "fin": 16.567
+        },
+        {
+          "texto": "misma",
+          "inicio": 16.625,
+          "fin": 16.997
+        },
+        {
+          "texto": "pulpa,",
+          "inicio": 17.055,
+          "fin": 17.658
+        },
+        {
+          "texto": "si",
+          "inicio": 17.949,
+          "fin": 18.076
+        },
+        {
+          "texto": "sabes",
+          "inicio": 18.134,
+          "fin": 18.378
+        },
+        {
+          "texto": "lo",
+          "inicio": 18.401,
+          "fin": 18.471
+        },
+        {
+          "texto": "que",
+          "inicio": 18.529,
+          "fin": 18.61
+        },
+        {
+          "texto": "haces,",
+          "inicio": 18.645,
+          "fin": 19.168
+        },
+        {
+          "texto": "se",
+          "inicio": 19.423,
+          "fin": 19.516
+        },
+        {
+          "texto": "convierte",
+          "inicio": 19.574,
+          "fin": 19.957
+        },
+        {
+          "texto": "en",
+          "inicio": 19.98,
+          "fin": 20.027
+        },
+        {
+          "texto": "vinagre.",
+          "inicio": 20.085,
+          "fin": 20.7
+        },
+        {
+          "texto": "Vinagre",
+          "inicio": 21.107,
+          "fin": 21.501
+        },
+        {
+          "texto": "de",
+          "inicio": 21.548,
+          "fin": 21.606
+        },
+        {
+          "texto": "verdad,",
+          "inicio": 21.652,
+          "fin": 22.175
+        },
+        {
+          "texto": "con",
+          "inicio": 22.465,
+          "fin": 22.616
+        },
+        {
+          "texto": "su",
+          "inicio": 22.674,
+          "fin": 22.744
+        },
+        {
+          "texto": "acidez,",
+          "inicio": 22.79,
+          "fin": 23.452
+        },
+        {
+          "texto": "su",
+          "inicio": 23.672,
+          "fin": 23.8
+        },
+        {
+          "texto": "aroma",
+          "inicio": 23.858,
+          "fin": 24.102
+        },
+        {
+          "texto": "afrutado",
+          "inicio": 24.125,
+          "fin": 24.636
+        },
+        {
+          "texto": "y",
+          "inicio": 24.694,
+          "fin": 24.717
+        },
+        {
+          "texto": "su",
+          "inicio": 24.764,
+          "fin": 24.868
+        },
+        {
+          "texto": "color",
+          "inicio": 24.926,
+          "fin": 25.182
+        },
+        {
+          "texto": "ámbar.",
+          "inicio": 25.24,
+          "fin": 25.716
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "Ahora, ojo: casi todos los que lo intentan en casa terminan con un líquido turbio, con moho, que huele raro y que nunca llega a ser vinagre.",
+      "clave": "",
+      "inicio": 26.354,
+      "fin": 35.282,
+      "palabras": [
+        {
+          "texto": "Ahora,",
+          "inicio": 26.354,
+          "fin": 26.9
+        },
+        {
+          "texto": "ojo:",
+          "inicio": 27.248,
+          "fin": 27.689
+        },
+        {
+          "texto": "casi",
+          "inicio": 27.98,
+          "fin": 28.223
+        },
+        {
+          "texto": "todos",
+          "inicio": 28.281,
+          "fin": 28.525
+        },
+        {
+          "texto": "los",
+          "inicio": 28.549,
+          "fin": 28.665
+        },
+        {
+          "texto": "que",
+          "inicio": 28.699,
+          "fin": 28.769
+        },
+        {
+          "texto": "lo",
+          "inicio": 28.816,
+          "fin": 28.874
+        },
+        {
+          "texto": "intentan",
+          "inicio": 28.908,
+          "fin": 29.315
+        },
+        {
+          "texto": "en",
+          "inicio": 29.361,
+          "fin": 29.419
+        },
+        {
+          "texto": "casa",
+          "inicio": 29.489,
+          "fin": 29.756
+        },
+        {
+          "texto": "terminan",
+          "inicio": 29.814,
+          "fin": 30.197
+        },
+        {
+          "texto": "con",
+          "inicio": 30.255,
+          "fin": 30.371
+        },
+        {
+          "texto": "un",
+          "inicio": 30.429,
+          "fin": 30.499
+        },
+        {
+          "texto": "líquido",
+          "inicio": 30.557,
+          "fin": 30.894
+        },
+        {
+          "texto": "turbio,",
+          "inicio": 30.963,
+          "fin": 31.556
+        },
+        {
+          "texto": "con",
+          "inicio": 31.962,
+          "fin": 32.148
+        },
+        {
+          "texto": "moho,",
+          "inicio": 32.206,
+          "fin": 32.693
+        },
+        {
+          "texto": "que",
+          "inicio": 32.949,
+          "fin": 33.065
+        },
+        {
+          "texto": "huele",
+          "inicio": 33.1,
+          "fin": 33.309
+        },
+        {
+          "texto": "raro",
+          "inicio": 33.367,
+          "fin": 33.634
+        },
+        {
+          "texto": "y",
+          "inicio": 33.692,
+          "fin": 33.715
+        },
+        {
+          "texto": "que",
+          "inicio": 33.796,
+          "fin": 33.878
+        },
+        {
+          "texto": "nunca",
+          "inicio": 33.936,
+          "fin": 34.191
+        },
+        {
+          "texto": "llega",
+          "inicio": 34.214,
+          "fin": 34.412
+        },
+        {
+          "texto": "a",
+          "inicio": 34.435,
+          "fin": 34.47
+        },
+        {
+          "texto": "ser",
+          "inicio": 34.586,
+          "fin": 34.714
+        },
+        {
+          "texto": "vinagre.",
+          "inicio": 34.76,
+          "fin": 35.282
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Hoy te muestro por qué pasa eso, y el método completo, paso a paso, para que te salga bien desde la primera vez.",
+      "clave": "",
+      "inicio": 35.689,
+      "fin": 41.018,
+      "palabras": [
+        {
+          "texto": "Hoy",
+          "inicio": 35.689,
+          "fin": 35.863
+        },
+        {
+          "texto": "te",
+          "inicio": 35.921,
+          "fin": 35.979
+        },
+        {
+          "texto": "muestro",
+          "inicio": 36.025,
+          "fin": 36.304
+        },
+        {
+          "texto": "por",
+          "inicio": 36.351,
+          "fin": 36.478
+        },
+        {
+          "texto": "qué",
+          "inicio": 36.536,
+          "fin": 36.629
+        },
+        {
+          "texto": "pasa",
+          "inicio": 36.687,
+          "fin": 36.908
+        },
+        {
+          "texto": "eso,",
+          "inicio": 36.966,
+          "fin": 37.198
+        },
+        {
+          "texto": "y",
+          "inicio": 37.221,
+          "fin": 37.244
+        },
+        {
+          "texto": "el",
+          "inicio": 37.279,
+          "fin": 37.326
+        },
+        {
+          "texto": "método",
+          "inicio": 37.384,
+          "fin": 37.674
+        },
+        {
+          "texto": "completo,",
+          "inicio": 37.72,
+          "fin": 38.289
+        },
+        {
+          "texto": "paso",
+          "inicio": 38.371,
+          "fin": 38.614
+        },
+        {
+          "texto": "a",
+          "inicio": 38.649,
+          "fin": 38.673
+        },
+        {
+          "texto": "paso,",
+          "inicio": 38.719,
+          "fin": 38.963
+        },
+        {
+          "texto": "para",
+          "inicio": 38.986,
+          "fin": 39.149
+        },
+        {
+          "texto": "que",
+          "inicio": 39.195,
+          "fin": 39.265
+        },
+        {
+          "texto": "te",
+          "inicio": 39.323,
+          "fin": 39.404
+        },
+        {
+          "texto": "salga",
+          "inicio": 39.439,
+          "fin": 39.671
+        },
+        {
+          "texto": "bien",
+          "inicio": 39.706,
+          "fin": 39.845
+        },
+        {
+          "texto": "desde",
+          "inicio": 39.88,
+          "fin": 40.077
+        },
+        {
+          "texto": "la",
+          "inicio": 40.124,
+          "fin": 40.182
+        },
+        {
+          "texto": "primera",
+          "inicio": 40.228,
+          "fin": 40.553
+        },
+        {
+          "texto": "vez.",
+          "inicio": 40.611,
+          "fin": 41.018
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "Y quédate hasta el final, porque te voy a enseñar a medir la acidez con una prueba sencilla… que casi nadie hace.",
+      "clave": "",
+      "inicio": 41.482,
+      "fin": 47.229,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 41.482,
+          "fin": 41.552
+        },
+        {
+          "texto": "quédate",
+          "inicio": 41.633,
+          "fin": 41.935
+        },
+        {
+          "texto": "hasta",
+          "inicio": 41.958,
+          "fin": 42.086
+        },
+        {
+          "texto": "el",
+          "inicio": 42.109,
+          "fin": 42.156
+        },
+        {
+          "texto": "final,",
+          "inicio": 42.202,
+          "fin": 42.492
+        },
+        {
+          "texto": "porque",
+          "inicio": 42.515,
+          "fin": 42.724
+        },
+        {
+          "texto": "te",
+          "inicio": 42.771,
+          "fin": 42.84
+        },
+        {
+          "texto": "voy",
+          "inicio": 42.887,
+          "fin": 43.038
+        },
+        {
+          "texto": "a",
+          "inicio": 43.073,
+          "fin": 43.096
+        },
+        {
+          "texto": "enseñar",
+          "inicio": 43.154,
+          "fin": 43.537
+        },
+        {
+          "texto": "a",
+          "inicio": 43.584,
+          "fin": 43.607
+        },
+        {
+          "texto": "medir",
+          "inicio": 43.653,
+          "fin": 43.897
+        },
+        {
+          "texto": "la",
+          "inicio": 43.955,
+          "fin": 44.025
+        },
+        {
+          "texto": "acidez",
+          "inicio": 44.048,
+          "fin": 44.42
+        },
+        {
+          "texto": "con",
+          "inicio": 44.489,
+          "fin": 44.605
+        },
+        {
+          "texto": "una",
+          "inicio": 44.652,
+          "fin": 44.791
+        },
+        {
+          "texto": "prueba",
+          "inicio": 44.838,
+          "fin": 45.093
+        },
+        {
+          "texto": "sencilla…",
+          "inicio": 45.139,
+          "fin": 45.766
+        },
+        {
+          "texto": "que",
+          "inicio": 46.057,
+          "fin": 46.173
+        },
+        {
+          "texto": "casi",
+          "inicio": 46.231,
+          "fin": 46.44
+        },
+        {
+          "texto": "nadie",
+          "inicio": 46.498,
+          "fin": 46.776
+        },
+        {
+          "texto": "hace.",
+          "inicio": 46.8,
+          "fin": 47.229
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "Empecemos por el problema.",
+      "clave": "",
+      "inicio": 47.868,
+      "fin": 49.087,
+      "palabras": [
+        {
+          "texto": "Empecemos",
+          "inicio": 47.868,
+          "fin": 48.309
+        },
+        {
+          "texto": "por",
+          "inicio": 48.355,
+          "fin": 48.471
+        },
+        {
+          "texto": "el",
+          "inicio": 48.495,
+          "fin": 48.553
+        },
+        {
+          "texto": "problema.",
+          "inicio": 48.599,
+          "fin": 49.087
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Cuando despulpas el café, la pulpa sale en montañas. Húmeda, dulce y llena de materia orgánica.",
+      "clave": "",
+      "inicio": 49.632,
+      "fin": 55.426,
+      "palabras": [
+        {
+          "texto": "Cuando",
+          "inicio": 49.632,
+          "fin": 49.876
+        },
+        {
+          "texto": "despulpas",
+          "inicio": 49.934,
+          "fin": 50.41
+        },
+        {
+          "texto": "el",
+          "inicio": 50.468,
+          "fin": 50.538
+        },
+        {
+          "texto": "café,",
+          "inicio": 50.596,
+          "fin": 50.991
+        },
+        {
+          "texto": "la",
+          "inicio": 51.072,
+          "fin": 51.153
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 51.211,
+          "fin": 51.467
+        },
+        {
+          "texto": "sale",
+          "inicio": 51.513,
+          "fin": 51.722
+        },
+        {
+          "texto": "en",
+          "inicio": 51.745,
+          "fin": 51.804
+        },
+        {
+          "texto": "montañas.",
+          "inicio": 51.862,
+          "fin": 52.593
+        },
+        {
+          "texto": "Húmeda,",
+          "inicio": 52.941,
+          "fin": 53.441
+        },
+        {
+          "texto": "dulce",
+          "inicio": 53.464,
+          "fin": 53.858
+        },
+        {
+          "texto": "y",
+          "inicio": 53.917,
+          "fin": 54.021
+        },
+        {
+          "texto": "llena",
+          "inicio": 54.044,
+          "fin": 54.288
+        },
+        {
+          "texto": "de",
+          "inicio": 54.334,
+          "fin": 54.381
+        },
+        {
+          "texto": "materia",
+          "inicio": 54.427,
+          "fin": 54.764
+        },
+        {
+          "texto": "orgánica.",
+          "inicio": 54.787,
+          "fin": 55.426
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Según Cenicafé, la pulpa genera cerca del setenta y dos por ciento de la contaminación potencial de los subproductos del beneficio húmedo.",
+      "clave": "",
+      "inicio": 55.89,
+      "fin": 64.586,
+      "palabras": [
+        {
+          "texto": "Según",
+          "inicio": 55.89,
+          "fin": 56.401
+        },
+        {
+          "texto": "Cenicafé,",
+          "inicio": 56.564,
+          "fin": 57.411
+        },
+        {
+          "texto": "la",
+          "inicio": 57.957,
+          "fin": 58.038
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 58.085,
+          "fin": 58.328
+        },
+        {
+          "texto": "genera",
+          "inicio": 58.363,
+          "fin": 58.63
+        },
+        {
+          "texto": "cerca",
+          "inicio": 58.677,
+          "fin": 58.955
+        },
+        {
+          "texto": "del",
+          "inicio": 59.002,
+          "fin": 59.13
+        },
+        {
+          "texto": "setenta",
+          "inicio": 59.188,
+          "fin": 59.606
+        },
+        {
+          "texto": "y",
+          "inicio": 59.652,
+          "fin": 59.675
+        },
+        {
+          "texto": "dos",
+          "inicio": 59.733,
+          "fin": 59.919
+        },
+        {
+          "texto": "por",
+          "inicio": 59.977,
+          "fin": 60.116
+        },
+        {
+          "texto": "ciento",
+          "inicio": 60.163,
+          "fin": 60.476
+        },
+        {
+          "texto": "de",
+          "inicio": 60.534,
+          "fin": 60.581
+        },
+        {
+          "texto": "la",
+          "inicio": 60.627,
+          "fin": 60.685
+        },
+        {
+          "texto": "contaminación",
+          "inicio": 60.743,
+          "fin": 61.37
+        },
+        {
+          "texto": "potencial",
+          "inicio": 61.417,
+          "fin": 61.986
+        },
+        {
+          "texto": "de",
+          "inicio": 62.45,
+          "fin": 62.555
+        },
+        {
+          "texto": "los",
+          "inicio": 62.613,
+          "fin": 62.729
+        },
+        {
+          "texto": "subproductos",
+          "inicio": 62.752,
+          "fin": 63.449
+        },
+        {
+          "texto": "del",
+          "inicio": 63.472,
+          "fin": 63.565
+        },
+        {
+          "texto": "beneficio",
+          "inicio": 63.599,
+          "fin": 64.087
+        },
+        {
+          "texto": "húmedo.",
+          "inicio": 64.133,
+          "fin": 64.586
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Si llega a una quebrada, le roba el oxígeno al agua. Y si se queda amontonada, fermenta sola, atrae moscas y huele fuerte.",
+      "clave": "",
+      "inicio": 65.329,
+      "fin": 73.48,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 65.329,
+          "fin": 65.469
+        },
+        {
+          "texto": "llega",
+          "inicio": 65.503,
+          "fin": 65.678
+        },
+        {
+          "texto": "a",
+          "inicio": 65.701,
+          "fin": 65.736
+        },
+        {
+          "texto": "una",
+          "inicio": 65.794,
+          "fin": 65.956
+        },
+        {
+          "texto": "quebrada,",
+          "inicio": 66.014,
+          "fin": 66.572
+        },
+        {
+          "texto": "le",
+          "inicio": 66.676,
+          "fin": 66.757
+        },
+        {
+          "texto": "roba",
+          "inicio": 66.815,
+          "fin": 66.99
+        },
+        {
+          "texto": "el",
+          "inicio": 67.013,
+          "fin": 67.059
+        },
+        {
+          "texto": "oxígeno",
+          "inicio": 67.117,
+          "fin": 67.5
+        },
+        {
+          "texto": "al",
+          "inicio": 67.524,
+          "fin": 67.582
+        },
+        {
+          "texto": "agua.",
+          "inicio": 67.628,
+          "fin": 67.953
+        },
+        {
+          "texto": "Y",
+          "inicio": 68.301,
+          "fin": 68.406
+        },
+        {
+          "texto": "si",
+          "inicio": 68.487,
+          "fin": 68.58
+        },
+        {
+          "texto": "se",
+          "inicio": 68.627,
+          "fin": 68.719
+        },
+        {
+          "texto": "queda",
+          "inicio": 68.777,
+          "fin": 68.986
+        },
+        {
+          "texto": "amontonada,",
+          "inicio": 69.01,
+          "fin": 69.811
+        },
+        {
+          "texto": "fermenta",
+          "inicio": 70.101,
+          "fin": 70.531
+        },
+        {
+          "texto": "sola,",
+          "inicio": 70.589,
+          "fin": 71.088
+        },
+        {
+          "texto": "atrae",
+          "inicio": 71.343,
+          "fin": 71.68
+        },
+        {
+          "texto": "moscas",
+          "inicio": 71.726,
+          "fin": 72.191
+        },
+        {
+          "texto": "y",
+          "inicio": 72.481,
+          "fin": 72.562
+        },
+        {
+          "texto": "huele",
+          "inicio": 72.609,
+          "fin": 72.829
+        },
+        {
+          "texto": "fuerte.",
+          "inicio": 72.887,
+          "fin": 73.48
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Pero fíjate en una palabra que acabo de decir: dulce.",
+      "clave": "",
+      "inicio": 74.025,
+      "fin": 77.172,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 74.025,
+          "fin": 74.374
+        },
+        {
+          "texto": "fíjate",
+          "inicio": 74.629,
+          "fin": 74.989
+        },
+        {
+          "texto": "en",
+          "inicio": 75.012,
+          "fin": 75.059
+        },
+        {
+          "texto": "una",
+          "inicio": 75.128,
+          "fin": 75.279
+        },
+        {
+          "texto": "palabra",
+          "inicio": 75.326,
+          "fin": 75.674
+        },
+        {
+          "texto": "que",
+          "inicio": 75.732,
+          "fin": 75.802
+        },
+        {
+          "texto": "acabo",
+          "inicio": 75.825,
+          "fin": 76.092
+        },
+        {
+          "texto": "de",
+          "inicio": 76.15,
+          "fin": 76.208
+        },
+        {
+          "texto": "decir:",
+          "inicio": 76.266,
+          "fin": 76.603
+        },
+        {
+          "texto": "dulce.",
+          "inicio": 76.626,
+          "fin": 77.172
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "La pulpa tiene azúcares. Y donde hay azúcar, hay fermentación. La pregunta es: ¿fermentación descontrolada… o fermentación dirigida por ti?",
+      "clave": "",
+      "inicio": 77.636,
+      "fin": 87.04,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 77.636,
+          "fin": 77.752
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 77.798,
+          "fin": 78.1
+        },
+        {
+          "texto": "tiene",
+          "inicio": 78.158,
+          "fin": 78.437
+        },
+        {
+          "texto": "azúcares.",
+          "inicio": 78.472,
+          "fin": 79.122
+        },
+        {
+          "texto": "Y",
+          "inicio": 79.586,
+          "fin": 79.691
+        },
+        {
+          "texto": "donde",
+          "inicio": 79.772,
+          "fin": 79.993
+        },
+        {
+          "texto": "hay",
+          "inicio": 80.028,
+          "fin": 80.144
+        },
+        {
+          "texto": "azúcar,",
+          "inicio": 80.19,
+          "fin": 80.62
+        },
+        {
+          "texto": "hay",
+          "inicio": 80.689,
+          "fin": 80.817
+        },
+        {
+          "texto": "fermentación.",
+          "inicio": 80.875,
+          "fin": 81.641
+        },
+        {
+          "texto": "La",
+          "inicio": 82.048,
+          "fin": 82.152
+        },
+        {
+          "texto": "pregunta",
+          "inicio": 82.199,
+          "fin": 82.582
+        },
+        {
+          "texto": "es:",
+          "inicio": 82.64,
+          "fin": 83
+        },
+        {
+          "texto": "¿fermentación",
+          "inicio": 83.255,
+          "fin": 84.103
+        },
+        {
+          "texto": "descontrolada…",
+          "inicio": 84.149,
+          "fin": 85.101
+        },
+        {
+          "texto": "o",
+          "inicio": 85.391,
+          "fin": 85.449
+        },
+        {
+          "texto": "fermentación",
+          "inicio": 85.508,
+          "fin": 86.053
+        },
+        {
+          "texto": "dirigida",
+          "inicio": 86.088,
+          "fin": 86.46
+        },
+        {
+          "texto": "por",
+          "inicio": 86.518,
+          "fin": 86.657
+        },
+        {
+          "texto": "ti?",
+          "inicio": 86.727,
+          "fin": 87.04
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "texto": "Eso es lo que separa un residuo de un producto.",
+      "clave": "",
+      "inicio": 87.586,
+      "fin": 89.815,
+      "palabras": [
+        {
+          "texto": "Eso",
+          "inicio": 87.586,
+          "fin": 87.853
+        },
+        {
+          "texto": "es",
+          "inicio": 87.888,
+          "fin": 87.934
+        },
+        {
+          "texto": "lo",
+          "inicio": 87.98,
+          "fin": 88.05
+        },
+        {
+          "texto": "que",
+          "inicio": 88.097,
+          "fin": 88.166
+        },
+        {
+          "texto": "separa",
+          "inicio": 88.213,
+          "fin": 88.491
+        },
+        {
+          "texto": "un",
+          "inicio": 88.526,
+          "fin": 88.573
+        },
+        {
+          "texto": "residuo",
+          "inicio": 88.642,
+          "fin": 89.002
+        },
+        {
+          "texto": "de",
+          "inicio": 89.06,
+          "fin": 89.107
+        },
+        {
+          "texto": "un",
+          "inicio": 89.165,
+          "fin": 89.211
+        },
+        {
+          "texto": "producto.",
+          "inicio": 89.257,
+          "fin": 89.815
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "texto": "Aquí está el error número uno, y el más común.",
+      "clave": "",
+      "inicio": 90.453,
+      "fin": 93.414,
+      "palabras": [
+        {
+          "texto": "Aquí",
+          "inicio": 90.453,
+          "fin": 90.72
+        },
+        {
+          "texto": "está",
+          "inicio": 90.767,
+          "fin": 90.941
+        },
+        {
+          "texto": "el",
+          "inicio": 90.999,
+          "fin": 91.057
+        },
+        {
+          "texto": "error",
+          "inicio": 91.103,
+          "fin": 91.336
+        },
+        {
+          "texto": "número",
+          "inicio": 91.394,
+          "fin": 91.707
+        },
+        {
+          "texto": "uno,",
+          "inicio": 91.777,
+          "fin": 92.148
+        },
+        {
+          "texto": "y",
+          "inicio": 92.555,
+          "fin": 92.624
+        },
+        {
+          "texto": "el",
+          "inicio": 92.694,
+          "fin": 92.74
+        },
+        {
+          "texto": "más",
+          "inicio": 92.798,
+          "fin": 92.915
+        },
+        {
+          "texto": "común.",
+          "inicio": 92.961,
+          "fin": 93.414
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "texto": "La gente cree que el vinagre se hace en un solo paso: echas la fruta en un frasco, esperas… y listo.",
+      "clave": "",
+      "inicio": 93.959,
+      "fin": 100.322,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 93.959,
+          "fin": 94.052
+        },
+        {
+          "texto": "gente",
+          "inicio": 94.099,
+          "fin": 94.319
+        },
+        {
+          "texto": "cree",
+          "inicio": 94.354,
+          "fin": 94.517
+        },
+        {
+          "texto": "que",
+          "inicio": 94.552,
+          "fin": 94.633
+        },
+        {
+          "texto": "el",
+          "inicio": 94.656,
+          "fin": 94.703
+        },
+        {
+          "texto": "vinagre",
+          "inicio": 94.761,
+          "fin": 95.109
+        },
+        {
+          "texto": "se",
+          "inicio": 95.155,
+          "fin": 95.248
+        },
+        {
+          "texto": "hace",
+          "inicio": 95.295,
+          "fin": 95.48
+        },
+        {
+          "texto": "en",
+          "inicio": 95.515,
+          "fin": 95.562
+        },
+        {
+          "texto": "un",
+          "inicio": 95.631,
+          "fin": 95.701
+        },
+        {
+          "texto": "solo",
+          "inicio": 95.747,
+          "fin": 95.933
+        },
+        {
+          "texto": "paso:",
+          "inicio": 95.991,
+          "fin": 96.409
+        },
+        {
+          "texto": "echas",
+          "inicio": 96.955,
+          "fin": 97.222
+        },
+        {
+          "texto": "la",
+          "inicio": 97.268,
+          "fin": 97.315
+        },
+        {
+          "texto": "fruta",
+          "inicio": 97.361,
+          "fin": 97.605
+        },
+        {
+          "texto": "en",
+          "inicio": 97.628,
+          "fin": 97.675
+        },
+        {
+          "texto": "un",
+          "inicio": 97.744,
+          "fin": 97.802
+        },
+        {
+          "texto": "frasco,",
+          "inicio": 97.86,
+          "fin": 98.383
+        },
+        {
+          "texto": "esperas…",
+          "inicio": 98.464,
+          "fin": 99.254
+        },
+        {
+          "texto": "y",
+          "inicio": 99.799,
+          "fin": 99.869
+        },
+        {
+          "texto": "listo.",
+          "inicio": 99.939,
+          "fin": 100.322
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "texto": "Pues no. El vinagre es el resultado de dos fermentaciones distintas, una después de la otra.",
+      "clave": "",
+      "inicio": 100.867,
+      "fin": 106.765,
+      "palabras": [
+        {
+          "texto": "Pues",
+          "inicio": 100.867,
+          "fin": 101.053
+        },
+        {
+          "texto": "no.",
+          "inicio": 101.111,
+          "fin": 101.471
+        },
+        {
+          "texto": "El",
+          "inicio": 102.017,
+          "fin": 102.145
+        },
+        {
+          "texto": "vinagre",
+          "inicio": 102.179,
+          "fin": 102.516
+        },
+        {
+          "texto": "es",
+          "inicio": 102.539,
+          "fin": 102.609
+        },
+        {
+          "texto": "el",
+          "inicio": 102.679,
+          "fin": 102.725
+        },
+        {
+          "texto": "resultado",
+          "inicio": 102.783,
+          "fin": 103.259
+        },
+        {
+          "texto": "de",
+          "inicio": 103.317,
+          "fin": 103.387
+        },
+        {
+          "texto": "dos",
+          "inicio": 103.445,
+          "fin": 103.631
+        },
+        {
+          "texto": "fermentaciones",
+          "inicio": 103.7,
+          "fin": 104.455
+        },
+        {
+          "texto": "distintas,",
+          "inicio": 104.49,
+          "fin": 105.279
+        },
+        {
+          "texto": "una",
+          "inicio": 105.569,
+          "fin": 105.778
+        },
+        {
+          "texto": "después",
+          "inicio": 105.825,
+          "fin": 106.161
+        },
+        {
+          "texto": "de",
+          "inicio": 106.185,
+          "fin": 106.231
+        },
+        {
+          "texto": "la",
+          "inicio": 106.289,
+          "fin": 106.347
+        },
+        {
+          "texto": "otra.",
+          "inicio": 106.405,
+          "fin": 106.765
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "texto": "Primero, la fermentación alcohólica. Unas levaduras se comen el azúcar y lo convierten en alcohol. Y lo hacen mejor sin aire.",
+      "clave": "",
+      "inicio": 107.229,
+      "fin": 115.426,
+      "palabras": [
+        {
+          "texto": "Primero,",
+          "inicio": 107.229,
+          "fin": 107.822
+        },
+        {
+          "texto": "la",
+          "inicio": 107.984,
+          "fin": 108.065
+        },
+        {
+          "texto": "fermentación",
+          "inicio": 108.123,
+          "fin": 108.692
+        },
+        {
+          "texto": "alcohólica.",
+          "inicio": 108.75,
+          "fin": 109.447
+        },
+        {
+          "texto": "Unas",
+          "inicio": 109.993,
+          "fin": 110.225
+        },
+        {
+          "texto": "levaduras",
+          "inicio": 110.271,
+          "fin": 110.805
+        },
+        {
+          "texto": "se",
+          "inicio": 110.887,
+          "fin": 111.003
+        },
+        {
+          "texto": "comen",
+          "inicio": 111.061,
+          "fin": 111.305
+        },
+        {
+          "texto": "el",
+          "inicio": 111.363,
+          "fin": 111.421
+        },
+        {
+          "texto": "azúcar",
+          "inicio": 111.479,
+          "fin": 111.873
+        },
+        {
+          "texto": "y",
+          "inicio": 112.059,
+          "fin": 112.129
+        },
+        {
+          "texto": "lo",
+          "inicio": 112.199,
+          "fin": 112.268
+        },
+        {
+          "texto": "convierten",
+          "inicio": 112.315,
+          "fin": 112.744
+        },
+        {
+          "texto": "en",
+          "inicio": 112.791,
+          "fin": 112.849
+        },
+        {
+          "texto": "alcohol.",
+          "inicio": 112.907,
+          "fin": 113.51
+        },
+        {
+          "texto": "Y",
+          "inicio": 113.975,
+          "fin": 114.033
+        },
+        {
+          "texto": "lo",
+          "inicio": 114.114,
+          "fin": 114.184
+        },
+        {
+          "texto": "hacen",
+          "inicio": 114.219,
+          "fin": 114.416
+        },
+        {
+          "texto": "mejor",
+          "inicio": 114.474,
+          "fin": 114.706
+        },
+        {
+          "texto": "sin",
+          "inicio": 114.753,
+          "fin": 114.927
+        },
+        {
+          "texto": "aire.",
+          "inicio": 114.973,
+          "fin": 115.426
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "texto": "Después, la fermentación acética. Unas bacterias, las acetobacter, toman ese alcohol y lo convierten en ácido acético. Y esas sí necesitan aire. Mucho aire.",
+      "clave": "",
+      "inicio": 115.891,
+      "fin": 128.221,
+      "palabras": [
+        {
+          "texto": "Después,",
+          "inicio": 115.891,
+          "fin": 116.448
+        },
+        {
+          "texto": "la",
+          "inicio": 116.552,
+          "fin": 116.634
+        },
+        {
+          "texto": "fermentación",
+          "inicio": 116.68,
+          "fin": 117.237
+        },
+        {
+          "texto": "acética.",
+          "inicio": 117.295,
+          "fin": 117.911
+        },
+        {
+          "texto": "Unas",
+          "inicio": 118.549,
+          "fin": 118.77
+        },
+        {
+          "texto": "bacterias,",
+          "inicio": 118.816,
+          "fin": 119.617
+        },
+        {
+          "texto": "las",
+          "inicio": 119.803,
+          "fin": 119.942
+        },
+        {
+          "texto": "acetobacter,",
+          "inicio": 120,
+          "fin": 120.941
+        },
+        {
+          "texto": "toman",
+          "inicio": 121.127,
+          "fin": 121.405
+        },
+        {
+          "texto": "ese",
+          "inicio": 121.463,
+          "fin": 121.591
+        },
+        {
+          "texto": "alcohol",
+          "inicio": 121.615,
+          "fin": 121.951
+        },
+        {
+          "texto": "y",
+          "inicio": 122.416,
+          "fin": 122.485
+        },
+        {
+          "texto": "lo",
+          "inicio": 122.555,
+          "fin": 122.636
+        },
+        {
+          "texto": "convierten",
+          "inicio": 122.683,
+          "fin": 123.124
+        },
+        {
+          "texto": "en",
+          "inicio": 123.182,
+          "fin": 123.263
+        },
+        {
+          "texto": "ácido",
+          "inicio": 123.321,
+          "fin": 123.623
+        },
+        {
+          "texto": "acético.",
+          "inicio": 123.67,
+          "fin": 124.273
+        },
+        {
+          "texto": "Y",
+          "inicio": 124.912,
+          "fin": 124.993
+        },
+        {
+          "texto": "esas",
+          "inicio": 125.074,
+          "fin": 125.376
+        },
+        {
+          "texto": "sí",
+          "inicio": 125.481,
+          "fin": 125.608
+        },
+        {
+          "texto": "necesitan",
+          "inicio": 125.667,
+          "fin": 126.154
+        },
+        {
+          "texto": "aire.",
+          "inicio": 126.212,
+          "fin": 126.584
+        },
+        {
+          "texto": "Mucho",
+          "inicio": 127.454,
+          "fin": 127.803
+        },
+        {
+          "texto": "aire.",
+          "inicio": 127.849,
+          "fin": 128.221
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "texto": "¿Ves el problema? Una etapa quiere el frasco cerrado y la otra lo quiere abierto.",
+      "clave": "",
+      "inicio": 128.766,
+      "fin": 133.318,
+      "palabras": [
+        {
+          "texto": "¿Ves",
+          "inicio": 128.766,
+          "fin": 129.115
+        },
+        {
+          "texto": "el",
+          "inicio": 129.173,
+          "fin": 129.231
+        },
+        {
+          "texto": "problema?",
+          "inicio": 129.289,
+          "fin": 129.927
+        },
+        {
+          "texto": "Una",
+          "inicio": 130.473,
+          "fin": 130.67
+        },
+        {
+          "texto": "etapa",
+          "inicio": 130.694,
+          "fin": 130.949
+        },
+        {
+          "texto": "quiere",
+          "inicio": 130.996,
+          "fin": 131.181
+        },
+        {
+          "texto": "el",
+          "inicio": 131.204,
+          "fin": 131.251
+        },
+        {
+          "texto": "frasco",
+          "inicio": 131.309,
+          "fin": 131.634
+        },
+        {
+          "texto": "cerrado",
+          "inicio": 131.669,
+          "fin": 132.052
+        },
+        {
+          "texto": "y",
+          "inicio": 132.098,
+          "fin": 132.122
+        },
+        {
+          "texto": "la",
+          "inicio": 132.18,
+          "fin": 132.238
+        },
+        {
+          "texto": "otra",
+          "inicio": 132.273,
+          "fin": 132.458
+        },
+        {
+          "texto": "lo",
+          "inicio": 132.493,
+          "fin": 132.563
+        },
+        {
+          "texto": "quiere",
+          "inicio": 132.609,
+          "fin": 132.795
+        },
+        {
+          "texto": "abierto.",
+          "inicio": 132.818,
+          "fin": 133.318
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "texto": "Si las mezclas desde el principio, ninguna trabaja bien, y le abres la puerta a mohos y a bacterias que no quieres.",
+      "clave": "",
+      "inicio": 133.863,
+      "fin": 140.248,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 133.863,
+          "fin": 133.991
+        },
+        {
+          "texto": "las",
+          "inicio": 134.049,
+          "fin": 134.177
+        },
+        {
+          "texto": "mezclas",
+          "inicio": 134.235,
+          "fin": 134.56
+        },
+        {
+          "texto": "desde",
+          "inicio": 134.606,
+          "fin": 134.769
+        },
+        {
+          "texto": "el",
+          "inicio": 134.792,
+          "fin": 134.838
+        },
+        {
+          "texto": "principio,",
+          "inicio": 134.896,
+          "fin": 135.5
+        },
+        {
+          "texto": "ninguna",
+          "inicio": 135.639,
+          "fin": 135.918
+        },
+        {
+          "texto": "trabaja",
+          "inicio": 135.953,
+          "fin": 136.301
+        },
+        {
+          "texto": "bien,",
+          "inicio": 136.348,
+          "fin": 136.766
+        },
+        {
+          "texto": "y",
+          "inicio": 137.172,
+          "fin": 137.242
+        },
+        {
+          "texto": "le",
+          "inicio": 137.323,
+          "fin": 137.381
+        },
+        {
+          "texto": "abres",
+          "inicio": 137.404,
+          "fin": 137.601
+        },
+        {
+          "texto": "la",
+          "inicio": 137.636,
+          "fin": 137.694
+        },
+        {
+          "texto": "puerta",
+          "inicio": 137.741,
+          "fin": 138.077
+        },
+        {
+          "texto": "a",
+          "inicio": 138.147,
+          "fin": 138.194
+        },
+        {
+          "texto": "mohos",
+          "inicio": 138.275,
+          "fin": 138.646
+        },
+        {
+          "texto": "y",
+          "inicio": 138.751,
+          "fin": 138.809
+        },
+        {
+          "texto": "a",
+          "inicio": 138.867,
+          "fin": 138.89
+        },
+        {
+          "texto": "bacterias",
+          "inicio": 138.925,
+          "fin": 139.389
+        },
+        {
+          "texto": "que",
+          "inicio": 139.436,
+          "fin": 139.505
+        },
+        {
+          "texto": "no",
+          "inicio": 139.564,
+          "fin": 139.656
+        },
+        {
+          "texto": "quieres.",
+          "inicio": 139.726,
+          "fin": 140.248
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "texto": "Así que la regla de oro es esta: primero azúcar a alcohol, sin aire. Luego alcohol a ácido, con aire.",
+      "clave": "",
+      "inicio": 140.887,
+      "fin": 148.225,
+      "palabras": [
+        {
+          "texto": "Así",
+          "inicio": 140.887,
+          "fin": 141.131
+        },
+        {
+          "texto": "que",
+          "inicio": 141.189,
+          "fin": 141.259
+        },
+        {
+          "texto": "la",
+          "inicio": 141.317,
+          "fin": 141.398
+        },
+        {
+          "texto": "regla",
+          "inicio": 141.468,
+          "fin": 141.723
+        },
+        {
+          "texto": "de",
+          "inicio": 141.769,
+          "fin": 141.839
+        },
+        {
+          "texto": "oro",
+          "inicio": 141.897,
+          "fin": 142.048
+        },
+        {
+          "texto": "es",
+          "inicio": 142.094,
+          "fin": 142.164
+        },
+        {
+          "texto": "esta:",
+          "inicio": 142.245,
+          "fin": 142.675
+        },
+        {
+          "texto": "primero",
+          "inicio": 143.023,
+          "fin": 143.383
+        },
+        {
+          "texto": "azúcar",
+          "inicio": 143.418,
+          "fin": 143.708
+        },
+        {
+          "texto": "a",
+          "inicio": 143.755,
+          "fin": 143.778
+        },
+        {
+          "texto": "alcohol,",
+          "inicio": 143.894,
+          "fin": 144.486
+        },
+        {
+          "texto": "sin",
+          "inicio": 144.649,
+          "fin": 144.869
+        },
+        {
+          "texto": "aire.",
+          "inicio": 144.927,
+          "fin": 145.322
+        },
+        {
+          "texto": "Luego",
+          "inicio": 145.728,
+          "fin": 146.065
+        },
+        {
+          "texto": "alcohol",
+          "inicio": 146.146,
+          "fin": 146.599
+        },
+        {
+          "texto": "a",
+          "inicio": 146.68,
+          "fin": 146.738
+        },
+        {
+          "texto": "ácido,",
+          "inicio": 146.855,
+          "fin": 147.505
+        },
+        {
+          "texto": "con",
+          "inicio": 147.621,
+          "fin": 147.783
+        },
+        {
+          "texto": "aire.",
+          "inicio": 147.841,
+          "fin": 148.225
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "texto": "Paso uno: escoger bien la pulpa.",
+      "clave": "",
+      "inicio": 148.689,
+      "fin": 150.906,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 148.689,
+          "fin": 148.991
+        },
+        {
+          "texto": "uno:",
+          "inicio": 149.095,
+          "fin": 149.444
+        },
+        {
+          "texto": "escoger",
+          "inicio": 149.606,
+          "fin": 150.001
+        },
+        {
+          "texto": "bien",
+          "inicio": 150.047,
+          "fin": 150.198
+        },
+        {
+          "texto": "la",
+          "inicio": 150.256,
+          "fin": 150.326
+        },
+        {
+          "texto": "pulpa.",
+          "inicio": 150.372,
+          "fin": 150.906
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "texto": "Usa pulpa de cereza madura, roja, y del mismo día del despulpado. Fresca.",
+      "clave": "",
+      "inicio": 151.545,
+      "fin": 157.396,
+      "palabras": [
+        {
+          "texto": "Usa",
+          "inicio": 151.545,
+          "fin": 151.789
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 151.847,
+          "fin": 152.149
+        },
+        {
+          "texto": "de",
+          "inicio": 152.184,
+          "fin": 152.265
+        },
+        {
+          "texto": "cereza",
+          "inicio": 152.3,
+          "fin": 152.613
+        },
+        {
+          "texto": "madura,",
+          "inicio": 152.671,
+          "fin": 153.252
+        },
+        {
+          "texto": "roja,",
+          "inicio": 153.507,
+          "fin": 154.041
+        },
+        {
+          "texto": "y",
+          "inicio": 154.297,
+          "fin": 154.366
+        },
+        {
+          "texto": "del",
+          "inicio": 154.436,
+          "fin": 154.552
+        },
+        {
+          "texto": "mismo",
+          "inicio": 154.61,
+          "fin": 154.865
+        },
+        {
+          "texto": "día",
+          "inicio": 154.912,
+          "fin": 155.074
+        },
+        {
+          "texto": "del",
+          "inicio": 155.121,
+          "fin": 155.237
+        },
+        {
+          "texto": "despulpado.",
+          "inicio": 155.283,
+          "fin": 156.05
+        },
+        {
+          "texto": "Fresca.",
+          "inicio": 156.793,
+          "fin": 157.396
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "texto": "Nada de pulpa que lleve días en la tolva o en el montón, porque ya empezó a fermentar sola, con los microbios que quiso la naturaleza, no los que quieres tú.",
+      "clave": "",
+      "inicio": 158.139,
+      "fin": 167.311,
+      "palabras": [
+        {
+          "texto": "Nada",
+          "inicio": 158.139,
+          "fin": 158.325
+        },
+        {
+          "texto": "de",
+          "inicio": 158.372,
+          "fin": 158.43
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 158.465,
+          "fin": 158.708
+        },
+        {
+          "texto": "que",
+          "inicio": 158.743,
+          "fin": 158.824
+        },
+        {
+          "texto": "lleve",
+          "inicio": 158.848,
+          "fin": 159.045
+        },
+        {
+          "texto": "días",
+          "inicio": 159.08,
+          "fin": 159.289
+        },
+        {
+          "texto": "en",
+          "inicio": 159.347,
+          "fin": 159.393
+        },
+        {
+          "texto": "la",
+          "inicio": 159.451,
+          "fin": 159.521
+        },
+        {
+          "texto": "tolva",
+          "inicio": 159.579,
+          "fin": 159.951
+        },
+        {
+          "texto": "o",
+          "inicio": 160.009,
+          "fin": 160.055
+        },
+        {
+          "texto": "en",
+          "inicio": 160.113,
+          "fin": 160.171
+        },
+        {
+          "texto": "el",
+          "inicio": 160.218,
+          "fin": 160.264
+        },
+        {
+          "texto": "montón,",
+          "inicio": 160.322,
+          "fin": 160.868
+        },
+        {
+          "texto": "porque",
+          "inicio": 161.158,
+          "fin": 161.437
+        },
+        {
+          "texto": "ya",
+          "inicio": 161.495,
+          "fin": 161.553
+        },
+        {
+          "texto": "empezó",
+          "inicio": 161.588,
+          "fin": 161.901
+        },
+        {
+          "texto": "a",
+          "inicio": 161.936,
+          "fin": 161.959
+        },
+        {
+          "texto": "fermentar",
+          "inicio": 161.994,
+          "fin": 162.47
+        },
+        {
+          "texto": "sola,",
+          "inicio": 162.528,
+          "fin": 163.062
+        },
+        {
+          "texto": "con",
+          "inicio": 163.318,
+          "fin": 163.468
+        },
+        {
+          "texto": "los",
+          "inicio": 163.503,
+          "fin": 163.619
+        },
+        {
+          "texto": "microbios",
+          "inicio": 163.677,
+          "fin": 164.13
+        },
+        {
+          "texto": "que",
+          "inicio": 164.188,
+          "fin": 164.258
+        },
+        {
+          "texto": "quiso",
+          "inicio": 164.316,
+          "fin": 164.537
+        },
+        {
+          "texto": "la",
+          "inicio": 164.595,
+          "fin": 164.653
+        },
+        {
+          "texto": "naturaleza,",
+          "inicio": 164.699,
+          "fin": 165.489
+        },
+        {
+          "texto": "no",
+          "inicio": 166.127,
+          "fin": 166.232
+        },
+        {
+          "texto": "los",
+          "inicio": 166.278,
+          "fin": 166.383
+        },
+        {
+          "texto": "que",
+          "inicio": 166.429,
+          "fin": 166.499
+        },
+        {
+          "texto": "quieres",
+          "inicio": 166.545,
+          "fin": 166.87
+        },
+        {
+          "texto": "tú.",
+          "inicio": 166.928,
+          "fin": 167.311
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "texto": "Separa hojas, palos y granos verdes. Y trabaja con todo limpio: canecas, baldes y cucharas lavados y bien enjuagados.",
+      "clave": "",
+      "inicio": 167.776,
+      "fin": 175.566,
+      "palabras": [
+        {
+          "texto": "Separa",
+          "inicio": 167.776,
+          "fin": 168.229
+        },
+        {
+          "texto": "hojas,",
+          "inicio": 168.287,
+          "fin": 168.763
+        },
+        {
+          "texto": "palos",
+          "inicio": 168.832,
+          "fin": 169.25
+        },
+        {
+          "texto": "y",
+          "inicio": 169.39,
+          "fin": 169.448
+        },
+        {
+          "texto": "granos",
+          "inicio": 169.506,
+          "fin": 169.808
+        },
+        {
+          "texto": "verdes.",
+          "inicio": 169.854,
+          "fin": 170.376
+        },
+        {
+          "texto": "Y",
+          "inicio": 170.783,
+          "fin": 170.864
+        },
+        {
+          "texto": "trabaja",
+          "inicio": 170.922,
+          "fin": 171.27
+        },
+        {
+          "texto": "con",
+          "inicio": 171.317,
+          "fin": 171.444
+        },
+        {
+          "texto": "todo",
+          "inicio": 171.502,
+          "fin": 171.711
+        },
+        {
+          "texto": "limpio:",
+          "inicio": 171.758,
+          "fin": 172.199
+        },
+        {
+          "texto": "canecas,",
+          "inicio": 172.304,
+          "fin": 172.977
+        },
+        {
+          "texto": "baldes",
+          "inicio": 173.035,
+          "fin": 173.43
+        },
+        {
+          "texto": "y",
+          "inicio": 173.592,
+          "fin": 173.65
+        },
+        {
+          "texto": "cucharas",
+          "inicio": 173.708,
+          "fin": 174.068
+        },
+        {
+          "texto": "lavados",
+          "inicio": 174.115,
+          "fin": 174.486
+        },
+        {
+          "texto": "y",
+          "inicio": 174.533,
+          "fin": 174.568
+        },
+        {
+          "texto": "bien",
+          "inicio": 174.614,
+          "fin": 174.765
+        },
+        {
+          "texto": "enjuagados.",
+          "inicio": 174.811,
+          "fin": 175.566
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "texto": "Este detalle parece pequeño, pero la mitad de los vinagres que fallan, fallan aquí.",
+      "clave": "",
+      "inicio": 176.112,
+      "fin": 180.581,
+      "palabras": [
+        {
+          "texto": "Este",
+          "inicio": 176.112,
+          "fin": 176.379
+        },
+        {
+          "texto": "detalle",
+          "inicio": 176.437,
+          "fin": 176.762
+        },
+        {
+          "texto": "parece",
+          "inicio": 176.808,
+          "fin": 177.087
+        },
+        {
+          "texto": "pequeño,",
+          "inicio": 177.145,
+          "fin": 177.818
+        },
+        {
+          "texto": "pero",
+          "inicio": 178.039,
+          "fin": 178.236
+        },
+        {
+          "texto": "la",
+          "inicio": 178.283,
+          "fin": 178.341
+        },
+        {
+          "texto": "mitad",
+          "inicio": 178.387,
+          "fin": 178.619
+        },
+        {
+          "texto": "de",
+          "inicio": 178.643,
+          "fin": 178.689
+        },
+        {
+          "texto": "los",
+          "inicio": 178.724,
+          "fin": 178.84
+        },
+        {
+          "texto": "vinagres",
+          "inicio": 178.886,
+          "fin": 179.258
+        },
+        {
+          "texto": "que",
+          "inicio": 179.304,
+          "fin": 179.374
+        },
+        {
+          "texto": "fallan,",
+          "inicio": 179.432,
+          "fin": 179.757
+        },
+        {
+          "texto": "fallan",
+          "inicio": 179.792,
+          "fin": 180.071
+        },
+        {
+          "texto": "aquí.",
+          "inicio": 180.129,
+          "fin": 180.581
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "texto": "Paso dos: preparar el mosto, que es el jugo que va a fermentar.",
+      "clave": "",
+      "inicio": 181.046,
+      "fin": 185.087,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 181.046,
+          "fin": 181.301
+        },
+        {
+          "texto": "dos:",
+          "inicio": 181.359,
+          "fin": 181.835
+        },
+        {
+          "texto": "preparar",
+          "inicio": 182.056,
+          "fin": 182.451
+        },
+        {
+          "texto": "el",
+          "inicio": 182.497,
+          "fin": 182.567
+        },
+        {
+          "texto": "mosto,",
+          "inicio": 182.625,
+          "fin": 183.182
+        },
+        {
+          "texto": "que",
+          "inicio": 183.438,
+          "fin": 183.565
+        },
+        {
+          "texto": "es",
+          "inicio": 183.623,
+          "fin": 183.705
+        },
+        {
+          "texto": "el",
+          "inicio": 183.763,
+          "fin": 183.821
+        },
+        {
+          "texto": "jugo",
+          "inicio": 183.867,
+          "fin": 184.064
+        },
+        {
+          "texto": "que",
+          "inicio": 184.123,
+          "fin": 184.192
+        },
+        {
+          "texto": "va",
+          "inicio": 184.239,
+          "fin": 184.308
+        },
+        {
+          "texto": "a",
+          "inicio": 184.332,
+          "fin": 184.355
+        },
+        {
+          "texto": "fermentar.",
+          "inicio": 184.413,
+          "fin": 185.087
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "texto": "Mezcla la pulpa con agua limpia, macera bien y cuela para quedarte con el líquido.",
+      "clave": "",
+      "inicio": 185.632,
+      "fin": 190.021,
+      "palabras": [
+        {
+          "texto": "Mezcla",
+          "inicio": 185.632,
+          "fin": 185.946
+        },
+        {
+          "texto": "la",
+          "inicio": 185.981,
+          "fin": 186.05
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 186.097,
+          "fin": 186.364
+        },
+        {
+          "texto": "con",
+          "inicio": 186.41,
+          "fin": 186.549
+        },
+        {
+          "texto": "agua",
+          "inicio": 186.631,
+          "fin": 186.782
+        },
+        {
+          "texto": "limpia,",
+          "inicio": 186.828,
+          "fin": 187.35
+        },
+        {
+          "texto": "macera",
+          "inicio": 187.606,
+          "fin": 187.931
+        },
+        {
+          "texto": "bien",
+          "inicio": 187.977,
+          "fin": 188.128
+        },
+        {
+          "texto": "y",
+          "inicio": 188.186,
+          "fin": 188.21
+        },
+        {
+          "texto": "cuela",
+          "inicio": 188.244,
+          "fin": 188.593
+        },
+        {
+          "texto": "para",
+          "inicio": 188.732,
+          "fin": 188.918
+        },
+        {
+          "texto": "quedarte",
+          "inicio": 188.964,
+          "fin": 189.278
+        },
+        {
+          "texto": "con",
+          "inicio": 189.324,
+          "fin": 189.44
+        },
+        {
+          "texto": "el",
+          "inicio": 189.498,
+          "fin": 189.556
+        },
+        {
+          "texto": "líquido.",
+          "inicio": 189.58,
+          "fin": 190.021
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "texto": "Ahora mide el azúcar con un refractómetro, en grados Brix.",
+      "clave": "",
+      "inicio": 190.566,
+      "fin": 194.351,
+      "palabras": [
+        {
+          "texto": "Ahora",
+          "inicio": 190.566,
+          "fin": 190.833
+        },
+        {
+          "texto": "mide",
+          "inicio": 190.892,
+          "fin": 191.042
+        },
+        {
+          "texto": "el",
+          "inicio": 191.066,
+          "fin": 191.112
+        },
+        {
+          "texto": "azúcar",
+          "inicio": 191.182,
+          "fin": 191.6
+        },
+        {
+          "texto": "con",
+          "inicio": 191.762,
+          "fin": 191.948
+        },
+        {
+          "texto": "un",
+          "inicio": 191.983,
+          "fin": 192.053
+        },
+        {
+          "texto": "refractómetro,",
+          "inicio": 192.111,
+          "fin": 193.086
+        },
+        {
+          "texto": "en",
+          "inicio": 193.248,
+          "fin": 193.376
+        },
+        {
+          "texto": "grados",
+          "inicio": 193.434,
+          "fin": 193.748
+        },
+        {
+          "texto": "Brix.",
+          "inicio": 193.817,
+          "fin": 194.351
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "texto": "En un estudio de la Universidad Industrial de Santander ajustaron el mosto de pulpa entre dieciocho y veintidós grados Brix para fermentarlo.",
+      "clave": "",
+      "inicio": 194.816,
+      "fin": 202.559,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 194.816,
+          "fin": 194.932
+        },
+        {
+          "texto": "un",
+          "inicio": 194.978,
+          "fin": 195.048
+        },
+        {
+          "texto": "estudio",
+          "inicio": 195.094,
+          "fin": 195.408
+        },
+        {
+          "texto": "de",
+          "inicio": 195.431,
+          "fin": 195.477
+        },
+        {
+          "texto": "la",
+          "inicio": 195.512,
+          "fin": 195.57
+        },
+        {
+          "texto": "Universidad",
+          "inicio": 195.605,
+          "fin": 196.07
+        },
+        {
+          "texto": "Industrial",
+          "inicio": 196.093,
+          "fin": 196.557
+        },
+        {
+          "texto": "de",
+          "inicio": 196.592,
+          "fin": 196.65
+        },
+        {
+          "texto": "Santander",
+          "inicio": 196.697,
+          "fin": 197.265
+        },
+        {
+          "texto": "ajustaron",
+          "inicio": 197.73,
+          "fin": 198.171
+        },
+        {
+          "texto": "el",
+          "inicio": 198.229,
+          "fin": 198.287
+        },
+        {
+          "texto": "mosto",
+          "inicio": 198.345,
+          "fin": 198.577
+        },
+        {
+          "texto": "de",
+          "inicio": 198.635,
+          "fin": 198.693
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 198.751,
+          "fin": 199.099
+        },
+        {
+          "texto": "entre",
+          "inicio": 199.158,
+          "fin": 199.448
+        },
+        {
+          "texto": "dieciocho",
+          "inicio": 199.483,
+          "fin": 199.901
+        },
+        {
+          "texto": "y",
+          "inicio": 199.935,
+          "fin": 199.97
+        },
+        {
+          "texto": "veintidós",
+          "inicio": 200.017,
+          "fin": 200.516
+        },
+        {
+          "texto": "grados",
+          "inicio": 200.586,
+          "fin": 200.899
+        },
+        {
+          "texto": "Brix",
+          "inicio": 200.957,
+          "fin": 201.294
+        },
+        {
+          "texto": "para",
+          "inicio": 201.584,
+          "fin": 201.793
+        },
+        {
+          "texto": "fermentarlo.",
+          "inicio": 201.839,
+          "fin": 202.559
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "texto": "Si te queda por debajo, completas con panela o azúcar disuelta. Más azúcar al inicio significa más alcohol… y más alcohol significa más ácido al final.",
+      "clave": "",
+      "inicio": 202.664,
+      "fin": 212.695,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 202.664,
+          "fin": 202.78
+        },
+        {
+          "texto": "te",
+          "inicio": 202.838,
+          "fin": 202.896
+        },
+        {
+          "texto": "queda",
+          "inicio": 202.942,
+          "fin": 203.105
+        },
+        {
+          "texto": "por",
+          "inicio": 203.151,
+          "fin": 203.267
+        },
+        {
+          "texto": "debajo,",
+          "inicio": 203.314,
+          "fin": 203.918
+        },
+        {
+          "texto": "completas",
+          "inicio": 204.103,
+          "fin": 204.533
+        },
+        {
+          "texto": "con",
+          "inicio": 204.591,
+          "fin": 204.707
+        },
+        {
+          "texto": "panela",
+          "inicio": 204.765,
+          "fin": 205.357
+        },
+        {
+          "texto": "o",
+          "inicio": 205.439,
+          "fin": 205.497
+        },
+        {
+          "texto": "azúcar",
+          "inicio": 205.555,
+          "fin": 205.88
+        },
+        {
+          "texto": "disuelta.",
+          "inicio": 205.949,
+          "fin": 206.623
+        },
+        {
+          "texto": "Más",
+          "inicio": 207.087,
+          "fin": 207.308
+        },
+        {
+          "texto": "azúcar",
+          "inicio": 207.366,
+          "fin": 207.714
+        },
+        {
+          "texto": "al",
+          "inicio": 207.749,
+          "fin": 207.807
+        },
+        {
+          "texto": "inicio",
+          "inicio": 207.865,
+          "fin": 208.155
+        },
+        {
+          "texto": "significa",
+          "inicio": 208.19,
+          "fin": 208.782
+        },
+        {
+          "texto": "más",
+          "inicio": 208.945,
+          "fin": 209.177
+        },
+        {
+          "texto": "alcohol…",
+          "inicio": 209.223,
+          "fin": 209.885
+        },
+        {
+          "texto": "y",
+          "inicio": 210.233,
+          "fin": 210.303
+        },
+        {
+          "texto": "más",
+          "inicio": 210.373,
+          "fin": 210.5
+        },
+        {
+          "texto": "alcohol",
+          "inicio": 210.547,
+          "fin": 210.849
+        },
+        {
+          "texto": "significa",
+          "inicio": 210.895,
+          "fin": 211.313
+        },
+        {
+          "texto": "más",
+          "inicio": 211.371,
+          "fin": 211.603
+        },
+        {
+          "texto": "ácido",
+          "inicio": 211.743,
+          "fin": 212.137
+        },
+        {
+          "texto": "al",
+          "inicio": 212.184,
+          "fin": 212.242
+        },
+        {
+          "texto": "final.",
+          "inicio": 212.277,
+          "fin": 212.695
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "texto": "Pero tampoco te pases, porque después ese alcohol hay que bajarlo para las bacterias. Ya vas a ver por qué.",
+      "clave": "",
+      "inicio": 213.24,
+      "fin": 217.954,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 213.24,
+          "fin": 213.426
+        },
+        {
+          "texto": "tampoco",
+          "inicio": 213.473,
+          "fin": 213.751
+        },
+        {
+          "texto": "te",
+          "inicio": 213.786,
+          "fin": 213.856
+        },
+        {
+          "texto": "pases,",
+          "inicio": 213.902,
+          "fin": 214.158
+        },
+        {
+          "texto": "porque",
+          "inicio": 214.181,
+          "fin": 214.402
+        },
+        {
+          "texto": "después",
+          "inicio": 214.448,
+          "fin": 214.738
+        },
+        {
+          "texto": "ese",
+          "inicio": 214.796,
+          "fin": 214.924
+        },
+        {
+          "texto": "alcohol",
+          "inicio": 214.959,
+          "fin": 215.284
+        },
+        {
+          "texto": "hay",
+          "inicio": 215.319,
+          "fin": 215.389
+        },
+        {
+          "texto": "que",
+          "inicio": 215.435,
+          "fin": 215.505
+        },
+        {
+          "texto": "bajarlo",
+          "inicio": 215.551,
+          "fin": 215.911
+        },
+        {
+          "texto": "para",
+          "inicio": 215.957,
+          "fin": 216.132
+        },
+        {
+          "texto": "las",
+          "inicio": 216.166,
+          "fin": 216.271
+        },
+        {
+          "texto": "bacterias.",
+          "inicio": 216.317,
+          "fin": 216.886
+        },
+        {
+          "texto": "Ya",
+          "inicio": 216.933,
+          "fin": 217.049
+        },
+        {
+          "texto": "vas",
+          "inicio": 217.072,
+          "fin": 217.176
+        },
+        {
+          "texto": "a",
+          "inicio": 217.235,
+          "fin": 217.258
+        },
+        {
+          "texto": "ver",
+          "inicio": 217.293,
+          "fin": 217.397
+        },
+        {
+          "texto": "por",
+          "inicio": 217.455,
+          "fin": 217.583
+        },
+        {
+          "texto": "qué.",
+          "inicio": 217.629,
+          "fin": 217.954
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "texto": "Paso tres: la fermentación alcohólica.",
+      "clave": "",
+      "inicio": 218.825,
+      "fin": 221.53,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 218.825,
+          "fin": 219.08
+        },
+        {
+          "texto": "tres:",
+          "inicio": 219.139,
+          "fin": 219.626
+        },
+        {
+          "texto": "la",
+          "inicio": 220.172,
+          "fin": 220.241
+        },
+        {
+          "texto": "fermentación",
+          "inicio": 220.288,
+          "fin": 220.834
+        },
+        {
+          "texto": "alcohólica.",
+          "inicio": 220.892,
+          "fin": 221.53
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "texto": "Pasa el mosto a un recipiente limpio, agrega levadura de vino y tápalo con una trampa de aire, para que el gas salga pero el aire no entre.",
+      "clave": "",
+      "inicio": 221.646,
+      "fin": 229.913,
+      "palabras": [
+        {
+          "texto": "Pasa",
+          "inicio": 221.646,
+          "fin": 221.878
+        },
+        {
+          "texto": "el",
+          "inicio": 221.902,
+          "fin": 221.96
+        },
+        {
+          "texto": "mosto",
+          "inicio": 222.018,
+          "fin": 222.32
+        },
+        {
+          "texto": "a",
+          "inicio": 222.401,
+          "fin": 222.424
+        },
+        {
+          "texto": "un",
+          "inicio": 222.505,
+          "fin": 222.563
+        },
+        {
+          "texto": "recipiente",
+          "inicio": 222.622,
+          "fin": 223.132
+        },
+        {
+          "texto": "limpio,",
+          "inicio": 223.19,
+          "fin": 223.794
+        },
+        {
+          "texto": "agrega",
+          "inicio": 224.015,
+          "fin": 224.386
+        },
+        {
+          "texto": "levadura",
+          "inicio": 224.421,
+          "fin": 224.804
+        },
+        {
+          "texto": "de",
+          "inicio": 224.851,
+          "fin": 224.92
+        },
+        {
+          "texto": "vino",
+          "inicio": 224.955,
+          "fin": 225.245
+        },
+        {
+          "texto": "y",
+          "inicio": 225.303,
+          "fin": 225.327
+        },
+        {
+          "texto": "tápalo",
+          "inicio": 225.408,
+          "fin": 225.791
+        },
+        {
+          "texto": "con",
+          "inicio": 225.837,
+          "fin": 225.919
+        },
+        {
+          "texto": "una",
+          "inicio": 225.977,
+          "fin": 226.116
+        },
+        {
+          "texto": "trampa",
+          "inicio": 226.174,
+          "fin": 226.488
+        },
+        {
+          "texto": "de",
+          "inicio": 226.534,
+          "fin": 226.592
+        },
+        {
+          "texto": "aire,",
+          "inicio": 226.627,
+          "fin": 227.127
+        },
+        {
+          "texto": "para",
+          "inicio": 227.382,
+          "fin": 227.579
+        },
+        {
+          "texto": "que",
+          "inicio": 227.626,
+          "fin": 227.695
+        },
+        {
+          "texto": "el",
+          "inicio": 227.719,
+          "fin": 227.788
+        },
+        {
+          "texto": "gas",
+          "inicio": 227.846,
+          "fin": 228.09
+        },
+        {
+          "texto": "salga",
+          "inicio": 228.195,
+          "fin": 228.613
+        },
+        {
+          "texto": "pero",
+          "inicio": 228.798,
+          "fin": 229.007
+        },
+        {
+          "texto": "el",
+          "inicio": 229.031,
+          "fin": 229.077
+        },
+        {
+          "texto": "aire",
+          "inicio": 229.124,
+          "fin": 229.298
+        },
+        {
+          "texto": "no",
+          "inicio": 229.356,
+          "fin": 229.46
+        },
+        {
+          "texto": "entre.",
+          "inicio": 229.518,
+          "fin": 229.913
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "texto": "Vas a ver burbujas. Eso es la levadura trabajando.",
+      "clave": "",
+      "inicio": 230.076,
+      "fin": 233.361,
+      "palabras": [
+        {
+          "texto": "Vas",
+          "inicio": 230.076,
+          "fin": 230.215
+        },
+        {
+          "texto": "a",
+          "inicio": 230.273,
+          "fin": 230.296
+        },
+        {
+          "texto": "ver",
+          "inicio": 230.331,
+          "fin": 230.435
+        },
+        {
+          "texto": "burbujas.",
+          "inicio": 230.493,
+          "fin": 231.167
+        },
+        {
+          "texto": "Eso",
+          "inicio": 231.713,
+          "fin": 231.933
+        },
+        {
+          "texto": "es",
+          "inicio": 231.956,
+          "fin": 232.003
+        },
+        {
+          "texto": "la",
+          "inicio": 232.049,
+          "fin": 232.107
+        },
+        {
+          "texto": "levadura",
+          "inicio": 232.165,
+          "fin": 232.595
+        },
+        {
+          "texto": "trabajando.",
+          "inicio": 232.653,
+          "fin": 233.361
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "texto": "Mide los grados Brix cada par de días. Cuando dejan de bajar, la fermentación alcohólica terminó.",
+      "clave": "",
+      "inicio": 234,
+      "fin": 240.048,
+      "palabras": [
+        {
+          "texto": "Mide",
+          "inicio": 234,
+          "fin": 234.244
+        },
+        {
+          "texto": "los",
+          "inicio": 234.29,
+          "fin": 234.418
+        },
+        {
+          "texto": "grados",
+          "inicio": 234.464,
+          "fin": 234.778
+        },
+        {
+          "texto": "Brix",
+          "inicio": 234.847,
+          "fin": 235.196
+        },
+        {
+          "texto": "cada",
+          "inicio": 235.312,
+          "fin": 235.532
+        },
+        {
+          "texto": "par",
+          "inicio": 235.579,
+          "fin": 235.718
+        },
+        {
+          "texto": "de",
+          "inicio": 235.776,
+          "fin": 235.834
+        },
+        {
+          "texto": "días.",
+          "inicio": 235.881,
+          "fin": 236.426
+        },
+        {
+          "texto": "Cuando",
+          "inicio": 236.891,
+          "fin": 237.146
+        },
+        {
+          "texto": "dejan",
+          "inicio": 237.192,
+          "fin": 237.378
+        },
+        {
+          "texto": "de",
+          "inicio": 237.413,
+          "fin": 237.459
+        },
+        {
+          "texto": "bajar,",
+          "inicio": 237.506,
+          "fin": 237.901
+        },
+        {
+          "texto": "la",
+          "inicio": 238.017,
+          "fin": 238.098
+        },
+        {
+          "texto": "fermentación",
+          "inicio": 238.144,
+          "fin": 238.748
+        },
+        {
+          "texto": "alcohólica",
+          "inicio": 238.806,
+          "fin": 239.387
+        },
+        {
+          "texto": "terminó.",
+          "inicio": 239.456,
+          "fin": 240.048
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "texto": "En un estudio con pulpa de café arábica, esta etapa duró veinte días.",
+      "clave": "",
+      "inicio": 240.687,
+      "fin": 244.971,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 240.687,
+          "fin": 240.803
+        },
+        {
+          "texto": "un",
+          "inicio": 240.861,
+          "fin": 240.931
+        },
+        {
+          "texto": "estudio",
+          "inicio": 240.989,
+          "fin": 241.372
+        },
+        {
+          "texto": "con",
+          "inicio": 241.418,
+          "fin": 241.581
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 241.72,
+          "fin": 242.011
+        },
+        {
+          "texto": "de",
+          "inicio": 242.034,
+          "fin": 242.092
+        },
+        {
+          "texto": "café",
+          "inicio": 242.15,
+          "fin": 242.406
+        },
+        {
+          "texto": "arábica,",
+          "inicio": 242.44,
+          "fin": 243.091
+        },
+        {
+          "texto": "esta",
+          "inicio": 243.23,
+          "fin": 243.474
+        },
+        {
+          "texto": "etapa",
+          "inicio": 243.497,
+          "fin": 243.776
+        },
+        {
+          "texto": "duró",
+          "inicio": 243.81,
+          "fin": 244.008
+        },
+        {
+          "texto": "veinte",
+          "inicio": 244.054,
+          "fin": 244.391
+        },
+        {
+          "texto": "días.",
+          "inicio": 244.449,
+          "fin": 244.971
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "texto": "Y aquí va un dato que casi nadie menciona: la pulpa tiene pectina, y cuando la pectina se rompe, se forma metanol.",
+      "clave": "",
+      "inicio": 245.436,
+      "fin": 253.052,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 245.436,
+          "fin": 245.506
+        },
+        {
+          "texto": "aquí",
+          "inicio": 245.552,
+          "fin": 245.738
+        },
+        {
+          "texto": "va",
+          "inicio": 245.784,
+          "fin": 245.842
+        },
+        {
+          "texto": "un",
+          "inicio": 245.9,
+          "fin": 245.958
+        },
+        {
+          "texto": "dato",
+          "inicio": 246.016,
+          "fin": 246.237
+        },
+        {
+          "texto": "que",
+          "inicio": 246.283,
+          "fin": 246.353
+        },
+        {
+          "texto": "casi",
+          "inicio": 246.399,
+          "fin": 246.608
+        },
+        {
+          "texto": "nadie",
+          "inicio": 246.667,
+          "fin": 246.864
+        },
+        {
+          "texto": "menciona:",
+          "inicio": 246.899,
+          "fin": 247.479
+        },
+        {
+          "texto": "la",
+          "inicio": 248.025,
+          "fin": 248.129
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 248.187,
+          "fin": 248.571
+        },
+        {
+          "texto": "tiene",
+          "inicio": 248.733,
+          "fin": 249.012
+        },
+        {
+          "texto": "pectina,",
+          "inicio": 249.07,
+          "fin": 249.755
+        },
+        {
+          "texto": "y",
+          "inicio": 250.219,
+          "fin": 250.3
+        },
+        {
+          "texto": "cuando",
+          "inicio": 250.37,
+          "fin": 250.614
+        },
+        {
+          "texto": "la",
+          "inicio": 250.672,
+          "fin": 250.742
+        },
+        {
+          "texto": "pectina",
+          "inicio": 250.788,
+          "fin": 251.16
+        },
+        {
+          "texto": "se",
+          "inicio": 251.218,
+          "fin": 251.299
+        },
+        {
+          "texto": "rompe,",
+          "inicio": 251.357,
+          "fin": 251.798
+        },
+        {
+          "texto": "se",
+          "inicio": 251.961,
+          "fin": 252.065
+        },
+        {
+          "texto": "forma",
+          "inicio": 252.123,
+          "fin": 252.39
+        },
+        {
+          "texto": "metanol.",
+          "inicio": 252.448,
+          "fin": 253.052
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "texto": "Por eso no dejes los sólidos de la pulpa macerando más de lo necesario. Trabaja con el jugo colado. Y si vas a vender, manda tu producto a analizar a un laboratorio.",
+      "clave": "",
+      "inicio": 253.598,
+      "fin": 262.747,
+      "palabras": [
+        {
+          "texto": "Por",
+          "inicio": 253.598,
+          "fin": 253.749
+        },
+        {
+          "texto": "eso",
+          "inicio": 253.807,
+          "fin": 253.934
+        },
+        {
+          "texto": "no",
+          "inicio": 253.992,
+          "fin": 254.074
+        },
+        {
+          "texto": "dejes",
+          "inicio": 254.12,
+          "fin": 254.376
+        },
+        {
+          "texto": "los",
+          "inicio": 254.399,
+          "fin": 254.515
+        },
+        {
+          "texto": "sólidos",
+          "inicio": 254.538,
+          "fin": 254.933
+        },
+        {
+          "texto": "de",
+          "inicio": 254.956,
+          "fin": 255.002
+        },
+        {
+          "texto": "la",
+          "inicio": 255.061,
+          "fin": 255.119
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 255.177,
+          "fin": 255.432
+        },
+        {
+          "texto": "macerando",
+          "inicio": 255.478,
+          "fin": 255.908
+        },
+        {
+          "texto": "más",
+          "inicio": 255.966,
+          "fin": 256.14
+        },
+        {
+          "texto": "de",
+          "inicio": 256.163,
+          "fin": 256.21
+        },
+        {
+          "texto": "lo",
+          "inicio": 256.256,
+          "fin": 256.326
+        },
+        {
+          "texto": "necesario.",
+          "inicio": 256.372,
+          "fin": 257.023
+        },
+        {
+          "texto": "Trabaja",
+          "inicio": 257.429,
+          "fin": 257.824
+        },
+        {
+          "texto": "con",
+          "inicio": 257.871,
+          "fin": 257.975
+        },
+        {
+          "texto": "el",
+          "inicio": 258.022,
+          "fin": 258.068
+        },
+        {
+          "texto": "jugo",
+          "inicio": 258.114,
+          "fin": 258.335
+        },
+        {
+          "texto": "colado.",
+          "inicio": 258.381,
+          "fin": 258.881
+        },
+        {
+          "texto": "Y",
+          "inicio": 259.171,
+          "fin": 259.241
+        },
+        {
+          "texto": "si",
+          "inicio": 259.31,
+          "fin": 259.368
+        },
+        {
+          "texto": "vas",
+          "inicio": 259.426,
+          "fin": 259.531
+        },
+        {
+          "texto": "a",
+          "inicio": 259.589,
+          "fin": 259.612
+        },
+        {
+          "texto": "vender,",
+          "inicio": 259.647,
+          "fin": 260.146
+        },
+        {
+          "texto": "manda",
+          "inicio": 260.436,
+          "fin": 260.68
+        },
+        {
+          "texto": "tu",
+          "inicio": 260.715,
+          "fin": 260.808
+        },
+        {
+          "texto": "producto",
+          "inicio": 260.866,
+          "fin": 261.272
+        },
+        {
+          "texto": "a",
+          "inicio": 261.319,
+          "fin": 261.342
+        },
+        {
+          "texto": "analizar",
+          "inicio": 261.377,
+          "fin": 261.83
+        },
+        {
+          "texto": "a",
+          "inicio": 261.876,
+          "fin": 261.899
+        },
+        {
+          "texto": "un",
+          "inicio": 261.957,
+          "fin": 262.027
+        },
+        {
+          "texto": "laboratorio.",
+          "inicio": 262.073,
+          "fin": 262.747
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "texto": "Paso cuatro, el puente entre las dos fermentaciones.",
+      "clave": "",
+      "inicio": 262.933,
+      "fin": 266.218,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 262.933,
+          "fin": 263.176
+        },
+        {
+          "texto": "cuatro,",
+          "inicio": 263.234,
+          "fin": 263.734
+        },
+        {
+          "texto": "el",
+          "inicio": 264.024,
+          "fin": 264.163
+        },
+        {
+          "texto": "puente",
+          "inicio": 264.233,
+          "fin": 264.523
+        },
+        {
+          "texto": "entre",
+          "inicio": 264.546,
+          "fin": 264.779
+        },
+        {
+          "texto": "las",
+          "inicio": 264.813,
+          "fin": 264.929
+        },
+        {
+          "texto": "dos",
+          "inicio": 264.976,
+          "fin": 265.115
+        },
+        {
+          "texto": "fermentaciones.",
+          "inicio": 265.173,
+          "fin": 266.218
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "texto": "Trasiega el líquido: pásalo a otro recipiente dejando el sedimento del fondo.",
+      "clave": "",
+      "inicio": 266.508,
+      "fin": 270.665,
+      "palabras": [
+        {
+          "texto": "Trasiega",
+          "inicio": 266.508,
+          "fin": 266.984
+        },
+        {
+          "texto": "el",
+          "inicio": 267.008,
+          "fin": 267.054
+        },
+        {
+          "texto": "líquido:",
+          "inicio": 267.077,
+          "fin": 267.553
+        },
+        {
+          "texto": "pásalo",
+          "inicio": 267.844,
+          "fin": 268.227
+        },
+        {
+          "texto": "a",
+          "inicio": 268.262,
+          "fin": 268.285
+        },
+        {
+          "texto": "otro",
+          "inicio": 268.331,
+          "fin": 268.517
+        },
+        {
+          "texto": "recipiente",
+          "inicio": 268.563,
+          "fin": 269.039
+        },
+        {
+          "texto": "dejando",
+          "inicio": 269.086,
+          "fin": 269.446
+        },
+        {
+          "texto": "el",
+          "inicio": 269.469,
+          "fin": 269.527
+        },
+        {
+          "texto": "sedimento",
+          "inicio": 269.585,
+          "fin": 270.049
+        },
+        {
+          "texto": "del",
+          "inicio": 270.096,
+          "fin": 270.212
+        },
+        {
+          "texto": "fondo.",
+          "inicio": 270.27,
+          "fin": 270.665
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "texto": "Si te quedó muy fuerte, dilúyelo con agua hervida y fría. Las bacterias acéticas trabajan mejor con el alcohol por debajo del diez por ciento.",
+      "clave": "",
+      "inicio": 271.129,
+      "fin": 279.651,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 271.129,
+          "fin": 271.257
+        },
+        {
+          "texto": "te",
+          "inicio": 271.315,
+          "fin": 271.385
+        },
+        {
+          "texto": "quedó",
+          "inicio": 271.443,
+          "fin": 271.617
+        },
+        {
+          "texto": "muy",
+          "inicio": 271.652,
+          "fin": 271.779
+        },
+        {
+          "texto": "fuerte,",
+          "inicio": 271.826,
+          "fin": 272.325
+        },
+        {
+          "texto": "dilúyelo",
+          "inicio": 272.546,
+          "fin": 273.01
+        },
+        {
+          "texto": "con",
+          "inicio": 273.057,
+          "fin": 273.196
+        },
+        {
+          "texto": "agua",
+          "inicio": 273.254,
+          "fin": 273.544
+        },
+        {
+          "texto": "hervida",
+          "inicio": 273.579,
+          "fin": 274.043
+        },
+        {
+          "texto": "y",
+          "inicio": 274.101,
+          "fin": 274.125
+        },
+        {
+          "texto": "fría.",
+          "inicio": 274.194,
+          "fin": 274.577
+        },
+        {
+          "texto": "Las",
+          "inicio": 275.216,
+          "fin": 275.355
+        },
+        {
+          "texto": "bacterias",
+          "inicio": 275.402,
+          "fin": 275.843
+        },
+        {
+          "texto": "acéticas",
+          "inicio": 275.901,
+          "fin": 276.342
+        },
+        {
+          "texto": "trabajan",
+          "inicio": 276.377,
+          "fin": 276.888
+        },
+        {
+          "texto": "mejor",
+          "inicio": 276.969,
+          "fin": 277.364
+        },
+        {
+          "texto": "con",
+          "inicio": 277.434,
+          "fin": 277.584
+        },
+        {
+          "texto": "el",
+          "inicio": 277.631,
+          "fin": 277.689
+        },
+        {
+          "texto": "alcohol",
+          "inicio": 277.735,
+          "fin": 278.084
+        },
+        {
+          "texto": "por",
+          "inicio": 278.142,
+          "fin": 278.281
+        },
+        {
+          "texto": "debajo",
+          "inicio": 278.327,
+          "fin": 278.618
+        },
+        {
+          "texto": "del",
+          "inicio": 278.653,
+          "fin": 278.757
+        },
+        {
+          "texto": "diez",
+          "inicio": 278.803,
+          "fin": 278.966
+        },
+        {
+          "texto": "por",
+          "inicio": 279.024,
+          "fin": 279.163
+        },
+        {
+          "texto": "ciento.",
+          "inicio": 279.21,
+          "fin": 279.651
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "texto": "Y ahora, el truco: agrega un buen chorro de vinagre vivo, sin pasteurizar, o un pedazo de madre de vinagre.",
+      "clave": "",
+      "inicio": 280.115,
+      "fin": 287.024,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 280.115,
+          "fin": 280.173
+        },
+        {
+          "texto": "ahora,",
+          "inicio": 280.243,
+          "fin": 280.708
+        },
+        {
+          "texto": "el",
+          "inicio": 281.056,
+          "fin": 281.195
+        },
+        {
+          "texto": "truco:",
+          "inicio": 281.253,
+          "fin": 281.706
+        },
+        {
+          "texto": "agrega",
+          "inicio": 281.961,
+          "fin": 282.31
+        },
+        {
+          "texto": "un",
+          "inicio": 282.345,
+          "fin": 282.391
+        },
+        {
+          "texto": "buen",
+          "inicio": 282.449,
+          "fin": 282.623
+        },
+        {
+          "texto": "chorro",
+          "inicio": 282.681,
+          "fin": 282.96
+        },
+        {
+          "texto": "de",
+          "inicio": 283.006,
+          "fin": 283.064
+        },
+        {
+          "texto": "vinagre",
+          "inicio": 283.111,
+          "fin": 283.471
+        },
+        {
+          "texto": "vivo,",
+          "inicio": 283.517,
+          "fin": 283.865
+        },
+        {
+          "texto": "sin",
+          "inicio": 284.028,
+          "fin": 284.225
+        },
+        {
+          "texto": "pasteurizar,",
+          "inicio": 284.283,
+          "fin": 285.096
+        },
+        {
+          "texto": "o",
+          "inicio": 285.386,
+          "fin": 285.444
+        },
+        {
+          "texto": "un",
+          "inicio": 285.468,
+          "fin": 285.526
+        },
+        {
+          "texto": "pedazo",
+          "inicio": 285.584,
+          "fin": 285.897
+        },
+        {
+          "texto": "de",
+          "inicio": 285.955,
+          "fin": 286.002
+        },
+        {
+          "texto": "madre",
+          "inicio": 286.06,
+          "fin": 286.327
+        },
+        {
+          "texto": "de",
+          "inicio": 286.385,
+          "fin": 286.455
+        },
+        {
+          "texto": "vinagre.",
+          "inicio": 286.501,
+          "fin": 287.024
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "texto": "Así arrancas con las bacterias correctas y además bajas el pH, lo que protege tu vinagre de los microbios indeseados.",
+      "clave": "",
+      "inicio": 287.488,
+      "fin": 294.175,
+      "palabras": [
+        {
+          "texto": "Así",
+          "inicio": 287.488,
+          "fin": 287.82235000000003
+        },
+        {
+          "texto": "arrancas",
+          "inicio": 287.82235000000003,
+          "fin": 288.1567
+        },
+        {
+          "texto": "con",
+          "inicio": 288.1567,
+          "fin": 288.49105
+        },
+        {
+          "texto": "las",
+          "inicio": 288.49105,
+          "fin": 288.8254
+        },
+        {
+          "texto": "bacterias",
+          "inicio": 288.8254,
+          "fin": 289.15975000000003
+        },
+        {
+          "texto": "correctas",
+          "inicio": 289.15975000000003,
+          "fin": 289.4941
+        },
+        {
+          "texto": "y",
+          "inicio": 289.4941,
+          "fin": 289.82845
+        },
+        {
+          "texto": "además",
+          "inicio": 289.82845,
+          "fin": 290.1628
+        },
+        {
+          "texto": "bajas",
+          "inicio": 290.1628,
+          "fin": 290.49715000000003
+        },
+        {
+          "texto": "el",
+          "inicio": 290.49715000000003,
+          "fin": 290.8315
+        },
+        {
+          "texto": "pH,",
+          "inicio": 290.8315,
+          "fin": 291.16585
+        },
+        {
+          "texto": "lo",
+          "inicio": 291.16585,
+          "fin": 291.5002
+        },
+        {
+          "texto": "que",
+          "inicio": 291.5002,
+          "fin": 291.83455000000004
+        },
+        {
+          "texto": "protege",
+          "inicio": 291.83455000000004,
+          "fin": 292.1689
+        },
+        {
+          "texto": "tu",
+          "inicio": 292.1689,
+          "fin": 292.50325
+        },
+        {
+          "texto": "vinagre",
+          "inicio": 292.50325,
+          "fin": 292.8376
+        },
+        {
+          "texto": "de",
+          "inicio": 292.8376,
+          "fin": 293.17195000000004
+        },
+        {
+          "texto": "los",
+          "inicio": 293.17195000000004,
+          "fin": 293.5063
+        },
+        {
+          "texto": "microbios",
+          "inicio": 293.5063,
+          "fin": 293.84065
+        },
+        {
+          "texto": "indeseados.",
+          "inicio": 293.84065,
+          "fin": 294.175
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "texto": "Paso cinco: la fermentación acética. Aquí todo cambia.",
+      "clave": "",
+      "inicio": 294.721,
+      "fin": 299.353,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 294.721,
+          "fin": 295
+        },
+        {
+          "texto": "cinco:",
+          "inicio": 295.046,
+          "fin": 295.51
+        },
+        {
+          "texto": "la",
+          "inicio": 295.975,
+          "fin": 296.056
+        },
+        {
+          "texto": "fermentación",
+          "inicio": 296.114,
+          "fin": 296.811
+        },
+        {
+          "texto": "acética.",
+          "inicio": 296.915,
+          "fin": 297.682
+        },
+        {
+          "texto": "Aquí",
+          "inicio": 298.227,
+          "fin": 298.506
+        },
+        {
+          "texto": "todo",
+          "inicio": 298.576,
+          "fin": 298.808
+        },
+        {
+          "texto": "cambia.",
+          "inicio": 298.866,
+          "fin": 299.353
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "texto": "Ahora necesitas aire. Usa una vasija de boca ancha, de vidrio, cerámica o plástico de grado alimenticio. Nunca metal.",
+      "clave": "",
+      "inicio": 299.899,
+      "fin": 307.782,
+      "palabras": [
+        {
+          "texto": "Ahora",
+          "inicio": 299.899,
+          "fin": 300.12
+        },
+        {
+          "texto": "necesitas",
+          "inicio": 300.166,
+          "fin": 300.63
+        },
+        {
+          "texto": "aire.",
+          "inicio": 300.689,
+          "fin": 301.06
+        },
+        {
+          "texto": "Usa",
+          "inicio": 301.281,
+          "fin": 301.478
+        },
+        {
+          "texto": "una",
+          "inicio": 301.513,
+          "fin": 301.641
+        },
+        {
+          "texto": "vasija",
+          "inicio": 301.676,
+          "fin": 301.977
+        },
+        {
+          "texto": "de",
+          "inicio": 302.012,
+          "fin": 302.07
+        },
+        {
+          "texto": "boca",
+          "inicio": 302.105,
+          "fin": 302.314
+        },
+        {
+          "texto": "ancha,",
+          "inicio": 302.372,
+          "fin": 302.941
+        },
+        {
+          "texto": "de",
+          "inicio": 303.289,
+          "fin": 303.371
+        },
+        {
+          "texto": "vidrio,",
+          "inicio": 303.429,
+          "fin": 303.893
+        },
+        {
+          "texto": "cerámica",
+          "inicio": 303.916,
+          "fin": 304.416
+        },
+        {
+          "texto": "o",
+          "inicio": 304.485,
+          "fin": 304.532
+        },
+        {
+          "texto": "plástico",
+          "inicio": 304.59,
+          "fin": 305.031
+        },
+        {
+          "texto": "de",
+          "inicio": 305.077,
+          "fin": 305.135
+        },
+        {
+          "texto": "grado",
+          "inicio": 305.17,
+          "fin": 305.414
+        },
+        {
+          "texto": "alimenticio.",
+          "inicio": 305.437,
+          "fin": 306.111
+        },
+        {
+          "texto": "Nunca",
+          "inicio": 306.981,
+          "fin": 307.283
+        },
+        {
+          "texto": "metal.",
+          "inicio": 307.33,
+          "fin": 307.782
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "texto": "Llénala hasta la mitad o dos tercios, y tápala con una tela limpia y una liga, para que respire sin que entren mosquitas.",
+      "clave": "",
+      "inicio": 308.328,
+      "fin": 315.619,
+      "palabras": [
+        {
+          "texto": "Llénala",
+          "inicio": 308.328,
+          "fin": 308.7
+        },
+        {
+          "texto": "hasta",
+          "inicio": 308.723,
+          "fin": 308.932
+        },
+        {
+          "texto": "la",
+          "inicio": 308.978,
+          "fin": 309.036
+        },
+        {
+          "texto": "mitad",
+          "inicio": 309.083,
+          "fin": 309.373
+        },
+        {
+          "texto": "o",
+          "inicio": 309.443,
+          "fin": 309.501
+        },
+        {
+          "texto": "dos",
+          "inicio": 309.559,
+          "fin": 309.733
+        },
+        {
+          "texto": "tercios,",
+          "inicio": 309.803,
+          "fin": 310.43
+        },
+        {
+          "texto": "y",
+          "inicio": 310.546,
+          "fin": 310.615
+        },
+        {
+          "texto": "tápala",
+          "inicio": 310.697,
+          "fin": 310.998
+        },
+        {
+          "texto": "con",
+          "inicio": 311.056,
+          "fin": 311.196
+        },
+        {
+          "texto": "una",
+          "inicio": 311.277,
+          "fin": 311.428
+        },
+        {
+          "texto": "tela",
+          "inicio": 311.486,
+          "fin": 311.707
+        },
+        {
+          "texto": "limpia",
+          "inicio": 311.753,
+          "fin": 312.148
+        },
+        {
+          "texto": "y",
+          "inicio": 312.31,
+          "fin": 312.368
+        },
+        {
+          "texto": "una",
+          "inicio": 312.426,
+          "fin": 312.566
+        },
+        {
+          "texto": "liga,",
+          "inicio": 312.612,
+          "fin": 313.053
+        },
+        {
+          "texto": "para",
+          "inicio": 313.344,
+          "fin": 313.529
+        },
+        {
+          "texto": "que",
+          "inicio": 313.576,
+          "fin": 313.646
+        },
+        {
+          "texto": "respire",
+          "inicio": 313.704,
+          "fin": 314.156
+        },
+        {
+          "texto": "sin",
+          "inicio": 314.296,
+          "fin": 314.516
+        },
+        {
+          "texto": "que",
+          "inicio": 314.563,
+          "fin": 314.632
+        },
+        {
+          "texto": "entren",
+          "inicio": 314.667,
+          "fin": 314.923
+        },
+        {
+          "texto": "mosquitas.",
+          "inicio": 314.957,
+          "fin": 315.619
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "texto": "Ponla en un lugar oscuro y tibio. Las bacterias acéticas trabajan mejor alrededor de los treinta grados.",
+      "clave": "",
+      "inicio": 316.026,
+      "fin": 322.248,
+      "palabras": [
+        {
+          "texto": "Ponla",
+          "inicio": 316.026,
+          "fin": 316.316
+        },
+        {
+          "texto": "en",
+          "inicio": 316.362,
+          "fin": 316.42
+        },
+        {
+          "texto": "un",
+          "inicio": 316.525,
+          "fin": 316.617
+        },
+        {
+          "texto": "lugar",
+          "inicio": 316.641,
+          "fin": 316.873
+        },
+        {
+          "texto": "oscuro",
+          "inicio": 316.919,
+          "fin": 317.302
+        },
+        {
+          "texto": "y",
+          "inicio": 317.337,
+          "fin": 317.384
+        },
+        {
+          "texto": "tibio.",
+          "inicio": 317.442,
+          "fin": 317.871
+        },
+        {
+          "texto": "Las",
+          "inicio": 318.51,
+          "fin": 318.638
+        },
+        {
+          "texto": "bacterias",
+          "inicio": 318.684,
+          "fin": 319.148
+        },
+        {
+          "texto": "acéticas",
+          "inicio": 319.218,
+          "fin": 319.706
+        },
+        {
+          "texto": "trabajan",
+          "inicio": 319.764,
+          "fin": 320.158
+        },
+        {
+          "texto": "mejor",
+          "inicio": 320.228,
+          "fin": 320.484
+        },
+        {
+          "texto": "alrededor",
+          "inicio": 320.53,
+          "fin": 320.983
+        },
+        {
+          "texto": "de",
+          "inicio": 321.041,
+          "fin": 321.087
+        },
+        {
+          "texto": "los",
+          "inicio": 321.122,
+          "fin": 321.238
+        },
+        {
+          "texto": "treinta",
+          "inicio": 321.296,
+          "fin": 321.61
+        },
+        {
+          "texto": "grados.",
+          "inicio": 321.645,
+          "fin": 322.248
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "texto": "En unos días vas a ver una capa gelatinosa en la superficie. ¡Esa es la madre del vinagre! No la muevas, no la rompas: es tu fábrica.",
+      "clave": "",
+      "inicio": 322.887,
+      "fin": 330.364,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 322.887,
+          "fin": 322.991
+        },
+        {
+          "texto": "unos",
+          "inicio": 323.026,
+          "fin": 323.212
+        },
+        {
+          "texto": "días",
+          "inicio": 323.235,
+          "fin": 323.386
+        },
+        {
+          "texto": "vas",
+          "inicio": 323.432,
+          "fin": 323.549
+        },
+        {
+          "texto": "a",
+          "inicio": 323.607,
+          "fin": 323.63
+        },
+        {
+          "texto": "ver",
+          "inicio": 323.676,
+          "fin": 323.792
+        },
+        {
+          "texto": "una",
+          "inicio": 323.85,
+          "fin": 323.978
+        },
+        {
+          "texto": "capa",
+          "inicio": 324.036,
+          "fin": 324.257
+        },
+        {
+          "texto": "gelatinosa",
+          "inicio": 324.303,
+          "fin": 324.872
+        },
+        {
+          "texto": "en",
+          "inicio": 324.907,
+          "fin": 324.965
+        },
+        {
+          "texto": "la",
+          "inicio": 325,
+          "fin": 325.046
+        },
+        {
+          "texto": "superficie.",
+          "inicio": 325.081,
+          "fin": 325.731
+        },
+        {
+          "texto": "¡Esa",
+          "inicio": 325.987,
+          "fin": 326.358
+        },
+        {
+          "texto": "es",
+          "inicio": 326.393,
+          "fin": 326.451
+        },
+        {
+          "texto": "la",
+          "inicio": 326.509,
+          "fin": 326.579
+        },
+        {
+          "texto": "madre",
+          "inicio": 326.637,
+          "fin": 326.915
+        },
+        {
+          "texto": "del",
+          "inicio": 326.95,
+          "fin": 327.055
+        },
+        {
+          "texto": "vinagre!",
+          "inicio": 327.101,
+          "fin": 327.67
+        },
+        {
+          "texto": "No",
+          "inicio": 328.076,
+          "fin": 328.193
+        },
+        {
+          "texto": "la",
+          "inicio": 328.227,
+          "fin": 328.285
+        },
+        {
+          "texto": "muevas,",
+          "inicio": 328.332,
+          "fin": 328.68
+        },
+        {
+          "texto": "no",
+          "inicio": 328.715,
+          "fin": 328.796
+        },
+        {
+          "texto": "la",
+          "inicio": 328.854,
+          "fin": 328.912
+        },
+        {
+          "texto": "rompas:",
+          "inicio": 328.97,
+          "fin": 329.458
+        },
+        {
+          "texto": "es",
+          "inicio": 329.563,
+          "fin": 329.667
+        },
+        {
+          "texto": "tu",
+          "inicio": 329.713,
+          "fin": 329.783
+        },
+        {
+          "texto": "fábrica.",
+          "inicio": 329.841,
+          "fin": 330.364
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "texto": "¿Y cuánto tiempo? Mira esto. En un estudio con pulpa de robusta, con solo siete días de fase acética, llegaron apenas a dos coma treinta y siete por ciento de acidez. Eso todavía no es vinagre.",
+      "clave": "",
+      "inicio": 330.654,
+      "fin": 342.821,
+      "palabras": [
+        {
+          "texto": "¿Y",
+          "inicio": 330.654,
+          "fin": 331.002
+        },
+        {
+          "texto": "cuánto",
+          "inicio": 331.06,
+          "fin": 331.269
+        },
+        {
+          "texto": "tiempo?",
+          "inicio": 331.316,
+          "fin": 331.815
+        },
+        {
+          "texto": "Mira",
+          "inicio": 332.07,
+          "fin": 332.303
+        },
+        {
+          "texto": "esto.",
+          "inicio": 332.361,
+          "fin": 332.674
+        },
+        {
+          "texto": "En",
+          "inicio": 333.139,
+          "fin": 333.231
+        },
+        {
+          "texto": "un",
+          "inicio": 333.29,
+          "fin": 333.359
+        },
+        {
+          "texto": "estudio",
+          "inicio": 333.417,
+          "fin": 333.8
+        },
+        {
+          "texto": "con",
+          "inicio": 333.847,
+          "fin": 334.009
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 334.091,
+          "fin": 334.369
+        },
+        {
+          "texto": "de",
+          "inicio": 334.392,
+          "fin": 334.439
+        },
+        {
+          "texto": "robusta,",
+          "inicio": 334.497,
+          "fin": 335.136
+        },
+        {
+          "texto": "con",
+          "inicio": 335.298,
+          "fin": 335.437
+        },
+        {
+          "texto": "solo",
+          "inicio": 335.495,
+          "fin": 335.704
+        },
+        {
+          "texto": "siete",
+          "inicio": 335.739,
+          "fin": 335.96
+        },
+        {
+          "texto": "días",
+          "inicio": 336.006,
+          "fin": 336.18
+        },
+        {
+          "texto": "de",
+          "inicio": 336.215,
+          "fin": 336.262
+        },
+        {
+          "texto": "fase",
+          "inicio": 336.32,
+          "fin": 336.598
+        },
+        {
+          "texto": "acética,",
+          "inicio": 336.68,
+          "fin": 337.469
+        },
+        {
+          "texto": "llegaron",
+          "inicio": 337.69,
+          "fin": 338.084
+        },
+        {
+          "texto": "apenas",
+          "inicio": 338.143,
+          "fin": 338.456
+        },
+        {
+          "texto": "a",
+          "inicio": 338.514,
+          "fin": 338.537
+        },
+        {
+          "texto": "dos",
+          "inicio": 338.584,
+          "fin": 338.735
+        },
+        {
+          "texto": "coma",
+          "inicio": 338.804,
+          "fin": 338.99
+        },
+        {
+          "texto": "treinta",
+          "inicio": 339.036,
+          "fin": 339.35
+        },
+        {
+          "texto": "y",
+          "inicio": 339.385,
+          "fin": 339.408
+        },
+        {
+          "texto": "siete",
+          "inicio": 339.443,
+          "fin": 339.698
+        },
+        {
+          "texto": "por",
+          "inicio": 339.745,
+          "fin": 339.872
+        },
+        {
+          "texto": "ciento",
+          "inicio": 339.93,
+          "fin": 340.209
+        },
+        {
+          "texto": "de",
+          "inicio": 340.267,
+          "fin": 340.325
+        },
+        {
+          "texto": "acidez.",
+          "inicio": 340.36,
+          "fin": 340.906
+        },
+        {
+          "texto": "Eso",
+          "inicio": 341.37,
+          "fin": 341.591
+        },
+        {
+          "texto": "todavía",
+          "inicio": 341.626,
+          "fin": 341.962
+        },
+        {
+          "texto": "no",
+          "inicio": 342.02,
+          "fin": 342.09
+        },
+        {
+          "texto": "es",
+          "inicio": 342.113,
+          "fin": 342.16
+        },
+        {
+          "texto": "vinagre.",
+          "inicio": 342.206,
+          "fin": 342.821
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "texto": "En cambio, con pulpa de arábica y cuarenta días con aire, llegaron a cinco coma veintisiete por ciento.",
+      "clave": "",
+      "inicio": 343.286,
+      "fin": 349.055,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 343.286,
+          "fin": 343.448
+        },
+        {
+          "texto": "cambio,",
+          "inicio": 343.506,
+          "fin": 343.971
+        },
+        {
+          "texto": "con",
+          "inicio": 344.052,
+          "fin": 344.191
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 344.249,
+          "fin": 344.505
+        },
+        {
+          "texto": "de",
+          "inicio": 344.551,
+          "fin": 344.609
+        },
+        {
+          "texto": "arábica",
+          "inicio": 344.644,
+          "fin": 345.19
+        },
+        {
+          "texto": "y",
+          "inicio": 345.259,
+          "fin": 345.34
+        },
+        {
+          "texto": "cuarenta",
+          "inicio": 345.445,
+          "fin": 345.851
+        },
+        {
+          "texto": "días",
+          "inicio": 345.898,
+          "fin": 346.107
+        },
+        {
+          "texto": "con",
+          "inicio": 346.153,
+          "fin": 346.304
+        },
+        {
+          "texto": "aire,",
+          "inicio": 346.362,
+          "fin": 346.687
+        },
+        {
+          "texto": "llegaron",
+          "inicio": 346.722,
+          "fin": 347.082
+        },
+        {
+          "texto": "a",
+          "inicio": 347.14,
+          "fin": 347.163
+        },
+        {
+          "texto": "cinco",
+          "inicio": 347.186,
+          "fin": 347.442
+        },
+        {
+          "texto": "coma",
+          "inicio": 347.5,
+          "fin": 347.709
+        },
+        {
+          "texto": "veintisiete",
+          "inicio": 347.767,
+          "fin": 348.359
+        },
+        {
+          "texto": "por",
+          "inicio": 348.405,
+          "fin": 348.545
+        },
+        {
+          "texto": "ciento.",
+          "inicio": 348.579,
+          "fin": 349.055
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "texto": "La lección: la paciencia es un ingrediente.",
+      "clave": "",
+      "inicio": 349.799,
+      "fin": 352.364,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 349.799,
+          "fin": 349.891
+        },
+        {
+          "texto": "lección:",
+          "inicio": 349.938,
+          "fin": 350.495
+        },
+        {
+          "texto": "la",
+          "inicio": 350.785,
+          "fin": 350.878
+        },
+        {
+          "texto": "paciencia",
+          "inicio": 350.925,
+          "fin": 351.389
+        },
+        {
+          "texto": "es",
+          "inicio": 351.412,
+          "fin": 351.459
+        },
+        {
+          "texto": "un",
+          "inicio": 351.528,
+          "fin": 351.586
+        },
+        {
+          "texto": "ingrediente.",
+          "inicio": 351.644,
+          "fin": 352.364
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "texto": "Paso seis, el que te prometí: medir la acidez.",
+      "clave": "",
+      "inicio": 352.55,
+      "fin": 356.056,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 352.55,
+          "fin": 352.805
+        },
+        {
+          "texto": "seis,",
+          "inicio": 352.864,
+          "fin": 353.363
+        },
+        {
+          "texto": "el",
+          "inicio": 353.711,
+          "fin": 353.839
+        },
+        {
+          "texto": "que",
+          "inicio": 353.897,
+          "fin": 353.966
+        },
+        {
+          "texto": "te",
+          "inicio": 354.025,
+          "fin": 354.094
+        },
+        {
+          "texto": "prometí:",
+          "inicio": 354.141,
+          "fin": 354.744
+        },
+        {
+          "texto": "medir",
+          "inicio": 354.907,
+          "fin": 355.186
+        },
+        {
+          "texto": "la",
+          "inicio": 355.244,
+          "fin": 355.313
+        },
+        {
+          "texto": "acidez.",
+          "inicio": 355.336,
+          "fin": 356.056
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "texto": "Porque el olfato engaña. Algo puede oler a vinagre y tener la mitad de la acidez que necesita.",
+      "clave": "",
+      "inicio": 356.695,
+      "fin": 362.28,
+      "palabras": [
+        {
+          "texto": "Porque",
+          "inicio": 356.695,
+          "fin": 356.95
+        },
+        {
+          "texto": "el",
+          "inicio": 356.973,
+          "fin": 357.02
+        },
+        {
+          "texto": "olfato",
+          "inicio": 357.066,
+          "fin": 357.426
+        },
+        {
+          "texto": "engaña.",
+          "inicio": 357.508,
+          "fin": 358.134
+        },
+        {
+          "texto": "Algo",
+          "inicio": 358.877,
+          "fin": 359.098
+        },
+        {
+          "texto": "puede",
+          "inicio": 359.133,
+          "fin": 359.33
+        },
+        {
+          "texto": "oler",
+          "inicio": 359.354,
+          "fin": 359.528
+        },
+        {
+          "texto": "a",
+          "inicio": 359.574,
+          "fin": 359.597
+        },
+        {
+          "texto": "vinagre",
+          "inicio": 359.621,
+          "fin": 360.015
+        },
+        {
+          "texto": "y",
+          "inicio": 360.038,
+          "fin": 360.062
+        },
+        {
+          "texto": "tener",
+          "inicio": 360.12,
+          "fin": 360.352
+        },
+        {
+          "texto": "la",
+          "inicio": 360.398,
+          "fin": 360.456
+        },
+        {
+          "texto": "mitad",
+          "inicio": 360.503,
+          "fin": 360.77
+        },
+        {
+          "texto": "de",
+          "inicio": 360.793,
+          "fin": 360.851
+        },
+        {
+          "texto": "la",
+          "inicio": 360.898,
+          "fin": 360.968
+        },
+        {
+          "texto": "acidez",
+          "inicio": 361.002,
+          "fin": 361.374
+        },
+        {
+          "texto": "que",
+          "inicio": 361.444,
+          "fin": 361.513
+        },
+        {
+          "texto": "necesita.",
+          "inicio": 361.56,
+          "fin": 362.28
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "texto": "La prueba se llama titulación y es muy sencilla. Necesitas hidróxido de sodio al cero coma uno normal, unas gotas de fenolftaleína y una jeringa o bureta.",
+      "clave": "",
+      "inicio": 363.023,
+      "fin": 372.705,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 363.023,
+          "fin": 363.127
+        },
+        {
+          "texto": "prueba",
+          "inicio": 363.173,
+          "fin": 363.429
+        },
+        {
+          "texto": "se",
+          "inicio": 363.464,
+          "fin": 363.545
+        },
+        {
+          "texto": "llama",
+          "inicio": 363.568,
+          "fin": 363.789
+        },
+        {
+          "texto": "titulación",
+          "inicio": 363.835,
+          "fin": 364.369
+        },
+        {
+          "texto": "y",
+          "inicio": 364.416,
+          "fin": 364.439
+        },
+        {
+          "texto": "es",
+          "inicio": 364.462,
+          "fin": 364.532
+        },
+        {
+          "texto": "muy",
+          "inicio": 364.59,
+          "fin": 364.729
+        },
+        {
+          "texto": "sencilla.",
+          "inicio": 364.776,
+          "fin": 365.356
+        },
+        {
+          "texto": "Necesitas",
+          "inicio": 365.646,
+          "fin": 366.122
+        },
+        {
+          "texto": "hidróxido",
+          "inicio": 366.157,
+          "fin": 366.622
+        },
+        {
+          "texto": "de",
+          "inicio": 366.68,
+          "fin": 366.749
+        },
+        {
+          "texto": "sodio",
+          "inicio": 366.796,
+          "fin": 367.086
+        },
+        {
+          "texto": "al",
+          "inicio": 367.121,
+          "fin": 367.202
+        },
+        {
+          "texto": "cero",
+          "inicio": 367.249,
+          "fin": 367.481
+        },
+        {
+          "texto": "coma",
+          "inicio": 367.539,
+          "fin": 367.852
+        },
+        {
+          "texto": "uno",
+          "inicio": 368.073,
+          "fin": 368.282
+        },
+        {
+          "texto": "normal,",
+          "inicio": 368.34,
+          "fin": 368.932
+        },
+        {
+          "texto": "unas",
+          "inicio": 369.222,
+          "fin": 369.431
+        },
+        {
+          "texto": "gotas",
+          "inicio": 369.489,
+          "fin": 369.722
+        },
+        {
+          "texto": "de",
+          "inicio": 369.756,
+          "fin": 369.814
+        },
+        {
+          "texto": "fenolftaleína",
+          "inicio": 369.872,
+          "fin": 370.743
+        },
+        {
+          "texto": "y",
+          "inicio": 371.091,
+          "fin": 371.15
+        },
+        {
+          "texto": "una",
+          "inicio": 371.208,
+          "fin": 371.335
+        },
+        {
+          "texto": "jeringa",
+          "inicio": 371.393,
+          "fin": 371.846
+        },
+        {
+          "texto": "o",
+          "inicio": 371.927,
+          "fin": 372.067
+        },
+        {
+          "texto": "bureta.",
+          "inicio": 372.102,
+          "fin": 372.705
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "texto": "Tomas diez mililitros de tu vinagre, le pones dos o tres gotas de fenolftaleína, y vas agregando el hidróxido poco a poco, revolviendo, hasta que el líquido se pone rosado y se queda rosado.",
+      "clave": "",
+      "inicio": 373.112,
+      "fin": 383.677,
+      "palabras": [
+        {
+          "texto": "Tomas",
+          "inicio": 373.112,
+          "fin": 373.413
+        },
+        {
+          "texto": "diez",
+          "inicio": 373.472,
+          "fin": 373.669
+        },
+        {
+          "texto": "mililitros",
+          "inicio": 373.727,
+          "fin": 374.191
+        },
+        {
+          "texto": "de",
+          "inicio": 374.215,
+          "fin": 374.261
+        },
+        {
+          "texto": "tu",
+          "inicio": 374.307,
+          "fin": 374.389
+        },
+        {
+          "texto": "vinagre,",
+          "inicio": 374.435,
+          "fin": 375.004
+        },
+        {
+          "texto": "le",
+          "inicio": 375.225,
+          "fin": 375.306
+        },
+        {
+          "texto": "pones",
+          "inicio": 375.352,
+          "fin": 375.596
+        },
+        {
+          "texto": "dos",
+          "inicio": 375.654,
+          "fin": 375.817
+        },
+        {
+          "texto": "o",
+          "inicio": 375.887,
+          "fin": 375.91
+        },
+        {
+          "texto": "tres",
+          "inicio": 375.968,
+          "fin": 376.154
+        },
+        {
+          "texto": "gotas",
+          "inicio": 376.212,
+          "fin": 376.455
+        },
+        {
+          "texto": "de",
+          "inicio": 376.49,
+          "fin": 376.537
+        },
+        {
+          "texto": "fenolftaleína,",
+          "inicio": 376.583,
+          "fin": 377.547
+        },
+        {
+          "texto": "y",
+          "inicio": 378.092,
+          "fin": 378.15
+        },
+        {
+          "texto": "vas",
+          "inicio": 378.209,
+          "fin": 378.325
+        },
+        {
+          "texto": "agregando",
+          "inicio": 378.371,
+          "fin": 378.719
+        },
+        {
+          "texto": "el",
+          "inicio": 378.743,
+          "fin": 378.789
+        },
+        {
+          "texto": "hidróxido",
+          "inicio": 378.812,
+          "fin": 379.242
+        },
+        {
+          "texto": "poco",
+          "inicio": 379.288,
+          "fin": 379.486
+        },
+        {
+          "texto": "a",
+          "inicio": 379.52,
+          "fin": 379.544
+        },
+        {
+          "texto": "poco,",
+          "inicio": 379.578,
+          "fin": 380.008
+        },
+        {
+          "texto": "revolviendo,",
+          "inicio": 380.472,
+          "fin": 381.018
+        },
+        {
+          "texto": "hasta",
+          "inicio": 381.041,
+          "fin": 381.227
+        },
+        {
+          "texto": "que",
+          "inicio": 381.274,
+          "fin": 381.355
+        },
+        {
+          "texto": "el",
+          "inicio": 381.378,
+          "fin": 381.436
+        },
+        {
+          "texto": "líquido",
+          "inicio": 381.459,
+          "fin": 381.796
+        },
+        {
+          "texto": "se",
+          "inicio": 381.842,
+          "fin": 381.924
+        },
+        {
+          "texto": "pone",
+          "inicio": 381.982,
+          "fin": 382.191
+        },
+        {
+          "texto": "rosado",
+          "inicio": 382.249,
+          "fin": 382.655
+        },
+        {
+          "texto": "y",
+          "inicio": 382.69,
+          "fin": 382.725
+        },
+        {
+          "texto": "se",
+          "inicio": 382.771,
+          "fin": 382.853
+        },
+        {
+          "texto": "queda",
+          "inicio": 382.899,
+          "fin": 383.096
+        },
+        {
+          "texto": "rosado.",
+          "inicio": 383.154,
+          "fin": 383.677
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "texto": "Ahora la cuenta: los mililitros que gastaste, por cero coma cero seis. Eso es tu porcentaje de ácido acético.",
+      "clave": "",
+      "inicio": 384.315,
+      "fin": 393.243,
+      "palabras": [
+        {
+          "texto": "Ahora",
+          "inicio": 384.315,
+          "fin": 384.536
+        },
+        {
+          "texto": "la",
+          "inicio": 384.582,
+          "fin": 384.652
+        },
+        {
+          "texto": "cuenta:",
+          "inicio": 384.698,
+          "fin": 385.256
+        },
+        {
+          "texto": "los",
+          "inicio": 385.801,
+          "fin": 385.952
+        },
+        {
+          "texto": "mililitros",
+          "inicio": 386.01,
+          "fin": 386.556
+        },
+        {
+          "texto": "que",
+          "inicio": 386.603,
+          "fin": 386.684
+        },
+        {
+          "texto": "gastaste,",
+          "inicio": 386.73,
+          "fin": 387.496
+        },
+        {
+          "texto": "por",
+          "inicio": 388.042,
+          "fin": 388.216
+        },
+        {
+          "texto": "cero",
+          "inicio": 388.274,
+          "fin": 388.507
+        },
+        {
+          "texto": "coma",
+          "inicio": 388.565,
+          "fin": 388.866
+        },
+        {
+          "texto": "cero",
+          "inicio": 389.61,
+          "fin": 389.993
+        },
+        {
+          "texto": "seis.",
+          "inicio": 390.051,
+          "fin": 390.585
+        },
+        {
+          "texto": "Eso",
+          "inicio": 391.223,
+          "fin": 391.49
+        },
+        {
+          "texto": "es",
+          "inicio": 391.537,
+          "fin": 391.595
+        },
+        {
+          "texto": "tu",
+          "inicio": 391.641,
+          "fin": 391.711
+        },
+        {
+          "texto": "porcentaje",
+          "inicio": 391.769,
+          "fin": 392.28
+        },
+        {
+          "texto": "de",
+          "inicio": 392.315,
+          "fin": 392.373
+        },
+        {
+          "texto": "ácido",
+          "inicio": 392.419,
+          "fin": 392.663
+        },
+        {
+          "texto": "acético.",
+          "inicio": 392.709,
+          "fin": 393.243
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "texto": "Si gastaste ocho mililitros, tienes cuatro coma ocho por ciento.",
+      "clave": "",
+      "inicio": 393.789,
+      "fin": 397.144,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 393.789,
+          "fin": 393.917
+        },
+        {
+          "texto": "gastaste",
+          "inicio": 393.963,
+          "fin": 394.3
+        },
+        {
+          "texto": "ocho",
+          "inicio": 394.346,
+          "fin": 394.52
+        },
+        {
+          "texto": "mililitros,",
+          "inicio": 394.567,
+          "fin": 395.263
+        },
+        {
+          "texto": "tienes",
+          "inicio": 395.403,
+          "fin": 395.693
+        },
+        {
+          "texto": "cuatro",
+          "inicio": 395.751,
+          "fin": 396.041
+        },
+        {
+          "texto": "coma",
+          "inicio": 396.088,
+          "fin": 396.274
+        },
+        {
+          "texto": "ocho",
+          "inicio": 396.332,
+          "fin": 396.517
+        },
+        {
+          "texto": "por",
+          "inicio": 396.564,
+          "fin": 396.692
+        },
+        {
+          "texto": "ciento.",
+          "inicio": 396.726,
+          "fin": 397.144
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "texto": "¿Cuál es la meta? Varias normas piden mínimo cincuenta gramos de ácido acético por litro, o sea, un cinco por ciento. Cuando llegues ahí, tu vinagre está listo.",
+      "clave": "",
+      "inicio": 397.249,
+      "fin": 406.607,
+      "palabras": [
+        {
+          "texto": "¿Cuál",
+          "inicio": 397.249,
+          "fin": 397.539
+        },
+        {
+          "texto": "es",
+          "inicio": 397.585,
+          "fin": 397.632
+        },
+        {
+          "texto": "la",
+          "inicio": 397.678,
+          "fin": 397.736
+        },
+        {
+          "texto": "meta?",
+          "inicio": 397.794,
+          "fin": 398.189
+        },
+        {
+          "texto": "Varias",
+          "inicio": 398.654,
+          "fin": 398.944
+        },
+        {
+          "texto": "normas",
+          "inicio": 399.002,
+          "fin": 399.292
+        },
+        {
+          "texto": "piden",
+          "inicio": 399.35,
+          "fin": 399.582
+        },
+        {
+          "texto": "mínimo",
+          "inicio": 399.664,
+          "fin": 400.012
+        },
+        {
+          "texto": "cincuenta",
+          "inicio": 400.035,
+          "fin": 400.453
+        },
+        {
+          "texto": "gramos",
+          "inicio": 400.488,
+          "fin": 400.767
+        },
+        {
+          "texto": "de",
+          "inicio": 400.801,
+          "fin": 400.848
+        },
+        {
+          "texto": "ácido",
+          "inicio": 400.894,
+          "fin": 401.138
+        },
+        {
+          "texto": "acético",
+          "inicio": 401.173,
+          "fin": 401.544
+        },
+        {
+          "texto": "por",
+          "inicio": 401.591,
+          "fin": 401.73
+        },
+        {
+          "texto": "litro,",
+          "inicio": 401.788,
+          "fin": 402.206
+        },
+        {
+          "texto": "o",
+          "inicio": 402.369,
+          "fin": 402.427
+        },
+        {
+          "texto": "sea,",
+          "inicio": 402.473,
+          "fin": 402.88
+        },
+        {
+          "texto": "un",
+          "inicio": 403.065,
+          "fin": 403.17
+        },
+        {
+          "texto": "cinco",
+          "inicio": 403.216,
+          "fin": 403.472
+        },
+        {
+          "texto": "por",
+          "inicio": 403.518,
+          "fin": 403.634
+        },
+        {
+          "texto": "ciento.",
+          "inicio": 403.669,
+          "fin": 404.029
+        },
+        {
+          "texto": "Cuando",
+          "inicio": 404.575,
+          "fin": 404.807
+        },
+        {
+          "texto": "llegues",
+          "inicio": 404.842,
+          "fin": 405.144
+        },
+        {
+          "texto": "ahí,",
+          "inicio": 405.202,
+          "fin": 405.411
+        },
+        {
+          "texto": "tu",
+          "inicio": 405.434,
+          "fin": 405.516
+        },
+        {
+          "texto": "vinagre",
+          "inicio": 405.562,
+          "fin": 405.899
+        },
+        {
+          "texto": "está",
+          "inicio": 405.922,
+          "fin": 406.096
+        },
+        {
+          "texto": "listo.",
+          "inicio": 406.154,
+          "fin": 406.607
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "texto": "Paso siete: estabilizar.",
+      "clave": "",
+      "inicio": 406.897,
+      "fin": 408.894,
+      "palabras": [
+        {
+          "texto": "Paso",
+          "inicio": 406.897,
+          "fin": 407.153
+        },
+        {
+          "texto": "siete:",
+          "inicio": 407.199,
+          "fin": 407.64
+        },
+        {
+          "texto": "estabilizar.",
+          "inicio": 408.046,
+          "fin": 408.894
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "texto": "Separa la madre, que te sirve para el próximo lote. Filtra el vinagre con tela fina o papel.",
+      "clave": "",
+      "inicio": 409.533,
+      "fin": 414.885,
+      "palabras": [
+        {
+          "texto": "Separa",
+          "inicio": 409.533,
+          "fin": 409.892
+        },
+        {
+          "texto": "la",
+          "inicio": 409.939,
+          "fin": 409.997
+        },
+        {
+          "texto": "madre,",
+          "inicio": 410.043,
+          "fin": 410.473
+        },
+        {
+          "texto": "que",
+          "inicio": 410.659,
+          "fin": 410.763
+        },
+        {
+          "texto": "te",
+          "inicio": 410.821,
+          "fin": 410.891
+        },
+        {
+          "texto": "sirve",
+          "inicio": 410.937,
+          "fin": 411.193
+        },
+        {
+          "texto": "para",
+          "inicio": 411.228,
+          "fin": 411.367
+        },
+        {
+          "texto": "el",
+          "inicio": 411.39,
+          "fin": 411.437
+        },
+        {
+          "texto": "próximo",
+          "inicio": 411.495,
+          "fin": 411.843
+        },
+        {
+          "texto": "lote.",
+          "inicio": 411.889,
+          "fin": 412.296
+        },
+        {
+          "texto": "Filtra",
+          "inicio": 412.586,
+          "fin": 412.958
+        },
+        {
+          "texto": "el",
+          "inicio": 412.981,
+          "fin": 413.039
+        },
+        {
+          "texto": "vinagre",
+          "inicio": 413.097,
+          "fin": 413.492
+        },
+        {
+          "texto": "con",
+          "inicio": 413.538,
+          "fin": 413.666
+        },
+        {
+          "texto": "tela",
+          "inicio": 413.724,
+          "fin": 413.933
+        },
+        {
+          "texto": "fina",
+          "inicio": 413.991,
+          "fin": 414.246
+        },
+        {
+          "texto": "o",
+          "inicio": 414.304,
+          "fin": 414.339
+        },
+        {
+          "texto": "papel.",
+          "inicio": 414.386,
+          "fin": 414.885
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "texto": "Si quieres que no siga cambiando, caliéntalo suavemente, sin que hierva, y embotéllalo en vidrio, bien lleno y bien tapado.",
+      "clave": "",
+      "inicio": 415.43,
+      "fin": 422.722,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 415.43,
+          "fin": 415.547
+        },
+        {
+          "texto": "quieres",
+          "inicio": 415.593,
+          "fin": 415.814
+        },
+        {
+          "texto": "que",
+          "inicio": 415.848,
+          "fin": 415.918
+        },
+        {
+          "texto": "no",
+          "inicio": 415.964,
+          "fin": 416.034
+        },
+        {
+          "texto": "siga",
+          "inicio": 416.081,
+          "fin": 416.255
+        },
+        {
+          "texto": "cambiando,",
+          "inicio": 416.301,
+          "fin": 416.882
+        },
+        {
+          "texto": "caliéntalo",
+          "inicio": 416.963,
+          "fin": 417.439
+        },
+        {
+          "texto": "suavemente,",
+          "inicio": 417.485,
+          "fin": 418.182
+        },
+        {
+          "texto": "sin",
+          "inicio": 418.53,
+          "fin": 418.728
+        },
+        {
+          "texto": "que",
+          "inicio": 418.774,
+          "fin": 418.855
+        },
+        {
+          "texto": "hierva,",
+          "inicio": 418.913,
+          "fin": 419.413
+        },
+        {
+          "texto": "y",
+          "inicio": 419.703,
+          "fin": 419.749
+        },
+        {
+          "texto": "embotéllalo",
+          "inicio": 419.819,
+          "fin": 420.4
+        },
+        {
+          "texto": "en",
+          "inicio": 420.458,
+          "fin": 420.516
+        },
+        {
+          "texto": "vidrio,",
+          "inicio": 420.562,
+          "fin": 421.073
+        },
+        {
+          "texto": "bien",
+          "inicio": 421.363,
+          "fin": 421.584
+        },
+        {
+          "texto": "lleno",
+          "inicio": 421.607,
+          "fin": 421.909
+        },
+        {
+          "texto": "y",
+          "inicio": 421.944,
+          "fin": 421.979
+        },
+        {
+          "texto": "bien",
+          "inicio": 422.013,
+          "fin": 422.164
+        },
+        {
+          "texto": "tapado.",
+          "inicio": 422.211,
+          "fin": 422.722
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "texto": "Y si vas a comercializarlo, recuerda: en cada país hay registros sanitarios y normas que cumplir.",
+      "clave": "",
+      "inicio": 423.36,
+      "fin": 429.304,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 423.36,
+          "fin": 423.43
+        },
+        {
+          "texto": "si",
+          "inicio": 423.534,
+          "fin": 423.616
+        },
+        {
+          "texto": "vas",
+          "inicio": 423.674,
+          "fin": 423.813
+        },
+        {
+          "texto": "a",
+          "inicio": 423.871,
+          "fin": 423.894
+        },
+        {
+          "texto": "comercializarlo,",
+          "inicio": 423.952,
+          "fin": 424.997
+        },
+        {
+          "texto": "recuerda:",
+          "inicio": 425.16,
+          "fin": 425.787
+        },
+        {
+          "texto": "en",
+          "inicio": 426.425,
+          "fin": 426.53
+        },
+        {
+          "texto": "cada",
+          "inicio": 426.576,
+          "fin": 426.75
+        },
+        {
+          "texto": "país",
+          "inicio": 426.797,
+          "fin": 426.994
+        },
+        {
+          "texto": "hay",
+          "inicio": 427.029,
+          "fin": 427.122
+        },
+        {
+          "texto": "registros",
+          "inicio": 427.18,
+          "fin": 427.609
+        },
+        {
+          "texto": "sanitarios",
+          "inicio": 427.633,
+          "fin": 428.19
+        },
+        {
+          "texto": "y",
+          "inicio": 428.248,
+          "fin": 428.283
+        },
+        {
+          "texto": "normas",
+          "inicio": 428.364,
+          "fin": 428.678
+        },
+        {
+          "texto": "que",
+          "inicio": 428.724,
+          "fin": 428.794
+        },
+        {
+          "texto": "cumplir.",
+          "inicio": 428.84,
+          "fin": 429.304
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "texto": "Ahora, si algo sale mal, aquí tienes la solución.",
+      "clave": "",
+      "inicio": 429.711,
+      "fin": 432.544,
+      "palabras": [
+        {
+          "texto": "Ahora,",
+          "inicio": 429.711,
+          "fin": 430.14
+        },
+        {
+          "texto": "si",
+          "inicio": 430.303,
+          "fin": 430.419
+        },
+        {
+          "texto": "algo",
+          "inicio": 430.477,
+          "fin": 430.651
+        },
+        {
+          "texto": "sale",
+          "inicio": 430.686,
+          "fin": 430.872
+        },
+        {
+          "texto": "mal,",
+          "inicio": 430.918,
+          "fin": 431.267
+        },
+        {
+          "texto": "aquí",
+          "inicio": 431.383,
+          "fin": 431.58
+        },
+        {
+          "texto": "tienes",
+          "inicio": 431.626,
+          "fin": 431.882
+        },
+        {
+          "texto": "la",
+          "inicio": 431.917,
+          "fin": 431.975
+        },
+        {
+          "texto": "solución.",
+          "inicio": 432.021,
+          "fin": 432.544
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "texto": "Problema uno: aparece moho, peludo, verde o negro, encima del líquido. Eso no es madre. La madre es lisa y gelatinosa. Si hay moho, ese lote se bota, y en el siguiente bajas el pH desde el inicio con más vinagre vivo.",
+      "clave": "",
+      "inicio": 433.182,
+      "fin": 449.842,
+      "palabras": [
+        {
+          "texto": "Problema",
+          "inicio": 433.182,
+          "fin": 433.57866666666666
+        },
+        {
+          "texto": "uno:",
+          "inicio": 433.57866666666666,
+          "fin": 433.97533333333337
+        },
+        {
+          "texto": "aparece",
+          "inicio": 433.97533333333337,
+          "fin": 434.372
+        },
+        {
+          "texto": "moho,",
+          "inicio": 434.372,
+          "fin": 434.76866666666666
+        },
+        {
+          "texto": "peludo,",
+          "inicio": 434.76866666666666,
+          "fin": 435.16533333333336
+        },
+        {
+          "texto": "verde",
+          "inicio": 435.16533333333336,
+          "fin": 435.562
+        },
+        {
+          "texto": "o",
+          "inicio": 435.562,
+          "fin": 435.95866666666666
+        },
+        {
+          "texto": "negro,",
+          "inicio": 435.95866666666666,
+          "fin": 436.35533333333336
+        },
+        {
+          "texto": "encima",
+          "inicio": 436.35533333333336,
+          "fin": 436.752
+        },
+        {
+          "texto": "del",
+          "inicio": 436.752,
+          "fin": 437.14866666666666
+        },
+        {
+          "texto": "líquido.",
+          "inicio": 437.14866666666666,
+          "fin": 437.54533333333336
+        },
+        {
+          "texto": "Eso",
+          "inicio": 437.54533333333336,
+          "fin": 437.942
+        },
+        {
+          "texto": "no",
+          "inicio": 437.942,
+          "fin": 438.33866666666665
+        },
+        {
+          "texto": "es",
+          "inicio": 438.33866666666665,
+          "fin": 438.73533333333336
+        },
+        {
+          "texto": "madre.",
+          "inicio": 438.73533333333336,
+          "fin": 439.132
+        },
+        {
+          "texto": "La",
+          "inicio": 439.132,
+          "fin": 439.52866666666665
+        },
+        {
+          "texto": "madre",
+          "inicio": 439.52866666666665,
+          "fin": 439.92533333333336
+        },
+        {
+          "texto": "es",
+          "inicio": 439.92533333333336,
+          "fin": 440.322
+        },
+        {
+          "texto": "lisa",
+          "inicio": 440.322,
+          "fin": 440.71866666666665
+        },
+        {
+          "texto": "y",
+          "inicio": 440.71866666666665,
+          "fin": 441.11533333333335
+        },
+        {
+          "texto": "gelatinosa.",
+          "inicio": 441.11533333333335,
+          "fin": 441.512
+        },
+        {
+          "texto": "Si",
+          "inicio": 441.512,
+          "fin": 441.90866666666665
+        },
+        {
+          "texto": "hay",
+          "inicio": 441.90866666666665,
+          "fin": 442.30533333333335
+        },
+        {
+          "texto": "moho,",
+          "inicio": 442.30533333333335,
+          "fin": 442.702
+        },
+        {
+          "texto": "ese",
+          "inicio": 442.702,
+          "fin": 443.09866666666665
+        },
+        {
+          "texto": "lote",
+          "inicio": 443.09866666666665,
+          "fin": 443.49533333333335
+        },
+        {
+          "texto": "se",
+          "inicio": 443.49533333333335,
+          "fin": 443.892
+        },
+        {
+          "texto": "bota,",
+          "inicio": 443.892,
+          "fin": 444.28866666666664
+        },
+        {
+          "texto": "y",
+          "inicio": 444.28866666666664,
+          "fin": 444.68533333333335
+        },
+        {
+          "texto": "en",
+          "inicio": 444.68533333333335,
+          "fin": 445.082
+        },
+        {
+          "texto": "el",
+          "inicio": 445.082,
+          "fin": 445.47866666666664
+        },
+        {
+          "texto": "siguiente",
+          "inicio": 445.47866666666664,
+          "fin": 445.87533333333334
+        },
+        {
+          "texto": "bajas",
+          "inicio": 445.87533333333334,
+          "fin": 446.272
+        },
+        {
+          "texto": "el",
+          "inicio": 446.272,
+          "fin": 446.66866666666664
+        },
+        {
+          "texto": "pH",
+          "inicio": 446.66866666666664,
+          "fin": 447.06533333333334
+        },
+        {
+          "texto": "desde",
+          "inicio": 447.06533333333334,
+          "fin": 447.462
+        },
+        {
+          "texto": "el",
+          "inicio": 447.462,
+          "fin": 447.85866666666664
+        },
+        {
+          "texto": "inicio",
+          "inicio": 447.85866666666664,
+          "fin": 448.25533333333334
+        },
+        {
+          "texto": "con",
+          "inicio": 448.25533333333334,
+          "fin": 448.652
+        },
+        {
+          "texto": "más",
+          "inicio": 448.652,
+          "fin": 449.04866666666663
+        },
+        {
+          "texto": "vinagre",
+          "inicio": 449.04866666666663,
+          "fin": 449.44533333333334
+        },
+        {
+          "texto": "vivo.",
+          "inicio": 449.44533333333334,
+          "fin": 449.842
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "texto": "Problema dos: mosquitas de la fruta. Llegan por el olor y traen sus propios microbios. La solución es la tela bien ajustada, siempre.",
+      "clave": "",
+      "inicio": 450.713,
+      "fin": 458.63,
+      "palabras": [
+        {
+          "texto": "Problema",
+          "inicio": 450.713,
+          "fin": 451.166
+        },
+        {
+          "texto": "dos:",
+          "inicio": 451.212,
+          "fin": 451.665
+        },
+        {
+          "texto": "mosquitas",
+          "inicio": 451.827,
+          "fin": 452.268
+        },
+        {
+          "texto": "de",
+          "inicio": 452.292,
+          "fin": 452.338
+        },
+        {
+          "texto": "la",
+          "inicio": 452.385,
+          "fin": 452.454
+        },
+        {
+          "texto": "fruta.",
+          "inicio": 452.5,
+          "fin": 452.999
+        },
+        {
+          "texto": "Llegan",
+          "inicio": 453.406,
+          "fin": 453.731
+        },
+        {
+          "texto": "por",
+          "inicio": 453.777,
+          "fin": 453.905
+        },
+        {
+          "texto": "el",
+          "inicio": 453.94,
+          "fin": 453.986
+        },
+        {
+          "texto": "olor",
+          "inicio": 454.044,
+          "fin": 454.311
+        },
+        {
+          "texto": "y",
+          "inicio": 454.369,
+          "fin": 454.416
+        },
+        {
+          "texto": "traen",
+          "inicio": 454.486,
+          "fin": 454.695
+        },
+        {
+          "texto": "sus",
+          "inicio": 454.741,
+          "fin": 454.857
+        },
+        {
+          "texto": "propios",
+          "inicio": 454.915,
+          "fin": 455.194
+        },
+        {
+          "texto": "microbios.",
+          "inicio": 455.252,
+          "fin": 455.856
+        },
+        {
+          "texto": "La",
+          "inicio": 456.204,
+          "fin": 456.285
+        },
+        {
+          "texto": "solución",
+          "inicio": 456.32,
+          "fin": 456.61
+        },
+        {
+          "texto": "es",
+          "inicio": 456.657,
+          "fin": 456.703
+        },
+        {
+          "texto": "la",
+          "inicio": 456.738,
+          "fin": 456.784
+        },
+        {
+          "texto": "tela",
+          "inicio": 456.842,
+          "fin": 457.028
+        },
+        {
+          "texto": "bien",
+          "inicio": 457.075,
+          "fin": 457.202
+        },
+        {
+          "texto": "ajustada,",
+          "inicio": 457.249,
+          "fin": 457.899
+        },
+        {
+          "texto": "siempre.",
+          "inicio": 458.085,
+          "fin": 458.63
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "texto": "Problema tres: tu «vino» de pulpa huele a esmalte de uñas antes de tiempo. Casi siempre es que le entró aire durante la fermentación alcohólica, o que el equipo no estaba limpio. La solución: trampa de aire bien puesta, recipiente lleno y todo bien lavado.",
+      "clave": "",
+      "inicio": 460,
+      "fin": 474.594,
+      "palabras": [
+        {
+          "texto": "Problema",
+          "inicio": 460,
+          "fin": 460.383
+        },
+        {
+          "texto": "tres:",
+          "inicio": 460.43,
+          "fin": 460.906
+        },
+        {
+          "texto": "tu",
+          "inicio": 461.196,
+          "fin": 461.417
+        },
+        {
+          "texto": "«vino»",
+          "inicio": 461.556,
+          "fin": 461.916
+        },
+        {
+          "texto": "de",
+          "inicio": 461.939,
+          "fin": 462.009
+        },
+        {
+          "texto": "pulpa",
+          "inicio": 462.055,
+          "fin": 462.346
+        },
+        {
+          "texto": "huele",
+          "inicio": 462.38,
+          "fin": 462.624
+        },
+        {
+          "texto": "a",
+          "inicio": 462.647,
+          "fin": 462.671
+        },
+        {
+          "texto": "esmalte",
+          "inicio": 462.74,
+          "fin": 463.181
+        },
+        {
+          "texto": "de",
+          "inicio": 463.228,
+          "fin": 463.298
+        },
+        {
+          "texto": "uñas",
+          "inicio": 463.356,
+          "fin": 463.599
+        },
+        {
+          "texto": "antes",
+          "inicio": 463.657,
+          "fin": 463.89
+        },
+        {
+          "texto": "de",
+          "inicio": 463.913,
+          "fin": 463.959
+        },
+        {
+          "texto": "tiempo.",
+          "inicio": 464.017,
+          "fin": 464.482
+        },
+        {
+          "texto": "Casi",
+          "inicio": 465.12,
+          "fin": 465.376
+        },
+        {
+          "texto": "siempre",
+          "inicio": 465.422,
+          "fin": 465.736
+        },
+        {
+          "texto": "es",
+          "inicio": 465.759,
+          "fin": 465.817
+        },
+        {
+          "texto": "que",
+          "inicio": 465.863,
+          "fin": 465.933
+        },
+        {
+          "texto": "le",
+          "inicio": 465.979,
+          "fin": 466.037
+        },
+        {
+          "texto": "entró",
+          "inicio": 466.061,
+          "fin": 466.305
+        },
+        {
+          "texto": "aire",
+          "inicio": 466.339,
+          "fin": 466.572
+        },
+        {
+          "texto": "durante",
+          "inicio": 466.618,
+          "fin": 466.908
+        },
+        {
+          "texto": "la",
+          "inicio": 466.943,
+          "fin": 467.001
+        },
+        {
+          "texto": "fermentación",
+          "inicio": 467.047,
+          "fin": 467.57
+        },
+        {
+          "texto": "alcohólica,",
+          "inicio": 467.616,
+          "fin": 468.243
+        },
+        {
+          "texto": "o",
+          "inicio": 468.65,
+          "fin": 468.708
+        },
+        {
+          "texto": "que",
+          "inicio": 468.766,
+          "fin": 468.847
+        },
+        {
+          "texto": "el",
+          "inicio": 468.87,
+          "fin": 468.928
+        },
+        {
+          "texto": "equipo",
+          "inicio": 468.975,
+          "fin": 469.219
+        },
+        {
+          "texto": "no",
+          "inicio": 469.265,
+          "fin": 469.311
+        },
+        {
+          "texto": "estaba",
+          "inicio": 469.346,
+          "fin": 469.602
+        },
+        {
+          "texto": "limpio.",
+          "inicio": 469.636,
+          "fin": 470.101
+        },
+        {
+          "texto": "La",
+          "inicio": 470.507,
+          "fin": 470.6
+        },
+        {
+          "texto": "solución:",
+          "inicio": 470.647,
+          "fin": 471.146
+        },
+        {
+          "texto": "trampa",
+          "inicio": 471.262,
+          "fin": 471.587
+        },
+        {
+          "texto": "de",
+          "inicio": 471.622,
+          "fin": 471.691
+        },
+        {
+          "texto": "aire",
+          "inicio": 471.726,
+          "fin": 471.912
+        },
+        {
+          "texto": "bien",
+          "inicio": 471.947,
+          "fin": 472.121
+        },
+        {
+          "texto": "puesta,",
+          "inicio": 472.179,
+          "fin": 472.643
+        },
+        {
+          "texto": "recipiente",
+          "inicio": 472.806,
+          "fin": 473.305
+        },
+        {
+          "texto": "lleno",
+          "inicio": 473.328,
+          "fin": 473.619
+        },
+        {
+          "texto": "y",
+          "inicio": 473.665,
+          "fin": 473.7
+        },
+        {
+          "texto": "todo",
+          "inicio": 473.758,
+          "fin": 473.944
+        },
+        {
+          "texto": "bien",
+          "inicio": 473.979,
+          "fin": 474.118
+        },
+        {
+          "texto": "lavado.",
+          "inicio": 474.164,
+          "fin": 474.594
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "texto": "Problema cuatro: la acidez no sube. O le falta aire, o le falta tiempo, o empezaste con muy poco alcohol. Revisa el Brix del mosto y dale más semanas.",
+      "clave": "",
+      "inicio": 475,
+      "fin": 484.857,
+      "palabras": [
+        {
+          "texto": "Problema",
+          "inicio": 475,
+          "fin": 475.43
+        },
+        {
+          "texto": "cuatro:",
+          "inicio": 475.488,
+          "fin": 475.987
+        },
+        {
+          "texto": "la",
+          "inicio": 476.277,
+          "fin": 476.382
+        },
+        {
+          "texto": "acidez",
+          "inicio": 476.417,
+          "fin": 476.823
+        },
+        {
+          "texto": "no",
+          "inicio": 476.881,
+          "fin": 476.974
+        },
+        {
+          "texto": "sube.",
+          "inicio": 477.032,
+          "fin": 477.427
+        },
+        {
+          "texto": "O",
+          "inicio": 477.972,
+          "fin": 478.042
+        },
+        {
+          "texto": "le",
+          "inicio": 478.1,
+          "fin": 478.158
+        },
+        {
+          "texto": "falta",
+          "inicio": 478.193,
+          "fin": 478.472
+        },
+        {
+          "texto": "aire,",
+          "inicio": 478.53,
+          "fin": 479.041
+        },
+        {
+          "texto": "o",
+          "inicio": 479.261,
+          "fin": 479.319
+        },
+        {
+          "texto": "le",
+          "inicio": 479.366,
+          "fin": 479.424
+        },
+        {
+          "texto": "falta",
+          "inicio": 479.458,
+          "fin": 479.691
+        },
+        {
+          "texto": "tiempo,",
+          "inicio": 479.737,
+          "fin": 480.248
+        },
+        {
+          "texto": "o",
+          "inicio": 480.434,
+          "fin": 480.503
+        },
+        {
+          "texto": "empezaste",
+          "inicio": 480.538,
+          "fin": 480.979
+        },
+        {
+          "texto": "con",
+          "inicio": 481.026,
+          "fin": 481.142
+        },
+        {
+          "texto": "muy",
+          "inicio": 481.165,
+          "fin": 481.281
+        },
+        {
+          "texto": "poco",
+          "inicio": 481.327,
+          "fin": 481.513
+        },
+        {
+          "texto": "alcohol.",
+          "inicio": 481.548,
+          "fin": 482.07
+        },
+        {
+          "texto": "Revisa",
+          "inicio": 482.616,
+          "fin": 482.871
+        },
+        {
+          "texto": "el",
+          "inicio": 482.895,
+          "fin": 482.953
+        },
+        {
+          "texto": "Brix",
+          "inicio": 483.022,
+          "fin": 483.266
+        },
+        {
+          "texto": "del",
+          "inicio": 483.313,
+          "fin": 483.417
+        },
+        {
+          "texto": "mosto",
+          "inicio": 483.475,
+          "fin": 483.754
+        },
+        {
+          "texto": "y",
+          "inicio": 483.812,
+          "fin": 483.847
+        },
+        {
+          "texto": "dale",
+          "inicio": 483.893,
+          "fin": 484.067
+        },
+        {
+          "texto": "más",
+          "inicio": 484.125,
+          "fin": 484.253
+        },
+        {
+          "texto": "semanas.",
+          "inicio": 484.276,
+          "fin": 484.857
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "texto": "Y un consejo de oro: anota todo. Fecha, Brix, temperatura y acidez de cada lote. Así cada vinagre te sale mejor que el anterior.",
+      "clave": "",
+      "inicio": 485.321,
+      "fin": 494.226,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 485.321,
+          "fin": 485.356
+        },
+        {
+          "texto": "un",
+          "inicio": 485.426,
+          "fin": 485.472
+        },
+        {
+          "texto": "consejo",
+          "inicio": 485.518,
+          "fin": 485.844
+        },
+        {
+          "texto": "de",
+          "inicio": 485.89,
+          "fin": 485.936
+        },
+        {
+          "texto": "oro:",
+          "inicio": 485.983,
+          "fin": 486.32
+        },
+        {
+          "texto": "anota",
+          "inicio": 486.865,
+          "fin": 487.167
+        },
+        {
+          "texto": "todo.",
+          "inicio": 487.225,
+          "fin": 487.62
+        },
+        {
+          "texto": "Fecha,",
+          "inicio": 488.258,
+          "fin": 488.804
+        },
+        {
+          "texto": "Brix,",
+          "inicio": 489.094,
+          "fin": 489.675
+        },
+        {
+          "texto": "temperatura",
+          "inicio": 489.791,
+          "fin": 490.383
+        },
+        {
+          "texto": "y",
+          "inicio": 490.441,
+          "fin": 490.464
+        },
+        {
+          "texto": "acidez",
+          "inicio": 490.511,
+          "fin": 490.824
+        },
+        {
+          "texto": "de",
+          "inicio": 490.871,
+          "fin": 490.929
+        },
+        {
+          "texto": "cada",
+          "inicio": 490.987,
+          "fin": 491.207
+        },
+        {
+          "texto": "lote.",
+          "inicio": 491.254,
+          "fin": 491.718
+        },
+        {
+          "texto": "Así",
+          "inicio": 492.008,
+          "fin": 492.229
+        },
+        {
+          "texto": "cada",
+          "inicio": 492.275,
+          "fin": 492.438
+        },
+        {
+          "texto": "vinagre",
+          "inicio": 492.473,
+          "fin": 492.786
+        },
+        {
+          "texto": "te",
+          "inicio": 492.833,
+          "fin": 492.902
+        },
+        {
+          "texto": "sale",
+          "inicio": 492.949,
+          "fin": 493.123
+        },
+        {
+          "texto": "mejor",
+          "inicio": 493.169,
+          "fin": 493.402
+        },
+        {
+          "texto": "que",
+          "inicio": 493.46,
+          "fin": 493.529
+        },
+        {
+          "texto": "el",
+          "inicio": 493.553,
+          "fin": 493.599
+        },
+        {
+          "texto": "anterior.",
+          "inicio": 493.657,
+          "fin": 494.226
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "texto": "Repasemos rápido.",
+      "clave": "",
+      "inicio": 494.772,
+      "fin": 495.689,
+      "palabras": [
+        {
+          "texto": "Repasemos",
+          "inicio": 494.772,
+          "fin": 495.236
+        },
+        {
+          "texto": "rápido.",
+          "inicio": 495.282,
+          "fin": 495.689
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "texto": "Pulpa fresca. Mosto entre dieciocho y veintidós Brix. Fermentación alcohólica sin aire. Trasiego y alcohol por debajo del diez por ciento. Fermentación acética con aire y paciencia. Acidez medida hasta el cinco por ciento. Y filtrar y embotellar.",
+      "clave": "",
+      "inicio": 495.979,
+      "fin": 512.5,
+      "palabras": [
+        {
+          "texto": "Pulpa",
+          "inicio": 495.979,
+          "fin": 496.293
+        },
+        {
+          "texto": "fresca.",
+          "inicio": 496.339,
+          "fin": 496.908
+        },
+        {
+          "texto": "Mosto",
+          "inicio": 497.454,
+          "fin": 497.744
+        },
+        {
+          "texto": "entre",
+          "inicio": 497.79,
+          "fin": 498.034
+        },
+        {
+          "texto": "dieciocho",
+          "inicio": 498.057,
+          "fin": 498.615
+        },
+        {
+          "texto": "y",
+          "inicio": 498.684,
+          "fin": 498.824
+        },
+        {
+          "texto": "veintidós",
+          "inicio": 498.905,
+          "fin": 499.358
+        },
+        {
+          "texto": "Brix.",
+          "inicio": 499.416,
+          "fin": 499.927
+        },
+        {
+          "texto": "Fermentación",
+          "inicio": 500.472,
+          "fin": 501.076
+        },
+        {
+          "texto": "alcohólica",
+          "inicio": 501.123,
+          "fin": 501.599
+        },
+        {
+          "texto": "sin",
+          "inicio": 501.633,
+          "fin": 501.796
+        },
+        {
+          "texto": "aire.",
+          "inicio": 501.854,
+          "fin": 502.272
+        },
+        {
+          "texto": "Trasiego",
+          "inicio": 502.818,
+          "fin": 503.328
+        },
+        {
+          "texto": "y",
+          "inicio": 503.386,
+          "fin": 503.41
+        },
+        {
+          "texto": "alcohol",
+          "inicio": 503.444,
+          "fin": 503.781
+        },
+        {
+          "texto": "por",
+          "inicio": 503.839,
+          "fin": 503.955
+        },
+        {
+          "texto": "debajo",
+          "inicio": 504.002,
+          "fin": 504.269
+        },
+        {
+          "texto": "del",
+          "inicio": 504.315,
+          "fin": 504.42
+        },
+        {
+          "texto": "diez",
+          "inicio": 504.443,
+          "fin": 504.605
+        },
+        {
+          "texto": "por",
+          "inicio": 504.664,
+          "fin": 504.803
+        },
+        {
+          "texto": "ciento.",
+          "inicio": 504.861,
+          "fin": 505.325
+        },
+        {
+          "texto": "Fermentación",
+          "inicio": 505.79,
+          "fin": 506.382
+        },
+        {
+          "texto": "acética",
+          "inicio": 506.44,
+          "fin": 506.846
+        },
+        {
+          "texto": "con",
+          "inicio": 506.904,
+          "fin": 507.055
+        },
+        {
+          "texto": "aire",
+          "inicio": 507.125,
+          "fin": 507.38
+        },
+        {
+          "texto": "y",
+          "inicio": 507.45,
+          "fin": 507.531
+        },
+        {
+          "texto": "paciencia.",
+          "inicio": 507.612,
+          "fin": 508.251
+        },
+        {
+          "texto": "Acidez",
+          "inicio": 508.541,
+          "fin": 508.959
+        },
+        {
+          "texto": "medida",
+          "inicio": 509.017,
+          "fin": 509.366
+        },
+        {
+          "texto": "hasta",
+          "inicio": 509.424,
+          "fin": 509.633
+        },
+        {
+          "texto": "el",
+          "inicio": 509.667,
+          "fin": 509.725
+        },
+        {
+          "texto": "cinco",
+          "inicio": 509.772,
+          "fin": 510.016
+        },
+        {
+          "texto": "por",
+          "inicio": 510.074,
+          "fin": 510.19
+        },
+        {
+          "texto": "ciento.",
+          "inicio": 510.236,
+          "fin": 510.712
+        },
+        {
+          "texto": "Y",
+          "inicio": 511.061,
+          "fin": 511.165
+        },
+        {
+          "texto": "filtrar",
+          "inicio": 511.235,
+          "fin": 511.676
+        },
+        {
+          "texto": "y",
+          "inicio": 511.734,
+          "fin": 511.757
+        },
+        {
+          "texto": "embotellar.",
+          "inicio": 511.792,
+          "fin": 512.5
+        }
+      ]
+    },
+    {
+      "n": 73,
+      "texto": "Eso que hoy se pudre en una esquina de tu finca puede ser tu próximo producto.",
+      "clave": "",
+      "inicio": 513.139,
+      "fin": 517.04,
+      "palabras": [
+        {
+          "texto": "Eso",
+          "inicio": 513.139,
+          "fin": 513.325
+        },
+        {
+          "texto": "que",
+          "inicio": 513.383,
+          "fin": 513.452
+        },
+        {
+          "texto": "hoy",
+          "inicio": 513.476,
+          "fin": 513.557
+        },
+        {
+          "texto": "se",
+          "inicio": 513.615,
+          "fin": 513.696
+        },
+        {
+          "texto": "pudre",
+          "inicio": 513.754,
+          "fin": 514.056
+        },
+        {
+          "texto": "en",
+          "inicio": 514.079,
+          "fin": 514.126
+        },
+        {
+          "texto": "una",
+          "inicio": 514.184,
+          "fin": 514.323
+        },
+        {
+          "texto": "esquina",
+          "inicio": 514.346,
+          "fin": 514.671
+        },
+        {
+          "texto": "de",
+          "inicio": 514.718,
+          "fin": 514.776
+        },
+        {
+          "texto": "tu",
+          "inicio": 514.822,
+          "fin": 514.892
+        },
+        {
+          "texto": "finca",
+          "inicio": 514.938,
+          "fin": 515.298
+        },
+        {
+          "texto": "puede",
+          "inicio": 515.414,
+          "fin": 515.635
+        },
+        {
+          "texto": "ser",
+          "inicio": 515.681,
+          "fin": 515.821
+        },
+        {
+          "texto": "tu",
+          "inicio": 515.879,
+          "fin": 515.972
+        },
+        {
+          "texto": "próximo",
+          "inicio": 516.03,
+          "fin": 516.448
+        },
+        {
+          "texto": "producto.",
+          "inicio": 516.494,
+          "fin": 517.04
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "texto": "Si quieres aprender más sobre los procesos de transformación del café y del cacao, revisa la descripción de este video: ahí encuentras toda la información de nuestros cursos.",
+      "clave": "",
+      "inicio": 517.678,
+      "fin": 526.99,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 517.678,
+          "fin": 517.794
+        },
+        {
+          "texto": "quieres",
+          "inicio": 517.841,
+          "fin": 518.061
+        },
+        {
+          "texto": "aprender",
+          "inicio": 518.12,
+          "fin": 518.456
+        },
+        {
+          "texto": "más",
+          "inicio": 518.514,
+          "fin": 518.688
+        },
+        {
+          "texto": "sobre",
+          "inicio": 518.712,
+          "fin": 518.944
+        },
+        {
+          "texto": "los",
+          "inicio": 518.979,
+          "fin": 519.083
+        },
+        {
+          "texto": "procesos",
+          "inicio": 519.141,
+          "fin": 519.536
+        },
+        {
+          "texto": "de",
+          "inicio": 519.571,
+          "fin": 519.617
+        },
+        {
+          "texto": "transformación",
+          "inicio": 519.664,
+          "fin": 520.325
+        },
+        {
+          "texto": "del",
+          "inicio": 520.36,
+          "fin": 520.465
+        },
+        {
+          "texto": "café",
+          "inicio": 520.511,
+          "fin": 520.813
+        },
+        {
+          "texto": "y",
+          "inicio": 520.86,
+          "fin": 520.883
+        },
+        {
+          "texto": "del",
+          "inicio": 520.941,
+          "fin": 521.045
+        },
+        {
+          "texto": "cacao,",
+          "inicio": 521.103,
+          "fin": 521.73
+        },
+        {
+          "texto": "revisa",
+          "inicio": 522.02,
+          "fin": 522.276
+        },
+        {
+          "texto": "la",
+          "inicio": 522.311,
+          "fin": 522.357
+        },
+        {
+          "texto": "descripción",
+          "inicio": 522.404,
+          "fin": 522.845
+        },
+        {
+          "texto": "de",
+          "inicio": 522.88,
+          "fin": 522.926
+        },
+        {
+          "texto": "este",
+          "inicio": 522.949,
+          "fin": 523.112
+        },
+        {
+          "texto": "video:",
+          "inicio": 523.158,
+          "fin": 523.599
+        },
+        {
+          "texto": "ahí",
+          "inicio": 524.342,
+          "fin": 524.493
+        },
+        {
+          "texto": "encuentras",
+          "inicio": 524.528,
+          "fin": 524.958
+        },
+        {
+          "texto": "toda",
+          "inicio": 525.027,
+          "fin": 525.213
+        },
+        {
+          "texto": "la",
+          "inicio": 525.26,
+          "fin": 525.306
+        },
+        {
+          "texto": "información",
+          "inicio": 525.329,
+          "fin": 525.875
+        },
+        {
+          "texto": "de",
+          "inicio": 525.91,
+          "fin": 525.968
+        },
+        {
+          "texto": "nuestros",
+          "inicio": 526.014,
+          "fin": 526.351
+        },
+        {
+          "texto": "cursos.",
+          "inicio": 526.409,
+          "fin": 526.99
+        }
+      ]
+    },
+    {
+      "n": 75,
+      "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
+      "clave": "",
+      "inicio": 527.535,
+      "fin": 531.506,
+      "palabras": [
+        {
+          "texto": "Síguenos",
+          "inicio": 527.535,
+          "fin": 527.896
+        },
+        {
+          "texto": "en",
+          "inicio": 527.896,
+          "fin": 528.257
+        },
+        {
+          "texto": "NativoTerrus",
+          "inicio": 528.257,
+          "fin": 528.6179999999999
+        },
+        {
+          "texto": "para",
+          "inicio": 528.6179999999999,
+          "fin": 528.9789999999999
+        },
+        {
+          "texto": "descubrir",
+          "inicio": 528.9789999999999,
+          "fin": 529.3399999999999
+        },
+        {
+          "texto": "la",
+          "inicio": 529.3399999999999,
+          "fin": 529.701
+        },
+        {
+          "texto": "ciencia",
+          "inicio": 529.701,
+          "fin": 530.062
+        },
+        {
+          "texto": "detrás",
+          "inicio": 530.062,
+          "fin": 530.423
+        },
+        {
+          "texto": "de",
+          "inicio": 530.423,
+          "fin": 530.784
+        },
+        {
+          "texto": "los",
+          "inicio": 530.784,
+          "fin": 531.145
+        },
+        {
+          "texto": "alimentos.",
+          "inicio": 531.145,
+          "fin": 531.506
+        }
+      ]
+    }
+  ]
+}
