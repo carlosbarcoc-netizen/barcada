@@ -30,3 +30,21 @@ Un gramo por kilo: como una pizca de sal en un paquete de arroz de un kilo.
 
 ## El video en una frase
 La dosis exacta = kilos × límite × factor de la sal; nunca a ojo.
+
+## Imágenes (Pexels, licencia libre: https://www.pexels.com/license/)
+
+- https://www.pexels.com/photo/4963713/
+- https://www.pexels.com/photo/5078582/
+- https://www.pexels.com/photo/5964491/
+- https://www.pexels.com/photo/6588491/
+- https://www.pexels.com/photo/7110136/
+- https://www.pexels.com/photo/8230033/
+- https://www.pexels.com/photo/8282240/
+- https://www.pexels.com/photo/8325703/
+- https://www.pexels.com/photo/8392533/
+- https://www.pexels.com/photo/8450351/
+- https://www.pexels.com/photo/8539753/
+- https://www.pexels.com/photo/8896839/
+- https://www.pexels.com/photo/10165683/
+- https://www.pexels.com/photo/12625114/
+- https://www.pexels.com/photo/16115339/

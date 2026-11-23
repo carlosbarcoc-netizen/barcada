@@ -64,149 +64,134 @@
       "tomas": [
         {
           "desde": 0,
-          "imagen": "close-up of a hand sprinkling white powder carelessly from a spoon into a pot of bubbling red strawberry jam, steam rising",
-          "archivo": "imagenes/hf-01.png",
+          "imagen": "Pexels 6588491",
+          "archivo": "imagenes/pexels-6588491.jpg",
           "movimiento": "acercar",
           "rotulo": "¿Sorbato a *OJO*?"
         },
         {
           "desde": "2:te",
-          "imagen": "a digital kitchen scale with a small glass bowl of white granules, a notebook with pencil and a calculator beside jars of red jam on a steel counter",
-          "archivo": "imagenes/hf-02.png",
+          "imagen": "Pexels 5964491",
+          "archivo": "imagenes/pexels-5964491.jpg",
           "movimiento": "alejar",
           "rotulo": "La cuenta *exacta* en 4 pasos"
         },
         {
           "desde": "3:paso",
-          "imagen": "rows of glass jars filled with red strawberry jam on a stainless steel lab bench, a clipboard beside them",
-          "archivo": "imagenes/hf-03.png",
+          "imagen": "Pexels 16115339",
+          "archivo": "imagenes/pexels-16115339.jpg",
           "movimiento": "derecha",
           "rotulo": "1 · El límite: *1000 mg/kg*"
         },
         {
           "desde": "4:o",
-          "imagen": "macro shot of a tiny pile of white granules on a precision scale tray, a one-kilogram glass jar of jam blurred behind",
-          "archivo": "imagenes/hf-04.png",
+          "imagen": "Pexels 5078582",
+          "archivo": "imagenes/pexels-5078582.jpg",
           "movimiento": "acercar",
           "rotulo": "= *1 gramo* por kilo"
         },
         {
           "desde": "5:paso",
-          "imagen": "a large stainless steel pot full of finished red jam sitting on a platform scale in a small workshop",
-          "archivo": "imagenes/hf-05.png",
+          "imagen": "Pexels 8450351",
+          "archivo": "imagenes/pexels-8450351.jpg",
           "movimiento": "alejar",
           "rotulo": "2 · Pesa la tanda terminada"
         },
         {
           "desde": "5:diez",
-          "imagen": "a large stainless steel pot full of finished red jam sitting on a platform scale in a small workshop",
-          "archivo": "imagenes/hf-05.png",
+          "imagen": "Pexels 8450351",
+          "archivo": "imagenes/pexels-8450351.jpg",
           "movimiento": "acercar",
           "rotulo": "10 kg → *10 g*"
         },
         {
           "desde": "6:pero",
-          "imagen": "extreme close-up of white potassium sorbate granules in a small glass dish, dramatic dark low-key light",
-          "archivo": "imagenes/hf-06.png",
+          "imagen": "Pexels 7110136",
+          "archivo": "imagenes/pexels-7110136.jpg",
           "movimiento": "acercar",
           "rotulo": "*¡La trampa!*"
         },
         {
           "desde": "7:ese",
-          "imagen": "split composition, left: fine pure white crystalline powder in a glass dish, right: off-white granules in an identical glass dish, side by side on dark steel",
-          "archivo": "imagenes/hf-07.png",
+          "imagen": "Pexels 12625114",
+          "archivo": "imagenes/pexels-12625114.jpg",
           "movimiento": "izquierda",
           "rotulo": "Ácido sórbico ≠ sorbato de potasio"
         },
         {
           "desde": "7:que",
-          "imagen": "split composition, left: fine pure white crystalline powder in a glass dish, right: off-white granules in an identical glass dish, side by side on dark steel",
-          "archivo": "imagenes/hf-07.png",
+          "imagen": "Pexels 8282240",
+          "archivo": "imagenes/pexels-8282240.jpg",
           "movimiento": "derecha",
           "rotulo": "El sorbato trae solo *75 %* de ácido"
         },
         {
           "desde": "8:paso",
-          "imagen": "a gloved hand weighing white granules with a small spoon on a precision digital scale next to a pot of jam",
-          "archivo": "imagenes/hf-08.png",
+          "imagen": "Pexels 5964491",
+          "archivo": "imagenes/pexels-5964491.jpg",
           "movimiento": "acercar",
           "rotulo": "3 · × 1,34 = *13,4 g*"
         },
         {
           "desde": "8:usas",
-          "imagen": "a gloved hand weighing white granules with a small spoon on a precision digital scale next to a pot of jam",
-          "archivo": "imagenes/hf-08.png",
+          "imagen": "Pexels 5078582",
+          "archivo": "imagenes/pexels-5078582.jpg",
           "movimiento": "alejar",
           "rotulo": "¿Benzoato de sodio? *× 1,18*"
         },
         {
           "desde": "9:disuelvelo",
-          "imagen": "white granules dissolving in a small glass beaker of water being stirred with a glass rod, swirls visible",
-          "archivo": "imagenes/hf-09.png",
+          "imagen": "Pexels 8392533",
+          "archivo": "imagenes/pexels-8392533.jpg",
           "movimiento": "acercar",
           "rotulo": "Disuélvelo en *agua*"
         },
         {
           "desde": "10:paso",
-          "imagen": "a pH meter probe dipped into a glass beaker of red fruit jam on a lab bench",
-          "archivo": "imagenes/hf-10.png",
+          "imagen": "Pexels 8325703",
+          "archivo": "imagenes/pexels-8325703.jpg",
           "movimiento": "acercar",
           "rotulo": "4 · Mide el *pH*"
         },
         {
           "desde": "10:a",
-          "imagen": "a pH meter probe dipped into a glass beaker of red fruit jam on a lab bench",
-          "archivo": "imagenes/hf-10.png",
+          "imagen": "Pexels 8539753",
+          "archivo": "imagenes/pexels-8539753.jpg",
           "movimiento": "izquierda",
           "rotulo": "pH 4 → *86 %* activo · pH 5 → 37 %"
         },
         {
           "desde": "11:y",
-          "imagen": "bowls and transparent containers of bright orange mango and passion fruit pulp on a steel counter",
-          "archivo": "imagenes/hf-11.png",
+          "imagen": "Pexels 8230033",
+          "archivo": "imagenes/pexels-8230033.jpg",
           "movimiento": "derecha",
           "rotulo": "¿Y en *pulpas*? Misma cuenta"
         },
         {
           "desde": "11:solo",
-          "imagen": "bowls and transparent containers of bright orange mango and passion fruit pulp on a steel counter",
-          "archivo": "imagenes/hf-11.png",
+          "imagen": "Pexels 8896839",
+          "archivo": "imagenes/pexels-8896839.jpg",
           "movimiento": "acercar",
           "rotulo": "Revisa el límite de *tu país*"
         },
         {
           "desde": "12:kilos",
-          "imagen": "many sealed glass jars of red jam in neat rows on wooden shelves, glowing golden light, satisfying finished batch",
-          "archivo": "imagenes/hf-12.png",
+          "imagen": "Pexels 10165683",
+          "archivo": "imagenes/pexels-10165683.jpg",
           "movimiento": "alejar",
           "rotulo": "Kilos × límite × *factor*"
         },
         {
           "desde": "13:siguenos",
-          "imagen": "a digital kitchen scale with a small glass bowl of white granules, a notebook with pencil and a calculator beside jars of red jam on a steel counter",
-          "archivo": "imagenes/hf-02.png",
+          "imagen": "Pexels 4963713",
+          "archivo": "imagenes/pexels-4963713.jpg",
           "movimiento": "acercar",
-          "rotulo": "Síguenos en *NativoTerrus*",
-          "fuerza": 0.08
+          "rotulo": "Síguenos en *NativoTerrus*"
         }
       ]
     }
   ],
   "formato": "horizontal",
   "calidad": "normal",
-  "sujeto": "small artisanal fruit preserves workshop, stainless steel counters, glass jars, warm natural window light",
-  "imagenes": {
-    "1": "close-up of a hand sprinkling white powder carelessly from a spoon into a pot of bubbling red strawberry jam, steam rising. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "2": "a digital kitchen scale with a small glass bowl of white granules, a notebook with pencil and a calculator beside jars of red jam on a steel counter. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "3": "rows of glass jars filled with red strawberry jam on a stainless steel lab bench, a clipboard beside them. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "4": "macro shot of a tiny pile of white granules on a precision scale tray, a one-kilogram glass jar of jam blurred behind. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "5": "a large stainless steel pot full of finished red jam sitting on a platform scale in a small workshop. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "6": "extreme close-up of white potassium sorbate granules in a small glass dish, dramatic dark low-key light. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "7": "split composition, left: fine pure white crystalline powder in a glass dish, right: off-white granules in an identical glass dish, side by side on dark steel. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "8": "a gloved hand weighing white granules with a small spoon on a precision digital scale next to a pot of jam. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "9": "white granules dissolving in a small glass beaker of water being stirred with a glass rod, swirls visible. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "10": "a pH meter probe dipped into a glass beaker of red fruit jam on a lab bench. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "11": "bowls and transparent containers of bright orange mango and passion fruit pulp on a steel counter. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark",
-    "12": "many sealed glass jars of red jam in neat rows on wooden shelves, glowing golden light, satisfying finished batch. cinematic food documentary still, hyperrealistic, warm golden key light, shallow depth of field, rich textures, horizontal 16:9 widescreen composition, main subject centered, no text, no labels, no logos, no watermark"
-  }
+  "sujeto": "small artisanal fruit preserves workshop, stainless steel counters, glass jars, warm natural window light"
 }
