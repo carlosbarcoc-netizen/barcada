@@ -1,0 +1,100 @@
+{
+  "titulo": "Vinagre de pulpa en 4 pasos",
+  "estilo": "2d",
+  "frases": [
+    {
+      "texto": "¿Botas la pulpa de tu café? Estás botando vinagre.",
+      "clave": "vinagre"
+    },
+    {
+      "texto": "Casi la mitad de cada cereza es pulpa. Y trae azúcar.",
+      "clave": "mitad"
+    },
+    {
+      "texto": "Con cuatro pasos la vuelves vinagre de verdad.",
+      "clave": "cuatro"
+    },
+    {
+      "texto": "Uno: el mosto. Pulpa fresca con agua y, si hace falta, panela, hasta unos diez grados Brix.",
+      "clave": "mosto"
+    },
+    {
+      "texto": "Dos: el alcohol. Levadura, frasco cerrado, y en unos diez días el azúcar ya es alcohol.",
+      "clave": "alcohol"
+    },
+    {
+      "texto": "Tres: el vinagre. Ahora destapas: frasco ancho, una tela encima y un chorro de vinagre vivo.",
+      "clave": "destapas"
+    },
+    {
+      "texto": "Las bacterias acéticas necesitan aire para volver ese alcohol ácido.",
+      "clave": "aire"
+    },
+    {
+      "texto": "Pero ojo: si tapas el frasco en esta fase, ¡se ahogan!",
+      "clave": "ahogan"
+    },
+    {
+      "texto": "Cuatro: la acidez. Mides hasta pasar el cinco por ciento, lo que pide el Codex.",
+      "clave": "acidez"
+    },
+    {
+      "texto": "¿Y si lo dejas abierto cuando ya está listo? Las bacterias se comen tu propio vinagre.",
+      "clave": "comen"
+    },
+    {
+      "texto": "Así que filtras, tapas, y la pulpa que botabas ya es un producto que se vende.",
+      "clave": "vende"
+    },
+    {
+      "texto": "Aprende a hacerlo en nuestros cursos: el enlace está en la bio.",
+      "clave": "cursos"
+    },
+    {
+      "texto": "Síguenos en NativoTerrus para descubrir la ciencia detrás de los alimentos.",
+      "clave": "NativoTerrus"
+    }
+  ],
+  "juego": {
+    "piel": "neon",
+    "progreso": {
+      "titulo": "TU VINAGRE",
+      "pasos": [
+        {
+          "texto": "MOSTO",
+          "en": "4:mosto"
+        },
+        {
+          "texto": "ALCOHOL",
+          "en": "5:alcohol"
+        },
+        {
+          "texto": "VINAGRE",
+          "en": "6:destapas"
+        },
+        {
+          "texto": "ACIDEZ",
+          "en": "9:acidez"
+        }
+      ],
+      "final": {
+        "texto": "LISTO",
+        "en": "11:vende"
+      }
+    }
+  },
+  "escenas": [
+    {
+      "nombre": "partida",
+      "tomas": [
+        {
+          "desde": 0,
+          "titulo": "",
+          "dibujo": {
+            "elementos": []
+          }
+        }
+      ]
+    }
+  ]
+}
