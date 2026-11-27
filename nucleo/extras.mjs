@@ -1,7 +1,7 @@
 // Lo demás: revisar la instalación, crear un proyecto, los efectos de sonido propios y la portada.
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, ffmpeg, guardarJSON, hay, hayClave, leerJSON, sinTildes } from "./comun.mjs";
+import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, ffmpeg, formatoDe, guardarJSON, hay, hayClave, horizontal, leerJSON, sinTildes, usarFormato } from "./comun.mjs";
 import { ESTILOS, hacerImagenes, proveedor } from "./imagenes.mjs";
 import { lineaDeTiempo } from "./montaje.mjs";
 
@@ -24,7 +24,9 @@ export async function revisar() {
 }
 
 // ---------------------------------------------------------------- nuevo proyecto
-export function nuevo(idea, { estilo = "documental", nombre, piel = null } = {}) {
+export function nuevo(idea, { estilo = "documental", nombre, piel = null, formato = "9:16" } = {}) {
+  formato = usarFormato(formato);
+  if (piel && formato === "16:9") throw new Error("El modo juego por ahora es solo vertical. Para 16:9: --formato 16:9 --estilo 2d");
   const hoy = new Date().toISOString().slice(0, 10);
   const slug = nombre || sinTildes(idea.split(/\s+/).slice(0, 5).join("-").replace(/\s+/g, "-")).slice(0, 40) || "video";
   const dir = join(RAIZ, "proyectos", `${hoy}-${slug}`);
@@ -33,12 +35,12 @@ export function nuevo(idea, { estilo = "documental", nombre, piel = null } = {})
   // modo juego (Barcada 2.0): una piel (neon, voxel, arcade) con su barra de progreso, títulos y mundo
   if (piel && !["neon", "voxel", "arcade"].includes(piel)) throw new Error(`No hay piel «${piel}». Hay: neon, voxel, arcade`);
   guardarJSON(join(dir, "proyecto.json"), piel ? {
-    titulo: idea, estilo: "2d",
+    titulo: idea, estilo: "2d", formato,
     frases: [{ texto: "", clave: "" }],
     juego: { piel, progreso: { titulo: "", etiqueta: "", pasos: [{ texto: "", en: "" }] }, ...(piel === "arcade" ? { tiempo: true } : {}) },
     escenas: [{ nombre: "partida", tomas: [{ desde: 0, titulo: "", dibujo: { elementos: [] } }] }],
   } : {
-    titulo: idea, estilo, calidad: "normal",
+    titulo: idea, estilo, formato, calidad: "normal",
     sujeto: "",
     frases: [{ texto: "", clave: "" }],
     escenas: [{ nombre: "gancho", tomas: [{ desde: 0, imagen: "", movimiento: "acercar", rotulo: "" }] }],
@@ -83,6 +85,7 @@ export async function crearSonidos({ rehacer = false } = {}) {
 // Una imagen de una toma, con el título enorme arriba: *palabra* en el color de acento, sobre un degradado oscuro.
 export async function portada(dir, titulo, { toma = 1, acento, etiqueta } = {}) {
   const p = leerJSON(join(dir, "proyecto.json")), pref = existsSync(join(RAIZ, "preferencias.json")) ? leerJSON(join(RAIZ, "preferencias.json")) : {};
+  formatoDe(p);
   const imgs = await hacerImagenes(dir);
   // una toma 2D: su cuadro, casi al final de la toma (con todo ya en escena)
   if (!imgs[toma - 1]) {
@@ -95,14 +98,20 @@ export async function portada(dir, titulo, { toma = 1, acento, etiqueta } = {}) 
     await foto({ preparar: cu.preparar, cuadro: () => cu(t.fin - 0.25) }, imgs[toma - 1]);
     await cerrarNavegador();
   }
-  // la imagen de fondo, a 1080 × 1920, con más color
+  // la imagen de fondo, al tamaño del formato, con más color
   const tmp = asegurar(join(dir, ".montaje")), fondoJpg = join(tmp, "portada-fondo.jpg");
   const est = ESTILOS[p.estilo] || ESTILOS.documental;
   await ffmpeg([...(/\.(mp4|mov|webm)$/i.test(imgs[toma - 1]) ? ["-ss", "1"] : []), "-i", imgs[toma - 1], "-vf",
     `scale=${ANCHO}:${ALTO}:force_original_aspect_ratio=increase,crop=${ANCHO}:${ALTO},${est.color === "null" ? "null" : est.color},eq=saturation=1.3:contrast=1.08`, "-frames:v", "1", "-q:v", "2", fondoJpg]);
   const out = join(asegurar(join(dir, "entrega")), "portada.jpg");
   const { foto, cerrarNavegador } = await import("./2d/dibujante.mjs");
-  await foto(svgPortada(titulo, `data:image/jpeg;base64,${readFileSync(fondoJpg).toString("base64")}`, { acento: acento || pref.acento, etiqueta }), out);
+  const svg = (horizontal() ? svgPortadaH : svgPortada)(titulo, `data:image/jpeg;base64,${readFileSync(fondoJpg).toString("base64")}`, { acento: acento || pref.acento, etiqueta });
+  if (horizontal()) {
+    // la miniatura de YouTube: 1280 × 720 (se dibuja a 1920 × 1080 y se reduce; pesa mucho menos de 2 MB)
+    const grande = join(tmp, "portada-grande.jpg");
+    await foto(svg, grande);
+    await ffmpeg(["-i", grande, "-vf", "scale=1280:720:flags=lanczos", "-q:v", "2", out]);
+  } else await foto(svg, out);
   await cerrarNavegador();
   console.log(`✓ ${out}`);
   return out;
@@ -144,6 +153,42 @@ export function svgPortada(titulo, fondo, { acento = "#FFD23F", franja = "#FF2E6
       <radialGradient id="halo" cx="0.5" cy="0.47" r="0.45"><stop offset="0" stop-color="${franja}" stop-opacity="0.45"/><stop offset="1" stop-color="${franja}" stop-opacity="0"/></radialGradient></defs>
     <image href="${fondo}" x="-40" y="-40" width="1160" height="2000" preserveAspectRatio="xMidYMid slice" style="filter:blur(5px) saturate(1.2)"/>
     <rect width="1080" height="1920" fill="url(#foco)"/><rect width="1080" height="1920" fill="url(#halo)"/>
+    ${filas}${sello}`;
+}
+
+// La miniatura horizontal (16:9, YouTube): la escena corrida a la derecha, viva (a la izquierda, su copia
+// desenfocada); el título a la izquierda, enorme, en 2-3 líneas, sobre una sombra que deja leerlo incluso pequeño. Misma lógica de colores que la vertical.
+export function svgPortadaH(titulo, fondo, { acento = "#FFD23F", franja = "#FF2E63", etiqueta = null } = {}) {
+  const lineas = titulo.split("|").map((l) => l.trim()).filter(Boolean);
+  const ancho = 820, cx = 480, info = lineas.map((l) => {
+    const clave = /\*[^*]+\*/.test(l), limpio = l.replace(/\*/g, "").toUpperCase();
+    const base = clave ? 230 : 150, tam = Math.min(base, ancho / Math.max(1, limpio.length * 0.5));
+    return { l, clave, limpio, tam };
+  });
+  const alto = info.reduce((a, x) => a + x.tam * 1.08, 0) + (etiqueta ? 150 : 0);
+  let y = 540 - alto / 2;
+  const filas = info.map((x) => {
+    y += x.tam * 0.98;
+    const sw = (x.tam * 0.085).toFixed(1);
+    const partes = x.l.split(/(\*[^*]+\*)/).filter(Boolean).map((seg) => `<tspan ${seg.startsWith("*") ? 'fill="url(#vivo)"' : 'fill="#ffffff"'}>${ESC(seg.replace(/\*/g, "").toUpperCase())}</tspan>`).join("");
+    const w = Math.min(ancho, x.limpio.length * x.tam * 0.5) + 70;
+    const gira = `transform="rotate(-3 ${cx} ${y - x.tam * 0.35})"`;
+    const fila = `${x.clave ? `<rect x="${cx - w / 2}" y="${y - x.tam * 0.88}" width="${w}" height="${x.tam * 1.06}" rx="${x.tam * 0.16}" fill="${franja}" stroke="#160b06" stroke-width="10" ${gira} style="filter:drop-shadow(0 14px 0 #160b06)"/>` : ""}
+      <text x="${cx}" y="${y}" text-anchor="middle" font-family="Anton" font-size="${x.tam.toFixed(0)}" stroke="#160b06" stroke-width="${sw}" paint-order="stroke" stroke-linejoin="round" letter-spacing="2"
+        ${x.limpio.length * x.tam * 0.5 > ancho ? `textLength="${ancho}" lengthAdjust="spacingAndGlyphs"` : ""} style="filter:drop-shadow(0 10px 0 #160b06)" ${x.clave ? gira : ""}>${partes}</text>`;
+    y += x.tam * 0.1;
+    return fila;
+  }).join("");
+  const we = Math.min(860, etiqueta ? etiqueta.length * 33 + 110 : 0);
+  const sello = etiqueta ? `<g transform="translate(${cx} ${y + 100}) rotate(3)"><rect x="${-we / 2}" y="-48" width="${we}" height="96" rx="48" fill="${acento}" stroke="#160b06" stroke-width="8" style="filter:drop-shadow(0 8px 0 #160b06)"/>
+    <text y="20" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="54" fill="#160b06">${ESC(etiqueta.toUpperCase())}</text></g>` : "";
+  return `<defs><linearGradient id="vivo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF36B"/><stop offset="0.55" stop-color="${acento}"/><stop offset="1" stop-color="#FF8A00"/></linearGradient>
+      <linearGradient id="fundeIzq" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.18" stop-color="#fff" stop-opacity="1"/></linearGradient><mask id="entra"><rect x="380" width="1920" height="1080" fill="url(#fundeIzq)"/></mask>
+      <linearGradient id="sombraIzq" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.72"/><stop offset="0.4" stop-color="#000" stop-opacity="0.4"/><stop offset="0.6" stop-color="#000" stop-opacity="0"/></linearGradient>
+      <radialGradient id="halo" cx="0.3" cy="0.5" r="0.4"><stop offset="0" stop-color="${franja}" stop-opacity="0.4"/><stop offset="1" stop-color="${franja}" stop-opacity="0"/></radialGradient></defs>
+    <image href="${fondo}" x="-60" y="-60" width="2040" height="1200" preserveAspectRatio="xMidYMid slice" style="filter:blur(18px) saturate(1.2) brightness(0.8)"/>
+    <image href="${fondo}" x="380" y="0" width="1920" height="1080" mask="url(#entra)" preserveAspectRatio="xMidYMid slice" style="filter:saturate(1.25) contrast(1.08)"/>
+    <rect width="1920" height="1080" fill="url(#sombraIzq)"/><rect width="1920" height="1080" fill="url(#halo)"/>
     ${filas}${sello}`;
 }
 

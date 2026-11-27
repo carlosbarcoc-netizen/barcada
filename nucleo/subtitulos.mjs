@@ -3,8 +3,10 @@
 //   arriba; cada palabra entra al decirse con un rebote y en amarillo, luego queda blanca; las que faltan son
 //   invisibles pero guardan su sitio (el texto nunca salta) y la palabra clave de la frase queda amarilla.
 // - Rótulos: el texto grande de cada toma (rotulo), abajo, en una banda oscura, con *palabras* en amarillo.
+// - En 16:9 (YouTube) cambian de sitio: los subtítulos van en el tercio de abajo (más pequeños y con grupos más
+//   largos, porque cabe más a lo ancho) y los rótulos arriba.
 import { writeFileSync } from "node:fs";
-import { ALTO, ANCHO, sinTildes } from "./comun.mjs";
+import { ALTO, ANCHO, horizontal, sinTildes } from "./comun.mjs";
 
 const hexASS = (hex, alfa = 0) => { const h = hex.replace("#", ""); return `&H${alfa.toString(16).padStart(2, "0").toUpperCase()}${h.slice(4, 6)}${h.slice(2, 4)}${h.slice(0, 2)}`.toUpperCase(); };
 const tiempo = (t) => { t = Math.max(0, t); const h = Math.floor(t / 3600), m = Math.floor((t % 3600) / 60), s = t % 60; return `${h}:${String(m).padStart(2, "0")}:${s.toFixed(2).padStart(5, "0")}`; };
@@ -24,7 +26,12 @@ function grupos(palabras, max = 4, maxLetras = 20) {
 }
 
 export function escribirASS(archivo, tiempos, tomas, { acento = "#FFD23F", subtitulos = true } = {}) {
-  const AMA = hexASS(acento), BLA = "&H00FFFFFF";
+  const AMA = hexASS(acento), BLA = "&H00FFFFFF", H = horizontal();
+  // Alignment: 8 = arriba al centro, 2 = abajo al centro
+  const sub = H ? `Nunito Black,66,${BLA},${BLA},&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,7,3,2,160,160,96,1`
+    : `Nunito Black,84,${BLA},${BLA},&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,9,4,8,80,80,330,1`;
+  const rot = H ? `Nunito Black,54,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,20,0,8,160,160,70,1`
+    : `Nunito Black,60,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,24,0,2,80,80,520,1`;
   const cab = `[Script Info]
 ScriptType: v4.00+
 PlayResX: ${ANCHO}
@@ -34,8 +41,8 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Nunito Black,84,${BLA},${BLA},&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,9,4,8,80,80,330,1
-Style: Rotulo,Nunito Black,60,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,24,0,2,80,80,520,1
+Style: Sub,${sub}
+Style: Rotulo,${rot}
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -43,7 +50,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
   const ev = [];
   if (subtitulos) for (const f of tiempos.frases) {
     const clave = sinTildes(f.clave);
-    for (const g of grupos(f.palabras)) {
+    for (const g of H ? grupos(f.palabras, 6, 34) : grupos(f.palabras)) {
       const finGrupo = g.at(-1).fin + 0.25;
       g.forEach((w, i) => {
         const t0 = w.inicio - 0.05, t1 = i < g.length - 1 ? g[i + 1].inicio - 0.05 : Math.min(finGrupo, nextStart(tiempos, w));

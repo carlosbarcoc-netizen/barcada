@@ -6,7 +6,24 @@ import { fileURLToPath } from "node:url";
 
 export const RAIZ = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 export const FUENTES = join(RAIZ, "fuentes");
-export const ANCHO = 1080, ALTO = 1920, FPS = 30;
+export const FPS = 30;
+
+// ---------------------------------------------------------------- formato del cuadro
+// «9:16» (reels, shorts, TikTok: 1080 × 1920, lo de siempre) o «16:9» (YouTube: 1920 × 1080). ANCHO y ALTO cambian
+// con usarFormato() al abrir un proyecto; quien los importa ve siempre el valor del momento (enlace vivo de ES).
+export const FORMATOS = { "9:16": [1080, 1920], "16:9": [1920, 1080] };
+export let ANCHO = 1080, ALTO = 1920, FORMATO = "9:16";
+export function usarFormato(f = "9:16") {
+  f = String(f || "9:16").replace(/\s/g, "");
+  if (/^(horizontal|youtube|16x9)$/i.test(f)) f = "16:9";
+  if (/^(vertical|reel|short|9x16)$/i.test(f)) f = "9:16";
+  if (!FORMATOS[f]) throw new Error(`No hay formato «${f}». Hay: ${Object.keys(FORMATOS).join(", ")}`);
+  [ANCHO, ALTO] = FORMATOS[f]; FORMATO = f;
+  return f;
+}
+export const horizontal = () => ANCHO > ALTO;
+// El formato de un proyecto (proyecto.json → formato; si no dice nada, vertical).
+export const formatoDe = (p) => usarFormato(p?.formato || "9:16");
 
 // ---------------------------------------------------------------- claves
 // Las claves viven en claves.env (KEY=valor por línea). Nunca se imprimen.

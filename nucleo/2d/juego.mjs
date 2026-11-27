@@ -21,7 +21,7 @@
 // Y en cada toma: "titulo": "Un ordenador que|*NUNCA* se apaga" (| = otra línea; *x* resaltado; !x! en rojo),
 // "tituloEn": [0, "2:agente"] (cuándo entra cada línea), "subtitulo": "cada uno con su nombre", "alerta": true
 // (pantalla roja + sacudida), "sacude": true.
-import { sinTildes } from "../comun.mjs";
+import { horizontal, sinTildes } from "../comun.mjs";
 
 export const esc = (t) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const lim = (u, a = 0, b = 1) => Math.max(a, Math.min(b, u ?? 0));
@@ -128,6 +128,7 @@ export const FONDOS_VIVOS = new Set(["neon", "bloques", "arcade", "arcade-sala",
 // Convierte la configuración (con palabras de la voz) en tiempos y devuelve las capas que van encima de cada cuadro.
 // cuando(ref) → segundos. tomas: la línea de tiempo (con inicio y fin). pref: preferencias.json.
 export function prepararJuego(p, tiempos, tomas, cuando, pref = {}) {
+  if (horizontal()) throw new Error("El modo juego (neón, bloques, arcade) por ahora es solo vertical (9:16). En 16:9 usa el estilo 2D (sin «juego» en proyecto.json).");
   const J = p.juego || {}, N = J.piel && PIELES[J.piel] ? J.piel : "neon", P = { ...piel(N), ...(J.acento ? { acento: J.acento } : {}) };
   const T = (ref) => (typeof ref === "number" ? ref : cuando(ref));
   const prog = J.progreso ? {

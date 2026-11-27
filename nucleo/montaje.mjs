@@ -2,7 +2,7 @@
 // color, grano, subtítulos, rótulos, voz, efectos y música.
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, enParalelo, ffmpeg, leerJSON, sinTildes } from "./comun.mjs";
+import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, enParalelo, ffmpeg, formatoDe, horizontal, leerJSON, sinTildes } from "./comun.mjs";
 import { ESTILOS, hacerImagenes } from "./imagenes.mjs";
 import { escribirASS } from "./subtitulos.mjs";
 
@@ -64,6 +64,7 @@ function sonido(nombre) {
 
 export async function montar(dir, { borrador = false, hasta = null, salida, fps } = {}) {
   const p = leerJSON(join(dir, "proyecto.json"));
+  formatoDe(p);                                     // 9:16 (por defecto) o 16:9: el tamaño de todo lo que sigue
   const tiempos = leerJSON(join(dir, "voz", "tiempos.json"));
   const pref = existsSync(join(RAIZ, "preferencias.json")) ? leerJSON(join(RAIZ, "preferencias.json")) : {};
   const FPSv = fps || (borrador ? 24 : 30);
@@ -85,7 +86,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
       const { crearCuadro } = await import("./2d/escena.mjs"), { grabar } = await import("./2d/dibujante.mjs");
       await grabar(crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref), juego), t.inicio, t.inicio + frames / FPSv, FPSv, join(tmp, `clip-${t.n}.mp4`), { escala: borrador ? 0.5 : 1, crf: borrador ? 26 : 16 });
     } else if (/\.(mp4|mov|webm)$/i.test(src)) {
-      // un clip de video: se encuadra en vertical, se repite si es corto y, si se pide, va más lento (lenta: 0,5 = mitad)
+      // un clip de video: se encuadra al formato del proyecto, se repite si es corto y, si se pide, va más lento (lenta: 0,5 = mitad)
       const lento = t.lenta ? `setpts=PTS/${t.lenta},` : "";
       await ffmpeg(["-stream_loop", "-1", "-ss", String(t.desdeClip || 0), "-i", src,
         "-vf", `${lento}scale=${ANCHO}:${ALTO}:force_original_aspect_ratio=increase,crop=${ANCHO}:${ALTO},fps=${FPSv},setsar=1`, ...salidaClip]);
@@ -152,8 +153,9 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
 // antes de montar: cambiar una imagen aquí es barato; en el video, caro.
 export async function hojaDeTomas(dir) {
   const p = leerJSON(join(dir, "proyecto.json")), tiempos = leerJSON(join(dir, "voz", "tiempos.json"));
+  formatoDe(p);
   const imgs = await hacerImagenes(dir), tomas = lineaDeTiempo(p, tiempos), juego = await contextoJuego(p, tiempos, tomas);
-  const tmp = asegurar(join(dir, ".montaje")), cols = Math.min(5, tomas.length), filas = Math.ceil(tomas.length / cols);
+  const tmp = asegurar(join(dir, ".montaje")), cols = Math.min(horizontal() ? 4 : 5, tomas.length), filas = Math.ceil(tomas.length / cols);
   // las tomas 2D: su cuadro del medio, como imagen
   for (const t of tomas.filter((x) => x.dibujo)) {
     const { crearCuadro } = await import("./2d/escena.mjs"), { foto } = await import("./2d/dibujante.mjs");
@@ -164,7 +166,7 @@ export async function hojaDeTomas(dir) {
   }
   if (tomas.some((t) => t.dibujo)) await (await import("./2d/dibujante.mjs")).cerrarNavegador();
   await enParalelo(tomas, 4, (t) => ffmpeg([...(/\.(mp4|mov|webm)$/i.test(imgs[t.n - 1]) ? ["-ss", "0.8"] : []), "-i", imgs[t.n - 1], "-vf",
-    `scale=360:640:force_original_aspect_ratio=increase,crop=360:640,drawbox=y=0:w=iw:h=86:color=black@0.6:t=fill,drawtext=fontfile=${join(FUENTES, "Poppins-ExtraBold.ttf")}:text='${t.n}  ${t.inicio.toFixed(1)}s${/\.(mp4|mov|webm)$/i.test(imgs[t.n - 1]) ? "  VIDEO" : ""}':fontcolor=0xFFD23F:fontsize=40:x=18:y=22`,
+    `${horizontal() ? "scale=640:360:force_original_aspect_ratio=increase,crop=640:360" : "scale=360:640:force_original_aspect_ratio=increase,crop=360:640"},drawbox=y=0:w=iw:h=${horizontal() ? 56 : 86}:color=black@0.6:t=fill,drawtext=fontfile=${join(FUENTES, "Poppins-ExtraBold.ttf")}:text='${t.n}  ${t.inicio.toFixed(1)}s${/\.(mp4|mov|webm)$/i.test(imgs[t.n - 1]) ? "  VIDEO" : ""}':fontcolor=0xFFD23F:fontsize=${horizontal() ? 30 : 40}:x=18:y=${horizontal() ? 14 : 22}`,
     "-frames:v", "1", join(tmp, `mini-${String(t.n).padStart(2, "0")}.png`)]));
   const out = join(asegurar(join(dir, "revisar")), "tomas.jpg");
   await ffmpeg(["-framerate", "1", "-i", join(tmp, "mini-%02d.png"), "-vf", `tile=${cols}x${filas}:padding=8:color=0x111111`, "-frames:v", "1", "-q:v", "3", out]);
