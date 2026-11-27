@@ -3,7 +3,7 @@
 Estado del proyecto (modo largo: se aprueba el guion y el video final).
 
 - [x] 1. Investigación → notas.md
-- [ ] 2. Guion aprobado (por capítulos)
+- [x] 2. Guion aprobado (por capítulos) · sin subtítulos ni rótulos (el usuario sacará clips)
 - [ ] 3. Voz
 - [ ] 4. Tomas (las reviso yo: revisar/tomas.jpg)
 - [ ] 5. Final, portada y descripción entregados

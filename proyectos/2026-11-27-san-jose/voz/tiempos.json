@@ -1,0 +1,8428 @@
+{
+  "huella": "820729d92ece",
+  "duracion": 594.761122,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "En toda la Biblia, San José no dice ni una sola palabra.",
+      "clave": "palabra",
+      "inicio": 0,
+      "fin": 3.344,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 0,
+          "fin": 0.128
+        },
+        {
+          "texto": "toda",
+          "inicio": 0.174,
+          "fin": 0.383
+        },
+        {
+          "texto": "la",
+          "inicio": 0.43,
+          "fin": 0.499
+        },
+        {
+          "texto": "Biblia,",
+          "inicio": 0.557,
+          "fin": 1.068
+        },
+        {
+          "texto": "San",
+          "inicio": 1.219,
+          "fin": 1.405
+        },
+        {
+          "texto": "José",
+          "inicio": 1.44,
+          "fin": 1.672
+        },
+        {
+          "texto": "no",
+          "inicio": 1.73,
+          "fin": 1.811
+        },
+        {
+          "texto": "dice",
+          "inicio": 1.858,
+          "fin": 2.043
+        },
+        {
+          "texto": "ni",
+          "inicio": 2.101,
+          "fin": 2.183
+        },
+        {
+          "texto": "una",
+          "inicio": 2.241,
+          "fin": 2.392
+        },
+        {
+          "texto": "sola",
+          "inicio": 2.438,
+          "fin": 2.67
+        },
+        {
+          "texto": "palabra.",
+          "inicio": 2.74,
+          "fin": 3.344
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Ni una. Los Evangelios no guardan ninguna frase suya.",
+      "clave": "frase",
+      "inicio": 3.947,
+      "fin": 8.127,
+      "palabras": [
+        {
+          "texto": "Ni",
+          "inicio": 3.947,
+          "fin": 4.122
+        },
+        {
+          "texto": "una.",
+          "inicio": 4.18,
+          "fin": 4.563
+        },
+        {
+          "texto": "Los",
+          "inicio": 5.259,
+          "fin": 5.41
+        },
+        {
+          "texto": "Evangelios",
+          "inicio": 5.468,
+          "fin": 6.084
+        },
+        {
+          "texto": "no",
+          "inicio": 6.258,
+          "fin": 6.397
+        },
+        {
+          "texto": "guardan",
+          "inicio": 6.455,
+          "fin": 6.792
+        },
+        {
+          "texto": "ninguna",
+          "inicio": 6.827,
+          "fin": 7.187
+        },
+        {
+          "texto": "frase",
+          "inicio": 7.245,
+          "fin": 7.535
+        },
+        {
+          "texto": "suya.",
+          "inicio": 7.593,
+          "fin": 8.127
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Y aun así, Dios le confió lo más valioso que tenía: a su Hijo y a su Madre.",
+      "clave": "confió",
+      "inicio": 8.824,
+      "fin": 14.524,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 8.824,
+          "fin": 8.882
+        },
+        {
+          "texto": "aun",
+          "inicio": 8.94,
+          "fin": 9.056
+        },
+        {
+          "texto": "así,",
+          "inicio": 9.102,
+          "fin": 9.601
+        },
+        {
+          "texto": "Dios",
+          "inicio": 9.81,
+          "fin": 10.043
+        },
+        {
+          "texto": "le",
+          "inicio": 10.089,
+          "fin": 10.147
+        },
+        {
+          "texto": "confió",
+          "inicio": 10.194,
+          "fin": 10.553
+        },
+        {
+          "texto": "lo",
+          "inicio": 10.6,
+          "fin": 10.681
+        },
+        {
+          "texto": "más",
+          "inicio": 10.739,
+          "fin": 10.89
+        },
+        {
+          "texto": "valioso",
+          "inicio": 10.937,
+          "fin": 11.331
+        },
+        {
+          "texto": "que",
+          "inicio": 11.389,
+          "fin": 11.459
+        },
+        {
+          "texto": "tenía:",
+          "inicio": 11.517,
+          "fin": 12.063
+        },
+        {
+          "texto": "a",
+          "inicio": 12.666,
+          "fin": 12.725
+        },
+        {
+          "texto": "su",
+          "inicio": 12.794,
+          "fin": 12.934
+        },
+        {
+          "texto": "Hijo",
+          "inicio": 12.98,
+          "fin": 13.317
+        },
+        {
+          "texto": "y",
+          "inicio": 13.642,
+          "fin": 13.723
+        },
+        {
+          "texto": "a",
+          "inicio": 13.781,
+          "fin": 13.804
+        },
+        {
+          "texto": "su",
+          "inicio": 13.851,
+          "fin": 13.967
+        },
+        {
+          "texto": "Madre.",
+          "inicio": 14.025,
+          "fin": 14.524
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "¿Cómo puede ser tan importante el hombre más callado de la historia?",
+      "clave": "callado",
+      "inicio": 15.035,
+      "fin": 18.599,
+      "palabras": [
+        {
+          "texto": "¿Cómo",
+          "inicio": 15.035,
+          "fin": 15.395
+        },
+        {
+          "texto": "puede",
+          "inicio": 15.43,
+          "fin": 15.65
+        },
+        {
+          "texto": "ser",
+          "inicio": 15.697,
+          "fin": 15.836
+        },
+        {
+          "texto": "tan",
+          "inicio": 15.894,
+          "fin": 16.01
+        },
+        {
+          "texto": "importante",
+          "inicio": 16.068,
+          "fin": 16.718
+        },
+        {
+          "texto": "el",
+          "inicio": 16.742,
+          "fin": 16.811
+        },
+        {
+          "texto": "hombre",
+          "inicio": 16.858,
+          "fin": 17.09
+        },
+        {
+          "texto": "más",
+          "inicio": 17.136,
+          "fin": 17.311
+        },
+        {
+          "texto": "callado",
+          "inicio": 17.369,
+          "fin": 17.729
+        },
+        {
+          "texto": "de",
+          "inicio": 17.787,
+          "fin": 17.856
+        },
+        {
+          "texto": "la",
+          "inicio": 17.903,
+          "fin": 17.949
+        },
+        {
+          "texto": "historia?",
+          "inicio": 17.972,
+          "fin": 18.599
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "Quédate conmigo, porque hoy te cuento la vida de San José, el padre que Dios eligió para Jesús en la tierra.",
+      "clave": "José",
+      "inicio": 19.203,
+      "fin": 25.809,
+      "palabras": [
+        {
+          "texto": "Quédate",
+          "inicio": 19.203,
+          "fin": 19.551
+        },
+        {
+          "texto": "conmigo,",
+          "inicio": 19.598,
+          "fin": 20.236
+        },
+        {
+          "texto": "porque",
+          "inicio": 20.41,
+          "fin": 20.701
+        },
+        {
+          "texto": "hoy",
+          "inicio": 20.724,
+          "fin": 20.817
+        },
+        {
+          "texto": "te",
+          "inicio": 20.875,
+          "fin": 20.945
+        },
+        {
+          "texto": "cuento",
+          "inicio": 20.991,
+          "fin": 21.328
+        },
+        {
+          "texto": "la",
+          "inicio": 21.397,
+          "fin": 21.467
+        },
+        {
+          "texto": "vida",
+          "inicio": 21.525,
+          "fin": 21.746
+        },
+        {
+          "texto": "de",
+          "inicio": 21.792,
+          "fin": 21.862
+        },
+        {
+          "texto": "San",
+          "inicio": 21.908,
+          "fin": 22.059
+        },
+        {
+          "texto": "José,",
+          "inicio": 22.106,
+          "fin": 22.663
+        },
+        {
+          "texto": "el",
+          "inicio": 23.104,
+          "fin": 23.255
+        },
+        {
+          "texto": "padre",
+          "inicio": 23.336,
+          "fin": 23.65
+        },
+        {
+          "texto": "que",
+          "inicio": 23.696,
+          "fin": 23.789
+        },
+        {
+          "texto": "Dios",
+          "inicio": 23.835,
+          "fin": 24.091
+        },
+        {
+          "texto": "eligió",
+          "inicio": 24.16,
+          "fin": 24.462
+        },
+        {
+          "texto": "para",
+          "inicio": 24.52,
+          "fin": 24.683
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 24.729,
+          "fin": 25.043
+        },
+        {
+          "texto": "en",
+          "inicio": 25.089,
+          "fin": 25.147
+        },
+        {
+          "texto": "la",
+          "inicio": 25.194,
+          "fin": 25.252
+        },
+        {
+          "texto": "tierra.",
+          "inicio": 25.31,
+          "fin": 25.809
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Lo que dice la Biblia, y también lo que cuenta la tradición, cada cosa en su lugar.",
+      "clave": "tradición",
+      "inicio": 26.413,
+      "fin": 31.161,
+      "palabras": [
+        {
+          "texto": "Lo",
+          "inicio": 26.413,
+          "fin": 26.529
+        },
+        {
+          "texto": "que",
+          "inicio": 26.575,
+          "fin": 26.645
+        },
+        {
+          "texto": "dice",
+          "inicio": 26.691,
+          "fin": 26.877
+        },
+        {
+          "texto": "la",
+          "inicio": 26.924,
+          "fin": 26.993
+        },
+        {
+          "texto": "Biblia,",
+          "inicio": 27.04,
+          "fin": 27.632
+        },
+        {
+          "texto": "y",
+          "inicio": 27.841,
+          "fin": 27.91
+        },
+        {
+          "texto": "también",
+          "inicio": 27.98,
+          "fin": 28.201
+        },
+        {
+          "texto": "lo",
+          "inicio": 28.236,
+          "fin": 28.305
+        },
+        {
+          "texto": "que",
+          "inicio": 28.34,
+          "fin": 28.41
+        },
+        {
+          "texto": "cuenta",
+          "inicio": 28.456,
+          "fin": 28.712
+        },
+        {
+          "texto": "la",
+          "inicio": 28.758,
+          "fin": 28.816
+        },
+        {
+          "texto": "tradición,",
+          "inicio": 28.863,
+          "fin": 29.582
+        },
+        {
+          "texto": "cada",
+          "inicio": 29.907,
+          "fin": 30.151
+        },
+        {
+          "texto": "cosa",
+          "inicio": 30.209,
+          "fin": 30.418
+        },
+        {
+          "texto": "en",
+          "inicio": 30.441,
+          "fin": 30.488
+        },
+        {
+          "texto": "su",
+          "inicio": 30.534,
+          "fin": 30.627
+        },
+        {
+          "texto": "lugar.",
+          "inicio": 30.674,
+          "fin": 31.161
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "José vivía en Nazaret, un pueblito pequeño de Galilea, al norte de Israel.",
+      "clave": "Nazaret",
+      "inicio": 31.765,
+      "fin": 36.606,
+      "palabras": [
+        {
+          "texto": "José",
+          "inicio": 31.765,
+          "fin": 32.055
+        },
+        {
+          "texto": "vivía",
+          "inicio": 32.113,
+          "fin": 32.369
+        },
+        {
+          "texto": "en",
+          "inicio": 32.392,
+          "fin": 32.438
+        },
+        {
+          "texto": "Nazaret,",
+          "inicio": 32.461,
+          "fin": 33.216
+        },
+        {
+          "texto": "un",
+          "inicio": 33.425,
+          "fin": 33.518
+        },
+        {
+          "texto": "pueblito",
+          "inicio": 33.564,
+          "fin": 33.947
+        },
+        {
+          "texto": "pequeño",
+          "inicio": 34.006,
+          "fin": 34.435
+        },
+        {
+          "texto": "de",
+          "inicio": 34.482,
+          "fin": 34.54
+        },
+        {
+          "texto": "Galilea,",
+          "inicio": 34.586,
+          "fin": 35.259
+        },
+        {
+          "texto": "al",
+          "inicio": 35.387,
+          "fin": 35.515
+        },
+        {
+          "texto": "norte",
+          "inicio": 35.584,
+          "fin": 35.852
+        },
+        {
+          "texto": "de",
+          "inicio": 35.898,
+          "fin": 35.968
+        },
+        {
+          "texto": "Israel.",
+          "inicio": 35.991,
+          "fin": 36.606
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "Pero su familia tenía raíces muy profundas.",
+      "clave": "raíces",
+      "inicio": 36.931,
+      "fin": 39.509,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 36.931,
+          "fin": 37.105
+        },
+        {
+          "texto": "su",
+          "inicio": 37.129,
+          "fin": 37.21
+        },
+        {
+          "texto": "familia",
+          "inicio": 37.256,
+          "fin": 37.593
+        },
+        {
+          "texto": "tenía",
+          "inicio": 37.639,
+          "fin": 37.953
+        },
+        {
+          "texto": "raíces",
+          "inicio": 38.046,
+          "fin": 38.406
+        },
+        {
+          "texto": "muy",
+          "inicio": 38.475,
+          "fin": 38.673
+        },
+        {
+          "texto": "profundas.",
+          "inicio": 38.731,
+          "fin": 39.509
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Los Evangelios de Mateo y de Lucas dicen que era descendiente del rey David.",
+      "clave": "David",
+      "inicio": 40.112,
+      "fin": 44.617,
+      "palabras": [
+        {
+          "texto": "Los",
+          "inicio": 40.112,
+          "fin": 40.275
+        },
+        {
+          "texto": "Evangelios",
+          "inicio": 40.333,
+          "fin": 40.786
+        },
+        {
+          "texto": "de",
+          "inicio": 40.809,
+          "fin": 40.855
+        },
+        {
+          "texto": "Mateo",
+          "inicio": 40.902,
+          "fin": 41.32
+        },
+        {
+          "texto": "y",
+          "inicio": 41.355,
+          "fin": 41.389
+        },
+        {
+          "texto": "de",
+          "inicio": 41.448,
+          "fin": 41.506
+        },
+        {
+          "texto": "Lucas",
+          "inicio": 41.552,
+          "fin": 42.005
+        },
+        {
+          "texto": "dicen",
+          "inicio": 42.446,
+          "fin": 42.725
+        },
+        {
+          "texto": "que",
+          "inicio": 42.783,
+          "fin": 42.864
+        },
+        {
+          "texto": "era",
+          "inicio": 42.887,
+          "fin": 43.003
+        },
+        {
+          "texto": "descendiente",
+          "inicio": 43.05,
+          "fin": 43.653
+        },
+        {
+          "texto": "del",
+          "inicio": 43.7,
+          "fin": 43.816
+        },
+        {
+          "texto": "rey",
+          "inicio": 43.897,
+          "fin": 44.037
+        },
+        {
+          "texto": "David.",
+          "inicio": 44.083,
+          "fin": 44.617
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Imagínate: sangre de reyes, pero sin palacio, sin corona y sin riquezas.",
+      "clave": "corona",
+      "inicio": 45.128,
+      "fin": 51.595,
+      "palabras": [
+        {
+          "texto": "Imagínate:",
+          "inicio": 45.128,
+          "fin": 46.01
+        },
+        {
+          "texto": "sangre",
+          "inicio": 46.614,
+          "fin": 47.02
+        },
+        {
+          "texto": "de",
+          "inicio": 47.067,
+          "fin": 47.136
+        },
+        {
+          "texto": "reyes,",
+          "inicio": 47.218,
+          "fin": 47.833
+        },
+        {
+          "texto": "pero",
+          "inicio": 48.158,
+          "fin": 48.367
+        },
+        {
+          "texto": "sin",
+          "inicio": 48.413,
+          "fin": 48.553
+        },
+        {
+          "texto": "palacio,",
+          "inicio": 48.611,
+          "fin": 49.331
+        },
+        {
+          "texto": "sin",
+          "inicio": 49.656,
+          "fin": 49.876
+        },
+        {
+          "texto": "corona",
+          "inicio": 49.934,
+          "fin": 50.352
+        },
+        {
+          "texto": "y",
+          "inicio": 50.422,
+          "fin": 50.468
+        },
+        {
+          "texto": "sin",
+          "inicio": 50.538,
+          "fin": 50.712
+        },
+        {
+          "texto": "riquezas.",
+          "inicio": 50.794,
+          "fin": 51.595
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "José se ganaba la vida con sus manos.",
+      "clave": "manos",
+      "inicio": 52.105,
+      "fin": 54.544,
+      "palabras": [
+        {
+          "texto": "José",
+          "inicio": 52.105,
+          "fin": 52.454
+        },
+        {
+          "texto": "se",
+          "inicio": 52.512,
+          "fin": 52.605
+        },
+        {
+          "texto": "ganaba",
+          "inicio": 52.651,
+          "fin": 52.999
+        },
+        {
+          "texto": "la",
+          "inicio": 53.046,
+          "fin": 53.116
+        },
+        {
+          "texto": "vida",
+          "inicio": 53.174,
+          "fin": 53.406
+        },
+        {
+          "texto": "con",
+          "inicio": 53.452,
+          "fin": 53.603
+        },
+        {
+          "texto": "sus",
+          "inicio": 53.661,
+          "fin": 53.859
+        },
+        {
+          "texto": "manos.",
+          "inicio": 53.94,
+          "fin": 54.544
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "En el Evangelio de Mateo, a Jesús lo llaman «el hijo del carpintero».",
+      "clave": "carpintero",
+      "inicio": 55.24,
+      "fin": 59.815,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 55.24,
+          "fin": 55.379
+        },
+        {
+          "texto": "el",
+          "inicio": 55.426,
+          "fin": 55.484
+        },
+        {
+          "texto": "Evangelio",
+          "inicio": 55.53,
+          "fin": 55.948
+        },
+        {
+          "texto": "de",
+          "inicio": 55.983,
+          "fin": 56.041
+        },
+        {
+          "texto": "Mateo,",
+          "inicio": 56.088,
+          "fin": 56.691
+        },
+        {
+          "texto": "a",
+          "inicio": 57.017,
+          "fin": 57.086
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 57.133,
+          "fin": 57.423
+        },
+        {
+          "texto": "lo",
+          "inicio": 57.481,
+          "fin": 57.562
+        },
+        {
+          "texto": "llaman",
+          "inicio": 57.585,
+          "fin": 57.934
+        },
+        {
+          "texto": "«el",
+          "inicio": 57.992,
+          "fin": 58.294
+        },
+        {
+          "texto": "hijo",
+          "inicio": 58.34,
+          "fin": 58.572
+        },
+        {
+          "texto": "del",
+          "inicio": 58.63,
+          "fin": 58.758
+        },
+        {
+          "texto": "carpintero».",
+          "inicio": 58.828,
+          "fin": 59.815
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "La palabra griega es «tékton»: un artesano que trabajaba la madera, y quizás también la piedra.",
+      "clave": "tékton",
+      "inicio": 60.627,
+      "fin": 67.21,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 60.627,
+          "fin": 60.743
+        },
+        {
+          "texto": "palabra",
+          "inicio": 60.79,
+          "fin": 61.126
+        },
+        {
+          "texto": "griega",
+          "inicio": 61.173,
+          "fin": 61.51
+        },
+        {
+          "texto": "es",
+          "inicio": 61.591,
+          "fin": 61.8
+        },
+        {
+          "texto": "«tékton»:",
+          "inicio": 61.916,
+          "fin": 62.949
+        },
+        {
+          "texto": "un",
+          "inicio": 63.274,
+          "fin": 63.39
+        },
+        {
+          "texto": "artesano",
+          "inicio": 63.437,
+          "fin": 63.924
+        },
+        {
+          "texto": "que",
+          "inicio": 63.971,
+          "fin": 64.041
+        },
+        {
+          "texto": "trabajaba",
+          "inicio": 64.087,
+          "fin": 64.551
+        },
+        {
+          "texto": "la",
+          "inicio": 64.598,
+          "fin": 64.656
+        },
+        {
+          "texto": "madera,",
+          "inicio": 64.702,
+          "fin": 65.318
+        },
+        {
+          "texto": "y",
+          "inicio": 65.596,
+          "fin": 65.678
+        },
+        {
+          "texto": "quizás",
+          "inicio": 65.759,
+          "fin": 66.037
+        },
+        {
+          "texto": "también",
+          "inicio": 66.095,
+          "fin": 66.42
+        },
+        {
+          "texto": "la",
+          "inicio": 66.478,
+          "fin": 66.548
+        },
+        {
+          "texto": "piedra.",
+          "inicio": 66.606,
+          "fin": 67.21
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "texto": "Puertas, mesas, arados, vigas para los techos… así se ganaba el pan de su casa.",
+      "clave": "pan",
+      "inicio": 67.72,
+      "fin": 73.583,
+      "palabras": [
+        {
+          "texto": "Puertas,",
+          "inicio": 67.72,
+          "fin": 68.463
+        },
+        {
+          "texto": "mesas,",
+          "inicio": 68.522,
+          "fin": 69.009
+        },
+        {
+          "texto": "arados,",
+          "inicio": 69.032,
+          "fin": 69.578
+        },
+        {
+          "texto": "vigas",
+          "inicio": 69.613,
+          "fin": 69.961
+        },
+        {
+          "texto": "para",
+          "inicio": 70.019,
+          "fin": 70.182
+        },
+        {
+          "texto": "los",
+          "inicio": 70.228,
+          "fin": 70.356
+        },
+        {
+          "texto": "techos…",
+          "inicio": 70.414,
+          "fin": 71.076
+        },
+        {
+          "texto": "así",
+          "inicio": 71.772,
+          "fin": 72.016
+        },
+        {
+          "texto": "se",
+          "inicio": 72.063,
+          "fin": 72.144
+        },
+        {
+          "texto": "ganaba",
+          "inicio": 72.179,
+          "fin": 72.504
+        },
+        {
+          "texto": "el",
+          "inicio": 72.527,
+          "fin": 72.585
+        },
+        {
+          "texto": "pan",
+          "inicio": 72.655,
+          "fin": 72.782
+        },
+        {
+          "texto": "de",
+          "inicio": 72.829,
+          "fin": 72.887
+        },
+        {
+          "texto": "su",
+          "inicio": 72.922,
+          "fin": 73.038
+        },
+        {
+          "texto": "casa.",
+          "inicio": 73.096,
+          "fin": 73.583
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "texto": "¿Y era un anciano, como lo pintan tantas veces?",
+      "clave": "anciano",
+      "inicio": 74.187,
+      "fin": 77.763,
+      "palabras": [
+        {
+          "texto": "¿Y",
+          "inicio": 74.187,
+          "fin": 74.431
+        },
+        {
+          "texto": "era",
+          "inicio": 74.489,
+          "fin": 74.582
+        },
+        {
+          "texto": "un",
+          "inicio": 74.605,
+          "fin": 74.675
+        },
+        {
+          "texto": "anciano,",
+          "inicio": 74.733,
+          "fin": 75.557
+        },
+        {
+          "texto": "como",
+          "inicio": 76.161,
+          "fin": 76.37
+        },
+        {
+          "texto": "lo",
+          "inicio": 76.405,
+          "fin": 76.474
+        },
+        {
+          "texto": "pintan",
+          "inicio": 76.509,
+          "fin": 76.811
+        },
+        {
+          "texto": "tantas",
+          "inicio": 76.869,
+          "fin": 77.171
+        },
+        {
+          "texto": "veces?",
+          "inicio": 77.217,
+          "fin": 77.763
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "texto": "Ojo con esto: la Biblia no dice su edad.",
+      "clave": "edad",
+      "inicio": 78.878,
+      "fin": 82.233,
+      "palabras": [
+        {
+          "texto": "Ojo",
+          "inicio": 78.878,
+          "fin": 79.11
+        },
+        {
+          "texto": "con",
+          "inicio": 79.156,
+          "fin": 79.284
+        },
+        {
+          "texto": "esto:",
+          "inicio": 79.354,
+          "fin": 79.795
+        },
+        {
+          "texto": "la",
+          "inicio": 80.747,
+          "fin": 80.816
+        },
+        {
+          "texto": "Biblia",
+          "inicio": 80.863,
+          "fin": 81.107
+        },
+        {
+          "texto": "no",
+          "inicio": 81.165,
+          "fin": 81.246
+        },
+        {
+          "texto": "dice",
+          "inicio": 81.293,
+          "fin": 81.513
+        },
+        {
+          "texto": "su",
+          "inicio": 81.56,
+          "fin": 81.652
+        },
+        {
+          "texto": "edad.",
+          "inicio": 81.687,
+          "fin": 82.233
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "texto": "La idea del José viejito viene de un escrito antiguo que no está en la Biblia: el Protoevangelio de Santiago.",
+      "clave": "Protoevangelio",
+      "inicio": 83.046,
+      "fin": 89.512,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 83.046,
+          "fin": 83.15
+        },
+        {
+          "texto": "idea",
+          "inicio": 83.173,
+          "fin": 83.347
+        },
+        {
+          "texto": "del",
+          "inicio": 83.371,
+          "fin": 83.487
+        },
+        {
+          "texto": "José",
+          "inicio": 83.533,
+          "fin": 83.742
+        },
+        {
+          "texto": "viejito",
+          "inicio": 83.789,
+          "fin": 84.16
+        },
+        {
+          "texto": "viene",
+          "inicio": 84.218,
+          "fin": 84.45
+        },
+        {
+          "texto": "de",
+          "inicio": 84.497,
+          "fin": 84.555
+        },
+        {
+          "texto": "un",
+          "inicio": 84.601,
+          "fin": 84.671
+        },
+        {
+          "texto": "escrito",
+          "inicio": 84.717,
+          "fin": 85.077
+        },
+        {
+          "texto": "antiguo",
+          "inicio": 85.112,
+          "fin": 85.669
+        },
+        {
+          "texto": "que",
+          "inicio": 85.913,
+          "fin": 86.018
+        },
+        {
+          "texto": "no",
+          "inicio": 86.087,
+          "fin": 86.157
+        },
+        {
+          "texto": "está",
+          "inicio": 86.192,
+          "fin": 86.354
+        },
+        {
+          "texto": "en",
+          "inicio": 86.389,
+          "fin": 86.436
+        },
+        {
+          "texto": "la",
+          "inicio": 86.482,
+          "fin": 86.54
+        },
+        {
+          "texto": "Biblia:",
+          "inicio": 86.586,
+          "fin": 87.121
+        },
+        {
+          "texto": "el",
+          "inicio": 87.504,
+          "fin": 87.655
+        },
+        {
+          "texto": "Protoevangelio",
+          "inicio": 87.747,
+          "fin": 88.688
+        },
+        {
+          "texto": "de",
+          "inicio": 88.723,
+          "fin": 88.781
+        },
+        {
+          "texto": "Santiago.",
+          "inicio": 88.827,
+          "fin": 89.512
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "texto": "Ese escrito cuenta que el sacerdote reunió a varios hombres, cada uno con su bastón.",
+      "clave": "bastón",
+      "inicio": 90.325,
+      "fin": 95.468,
+      "palabras": [
+        {
+          "texto": "Ese",
+          "inicio": 90.325,
+          "fin": 90.557
+        },
+        {
+          "texto": "escrito",
+          "inicio": 90.58,
+          "fin": 90.987
+        },
+        {
+          "texto": "cuenta",
+          "inicio": 91.045,
+          "fin": 91.509
+        },
+        {
+          "texto": "que",
+          "inicio": 91.683,
+          "fin": 91.799
+        },
+        {
+          "texto": "el",
+          "inicio": 91.834,
+          "fin": 91.892
+        },
+        {
+          "texto": "sacerdote",
+          "inicio": 91.95,
+          "fin": 92.426
+        },
+        {
+          "texto": "reunió",
+          "inicio": 92.484,
+          "fin": 92.833
+        },
+        {
+          "texto": "a",
+          "inicio": 92.879,
+          "fin": 92.902
+        },
+        {
+          "texto": "varios",
+          "inicio": 92.949,
+          "fin": 93.251
+        },
+        {
+          "texto": "hombres,",
+          "inicio": 93.309,
+          "fin": 93.901
+        },
+        {
+          "texto": "cada",
+          "inicio": 94.075,
+          "fin": 94.295
+        },
+        {
+          "texto": "uno",
+          "inicio": 94.354,
+          "fin": 94.493
+        },
+        {
+          "texto": "con",
+          "inicio": 94.539,
+          "fin": 94.667
+        },
+        {
+          "texto": "su",
+          "inicio": 94.713,
+          "fin": 94.806
+        },
+        {
+          "texto": "bastón.",
+          "inicio": 94.853,
+          "fin": 95.468
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "texto": "Y que del bastón de José salió una paloma, como señal de que él cuidaría a María.",
+      "clave": "paloma",
+      "inicio": 96.165,
+      "fin": 102.597,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 96.165,
+          "fin": 96.281
+        },
+        {
+          "texto": "que",
+          "inicio": 96.374,
+          "fin": 96.455
+        },
+        {
+          "texto": "del",
+          "inicio": 96.513,
+          "fin": 96.629
+        },
+        {
+          "texto": "bastón",
+          "inicio": 96.687,
+          "fin": 97.024
+        },
+        {
+          "texto": "de",
+          "inicio": 97.059,
+          "fin": 97.117
+        },
+        {
+          "texto": "José",
+          "inicio": 97.163,
+          "fin": 97.546
+        },
+        {
+          "texto": "salió",
+          "inicio": 97.662,
+          "fin": 98.046
+        },
+        {
+          "texto": "una",
+          "inicio": 98.115,
+          "fin": 98.278
+        },
+        {
+          "texto": "paloma,",
+          "inicio": 98.336,
+          "fin": 98.986
+        },
+        {
+          "texto": "como",
+          "inicio": 99.59,
+          "fin": 99.799
+        },
+        {
+          "texto": "señal",
+          "inicio": 99.845,
+          "fin": 100.17
+        },
+        {
+          "texto": "de",
+          "inicio": 100.228,
+          "fin": 100.298
+        },
+        {
+          "texto": "que",
+          "inicio": 100.379,
+          "fin": 100.553
+        },
+        {
+          "texto": "él",
+          "inicio": 100.669,
+          "fin": 100.96
+        },
+        {
+          "texto": "cuidaría",
+          "inicio": 101.285,
+          "fin": 101.877
+        },
+        {
+          "texto": "a",
+          "inicio": 101.97,
+          "fin": 102.028
+        },
+        {
+          "texto": "María.",
+          "inicio": 102.098,
+          "fin": 102.597
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "texto": "Otros relatos dicen que su vara floreció. Por eso lo ves pintado con una vara de lirios.",
+      "clave": "lirios",
+      "inicio": 103.41,
+      "fin": 109.517,
+      "palabras": [
+        {
+          "texto": "Otros",
+          "inicio": 103.41,
+          "fin": 103.77
+        },
+        {
+          "texto": "relatos",
+          "inicio": 103.862,
+          "fin": 104.42
+        },
+        {
+          "texto": "dicen",
+          "inicio": 104.745,
+          "fin": 105.082
+        },
+        {
+          "texto": "que",
+          "inicio": 105.128,
+          "fin": 105.209
+        },
+        {
+          "texto": "su",
+          "inicio": 105.256,
+          "fin": 105.349
+        },
+        {
+          "texto": "vara",
+          "inicio": 105.407,
+          "fin": 105.708
+        },
+        {
+          "texto": "floreció.",
+          "inicio": 105.825,
+          "fin": 106.637
+        },
+        {
+          "texto": "Por",
+          "inicio": 106.916,
+          "fin": 107.09
+        },
+        {
+          "texto": "eso",
+          "inicio": 107.137,
+          "fin": 107.276
+        },
+        {
+          "texto": "lo",
+          "inicio": 107.322,
+          "fin": 107.392
+        },
+        {
+          "texto": "ves",
+          "inicio": 107.438,
+          "fin": 107.554
+        },
+        {
+          "texto": "pintado",
+          "inicio": 107.613,
+          "fin": 108.1
+        },
+        {
+          "texto": "con",
+          "inicio": 108.158,
+          "fin": 108.263
+        },
+        {
+          "texto": "una",
+          "inicio": 108.321,
+          "fin": 108.46
+        },
+        {
+          "texto": "vara",
+          "inicio": 108.506,
+          "fin": 108.692
+        },
+        {
+          "texto": "de",
+          "inicio": 108.739,
+          "fin": 108.808
+        },
+        {
+          "texto": "lirios.",
+          "inicio": 108.866,
+          "fin": 109.517
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "texto": "Es una leyenda bonita, pero es tradición, no Evangelio.",
+      "clave": "leyenda",
+      "inicio": 110.12,
+      "fin": 113.835,
+      "palabras": [
+        {
+          "texto": "Es",
+          "inicio": 110.12,
+          "fin": 110.248
+        },
+        {
+          "texto": "una",
+          "inicio": 110.318,
+          "fin": 110.445
+        },
+        {
+          "texto": "leyenda",
+          "inicio": 110.492,
+          "fin": 110.77
+        },
+        {
+          "texto": "bonita,",
+          "inicio": 110.828,
+          "fin": 111.479
+        },
+        {
+          "texto": "pero",
+          "inicio": 111.757,
+          "fin": 112.024
+        },
+        {
+          "texto": "es",
+          "inicio": 112.082,
+          "fin": 112.187
+        },
+        {
+          "texto": "tradición,",
+          "inicio": 112.268,
+          "fin": 112.907
+        },
+        {
+          "texto": "no",
+          "inicio": 112.941,
+          "fin": 113.034
+        },
+        {
+          "texto": "Evangelio.",
+          "inicio": 113.081,
+          "fin": 113.835
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "texto": "Lo que sí sabemos es que José estaba comprometido con una joven de Nazaret llamada María.",
+      "clave": "María",
+      "inicio": 114.439,
+      "fin": 119.85,
+      "palabras": [
+        {
+          "texto": "Lo",
+          "inicio": 114.439,
+          "fin": 114.555
+        },
+        {
+          "texto": "que",
+          "inicio": 114.59,
+          "fin": 114.66
+        },
+        {
+          "texto": "sí",
+          "inicio": 114.706,
+          "fin": 114.799
+        },
+        {
+          "texto": "sabemos",
+          "inicio": 114.846,
+          "fin": 115.217
+        },
+        {
+          "texto": "es",
+          "inicio": 115.287,
+          "fin": 115.356
+        },
+        {
+          "texto": "que",
+          "inicio": 115.403,
+          "fin": 115.472
+        },
+        {
+          "texto": "José",
+          "inicio": 115.542,
+          "fin": 115.972
+        },
+        {
+          "texto": "estaba",
+          "inicio": 116.065,
+          "fin": 116.436
+        },
+        {
+          "texto": "comprometido",
+          "inicio": 116.483,
+          "fin": 117.144
+        },
+        {
+          "texto": "con",
+          "inicio": 117.202,
+          "fin": 117.318
+        },
+        {
+          "texto": "una",
+          "inicio": 117.388,
+          "fin": 117.539
+        },
+        {
+          "texto": "joven",
+          "inicio": 117.597,
+          "fin": 117.899
+        },
+        {
+          "texto": "de",
+          "inicio": 117.946,
+          "fin": 118.004
+        },
+        {
+          "texto": "Nazaret",
+          "inicio": 118.062,
+          "fin": 118.607
+        },
+        {
+          "texto": "llamada",
+          "inicio": 118.782,
+          "fin": 119.292
+        },
+        {
+          "texto": "María.",
+          "inicio": 119.351,
+          "fin": 119.85
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "texto": "En aquel tiempo, el compromiso ya era casi un matrimonio, aunque todavía no vivían juntos.",
+      "clave": "compromiso",
+      "inicio": 120.546,
+      "fin": 126.363,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 120.546,
+          "fin": 120.697
+        },
+        {
+          "texto": "aquel",
+          "inicio": 120.744,
+          "fin": 120.964
+        },
+        {
+          "texto": "tiempo,",
+          "inicio": 121.034,
+          "fin": 121.603
+        },
+        {
+          "texto": "el",
+          "inicio": 121.777,
+          "fin": 121.893
+        },
+        {
+          "texto": "compromiso",
+          "inicio": 121.963,
+          "fin": 122.497
+        },
+        {
+          "texto": "ya",
+          "inicio": 122.555,
+          "fin": 122.636
+        },
+        {
+          "texto": "era",
+          "inicio": 122.694,
+          "fin": 122.834
+        },
+        {
+          "texto": "casi",
+          "inicio": 122.903,
+          "fin": 123.159
+        },
+        {
+          "texto": "un",
+          "inicio": 123.217,
+          "fin": 123.263
+        },
+        {
+          "texto": "matrimonio,",
+          "inicio": 123.286,
+          "fin": 124.099
+        },
+        {
+          "texto": "aunque",
+          "inicio": 124.424,
+          "fin": 124.679
+        },
+        {
+          "texto": "todavía",
+          "inicio": 124.714,
+          "fin": 125.074
+        },
+        {
+          "texto": "no",
+          "inicio": 125.132,
+          "fin": 125.225
+        },
+        {
+          "texto": "vivían",
+          "inicio": 125.272,
+          "fin": 125.608
+        },
+        {
+          "texto": "juntos.",
+          "inicio": 125.655,
+          "fin": 126.363
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "texto": "Y entonces llegó la noticia: María esperaba un hijo.",
+      "clave": "hijo",
+      "inicio": 126.967,
+      "fin": 130.844,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 126.967,
+          "fin": 127.048
+        },
+        {
+          "texto": "entonces",
+          "inicio": 127.129,
+          "fin": 127.57
+        },
+        {
+          "texto": "llegó",
+          "inicio": 127.594,
+          "fin": 127.814
+        },
+        {
+          "texto": "la",
+          "inicio": 127.861,
+          "fin": 127.919
+        },
+        {
+          "texto": "noticia:",
+          "inicio": 127.965,
+          "fin": 128.615
+        },
+        {
+          "texto": "María",
+          "inicio": 129.428,
+          "fin": 129.741
+        },
+        {
+          "texto": "esperaba",
+          "inicio": 129.776,
+          "fin": 130.206
+        },
+        {
+          "texto": "un",
+          "inicio": 130.252,
+          "fin": 130.345
+        },
+        {
+          "texto": "hijo.",
+          "inicio": 130.392,
+          "fin": 130.844
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "texto": "José sabía que ese niño no era suyo. Imagínate lo que sintió.",
+      "clave": "sintió",
+      "inicio": 131.019,
+      "fin": 135.5,
+      "palabras": [
+        {
+          "texto": "José",
+          "inicio": 131.019,
+          "fin": 131.332
+        },
+        {
+          "texto": "sabía",
+          "inicio": 131.378,
+          "fin": 131.692
+        },
+        {
+          "texto": "que",
+          "inicio": 131.762,
+          "fin": 131.854
+        },
+        {
+          "texto": "ese",
+          "inicio": 131.889,
+          "fin": 132.04
+        },
+        {
+          "texto": "niño",
+          "inicio": 132.098,
+          "fin": 132.389
+        },
+        {
+          "texto": "no",
+          "inicio": 132.435,
+          "fin": 132.528
+        },
+        {
+          "texto": "era",
+          "inicio": 132.563,
+          "fin": 132.69
+        },
+        {
+          "texto": "suyo.",
+          "inicio": 132.748,
+          "fin": 133.294
+        },
+        {
+          "texto": "Imagínate",
+          "inicio": 134.107,
+          "fin": 134.699
+        },
+        {
+          "texto": "lo",
+          "inicio": 134.734,
+          "fin": 134.803
+        },
+        {
+          "texto": "que",
+          "inicio": 134.85,
+          "fin": 134.919
+        },
+        {
+          "texto": "sintió.",
+          "inicio": 134.966,
+          "fin": 135.5
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "texto": "Mateo dice algo precioso de él: que José era un hombre justo.",
+      "clave": "justo",
+      "inicio": 136.452,
+      "fin": 140.446,
+      "palabras": [
+        {
+          "texto": "Mateo",
+          "inicio": 136.452,
+          "fin": 136.823
+        },
+        {
+          "texto": "dice",
+          "inicio": 136.87,
+          "fin": 137.102
+        },
+        {
+          "texto": "algo",
+          "inicio": 137.148,
+          "fin": 137.334
+        },
+        {
+          "texto": "precioso",
+          "inicio": 137.381,
+          "fin": 137.88
+        },
+        {
+          "texto": "de",
+          "inicio": 137.926,
+          "fin": 138.019
+        },
+        {
+          "texto": "él:",
+          "inicio": 138.054,
+          "fin": 138.414
+        },
+        {
+          "texto": "que",
+          "inicio": 138.855,
+          "fin": 138.971
+        },
+        {
+          "texto": "José",
+          "inicio": 139.018,
+          "fin": 139.261
+        },
+        {
+          "texto": "era",
+          "inicio": 139.296,
+          "fin": 139.412
+        },
+        {
+          "texto": "un",
+          "inicio": 139.447,
+          "fin": 139.528
+        },
+        {
+          "texto": "hombre",
+          "inicio": 139.575,
+          "fin": 139.807
+        },
+        {
+          "texto": "justo.",
+          "inicio": 139.842,
+          "fin": 140.446
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "texto": "Podía denunciarla en público, pero no quiso exponerla a la vergüenza.",
+      "clave": "vergüenza",
+      "inicio": 140.771,
+      "fin": 144.405,
+      "palabras": [
+        {
+          "texto": "Podía",
+          "inicio": 140.771,
+          "fin": 141.119
+        },
+        {
+          "texto": "denunciarla",
+          "inicio": 141.177,
+          "fin": 141.676
+        },
+        {
+          "texto": "en",
+          "inicio": 141.699,
+          "fin": 141.746
+        },
+        {
+          "texto": "público,",
+          "inicio": 141.804,
+          "fin": 142.396
+        },
+        {
+          "texto": "pero",
+          "inicio": 142.489,
+          "fin": 142.675
+        },
+        {
+          "texto": "no",
+          "inicio": 142.721,
+          "fin": 142.791
+        },
+        {
+          "texto": "quiso",
+          "inicio": 142.837,
+          "fin": 143.023
+        },
+        {
+          "texto": "exponerla",
+          "inicio": 143.046,
+          "fin": 143.522
+        },
+        {
+          "texto": "a",
+          "inicio": 143.545,
+          "fin": 143.569
+        },
+        {
+          "texto": "la",
+          "inicio": 143.615,
+          "fin": 143.685
+        },
+        {
+          "texto": "vergüenza.",
+          "inicio": 143.731,
+          "fin": 144.405
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "texto": "Decidió separarse de ella en secreto, sin hacer ruido, para protegerla.",
+      "clave": "secreto",
+      "inicio": 145.101,
+      "fin": 150.024,
+      "palabras": [
+        {
+          "texto": "Decidió",
+          "inicio": 145.101,
+          "fin": 145.554
+        },
+        {
+          "texto": "separarse",
+          "inicio": 145.624,
+          "fin": 146.111
+        },
+        {
+          "texto": "de",
+          "inicio": 146.181,
+          "fin": 146.262
+        },
+        {
+          "texto": "ella",
+          "inicio": 146.309,
+          "fin": 146.518
+        },
+        {
+          "texto": "en",
+          "inicio": 146.576,
+          "fin": 146.634
+        },
+        {
+          "texto": "secreto,",
+          "inicio": 146.703,
+          "fin": 147.412
+        },
+        {
+          "texto": "sin",
+          "inicio": 147.69,
+          "fin": 147.876
+        },
+        {
+          "texto": "hacer",
+          "inicio": 147.922,
+          "fin": 148.131
+        },
+        {
+          "texto": "ruido,",
+          "inicio": 148.189,
+          "fin": 148.654
+        },
+        {
+          "texto": "para",
+          "inicio": 148.979,
+          "fin": 149.199
+        },
+        {
+          "texto": "protegerla.",
+          "inicio": 149.246,
+          "fin": 150.024
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "texto": "Y mientras pensaba en todo esto, se quedó dormido.",
+      "clave": "dormido",
+      "inicio": 150.72,
+      "fin": 153.553,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 150.72,
+          "fin": 150.813
+        },
+        {
+          "texto": "mientras",
+          "inicio": 150.883,
+          "fin": 151.208
+        },
+        {
+          "texto": "pensaba",
+          "inicio": 151.254,
+          "fin": 151.591
+        },
+        {
+          "texto": "en",
+          "inicio": 151.614,
+          "fin": 151.661
+        },
+        {
+          "texto": "todo",
+          "inicio": 151.707,
+          "fin": 151.905
+        },
+        {
+          "texto": "esto,",
+          "inicio": 151.963,
+          "fin": 152.357
+        },
+        {
+          "texto": "se",
+          "inicio": 152.508,
+          "fin": 152.624
+        },
+        {
+          "texto": "quedó",
+          "inicio": 152.682,
+          "fin": 152.88
+        },
+        {
+          "texto": "dormido.",
+          "inicio": 152.926,
+          "fin": 153.553
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "texto": "Aquí aparece el primero de los cuatro sueños de José.",
+      "clave": "sueños",
+      "inicio": 153.936,
+      "fin": 156.746,
+      "palabras": [
+        {
+          "texto": "Aquí",
+          "inicio": 153.936,
+          "fin": 154.203
+        },
+        {
+          "texto": "aparece",
+          "inicio": 154.238,
+          "fin": 154.598
+        },
+        {
+          "texto": "el",
+          "inicio": 154.621,
+          "fin": 154.668
+        },
+        {
+          "texto": "primero",
+          "inicio": 154.726,
+          "fin": 155.086
+        },
+        {
+          "texto": "de",
+          "inicio": 155.144,
+          "fin": 155.202
+        },
+        {
+          "texto": "los",
+          "inicio": 155.237,
+          "fin": 155.353
+        },
+        {
+          "texto": "cuatro",
+          "inicio": 155.411,
+          "fin": 155.713
+        },
+        {
+          "texto": "sueños",
+          "inicio": 155.748,
+          "fin": 156.073
+        },
+        {
+          "texto": "de",
+          "inicio": 156.096,
+          "fin": 156.154
+        },
+        {
+          "texto": "José.",
+          "inicio": 156.2,
+          "fin": 156.746
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "texto": "Un ángel del Señor le dijo: «José, hijo de David, no temas recibir a María, tu mujer».",
+      "clave": "temas",
+      "inicio": 157.35,
+      "fin": 164.292,
+      "palabras": [
+        {
+          "texto": "Un",
+          "inicio": 157.35,
+          "fin": 157.489
+        },
+        {
+          "texto": "ángel",
+          "inicio": 157.559,
+          "fin": 157.861
+        },
+        {
+          "texto": "del",
+          "inicio": 157.93,
+          "fin": 158.058
+        },
+        {
+          "texto": "Señor",
+          "inicio": 158.116,
+          "fin": 158.487
+        },
+        {
+          "texto": "le",
+          "inicio": 158.534,
+          "fin": 158.604
+        },
+        {
+          "texto": "dijo:",
+          "inicio": 158.65,
+          "fin": 159.114
+        },
+        {
+          "texto": "«José,",
+          "inicio": 159.718,
+          "fin": 160.241
+        },
+        {
+          "texto": "hijo",
+          "inicio": 160.275,
+          "fin": 160.531
+        },
+        {
+          "texto": "de",
+          "inicio": 160.577,
+          "fin": 160.647
+        },
+        {
+          "texto": "David,",
+          "inicio": 160.705,
+          "fin": 161.32
+        },
+        {
+          "texto": "no",
+          "inicio": 161.529,
+          "fin": 161.645
+        },
+        {
+          "texto": "temas",
+          "inicio": 161.703,
+          "fin": 161.97
+        },
+        {
+          "texto": "recibir",
+          "inicio": 162.063,
+          "fin": 162.481
+        },
+        {
+          "texto": "a",
+          "inicio": 162.528,
+          "fin": 162.551
+        },
+        {
+          "texto": "María,",
+          "inicio": 162.609,
+          "fin": 163.189
+        },
+        {
+          "texto": "tu",
+          "inicio": 163.515,
+          "fin": 163.631
+        },
+        {
+          "texto": "mujer».",
+          "inicio": 163.689,
+          "fin": 164.292
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "texto": "«Lo que ha concebido viene del Espíritu Santo. Dará a luz un hijo, y tú le pondrás por nombre Jesús».",
+      "clave": "Jesús",
+      "inicio": 164.989,
+      "fin": 171.804,
+      "palabras": [
+        {
+          "texto": "«Lo",
+          "inicio": 164.989,
+          "fin": 165.268
+        },
+        {
+          "texto": "que",
+          "inicio": 165.303,
+          "fin": 165.372
+        },
+        {
+          "texto": "ha",
+          "inicio": 165.395,
+          "fin": 165.442
+        },
+        {
+          "texto": "concebido",
+          "inicio": 165.488,
+          "fin": 166.046
+        },
+        {
+          "texto": "viene",
+          "inicio": 166.104,
+          "fin": 166.359
+        },
+        {
+          "texto": "del",
+          "inicio": 166.394,
+          "fin": 166.522
+        },
+        {
+          "texto": "Espíritu",
+          "inicio": 166.58,
+          "fin": 167.09
+        },
+        {
+          "texto": "Santo.",
+          "inicio": 167.148,
+          "fin": 167.694
+        },
+        {
+          "texto": "Dará",
+          "inicio": 168.297,
+          "fin": 168.623
+        },
+        {
+          "texto": "a",
+          "inicio": 168.669,
+          "fin": 168.692
+        },
+        {
+          "texto": "luz",
+          "inicio": 168.75,
+          "fin": 168.948
+        },
+        {
+          "texto": "un",
+          "inicio": 169.04,
+          "fin": 169.133
+        },
+        {
+          "texto": "hijo,",
+          "inicio": 169.18,
+          "fin": 169.633
+        },
+        {
+          "texto": "y",
+          "inicio": 169.807,
+          "fin": 169.888
+        },
+        {
+          "texto": "tú",
+          "inicio": 169.958,
+          "fin": 170.051
+        },
+        {
+          "texto": "le",
+          "inicio": 170.109,
+          "fin": 170.167
+        },
+        {
+          "texto": "pondrás",
+          "inicio": 170.213,
+          "fin": 170.561
+        },
+        {
+          "texto": "por",
+          "inicio": 170.631,
+          "fin": 170.77
+        },
+        {
+          "texto": "nombre",
+          "inicio": 170.828,
+          "fin": 171.119
+        },
+        {
+          "texto": "Jesús».",
+          "inicio": 171.153,
+          "fin": 171.804
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "texto": "¿Y qué hizo José al despertar?",
+      "clave": "despertar",
+      "inicio": 172.477,
+      "fin": 174.311,
+      "palabras": [
+        {
+          "texto": "¿Y",
+          "inicio": 172.477,
+          "fin": 172.744
+        },
+        {
+          "texto": "qué",
+          "inicio": 172.814,
+          "fin": 172.93
+        },
+        {
+          "texto": "hizo",
+          "inicio": 172.953,
+          "fin": 173.15
+        },
+        {
+          "texto": "José",
+          "inicio": 173.185,
+          "fin": 173.417
+        },
+        {
+          "texto": "al",
+          "inicio": 173.452,
+          "fin": 173.499
+        },
+        {
+          "texto": "despertar?",
+          "inicio": 173.557,
+          "fin": 174.311
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "texto": "No discutió. No pidió pruebas. No dijo nada.",
+      "clave": "nada",
+      "inicio": 174.892,
+      "fin": 178.793,
+      "palabras": [
+        {
+          "texto": "No",
+          "inicio": 174.892,
+          "fin": 175.02
+        },
+        {
+          "texto": "discutió.",
+          "inicio": 175.066,
+          "fin": 175.705
+        },
+        {
+          "texto": "No",
+          "inicio": 176.622,
+          "fin": 176.738
+        },
+        {
+          "texto": "pidió",
+          "inicio": 176.773,
+          "fin": 176.982
+        },
+        {
+          "texto": "pruebas.",
+          "inicio": 177.028,
+          "fin": 177.655
+        },
+        {
+          "texto": "No",
+          "inicio": 177.969,
+          "fin": 178.085
+        },
+        {
+          "texto": "dijo",
+          "inicio": 178.131,
+          "fin": 178.305
+        },
+        {
+          "texto": "nada.",
+          "inicio": 178.363,
+          "fin": 178.793
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "texto": "Hizo lo que el ángel le había mandado, y recibió a María en su casa.",
+      "clave": "recibió",
+      "inicio": 179.362,
+      "fin": 183.239,
+      "palabras": [
+        {
+          "texto": "Hizo",
+          "inicio": 179.362,
+          "fin": 179.652
+        },
+        {
+          "texto": "lo",
+          "inicio": 179.698,
+          "fin": 179.791
+        },
+        {
+          "texto": "que",
+          "inicio": 179.838,
+          "fin": 179.919
+        },
+        {
+          "texto": "el",
+          "inicio": 179.965,
+          "fin": 180.047
+        },
+        {
+          "texto": "ángel",
+          "inicio": 180.128,
+          "fin": 180.395
+        },
+        {
+          "texto": "le",
+          "inicio": 180.465,
+          "fin": 180.523
+        },
+        {
+          "texto": "había",
+          "inicio": 180.546,
+          "fin": 180.778
+        },
+        {
+          "texto": "mandado,",
+          "inicio": 180.836,
+          "fin": 181.382
+        },
+        {
+          "texto": "y",
+          "inicio": 181.695,
+          "fin": 181.765
+        },
+        {
+          "texto": "recibió",
+          "inicio": 181.869,
+          "fin": 182.195
+        },
+        {
+          "texto": "a",
+          "inicio": 182.218,
+          "fin": 182.241
+        },
+        {
+          "texto": "María",
+          "inicio": 182.276,
+          "fin": 182.508
+        },
+        {
+          "texto": "en",
+          "inicio": 182.531,
+          "fin": 182.566
+        },
+        {
+          "texto": "su",
+          "inicio": 182.613,
+          "fin": 182.717
+        },
+        {
+          "texto": "casa.",
+          "inicio": 182.775,
+          "fin": 183.239
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "texto": "Así es José: no habla, actúa.",
+      "clave": "actúa",
+      "inicio": 183.901,
+      "fin": 188.127,
+      "palabras": [
+        {
+          "texto": "Así",
+          "inicio": 183.901,
+          "fin": 184.133
+        },
+        {
+          "texto": "es",
+          "inicio": 184.191,
+          "fin": 184.25
+        },
+        {
+          "texto": "José:",
+          "inicio": 184.273,
+          "fin": 184.865
+        },
+        {
+          "texto": "no",
+          "inicio": 185.527,
+          "fin": 185.631
+        },
+        {
+          "texto": "habla,",
+          "inicio": 185.689,
+          "fin": 186.212
+        },
+        {
+          "texto": "actúa.",
+          "inicio": 186.572,
+          "fin": 188.127
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "texto": "Meses después llegó una orden del emperador Augusto: todos debían inscribirse en un censo.",
+      "clave": "censo",
+      "inicio": 188.16,
+      "fin": 194.325,
+      "palabras": [
+        {
+          "texto": "Meses",
+          "inicio": 188.16,
+          "fin": 188.508
+        },
+        {
+          "texto": "después",
+          "inicio": 188.543,
+          "fin": 188.868
+        },
+        {
+          "texto": "llegó",
+          "inicio": 188.891,
+          "fin": 189.286
+        },
+        {
+          "texto": "una",
+          "inicio": 189.391,
+          "fin": 189.6
+        },
+        {
+          "texto": "orden",
+          "inicio": 189.66899999999998,
+          "fin": 189.948
+        },
+        {
+          "texto": "del",
+          "inicio": 189.994,
+          "fin": 190.099
+        },
+        {
+          "texto": "emperador",
+          "inicio": 190.145,
+          "fin": 190.737
+        },
+        {
+          "texto": "Augusto:",
+          "inicio": 190.877,
+          "fin": 191.678
+        },
+        {
+          "texto": "todos",
+          "inicio": 192.351,
+          "fin": 192.641
+        },
+        {
+          "texto": "debían",
+          "inicio": 192.676,
+          "fin": 192.94299999999998
+        },
+        {
+          "texto": "inscribirse",
+          "inicio": 193.013,
+          "fin": 193.535
+        },
+        {
+          "texto": "en",
+          "inicio": 193.559,
+          "fin": 193.605
+        },
+        {
+          "texto": "un",
+          "inicio": 193.721,
+          "fin": 193.791
+        },
+        {
+          "texto": "censo.",
+          "inicio": 193.826,
+          "fin": 194.325
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "texto": "Y cada uno tenía que ir a su ciudad de origen.",
+      "clave": "ciudad",
+      "inicio": 194.998,
+      "fin": 197.611,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 194.998,
+          "fin": 195.114
+        },
+        {
+          "texto": "cada",
+          "inicio": 195.207,
+          "fin": 195.416
+        },
+        {
+          "texto": "uno",
+          "inicio": 195.486,
+          "fin": 195.614
+        },
+        {
+          "texto": "tenía",
+          "inicio": 195.672,
+          "fin": 195.939
+        },
+        {
+          "texto": "que",
+          "inicio": 196.008,
+          "fin": 196.101
+        },
+        {
+          "texto": "ir",
+          "inicio": 196.148,
+          "fin": 196.24099999999999
+        },
+        {
+          "texto": "a",
+          "inicio": 196.287,
+          "fin": 196.31
+        },
+        {
+          "texto": "su",
+          "inicio": 196.357,
+          "fin": 196.47299999999998
+        },
+        {
+          "texto": "ciudad",
+          "inicio": 196.519,
+          "fin": 196.902
+        },
+        {
+          "texto": "de",
+          "inicio": 196.926,
+          "fin": 196.984
+        },
+        {
+          "texto": "origen.",
+          "inicio": 197.03,
+          "fin": 197.611
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "texto": "Para José, que era de la familia de David, eso significaba ir a Belén, la ciudad de David.",
+      "clave": "Belén",
+      "inicio": 198.04,
+      "fin": 204.20499999999998,
+      "palabras": [
+        {
+          "texto": "Para",
+          "inicio": 198.04,
+          "fin": 198.261
+        },
+        {
+          "texto": "José,",
+          "inicio": 198.307,
+          "fin": 198.841
+        },
+        {
+          "texto": "que",
+          "inicio": 199.155,
+          "fin": 199.259
+        },
+        {
+          "texto": "era",
+          "inicio": 199.29399999999998,
+          "fin": 199.398
+        },
+        {
+          "texto": "de",
+          "inicio": 199.445,
+          "fin": 199.49099999999999
+        },
+        {
+          "texto": "la",
+          "inicio": 199.526,
+          "fin": 199.584
+        },
+        {
+          "texto": "familia",
+          "inicio": 199.642,
+          "fin": 199.944
+        },
+        {
+          "texto": "de",
+          "inicio": 199.97899999999998,
+          "fin": 200.037
+        },
+        {
+          "texto": "David,",
+          "inicio": 200.083,
+          "fin": 200.571
+        },
+        {
+          "texto": "eso",
+          "inicio": 200.94299999999998,
+          "fin": 201.14
+        },
+        {
+          "texto": "significaba",
+          "inicio": 201.175,
+          "fin": 201.744
+        },
+        {
+          "texto": "ir",
+          "inicio": 201.825,
+          "fin": 201.953
+        },
+        {
+          "texto": "a",
+          "inicio": 202,
+          "fin": 202.011
+        },
+        {
+          "texto": "Belén,",
+          "inicio": 202.058,
+          "fin": 202.65
+        },
+        {
+          "texto": "la",
+          "inicio": 203.021,
+          "fin": 203.126
+        },
+        {
+          "texto": "ciudad",
+          "inicio": 203.161,
+          "fin": 203.49699999999999
+        },
+        {
+          "texto": "de",
+          "inicio": 203.51999999999998,
+          "fin": 203.602
+        },
+        {
+          "texto": "David.",
+          "inicio": 203.671,
+          "fin": 204.20499999999998
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "texto": "Más de cien kilómetros de camino, con María a punto de dar a luz.",
+      "clave": "kilómetros",
+      "inicio": 204.809,
+      "fin": 209.35999999999999,
+      "palabras": [
+        {
+          "texto": "Más",
+          "inicio": 204.809,
+          "fin": 204.995
+        },
+        {
+          "texto": "de",
+          "inicio": 205.018,
+          "fin": 205.065
+        },
+        {
+          "texto": "cien",
+          "inicio": 205.099,
+          "fin": 205.262
+        },
+        {
+          "texto": "kilómetros",
+          "inicio": 205.308,
+          "fin": 205.831
+        },
+        {
+          "texto": "de",
+          "inicio": 205.85399999999998,
+          "fin": 205.901
+        },
+        {
+          "texto": "camino,",
+          "inicio": 205.947,
+          "fin": 206.58599999999998
+        },
+        {
+          "texto": "con",
+          "inicio": 206.911,
+          "fin": 207.073
+        },
+        {
+          "texto": "María",
+          "inicio": 207.131,
+          "fin": 207.584
+        },
+        {
+          "texto": "a",
+          "inicio": 207.863,
+          "fin": 207.944
+        },
+        {
+          "texto": "punto",
+          "inicio": 208.014,
+          "fin": 208.315
+        },
+        {
+          "texto": "de",
+          "inicio": 208.362,
+          "fin": 208.432
+        },
+        {
+          "texto": "dar",
+          "inicio": 208.49,
+          "fin": 208.64
+        },
+        {
+          "texto": "a",
+          "inicio": 208.699,
+          "fin": 208.722
+        },
+        {
+          "texto": "luz.",
+          "inicio": 208.768,
+          "fin": 209.35999999999999
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "texto": "La Biblia no menciona ningún burro, pero la tradición siempre los imagina así: María montada y José guiando el camino.",
+      "clave": "burro",
+      "inicio": 209.964,
+      "fin": 217.441,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 209.964,
+          "fin": 210.069
+        },
+        {
+          "texto": "Biblia",
+          "inicio": 210.115,
+          "fin": 210.33599999999998
+        },
+        {
+          "texto": "no",
+          "inicio": 210.382,
+          "fin": 210.452
+        },
+        {
+          "texto": "menciona",
+          "inicio": 210.498,
+          "fin": 210.881
+        },
+        {
+          "texto": "ningún",
+          "inicio": 210.928,
+          "fin": 211.23
+        },
+        {
+          "texto": "burro,",
+          "inicio": 211.288,
+          "fin": 211.856
+        },
+        {
+          "texto": "pero",
+          "inicio": 212.135,
+          "fin": 212.321
+        },
+        {
+          "texto": "la",
+          "inicio": 212.367,
+          "fin": 212.425
+        },
+        {
+          "texto": "tradición",
+          "inicio": 212.483,
+          "fin": 212.925
+        },
+        {
+          "texto": "siempre",
+          "inicio": 212.983,
+          "fin": 213.319
+        },
+        {
+          "texto": "los",
+          "inicio": 213.35399999999998,
+          "fin": 213.459
+        },
+        {
+          "texto": "imagina",
+          "inicio": 213.517,
+          "fin": 213.923
+        },
+        {
+          "texto": "así:",
+          "inicio": 213.946,
+          "fin": 214.399
+        },
+        {
+          "texto": "María",
+          "inicio": 215.003,
+          "fin": 215.351
+        },
+        {
+          "texto": "montada",
+          "inicio": 215.409,
+          "fin": 215.873
+        },
+        {
+          "texto": "y",
+          "inicio": 215.92,
+          "fin": 215.95499999999998
+        },
+        {
+          "texto": "José",
+          "inicio": 215.99,
+          "fin": 216.303
+        },
+        {
+          "texto": "guiando",
+          "inicio": 216.361,
+          "fin": 216.675
+        },
+        {
+          "texto": "el",
+          "inicio": 216.709,
+          "fin": 216.756
+        },
+        {
+          "texto": "camino.",
+          "inicio": 216.814,
+          "fin": 217.441
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "texto": "Cuando por fin llegaron, no había lugar para ellos en el alojamiento.",
+      "clave": "lugar",
+      "inicio": 217.952,
+      "fin": 221.957,
+      "palabras": [
+        {
+          "texto": "Cuando",
+          "inicio": 217.952,
+          "fin": 218.219
+        },
+        {
+          "texto": "por",
+          "inicio": 218.277,
+          "fin": 218.393
+        },
+        {
+          "texto": "fin",
+          "inicio": 218.44,
+          "fin": 218.579
+        },
+        {
+          "texto": "llegaron,",
+          "inicio": 218.602,
+          "fin": 219.287
+        },
+        {
+          "texto": "no",
+          "inicio": 219.46099999999998,
+          "fin": 219.554
+        },
+        {
+          "texto": "había",
+          "inicio": 219.577,
+          "fin": 219.763
+        },
+        {
+          "texto": "lugar",
+          "inicio": 219.81,
+          "fin": 220.042
+        },
+        {
+          "texto": "para",
+          "inicio": 220.1,
+          "fin": 220.286
+        },
+        {
+          "texto": "ellos",
+          "inicio": 220.32,
+          "fin": 220.66899999999998
+        },
+        {
+          "texto": "en",
+          "inicio": 220.785,
+          "fin": 220.901
+        },
+        {
+          "texto": "el",
+          "inicio": 220.959,
+          "fin": 221.017
+        },
+        {
+          "texto": "alojamiento.",
+          "inicio": 221.075,
+          "fin": 221.957
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "texto": "Piensa en José, buscando un techo para su esposa, tocando puertas que no se abrían.",
+      "clave": "puertas",
+      "inicio": 222.399,
+      "fin": 228.16899999999998,
+      "palabras": [
+        {
+          "texto": "Piensa",
+          "inicio": 222.399,
+          "fin": 222.78199999999998
+        },
+        {
+          "texto": "en",
+          "inicio": 222.817,
+          "fin": 222.886
+        },
+        {
+          "texto": "José,",
+          "inicio": 222.933,
+          "fin": 223.571
+        },
+        {
+          "texto": "buscando",
+          "inicio": 224.082,
+          "fin": 224.523
+        },
+        {
+          "texto": "un",
+          "inicio": 224.546,
+          "fin": 224.605
+        },
+        {
+          "texto": "techo",
+          "inicio": 224.686,
+          "fin": 224.964
+        },
+        {
+          "texto": "para",
+          "inicio": 225.011,
+          "fin": 225.185
+        },
+        {
+          "texto": "su",
+          "inicio": 225.231,
+          "fin": 225.301
+        },
+        {
+          "texto": "esposa,",
+          "inicio": 225.336,
+          "fin": 226.05599999999998
+        },
+        {
+          "texto": "tocando",
+          "inicio": 226.381,
+          "fin": 226.74099999999999
+        },
+        {
+          "texto": "puertas",
+          "inicio": 226.799,
+          "fin": 227.135
+        },
+        {
+          "texto": "que",
+          "inicio": 227.182,
+          "fin": 227.252
+        },
+        {
+          "texto": "no",
+          "inicio": 227.31,
+          "fin": 227.391
+        },
+        {
+          "texto": "se",
+          "inicio": 227.437,
+          "fin": 227.507
+        },
+        {
+          "texto": "abrían.",
+          "inicio": 227.542,
+          "fin": 228.16899999999998
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "texto": "Al final, el Hijo de Dios nació en el lugar más humilde.",
+      "clave": "humilde",
+      "inicio": 228.552,
+      "fin": 232.801,
+      "palabras": [
+        {
+          "texto": "Al",
+          "inicio": 228.552,
+          "fin": 228.691
+        },
+        {
+          "texto": "final,",
+          "inicio": 228.738,
+          "fin": 229.283
+        },
+        {
+          "texto": "el",
+          "inicio": 229.434,
+          "fin": 229.58499999999998
+        },
+        {
+          "texto": "Hijo",
+          "inicio": 229.632,
+          "fin": 229.829
+        },
+        {
+          "texto": "de",
+          "inicio": 229.875,
+          "fin": 229.945
+        },
+        {
+          "texto": "Dios",
+          "inicio": 230.003,
+          "fin": 230.375
+        },
+        {
+          "texto": "nació",
+          "inicio": 230.549,
+          "fin": 230.99
+        },
+        {
+          "texto": "en",
+          "inicio": 231.071,
+          "fin": 231.199
+        },
+        {
+          "texto": "el",
+          "inicio": 231.257,
+          "fin": 231.315
+        },
+        {
+          "texto": "lugar",
+          "inicio": 231.338,
+          "fin": 231.721
+        },
+        {
+          "texto": "más",
+          "inicio": 231.896,
+          "fin": 232.139
+        },
+        {
+          "texto": "humilde.",
+          "inicio": 232.174,
+          "fin": 232.801
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "texto": "María lo envolvió en pañales y lo acostó en un pesebre, donde comían los animales.",
+      "clave": "pesebre",
+      "inicio": 233.614,
+      "fin": 238.93099999999998,
+      "palabras": [
+        {
+          "texto": "María",
+          "inicio": 233.614,
+          "fin": 233.939
+        },
+        {
+          "texto": "lo",
+          "inicio": 233.985,
+          "fin": 234.067
+        },
+        {
+          "texto": "envolvió",
+          "inicio": 234.101,
+          "fin": 234.461
+        },
+        {
+          "texto": "en",
+          "inicio": 234.49599999999998,
+          "fin": 234.554
+        },
+        {
+          "texto": "pañales",
+          "inicio": 234.612,
+          "fin": 235.216
+        },
+        {
+          "texto": "y",
+          "inicio": 235.65699999999998,
+          "fin": 235.726
+        },
+        {
+          "texto": "lo",
+          "inicio": 235.808,
+          "fin": 235.86599999999999
+        },
+        {
+          "texto": "acostó",
+          "inicio": 235.889,
+          "fin": 236.168
+        },
+        {
+          "texto": "en",
+          "inicio": 236.202,
+          "fin": 236.261
+        },
+        {
+          "texto": "un",
+          "inicio": 236.32999999999998,
+          "fin": 236.388
+        },
+        {
+          "texto": "pesebre,",
+          "inicio": 236.446,
+          "fin": 237.166
+        },
+        {
+          "texto": "donde",
+          "inicio": 237.375,
+          "fin": 237.631
+        },
+        {
+          "texto": "comían",
+          "inicio": 237.677,
+          "fin": 237.97899999999998
+        },
+        {
+          "texto": "los",
+          "inicio": 238.002,
+          "fin": 238.107
+        },
+        {
+          "texto": "animales.",
+          "inicio": 238.165,
+          "fin": 238.93099999999998
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "texto": "Esa misma noche llegaron unos pastores. Un ángel les había anunciado la gran noticia.",
+      "clave": "pastores",
+      "inicio": 239.535,
+      "fin": 245.386,
+      "palabras": [
+        {
+          "texto": "Esa",
+          "inicio": 239.535,
+          "fin": 239.755
+        },
+        {
+          "texto": "misma",
+          "inicio": 239.813,
+          "fin": 240.057
+        },
+        {
+          "texto": "noche",
+          "inicio": 240.103,
+          "fin": 240.475
+        },
+        {
+          "texto": "llegaron",
+          "inicio": 240.649,
+          "fin": 241.09
+        },
+        {
+          "texto": "unos",
+          "inicio": 241.148,
+          "fin": 241.334
+        },
+        {
+          "texto": "pastores.",
+          "inicio": 241.404,
+          "fin": 242.147
+        },
+        {
+          "texto": "Un",
+          "inicio": 242.751,
+          "fin": 242.913
+        },
+        {
+          "texto": "ángel",
+          "inicio": 242.971,
+          "fin": 243.261
+        },
+        {
+          "texto": "les",
+          "inicio": 243.319,
+          "fin": 243.436
+        },
+        {
+          "texto": "había",
+          "inicio": 243.494,
+          "fin": 243.726
+        },
+        {
+          "texto": "anunciado",
+          "inicio": 243.749,
+          "fin": 244.30599999999998
+        },
+        {
+          "texto": "la",
+          "inicio": 244.364,
+          "fin": 244.434
+        },
+        {
+          "texto": "gran",
+          "inicio": 244.48,
+          "fin": 244.689
+        },
+        {
+          "texto": "noticia.",
+          "inicio": 244.724,
+          "fin": 245.386
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "texto": "Y encontraron justo lo que el ángel les dijo: a María, a José y al niño acostado en el pesebre.",
+      "clave": "encontraron",
+      "inicio": 245.827,
+      "fin": 252.074,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 245.827,
+          "fin": 245.885
+        },
+        {
+          "texto": "encontraron",
+          "inicio": 245.95499999999998,
+          "fin": 246.396
+        },
+        {
+          "texto": "justo",
+          "inicio": 246.442,
+          "fin": 246.721
+        },
+        {
+          "texto": "lo",
+          "inicio": 246.779,
+          "fin": 246.86
+        },
+        {
+          "texto": "que",
+          "inicio": 246.918,
+          "fin": 247.023
+        },
+        {
+          "texto": "el",
+          "inicio": 247.069,
+          "fin": 247.151
+        },
+        {
+          "texto": "ángel",
+          "inicio": 247.244,
+          "fin": 247.476
+        },
+        {
+          "texto": "les",
+          "inicio": 247.511,
+          "fin": 247.638
+        },
+        {
+          "texto": "dijo:",
+          "inicio": 247.685,
+          "fin": 248.114
+        },
+        {
+          "texto": "a",
+          "inicio": 248.55599999999998,
+          "fin": 248.602
+        },
+        {
+          "texto": "María,",
+          "inicio": 248.683,
+          "fin": 249.24
+        },
+        {
+          "texto": "a",
+          "inicio": 249.275,
+          "fin": 249.357
+        },
+        {
+          "texto": "José",
+          "inicio": 249.415,
+          "fin": 249.833
+        },
+        {
+          "texto": "y",
+          "inicio": 250.274,
+          "fin": 250.332
+        },
+        {
+          "texto": "al",
+          "inicio": 250.401,
+          "fin": 250.471
+        },
+        {
+          "texto": "niño",
+          "inicio": 250.518,
+          "fin": 250.738
+        },
+        {
+          "texto": "acostado",
+          "inicio": 250.762,
+          "fin": 251.191
+        },
+        {
+          "texto": "en",
+          "inicio": 251.214,
+          "fin": 251.261
+        },
+        {
+          "texto": "el",
+          "inicio": 251.319,
+          "fin": 251.377
+        },
+        {
+          "texto": "pesebre.",
+          "inicio": 251.435,
+          "fin": 252.074
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "texto": "A los ocho días, el niño recibió el nombre que había dicho el ángel: Jesús.",
+      "clave": "nombre",
+      "inicio": 252.515,
+      "fin": 257.356,
+      "palabras": [
+        {
+          "texto": "A",
+          "inicio": 252.515,
+          "fin": 252.57299999999998
+        },
+        {
+          "texto": "los",
+          "inicio": 252.654,
+          "fin": 252.75900000000001
+        },
+        {
+          "texto": "ocho",
+          "inicio": 252.817,
+          "fin": 253.002
+        },
+        {
+          "texto": "días,",
+          "inicio": 253.04899999999998,
+          "fin": 253.43200000000002
+        },
+        {
+          "texto": "el",
+          "inicio": 253.51299999999998,
+          "fin": 253.618
+        },
+        {
+          "texto": "niño",
+          "inicio": 253.664,
+          "fin": 253.89600000000002
+        },
+        {
+          "texto": "recibió",
+          "inicio": 253.94299999999998,
+          "fin": 254.338
+        },
+        {
+          "texto": "el",
+          "inicio": 254.38400000000001,
+          "fin": 254.454
+        },
+        {
+          "texto": "nombre",
+          "inicio": 254.535,
+          "fin": 254.88299999999998
+        },
+        {
+          "texto": "que",
+          "inicio": 254.953,
+          "fin": 255.034
+        },
+        {
+          "texto": "había",
+          "inicio": 255.05700000000002,
+          "fin": 255.266
+        },
+        {
+          "texto": "dicho",
+          "inicio": 255.313,
+          "fin": 255.55700000000002
+        },
+        {
+          "texto": "el",
+          "inicio": 255.591,
+          "fin": 255.661
+        },
+        {
+          "texto": "ángel:",
+          "inicio": 255.742,
+          "fin": 256.23
+        },
+        {
+          "texto": "Jesús.",
+          "inicio": 256.555,
+          "fin": 257.356
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "texto": "Ponerle el nombre le tocaba al padre. Y José asumió ese papel delante de todos.",
+      "clave": "padre",
+      "inicio": 257.96,
+      "fin": 263.196,
+      "palabras": [
+        {
+          "texto": "Ponerle",
+          "inicio": 257.96,
+          "fin": 258.366
+        },
+        {
+          "texto": "el",
+          "inicio": 258.389,
+          "fin": 258.436
+        },
+        {
+          "texto": "nombre",
+          "inicio": 258.517,
+          "fin": 258.784
+        },
+        {
+          "texto": "le",
+          "inicio": 258.831,
+          "fin": 258.9
+        },
+        {
+          "texto": "tocaba",
+          "inicio": 258.947,
+          "fin": 259.26
+        },
+        {
+          "texto": "al",
+          "inicio": 259.283,
+          "fin": 259.341
+        },
+        {
+          "texto": "padre.",
+          "inicio": 259.423,
+          "fin": 259.99199999999996
+        },
+        {
+          "texto": "Y",
+          "inicio": 260.433,
+          "fin": 260.514
+        },
+        {
+          "texto": "José",
+          "inicio": 260.584,
+          "fin": 260.828
+        },
+        {
+          "texto": "asumió",
+          "inicio": 260.86199999999997,
+          "fin": 261.33799999999997
+        },
+        {
+          "texto": "ese",
+          "inicio": 261.396,
+          "fin": 261.571
+        },
+        {
+          "texto": "papel",
+          "inicio": 261.629,
+          "fin": 261.942
+        },
+        {
+          "texto": "delante",
+          "inicio": 262.012,
+          "fin": 262.406
+        },
+        {
+          "texto": "de",
+          "inicio": 262.453,
+          "fin": 262.523
+        },
+        {
+          "texto": "todos.",
+          "inicio": 262.592,
+          "fin": 263.196
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "texto": "Cuando se cumplieron los días que pedía la ley, subieron al templo de Jerusalén.",
+      "clave": "templo",
+      "inicio": 263.89300000000003,
+      "fin": 268.072,
+      "palabras": [
+        {
+          "texto": "Cuando",
+          "inicio": 263.89300000000003,
+          "fin": 264.125
+        },
+        {
+          "texto": "se",
+          "inicio": 264.171,
+          "fin": 264.229
+        },
+        {
+          "texto": "cumplieron",
+          "inicio": 264.276,
+          "fin": 264.647
+        },
+        {
+          "texto": "los",
+          "inicio": 264.682,
+          "fin": 264.798
+        },
+        {
+          "texto": "días",
+          "inicio": 264.83299999999997,
+          "fin": 265.04200000000003
+        },
+        {
+          "texto": "que",
+          "inicio": 265.08799999999997,
+          "fin": 265.158
+        },
+        {
+          "texto": "pedía",
+          "inicio": 265.216,
+          "fin": 265.51800000000003
+        },
+        {
+          "texto": "la",
+          "inicio": 265.576,
+          "fin": 265.646
+        },
+        {
+          "texto": "ley,",
+          "inicio": 265.704,
+          "fin": 266.063
+        },
+        {
+          "texto": "subieron",
+          "inicio": 266.23699999999997,
+          "fin": 266.655
+        },
+        {
+          "texto": "al",
+          "inicio": 266.702,
+          "fin": 266.771
+        },
+        {
+          "texto": "templo",
+          "inicio": 266.841,
+          "fin": 267.154
+        },
+        {
+          "texto": "de",
+          "inicio": 267.212,
+          "fin": 267.271
+        },
+        {
+          "texto": "Jerusalén.",
+          "inicio": 267.305,
+          "fin": 268.072
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "texto": "Iban a presentar al niño al Señor y a dar una ofrenda.",
+      "clave": "ofrenda",
+      "inicio": 269.024,
+      "fin": 271.89099999999996,
+      "palabras": [
+        {
+          "texto": "Iban",
+          "inicio": 269.024,
+          "fin": 269.31399999999996
+        },
+        {
+          "texto": "a",
+          "inicio": 269.36,
+          "fin": 269.384
+        },
+        {
+          "texto": "presentar",
+          "inicio": 269.442,
+          "fin": 269.86
+        },
+        {
+          "texto": "al",
+          "inicio": 269.906,
+          "fin": 269.952
+        },
+        {
+          "texto": "niño",
+          "inicio": 269.98699999999997,
+          "fin": 270.20799999999997
+        },
+        {
+          "texto": "al",
+          "inicio": 270.231,
+          "fin": 270.289
+        },
+        {
+          "texto": "Señor",
+          "inicio": 270.324,
+          "fin": 270.649
+        },
+        {
+          "texto": "y",
+          "inicio": 270.73,
+          "fin": 270.754
+        },
+        {
+          "texto": "a",
+          "inicio": 270.788,
+          "fin": 270.812
+        },
+        {
+          "texto": "dar",
+          "inicio": 270.858,
+          "fin": 271.009
+        },
+        {
+          "texto": "una",
+          "inicio": 271.067,
+          "fin": 271.183
+        },
+        {
+          "texto": "ofrenda.",
+          "inicio": 271.218,
+          "fin": 271.89099999999996
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "texto": "La ley pedía un cordero. Pero si una familia no podía pagarlo, bastaban dos tórtolas o dos pichones.",
+      "clave": "tórtolas",
+      "inicio": 272.321,
+      "fin": 279.345,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 272.321,
+          "fin": 272.437
+        },
+        {
+          "texto": "ley",
+          "inicio": 272.495,
+          "fin": 272.634
+        },
+        {
+          "texto": "pedía",
+          "inicio": 272.692,
+          "fin": 272.936
+        },
+        {
+          "texto": "un",
+          "inicio": 272.983,
+          "fin": 273.041
+        },
+        {
+          "texto": "cordero.",
+          "inicio": 273.099,
+          "fin": 273.702
+        },
+        {
+          "texto": "Pero",
+          "inicio": 274.387,
+          "fin": 274.596
+        },
+        {
+          "texto": "si",
+          "inicio": 274.64300000000003,
+          "fin": 274.71299999999997
+        },
+        {
+          "texto": "una",
+          "inicio": 274.759,
+          "fin": 274.887
+        },
+        {
+          "texto": "familia",
+          "inicio": 274.945,
+          "fin": 275.339
+        },
+        {
+          "texto": "no",
+          "inicio": 275.409,
+          "fin": 275.502
+        },
+        {
+          "texto": "podía",
+          "inicio": 275.56,
+          "fin": 275.908
+        },
+        {
+          "texto": "pagarlo,",
+          "inicio": 275.966,
+          "fin": 276.57
+        },
+        {
+          "texto": "bastaban",
+          "inicio": 276.675,
+          "fin": 277.116
+        },
+        {
+          "texto": "dos",
+          "inicio": 277.174,
+          "fin": 277.371
+        },
+        {
+          "texto": "tórtolas",
+          "inicio": 277.452,
+          "fin": 278.079
+        },
+        {
+          "texto": "o",
+          "inicio": 278.277,
+          "fin": 278.37
+        },
+        {
+          "texto": "dos",
+          "inicio": 278.416,
+          "fin": 278.555
+        },
+        {
+          "texto": "pichones.",
+          "inicio": 278.613,
+          "fin": 279.345
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "texto": "¿Sabes qué llevaron José y María? Las dos tórtolas.",
+      "clave": "dos",
+      "inicio": 279.624,
+      "fin": 283.745,
+      "palabras": [
+        {
+          "texto": "¿Sabes",
+          "inicio": 279.624,
+          "fin": 280.053
+        },
+        {
+          "texto": "qué",
+          "inicio": 280.08799999999997,
+          "fin": 280.169
+        },
+        {
+          "texto": "llevaron",
+          "inicio": 280.192,
+          "fin": 280.541
+        },
+        {
+          "texto": "José",
+          "inicio": 280.587,
+          "fin": 280.901
+        },
+        {
+          "texto": "y",
+          "inicio": 280.935,
+          "fin": 280.97
+        },
+        {
+          "texto": "María?",
+          "inicio": 281.03999999999996,
+          "fin": 281.586
+        },
+        {
+          "texto": "Las",
+          "inicio": 282.526,
+          "fin": 282.712
+        },
+        {
+          "texto": "dos",
+          "inicio": 282.758,
+          "fin": 282.909
+        },
+        {
+          "texto": "tórtolas.",
+          "inicio": 282.991,
+          "fin": 283.745
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "texto": "O sea: la familia de Jesús era pobre.",
+      "clave": "pobre",
+      "inicio": 284.012,
+      "fin": 286.822,
+      "palabras": [
+        {
+          "texto": "O",
+          "inicio": 284.012,
+          "fin": 284.05899999999997
+        },
+        {
+          "texto": "sea:",
+          "inicio": 284.175,
+          "fin": 284.581
+        },
+        {
+          "texto": "la",
+          "inicio": 285.092,
+          "fin": 285.162
+        },
+        {
+          "texto": "familia",
+          "inicio": 285.22,
+          "fin": 285.533
+        },
+        {
+          "texto": "de",
+          "inicio": 285.568,
+          "fin": 285.638
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 285.68399999999997,
+          "fin": 285.998
+        },
+        {
+          "texto": "era",
+          "inicio": 286.044,
+          "fin": 286.183
+        },
+        {
+          "texto": "pobre.",
+          "inicio": 286.253,
+          "fin": 286.822
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "texto": "En el templo, un anciano llamado Simeón tomó al niño en brazos y bendijo a Dios.",
+      "clave": "Simeón",
+      "inicio": 287.426,
+      "fin": 292.627,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 287.426,
+          "fin": 287.553
+        },
+        {
+          "texto": "el",
+          "inicio": 287.6,
+          "fin": 287.669
+        },
+        {
+          "texto": "templo,",
+          "inicio": 287.751,
+          "fin": 288.25
+        },
+        {
+          "texto": "un",
+          "inicio": 288.366,
+          "fin": 288.459
+        },
+        {
+          "texto": "anciano",
+          "inicio": 288.505,
+          "fin": 288.865
+        },
+        {
+          "texto": "llamado",
+          "inicio": 288.889,
+          "fin": 289.23699999999997
+        },
+        {
+          "texto": "Simeón",
+          "inicio": 289.295,
+          "fin": 289.771
+        },
+        {
+          "texto": "tomó",
+          "inicio": 290.015,
+          "fin": 290.351
+        },
+        {
+          "texto": "al",
+          "inicio": 290.38599999999997,
+          "fin": 290.456
+        },
+        {
+          "texto": "niño",
+          "inicio": 290.514,
+          "fin": 290.746
+        },
+        {
+          "texto": "en",
+          "inicio": 290.769,
+          "fin": 290.81600000000003
+        },
+        {
+          "texto": "brazos",
+          "inicio": 290.86199999999997,
+          "fin": 291.361
+        },
+        {
+          "texto": "y",
+          "inicio": 291.536,
+          "fin": 291.594
+        },
+        {
+          "texto": "bendijo",
+          "inicio": 291.663,
+          "fin": 292.046
+        },
+        {
+          "texto": "a",
+          "inicio": 292.07,
+          "fin": 292.093
+        },
+        {
+          "texto": "Dios.",
+          "inicio": 292.128,
+          "fin": 292.627
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "texto": "Dijo que ya podía morir en paz, porque sus ojos habían visto la salvación.",
+      "clave": "paz",
+      "inicio": 293.138,
+      "fin": 297.88599999999997,
+      "palabras": [
+        {
+          "texto": "Dijo",
+          "inicio": 293.138,
+          "fin": 293.39300000000003
+        },
+        {
+          "texto": "que",
+          "inicio": 293.451,
+          "fin": 293.544
+        },
+        {
+          "texto": "ya",
+          "inicio": 293.614,
+          "fin": 293.73
+        },
+        {
+          "texto": "podía",
+          "inicio": 293.788,
+          "fin": 294.113
+        },
+        {
+          "texto": "morir",
+          "inicio": 294.171,
+          "fin": 294.438
+        },
+        {
+          "texto": "en",
+          "inicio": 294.473,
+          "fin": 294.531
+        },
+        {
+          "texto": "paz,",
+          "inicio": 294.61199999999997,
+          "fin": 295.1
+        },
+        {
+          "texto": "porque",
+          "inicio": 295.541,
+          "fin": 295.796
+        },
+        {
+          "texto": "sus",
+          "inicio": 295.843,
+          "fin": 295.98199999999997
+        },
+        {
+          "texto": "ojos",
+          "inicio": 296.052,
+          "fin": 296.272
+        },
+        {
+          "texto": "habían",
+          "inicio": 296.33,
+          "fin": 296.632
+        },
+        {
+          "texto": "visto",
+          "inicio": 296.69,
+          "fin": 296.957
+        },
+        {
+          "texto": "la",
+          "inicio": 297.015,
+          "fin": 297.085
+        },
+        {
+          "texto": "salvación.",
+          "inicio": 297.132,
+          "fin": 297.88599999999997
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "texto": "Y Lucas cuenta que el padre y la madre del niño estaban admirados por lo que se decía de él.",
+      "clave": "admirados",
+      "inicio": 298.49,
+      "fin": 303.854,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 298.49,
+          "fin": 298.571
+        },
+        {
+          "texto": "Lucas",
+          "inicio": 298.664,
+          "fin": 298.943
+        },
+        {
+          "texto": "cuenta",
+          "inicio": 299.001,
+          "fin": 299.279
+        },
+        {
+          "texto": "que",
+          "inicio": 299.326,
+          "fin": 299.407
+        },
+        {
+          "texto": "el",
+          "inicio": 299.43,
+          "fin": 299.5
+        },
+        {
+          "texto": "padre",
+          "inicio": 299.593,
+          "fin": 299.953
+        },
+        {
+          "texto": "y",
+          "inicio": 299.988,
+          "fin": 300.01099999999997
+        },
+        {
+          "texto": "la",
+          "inicio": 300.092,
+          "fin": 300.162
+        },
+        {
+          "texto": "madre",
+          "inicio": 300.22,
+          "fin": 300.475
+        },
+        {
+          "texto": "del",
+          "inicio": 300.51,
+          "fin": 300.626
+        },
+        {
+          "texto": "niño",
+          "inicio": 300.661,
+          "fin": 301.009
+        },
+        {
+          "texto": "estaban",
+          "inicio": 301.253,
+          "fin": 301.694
+        },
+        {
+          "texto": "admirados",
+          "inicio": 301.764,
+          "fin": 302.263
+        },
+        {
+          "texto": "por",
+          "inicio": 302.33299999999997,
+          "fin": 302.461
+        },
+        {
+          "texto": "lo",
+          "inicio": 302.507,
+          "fin": 302.58799999999997
+        },
+        {
+          "texto": "que",
+          "inicio": 302.635,
+          "fin": 302.716
+        },
+        {
+          "texto": "se",
+          "inicio": 302.763,
+          "fin": 302.844
+        },
+        {
+          "texto": "decía",
+          "inicio": 302.902,
+          "fin": 303.262
+        },
+        {
+          "texto": "de",
+          "inicio": 303.32,
+          "fin": 303.389
+        },
+        {
+          "texto": "él.",
+          "inicio": 303.436,
+          "fin": 303.854
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "texto": "Tiempo después llegaron unos magos de Oriente, siguiendo una estrella.",
+      "clave": "estrella",
+      "inicio": 304.66700000000003,
+      "fin": 308.962,
+      "palabras": [
+        {
+          "texto": "Tiempo",
+          "inicio": 304.66700000000003,
+          "fin": 304.968
+        },
+        {
+          "texto": "después",
+          "inicio": 305.015,
+          "fin": 305.479
+        },
+        {
+          "texto": "llegaron",
+          "inicio": 305.60699999999997,
+          "fin": 306.025
+        },
+        {
+          "texto": "unos",
+          "inicio": 306.08299999999997,
+          "fin": 306.29200000000003
+        },
+        {
+          "texto": "magos",
+          "inicio": 306.35,
+          "fin": 306.61699999999996
+        },
+        {
+          "texto": "de",
+          "inicio": 306.652,
+          "fin": 306.698
+        },
+        {
+          "texto": "Oriente,",
+          "inicio": 306.733,
+          "fin": 307.44100000000003
+        },
+        {
+          "texto": "siguiendo",
+          "inicio": 307.685,
+          "fin": 308.091
+        },
+        {
+          "texto": "una",
+          "inicio": 308.126,
+          "fin": 308.26599999999996
+        },
+        {
+          "texto": "estrella.",
+          "inicio": 308.289,
+          "fin": 308.962
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "texto": "Buscaban al rey de los judíos que acababa de nacer, y le ofrecieron oro, incienso y mirra.",
+      "clave": "oro",
+      "inicio": 309.403,
+      "fin": 315.707,
+      "palabras": [
+        {
+          "texto": "Buscaban",
+          "inicio": 309.403,
+          "fin": 309.856
+        },
+        {
+          "texto": "al",
+          "inicio": 309.926,
+          "fin": 309.996
+        },
+        {
+          "texto": "rey",
+          "inicio": 310.08799999999997,
+          "fin": 310.239
+        },
+        {
+          "texto": "de",
+          "inicio": 310.286,
+          "fin": 310.332
+        },
+        {
+          "texto": "los",
+          "inicio": 310.36699999999996,
+          "fin": 310.483
+        },
+        {
+          "texto": "judíos",
+          "inicio": 310.51800000000003,
+          "fin": 310.924
+        },
+        {
+          "texto": "que",
+          "inicio": 310.994,
+          "fin": 311.06399999999996
+        },
+        {
+          "texto": "acababa",
+          "inicio": 311.087,
+          "fin": 311.435
+        },
+        {
+          "texto": "de",
+          "inicio": 311.47,
+          "fin": 311.528
+        },
+        {
+          "texto": "nacer,",
+          "inicio": 311.574,
+          "fin": 312.12
+        },
+        {
+          "texto": "y",
+          "inicio": 312.445,
+          "fin": 312.538
+        },
+        {
+          "texto": "le",
+          "inicio": 312.619,
+          "fin": 312.677
+        },
+        {
+          "texto": "ofrecieron",
+          "inicio": 312.701,
+          "fin": 313.211
+        },
+        {
+          "texto": "oro,",
+          "inicio": 313.328,
+          "fin": 313.804
+        },
+        {
+          "texto": "incienso",
+          "inicio": 313.978,
+          "fin": 314.698
+        },
+        {
+          "texto": "y",
+          "inicio": 314.94100000000003,
+          "fin": 315.057
+        },
+        {
+          "texto": "mirra.",
+          "inicio": 315.15,
+          "fin": 315.707
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "texto": "Pero el rey Herodes se enteró, y tuvo miedo de perder su trono.",
+      "clave": "Herodes",
+      "inicio": 316.31100000000004,
+      "fin": 320.711,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 316.31100000000004,
+          "fin": 316.53200000000004
+        },
+        {
+          "texto": "el",
+          "inicio": 316.56600000000003,
+          "fin": 316.613
+        },
+        {
+          "texto": "rey",
+          "inicio": 316.69399999999996,
+          "fin": 316.845
+        },
+        {
+          "texto": "Herodes",
+          "inicio": 316.868,
+          "fin": 317.321
+        },
+        {
+          "texto": "se",
+          "inicio": 317.472,
+          "fin": 317.611
+        },
+        {
+          "texto": "enteró,",
+          "inicio": 317.64599999999996,
+          "fin": 318.378
+        },
+        {
+          "texto": "y",
+          "inicio": 318.703,
+          "fin": 318.784
+        },
+        {
+          "texto": "tuvo",
+          "inicio": 318.865,
+          "fin": 319.07399999999996
+        },
+        {
+          "texto": "miedo",
+          "inicio": 319.132,
+          "fin": 319.399
+        },
+        {
+          "texto": "de",
+          "inicio": 319.457,
+          "fin": 319.515
+        },
+        {
+          "texto": "perder",
+          "inicio": 319.573,
+          "fin": 319.887
+        },
+        {
+          "texto": "su",
+          "inicio": 319.945,
+          "fin": 320.049
+        },
+        {
+          "texto": "trono.",
+          "inicio": 320.119,
+          "fin": 320.711
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "texto": "Herodes buscaba al niño para quitarle la vida.",
+      "clave": "vida",
+      "inicio": 321.222,
+      "fin": 323.788,
+      "palabras": [
+        {
+          "texto": "Herodes",
+          "inicio": 321.222,
+          "fin": 321.652
+        },
+        {
+          "texto": "buscaba",
+          "inicio": 321.698,
+          "fin": 322.116
+        },
+        {
+          "texto": "al",
+          "inicio": 322.139,
+          "fin": 322.244
+        },
+        {
+          "texto": "niño",
+          "inicio": 322.267,
+          "fin": 322.51099999999997
+        },
+        {
+          "texto": "para",
+          "inicio": 322.557,
+          "fin": 322.696
+        },
+        {
+          "texto": "quitarle",
+          "inicio": 322.743,
+          "fin": 323.11400000000003
+        },
+        {
+          "texto": "la",
+          "inicio": 323.161,
+          "fin": 323.231
+        },
+        {
+          "texto": "vida.",
+          "inicio": 323.277,
+          "fin": 323.788
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "texto": "Entonces llegó el segundo sueño.",
+      "clave": "segundo",
+      "inicio": 324.392,
+      "fin": 326.19100000000003,
+      "palabras": [
+        {
+          "texto": "Entonces",
+          "inicio": 324.392,
+          "fin": 324.914
+        },
+        {
+          "texto": "llegó",
+          "inicio": 324.937,
+          "fin": 325.169
+        },
+        {
+          "texto": "el",
+          "inicio": 325.193,
+          "fin": 325.251
+        },
+        {
+          "texto": "segundo",
+          "inicio": 325.30899999999997,
+          "fin": 325.65700000000004
+        },
+        {
+          "texto": "sueño.",
+          "inicio": 325.71500000000003,
+          "fin": 326.19100000000003
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "texto": "«Levántate, toma al niño y a su madre, y huye a Egipto. Quédate allí hasta que yo te avise».",
+      "clave": "Egipto",
+      "inicio": 326.79499999999996,
+      "fin": 333.73699999999997,
+      "palabras": [
+        {
+          "texto": "«Levántate,",
+          "inicio": 326.79499999999996,
+          "fin": 327.81600000000003
+        },
+        {
+          "texto": "toma",
+          "inicio": 328.06,
+          "fin": 328.351
+        },
+        {
+          "texto": "al",
+          "inicio": 328.374,
+          "fin": 328.455
+        },
+        {
+          "texto": "niño",
+          "inicio": 328.536,
+          "fin": 328.861
+        },
+        {
+          "texto": "y",
+          "inicio": 328.919,
+          "fin": 328.943
+        },
+        {
+          "texto": "a",
+          "inicio": 328.977,
+          "fin": 329.001
+        },
+        {
+          "texto": "su",
+          "inicio": 329.047,
+          "fin": 329.14
+        },
+        {
+          "texto": "madre,",
+          "inicio": 329.21000000000004,
+          "fin": 329.779
+        },
+        {
+          "texto": "y",
+          "inicio": 330.16200000000003,
+          "fin": 330.255
+        },
+        {
+          "texto": "huye",
+          "inicio": 330.289,
+          "fin": 330.522
+        },
+        {
+          "texto": "a",
+          "inicio": 330.54499999999996,
+          "fin": 330.568
+        },
+        {
+          "texto": "Egipto.",
+          "inicio": 330.603,
+          "fin": 331.299
+        },
+        {
+          "texto": "Quédate",
+          "inicio": 331.903,
+          "fin": 332.275
+        },
+        {
+          "texto": "allí",
+          "inicio": 332.321,
+          "fin": 332.495
+        },
+        {
+          "texto": "hasta",
+          "inicio": 332.553,
+          "fin": 332.75
+        },
+        {
+          "texto": "que",
+          "inicio": 332.797,
+          "fin": 332.86699999999996
+        },
+        {
+          "texto": "yo",
+          "inicio": 332.92499999999995,
+          "fin": 333.006
+        },
+        {
+          "texto": "te",
+          "inicio": 333.06399999999996,
+          "fin": 333.12199999999996
+        },
+        {
+          "texto": "avise».",
+          "inicio": 333.15700000000004,
+          "fin": 333.73699999999997
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "texto": "Y fíjate en este detalle de Mateo: José se levantó, tomó al niño y a su madre, y se fue de noche.",
+      "clave": "noche",
+      "inicio": 334.43399999999997,
+      "fin": 340.773,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 334.43399999999997,
+          "fin": 334.515
+        },
+        {
+          "texto": "fíjate",
+          "inicio": 334.596,
+          "fin": 334.956
+        },
+        {
+          "texto": "en",
+          "inicio": 334.98,
+          "fin": 335.049
+        },
+        {
+          "texto": "este",
+          "inicio": 335.119,
+          "fin": 335.27
+        },
+        {
+          "texto": "detalle",
+          "inicio": 335.31600000000003,
+          "fin": 335.676
+        },
+        {
+          "texto": "de",
+          "inicio": 335.72299999999996,
+          "fin": 335.79200000000003
+        },
+        {
+          "texto": "Mateo:",
+          "inicio": 335.839,
+          "fin": 336.39599999999996
+        },
+        {
+          "texto": "José",
+          "inicio": 336.605,
+          "fin": 336.953
+        },
+        {
+          "texto": "se",
+          "inicio": 337.01099999999997,
+          "fin": 337.104
+        },
+        {
+          "texto": "levantó,",
+          "inicio": 337.151,
+          "fin": 337.847
+        },
+        {
+          "texto": "tomó",
+          "inicio": 337.96299999999997,
+          "fin": 338.288
+        },
+        {
+          "texto": "al",
+          "inicio": 338.323,
+          "fin": 338.39300000000003
+        },
+        {
+          "texto": "niño",
+          "inicio": 338.46299999999997,
+          "fin": 338.753
+        },
+        {
+          "texto": "y",
+          "inicio": 338.788,
+          "fin": 338.822
+        },
+        {
+          "texto": "a",
+          "inicio": 338.85699999999997,
+          "fin": 338.881
+        },
+        {
+          "texto": "su",
+          "inicio": 338.91499999999996,
+          "fin": 339.02
+        },
+        {
+          "texto": "madre,",
+          "inicio": 339.089,
+          "fin": 339.577
+        },
+        {
+          "texto": "y",
+          "inicio": 339.705,
+          "fin": 339.786
+        },
+        {
+          "texto": "se",
+          "inicio": 339.856,
+          "fin": 339.92499999999995
+        },
+        {
+          "texto": "fue",
+          "inicio": 339.972,
+          "fin": 340.1
+        },
+        {
+          "texto": "de",
+          "inicio": 340.134,
+          "fin": 340.204
+        },
+        {
+          "texto": "noche.",
+          "inicio": 340.262,
+          "fin": 340.773
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "texto": "No esperó al amanecer. No hizo preguntas. Salió en ese mismo momento.",
+      "clave": "momento",
+      "inicio": 342.062,
+      "fin": 347.716,
+      "palabras": [
+        {
+          "texto": "No",
+          "inicio": 342.062,
+          "fin": 342.18899999999996
+        },
+        {
+          "texto": "esperó",
+          "inicio": 342.224,
+          "fin": 342.549
+        },
+        {
+          "texto": "al",
+          "inicio": 342.584,
+          "fin": 342.654
+        },
+        {
+          "texto": "amanecer.",
+          "inicio": 342.7,
+          "fin": 343.443
+        },
+        {
+          "texto": "No",
+          "inicio": 344.047,
+          "fin": 344.198
+        },
+        {
+          "texto": "hizo",
+          "inicio": 344.221,
+          "fin": 344.43
+        },
+        {
+          "texto": "preguntas.",
+          "inicio": 344.488,
+          "fin": 345.301
+        },
+        {
+          "texto": "Salió",
+          "inicio": 346.102,
+          "fin": 346.462
+        },
+        {
+          "texto": "en",
+          "inicio": 346.50800000000004,
+          "fin": 346.555
+        },
+        {
+          "texto": "ese",
+          "inicio": 346.601,
+          "fin": 346.717
+        },
+        {
+          "texto": "mismo",
+          "inicio": 346.764,
+          "fin": 347.019
+        },
+        {
+          "texto": "momento.",
+          "inicio": 347.06600000000003,
+          "fin": 347.716
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "texto": "Así, la Sagrada Familia vivió como refugiada en un país extranjero.",
+      "clave": "refugiada",
+      "inicio": 348.041,
+      "fin": 352.371,
+      "palabras": [
+        {
+          "texto": "Así,",
+          "inicio": 348.041,
+          "fin": 348.621
+        },
+        {
+          "texto": "la",
+          "inicio": 348.946,
+          "fin": 349.039
+        },
+        {
+          "texto": "Sagrada",
+          "inicio": 349.07399999999996,
+          "fin": 349.422
+        },
+        {
+          "texto": "Familia",
+          "inicio": 349.469,
+          "fin": 349.887
+        },
+        {
+          "texto": "vivió",
+          "inicio": 349.933,
+          "fin": 350.27
+        },
+        {
+          "texto": "como",
+          "inicio": 350.34000000000003,
+          "fin": 350.502
+        },
+        {
+          "texto": "refugiada",
+          "inicio": 350.56,
+          "fin": 351.036
+        },
+        {
+          "texto": "en",
+          "inicio": 351.06,
+          "fin": 351.106
+        },
+        {
+          "texto": "un",
+          "inicio": 351.187,
+          "fin": 351.257
+        },
+        {
+          "texto": "país",
+          "inicio": 351.303,
+          "fin": 351.547
+        },
+        {
+          "texto": "extranjero.",
+          "inicio": 351.605,
+          "fin": 352.371
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "texto": "Otra lengua, otras costumbres, y un carpintero buscando trabajo lejos de su tierra.",
+      "clave": "trabajo",
+      "inicio": 352.964,
+      "fin": 358.397,
+      "palabras": [
+        {
+          "texto": "Otra",
+          "inicio": 352.964,
+          "fin": 353.277
+        },
+        {
+          "texto": "lengua,",
+          "inicio": 353.323,
+          "fin": 353.823
+        },
+        {
+          "texto": "otras",
+          "inicio": 353.99699999999996,
+          "fin": 354.31
+        },
+        {
+          "texto": "costumbres,",
+          "inicio": 354.368,
+          "fin": 355.181
+        },
+        {
+          "texto": "y",
+          "inicio": 355.62199999999996,
+          "fin": 355.68
+        },
+        {
+          "texto": "un",
+          "inicio": 355.762,
+          "fin": 355.82
+        },
+        {
+          "texto": "carpintero",
+          "inicio": 355.854,
+          "fin": 356.423
+        },
+        {
+          "texto": "buscando",
+          "inicio": 356.47,
+          "fin": 356.853
+        },
+        {
+          "texto": "trabajo",
+          "inicio": 356.899,
+          "fin": 357.259
+        },
+        {
+          "texto": "lejos",
+          "inicio": 357.306,
+          "fin": 357.573
+        },
+        {
+          "texto": "de",
+          "inicio": 357.608,
+          "fin": 357.666
+        },
+        {
+          "texto": "su",
+          "inicio": 357.7,
+          "fin": 357.817
+        },
+        {
+          "texto": "tierra.",
+          "inicio": 357.875,
+          "fin": 358.397
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "texto": "Por eso hoy la Iglesia lo invoca como patrono de los exiliados.",
+      "clave": "exiliados",
+      "inicio": 358.83799999999997,
+      "fin": 363.273,
+      "palabras": [
+        {
+          "texto": "Por",
+          "inicio": 358.83799999999997,
+          "fin": 359.024
+        },
+        {
+          "texto": "eso",
+          "inicio": 359.082,
+          "fin": 359.337
+        },
+        {
+          "texto": "hoy",
+          "inicio": 359.40700000000004,
+          "fin": 359.651
+        },
+        {
+          "texto": "la",
+          "inicio": 359.73199999999997,
+          "fin": 359.802
+        },
+        {
+          "texto": "Iglesia",
+          "inicio": 359.84799999999996,
+          "fin": 360.406
+        },
+        {
+          "texto": "lo",
+          "inicio": 360.916,
+          "fin": 361.044
+        },
+        {
+          "texto": "invoca",
+          "inicio": 361.102,
+          "fin": 361.43899999999996
+        },
+        {
+          "texto": "como",
+          "inicio": 361.485,
+          "fin": 361.671
+        },
+        {
+          "texto": "patrono",
+          "inicio": 361.71799999999996,
+          "fin": 362.101
+        },
+        {
+          "texto": "de",
+          "inicio": 362.147,
+          "fin": 362.19399999999996
+        },
+        {
+          "texto": "los",
+          "inicio": 362.24,
+          "fin": 362.356
+        },
+        {
+          "texto": "exiliados.",
+          "inicio": 362.414,
+          "fin": 363.273
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "texto": "Pasó el tiempo, y Herodes murió.",
+      "clave": "murió",
+      "inicio": 363.877,
+      "fin": 367.78999999999996,
+      "palabras": [
+        {
+          "texto": "Pasó",
+          "inicio": 363.877,
+          "fin": 364.132
+        },
+        {
+          "texto": "el",
+          "inicio": 364.179,
+          "fin": 364.248
+        },
+        {
+          "texto": "tiempo,",
+          "inicio": 364.318,
+          "fin": 364.90999999999997
+        },
+        {
+          "texto": "y",
+          "inicio": 365.514,
+          "fin": 365.60699999999997
+        },
+        {
+          "texto": "Herodes",
+          "inicio": 365.653,
+          "fin": 366.129
+        },
+        {
+          "texto": "murió.",
+          "inicio": 366.303,
+          "fin": 367.78999999999996
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "texto": "Tercer sueño: «Levántate, toma al niño y a su madre, y vuelve a la tierra de Israel».",
+      "clave": "vuelve",
+      "inicio": 367.830204,
+      "fin": 374.483204,
+      "palabras": [
+        {
+          "texto": "Tercer",
+          "inicio": 367.830204,
+          "fin": 368.236204
+        },
+        {
+          "texto": "sueño:",
+          "inicio": 368.294204,
+          "fin": 368.794204
+        },
+        {
+          "texto": "«Levántate,",
+          "inicio": 369.11920399999997,
+          "fin": 370.210204
+        },
+        {
+          "texto": "toma",
+          "inicio": 370.53520399999996,
+          "fin": 370.837204
+        },
+        {
+          "texto": "al",
+          "inicio": 370.87220399999995,
+          "fin": 370.95320399999997
+        },
+        {
+          "texto": "niño",
+          "inicio": 371.034204,
+          "fin": 371.33620399999995
+        },
+        {
+          "texto": "y",
+          "inicio": 371.383204,
+          "fin": 371.406204
+        },
+        {
+          "texto": "a",
+          "inicio": 371.452204,
+          "fin": 371.476204
+        },
+        {
+          "texto": "su",
+          "inicio": 371.510204,
+          "fin": 371.615204
+        },
+        {
+          "texto": "madre,",
+          "inicio": 371.673204,
+          "fin": 372.23020399999996
+        },
+        {
+          "texto": "y",
+          "inicio": 372.555204,
+          "fin": 372.637204
+        },
+        {
+          "texto": "vuelve",
+          "inicio": 372.70620399999996,
+          "fin": 372.97320399999995
+        },
+        {
+          "texto": "a",
+          "inicio": 373.008204,
+          "fin": 373.031204
+        },
+        {
+          "texto": "la",
+          "inicio": 373.07820399999997,
+          "fin": 373.147204
+        },
+        {
+          "texto": "tierra",
+          "inicio": 373.217204,
+          "fin": 373.55420399999997
+        },
+        {
+          "texto": "de",
+          "inicio": 373.60020399999996,
+          "fin": 373.681204
+        },
+        {
+          "texto": "Israel».",
+          "inicio": 373.705204,
+          "fin": 374.483204
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "texto": "Pero en Judea gobernaba Arquelao, el hijo de Herodes, y José tuvo miedo de ir allá.",
+      "clave": "Arquelao",
+      "inicio": 375.17920399999997,
+      "fin": 380.647204,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 375.17920399999997,
+          "fin": 375.411204
+        },
+        {
+          "texto": "en",
+          "inicio": 375.45820399999997,
+          "fin": 375.51620399999996
+        },
+        {
+          "texto": "Judea",
+          "inicio": 375.551204,
+          "fin": 375.829204
+        },
+        {
+          "texto": "gobernaba",
+          "inicio": 375.876204,
+          "fin": 376.433204
+        },
+        {
+          "texto": "Arquelao,",
+          "inicio": 376.526204,
+          "fin": 377.315204
+        },
+        {
+          "texto": "el",
+          "inicio": 377.490204,
+          "fin": 377.62920399999996
+        },
+        {
+          "texto": "hijo",
+          "inicio": 377.664204,
+          "fin": 377.82620399999996
+        },
+        {
+          "texto": "de",
+          "inicio": 377.873204,
+          "fin": 377.942204
+        },
+        {
+          "texto": "Herodes,",
+          "inicio": 377.966204,
+          "fin": 378.72020399999997
+        },
+        {
+          "texto": "y",
+          "inicio": 378.964204,
+          "fin": 379.05720399999996
+        },
+        {
+          "texto": "José",
+          "inicio": 379.103204,
+          "fin": 379.324204
+        },
+        {
+          "texto": "tuvo",
+          "inicio": 379.359204,
+          "fin": 379.568204
+        },
+        {
+          "texto": "miedo",
+          "inicio": 379.626204,
+          "fin": 379.870204
+        },
+        {
+          "texto": "de",
+          "inicio": 379.928204,
+          "fin": 379.986204
+        },
+        {
+          "texto": "ir",
+          "inicio": 380.00920399999995,
+          "fin": 380.102204
+        },
+        {
+          "texto": "allá.",
+          "inicio": 380.16020399999996,
+          "fin": 380.647204
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "texto": "Y en un cuarto sueño, Dios le indicó que se fuera a Galilea.",
+      "clave": "cuarto",
+      "inicio": 381.15820399999996,
+      "fin": 384.87420399999996,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 381.15820399999996,
+          "fin": 381.228204
+        },
+        {
+          "texto": "en",
+          "inicio": 381.274204,
+          "fin": 381.32120399999997
+        },
+        {
+          "texto": "un",
+          "inicio": 381.37920399999996,
+          "fin": 381.449204
+        },
+        {
+          "texto": "cuarto",
+          "inicio": 381.495204,
+          "fin": 381.774204
+        },
+        {
+          "texto": "sueño,",
+          "inicio": 381.832204,
+          "fin": 382.389204
+        },
+        {
+          "texto": "Dios",
+          "inicio": 382.54020399999996,
+          "fin": 382.784204
+        },
+        {
+          "texto": "le",
+          "inicio": 382.842204,
+          "fin": 382.900204
+        },
+        {
+          "texto": "indicó",
+          "inicio": 382.935204,
+          "fin": 383.23720399999996
+        },
+        {
+          "texto": "que",
+          "inicio": 383.29520399999996,
+          "fin": 383.376204
+        },
+        {
+          "texto": "se",
+          "inicio": 383.411204,
+          "fin": 383.49220399999996
+        },
+        {
+          "texto": "fuera",
+          "inicio": 383.550204,
+          "fin": 383.852204
+        },
+        {
+          "texto": "a",
+          "inicio": 383.96820399999996,
+          "fin": 384.026204
+        },
+        {
+          "texto": "Galilea.",
+          "inicio": 384.108204,
+          "fin": 384.87420399999996
+        }
+      ]
+    },
+    {
+      "n": 73,
+      "texto": "Así volvieron a su casa de siempre, en Nazaret.",
+      "clave": "casa",
+      "inicio": 385.385204,
+      "fin": 388.426204,
+      "palabras": [
+        {
+          "texto": "Así",
+          "inicio": 385.385204,
+          "fin": 385.628204
+        },
+        {
+          "texto": "volvieron",
+          "inicio": 385.675204,
+          "fin": 386.058204
+        },
+        {
+          "texto": "a",
+          "inicio": 386.116204,
+          "fin": 386.139204
+        },
+        {
+          "texto": "su",
+          "inicio": 386.174204,
+          "fin": 386.279204
+        },
+        {
+          "texto": "casa",
+          "inicio": 386.337204,
+          "fin": 386.56920399999996
+        },
+        {
+          "texto": "de",
+          "inicio": 386.627204,
+          "fin": 386.70820399999997
+        },
+        {
+          "texto": "siempre,",
+          "inicio": 386.755204,
+          "fin": 387.39320399999997
+        },
+        {
+          "texto": "en",
+          "inicio": 387.544204,
+          "fin": 387.67220399999997
+        },
+        {
+          "texto": "Nazaret.",
+          "inicio": 387.741204,
+          "fin": 388.426204
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "texto": "Cuatro sueños, cuatro órdenes, y las cuatro veces José obedeció sin decir una palabra.",
+      "clave": "obedeció",
+      "inicio": 389.123204,
+      "fin": 395.149204,
+      "palabras": [
+        {
+          "texto": "Cuatro",
+          "inicio": 389.123204,
+          "fin": 389.436204
+        },
+        {
+          "texto": "sueños,",
+          "inicio": 389.483204,
+          "fin": 390.075204
+        },
+        {
+          "texto": "cuatro",
+          "inicio": 390.168204,
+          "fin": 390.51620399999996
+        },
+        {
+          "texto": "órdenes,",
+          "inicio": 390.574204,
+          "fin": 391.25920399999995
+        },
+        {
+          "texto": "y",
+          "inicio": 391.642204,
+          "fin": 391.712204
+        },
+        {
+          "texto": "las",
+          "inicio": 391.805204,
+          "fin": 391.921204
+        },
+        {
+          "texto": "cuatro",
+          "inicio": 391.979204,
+          "fin": 392.234204
+        },
+        {
+          "texto": "veces",
+          "inicio": 392.269204,
+          "fin": 392.525204
+        },
+        {
+          "texto": "José",
+          "inicio": 392.57120399999997,
+          "fin": 392.989204
+        },
+        {
+          "texto": "obedeció",
+          "inicio": 393.16320399999995,
+          "fin": 393.74420399999997
+        },
+        {
+          "texto": "sin",
+          "inicio": 393.813204,
+          "fin": 393.95320399999997
+        },
+        {
+          "texto": "decir",
+          "inicio": 393.99920399999996,
+          "fin": 394.231204
+        },
+        {
+          "texto": "una",
+          "inicio": 394.27820399999996,
+          "fin": 394.41720399999997
+        },
+        {
+          "texto": "palabra.",
+          "inicio": 394.47520399999996,
+          "fin": 395.149204
+        }
+      ]
+    },
+    {
+      "n": 75,
+      "texto": "Y aquí empiezan los años que casi nadie cuenta: la vida sencilla en Nazaret.",
+      "clave": "sencilla",
+      "inicio": 395.752204,
+      "fin": 401.407204,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 395.752204,
+          "fin": 395.822204
+        },
+        {
+          "texto": "aquí",
+          "inicio": 395.880204,
+          "fin": 396.101204
+        },
+        {
+          "texto": "empiezan",
+          "inicio": 396.147204,
+          "fin": 396.623204
+        },
+        {
+          "texto": "los",
+          "inicio": 396.64620399999995,
+          "fin": 396.786204
+        },
+        {
+          "texto": "años",
+          "inicio": 396.80920399999997,
+          "fin": 397.07620399999996
+        },
+        {
+          "texto": "que",
+          "inicio": 397.122204,
+          "fin": 397.192204
+        },
+        {
+          "texto": "casi",
+          "inicio": 397.250204,
+          "fin": 397.447204
+        },
+        {
+          "texto": "nadie",
+          "inicio": 397.505204,
+          "fin": 397.738204
+        },
+        {
+          "texto": "cuenta:",
+          "inicio": 397.77320399999996,
+          "fin": 398.400204
+        },
+        {
+          "texto": "la",
+          "inicio": 399.003204,
+          "fin": 399.096204
+        },
+        {
+          "texto": "vida",
+          "inicio": 399.154204,
+          "fin": 399.39820399999996
+        },
+        {
+          "texto": "sencilla",
+          "inicio": 399.46820399999996,
+          "fin": 400.15320399999996
+        },
+        {
+          "texto": "en",
+          "inicio": 400.43220399999996,
+          "fin": 400.594204
+        },
+        {
+          "texto": "Nazaret.",
+          "inicio": 400.664204,
+          "fin": 401.407204
+        }
+      ]
+    },
+    {
+      "n": 76,
+      "texto": "Por eso a esta etapa se le llama la vida oculta de Jesús.",
+      "clave": "oculta",
+      "inicio": 401.848204,
+      "fin": 405.366204,
+      "palabras": [
+        {
+          "texto": "Por",
+          "inicio": 401.848204,
+          "fin": 402.034204
+        },
+        {
+          "texto": "eso",
+          "inicio": 402.092204,
+          "fin": 402.40520399999997
+        },
+        {
+          "texto": "a",
+          "inicio": 402.614204,
+          "fin": 402.707204
+        },
+        {
+          "texto": "esta",
+          "inicio": 402.74220399999996,
+          "fin": 402.916204
+        },
+        {
+          "texto": "etapa",
+          "inicio": 402.93920399999996,
+          "fin": 403.23020399999996
+        },
+        {
+          "texto": "se",
+          "inicio": 403.26420399999995,
+          "fin": 403.334204
+        },
+        {
+          "texto": "le",
+          "inicio": 403.380204,
+          "fin": 403.438204
+        },
+        {
+          "texto": "llama",
+          "inicio": 403.462204,
+          "fin": 403.659204
+        },
+        {
+          "texto": "la",
+          "inicio": 403.70620399999996,
+          "fin": 403.775204
+        },
+        {
+          "texto": "vida",
+          "inicio": 403.822204,
+          "fin": 404.031204
+        },
+        {
+          "texto": "oculta",
+          "inicio": 404.077204,
+          "fin": 404.541204
+        },
+        {
+          "texto": "de",
+          "inicio": 404.58820399999996,
+          "fin": 404.65820399999996
+        },
+        {
+          "texto": "Jesús.",
+          "inicio": 404.704204,
+          "fin": 405.366204
+        }
+      ]
+    },
+    {
+      "n": 77,
+      "texto": "En el Evangelio de Marcos, a Jesús mismo lo llaman «el carpintero».",
+      "clave": "carpintero",
+      "inicio": 405.80720399999996,
+      "fin": 410.358204,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 405.80720399999996,
+          "fin": 405.94620399999997
+        },
+        {
+          "texto": "el",
+          "inicio": 405.993204,
+          "fin": 406.051204
+        },
+        {
+          "texto": "Evangelio",
+          "inicio": 406.109204,
+          "fin": 406.56220399999995
+        },
+        {
+          "texto": "de",
+          "inicio": 406.608204,
+          "fin": 406.666204
+        },
+        {
+          "texto": "Marcos,",
+          "inicio": 406.724204,
+          "fin": 407.363204
+        },
+        {
+          "texto": "a",
+          "inicio": 407.688204,
+          "fin": 407.757204
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 407.815204,
+          "fin": 408.14120399999996
+        },
+        {
+          "texto": "mismo",
+          "inicio": 408.210204,
+          "fin": 408.489204
+        },
+        {
+          "texto": "lo",
+          "inicio": 408.53520399999996,
+          "fin": 408.61720399999996
+        },
+        {
+          "texto": "llaman",
+          "inicio": 408.640204,
+          "fin": 409.01120399999996
+        },
+        {
+          "texto": "«el",
+          "inicio": 409.08120399999996,
+          "fin": 409.348204
+        },
+        {
+          "texto": "carpintero».",
+          "inicio": 409.42920399999997,
+          "fin": 410.358204
+        }
+      ]
+    },
+    {
+      "n": 78,
+      "texto": "O sea, aprendió el oficio en casa, como hacían los hijos con sus padres en aquel tiempo.",
+      "clave": "oficio",
+      "inicio": 410.962204,
+      "fin": 416.94120399999997,
+      "palabras": [
+        {
+          "texto": "O",
+          "inicio": 410.962204,
+          "fin": 411.031204
+        },
+        {
+          "texto": "sea,",
+          "inicio": 411.12420399999996,
+          "fin": 411.55420399999997
+        },
+        {
+          "texto": "aprendió",
+          "inicio": 411.83320399999997,
+          "fin": 412.34320399999996
+        },
+        {
+          "texto": "el",
+          "inicio": 412.401204,
+          "fin": 412.459204
+        },
+        {
+          "texto": "oficio",
+          "inicio": 412.517204,
+          "fin": 412.866204
+        },
+        {
+          "texto": "en",
+          "inicio": 412.88920399999995,
+          "fin": 412.947204
+        },
+        {
+          "texto": "casa,",
+          "inicio": 413.017204,
+          "fin": 413.52820399999996
+        },
+        {
+          "texto": "como",
+          "inicio": 413.853204,
+          "fin": 414.050204
+        },
+        {
+          "texto": "hacían",
+          "inicio": 414.073204,
+          "fin": 414.317204
+        },
+        {
+          "texto": "los",
+          "inicio": 414.34020399999997,
+          "fin": 414.45620399999996
+        },
+        {
+          "texto": "hijos",
+          "inicio": 414.491204,
+          "fin": 414.747204
+        },
+        {
+          "texto": "con",
+          "inicio": 414.805204,
+          "fin": 414.93220399999996
+        },
+        {
+          "texto": "sus",
+          "inicio": 414.979204,
+          "fin": 415.130204
+        },
+        {
+          "texto": "padres",
+          "inicio": 415.199204,
+          "fin": 415.699204
+        },
+        {
+          "texto": "en",
+          "inicio": 415.85020399999996,
+          "fin": 415.977204
+        },
+        {
+          "texto": "aquel",
+          "inicio": 416.03520399999996,
+          "fin": 416.26820399999997
+        },
+        {
+          "texto": "tiempo.",
+          "inicio": 416.337204,
+          "fin": 416.94120399999997
+        }
+      ]
+    },
+    {
+      "n": 79,
+      "texto": "Imagínate al Hijo de Dios aprendiendo a trabajar la madera junto a José.",
+      "clave": "madera",
+      "inicio": 417.638204,
+      "fin": 421.71320399999996,
+      "palabras": [
+        {
+          "texto": "Imagínate",
+          "inicio": 417.638204,
+          "fin": 418.265204
+        },
+        {
+          "texto": "al",
+          "inicio": 418.311204,
+          "fin": 418.404204
+        },
+        {
+          "texto": "Hijo",
+          "inicio": 418.43920399999996,
+          "fin": 418.63620399999996
+        },
+        {
+          "texto": "de",
+          "inicio": 418.69420399999996,
+          "fin": 418.76420399999995
+        },
+        {
+          "texto": "Dios",
+          "inicio": 418.822204,
+          "fin": 419.228204
+        },
+        {
+          "texto": "aprendiendo",
+          "inicio": 419.43720399999995,
+          "fin": 419.948204
+        },
+        {
+          "texto": "a",
+          "inicio": 419.971204,
+          "fin": 419.99420399999997
+        },
+        {
+          "texto": "trabajar",
+          "inicio": 420.01820399999997,
+          "fin": 420.378204
+        },
+        {
+          "texto": "la",
+          "inicio": 420.412204,
+          "fin": 420.47020399999997
+        },
+        {
+          "texto": "madera",
+          "inicio": 420.52820399999996,
+          "fin": 420.81920399999996
+        },
+        {
+          "texto": "junto",
+          "inicio": 420.86520399999995,
+          "fin": 421.097204
+        },
+        {
+          "texto": "a",
+          "inicio": 421.121204,
+          "fin": 421.144204
+        },
+        {
+          "texto": "José.",
+          "inicio": 421.17920399999997,
+          "fin": 421.71320399999996
+        }
+      ]
+    },
+    {
+      "n": 80,
+      "texto": "De esos años, los Evangelios cuentan un solo episodio. Y es de los más bonitos.",
+      "clave": "episodio",
+      "inicio": 422.31620399999997,
+      "fin": 427.854204,
+      "palabras": [
+        {
+          "texto": "De",
+          "inicio": 422.31620399999997,
+          "fin": 422.45620399999996
+        },
+        {
+          "texto": "esos",
+          "inicio": 422.491204,
+          "fin": 422.723204
+        },
+        {
+          "texto": "años,",
+          "inicio": 422.758204,
+          "fin": 423.33820399999996
+        },
+        {
+          "texto": "los",
+          "inicio": 423.512204,
+          "fin": 423.652204
+        },
+        {
+          "texto": "Evangelios",
+          "inicio": 423.710204,
+          "fin": 424.128204
+        },
+        {
+          "texto": "cuentan",
+          "inicio": 424.186204,
+          "fin": 424.534204
+        },
+        {
+          "texto": "un",
+          "inicio": 424.662204,
+          "fin": 424.76620399999996
+        },
+        {
+          "texto": "solo",
+          "inicio": 424.83620399999995,
+          "fin": 425.103204
+        },
+        {
+          "texto": "episodio.",
+          "inicio": 425.138204,
+          "fin": 425.85720399999997
+        },
+        {
+          "texto": "Y",
+          "inicio": 426.46120399999995,
+          "fin": 426.55420399999997
+        },
+        {
+          "texto": "es",
+          "inicio": 426.635204,
+          "fin": 426.693204
+        },
+        {
+          "texto": "de",
+          "inicio": 426.717204,
+          "fin": 426.763204
+        },
+        {
+          "texto": "los",
+          "inicio": 426.80920399999997,
+          "fin": 426.926204
+        },
+        {
+          "texto": "más",
+          "inicio": 426.972204,
+          "fin": 427.111204
+        },
+        {
+          "texto": "bonitos.",
+          "inicio": 427.15820399999996,
+          "fin": 427.854204
+        }
+      ]
+    },
+    {
+      "n": 81,
+      "texto": "Cuando Jesús tenía doce años, la familia subió a Jerusalén para la fiesta de la Pascua.",
+      "clave": "Pascua",
+      "inicio": 428.296204,
+      "fin": 433.28820399999995,
+      "palabras": [
+        {
+          "texto": "Cuando",
+          "inicio": 428.296204,
+          "fin": 428.597204
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 428.644204,
+          "fin": 428.93420399999997
+        },
+        {
+          "texto": "tenía",
+          "inicio": 428.981204,
+          "fin": 429.248204
+        },
+        {
+          "texto": "doce",
+          "inicio": 429.306204,
+          "fin": 429.60720399999997
+        },
+        {
+          "texto": "años,",
+          "inicio": 429.642204,
+          "fin": 430.188204
+        },
+        {
+          "texto": "la",
+          "inicio": 430.339204,
+          "fin": 430.420204
+        },
+        {
+          "texto": "familia",
+          "inicio": 430.478204,
+          "fin": 430.85020399999996
+        },
+        {
+          "texto": "subió",
+          "inicio": 430.896204,
+          "fin": 431.198204
+        },
+        {
+          "texto": "a",
+          "inicio": 431.233204,
+          "fin": 431.25620399999997
+        },
+        {
+          "texto": "Jerusalén",
+          "inicio": 431.279204,
+          "fin": 431.79020399999996
+        },
+        {
+          "texto": "para",
+          "inicio": 431.86020399999995,
+          "fin": 432.022204
+        },
+        {
+          "texto": "la",
+          "inicio": 432.069204,
+          "fin": 432.127204
+        },
+        {
+          "texto": "fiesta",
+          "inicio": 432.185204,
+          "fin": 432.47520399999996
+        },
+        {
+          "texto": "de",
+          "inicio": 432.522204,
+          "fin": 432.580204
+        },
+        {
+          "texto": "la",
+          "inicio": 432.626204,
+          "fin": 432.69620399999997
+        },
+        {
+          "texto": "Pascua.",
+          "inicio": 432.75420399999996,
+          "fin": 433.28820399999995
+        }
+      ]
+    },
+    {
+      "n": 82,
+      "texto": "Al regresar, José y María caminaron un día entero creyendo que el niño iba con los demás.",
+      "clave": "día",
+      "inicio": 434.24020399999995,
+      "fin": 439.209204,
+      "palabras": [
+        {
+          "texto": "Al",
+          "inicio": 434.24020399999995,
+          "fin": 434.414204
+        },
+        {
+          "texto": "regresar,",
+          "inicio": 434.495204,
+          "fin": 435.20320399999997
+        },
+        {
+          "texto": "José",
+          "inicio": 435.238204,
+          "fin": 435.529204
+        },
+        {
+          "texto": "y",
+          "inicio": 435.563204,
+          "fin": 435.587204
+        },
+        {
+          "texto": "María",
+          "inicio": 435.645204,
+          "fin": 435.900204
+        },
+        {
+          "texto": "caminaron",
+          "inicio": 435.94620399999997,
+          "fin": 436.399204
+        },
+        {
+          "texto": "un",
+          "inicio": 436.481204,
+          "fin": 436.56220399999995
+        },
+        {
+          "texto": "día",
+          "inicio": 436.608204,
+          "fin": 436.771204
+        },
+        {
+          "texto": "entero",
+          "inicio": 436.794204,
+          "fin": 437.166204
+        },
+        {
+          "texto": "creyendo",
+          "inicio": 437.212204,
+          "fin": 437.59520399999997
+        },
+        {
+          "texto": "que",
+          "inicio": 437.65320399999996,
+          "fin": 437.723204
+        },
+        {
+          "texto": "el",
+          "inicio": 437.746204,
+          "fin": 437.79220399999997
+        },
+        {
+          "texto": "niño",
+          "inicio": 437.86220399999996,
+          "fin": 438.12920399999996
+        },
+        {
+          "texto": "iba",
+          "inicio": 438.164204,
+          "fin": 438.33820399999996
+        },
+        {
+          "texto": "con",
+          "inicio": 438.385204,
+          "fin": 438.512204
+        },
+        {
+          "texto": "los",
+          "inicio": 438.536204,
+          "fin": 438.640204
+        },
+        {
+          "texto": "demás.",
+          "inicio": 438.675204,
+          "fin": 439.209204
+        }
+      ]
+    },
+    {
+      "n": 83,
+      "texto": "Pero Jesús se había quedado en Jerusalén.",
+      "clave": "quedado",
+      "inicio": 439.813204,
+      "fin": 441.87920399999996,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 439.813204,
+          "fin": 440.03320399999996
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 440.068204,
+          "fin": 440.335204
+        },
+        {
+          "texto": "se",
+          "inicio": 440.358204,
+          "fin": 440.428204
+        },
+        {
+          "texto": "había",
+          "inicio": 440.45120399999996,
+          "fin": 440.649204
+        },
+        {
+          "texto": "quedado",
+          "inicio": 440.695204,
+          "fin": 441.008204
+        },
+        {
+          "texto": "en",
+          "inicio": 441.032204,
+          "fin": 441.07820399999997
+        },
+        {
+          "texto": "Jerusalén.",
+          "inicio": 441.125204,
+          "fin": 441.87920399999996
+        }
+      ]
+    },
+    {
+      "n": 84,
+      "texto": "Lo buscaron entre parientes y conocidos, y volvieron a la ciudad.",
+      "clave": "buscaron",
+      "inicio": 442.320204,
+      "fin": 446.221204,
+      "palabras": [
+        {
+          "texto": "Lo",
+          "inicio": 442.320204,
+          "fin": 442.425204
+        },
+        {
+          "texto": "buscaron",
+          "inicio": 442.460204,
+          "fin": 442.808204
+        },
+        {
+          "texto": "entre",
+          "inicio": 442.854204,
+          "fin": 443.05220399999996
+        },
+        {
+          "texto": "parientes",
+          "inicio": 443.098204,
+          "fin": 443.505204
+        },
+        {
+          "texto": "y",
+          "inicio": 443.551204,
+          "fin": 443.574204
+        },
+        {
+          "texto": "conocidos,",
+          "inicio": 443.632204,
+          "fin": 444.503204
+        },
+        {
+          "texto": "y",
+          "inicio": 444.82820399999997,
+          "fin": 444.921204
+        },
+        {
+          "texto": "volvieron",
+          "inicio": 444.979204,
+          "fin": 445.351204
+        },
+        {
+          "texto": "a",
+          "inicio": 445.409204,
+          "fin": 445.43220399999996
+        },
+        {
+          "texto": "la",
+          "inicio": 445.478204,
+          "fin": 445.548204
+        },
+        {
+          "texto": "ciudad.",
+          "inicio": 445.58320399999997,
+          "fin": 446.221204
+        }
+      ]
+    },
+    {
+      "n": 85,
+      "texto": "Al tercer día lo encontraron en el templo, sentado entre los maestros, escuchándolos y haciéndoles preguntas.",
+      "clave": "tercer",
+      "inicio": 446.91820399999995,
+      "fin": 453.303204,
+      "palabras": [
+        {
+          "texto": "Al",
+          "inicio": 446.91820399999995,
+          "fin": 447.05720399999996
+        },
+        {
+          "texto": "tercer",
+          "inicio": 447.104204,
+          "fin": 447.359204
+        },
+        {
+          "texto": "día",
+          "inicio": 447.40520399999997,
+          "fin": 447.522204
+        },
+        {
+          "texto": "lo",
+          "inicio": 447.556204,
+          "fin": 447.614204
+        },
+        {
+          "texto": "encontraron",
+          "inicio": 447.649204,
+          "fin": 448.137204
+        },
+        {
+          "texto": "en",
+          "inicio": 448.183204,
+          "fin": 448.23020399999996
+        },
+        {
+          "texto": "el",
+          "inicio": 448.299204,
+          "fin": 448.35720399999997
+        },
+        {
+          "texto": "templo,",
+          "inicio": 448.42720399999996,
+          "fin": 449.01920399999995
+        },
+        {
+          "texto": "sentado",
+          "inicio": 449.170204,
+          "fin": 449.58820399999996
+        },
+        {
+          "texto": "entre",
+          "inicio": 449.611204,
+          "fin": 449.80920399999997
+        },
+        {
+          "texto": "los",
+          "inicio": 449.832204,
+          "fin": 449.948204
+        },
+        {
+          "texto": "maestros,",
+          "inicio": 450.00620399999997,
+          "fin": 450.784204
+        },
+        {
+          "texto": "escuchándolos",
+          "inicio": 450.80720399999996,
+          "fin": 451.690204
+        },
+        {
+          "texto": "y",
+          "inicio": 451.84020399999997,
+          "fin": 451.91020399999996
+        },
+        {
+          "texto": "haciéndoles",
+          "inicio": 451.957204,
+          "fin": 452.421204
+        },
+        {
+          "texto": "preguntas.",
+          "inicio": 452.467204,
+          "fin": 453.303204
+        }
+      ]
+    },
+    {
+      "n": 86,
+      "texto": "Y María le dijo: «Hijo, ¿por qué nos has hecho esto? Tu padre y yo te buscábamos angustiados».",
+      "clave": "angustiados",
+      "inicio": 453.907204,
+      "fin": 460.722204,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 453.907204,
+          "fin": 454.000204
+        },
+        {
+          "texto": "María",
+          "inicio": 454.08120399999996,
+          "fin": 454.337204
+        },
+        {
+          "texto": "le",
+          "inicio": 454.383204,
+          "fin": 454.45320399999997
+        },
+        {
+          "texto": "dijo:",
+          "inicio": 454.49920399999996,
+          "fin": 455.022204
+        },
+        {
+          "texto": "«Hijo,",
+          "inicio": 455.19620399999997,
+          "fin": 455.904204
+        },
+        {
+          "texto": "¿por",
+          "inicio": 456.14820399999996,
+          "fin": 456.508204
+        },
+        {
+          "texto": "qué",
+          "inicio": 456.56620399999997,
+          "fin": 456.647204
+        },
+        {
+          "texto": "nos",
+          "inicio": 456.705204,
+          "fin": 456.83320399999997
+        },
+        {
+          "texto": "has",
+          "inicio": 456.87920399999996,
+          "fin": 456.972204
+        },
+        {
+          "texto": "hecho",
+          "inicio": 457.01820399999997,
+          "fin": 457.262204
+        },
+        {
+          "texto": "esto?",
+          "inicio": 457.320204,
+          "fin": 457.912204
+        },
+        {
+          "texto": "Tu",
+          "inicio": 458.238204,
+          "fin": 458.377204
+        },
+        {
+          "texto": "padre",
+          "inicio": 458.435204,
+          "fin": 458.760204
+        },
+        {
+          "texto": "y",
+          "inicio": 458.78320399999996,
+          "fin": 458.806204
+        },
+        {
+          "texto": "yo",
+          "inicio": 458.876204,
+          "fin": 458.992204
+        },
+        {
+          "texto": "te",
+          "inicio": 459.050204,
+          "fin": 459.13120399999997
+        },
+        {
+          "texto": "buscábamos",
+          "inicio": 459.166204,
+          "fin": 459.700204
+        },
+        {
+          "texto": "angustiados».",
+          "inicio": 459.758204,
+          "fin": 460.722204
+        }
+      ]
+    },
+    {
+      "n": 87,
+      "texto": "«Tu padre y yo». Así llamaba María a José delante de Jesús.",
+      "clave": "padre",
+      "inicio": 461.32620399999996,
+      "fin": 465.633204,
+      "palabras": [
+        {
+          "texto": "«Tu",
+          "inicio": 461.32620399999996,
+          "fin": 461.616204
+        },
+        {
+          "texto": "padre",
+          "inicio": 461.674204,
+          "fin": 461.99920399999996
+        },
+        {
+          "texto": "y",
+          "inicio": 462.022204,
+          "fin": 462.045204
+        },
+        {
+          "texto": "yo».",
+          "inicio": 462.127204,
+          "fin": 462.59120399999995
+        },
+        {
+          "texto": "Así",
+          "inicio": 463.102204,
+          "fin": 463.38120399999997
+        },
+        {
+          "texto": "llamaba",
+          "inicio": 463.41520399999996,
+          "fin": 463.775204
+        },
+        {
+          "texto": "María",
+          "inicio": 463.822204,
+          "fin": 464.10020399999996
+        },
+        {
+          "texto": "a",
+          "inicio": 464.12420399999996,
+          "fin": 464.147204
+        },
+        {
+          "texto": "José",
+          "inicio": 464.193204,
+          "fin": 464.449204
+        },
+        {
+          "texto": "delante",
+          "inicio": 464.51820399999997,
+          "fin": 464.85520399999996
+        },
+        {
+          "texto": "de",
+          "inicio": 464.890204,
+          "fin": 464.960204
+        },
+        {
+          "texto": "Jesús.",
+          "inicio": 465.00620399999997,
+          "fin": 465.633204
+        }
+      ]
+    },
+    {
+      "n": 88,
+      "texto": "Lucas termina diciendo que Jesús bajó con ellos a Nazaret, y vivía sujeto a ellos.",
+      "clave": "sujeto",
+      "inicio": 466.330204,
+      "fin": 471.55420399999997,
+      "palabras": [
+        {
+          "texto": "Lucas",
+          "inicio": 466.330204,
+          "fin": 466.65520399999997
+        },
+        {
+          "texto": "termina",
+          "inicio": 466.71320399999996,
+          "fin": 467.061204
+        },
+        {
+          "texto": "diciendo",
+          "inicio": 467.10720399999997,
+          "fin": 467.525204
+        },
+        {
+          "texto": "que",
+          "inicio": 467.58320399999997,
+          "fin": 467.65320399999996
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 467.699204,
+          "fin": 468.048204
+        },
+        {
+          "texto": "bajó",
+          "inicio": 468.106204,
+          "fin": 468.35020399999996
+        },
+        {
+          "texto": "con",
+          "inicio": 468.40820399999996,
+          "fin": 468.55920399999997
+        },
+        {
+          "texto": "ellos",
+          "inicio": 468.640204,
+          "fin": 468.849204
+        },
+        {
+          "texto": "a",
+          "inicio": 468.907204,
+          "fin": 468.930204
+        },
+        {
+          "texto": "Nazaret,",
+          "inicio": 468.988204,
+          "fin": 469.685204
+        },
+        {
+          "texto": "y",
+          "inicio": 470.010204,
+          "fin": 470.103204
+        },
+        {
+          "texto": "vivía",
+          "inicio": 470.161204,
+          "fin": 470.43920399999996
+        },
+        {
+          "texto": "sujeto",
+          "inicio": 470.486204,
+          "fin": 470.892204
+        },
+        {
+          "texto": "a",
+          "inicio": 470.962204,
+          "fin": 470.997204
+        },
+        {
+          "texto": "ellos.",
+          "inicio": 471.055204,
+          "fin": 471.55420399999997
+        }
+      ]
+    },
+    {
+      "n": 89,
+      "texto": "Y que crecía en sabiduría, en estatura y en gracia delante de Dios y de los hombres.",
+      "clave": "crecía",
+      "inicio": 471.995204,
+      "fin": 477.19620399999997,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 471.995204,
+          "fin": 472.07620399999996
+        },
+        {
+          "texto": "que",
+          "inicio": 472.169204,
+          "fin": 472.239204
+        },
+        {
+          "texto": "crecía",
+          "inicio": 472.28520399999996,
+          "fin": 472.63420399999995
+        },
+        {
+          "texto": "en",
+          "inicio": 472.657204,
+          "fin": 472.70320399999997
+        },
+        {
+          "texto": "sabiduría,",
+          "inicio": 472.76120399999996,
+          "fin": 473.574204
+        },
+        {
+          "texto": "en",
+          "inicio": 473.72520399999996,
+          "fin": 473.84120399999995
+        },
+        {
+          "texto": "estatura",
+          "inicio": 473.911204,
+          "fin": 474.48020399999996
+        },
+        {
+          "texto": "y",
+          "inicio": 474.561204,
+          "fin": 474.584204
+        },
+        {
+          "texto": "en",
+          "inicio": 474.654204,
+          "fin": 474.712204
+        },
+        {
+          "texto": "gracia",
+          "inicio": 474.770204,
+          "fin": 475.130204
+        },
+        {
+          "texto": "delante",
+          "inicio": 475.176204,
+          "fin": 475.525204
+        },
+        {
+          "texto": "de",
+          "inicio": 475.55920399999997,
+          "fin": 475.62920399999996
+        },
+        {
+          "texto": "Dios",
+          "inicio": 475.68720399999995,
+          "fin": 476.024204
+        },
+        {
+          "texto": "y",
+          "inicio": 476.198204,
+          "fin": 476.26820399999997
+        },
+        {
+          "texto": "de",
+          "inicio": 476.337204,
+          "fin": 476.395204
+        },
+        {
+          "texto": "los",
+          "inicio": 476.430204,
+          "fin": 476.546204
+        },
+        {
+          "texto": "hombres.",
+          "inicio": 476.604204,
+          "fin": 477.19620399999997
+        }
+      ]
+    },
+    {
+      "n": 90,
+      "texto": "Después de ese día, José desaparece del relato.",
+      "clave": "desaparece",
+      "inicio": 477.89320399999997,
+      "fin": 480.86520399999995,
+      "palabras": [
+        {
+          "texto": "Después",
+          "inicio": 477.89320399999997,
+          "fin": 478.241204
+        },
+        {
+          "texto": "de",
+          "inicio": 478.265204,
+          "fin": 478.311204
+        },
+        {
+          "texto": "ese",
+          "inicio": 478.334204,
+          "fin": 478.474204
+        },
+        {
+          "texto": "día,",
+          "inicio": 478.532204,
+          "fin": 479.01920399999995
+        },
+        {
+          "texto": "José",
+          "inicio": 479.147204,
+          "fin": 479.414204
+        },
+        {
+          "texto": "desaparece",
+          "inicio": 479.472204,
+          "fin": 480.01820399999997
+        },
+        {
+          "texto": "del",
+          "inicio": 480.07620399999996,
+          "fin": 480.180204
+        },
+        {
+          "texto": "relato.",
+          "inicio": 480.238204,
+          "fin": 480.86520399999995
+        }
+      ]
+    },
+    {
+      "n": 91,
+      "texto": "Cuando Jesús comienza su vida pública, ya no se le menciona.",
+      "clave": "menciona",
+      "inicio": 481.190204,
+      "fin": 485.323204,
+      "palabras": [
+        {
+          "texto": "Cuando",
+          "inicio": 481.190204,
+          "fin": 481.492204
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 481.539204,
+          "fin": 481.92220399999997
+        },
+        {
+          "texto": "comienza",
+          "inicio": 481.98020399999996,
+          "fin": 482.409204
+        },
+        {
+          "texto": "su",
+          "inicio": 482.444204,
+          "fin": 482.537204
+        },
+        {
+          "texto": "vida",
+          "inicio": 482.58320399999997,
+          "fin": 482.781204
+        },
+        {
+          "texto": "pública,",
+          "inicio": 482.827204,
+          "fin": 483.55920399999997
+        },
+        {
+          "texto": "ya",
+          "inicio": 484.070204,
+          "fin": 484.197204
+        },
+        {
+          "texto": "no",
+          "inicio": 484.267204,
+          "fin": 484.36020399999995
+        },
+        {
+          "texto": "se",
+          "inicio": 484.406204,
+          "fin": 484.488204
+        },
+        {
+          "texto": "le",
+          "inicio": 484.534204,
+          "fin": 484.604204
+        },
+        {
+          "texto": "menciona.",
+          "inicio": 484.650204,
+          "fin": 485.323204
+        }
+      ]
+    },
+    {
+      "n": 92,
+      "texto": "Y al pie de la cruz, Jesús le confía su madre al discípulo Juan.",
+      "clave": "Juan",
+      "inicio": 486.13620399999996,
+      "fin": 490.339204,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 486.13620399999996,
+          "fin": 486.217204
+        },
+        {
+          "texto": "al",
+          "inicio": 486.287204,
+          "fin": 486.35720399999997
+        },
+        {
+          "texto": "pie",
+          "inicio": 486.41520399999996,
+          "fin": 486.55420399999997
+        },
+        {
+          "texto": "de",
+          "inicio": 486.589204,
+          "fin": 486.647204
+        },
+        {
+          "texto": "la",
+          "inicio": 486.693204,
+          "fin": 486.763204
+        },
+        {
+          "texto": "cruz,",
+          "inicio": 486.82120399999997,
+          "fin": 487.425204
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 487.669204,
+          "fin": 488.005204
+        },
+        {
+          "texto": "le",
+          "inicio": 488.063204,
+          "fin": 488.121204
+        },
+        {
+          "texto": "confía",
+          "inicio": 488.16820399999995,
+          "fin": 488.516204
+        },
+        {
+          "texto": "su",
+          "inicio": 488.563204,
+          "fin": 488.66720399999997
+        },
+        {
+          "texto": "madre",
+          "inicio": 488.73720399999996,
+          "fin": 489.073204
+        },
+        {
+          "texto": "al",
+          "inicio": 489.14320399999997,
+          "fin": 489.25920399999995
+        },
+        {
+          "texto": "discípulo",
+          "inicio": 489.31720399999995,
+          "fin": 489.82820399999997
+        },
+        {
+          "texto": "Juan.",
+          "inicio": 489.875204,
+          "fin": 490.339204
+        }
+      ]
+    },
+    {
+      "n": 93,
+      "texto": "Por eso la tradición piensa que José ya había muerto.",
+      "clave": "muerto",
+      "inicio": 490.943204,
+      "fin": 493.752204,
+      "palabras": [
+        {
+          "texto": "Por",
+          "inicio": 490.943204,
+          "fin": 491.117204
+        },
+        {
+          "texto": "eso",
+          "inicio": 491.16320399999995,
+          "fin": 491.303204
+        },
+        {
+          "texto": "la",
+          "inicio": 491.349204,
+          "fin": 491.407204
+        },
+        {
+          "texto": "tradición",
+          "inicio": 491.45320399999997,
+          "fin": 491.895204
+        },
+        {
+          "texto": "piensa",
+          "inicio": 491.95320399999997,
+          "fin": 492.27820399999996
+        },
+        {
+          "texto": "que",
+          "inicio": 492.33620399999995,
+          "fin": 492.41720399999997
+        },
+        {
+          "texto": "José",
+          "inicio": 492.464204,
+          "fin": 492.707204
+        },
+        {
+          "texto": "ya",
+          "inicio": 492.765204,
+          "fin": 492.823204
+        },
+        {
+          "texto": "había",
+          "inicio": 492.847204,
+          "fin": 493.079204
+        },
+        {
+          "texto": "muerto.",
+          "inicio": 493.137204,
+          "fin": 493.752204
+        }
+      ]
+    },
+    {
+      "n": 94,
+      "texto": "Y cuenta que murió en Nazaret, acompañado por Jesús y por María.",
+      "clave": "acompañado",
+      "inicio": 494.193204,
+      "fin": 498.52420399999994,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 494.193204,
+          "fin": 494.263204
+        },
+        {
+          "texto": "cuenta",
+          "inicio": 494.37920399999996,
+          "fin": 494.681204
+        },
+        {
+          "texto": "que",
+          "inicio": 494.728204,
+          "fin": 494.80920399999997
+        },
+        {
+          "texto": "murió",
+          "inicio": 494.856204,
+          "fin": 495.099204
+        },
+        {
+          "texto": "en",
+          "inicio": 495.13420399999995,
+          "fin": 495.19220399999995
+        },
+        {
+          "texto": "Nazaret,",
+          "inicio": 495.239204,
+          "fin": 495.97020399999997
+        },
+        {
+          "texto": "acompañado",
+          "inicio": 496.121204,
+          "fin": 496.771204
+        },
+        {
+          "texto": "por",
+          "inicio": 496.818204,
+          "fin": 496.957204
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 497.003204,
+          "fin": 497.479204
+        },
+        {
+          "texto": "y",
+          "inicio": 497.688204,
+          "fin": 497.770204
+        },
+        {
+          "texto": "por",
+          "inicio": 497.863204,
+          "fin": 497.99020399999995
+        },
+        {
+          "texto": "María.",
+          "inicio": 498.060204,
+          "fin": 498.52420399999994
+        }
+      ]
+    },
+    {
+      "n": 95,
+      "texto": "¿Te imaginas una despedida más dulce que esa?",
+      "clave": "dulce",
+      "inicio": 498.96620399999995,
+      "fin": 501.82220399999994,
+      "palabras": [
+        {
+          "texto": "¿Te",
+          "inicio": 498.96620399999995,
+          "fin": 499.25620399999997
+        },
+        {
+          "texto": "imaginas",
+          "inicio": 499.279204,
+          "fin": 499.709204
+        },
+        {
+          "texto": "una",
+          "inicio": 499.790204,
+          "fin": 499.94120399999997
+        },
+        {
+          "texto": "despedida",
+          "inicio": 499.99920399999996,
+          "fin": 500.556204
+        },
+        {
+          "texto": "más",
+          "inicio": 500.603204,
+          "fin": 500.777204
+        },
+        {
+          "texto": "dulce",
+          "inicio": 500.835204,
+          "fin": 501.20620399999996
+        },
+        {
+          "texto": "que",
+          "inicio": 501.276204,
+          "fin": 501.380204
+        },
+        {
+          "texto": "esa?",
+          "inicio": 501.42720399999996,
+          "fin": 501.82220399999994
+        }
+      ]
+    },
+    {
+      "n": 96,
+      "texto": "Por eso muchos lo invocan como patrono de la buena muerte.",
+      "clave": "muerte",
+      "inicio": 502.425204,
+      "fin": 505.641204,
+      "palabras": [
+        {
+          "texto": "Por",
+          "inicio": 502.425204,
+          "fin": 502.599204
+        },
+        {
+          "texto": "eso",
+          "inicio": 502.657204,
+          "fin": 502.79720399999997
+        },
+        {
+          "texto": "muchos",
+          "inicio": 502.85520399999996,
+          "fin": 503.20320399999997
+        },
+        {
+          "texto": "lo",
+          "inicio": 503.238204,
+          "fin": 503.284204
+        },
+        {
+          "texto": "invocan",
+          "inicio": 503.33120399999996,
+          "fin": 503.74920399999996
+        },
+        {
+          "texto": "como",
+          "inicio": 503.818204,
+          "fin": 504.016204
+        },
+        {
+          "texto": "patrono",
+          "inicio": 504.06220399999995,
+          "fin": 504.527204
+        },
+        {
+          "texto": "de",
+          "inicio": 504.585204,
+          "fin": 504.654204
+        },
+        {
+          "texto": "la",
+          "inicio": 504.70120399999996,
+          "fin": 504.771204
+        },
+        {
+          "texto": "buena",
+          "inicio": 504.81720399999995,
+          "fin": 505.061204
+        },
+        {
+          "texto": "muerte.",
+          "inicio": 505.11920399999997,
+          "fin": 505.641204
+        }
+      ]
+    },
+    {
+      "n": 97,
+      "texto": "Pero la historia de José no terminó ahí.",
+      "clave": "terminó",
+      "inicio": 506.02420399999994,
+      "fin": 508.265204,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 506.02420399999994,
+          "fin": 506.24520399999994
+        },
+        {
+          "texto": "la",
+          "inicio": 506.303204,
+          "fin": 506.349204
+        },
+        {
+          "texto": "historia",
+          "inicio": 506.373204,
+          "fin": 506.767204
+        },
+        {
+          "texto": "de",
+          "inicio": 506.814204,
+          "fin": 506.88420399999995
+        },
+        {
+          "texto": "José",
+          "inicio": 506.91820399999995,
+          "fin": 507.185204
+        },
+        {
+          "texto": "no",
+          "inicio": 507.255204,
+          "fin": 507.33620399999995
+        },
+        {
+          "texto": "terminó",
+          "inicio": 507.39420399999995,
+          "fin": 507.801204
+        },
+        {
+          "texto": "ahí.",
+          "inicio": 507.824204,
+          "fin": 508.265204
+        }
+      ]
+    },
+    {
+      "n": 98,
+      "texto": "El 8 de diciembre de 1870, el papa Pío IX lo declaró patrono de la Iglesia universal.",
+      "clave": "universal",
+      "inicio": 508.86920399999997,
+      "fin": 516.137204,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 508.86920399999997,
+          "fin": 509.29673341176465
+        },
+        {
+          "texto": "8",
+          "inicio": 509.29673341176465,
+          "fin": 509.7242628235294
+        },
+        {
+          "texto": "de",
+          "inicio": 509.7242628235294,
+          "fin": 510.15179223529407
+        },
+        {
+          "texto": "diciembre",
+          "inicio": 510.15179223529407,
+          "fin": 510.5793216470588
+        },
+        {
+          "texto": "de",
+          "inicio": 510.5793216470588,
+          "fin": 511.0068510588235
+        },
+        {
+          "texto": "1870,",
+          "inicio": 511.0068510588235,
+          "fin": 511.4343804705882
+        },
+        {
+          "texto": "el",
+          "inicio": 511.4343804705882,
+          "fin": 511.8619098823529
+        },
+        {
+          "texto": "papa",
+          "inicio": 511.8619098823529,
+          "fin": 512.2894392941176
+        },
+        {
+          "texto": "Pío",
+          "inicio": 512.2894392941176,
+          "fin": 512.7169687058823
+        },
+        {
+          "texto": "IX",
+          "inicio": 512.7169687058823,
+          "fin": 513.144498117647
+        },
+        {
+          "texto": "lo",
+          "inicio": 513.144498117647,
+          "fin": 513.5720275294118
+        },
+        {
+          "texto": "declaró",
+          "inicio": 513.5720275294118,
+          "fin": 513.9995569411765
+        },
+        {
+          "texto": "patrono",
+          "inicio": 513.9995569411765,
+          "fin": 514.4270863529412
+        },
+        {
+          "texto": "de",
+          "inicio": 514.4270863529412,
+          "fin": 514.8546157647058
+        },
+        {
+          "texto": "la",
+          "inicio": 514.8546157647058,
+          "fin": 515.2821451764706
+        },
+        {
+          "texto": "Iglesia",
+          "inicio": 515.2821451764706,
+          "fin": 515.7096745882353
+        },
+        {
+          "texto": "universal.",
+          "inicio": 515.7096745882353,
+          "fin": 516.137204
+        }
+      ]
+    },
+    {
+      "n": 99,
+      "texto": "El mismo que cuidó a Jesús en Nazaret, ahora cuida a toda la Iglesia.",
+      "clave": "cuida",
+      "inicio": 516.833204,
+      "fin": 521.2222039999999,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 516.833204,
+          "fin": 517.007204
+        },
+        {
+          "texto": "mismo",
+          "inicio": 517.0772039999999,
+          "fin": 517.367204
+        },
+        {
+          "texto": "que",
+          "inicio": 517.4142039999999,
+          "fin": 517.495204
+        },
+        {
+          "texto": "cuidó",
+          "inicio": 517.541204,
+          "fin": 517.843204
+        },
+        {
+          "texto": "a",
+          "inicio": 517.890204,
+          "fin": 517.913204
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 517.959204,
+          "fin": 518.400204
+        },
+        {
+          "texto": "en",
+          "inicio": 518.517204,
+          "fin": 518.668204
+        },
+        {
+          "texto": "Nazaret,",
+          "inicio": 518.749204,
+          "fin": 519.515204
+        },
+        {
+          "texto": "ahora",
+          "inicio": 519.666204,
+          "fin": 519.898204
+        },
+        {
+          "texto": "cuida",
+          "inicio": 519.945204,
+          "fin": 520.200204
+        },
+        {
+          "texto": "a",
+          "inicio": 520.235204,
+          "fin": 520.258204
+        },
+        {
+          "texto": "toda",
+          "inicio": 520.316204,
+          "fin": 520.537204
+        },
+        {
+          "texto": "la",
+          "inicio": 520.583204,
+          "fin": 520.630204
+        },
+        {
+          "texto": "Iglesia.",
+          "inicio": 520.653204,
+          "fin": 521.2222039999999
+        }
+      ]
+    },
+    {
+      "n": 100,
+      "texto": "Su fiesta es el 19 de marzo. Y desde 1955, cada primero de mayo se celebra a San José Obrero.",
+      "clave": "Obrero",
+      "inicio": 521.733204,
+      "fin": 531.148204,
+      "palabras": [
+        {
+          "texto": "Su",
+          "inicio": 521.733204,
+          "fin": 522.203954
+        },
+        {
+          "texto": "fiesta",
+          "inicio": 522.203954,
+          "fin": 522.674704
+        },
+        {
+          "texto": "es",
+          "inicio": 522.674704,
+          "fin": 523.145454
+        },
+        {
+          "texto": "el",
+          "inicio": 523.145454,
+          "fin": 523.616204
+        },
+        {
+          "texto": "19",
+          "inicio": 523.616204,
+          "fin": 524.086954
+        },
+        {
+          "texto": "de",
+          "inicio": 524.086954,
+          "fin": 524.557704
+        },
+        {
+          "texto": "marzo.",
+          "inicio": 524.557704,
+          "fin": 525.028454
+        },
+        {
+          "texto": "Y",
+          "inicio": 525.028454,
+          "fin": 525.499204
+        },
+        {
+          "texto": "desde",
+          "inicio": 525.499204,
+          "fin": 525.969954
+        },
+        {
+          "texto": "1955,",
+          "inicio": 525.969954,
+          "fin": 526.440704
+        },
+        {
+          "texto": "cada",
+          "inicio": 526.440704,
+          "fin": 526.9114539999999
+        },
+        {
+          "texto": "primero",
+          "inicio": 526.9114539999999,
+          "fin": 527.382204
+        },
+        {
+          "texto": "de",
+          "inicio": 527.382204,
+          "fin": 527.852954
+        },
+        {
+          "texto": "mayo",
+          "inicio": 527.852954,
+          "fin": 528.323704
+        },
+        {
+          "texto": "se",
+          "inicio": 528.323704,
+          "fin": 528.794454
+        },
+        {
+          "texto": "celebra",
+          "inicio": 528.794454,
+          "fin": 529.2652039999999
+        },
+        {
+          "texto": "a",
+          "inicio": 529.2652039999999,
+          "fin": 529.735954
+        },
+        {
+          "texto": "San",
+          "inicio": 529.735954,
+          "fin": 530.206704
+        },
+        {
+          "texto": "José",
+          "inicio": 530.206704,
+          "fin": 530.677454
+        },
+        {
+          "texto": "Obrero.",
+          "inicio": 530.677454,
+          "fin": 531.148204
+        }
+      ]
+    },
+    {
+      "n": 101,
+      "texto": "En 2013, su nombre se añadió a las plegarias de la Misa, justo después del de María.",
+      "clave": "Misa",
+      "inicio": 531.7512039999999,
+      "fin": 537.916204,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 531.7512039999999,
+          "fin": 532.1138510588235
+        },
+        {
+          "texto": "2013,",
+          "inicio": 532.1138510588235,
+          "fin": 532.476498117647
+        },
+        {
+          "texto": "su",
+          "inicio": 532.476498117647,
+          "fin": 532.8391451764705
+        },
+        {
+          "texto": "nombre",
+          "inicio": 532.8391451764705,
+          "fin": 533.2017922352941
+        },
+        {
+          "texto": "se",
+          "inicio": 533.2017922352941,
+          "fin": 533.5644392941176
+        },
+        {
+          "texto": "añadió",
+          "inicio": 533.5644392941176,
+          "fin": 533.9270863529412
+        },
+        {
+          "texto": "a",
+          "inicio": 533.9270863529412,
+          "fin": 534.2897334117647
+        },
+        {
+          "texto": "las",
+          "inicio": 534.2897334117647,
+          "fin": 534.6523804705882
+        },
+        {
+          "texto": "plegarias",
+          "inicio": 534.6523804705882,
+          "fin": 535.0150275294117
+        },
+        {
+          "texto": "de",
+          "inicio": 535.0150275294117,
+          "fin": 535.3776745882352
+        },
+        {
+          "texto": "la",
+          "inicio": 535.3776745882352,
+          "fin": 535.7403216470587
+        },
+        {
+          "texto": "Misa,",
+          "inicio": 535.7403216470587,
+          "fin": 536.1029687058823
+        },
+        {
+          "texto": "justo",
+          "inicio": 536.1029687058823,
+          "fin": 536.4656157647058
+        },
+        {
+          "texto": "después",
+          "inicio": 536.4656157647058,
+          "fin": 536.8282628235294
+        },
+        {
+          "texto": "del",
+          "inicio": 536.8282628235294,
+          "fin": 537.1909098823529
+        },
+        {
+          "texto": "de",
+          "inicio": 537.1909098823529,
+          "fin": 537.5535569411765
+        },
+        {
+          "texto": "María.",
+          "inicio": 537.5535569411765,
+          "fin": 537.916204
+        }
+      ]
+    },
+    {
+      "n": 102,
+      "texto": "Y en 2020, el papa Francisco le dedicó una carta entera: «Con corazón de padre».",
+      "clave": "corazón",
+      "inicio": 538.613204,
+      "fin": 545.277204,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 538.613204,
+          "fin": 539.0574706666666
+        },
+        {
+          "texto": "en",
+          "inicio": 539.0574706666666,
+          "fin": 539.5017373333334
+        },
+        {
+          "texto": "2020,",
+          "inicio": 539.5017373333334,
+          "fin": 539.946004
+        },
+        {
+          "texto": "el",
+          "inicio": 539.946004,
+          "fin": 540.3902706666667
+        },
+        {
+          "texto": "papa",
+          "inicio": 540.3902706666667,
+          "fin": 540.8345373333333
+        },
+        {
+          "texto": "Francisco",
+          "inicio": 540.8345373333333,
+          "fin": 541.278804
+        },
+        {
+          "texto": "le",
+          "inicio": 541.278804,
+          "fin": 541.7230706666667
+        },
+        {
+          "texto": "dedicó",
+          "inicio": 541.7230706666667,
+          "fin": 542.1673373333333
+        },
+        {
+          "texto": "una",
+          "inicio": 542.1673373333333,
+          "fin": 542.6116039999999
+        },
+        {
+          "texto": "carta",
+          "inicio": 542.6116039999999,
+          "fin": 543.0558706666667
+        },
+        {
+          "texto": "entera:",
+          "inicio": 543.0558706666667,
+          "fin": 543.5001373333333
+        },
+        {
+          "texto": "«Con",
+          "inicio": 543.5001373333333,
+          "fin": 543.944404
+        },
+        {
+          "texto": "corazón",
+          "inicio": 543.944404,
+          "fin": 544.3886706666666
+        },
+        {
+          "texto": "de",
+          "inicio": 544.3886706666666,
+          "fin": 544.8329373333333
+        },
+        {
+          "texto": "padre».",
+          "inicio": 544.8329373333333,
+          "fin": 545.277204
+        }
+      ]
+    },
+    {
+      "n": 103,
+      "texto": "Allí lo llama padre amado, padre en la ternura, en la obediencia y en la acogida.",
+      "clave": "ternura",
+      "inicio": 545.306122,
+      "fin": 550.345122,
+      "palabras": [
+        {
+          "texto": "Allí",
+          "inicio": 545.306122,
+          "fin": 545.585122
+        },
+        {
+          "texto": "lo",
+          "inicio": 545.6541219999999,
+          "fin": 545.747122
+        },
+        {
+          "texto": "llama",
+          "inicio": 545.770122,
+          "fin": 546.026122
+        },
+        {
+          "texto": "padre",
+          "inicio": 546.084122,
+          "fin": 546.4091219999999
+        },
+        {
+          "texto": "amado,",
+          "inicio": 546.4321219999999,
+          "fin": 547.001122
+        },
+        {
+          "texto": "padre",
+          "inicio": 547.280122,
+          "fin": 547.628122
+        },
+        {
+          "texto": "en",
+          "inicio": 547.651122,
+          "fin": 547.709122
+        },
+        {
+          "texto": "la",
+          "inicio": 547.767122,
+          "fin": 547.825122
+        },
+        {
+          "texto": "ternura,",
+          "inicio": 547.883122,
+          "fin": 548.4991219999999
+        },
+        {
+          "texto": "en",
+          "inicio": 548.6151219999999,
+          "fin": 548.7311219999999
+        },
+        {
+          "texto": "la",
+          "inicio": 548.7891219999999,
+          "fin": 548.847122
+        },
+        {
+          "texto": "obediencia",
+          "inicio": 548.8701219999999,
+          "fin": 549.4281219999999
+        },
+        {
+          "texto": "y",
+          "inicio": 549.4861219999999,
+          "fin": 549.5091219999999
+        },
+        {
+          "texto": "en",
+          "inicio": 549.544122,
+          "fin": 549.590122
+        },
+        {
+          "texto": "la",
+          "inicio": 549.637122,
+          "fin": 549.6831219999999
+        },
+        {
+          "texto": "acogida.",
+          "inicio": 549.7061219999999,
+          "fin": 550.345122
+        }
+      ]
+    },
+    {
+      "n": 104,
+      "texto": "Padre de la valentía creativa, padre trabajador y padre en la sombra.",
+      "clave": "sombra",
+      "inicio": 550.948122,
+      "fin": 555.3021219999999,
+      "palabras": [
+        {
+          "texto": "Padre",
+          "inicio": 550.948122,
+          "fin": 551.3081219999999
+        },
+        {
+          "texto": "de",
+          "inicio": 551.3661219999999,
+          "fin": 551.424122
+        },
+        {
+          "texto": "la",
+          "inicio": 551.4711219999999,
+          "fin": 551.5291219999999
+        },
+        {
+          "texto": "valentía",
+          "inicio": 551.575122,
+          "fin": 552.017122
+        },
+        {
+          "texto": "creativa,",
+          "inicio": 552.0631219999999,
+          "fin": 552.794122
+        },
+        {
+          "texto": "padre",
+          "inicio": 553.1201219999999,
+          "fin": 553.445122
+        },
+        {
+          "texto": "trabajador",
+          "inicio": 553.4911219999999,
+          "fin": 554.1531219999999
+        },
+        {
+          "texto": "y",
+          "inicio": 554.2111219999999,
+          "fin": 554.234122
+        },
+        {
+          "texto": "padre",
+          "inicio": 554.292122,
+          "fin": 554.571122
+        },
+        {
+          "texto": "en",
+          "inicio": 554.594122,
+          "fin": 554.6401219999999
+        },
+        {
+          "texto": "la",
+          "inicio": 554.6871219999999,
+          "fin": 554.7451219999999
+        },
+        {
+          "texto": "sombra.",
+          "inicio": 554.791122,
+          "fin": 555.3021219999999
+        }
+      ]
+    },
+    {
+      "n": 105,
+      "texto": "Padre en la sombra. Quizás esa sea la mejor forma de resumir su vida.",
+      "clave": "resumir",
+      "inicio": 555.906122,
+      "fin": 560.376122,
+      "palabras": [
+        {
+          "texto": "Padre",
+          "inicio": 555.906122,
+          "fin": 556.2541219999999
+        },
+        {
+          "texto": "en",
+          "inicio": 556.277122,
+          "fin": 556.347122
+        },
+        {
+          "texto": "la",
+          "inicio": 556.3701219999999,
+          "fin": 556.4281219999999
+        },
+        {
+          "texto": "sombra.",
+          "inicio": 556.4861219999999,
+          "fin": 556.997122
+        },
+        {
+          "texto": "Quizás",
+          "inicio": 557.6011219999999,
+          "fin": 557.9611219999999
+        },
+        {
+          "texto": "esa",
+          "inicio": 558.031122,
+          "fin": 558.1931219999999
+        },
+        {
+          "texto": "sea",
+          "inicio": 558.251122,
+          "fin": 558.391122
+        },
+        {
+          "texto": "la",
+          "inicio": 558.4371219999999,
+          "fin": 558.4951219999999
+        },
+        {
+          "texto": "mejor",
+          "inicio": 558.5531219999999,
+          "fin": 558.786122
+        },
+        {
+          "texto": "forma",
+          "inicio": 558.844122,
+          "fin": 559.122122
+        },
+        {
+          "texto": "de",
+          "inicio": 559.169122,
+          "fin": 559.238122
+        },
+        {
+          "texto": "resumir",
+          "inicio": 559.3081219999999,
+          "fin": 559.738122
+        },
+        {
+          "texto": "su",
+          "inicio": 559.796122,
+          "fin": 559.888122
+        },
+        {
+          "texto": "vida.",
+          "inicio": 559.9471219999999,
+          "fin": 560.376122
+        }
+      ]
+    },
+    {
+      "n": 106,
+      "texto": "José no buscó aplausos ni dejó discursos.",
+      "clave": "aplausos",
+      "inicio": 560.887122,
+      "fin": 563.662122,
+      "palabras": [
+        {
+          "texto": "José",
+          "inicio": 560.887122,
+          "fin": 561.1541219999999
+        },
+        {
+          "texto": "no",
+          "inicio": 561.200122,
+          "fin": 561.270122
+        },
+        {
+          "texto": "buscó",
+          "inicio": 561.305122,
+          "fin": 561.526122
+        },
+        {
+          "texto": "aplausos",
+          "inicio": 561.549122,
+          "fin": 562.222122
+        },
+        {
+          "texto": "ni",
+          "inicio": 562.396122,
+          "fin": 562.5241219999999
+        },
+        {
+          "texto": "dejó",
+          "inicio": 562.559122,
+          "fin": 562.733122
+        },
+        {
+          "texto": "discursos.",
+          "inicio": 562.7791219999999,
+          "fin": 563.662122
+        }
+      ]
+    },
+    {
+      "n": 107,
+      "texto": "Solo estuvo ahí, cada vez que Dios lo necesitó.",
+      "clave": "ahí",
+      "inicio": 564.103122,
+      "fin": 567.551122,
+      "palabras": [
+        {
+          "texto": "Solo",
+          "inicio": 564.103122,
+          "fin": 564.3701219999999
+        },
+        {
+          "texto": "estuvo",
+          "inicio": 564.393122,
+          "fin": 564.660122
+        },
+        {
+          "texto": "ahí,",
+          "inicio": 564.6831219999999,
+          "fin": 565.1831219999999
+        },
+        {
+          "texto": "cada",
+          "inicio": 565.426122,
+          "fin": 565.6821219999999
+        },
+        {
+          "texto": "vez",
+          "inicio": 565.728122,
+          "fin": 565.8791219999999
+        },
+        {
+          "texto": "que",
+          "inicio": 565.9611219999999,
+          "fin": 566.065122
+        },
+        {
+          "texto": "Dios",
+          "inicio": 566.123122,
+          "fin": 566.483122
+        },
+        {
+          "texto": "lo",
+          "inicio": 566.6341219999999,
+          "fin": 566.7501219999999
+        },
+        {
+          "texto": "necesitó.",
+          "inicio": 566.796122,
+          "fin": 567.551122
+        }
+      ]
+    },
+    {
+      "n": 108,
+      "texto": "Y eso nos deja una pregunta a cada uno de nosotros.",
+      "clave": "pregunta",
+      "inicio": 568.248122,
+      "fin": 570.8951219999999,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 568.248122,
+          "fin": 568.3171219999999
+        },
+        {
+          "texto": "eso",
+          "inicio": 568.387122,
+          "fin": 568.503122
+        },
+        {
+          "texto": "nos",
+          "inicio": 568.561122,
+          "fin": 568.689122
+        },
+        {
+          "texto": "deja",
+          "inicio": 568.7121219999999,
+          "fin": 568.8751219999999
+        },
+        {
+          "texto": "una",
+          "inicio": 568.898122,
+          "fin": 569.026122
+        },
+        {
+          "texto": "pregunta",
+          "inicio": 569.0721219999999,
+          "fin": 569.455122
+        },
+        {
+          "texto": "a",
+          "inicio": 569.478122,
+          "fin": 569.502122
+        },
+        {
+          "texto": "cada",
+          "inicio": 569.536122,
+          "fin": 569.734122
+        },
+        {
+          "texto": "uno",
+          "inicio": 569.792122,
+          "fin": 569.9431219999999
+        },
+        {
+          "texto": "de",
+          "inicio": 569.989122,
+          "fin": 570.047122
+        },
+        {
+          "texto": "nosotros.",
+          "inicio": 570.094122,
+          "fin": 570.8951219999999
+        }
+      ]
+    },
+    {
+      "n": 109,
+      "texto": "¿Cuántas veces queremos tener todas las respuestas antes de dar un paso?",
+      "clave": "respuestas",
+      "inicio": 571.2781219999999,
+      "fin": 575.376122,
+      "palabras": [
+        {
+          "texto": "¿Cuántas",
+          "inicio": 571.2781219999999,
+          "fin": 571.7651219999999
+        },
+        {
+          "texto": "veces",
+          "inicio": 571.8121219999999,
+          "fin": 572.021122
+        },
+        {
+          "texto": "queremos",
+          "inicio": 572.0671219999999,
+          "fin": 572.416122
+        },
+        {
+          "texto": "tener",
+          "inicio": 572.474122,
+          "fin": 572.752122
+        },
+        {
+          "texto": "todas",
+          "inicio": 572.845122,
+          "fin": 573.1351219999999
+        },
+        {
+          "texto": "las",
+          "inicio": 573.1591219999999,
+          "fin": 573.2401219999999
+        },
+        {
+          "texto": "respuestas",
+          "inicio": 573.310122,
+          "fin": 573.902122
+        },
+        {
+          "texto": "antes",
+          "inicio": 574.030122,
+          "fin": 574.378122
+        },
+        {
+          "texto": "de",
+          "inicio": 574.401122,
+          "fin": 574.448122
+        },
+        {
+          "texto": "dar",
+          "inicio": 574.494122,
+          "fin": 574.622122
+        },
+        {
+          "texto": "un",
+          "inicio": 574.680122,
+          "fin": 574.738122
+        },
+        {
+          "texto": "paso?",
+          "inicio": 574.796122,
+          "fin": 575.376122
+        }
+      ]
+    },
+    {
+      "n": 110,
+      "texto": "José no las tenía. Tenía confianza.",
+      "clave": "confianza",
+      "inicio": 575.887122,
+      "fin": 578.546122,
+      "palabras": [
+        {
+          "texto": "José",
+          "inicio": 575.887122,
+          "fin": 576.1541219999999
+        },
+        {
+          "texto": "no",
+          "inicio": 576.2121219999999,
+          "fin": 576.282122
+        },
+        {
+          "texto": "las",
+          "inicio": 576.328122,
+          "fin": 576.4331219999999
+        },
+        {
+          "texto": "tenía.",
+          "inicio": 576.479122,
+          "fin": 576.955122
+        },
+        {
+          "texto": "Tenía",
+          "inicio": 577.339122,
+          "fin": 577.710122
+        },
+        {
+          "texto": "confianza.",
+          "inicio": 577.768122,
+          "fin": 578.546122
+        }
+      ]
+    },
+    {
+      "n": 111,
+      "texto": "Y con esa confianza cuidó, trabajó, protegió y amó.",
+      "clave": "amó",
+      "inicio": 578.929122,
+      "fin": 583.747122,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 578.929122,
+          "fin": 579.045122
+        },
+        {
+          "texto": "con",
+          "inicio": 579.126122,
+          "fin": 579.2541219999999
+        },
+        {
+          "texto": "esa",
+          "inicio": 579.3121219999999,
+          "fin": 579.463122
+        },
+        {
+          "texto": "confianza",
+          "inicio": 579.521122,
+          "fin": 580.078122
+        },
+        {
+          "texto": "cuidó,",
+          "inicio": 580.137122,
+          "fin": 580.671122
+        },
+        {
+          "texto": "trabajó,",
+          "inicio": 580.705122,
+          "fin": 581.5761219999999
+        },
+        {
+          "texto": "protegió",
+          "inicio": 581.901122,
+          "fin": 582.5861219999999
+        },
+        {
+          "texto": "y",
+          "inicio": 583.027122,
+          "fin": 583.1441219999999
+        },
+        {
+          "texto": "amó.",
+          "inicio": 583.2601219999999,
+          "fin": 583.747122
+        }
+      ]
+    },
+    {
+      "n": 112,
+      "texto": "San José, ruega por nosotros.",
+      "clave": "ruega",
+      "inicio": 584.862122,
+      "fin": 587.2301219999999,
+      "palabras": [
+        {
+          "texto": "San",
+          "inicio": 584.862122,
+          "fin": 585.0241219999999
+        },
+        {
+          "texto": "José,",
+          "inicio": 585.059122,
+          "fin": 585.628122
+        },
+        {
+          "texto": "ruega",
+          "inicio": 586.011122,
+          "fin": 586.267122
+        },
+        {
+          "texto": "por",
+          "inicio": 586.3131219999999,
+          "fin": 586.4181219999999
+        },
+        {
+          "texto": "nosotros.",
+          "inicio": 586.464122,
+          "fin": 587.2301219999999
+        }
+      ]
+    },
+    {
+      "n": 113,
+      "texto": "Si esta historia te tocó el corazón, suscríbete a Dulce Patriarca y compártela con alguien que hoy necesite confiar.",
+      "clave": "suscríbete",
+      "inicio": 587.555122,
+      "fin": 594.161122,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 587.555122,
+          "fin": 587.6831219999999
+        },
+        {
+          "texto": "esta",
+          "inicio": 587.718122,
+          "fin": 587.8461219999999
+        },
+        {
+          "texto": "historia",
+          "inicio": 587.869122,
+          "fin": 588.147122
+        },
+        {
+          "texto": "te",
+          "inicio": 588.194122,
+          "fin": 588.2641219999999
+        },
+        {
+          "texto": "tocó",
+          "inicio": 588.310122,
+          "fin": 588.5191219999999
+        },
+        {
+          "texto": "el",
+          "inicio": 588.542122,
+          "fin": 588.612122
+        },
+        {
+          "texto": "corazón,",
+          "inicio": 588.681122,
+          "fin": 589.262122
+        },
+        {
+          "texto": "suscríbete",
+          "inicio": 589.3551219999999,
+          "fin": 589.924122
+        },
+        {
+          "texto": "a",
+          "inicio": 589.970122,
+          "fin": 589.993122
+        },
+        {
+          "texto": "Dulce",
+          "inicio": 590.040122,
+          "fin": 590.3071219999999
+        },
+        {
+          "texto": "Patriarca",
+          "inicio": 590.377122,
+          "fin": 591.050122
+        },
+        {
+          "texto": "y",
+          "inicio": 591.131122,
+          "fin": 591.224122
+        },
+        {
+          "texto": "compártela",
+          "inicio": 591.305122,
+          "fin": 591.8511219999999
+        },
+        {
+          "texto": "con",
+          "inicio": 591.9091219999999,
+          "fin": 592.0481219999999
+        },
+        {
+          "texto": "alguien",
+          "inicio": 592.118122,
+          "fin": 592.339122
+        },
+        {
+          "texto": "que",
+          "inicio": 592.420122,
+          "fin": 592.5241219999999
+        },
+        {
+          "texto": "hoy",
+          "inicio": 592.5481219999999,
+          "fin": 592.6871219999999
+        },
+        {
+          "texto": "necesite",
+          "inicio": 592.7451219999999,
+          "fin": 593.267122
+        },
+        {
+          "texto": "confiar.",
+          "inicio": 593.325122,
+          "fin": 594.161122
+        }
+      ]
+    }
+  ]
+}

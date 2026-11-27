@@ -1,523 +1,6117 @@
 {
-  "titulo": "La vida de San José",
-  "estilo": "2d",
-  "largo": true,
-  "formato": "horizontal",
-  "marcaAgua": "@dulcepatriarca",
-  "sintetizar": "calma",
-  "musicaDb": -24,
-  "efectos": false,
-  "voz": {
-    "estabilidad": 0.5,
-    "estilo": 0.3,
-    "velocidad": 1
+ "titulo": "La vida de San José",
+ "estilo": "2d",
+ "largo": true,
+ "formato": "horizontal",
+ "marcaAgua": "@dulcepatriarca",
+ "sintetizar": "calma",
+ "musicaDb": -24,
+ "efectos": false,
+ "voz": {
+  "estabilidad": 0.5,
+  "estilo": 0.3,
+  "velocidad": 1
+ },
+ "capitulos": [
+  {
+   "titulo": "El hombre del silencio",
+   "desde": 1
   },
-  "capitulos": [
-    {
-      "titulo": "El hombre del silencio",
-      "desde": 1
-    },
-    {
-      "titulo": "Un carpintero de Nazaret",
-      "desde": 7
-    },
-    {
-      "titulo": "La noticia que lo cambió todo",
-      "desde": 23
-    },
-    {
-      "titulo": "Camino a Belén",
-      "desde": 37
-    },
-    {
-      "titulo": "Dos tórtolas en el templo",
-      "desde": 50
-    },
-    {
-      "titulo": "La huida a Egipto",
-      "desde": 58
-    },
-    {
-      "titulo": "Los años escondidos",
-      "desde": 75
-    },
-    {
-      "titulo": "Su partida y su herencia",
-      "desde": 90
-    }
-  ],
-  "frases": [
-    {
-      "texto": "En toda la Biblia, San José no dice ni una sola palabra.",
-      "clave": "palabra"
-    },
-    {
-      "texto": "Ni una. Los Evangelios no guardan ninguna frase suya.",
-      "clave": "frase"
-    },
-    {
-      "texto": "Y aun así, Dios le confió lo más valioso que tenía: a su Hijo y a su Madre.",
-      "clave": "confió"
-    },
-    {
-      "texto": "¿Cómo puede ser tan importante el hombre más callado de la historia?",
-      "clave": "callado"
-    },
-    {
-      "texto": "Quédate conmigo, porque hoy te cuento la vida de San José, el padre que Dios eligió para Jesús en la tierra.",
-      "clave": "José"
-    },
-    {
-      "texto": "Lo que dice la Biblia, y también lo que cuenta la tradición, cada cosa en su lugar.",
-      "clave": "tradición"
-    },
-    {
-      "texto": "José vivía en Nazaret, un pueblito pequeño de Galilea, al norte de Israel.",
-      "clave": "Nazaret"
-    },
-    {
-      "texto": "Pero su familia tenía raíces muy profundas.",
-      "clave": "raíces"
-    },
-    {
-      "texto": "Los Evangelios de Mateo y de Lucas dicen que era descendiente del rey David.",
-      "clave": "David"
-    },
-    {
-      "texto": "Imagínate: sangre de reyes, pero sin palacio, sin corona y sin riquezas.",
-      "clave": "corona"
-    },
-    {
-      "texto": "José se ganaba la vida con sus manos.",
-      "clave": "manos"
-    },
-    {
-      "texto": "En el Evangelio de Mateo, a Jesús lo llaman «el hijo del carpintero».",
-      "clave": "carpintero"
-    },
-    {
-      "texto": "La palabra griega es «tékton»: un artesano que trabajaba la madera, y quizás también la piedra.",
-      "clave": "tékton",
-      "dicho": "La palabra griega es «técton»: un artesano que trabajaba la madera, y quizás también la piedra."
-    },
-    {
-      "texto": "Puertas, mesas, arados, vigas para los techos… así se ganaba el pan de su casa.",
-      "clave": "pan"
-    },
-    {
-      "texto": "¿Y era un anciano, como lo pintan tantas veces?",
-      "clave": "anciano"
-    },
-    {
-      "texto": "Ojo con esto: la Biblia no dice su edad.",
-      "clave": "edad"
-    },
-    {
-      "texto": "La idea del José viejito viene de un escrito antiguo que no está en la Biblia: el Protoevangelio de Santiago.",
-      "clave": "Protoevangelio"
-    },
-    {
-      "texto": "Ese escrito cuenta que el sacerdote reunió a varios hombres, cada uno con su bastón.",
-      "clave": "bastón"
-    },
-    {
-      "texto": "Y que del bastón de José salió una paloma, como señal de que él cuidaría a María.",
-      "clave": "paloma"
-    },
-    {
-      "texto": "Otros relatos dicen que su vara floreció. Por eso lo ves pintado con una vara de lirios.",
-      "clave": "lirios"
-    },
-    {
-      "texto": "Es una leyenda bonita, pero es tradición, no Evangelio.",
-      "clave": "leyenda"
-    },
-    {
-      "texto": "Lo que sí sabemos es que José estaba comprometido con una joven de Nazaret llamada María.",
-      "clave": "María"
-    },
-    {
-      "texto": "En aquel tiempo, el compromiso ya era casi un matrimonio, aunque todavía no vivían juntos.",
-      "clave": "compromiso"
-    },
-    {
-      "texto": "Y entonces llegó la noticia: María esperaba un hijo.",
-      "clave": "hijo"
-    },
-    {
-      "texto": "José sabía que ese niño no era suyo. Imagínate lo que sintió.",
-      "clave": "sintió"
-    },
-    {
-      "texto": "Mateo dice algo precioso de él: que José era un hombre justo.",
-      "clave": "justo"
-    },
-    {
-      "texto": "Podía denunciarla en público, pero no quiso exponerla a la vergüenza.",
-      "clave": "vergüenza"
-    },
-    {
-      "texto": "Decidió separarse de ella en secreto, sin hacer ruido, para protegerla.",
-      "clave": "secreto"
-    },
-    {
-      "texto": "Y mientras pensaba en todo esto, se quedó dormido.",
-      "clave": "dormido"
-    },
-    {
-      "texto": "Aquí aparece el primero de los cuatro sueños de José.",
-      "clave": "sueños"
-    },
-    {
-      "texto": "Un ángel del Señor le dijo: «José, hijo de David, no temas recibir a María, tu mujer».",
-      "clave": "temas"
-    },
-    {
-      "texto": "«Lo que ha concebido viene del Espíritu Santo. Dará a luz un hijo, y tú le pondrás por nombre Jesús».",
-      "clave": "Jesús"
-    },
-    {
-      "texto": "¿Y qué hizo José al despertar?",
-      "clave": "despertar"
-    },
-    {
-      "texto": "No discutió. No pidió pruebas. No dijo nada.",
-      "clave": "nada"
-    },
-    {
-      "texto": "Hizo lo que el ángel le había mandado, y recibió a María en su casa.",
-      "clave": "recibió"
-    },
-    {
-      "texto": "Así es José: no habla, actúa.",
-      "clave": "actúa"
-    },
-    {
-      "texto": "Meses después llegó una orden del emperador Augusto: todos debían inscribirse en un censo.",
-      "clave": "censo"
-    },
-    {
-      "texto": "Y cada uno tenía que ir a su ciudad de origen.",
-      "clave": "ciudad"
-    },
-    {
-      "texto": "Para José, que era de la familia de David, eso significaba ir a Belén, la ciudad de David.",
-      "clave": "Belén"
-    },
-    {
-      "texto": "Más de cien kilómetros de camino, con María a punto de dar a luz.",
-      "clave": "kilómetros"
-    },
-    {
-      "texto": "La Biblia no menciona ningún burro, pero la tradición siempre los imagina así: María montada y José guiando el camino.",
-      "clave": "burro"
-    },
-    {
-      "texto": "Cuando por fin llegaron, no había lugar para ellos en el alojamiento.",
-      "clave": "lugar"
-    },
-    {
-      "texto": "Piensa en José, buscando un techo para su esposa, tocando puertas que no se abrían.",
-      "clave": "puertas"
-    },
-    {
-      "texto": "Al final, el Hijo de Dios nació en el lugar más humilde.",
-      "clave": "humilde"
-    },
-    {
-      "texto": "María lo envolvió en pañales y lo acostó en un pesebre, donde comían los animales.",
-      "clave": "pesebre"
-    },
-    {
-      "texto": "Esa misma noche llegaron unos pastores. Un ángel les había anunciado la gran noticia.",
-      "clave": "pastores"
-    },
-    {
-      "texto": "Y encontraron justo lo que el ángel les dijo: a María, a José y al niño acostado en el pesebre.",
-      "clave": "encontraron"
-    },
-    {
-      "texto": "A los ocho días, el niño recibió el nombre que había dicho el ángel: Jesús.",
-      "clave": "nombre"
-    },
-    {
-      "texto": "Ponerle el nombre le tocaba al padre. Y José asumió ese papel delante de todos.",
-      "clave": "padre"
-    },
-    {
-      "texto": "Cuando se cumplieron los días que pedía la ley, subieron al templo de Jerusalén.",
-      "clave": "templo"
-    },
-    {
-      "texto": "Iban a presentar al niño al Señor y a dar una ofrenda.",
-      "clave": "ofrenda"
-    },
-    {
-      "texto": "La ley pedía un cordero. Pero si una familia no podía pagarlo, bastaban dos tórtolas o dos pichones.",
-      "clave": "tórtolas"
-    },
-    {
-      "texto": "¿Sabes qué llevaron José y María? Las dos tórtolas.",
-      "clave": "dos"
-    },
-    {
-      "texto": "O sea: la familia de Jesús era pobre.",
-      "clave": "pobre"
-    },
-    {
-      "texto": "En el templo, un anciano llamado Simeón tomó al niño en brazos y bendijo a Dios.",
-      "clave": "Simeón"
-    },
-    {
-      "texto": "Dijo que ya podía morir en paz, porque sus ojos habían visto la salvación.",
-      "clave": "paz"
-    },
-    {
-      "texto": "Y Lucas cuenta que el padre y la madre del niño estaban admirados por lo que se decía de él.",
-      "clave": "admirados"
-    },
-    {
-      "texto": "Tiempo después llegaron unos magos de Oriente, siguiendo una estrella.",
-      "clave": "estrella"
-    },
-    {
-      "texto": "Buscaban al rey de los judíos que acababa de nacer, y le ofrecieron oro, incienso y mirra.",
-      "clave": "oro"
-    },
-    {
-      "texto": "Pero el rey Herodes se enteró, y tuvo miedo de perder su trono.",
-      "clave": "Herodes"
-    },
-    {
-      "texto": "Herodes buscaba al niño para quitarle la vida.",
-      "clave": "vida"
-    },
-    {
-      "texto": "Entonces llegó el segundo sueño.",
-      "clave": "segundo"
-    },
-    {
-      "texto": "«Levántate, toma al niño y a su madre, y huye a Egipto. Quédate allí hasta que yo te avise».",
-      "clave": "Egipto"
-    },
-    {
-      "texto": "Y fíjate en este detalle de Mateo: José se levantó, tomó al niño y a su madre, y se fue de noche.",
-      "clave": "noche"
-    },
-    {
-      "texto": "No esperó al amanecer. No hizo preguntas. Salió en ese mismo momento.",
-      "clave": "momento"
-    },
-    {
-      "texto": "Así, la Sagrada Familia vivió como refugiada en un país extranjero.",
-      "clave": "refugiada"
-    },
-    {
-      "texto": "Otra lengua, otras costumbres, y un carpintero buscando trabajo lejos de su tierra.",
-      "clave": "trabajo"
-    },
-    {
-      "texto": "Por eso hoy la Iglesia lo invoca como patrono de los exiliados.",
-      "clave": "exiliados"
-    },
-    {
-      "texto": "Pasó el tiempo, y Herodes murió.",
-      "clave": "murió"
-    },
-    {
-      "texto": "Tercer sueño: «Levántate, toma al niño y a su madre, y vuelve a la tierra de Israel».",
-      "clave": "vuelve"
-    },
-    {
-      "texto": "Pero en Judea gobernaba Arquelao, el hijo de Herodes, y José tuvo miedo de ir allá.",
-      "clave": "Arquelao"
-    },
-    {
-      "texto": "Y en un cuarto sueño, Dios le indicó que se fuera a Galilea.",
-      "clave": "cuarto"
-    },
-    {
-      "texto": "Así volvieron a su casa de siempre, en Nazaret.",
-      "clave": "casa"
-    },
-    {
-      "texto": "Cuatro sueños, cuatro órdenes, y las cuatro veces José obedeció sin decir una palabra.",
-      "clave": "obedeció"
-    },
-    {
-      "texto": "Y aquí empiezan los años que casi nadie cuenta: la vida sencilla en Nazaret.",
-      "clave": "sencilla"
-    },
-    {
-      "texto": "Por eso a esta etapa se le llama la vida oculta de Jesús.",
-      "clave": "oculta"
-    },
-    {
-      "texto": "En el Evangelio de Marcos, a Jesús mismo lo llaman «el carpintero».",
-      "clave": "carpintero"
-    },
-    {
-      "texto": "O sea, aprendió el oficio en casa, como hacían los hijos con sus padres en aquel tiempo.",
-      "clave": "oficio"
-    },
-    {
-      "texto": "Imagínate al Hijo de Dios aprendiendo a trabajar la madera junto a José.",
-      "clave": "madera"
-    },
-    {
-      "texto": "De esos años, los Evangelios cuentan un solo episodio. Y es de los más bonitos.",
-      "clave": "episodio"
-    },
-    {
-      "texto": "Cuando Jesús tenía doce años, la familia subió a Jerusalén para la fiesta de la Pascua.",
-      "clave": "Pascua"
-    },
-    {
-      "texto": "Al regresar, José y María caminaron un día entero creyendo que el niño iba con los demás.",
-      "clave": "día"
-    },
-    {
-      "texto": "Pero Jesús se había quedado en Jerusalén.",
-      "clave": "quedado"
-    },
-    {
-      "texto": "Lo buscaron entre parientes y conocidos, y volvieron a la ciudad.",
-      "clave": "buscaron"
-    },
-    {
-      "texto": "Al tercer día lo encontraron en el templo, sentado entre los maestros, escuchándolos y haciéndoles preguntas.",
-      "clave": "tercer"
-    },
-    {
-      "texto": "Y María le dijo: «Hijo, ¿por qué nos has hecho esto? Tu padre y yo te buscábamos angustiados».",
-      "clave": "angustiados"
-    },
-    {
-      "texto": "«Tu padre y yo». Así llamaba María a José delante de Jesús.",
-      "clave": "padre"
-    },
-    {
-      "texto": "Lucas termina diciendo que Jesús bajó con ellos a Nazaret, y vivía sujeto a ellos.",
-      "clave": "sujeto"
-    },
-    {
-      "texto": "Y que crecía en sabiduría, en estatura y en gracia delante de Dios y de los hombres.",
-      "clave": "crecía"
-    },
-    {
-      "texto": "Después de ese día, José desaparece del relato.",
-      "clave": "desaparece"
-    },
-    {
-      "texto": "Cuando Jesús comienza su vida pública, ya no se le menciona.",
-      "clave": "menciona"
-    },
-    {
-      "texto": "Y al pie de la cruz, Jesús le confía su madre al discípulo Juan.",
-      "clave": "Juan"
-    },
-    {
-      "texto": "Por eso la tradición piensa que José ya había muerto.",
-      "clave": "muerto"
-    },
-    {
-      "texto": "Y cuenta que murió en Nazaret, acompañado por Jesús y por María.",
-      "clave": "acompañado"
-    },
-    {
-      "texto": "¿Te imaginas una despedida más dulce que esa?",
-      "clave": "dulce"
-    },
-    {
-      "texto": "Por eso muchos lo invocan como patrono de la buena muerte.",
-      "clave": "muerte"
-    },
-    {
-      "texto": "Pero la historia de José no terminó ahí.",
-      "clave": "terminó"
-    },
-    {
-      "texto": "El 8 de diciembre de 1870, el papa Pío IX lo declaró patrono de la Iglesia universal.",
-      "clave": "universal",
-      "dicho": "El ocho de diciembre de mil ochocientos setenta, el papa Pío Nono lo declaró patrono de la Iglesia universal."
-    },
-    {
-      "texto": "El mismo que cuidó a Jesús en Nazaret, ahora cuida a toda la Iglesia.",
-      "clave": "cuida"
-    },
-    {
-      "texto": "Su fiesta es el 19 de marzo. Y desde 1955, cada primero de mayo se celebra a San José Obrero.",
-      "clave": "Obrero",
-      "dicho": "Su fiesta es el diecinueve de marzo. Y desde mil novecientos cincuenta y cinco, cada primero de mayo se celebra a San José Obrero."
-    },
-    {
-      "texto": "En 2013, su nombre se añadió a las plegarias de la Misa, justo después del de María.",
-      "clave": "Misa",
-      "dicho": "En dos mil trece, su nombre se añadió a las plegarias de la Misa, justo después del de María."
-    },
-    {
-      "texto": "Y en 2020, el papa Francisco le dedicó una carta entera: «Con corazón de padre».",
-      "clave": "corazón",
-      "dicho": "Y en dos mil veinte, el papa Francisco le dedicó una carta entera: «Con corazón de padre»."
-    },
-    {
-      "texto": "Allí lo llama padre amado, padre en la ternura, en la obediencia y en la acogida.",
-      "clave": "ternura"
-    },
-    {
-      "texto": "Padre de la valentía creativa, padre trabajador y padre en la sombra.",
-      "clave": "sombra"
-    },
-    {
-      "texto": "Padre en la sombra. Quizás esa sea la mejor forma de resumir su vida.",
-      "clave": "resumir"
-    },
-    {
-      "texto": "José no buscó aplausos ni dejó discursos.",
-      "clave": "aplausos"
-    },
-    {
-      "texto": "Solo estuvo ahí, cada vez que Dios lo necesitó.",
-      "clave": "ahí"
-    },
-    {
-      "texto": "Y eso nos deja una pregunta a cada uno de nosotros.",
-      "clave": "pregunta"
-    },
-    {
-      "texto": "¿Cuántas veces queremos tener todas las respuestas antes de dar un paso?",
-      "clave": "respuestas"
-    },
-    {
-      "texto": "José no las tenía. Tenía confianza.",
-      "clave": "confianza"
-    },
-    {
-      "texto": "Y con esa confianza cuidó, trabajó, protegió y amó.",
-      "clave": "amó"
-    },
-    {
-      "texto": "San José, ruega por nosotros.",
-      "clave": "ruega"
-    },
-    {
-      "texto": "Si esta historia te tocó el corazón, suscríbete a Dulce Patriarca y compártela con alguien que hoy necesite confiar.",
-      "clave": "suscríbete"
-    }
-  ],
-  "escenas": [
-    {
-      "nombre": "capitulo-1",
-      "tomas": [
+  {
+   "titulo": "Un carpintero de Nazaret",
+   "desde": 7
+  },
+  {
+   "titulo": "La noticia que lo cambió todo",
+   "desde": 23
+  },
+  {
+   "titulo": "Camino a Belén",
+   "desde": 37
+  },
+  {
+   "titulo": "Dos tórtolas en el templo",
+   "desde": 50
+  },
+  {
+   "titulo": "La huida a Egipto",
+   "desde": 58
+  },
+  {
+   "titulo": "Los años escondidos",
+   "desde": 75
+  },
+  {
+   "titulo": "Su partida y su herencia",
+   "desde": 90
+  }
+ ],
+ "frases": [
+  {
+   "texto": "En toda la Biblia, San José no dice ni una sola palabra.",
+   "clave": "palabra"
+  },
+  {
+   "texto": "Ni una. Los Evangelios no guardan ninguna frase suya.",
+   "clave": "frase"
+  },
+  {
+   "texto": "Y aun así, Dios le confió lo más valioso que tenía: a su Hijo y a su Madre.",
+   "clave": "confió"
+  },
+  {
+   "texto": "¿Cómo puede ser tan importante el hombre más callado de la historia?",
+   "clave": "callado"
+  },
+  {
+   "texto": "Quédate conmigo, porque hoy te cuento la vida de San José, el padre que Dios eligió para Jesús en la tierra.",
+   "clave": "José"
+  },
+  {
+   "texto": "Lo que dice la Biblia, y también lo que cuenta la tradición, cada cosa en su lugar.",
+   "clave": "tradición"
+  },
+  {
+   "texto": "José vivía en Nazaret, un pueblito pequeño de Galilea, al norte de Israel.",
+   "clave": "Nazaret"
+  },
+  {
+   "texto": "Pero su familia tenía raíces muy profundas.",
+   "clave": "raíces"
+  },
+  {
+   "texto": "Los Evangelios de Mateo y de Lucas dicen que era descendiente del rey David.",
+   "clave": "David"
+  },
+  {
+   "texto": "Imagínate: sangre de reyes, pero sin palacio, sin corona y sin riquezas.",
+   "clave": "corona"
+  },
+  {
+   "texto": "José se ganaba la vida con sus manos.",
+   "clave": "manos"
+  },
+  {
+   "texto": "En el Evangelio de Mateo, a Jesús lo llaman «el hijo del carpintero».",
+   "clave": "carpintero"
+  },
+  {
+   "texto": "La palabra griega es «tékton»: un artesano que trabajaba la madera, y quizás también la piedra.",
+   "clave": "tékton",
+   "dicho": "La palabra griega es «técton»: un artesano que trabajaba la madera, y quizás también la piedra."
+  },
+  {
+   "texto": "Puertas, mesas, arados, vigas para los techos… así se ganaba el pan de su casa.",
+   "clave": "pan"
+  },
+  {
+   "texto": "¿Y era un anciano, como lo pintan tantas veces?",
+   "clave": "anciano"
+  },
+  {
+   "texto": "Ojo con esto: la Biblia no dice su edad.",
+   "clave": "edad"
+  },
+  {
+   "texto": "La idea del José viejito viene de un escrito antiguo que no está en la Biblia: el Protoevangelio de Santiago.",
+   "clave": "Protoevangelio"
+  },
+  {
+   "texto": "Ese escrito cuenta que el sacerdote reunió a varios hombres, cada uno con su bastón.",
+   "clave": "bastón"
+  },
+  {
+   "texto": "Y que del bastón de José salió una paloma, como señal de que él cuidaría a María.",
+   "clave": "paloma"
+  },
+  {
+   "texto": "Otros relatos dicen que su vara floreció. Por eso lo ves pintado con una vara de lirios.",
+   "clave": "lirios"
+  },
+  {
+   "texto": "Es una leyenda bonita, pero es tradición, no Evangelio.",
+   "clave": "leyenda"
+  },
+  {
+   "texto": "Lo que sí sabemos es que José estaba comprometido con una joven de Nazaret llamada María.",
+   "clave": "María"
+  },
+  {
+   "texto": "En aquel tiempo, el compromiso ya era casi un matrimonio, aunque todavía no vivían juntos.",
+   "clave": "compromiso"
+  },
+  {
+   "texto": "Y entonces llegó la noticia: María esperaba un hijo.",
+   "clave": "hijo"
+  },
+  {
+   "texto": "José sabía que ese niño no era suyo. Imagínate lo que sintió.",
+   "clave": "sintió"
+  },
+  {
+   "texto": "Mateo dice algo precioso de él: que José era un hombre justo.",
+   "clave": "justo"
+  },
+  {
+   "texto": "Podía denunciarla en público, pero no quiso exponerla a la vergüenza.",
+   "clave": "vergüenza"
+  },
+  {
+   "texto": "Decidió separarse de ella en secreto, sin hacer ruido, para protegerla.",
+   "clave": "secreto"
+  },
+  {
+   "texto": "Y mientras pensaba en todo esto, se quedó dormido.",
+   "clave": "dormido"
+  },
+  {
+   "texto": "Aquí aparece el primero de los cuatro sueños de José.",
+   "clave": "sueños"
+  },
+  {
+   "texto": "Un ángel del Señor le dijo: «José, hijo de David, no temas recibir a María, tu mujer».",
+   "clave": "temas"
+  },
+  {
+   "texto": "«Lo que ha concebido viene del Espíritu Santo. Dará a luz un hijo, y tú le pondrás por nombre Jesús».",
+   "clave": "Jesús"
+  },
+  {
+   "texto": "¿Y qué hizo José al despertar?",
+   "clave": "despertar"
+  },
+  {
+   "texto": "No discutió. No pidió pruebas. No dijo nada.",
+   "clave": "nada"
+  },
+  {
+   "texto": "Hizo lo que el ángel le había mandado, y recibió a María en su casa.",
+   "clave": "recibió"
+  },
+  {
+   "texto": "Así es José: no habla, actúa.",
+   "clave": "actúa"
+  },
+  {
+   "texto": "Meses después llegó una orden del emperador Augusto: todos debían inscribirse en un censo.",
+   "clave": "censo"
+  },
+  {
+   "texto": "Y cada uno tenía que ir a su ciudad de origen.",
+   "clave": "ciudad"
+  },
+  {
+   "texto": "Para José, que era de la familia de David, eso significaba ir a Belén, la ciudad de David.",
+   "clave": "Belén"
+  },
+  {
+   "texto": "Más de cien kilómetros de camino, con María a punto de dar a luz.",
+   "clave": "kilómetros"
+  },
+  {
+   "texto": "La Biblia no menciona ningún burro, pero la tradición siempre los imagina así: María montada y José guiando el camino.",
+   "clave": "burro"
+  },
+  {
+   "texto": "Cuando por fin llegaron, no había lugar para ellos en el alojamiento.",
+   "clave": "lugar"
+  },
+  {
+   "texto": "Piensa en José, buscando un techo para su esposa, tocando puertas que no se abrían.",
+   "clave": "puertas"
+  },
+  {
+   "texto": "Al final, el Hijo de Dios nació en el lugar más humilde.",
+   "clave": "humilde"
+  },
+  {
+   "texto": "María lo envolvió en pañales y lo acostó en un pesebre, donde comían los animales.",
+   "clave": "pesebre"
+  },
+  {
+   "texto": "Esa misma noche llegaron unos pastores. Un ángel les había anunciado la gran noticia.",
+   "clave": "pastores"
+  },
+  {
+   "texto": "Y encontraron justo lo que el ángel les dijo: a María, a José y al niño acostado en el pesebre.",
+   "clave": "encontraron"
+  },
+  {
+   "texto": "A los ocho días, el niño recibió el nombre que había dicho el ángel: Jesús.",
+   "clave": "nombre"
+  },
+  {
+   "texto": "Ponerle el nombre le tocaba al padre. Y José asumió ese papel delante de todos.",
+   "clave": "padre"
+  },
+  {
+   "texto": "Cuando se cumplieron los días que pedía la ley, subieron al templo de Jerusalén.",
+   "clave": "templo"
+  },
+  {
+   "texto": "Iban a presentar al niño al Señor y a dar una ofrenda.",
+   "clave": "ofrenda"
+  },
+  {
+   "texto": "La ley pedía un cordero. Pero si una familia no podía pagarlo, bastaban dos tórtolas o dos pichones.",
+   "clave": "tórtolas"
+  },
+  {
+   "texto": "¿Sabes qué llevaron José y María? Las dos tórtolas.",
+   "clave": "dos"
+  },
+  {
+   "texto": "O sea: la familia de Jesús era pobre.",
+   "clave": "pobre"
+  },
+  {
+   "texto": "En el templo, un anciano llamado Simeón tomó al niño en brazos y bendijo a Dios.",
+   "clave": "Simeón"
+  },
+  {
+   "texto": "Dijo que ya podía morir en paz, porque sus ojos habían visto la salvación.",
+   "clave": "paz"
+  },
+  {
+   "texto": "Y Lucas cuenta que el padre y la madre del niño estaban admirados por lo que se decía de él.",
+   "clave": "admirados"
+  },
+  {
+   "texto": "Tiempo después llegaron unos magos de Oriente, siguiendo una estrella.",
+   "clave": "estrella"
+  },
+  {
+   "texto": "Buscaban al rey de los judíos que acababa de nacer, y le ofrecieron oro, incienso y mirra.",
+   "clave": "oro"
+  },
+  {
+   "texto": "Pero el rey Herodes se enteró, y tuvo miedo de perder su trono.",
+   "clave": "Herodes"
+  },
+  {
+   "texto": "Herodes buscaba al niño para quitarle la vida.",
+   "clave": "vida"
+  },
+  {
+   "texto": "Entonces llegó el segundo sueño.",
+   "clave": "segundo"
+  },
+  {
+   "texto": "«Levántate, toma al niño y a su madre, y huye a Egipto. Quédate allí hasta que yo te avise».",
+   "clave": "Egipto"
+  },
+  {
+   "texto": "Y fíjate en este detalle de Mateo: José se levantó, tomó al niño y a su madre, y se fue de noche.",
+   "clave": "noche"
+  },
+  {
+   "texto": "No esperó al amanecer. No hizo preguntas. Salió en ese mismo momento.",
+   "clave": "momento"
+  },
+  {
+   "texto": "Así, la Sagrada Familia vivió como refugiada en un país extranjero.",
+   "clave": "refugiada"
+  },
+  {
+   "texto": "Otra lengua, otras costumbres, y un carpintero buscando trabajo lejos de su tierra.",
+   "clave": "trabajo"
+  },
+  {
+   "texto": "Por eso hoy la Iglesia lo invoca como patrono de los exiliados.",
+   "clave": "exiliados"
+  },
+  {
+   "texto": "Pasó el tiempo, y Herodes murió.",
+   "clave": "murió"
+  },
+  {
+   "texto": "Tercer sueño: «Levántate, toma al niño y a su madre, y vuelve a la tierra de Israel».",
+   "clave": "vuelve"
+  },
+  {
+   "texto": "Pero en Judea gobernaba Arquelao, el hijo de Herodes, y José tuvo miedo de ir allá.",
+   "clave": "Arquelao"
+  },
+  {
+   "texto": "Y en un cuarto sueño, Dios le indicó que se fuera a Galilea.",
+   "clave": "cuarto"
+  },
+  {
+   "texto": "Así volvieron a su casa de siempre, en Nazaret.",
+   "clave": "casa"
+  },
+  {
+   "texto": "Cuatro sueños, cuatro órdenes, y las cuatro veces José obedeció sin decir una palabra.",
+   "clave": "obedeció"
+  },
+  {
+   "texto": "Y aquí empiezan los años que casi nadie cuenta: la vida sencilla en Nazaret.",
+   "clave": "sencilla"
+  },
+  {
+   "texto": "Por eso a esta etapa se le llama la vida oculta de Jesús.",
+   "clave": "oculta"
+  },
+  {
+   "texto": "En el Evangelio de Marcos, a Jesús mismo lo llaman «el carpintero».",
+   "clave": "carpintero"
+  },
+  {
+   "texto": "O sea, aprendió el oficio en casa, como hacían los hijos con sus padres en aquel tiempo.",
+   "clave": "oficio"
+  },
+  {
+   "texto": "Imagínate al Hijo de Dios aprendiendo a trabajar la madera junto a José.",
+   "clave": "madera"
+  },
+  {
+   "texto": "De esos años, los Evangelios cuentan un solo episodio. Y es de los más bonitos.",
+   "clave": "episodio"
+  },
+  {
+   "texto": "Cuando Jesús tenía doce años, la familia subió a Jerusalén para la fiesta de la Pascua.",
+   "clave": "Pascua"
+  },
+  {
+   "texto": "Al regresar, José y María caminaron un día entero creyendo que el niño iba con los demás.",
+   "clave": "día"
+  },
+  {
+   "texto": "Pero Jesús se había quedado en Jerusalén.",
+   "clave": "quedado"
+  },
+  {
+   "texto": "Lo buscaron entre parientes y conocidos, y volvieron a la ciudad.",
+   "clave": "buscaron"
+  },
+  {
+   "texto": "Al tercer día lo encontraron en el templo, sentado entre los maestros, escuchándolos y haciéndoles preguntas.",
+   "clave": "tercer"
+  },
+  {
+   "texto": "Y María le dijo: «Hijo, ¿por qué nos has hecho esto? Tu padre y yo te buscábamos angustiados».",
+   "clave": "angustiados"
+  },
+  {
+   "texto": "«Tu padre y yo». Así llamaba María a José delante de Jesús.",
+   "clave": "padre"
+  },
+  {
+   "texto": "Lucas termina diciendo que Jesús bajó con ellos a Nazaret, y vivía sujeto a ellos.",
+   "clave": "sujeto"
+  },
+  {
+   "texto": "Y que crecía en sabiduría, en estatura y en gracia delante de Dios y de los hombres.",
+   "clave": "crecía"
+  },
+  {
+   "texto": "Después de ese día, José desaparece del relato.",
+   "clave": "desaparece"
+  },
+  {
+   "texto": "Cuando Jesús comienza su vida pública, ya no se le menciona.",
+   "clave": "menciona"
+  },
+  {
+   "texto": "Y al pie de la cruz, Jesús le confía su madre al discípulo Juan.",
+   "clave": "Juan"
+  },
+  {
+   "texto": "Por eso la tradición piensa que José ya había muerto.",
+   "clave": "muerto"
+  },
+  {
+   "texto": "Y cuenta que murió en Nazaret, acompañado por Jesús y por María.",
+   "clave": "acompañado"
+  },
+  {
+   "texto": "¿Te imaginas una despedida más dulce que esa?",
+   "clave": "dulce"
+  },
+  {
+   "texto": "Por eso muchos lo invocan como patrono de la buena muerte.",
+   "clave": "muerte"
+  },
+  {
+   "texto": "Pero la historia de José no terminó ahí.",
+   "clave": "terminó"
+  },
+  {
+   "texto": "El 8 de diciembre de 1870, el papa Pío IX lo declaró patrono de la Iglesia universal.",
+   "clave": "universal",
+   "dicho": "El ocho de diciembre de mil ochocientos setenta, el papa Pío Nono lo declaró patrono de la Iglesia universal."
+  },
+  {
+   "texto": "El mismo que cuidó a Jesús en Nazaret, ahora cuida a toda la Iglesia.",
+   "clave": "cuida"
+  },
+  {
+   "texto": "Su fiesta es el 19 de marzo. Y desde 1955, cada primero de mayo se celebra a San José Obrero.",
+   "clave": "Obrero",
+   "dicho": "Su fiesta es el diecinueve de marzo. Y desde mil novecientos cincuenta y cinco, cada primero de mayo se celebra a San José Obrero."
+  },
+  {
+   "texto": "En 2013, su nombre se añadió a las plegarias de la Misa, justo después del de María.",
+   "clave": "Misa",
+   "dicho": "En dos mil trece, su nombre se añadió a las plegarias de la Misa, justo después del de María."
+  },
+  {
+   "texto": "Y en 2020, el papa Francisco le dedicó una carta entera: «Con corazón de padre».",
+   "clave": "corazón",
+   "dicho": "Y en dos mil veinte, el papa Francisco le dedicó una carta entera: «Con corazón de padre»."
+  },
+  {
+   "texto": "Allí lo llama padre amado, padre en la ternura, en la obediencia y en la acogida.",
+   "clave": "ternura"
+  },
+  {
+   "texto": "Padre de la valentía creativa, padre trabajador y padre en la sombra.",
+   "clave": "sombra"
+  },
+  {
+   "texto": "Padre en la sombra. Quizás esa sea la mejor forma de resumir su vida.",
+   "clave": "resumir"
+  },
+  {
+   "texto": "José no buscó aplausos ni dejó discursos.",
+   "clave": "aplausos"
+  },
+  {
+   "texto": "Solo estuvo ahí, cada vez que Dios lo necesitó.",
+   "clave": "ahí"
+  },
+  {
+   "texto": "Y eso nos deja una pregunta a cada uno de nosotros.",
+   "clave": "pregunta"
+  },
+  {
+   "texto": "¿Cuántas veces queremos tener todas las respuestas antes de dar un paso?",
+   "clave": "respuestas"
+  },
+  {
+   "texto": "José no las tenía. Tenía confianza.",
+   "clave": "confianza"
+  },
+  {
+   "texto": "Y con esa confianza cuidó, trabajó, protegió y amó.",
+   "clave": "amó"
+  },
+  {
+   "texto": "San José, ruega por nosotros.",
+   "clave": "ruega"
+  },
+  {
+   "texto": "Si esta historia te tocó el corazón, suscríbete a Dulce Patriarca y compártela con alguien que hoy necesite confiar.",
+   "clave": "suscríbete"
+  }
+ ],
+ "escenas": [
+  {
+   "nombre": "El hombre del silencio",
+   "tomas": [
+    {
+     "desde": 0,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
         {
-          "desde": 0,
-          "rotulo": "",
-          "dibujo": {
-            "fondo": "nazaret",
-            "elementos": []
-          }
+         "zoom": 1.0,
+         "x": 960,
+         "y": 470
         }
+       ],
+       [
+        3.95,
+        {
+         "zoom": 1.18,
+         "x": 960,
+         "y": 470
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "entra": "aparece"
+       }
       ]
+     }
+    },
+    {
+     "desde": 2,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 900,
+         "y": 520
+        }
+       ],
+       [
+        4.88,
+        {
+         "zoom": 1.07,
+         "x": 900,
+         "y": 520
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 1100,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "boca": "seria",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "pergamino",
+        "x": 560,
+        "y": 520,
+        "escala": 0.55,
+        "en": "2:frase",
+        "entra": "rebote",
+        "accion": "flota"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 3,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.21,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 760,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "params": {
+         "aureola": [
+          [
+           0,
+           0
+          ],
+          [
+           "3:confió",
+           0.8
+          ]
+         ]
+        },
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1180,
+        "y": 645,
+        "escala": 1.05,
+        "en": "3:Madre",
+        "pose": "reza",
+        "mira": -1,
+        "entra": "derecha",
+        "params": {
+         "aureola": [
+          [
+           0,
+           0
+          ],
+          [
+           "3:Madre",
+           0.8
+          ]
+         ]
+        }
+       }
+      ]
+     }
+    },
+    {
+     "desde": 4,
+     "dibujo": {
+      "fondo": "camino",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 900,
+         "y": 540
+        }
+       ],
+       [
+        4.17,
+        {
+         "zoom": 1.07,
+         "x": 900,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 500,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "camina",
+        "mueve": [
+         [
+          "4:historia",
+          {
+           "x": 900,
+           "y": 675,
+           "escala": 0.95
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 5,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        7.21,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 760,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "saluda",
+        "boca": "habla",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1160,
+        "y": 660,
+        "escala": 1.0,
+        "en": "5:Dios",
+        "mira": -1,
+        "entra": "derecha"
+       },
+       {
+        "pieza": "jesus",
+        "x": 960,
+        "y": 720,
+        "escala": 0.8,
+        "en": "5:Jesús",
+        "edad": "nino",
+        "aureola": 0.6,
+        "entra": "rebote"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 6,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.35,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "pergamino",
+        "x": 470,
+        "y": 470,
+        "escala": 0.5,
+        "en": "6:Biblia",
+        "entra": "rebote",
+        "accion": "flota"
+       },
+       {
+        "pieza": "lirio",
+        "x": 1450,
+        "y": 735,
+        "escala": 0.75,
+        "en": "6:tradición",
+        "entra": "crece"
+       }
+      ]
+     }
     }
-  ]
+   ]
+  },
+  {
+   "nombre": "Un carpintero de Nazaret",
+   "tomas": [
+    {
+     "desde": 7,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.17,
+        {
+         "zoom": 1.05,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "casaadobe",
+        "x": 1420,
+        "y": 690,
+        "escala": 0.7,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "olivo",
+        "x": 330,
+        "y": 665,
+        "escala": 0.85,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 750,
+        "escala": 0.8,
+        "en": 0,
+        "pose": "camina",
+        "mueve": [
+         [
+          "7:Israel",
+          {
+           "x": 1000,
+           "y": 750,
+           "escala": 0.8
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 8,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        3.18,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "olivo",
+        "x": 960,
+        "y": 585,
+        "escala": 1.25,
+        "en": 0,
+        "entra": "crece",
+        "dura": 1.2
+       }
+      ]
+     }
+    },
+    {
+     "desde": 9,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 420
+        }
+       ],
+       [
+        5.02,
+        {
+         "zoom": 1.15,
+         "x": 960,
+         "y": 420
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "rey",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": "9:David",
+        "entra": "aparece"
+       },
+       {
+        "pieza": "haz",
+        "x": 960,
+        "y": 330,
+        "escala": 1.0,
+        "en": 0,
+        "largo": 700,
+        "brillo": 0.8,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 10,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.98,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "corona",
+        "x": 960,
+        "y": 170,
+        "escala": 0.45,
+        "en": "10:reyes",
+        "entra": "cae",
+        "hasta": "10:corona",
+        "sale": "aparece",
+        "accion": "flota"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 11,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 850,
+         "y": 520
+        }
+       ],
+       [
+        3.14,
+        {
+         "zoom": 1.07,
+         "x": 850,
+         "y": 520
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "banco",
+        "x": 1150,
+        "y": 725,
+        "escala": 0.85,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "trabaja",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 12,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.39,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "banco",
+        "x": 1050,
+        "y": 725,
+        "escala": 0.85,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 640,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "trabaja",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 1450,
+        "y": 675,
+        "escala": 0.95,
+        "en": "12:carpintero",
+        "edad": "nino",
+        "mira": -1,
+        "aureola": 0.5,
+        "entra": "derecha"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 13,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 600
+        }
+       ],
+       [
+        7.09,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 600
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "tablas",
+        "x": 960,
+        "y": 820,
+        "escala": 1.0,
+        "en": 0,
+        "entra": "sube"
+       },
+       {
+        "pieza": "martillo",
+        "x": 620,
+        "y": 520,
+        "escala": 0.55,
+        "en": "13:madera",
+        "giro": -30,
+        "entra": "rebote"
+       },
+       {
+        "pieza": "serrucho",
+        "x": 1300,
+        "y": 520,
+        "escala": 0.6,
+        "en": "13:piedra",
+        "entra": "rebote"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 14,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.47,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "silla",
+        "x": 520,
+        "y": 750,
+        "escala": 0.7,
+        "en": "14:mesas",
+        "entra": "crece"
+       },
+       {
+        "pieza": "banco",
+        "x": 1000,
+        "y": 755,
+        "escala": 0.75,
+        "en": "14:Puertas"
+       },
+       {
+        "pieza": "jose",
+        "x": 1450,
+        "y": 660,
+        "escala": 1.0,
+        "en": "14:vigas",
+        "pose": "carga",
+        "lleva": "tablas",
+        "mira": -1,
+        "entra": "derecha"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 15,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.69,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "anciano",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "boca": "seria",
+        "entra": "aparece"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 16,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.17,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "boca": "sonrie",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "signo",
+        "x": 1300,
+        "y": 330,
+        "escala": 0.5,
+        "en": "16:edad",
+        "tipo": "pregunta",
+        "entra": "rebote",
+        "accion": "balancea"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 17,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 520
+        }
+       ],
+       [
+        7.28,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 520
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "pergamino",
+        "x": 960,
+        "y": 520,
+        "escala": 0.9,
+        "en": 0,
+        "entra": "crece"
+       },
+       {
+        "pieza": "lampara",
+        "x": 1450,
+        "y": 920,
+        "escala": 0.6,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 18,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.84,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "anciano",
+        "x": 960,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "senala",
+        "boca": "habla",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "vara",
+        "x": 520,
+        "y": 735,
+        "escala": 0.75,
+        "en": "18:hombres",
+        "florece": 0
+       },
+       {
+        "pieza": "vara",
+        "x": 1400,
+        "y": 735,
+        "escala": 0.75,
+        "en": "18:hombres",
+        "florece": 0
+       },
+       {
+        "pieza": "pastor",
+        "x": 330,
+        "y": 705,
+        "escala": 0.85,
+        "en": "18:hombres",
+        "entra": "izquierda"
+       },
+       {
+        "pieza": "jose",
+        "x": 1600,
+        "y": 690,
+        "escala": 0.9,
+        "en": "18:bastón",
+        "mira": -1,
+        "entra": "derecha"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 19,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 480
+        }
+       ],
+       [
+        7.24,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 480
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 800,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "mira": 1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "vara",
+        "x": 1050,
+        "y": 720,
+        "escala": 0.8,
+        "en": 0,
+        "florece": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "paloma",
+        "x": 1060,
+        "y": 600,
+        "escala": 0.35,
+        "en": "19:paloma",
+        "vuela": true,
+        "entra": "aparece",
+        "mueve": [
+         [
+          "19:señal",
+          {
+           "x": 820,
+           "y": 160,
+           "escala": 0.35
+          }
+         ]
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "desde": 20,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 420
+        }
+       ],
+       [
+        6.71,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 420
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "vara",
+        "x": 960,
+        "y": 585,
+        "escala": 1.25,
+        "en": 0,
+        "params": {
+         "florece": [
+          [
+           0,
+           0
+          ],
+          [
+           "20:floreció",
+           1
+          ]
+         ]
+        },
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lirio",
+        "x": 600,
+        "y": 750,
+        "escala": 0.7,
+        "en": "20:lirios",
+        "entra": "crece"
+       },
+       {
+        "pieza": "lirio",
+        "x": 1320,
+        "y": 750,
+        "escala": 0.7,
+        "en": "20:lirios",
+        "entra": "crece"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 21,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.32,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 760,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "nubesueno",
+        "x": 1300,
+        "y": 360,
+        "escala": 0.6,
+        "en": "21:leyenda",
+        "dentro": "vara",
+        "dentroEscala": 0.4,
+        "entra": "rebote"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 22,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.11,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "saluda",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1220,
+        "y": 645,
+        "escala": 1.05,
+        "en": "22:María",
+        "mira": -1,
+        "entra": "derecha"
+       },
+       {
+        "pieza": "corazones",
+        "x": 960,
+        "y": 300,
+        "escala": 0.35,
+        "en": "22:María",
+        "entra": "rebote",
+        "accion": "late"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "nombre": "La noticia que lo cambió todo",
+   "tomas": [
+    {
+     "desde": 23,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.42,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "casaadobe",
+        "x": 1500,
+        "y": 690,
+        "escala": 0.7,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 640,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1060,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "mira": -1,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 24,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 460
+        }
+       ],
+       [
+        4.05,
+        {
+         "zoom": 1.12,
+         "x": 960,
+         "y": 460
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "maria",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "pose": "reza",
+        "aureola": 0.6,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "haz",
+        "x": 960,
+        "y": 600,
+        "escala": 1.0,
+        "en": "24:hijo",
+        "largo": 900,
+        "brillo": 0.7
+       }
+      ]
+     }
+    },
+    {
+     "desde": 25,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.05,
+         "x": 960,
+         "y": 420
+        }
+       ],
+       [
+        5.43,
+        {
+         "zoom": 1.3,
+         "x": 960,
+         "y": 420
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "boca": "seria",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 26,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 460
+        }
+       ],
+       [
+        4.32,
+        {
+         "zoom": 1.12,
+         "x": 960,
+         "y": 460
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "params": {
+         "aureola": [
+          [
+           0,
+           0
+          ],
+          [
+           "26:justo",
+           0.9
+          ]
+         ]
+        },
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 27,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 900,
+         "y": 460
+        }
+       ],
+       [
+        4.33,
+        {
+         "zoom": 1.07,
+         "x": 900,
+         "y": 460
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 900,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "boca": "seria",
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lampara",
+        "x": 1450,
+        "y": 935,
+        "escala": 0.55,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 28,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.62,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "lampara",
+        "x": 400,
+        "y": 935,
+        "escala": 0.55,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 900,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "camina",
+        "mueve": [
+         [
+          "28:protegerla",
+          {
+           "x": 1300,
+           "y": 645,
+           "escala": 1.05
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 29,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 900,
+         "y": 640
+        }
+       ],
+       [
+        3.22,
+        {
+         "zoom": 1.1,
+         "x": 900,
+         "y": 640
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 900,
+        "y": 590,
+        "escala": 1.3,
+        "en": 0,
+        "pose": "duerme",
+        "entra": "aparece",
+        "dura": 1.0
+       },
+       {
+        "pieza": "lampara",
+        "x": 1600,
+        "y": 950,
+        "escala": 0.5,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 30,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        3.41,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 590,
+        "escala": 1.3,
+        "en": 0,
+        "pose": "duerme",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "nubesueno",
+        "x": 1250,
+        "y": 360,
+        "escala": 0.95,
+        "en": "30:sueños",
+        "dentro": "angel",
+        "dentroParams": {
+         "pose": "abre"
+        },
+        "dentroEscala": 0.5,
+        "entra": "rebote"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 31,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 420
+        }
+       ],
+       [
+        7.64,
+        {
+         "zoom": 1.12,
+         "x": 960,
+         "y": 420
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "angel",
+        "x": 960,
+        "y": 570,
+        "escala": 1.1,
+        "en": 0,
+        "pose": "abre",
+        "boca": "habla",
+        "entra": "crece",
+        "dura": 0.8
+       }
+      ]
+     }
+    },
+    {
+     "desde": 32,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        7.49,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "angel",
+        "x": 700,
+        "y": 600,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "senala",
+        "boca": "habla",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "estrella",
+        "x": 1350,
+        "y": 330,
+        "escala": 0.35,
+        "en": "32:Espíritu",
+        "cola": 0,
+        "entra": "rebote"
+       },
+       {
+        "pieza": "jesus",
+        "x": 1350,
+        "y": 720,
+        "escala": 0.75,
+        "en": "32:Jesús",
+        "edad": "bebe",
+        "entra": "rebote"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 33,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.05,
+         "x": 900,
+         "y": 450
+        }
+       ],
+       [
+        2.41,
+        {
+         "zoom": 1.2,
+         "x": 900,
+         "y": 450
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 900,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "ojos": "abiertos",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lampara",
+        "x": 1450,
+        "y": 935,
+        "escala": 0.55,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 34,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.15,
+         "x": 960,
+         "y": 400
+        }
+       ],
+       [
+        4.47,
+        {
+         "zoom": 1.35,
+         "x": 960,
+         "y": 400
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "boca": "seria",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 35,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.54,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "casaadobe",
+        "x": 1380,
+        "y": 675,
+        "escala": 0.75,
+        "en": 0,
+        "luz": 1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 650,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "saluda",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1000,
+        "y": 660,
+        "escala": 1.0,
+        "en": "35:María",
+        "mira": -1,
+        "entra": "derecha"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 36,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 880,
+         "y": 500
+        }
+       ],
+       [
+        4.26,
+        {
+         "zoom": 1.15,
+         "x": 880,
+         "y": 500
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "banco",
+        "x": 1150,
+        "y": 725,
+        "escala": 0.85,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 720,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "pose": "trabaja",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "nombre": "Camino a Belén",
+   "tomas": [
+    {
+     "desde": 37,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.84,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "rey",
+        "x": 600,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "senala",
+        "boca": "habla",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "pergamino",
+        "x": 1250,
+        "y": 500,
+        "escala": 0.6,
+        "en": "37:censo",
+        "entra": "rebote",
+        "accion": "flota"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 38,
+     "dibujo": {
+      "fondo": "camino",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        3.04,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "pastor",
+        "x": 500,
+        "y": 720,
+        "escala": 0.8,
+        "en": 0,
+        "pose": "camina",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "mago",
+        "x": 1000,
+        "y": 720,
+        "escala": 0.8,
+        "en": "38:ciudad",
+        "pose": "camina"
+       },
+       {
+        "pieza": "anciano",
+        "x": 1450,
+        "y": 720,
+        "escala": 0.8,
+        "en": "38:origen",
+        "pose": "camina"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 39,
+     "dibujo": {
+      "fondo": "camino",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.77,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 650,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "senala",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "templo",
+        "x": 1300,
+        "y": 560,
+        "escala": 0.45,
+        "en": "39:Belén",
+        "entra": "crece"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 40,
+     "dibujo": {
+      "fondo": "desierto",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.16,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "burro",
+        "x": 700,
+        "y": 690,
+        "escala": 0.9,
+        "en": 0,
+        "carga": "maria",
+        "camina": true,
+        "mueve": [
+         [
+          "40:luz",
+          {
+           "x": 1150,
+           "y": 690,
+           "escala": 0.9
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 350,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "camina",
+        "mueve": [
+         [
+          "40:luz",
+          {
+           "x": 800,
+           "y": 675,
+           "escala": 0.95
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 41,
+     "dibujo": {
+      "fondo": "camino",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 900,
+         "y": 520
+        }
+       ],
+       [
+        7.99,
+        {
+         "zoom": 1.07,
+         "x": 900,
+         "y": 520
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "burro",
+        "x": 1050,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "carga": "maria",
+        "camina": true,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 620,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "camina",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 42,
+     "dibujo": {
+      "fondo": "belen",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.45,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "casaadobe",
+        "x": 450,
+        "y": 720,
+        "escala": 0.6,
+        "en": 0,
+        "luz": 1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "casaadobe",
+        "x": 1500,
+        "y": 720,
+        "escala": 0.6,
+        "en": 0,
+        "luz": 1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "burro",
+        "x": 1050,
+        "y": 705,
+        "escala": 0.85,
+        "en": 0,
+        "carga": "maria",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 720,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "boca": "seria",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 43,
+     "dibujo": {
+      "fondo": "belen",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 800,
+         "y": 520
+        }
+       ],
+       [
+        6.15,
+        {
+         "zoom": 1.07,
+         "x": 800,
+         "y": 520
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "casaadobe",
+        "x": 1000,
+        "y": 665,
+        "escala": 0.85,
+        "en": 0,
+        "luz": 0.6,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 560,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "senala",
+        "mira": 1,
+        "boca": "seria",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 44,
+     "dibujo": {
+      "fondo": "establo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 520
+        }
+       ],
+       [
+        5.06,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 520
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "estrella",
+        "x": 960,
+        "y": 150,
+        "escala": 0.35,
+        "en": 0,
+        "cola": 0.2,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "pesebre",
+        "x": 960,
+        "y": 705,
+        "escala": 0.85,
+        "en": 0,
+        "params": {
+         "luz": [
+          [
+           0,
+           0
+          ],
+          [
+           "44:humilde",
+           1
+          ]
+         ]
+        },
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 45,
+     "dibujo": {
+      "fondo": "establo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.92,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "pesebre",
+        "x": 960,
+        "y": 705,
+        "escala": 0.85,
+        "en": 0,
+        "nino": true,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1350,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "reza",
+        "aureola": 0.7,
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 560,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "reza",
+        "aureola": 0.7,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "oveja",
+        "x": 230,
+        "y": 875,
+        "escala": 0.5,
+        "en": "45:animales"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 46,
+     "dibujo": {
+      "fondo": "belen",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.29,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "pastor",
+        "x": 600,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "abre",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "oveja",
+        "x": 1000,
+        "y": 864,
+        "escala": 0.55,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "angel",
+        "x": 1400,
+        "y": 330,
+        "escala": 0.55,
+        "en": "46:ángel",
+        "pose": "abre",
+        "entra": "crece"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 47,
+     "dibujo": {
+      "fondo": "establo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.69,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "pesebre",
+        "x": 960,
+        "y": 720,
+        "escala": 0.8,
+        "en": 0,
+        "nino": true,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1320,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "reza",
+        "aureola": 0.7,
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 600,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "reza",
+        "aureola": 0.7,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "pastor",
+        "x": 1650,
+        "y": 705,
+        "escala": 0.85,
+        "en": "47:encontraron",
+        "mira": -1,
+        "entra": "derecha"
+       },
+       {
+        "pieza": "estrella",
+        "x": 960,
+        "y": 140,
+        "escala": 0.32,
+        "en": 0,
+        "cola": 0.2,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 48,
+     "dibujo": {
+      "fondo": "establo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 930,
+         "y": 470
+        }
+       ],
+       [
+        5.44,
+        {
+         "zoom": 1.07,
+         "x": 930,
+         "y": 470
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "maria",
+        "x": 1100,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "aureola": 0.7,
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 750,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "aureola": 0.7,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 49,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 470
+        }
+       ],
+       [
+        5.93,
+        {
+         "zoom": 1.15,
+         "x": 960,
+         "y": 470
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "aureola": 0.8,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "nombre": "Dos tórtolas en el templo",
+   "tomas": [
+    {
+     "desde": 50,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.13,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "maria",
+        "x": 1150,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 800,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "camina",
+        "mueve": [
+         [
+          "50:Jerusalén",
+          {
+           "x": 820,
+           "y": 675,
+           "escala": 0.95
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 51,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        3.3,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "maria",
+        "x": 1150,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 780,
+        "y": 660,
+        "escala": 1.0,
+        "en": "51:ofrenda",
+        "pose": "carga",
+        "lleva": "paloma"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 52,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        7.3,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "oveja",
+        "x": 650,
+        "y": 784,
+        "escala": 0.85,
+        "en": "52:cordero",
+        "entra": "rebote"
+       },
+       {
+        "pieza": "signo",
+        "x": 960,
+        "y": 560,
+        "escala": 0.4,
+        "en": "52:Pero",
+        "tipo": "distinto",
+        "entra": "rebote"
+       },
+       {
+        "pieza": "paloma",
+        "x": 1300,
+        "y": 650,
+        "escala": 0.55,
+        "en": "52:tórtolas",
+        "entra": "rebote"
+       },
+       {
+        "pieza": "paloma",
+        "x": 1420,
+        "y": 720,
+        "escala": 0.45,
+        "en": "52:tórtolas",
+        "entra": "rebote"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 53,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.05,
+         "x": 960,
+         "y": 560
+        }
+       ],
+       [
+        4.39,
+        {
+         "zoom": 1.3,
+         "x": 960,
+         "y": 560
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "paloma",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 54,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        3.41,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "casaadobe",
+        "x": 1400,
+        "y": 690,
+        "escala": 0.7,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "boca": "seria",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1000,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "mira": -1,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 55,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.71,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "anciano",
+        "x": 1050,
+        "y": 645,
+        "escala": 1.05,
+        "en": "55:Simeón",
+        "pose": "carga",
+        "lleva": "nino",
+        "mira": -1,
+        "entra": "derecha"
+       },
+       {
+        "pieza": "jose",
+        "x": 520,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 760,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 56,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 480
+        }
+       ],
+       [
+        5.35,
+        {
+         "zoom": 1.12,
+         "x": 960,
+         "y": 480
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "anciano",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "aureolaNino": 0.9,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 57,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.18,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 650,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "abre",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 950,
+        "y": 660,
+        "escala": 1.0,
+        "en": "57:admirados",
+        "pose": "abre"
+       },
+       {
+        "pieza": "anciano",
+        "x": 1350,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "mira": -1,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "nombre": "La huida a Egipto",
+   "tomas": [
+    {
+     "desde": 58,
+     "dibujo": {
+      "fondo": "belen",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.74,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "estrella",
+        "x": 1350,
+        "y": 170,
+        "escala": 0.4,
+        "en": 0,
+        "cola": 0.3,
+        "entra": "crece"
+       },
+       {
+        "pieza": "camello",
+        "x": 700,
+        "y": 735,
+        "escala": 0.75,
+        "en": 0,
+        "camina": true,
+        "mueve": [
+         [
+          "58:estrella",
+          {
+           "x": 950,
+           "y": 735,
+           "escala": 0.75
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "mago",
+        "x": 1250,
+        "y": 720,
+        "escala": 0.8,
+        "en": "58:magos",
+        "pose": "camina"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 59,
+     "dibujo": {
+      "fondo": "establo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.91,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "maria",
+        "x": 1150,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "aureola": 0.7,
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 1500,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "aureola": 0.7,
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "mago",
+        "x": 650,
+        "y": 660,
+        "escala": 1.0,
+        "en": "59:oro",
+        "pose": "carga",
+        "lleva": "cofre",
+        "entra": "izquierda"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 60,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 440
+        }
+       ],
+       [
+        4.91,
+        {
+         "zoom": 1.2,
+         "x": 960,
+         "y": 440
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "rey",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "boca": "seria",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 61,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.05,
+         "x": 960,
+         "y": 420
+        }
+       ],
+       [
+        3.17,
+        {
+         "zoom": 1.25,
+         "x": 960,
+         "y": 420
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "rey",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "pose": "senala",
+        "boca": "seria",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 62,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        2.4,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 590,
+        "escala": 1.3,
+        "en": 0,
+        "pose": "duerme",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "nubesueno",
+        "x": 1250,
+        "y": 360,
+        "escala": 0.95,
+        "en": "62:segundo",
+        "dentro": "angel",
+        "dentroParams": {
+         "pose": "senala"
+        },
+        "dentroEscala": 0.5,
+        "entra": "rebote"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 63,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        7.64,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "angel",
+        "x": 960,
+        "y": 585,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "senala",
+        "boca": "habla",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "piramide",
+        "x": 1500,
+        "y": 840,
+        "escala": 0.25,
+        "en": "63:Egipto",
+        "entra": "crece"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 64,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        7.63,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "maria",
+        "x": 1100,
+        "y": 660,
+        "escala": 1.0,
+        "en": "64:madre",
+        "pose": "carga",
+        "lleva": "nino",
+        "mira": -1
+       },
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "camina",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lampara",
+        "x": 1550,
+        "y": 950,
+        "escala": 0.5,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 65,
+     "dibujo": {
+      "fondo": "belen",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.98,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "burro",
+        "x": 1100,
+        "y": 705,
+        "escala": 0.85,
+        "en": 0,
+        "carga": "maria_nino",
+        "camina": true,
+        "mueve": [
+         [
+          "65:momento",
+          {
+           "x": 1450,
+           "y": 705,
+           "escala": 0.85
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 690,
+        "escala": 0.9,
+        "en": 0,
+        "pose": "camina",
+        "mueve": [
+         [
+          "65:momento",
+          {
+           "x": 1050,
+           "y": 690,
+           "escala": 0.9
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 66,
+     "dibujo": {
+      "fondo": "egipto",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.92,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "palmera",
+        "x": 1650,
+        "y": 645,
+        "escala": 0.95,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "burro",
+        "x": 1080,
+        "y": 690,
+        "escala": 0.9,
+        "en": 0,
+        "carga": "maria_nino",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 650,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 67,
+     "dibujo": {
+      "fondo": "egipto",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.87,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "banco",
+        "x": 1150,
+        "y": 755,
+        "escala": 0.75,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 750,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "trabaja",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "palmera",
+        "x": 300,
+        "y": 660,
+        "escala": 0.9,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 68,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.04,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 760,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "aureola": 0.8,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1160,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "aureola": 0.8,
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "haz",
+        "x": 960,
+        "y": 600,
+        "escala": 1.2,
+        "en": "68:exiliados",
+        "largo": 900,
+        "brillo": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "desde": 69,
+     "dibujo": {
+      "fondo": "egipto",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        3.95,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "palmera",
+        "x": 400,
+        "y": 645,
+        "escala": 0.95,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "corona",
+        "x": 1150,
+        "y": 300,
+        "escala": 0.4,
+        "en": 0,
+        "entra": "aparece",
+        "mueve": [
+         [
+          "69:murió",
+          {
+           "x": 1150,
+           "y": 820,
+           "escala": 0.4,
+           "rot": 30
+          }
+         ]
+        ],
+        "hasta": "69:murió",
+        "sale": "aparece",
+        "duraSale": 0.8
+       }
+      ]
+     }
+    },
+    {
+     "desde": 70,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        7.35,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 590,
+        "escala": 1.3,
+        "en": 0,
+        "pose": "duerme",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "nubesueno",
+        "x": 1250,
+        "y": 360,
+        "escala": 0.95,
+        "en": "70:Tercer",
+        "dentro": "angel",
+        "dentroParams": {
+         "pose": "abre"
+        },
+        "dentroEscala": 0.5,
+        "entra": "rebote"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 71,
+     "dibujo": {
+      "fondo": "desierto",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.98,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 760,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "boca": "seria",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "burro",
+        "x": 1250,
+        "y": 705,
+        "escala": 0.85,
+        "en": 0,
+        "carga": "maria_nino",
+        "mira": -1,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 72,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.23,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 590,
+        "escala": 1.3,
+        "en": 0,
+        "pose": "duerme",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "nubesueno",
+        "x": 1250,
+        "y": 360,
+        "escala": 0.95,
+        "en": "72:sueño",
+        "dentro": "casaadobe",
+        "dentroParams": {
+         "luz": 1
+        },
+        "dentroEscala": 0.45,
+        "entra": "rebote"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 73,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        3.74,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "casaadobe",
+        "x": 1400,
+        "y": 660,
+        "escala": 0.8,
+        "en": 0,
+        "luz": 1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 560,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "camina",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 850,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "camina",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 1080,
+        "y": 735,
+        "escala": 0.75,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.5,
+        "pose": "camina",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 74,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 460
+        }
+       ],
+       [
+        6.63,
+        {
+         "zoom": 1.12,
+         "x": 960,
+         "y": 460
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "aureola": 0.9,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "haz",
+        "x": 960,
+        "y": 500,
+        "escala": 1.0,
+        "en": "74:obedeció",
+        "largo": 800,
+        "brillo": 0.6
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "nombre": "Los años escondidos",
+   "tomas": [
+    {
+     "desde": 75,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.1,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "casaadobe",
+        "x": 1300,
+        "y": 665,
+        "escala": 0.85,
+        "en": 0,
+        "luz": 0.5,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "olivo",
+        "x": 400,
+        "y": 645,
+        "escala": 0.95,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 850,
+        "y": 720,
+        "escala": 0.8,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.5,
+        "pose": "saluda",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 76,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 600
+        }
+       ],
+       [
+        3.96,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 600
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "lampara",
+        "x": 960,
+        "y": 810,
+        "escala": 0.9,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "casaadobe",
+        "x": 1500,
+        "y": 715,
+        "escala": 0.55,
+        "en": 0,
+        "luz": 1,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 77,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.16,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jesus",
+        "x": 960,
+        "y": 660,
+        "escala": 1.0,
+        "en": "77:carpintero",
+        "edad": "nino",
+        "aureola": 0.5,
+        "entra": "aparece"
+       },
+       {
+        "pieza": "banco",
+        "x": 1450,
+        "y": 770,
+        "escala": 0.7,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 78,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.68,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jesus",
+        "x": 700,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.5,
+        "pose": "carga",
+        "lleva": "tablas",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 1250,
+        "y": 645,
+        "escala": 1.05,
+        "en": "78:oficio",
+        "pose": "senala",
+        "mira": -1
+       }
+      ]
+     }
+    },
+    {
+     "desde": 79,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.68,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "banco",
+        "x": 960,
+        "y": 725,
+        "escala": 0.85,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 560,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "trabaja",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 1400,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.5,
+        "pose": "trabaja",
+        "mira": -1,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 80,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.98,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 650,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1250,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 950,
+        "y": 720,
+        "escala": 0.8,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.5,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 81,
+     "dibujo": {
+      "fondo": "camino",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.94,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 550,
+        "y": 705,
+        "escala": 0.85,
+        "en": 0,
+        "pose": "camina",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 830,
+        "y": 705,
+        "escala": 0.85,
+        "en": 0,
+        "pose": "camina",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 1080,
+        "y": 750,
+        "escala": 0.7,
+        "en": 0,
+        "edad": "nino",
+        "pose": "camina",
+        "aureola": 0.5,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "templo",
+        "x": 1580,
+        "y": 600,
+        "escala": 0.38,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 82,
+     "dibujo": {
+      "fondo": "desierto",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.57,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "camina",
+        "mueve": [
+         [
+          "82:demás",
+          {
+           "x": 400,
+           "y": 675,
+           "escala": 0.95
+          }
+         ]
+        ],
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1000,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "camina",
+        "mira": -1,
+        "mueve": [
+         [
+          "82:demás",
+          {
+           "x": 700,
+           "y": 675,
+           "escala": 0.95
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 83,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 500
+        }
+       ],
+       [
+        2.51,
+        {
+         "zoom": 1.15,
+         "x": 960,
+         "y": 500
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jesus",
+        "x": 960,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.6,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 84,
+     "dibujo": {
+      "fondo": "camino",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.6,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 650,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "senala",
+        "boca": "seria",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1000,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "boca": "seria",
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "templo",
+        "x": 1500,
+        "y": 600,
+        "escala": 0.4,
+        "en": "84:ciudad",
+        "entra": "crece"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 85,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.99,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jesus",
+        "x": 960,
+        "y": 675,
+        "escala": 0.95,
+        "en": "85:tercer",
+        "edad": "nino",
+        "aureola": 0.6,
+        "pose": "abre",
+        "boca": "habla"
+       },
+       {
+        "pieza": "anciano",
+        "x": 520,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "anciano",
+        "x": 1400,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "mira": -1,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 86,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 460
+        }
+       ],
+       [
+        7.42,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 460
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "maria",
+        "x": 960,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "abre",
+        "boca": "habla",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 640,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 1320,
+        "y": 705,
+        "escala": 0.85,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.6,
+        "mira": -1,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 87,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.05,
+         "x": 960,
+         "y": 420
+        }
+       ],
+       [
+        5.0,
+        {
+         "zoom": 1.22,
+         "x": 960,
+         "y": 420
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 780,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "aureola": 0.6,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1140,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "mira": -1,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 88,
+     "dibujo": {
+      "fondo": "camino",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.67,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jesus",
+        "x": 1100,
+        "y": 735,
+        "escala": 0.75,
+        "en": 0,
+        "edad": "nino",
+        "pose": "camina",
+        "aureola": 0.5,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 600,
+        "y": 690,
+        "escala": 0.9,
+        "en": 0,
+        "pose": "camina",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 850,
+        "y": 690,
+        "escala": 0.9,
+        "en": 0,
+        "pose": "camina",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 89,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.9,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jesus",
+        "x": 960,
+        "y": 690,
+        "escala": 0.9,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.6,
+        "hasta": "89:estatura",
+        "sale": "aparece",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": "89:estatura",
+        "edad": "adulto",
+        "aureola": 0.6,
+        "entra": "crece",
+        "dura": 0.9
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "nombre": "Su partida y su herencia",
+   "tomas": [
+    {
+     "desde": 90,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 600
+        }
+       ],
+       [
+        3.3,
+        {
+         "zoom": 1.1,
+         "x": 960,
+         "y": 600
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "banco",
+        "x": 960,
+        "y": 710,
+        "escala": 0.9,
+        "en": 0,
+        "herramientas": true,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 91,
+     "dibujo": {
+      "fondo": "camino",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.95,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jesus",
+        "x": 800,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "edad": "adulto",
+        "aureola": 0.6,
+        "pose": "camina",
+        "mueve": [
+         [
+          "91:menciona",
+          {
+           "x": 1150,
+           "y": 660,
+           "escala": 1.0
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 92,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.81,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "cruz",
+        "x": 960,
+        "y": 620,
+        "escala": 1.0,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 620,
+        "y": 690,
+        "escala": 0.9,
+        "en": 0,
+        "pose": "reza",
+        "aureola": 0.7,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "pastor",
+        "x": 1300,
+        "y": 690,
+        "escala": 0.9,
+        "en": "92:Juan",
+        "pose": "reza",
+        "mira": -1,
+        "entra": "aparece"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 93,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 640
+        }
+       ],
+       [
+        3.25,
+        {
+         "zoom": 1.12,
+         "x": 960,
+         "y": 640
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "lampara",
+        "x": 960,
+        "y": 810,
+        "escala": 0.9,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 94,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.77,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 760,
+        "y": 620,
+        "escala": 1.2,
+        "en": 0,
+        "pose": "duerme",
+        "zzz": false,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1380,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "reza",
+        "mira": -1,
+        "aureola": 0.7,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 1110,
+        "y": 675,
+        "escala": 0.95,
+        "en": "94:Jesús",
+        "edad": "adulto",
+        "aureola": 0.7,
+        "mira": -1
+       }
+      ]
+     }
+    },
+    {
+     "desde": 95,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 480
+        }
+       ],
+       [
+        3.46,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 480
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "corazones",
+        "x": 960,
+        "y": 520,
+        "escala": 0.7,
+        "en": 0,
+        "entra": "crece",
+        "accion": "late"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 96,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 460
+        }
+       ],
+       [
+        3.6,
+        {
+         "zoom": 1.12,
+         "x": 960,
+         "y": 460
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "pose": "reza",
+        "aureola": 0.9,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 97,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.1,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        2.85,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "aureola": 0.7,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 98,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 460
+        }
+       ],
+       [
+        7.96,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 460
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "params": {
+         "aureola": [
+          [
+           0,
+           0.3
+          ],
+          [
+           "98:universal",
+           1
+          ]
+         ]
+        },
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 99,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.9,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "pose": "abre",
+        "aureola": 0.9,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "haz",
+        "x": 960,
+        "y": 480,
+        "escala": 1.3,
+        "en": 0,
+        "largo": 800,
+        "brillo": 0.7,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 100,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        10.02,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "banco",
+        "x": 1150,
+        "y": 725,
+        "escala": 0.85,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "trabaja",
+        "aureola": 0.6,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lirio",
+        "x": 1600,
+        "y": 810,
+        "escala": 0.6,
+        "en": "100:Obrero",
+        "entra": "crece"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 101,
+     "dibujo": {
+      "fondo": "templo",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.86,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "cruz",
+        "x": 960,
+        "y": 650,
+        "escala": 0.7,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lampara",
+        "x": 560,
+        "y": 925,
+        "escala": 0.55,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lampara",
+        "x": 1360,
+        "y": 925,
+        "escala": 0.55,
+        "en": 0,
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 1620,
+        "y": 720,
+        "escala": 0.8,
+        "en": "101:María",
+        "aureola": 0.8,
+        "mira": -1,
+        "entra": "aparece"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 102,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        6.69,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "pergamino",
+        "x": 960,
+        "y": 460,
+        "escala": 0.8,
+        "en": 0,
+        "entra": "rebote"
+       },
+       {
+        "pieza": "corazones",
+        "x": 960,
+        "y": 820,
+        "escala": 0.3,
+        "en": "102:corazón",
+        "entra": "rebote",
+        "accion": "late"
+       },
+       {
+        "pieza": "lampara",
+        "x": 1500,
+        "y": 950,
+        "escala": 0.5,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 103,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 470
+        }
+       ],
+       [
+        5.64,
+        {
+         "zoom": 1.15,
+         "x": 960,
+         "y": 470
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "aureola": 0.7,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 104,
+     "dibujo": {
+      "fondo": "taller",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.96,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 640,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "trabaja",
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "banco",
+        "x": 1050,
+        "y": 740,
+        "escala": 0.8,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 1500,
+        "y": 690,
+        "escala": 0.9,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.5,
+        "mira": -1,
+        "pose": "saluda",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 105,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.25,
+         "x": 960,
+         "y": 500
+        }
+       ],
+       [
+        4.98,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 500
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 690,
+        "escala": 0.9,
+        "en": 0,
+        "aureola": 0.6,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 106,
+     "dibujo": {
+      "fondo": "casanoche",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 460
+        }
+       ],
+       [
+        3.22,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 460
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "boca": "seria",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 107,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.14,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 700,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "aureola": 0.8,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1220,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "aureola": 0.8,
+        "mira": -1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 960,
+        "y": 720,
+        "escala": 0.8,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.8,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "haz",
+        "x": 960,
+        "y": 500,
+        "escala": 1.4,
+        "en": "107:necesitó",
+        "largo": 800,
+        "brillo": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "desde": 108,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 460
+        }
+       ],
+       [
+        3.03,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 460
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 630,
+        "escala": 1.1,
+        "en": 0,
+        "pose": "saluda",
+        "boca": "habla",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 109,
+     "dibujo": {
+      "fondo": "camino",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        4.61,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 600,
+        "y": 675,
+        "escala": 0.95,
+        "en": 0,
+        "pose": "camina",
+        "mueve": [
+         [
+          "109:paso",
+          {
+           "x": 900,
+           "y": 675,
+           "escala": 0.95
+          }
+         ]
+        ],
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "signo",
+        "x": 1350,
+        "y": 380,
+        "escala": 0.45,
+        "en": "109:respuestas",
+        "tipo": "pregunta",
+        "entra": "rebote",
+        "accion": "balancea"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 110,
+     "dibujo": {
+      "fondo": "camino",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 480
+        }
+       ],
+       [
+        3.04,
+        {
+         "zoom": 1.15,
+         "x": 960,
+         "y": 480
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "camina",
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 111,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        5.93,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "casaadobe",
+        "x": 1450,
+        "y": 690,
+        "escala": 0.7,
+        "en": 0,
+        "luz": 1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jose",
+        "x": 650,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "pose": "carga",
+        "lleva": "nino",
+        "aureola": 0.6,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1000,
+        "y": 660,
+        "escala": 1.0,
+        "en": "111:protegió",
+        "mira": -1,
+        "aureola": 0.6
+       }
+      ]
+     }
+    },
+    {
+     "desde": 112,
+     "dibujo": {
+      "fondo": "gloria",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 460
+        }
+       ],
+       [
+        2.69,
+        {
+         "zoom": 1.12,
+         "x": 960,
+         "y": 460
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 960,
+        "y": 615,
+        "escala": 1.15,
+        "en": 0,
+        "pose": "reza",
+        "aureola": 1,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lirio",
+        "x": 520,
+        "y": 740,
+        "escala": 0.8,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lirio",
+        "x": 1400,
+        "y": 740,
+        "escala": 0.8,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    },
+    {
+     "desde": 113,
+     "dibujo": {
+      "fondo": "nazaret",
+      "camara": [
+       [
+        0,
+        {
+         "zoom": 1.0,
+         "x": 960,
+         "y": 540
+        }
+       ],
+       [
+        7.21,
+        {
+         "zoom": 1.07,
+         "x": 960,
+         "y": 540
+        }
+       ]
+      ],
+      "elementos": [
+       {
+        "pieza": "jose",
+        "x": 760,
+        "y": 645,
+        "escala": 1.05,
+        "en": 0,
+        "pose": "saluda",
+        "aureola": 0.7,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "maria",
+        "x": 1160,
+        "y": 660,
+        "escala": 1.0,
+        "en": 0,
+        "mira": -1,
+        "aureola": 0.7,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "jesus",
+        "x": 960,
+        "y": 720,
+        "escala": 0.8,
+        "en": 0,
+        "edad": "nino",
+        "aureola": 0.7,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lirio",
+        "x": 300,
+        "y": 780,
+        "escala": 0.7,
+        "en": 0,
+        "entra": "ninguna"
+       },
+       {
+        "pieza": "lirio",
+        "x": 1620,
+        "y": 780,
+        "escala": 0.7,
+        "en": 0,
+        "entra": "ninguna"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "subtitulos": false
 }

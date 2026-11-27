@@ -1,0 +1,4 @@
+file '/home/user/barcada/proyectos/2026-11-27-san-jose/voz/partes/parte-01.mp3'
+file '/home/user/barcada/proyectos/2026-11-27-san-jose/voz/partes/parte-02.mp3'
+file '/home/user/barcada/proyectos/2026-11-27-san-jose/voz/partes/parte-03.mp3'
+file '/home/user/barcada/proyectos/2026-11-27-san-jose/voz/partes/parte-04.mp3'
