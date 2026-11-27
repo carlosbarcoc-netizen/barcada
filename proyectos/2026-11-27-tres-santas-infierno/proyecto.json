@@ -708,7 +708,7 @@
                 "pieza": "mapa",
                 "x": 960,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.3,
                 "puntos": [
@@ -891,7 +891,7 @@
                 "x": 520,
                 "y": 480,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "serena"
               },
@@ -1008,7 +1008,7 @@
                 "pieza": "alma",
                 "x": 960,
                 "y": 600,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.9,
                 "accion": "flota"
@@ -1045,7 +1045,7 @@
                 "x": 960,
                 "y": 520,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "esconde"
               }
@@ -1079,7 +1079,7 @@
                 "pieza": "documento",
                 "x": 560,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Libro de la Vida",
                 "lineas": [
@@ -1110,7 +1110,7 @@
                 "pieza": "vela",
                 "x": 960,
                 "y": 760,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.1
               }
@@ -1144,7 +1144,7 @@
                 "pieza": "convento",
                 "x": 1350,
                 "y": 600,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.1
               },
@@ -1191,7 +1191,7 @@
                 "x": 520,
                 "y": 480,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "feliz",
                 "aureola": true
@@ -1271,7 +1271,7 @@
                 "pieza": "resplandor",
                 "x": 960,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "radio": 900,
                 "opacidad": 0.25,
@@ -1307,7 +1307,7 @@
                 "pieza": "vela",
                 "x": 960,
                 "y": 700,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.3
               }
@@ -1341,7 +1341,7 @@
                 "pieza": "convento",
                 "x": 760,
                 "y": 600,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 0.9
               },
@@ -1349,7 +1349,7 @@
                 "pieza": "convento",
                 "x": 1220,
                 "y": 620,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 0.7
               },
@@ -1395,7 +1395,7 @@
                 "x": 960,
                 "y": 620,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza",
                 "brillo": 0.5
@@ -1404,7 +1404,7 @@
                 "pieza": "vela",
                 "x": 1380,
                 "y": 760,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.1
               }
@@ -1440,7 +1440,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "brillo": 0.4
               },
@@ -1478,7 +1478,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "feliz",
                 "brazos": 0.15
@@ -1515,7 +1515,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza",
                 "params": {
@@ -1572,7 +1572,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Libro de la Vida",
                 "lineas": [
@@ -1601,7 +1601,7 @@
                 "pieza": "vela",
                 "x": 1460,
                 "y": 760,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               }
             ]
@@ -1673,7 +1673,7 @@
                 "x": 960,
                 "y": 760,
                 "escala": 0.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "preocupada"
               }
@@ -1745,7 +1745,7 @@
                 "x": 960,
                 "y": 820,
                 "escala": 1,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "preocupada",
                 "mueve": [
@@ -1864,7 +1864,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "preocupada",
                 "pose": "esconde"
@@ -1893,7 +1893,7 @@
                 "x": 960,
                 "y": 700,
                 "escala": 0.8,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "preocupada",
                 "brillo": 0.9
@@ -1928,7 +1928,7 @@
                 "pieza": "alma",
                 "x": 960,
                 "y": 600,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.7
               },
@@ -1966,7 +1966,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "preocupada",
                 "pose": "esconde"
@@ -2001,7 +2001,7 @@
                 "pieza": "alma",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.6,
                 "tono": "negra",
@@ -2037,7 +2037,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Libro de la Vida",
                 "lineas": [
@@ -2052,7 +2052,7 @@
                 "pieza": "vela",
                 "x": 1420,
                 "y": 760,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               }
             ]
@@ -2124,7 +2124,7 @@
                 "x": 960,
                 "y": 800,
                 "escala": 3.2,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "sorprendida"
               }
@@ -2198,7 +2198,7 @@
                 "x": 960,
                 "y": 660,
                 "escala": 1,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "atenta"
               }
@@ -2234,7 +2234,7 @@
                 "x": 960,
                 "y": 800,
                 "escala": 3.2,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "atenta",
                 "opacidad": 0.92
@@ -2271,7 +2271,7 @@
                 "x": 960,
                 "y": 560,
                 "escala": 1.2,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza",
                 "brillo": 0.7
@@ -2308,7 +2308,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "serena",
                 "brillo": 0.3
@@ -2337,7 +2337,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "atenta"
               }
@@ -2373,7 +2373,7 @@
                 "x": 420,
                 "y": 500,
                 "escala": 1.4,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "mueve": [
                   [
@@ -2478,7 +2478,7 @@
                 "pieza": "convento",
                 "x": 960,
                 "y": 560,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.3
               },
@@ -2486,7 +2486,7 @@
                 "pieza": "resplandor",
                 "x": 960,
                 "y": 420,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "radio": 700,
                 "capa": -1,
@@ -2522,7 +2522,7 @@
                 "pieza": "mapa",
                 "x": 960,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.3,
                 "puntos": [
@@ -2585,7 +2585,7 @@
                 "pieza": "encina",
                 "x": 1560,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1
               },
@@ -2593,7 +2593,7 @@
                 "pieza": "oveja",
                 "x": 380,
                 "y": 760,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 0.6
               },
@@ -2601,7 +2601,7 @@
                 "pieza": "oveja",
                 "x": 640,
                 "y": 800,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 0.5,
                 "mira": "derecha"
@@ -2610,7 +2610,7 @@
                 "pieza": "oveja",
                 "x": 1180,
                 "y": 790,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 0.55
               },
@@ -2756,7 +2756,7 @@
                 "pieza": "encina",
                 "x": 1300,
                 "y": 540,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1
               },
@@ -2776,7 +2776,7 @@
                 "x": 640,
                 "y": 600,
                 "escala": 0.9,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "sorprendida"
               },
@@ -2786,7 +2786,7 @@
                 "x": 520,
                 "y": 590,
                 "escala": 0.95,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               },
               {
@@ -2796,7 +2796,7 @@
                 "x": 760,
                 "y": 590,
                 "escala": 0.95,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza"
               }
@@ -2832,7 +2832,7 @@
                 "x": 960,
                 "y": 500,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               },
               {
@@ -2878,7 +2878,7 @@
                 "x": 700,
                 "y": 620,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza"
               },
@@ -2914,7 +2914,7 @@
                 "pieza": "vela",
                 "x": 1000,
                 "y": 780,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               }
             ]
@@ -2949,7 +2949,7 @@
                 "x": 960,
                 "y": 460,
                 "escala": 1.5,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "params": {
                   "brazos": [
@@ -3147,7 +3147,7 @@
                 "pieza": "alma",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.6,
                 "accion": "flota"
@@ -3193,7 +3193,7 @@
                 "pieza": "alma",
                 "x": 960,
                 "y": 620,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 2.1
               }
@@ -3227,7 +3227,7 @@
                 "pieza": "alma",
                 "x": 960,
                 "y": 660,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 2.4,
                 "tono": "negra"
@@ -3491,7 +3491,7 @@
                 "x": 640,
                 "y": 540,
                 "escala": 1.4,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "llora"
               },
@@ -3501,7 +3501,7 @@
                 "x": 960,
                 "y": 540,
                 "escala": 1.4,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "sorprendida"
               },
@@ -3511,7 +3511,7 @@
                 "x": 1280,
                 "y": 560,
                 "escala": 1.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "llora"
               }
@@ -3547,7 +3547,7 @@
                 "x": 960,
                 "y": 500,
                 "escala": 1.4,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               }
             ]
@@ -3582,7 +3582,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "serena"
               },
@@ -3676,7 +3676,7 @@
                 "x": 640,
                 "y": 540,
                 "escala": 1.4,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza"
               },
@@ -3732,7 +3732,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Memorias",
                 "lineas": [
@@ -3776,7 +3776,7 @@
                 "x": 960,
                 "y": 600,
                 "escala": 1.7,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               },
               {
@@ -3821,7 +3821,7 @@
                 "x": 760,
                 "y": 500,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "aureola": true
               },
@@ -3831,7 +3831,7 @@
                 "x": 1160,
                 "y": 520,
                 "escala": 1.5,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "aureola": true,
                 "cara": "feliz"
@@ -3878,7 +3878,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "aureola": true,
                 "cara": "feliz"
@@ -3915,7 +3915,7 @@
                 "x": 960,
                 "y": 540,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza",
                 "params": {
@@ -3982,7 +3982,7 @@
                 "pieza": "resplandor",
                 "x": 960,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "radio": 900,
                 "opacidad": 0.25,
@@ -4018,7 +4018,7 @@
                 "pieza": "mapa",
                 "x": 960,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.3,
                 "puntos": [
@@ -4083,7 +4083,7 @@
                 "x": 960,
                 "y": 620,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "esconde"
               },
@@ -4091,7 +4091,7 @@
                 "pieza": "vela",
                 "x": 1360,
                 "y": 780,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               }
             ]
@@ -4126,7 +4126,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "serena"
               },
@@ -4170,7 +4170,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario",
                 "lineas": [
@@ -4198,7 +4198,7 @@
                 "pieza": "vela",
                 "x": 1440,
                 "y": 760,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               }
             ]
@@ -4231,7 +4231,7 @@
                 "pieza": "documento",
                 "x": 760,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario",
                 "lineas": [],
@@ -4282,7 +4282,7 @@
                 "x": 760,
                 "y": 480,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "brazos": 0.3
               },
@@ -4292,7 +4292,7 @@
                 "x": 1220,
                 "y": 560,
                 "escala": 1.2,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "sorprendida"
               }
@@ -4351,7 +4351,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario · 741",
                 "lineas": [],
@@ -4390,7 +4390,7 @@
                 "pieza": "documento",
                 "x": 700,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario · 741",
                 "lineas": [],
@@ -4439,7 +4439,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario · 741",
                 "lineas": [
@@ -4494,7 +4494,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "esconde"
               },
@@ -4539,7 +4539,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario · 741",
                 "lineas": [
@@ -4594,7 +4594,7 @@
                 "pieza": "alma",
                 "x": 960,
                 "y": 600,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.6
               },
@@ -4740,7 +4740,7 @@
                 "x": 640,
                 "y": 520,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               },
               {
@@ -4793,7 +4793,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario · 741",
                 "lineas": [
@@ -4851,7 +4851,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario · 741",
                 "lineas": [
@@ -4910,7 +4910,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario · 741",
                 "lineas": [
@@ -4931,7 +4931,7 @@
                 "pieza": "vela",
                 "x": 1460,
                 "y": 760,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               }
             ]
@@ -4966,7 +4966,7 @@
                 "x": 960,
                 "y": 800,
                 "escala": 3.2,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "preocupada"
               }
@@ -5122,7 +5122,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario · 741",
                 "lineas": [
@@ -5179,7 +5179,7 @@
                 "x": 960,
                 "y": 600,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza",
                 "brillo": 0.6
@@ -5188,7 +5188,7 @@
                 "pieza": "vela",
                 "x": 1380,
                 "y": 780,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               },
               {
@@ -5233,7 +5233,7 @@
                 "x": 960,
                 "y": 520,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "aureola": true,
                 "cara": "feliz"
@@ -5280,7 +5280,7 @@
                 "x": 520,
                 "y": 480,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               },
               {
@@ -5327,7 +5327,7 @@
                 "x": 520,
                 "y": 480,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "params": {
                   "brillo": [
@@ -5416,7 +5416,7 @@
                 "pieza": "mapa",
                 "x": 960,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.3,
                 "puntos": [
@@ -5467,7 +5467,7 @@
                 "x": 520,
                 "y": 480,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "atenta"
               },
@@ -5560,7 +5560,7 @@
                 "x": 960,
                 "y": 680,
                 "escala": 0.8,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "atenta"
               }
@@ -5680,7 +5680,7 @@
                 "x": 960,
                 "y": 520,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "brillo": 1
               },
@@ -5733,7 +5733,7 @@
                 "pieza": "resplandor",
                 "x": 1560,
                 "y": 460,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "radio": 600
               },
@@ -5743,7 +5743,7 @@
                 "x": 760,
                 "y": 520,
                 "escala": 1.2,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "mueve": [
                   [
@@ -5786,7 +5786,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario · 741",
                 "lineas": [
@@ -5827,7 +5827,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Catecismo",
                 "lineas": [
@@ -5868,7 +5868,7 @@
                 "pieza": "documento",
                 "x": 760,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Catecismo",
                 "lineas": [
@@ -5919,7 +5919,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Catecismo · 1033",
                 "lineas": [
@@ -6014,7 +6014,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Catecismo · 1035",
                 "lineas": [
@@ -6069,7 +6069,7 @@
                 "pieza": "resplandor",
                 "x": 1500,
                 "y": 460,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "radio": 650
               },
@@ -6079,7 +6079,7 @@
                 "x": 900,
                 "y": 520,
                 "escala": 1.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "mueve": [
                   [
@@ -6157,7 +6157,7 @@
                 "pieza": "documento",
                 "x": 520,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Vida",
                 "lineas": [],
@@ -6170,7 +6170,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Memorias",
                 "lineas": [],
@@ -6183,7 +6183,7 @@
                 "pieza": "documento",
                 "x": 1400,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario",
                 "lineas": [],
@@ -6232,7 +6232,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Proceso",
                 "lineas": [
@@ -6247,7 +6247,7 @@
                 "pieza": "vela",
                 "x": 1380,
                 "y": 800,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               }
             ]
@@ -6280,7 +6280,7 @@
                 "pieza": "encina",
                 "x": 1100,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1
               },
@@ -6326,7 +6326,7 @@
                 "x": 520,
                 "y": 480,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "aureola": true,
                 "cara": "serena"
@@ -6387,7 +6387,7 @@
                 "x": 520,
                 "y": 540,
                 "escala": 1.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "mueve": [
                   [
@@ -6497,7 +6497,7 @@
                 "x": 960,
                 "y": 520,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "esconde"
               }
@@ -6533,7 +6533,7 @@
                 "x": 520,
                 "y": 480,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "feliz"
               },
@@ -6591,7 +6591,7 @@
                 "x": 960,
                 "y": 500,
                 "escala": 1.5,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "feliz"
               }
@@ -6627,7 +6627,7 @@
                 "x": 300,
                 "y": 520,
                 "escala": 1.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "mueve": [
                   [
@@ -6672,7 +6672,7 @@
                 "x": 900,
                 "y": 520,
                 "escala": 1.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "mueve": [
                   [
@@ -6689,7 +6689,7 @@
                 "pieza": "convento",
                 "x": 1650,
                 "y": 620,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 0.6
               }
@@ -6723,7 +6723,7 @@
                 "pieza": "mapa",
                 "x": 960,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.3,
                 "semilla": 4,
@@ -6850,7 +6850,7 @@
                 "pieza": "documento",
                 "x": 480,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Libro de la Vida",
                 "lineas": [],
@@ -6863,7 +6863,7 @@
                 "pieza": "documento",
                 "x": 960,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Camino de perfección",
                 "lineas": [],
@@ -6876,7 +6876,7 @@
                 "pieza": "documento",
                 "x": 1440,
                 "y": 580,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Las Moradas",
                 "lineas": [],
@@ -6917,7 +6917,7 @@
                 "x": 960,
                 "y": 520,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "aureola": true,
                 "cara": "feliz"
@@ -6964,7 +6964,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "feliz",
                 "brazos": 0.4
@@ -7001,7 +7001,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "serena"
               }
@@ -7037,7 +7037,7 @@
                 "x": 960,
                 "y": 560,
                 "escala": 1.5,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza"
               },
@@ -7083,7 +7083,7 @@
                 "x": 520,
                 "y": 560,
                 "escala": 0.8,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "opacidad": 0.7
               },
@@ -7093,7 +7093,7 @@
                 "x": 800,
                 "y": 580,
                 "escala": 0.75,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "opacidad": 0.6
               },
@@ -7103,7 +7103,7 @@
                 "x": 1120,
                 "y": 570,
                 "escala": 0.8,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "opacidad": 0.7
               },
@@ -7113,7 +7113,7 @@
                 "x": 1420,
                 "y": 560,
                 "escala": 0.85,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "opacidad": 0.6
               }
@@ -7149,7 +7149,7 @@
                 "x": 960,
                 "y": 560,
                 "escala": 1.5,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza",
                 "brillo": 0.6
@@ -7178,7 +7178,7 @@
                 "x": 760,
                 "y": 560,
                 "escala": 1.4,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "feliz"
               },
@@ -7197,7 +7197,7 @@
                 "pieza": "oveja",
                 "x": 1600,
                 "y": 780,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 0.5
               }
@@ -7233,7 +7233,7 @@
                 "x": 960,
                 "y": 560,
                 "escala": 1.4,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza",
                 "brillo": 0.8
@@ -7242,7 +7242,7 @@
                 "pieza": "globos",
                 "x": 960,
                 "y": 280,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "ancho": 1500,
                 "alto": 300,
@@ -7306,7 +7306,7 @@
                 "x": 960,
                 "y": 610,
                 "escala": 2.3,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "reza",
                 "brillo": 0.8
@@ -7343,7 +7343,7 @@
                 "x": 960,
                 "y": 540,
                 "escala": 1.4,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "aureola": true,
                 "cara": "serena"
@@ -7390,14 +7390,14 @@
                 "x": 760,
                 "y": 620,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               },
               {
                 "pieza": "documento",
                 "x": 1340,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "titulo": "Diario · 741",
                 "lineas": [
@@ -7446,7 +7446,7 @@
                 "x": 960,
                 "y": 800,
                 "escala": 3.2,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "atenta"
               }
@@ -7518,7 +7518,7 @@
                 "x": 960,
                 "y": 470,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "pose": "bendice"
               },
@@ -7621,7 +7621,7 @@
                 "x": 960,
                 "y": 540,
                 "escala": 1.5,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "aureola": true,
                 "brillo": 0.8,
@@ -7729,7 +7729,7 @@
                 "pieza": "letrero",
                 "x": 1300,
                 "y": 500,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.1,
                 "brillo": 1
@@ -7764,7 +7764,7 @@
                 "pieza": "letrero",
                 "x": 1300,
                 "y": 500,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "escala": 1.1,
                 "brillo": 1
@@ -7836,7 +7836,7 @@
                 "x": 520,
                 "y": 480,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "feliz",
                 "brillo": 0.6
@@ -7965,7 +7965,7 @@
                 "pieza": "resplandor",
                 "x": 1560,
                 "y": 460,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "radio": 600
               },
@@ -7975,7 +7975,7 @@
                 "x": 520,
                 "y": 520,
                 "escala": 1.1,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8
               }
             ]
@@ -8076,7 +8076,7 @@
                 "x": 520,
                 "y": 480,
                 "escala": 1.6,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "cara": "feliz"
               },
@@ -8153,7 +8153,7 @@
                 "pieza": "resplandor",
                 "x": 960,
                 "y": 520,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "radio": 900,
                 "opacidad": 0.25,
@@ -8181,7 +8181,7 @@
                 "pieza": "suscribir",
                 "x": 960,
                 "y": 190,
-                "entra": "aparece",
+                "entra": "ninguna",
                 "dura": 0.8,
                 "canal": "@tiempoparaDios",
                 "escala": 0.9,

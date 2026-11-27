@@ -211,7 +211,8 @@ p.pantallaFinal = 15;
 const escenas = [{ nombre: "video", tomas: [] }];
 tomas.forEach((t, i) => {
   const fin = i < tomas.length - 1 ? ini(tomas[i + 1].f) : T.duracion + (p.pantallaFinal || 0), d = Math.max(1, fin - ini(t.f));
-  const dibujo = { fondo: t.fondo, camara: cam(t.cam || "acerca", d), elementos: t.els.map((e) => ({ ...e })) };
+  // lo que no tiene un momento propio (en) ya está en el cuadro al cortar: sin fundido de entrada
+  const dibujo = { fondo: t.fondo, camara: cam(t.cam || "acerca", d), elementos: t.els.map((e) => (e.en === undefined && e.entra === "aparece" ? { ...e, entra: "ninguna" } : { ...e })) };
   if (t.fondoOpts) dibujo.fondoOpts = t.fondoOpts;
   if (t.fondoVivo) dibujo.fondoVivo = true;
   // la puerta que se abre mientras se dice «la puerta sigue abierta»
