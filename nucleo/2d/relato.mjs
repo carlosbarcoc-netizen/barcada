@@ -427,10 +427,12 @@ export function prepararRelato(p, tiempos, { subtitulos = true } = {}) {
     const op = Math.min(1, (t - g.t0) / 0.12, (g.t1 - t) / 0.12);
     let actual = -1; g.palabras.forEach((w, i) => { if (t >= w.inicio - 0.03) actual = i; });
     const spans = g.palabras.map((w, i) => {
-      const yo = i === actual, color = yo ? "#ffffff" : "rgba(228,228,238,.66)", peso = yo ? 800 : 700;
+      // las que faltan no se ven pero guardan su sitio; la que suena, blanca; las dichas, grises
+      const yo = i === actual, color = i > actual ? "transparent" : yo ? "#ffffff" : "rgba(228,228,238,.66)", peso = yo ? 800 : 700;
       const txt = esc(w.texto);
-      if (!w.clave) return `<span style="color:${color};font-weight:${peso}">${txt}</span>`;
+      if (!w.clave) return `<span style="color:${color};font-weight:${peso};${i > actual ? "text-shadow:none" : ""}">${txt}</span>`;
       const asa = (pos) => `<span style="position:absolute;${pos};width:${tam * 0.2}px;height:${tam * 0.2}px;border-radius:50%;background:#fff;border:3px solid #3d7bff"></span>`;
+      if (i > actual) return `<span style="visibility:hidden;font-weight:800">${txt}</span>`;
       return `<span style="position:relative;display:inline-block;padding:0 ${tam * 0.14}px;margin:0 ${tam * 0.04}px;border:3px solid #3d7bff;border-radius:${tam * 0.12}px;background:rgba(18,28,70,.55);color:#fff;font-weight:800;line-height:1.1">${txt}${asa(`left:${-tam * 0.12}px;top:${-tam * 0.12}px`)}${asa(`right:${-tam * 0.12}px;bottom:${-tam * 0.12}px`)}</span>`;
     }).join(" ");
     return html((ANCHO - w) / 2, y - tam * 1.4, w, tam * 2.8, `<div style="display:flex;align-items:${H ? "flex-end" : "flex-start"};justify-content:center;width:100%;height:100%;opacity:${op.toFixed(2)}"><div style="text-align:center;font:700 ${tam}px/1.3 Poppins;padding:${tam * 0.2}px ${tam * 0.8}px;border-radius:${tam}px;background:radial-gradient(ellipse at center,rgba(0,0,0,.5),rgba(0,0,0,0) 74%);text-shadow:0 2px 14px rgba(0,0,0,.75),0 0 3px rgba(0,0,0,.6)">${spans}</div></div>`);

@@ -2,17 +2,20 @@
 
 **El estilo de los videos de YouTube del usuario.** Cuando pida un video para YouTube (16:9, de 9 minutos o más) o
 diga «en estilo relato», se hace así salvo que pida otra cosa. Las referencias están en `estilos/relato/`:
-**míralas antes de diseñar las tomas** (`1-…` a `5-…` son fotogramas sueltos; `video-….jpg` son tres videos
-completos, un fotograma cada 3 s).
+**míralas antes de diseñar las tomas** (`1-…` a `5-…`: lugares, multitudes, burbujas y cifras; `6-…` a `10-…`:
+personajes de cerca; `video-….jpg`: tres videos completos, un fotograma cada 3 s).
 
-En una frase: **una ilustración vectorial limpia, sin contornos, iluminada como una película**, que cuenta una
-historia real con un solo mundo que va cambiando.
+En una frase: **una ilustración vectorial limpia, iluminada como una película**, que cuenta una historia real con
+un solo mundo que va cambiando.
 
 ## La imagen
 
-- **Vector plano con volumen suave.** Formas limpias, degradados suaves para el volumen y **sin contorno negro** (es
-  lo contrario del 2D con tinta de Barcada). Texturas sutiles: mármol en la piedra, papel en el pergamino, tela en
-  los tapices.
+- **Vector plano con volumen suave.** Formas limpias y degradados suaves para el volumen. **Los fondos y los
+  edificios, sin contorno; los personajes, con un contorno fino** (3-4 px a 1080 de ancho) en marrón muy oscuro o en
+  un tono más oscuro de su propio color (el brazo azul, con borde azul marino). Nunca el contorno grueso y negro del
+  2D con tinta.
+- **Una textura de manchas** suave por encima de la ropa, la madera y los muros (líneas onduladas como de piedra o
+  tela vieja, al 10-20 %), y pliegues verticales rectos en las túnicas. Mármol en la piedra, papel en el pergamino.
 - **La luz manda.** Siempre hay una fuente de luz cálida en la escena (un balcón encendido, velas, el sol al
   atardecer, un objeto sagrado que irradia) con **brillo difuso (bloom)** a su alrededor, sobre un ambiente más oscuro
   o frío. Viñeta suave en los bordes.
@@ -29,11 +32,27 @@ historia real con un solo mundo que va cambiando.
 - **Escenarios grandes y reconocibles por su forma, no por su detalle:** la fachada con columnas y cúpula, el
   balcón con tapiz rojo, el monasterio con arcos, el mapa antiguo, el mar con un barco, el cielo sobre las nubes.
   Simétricos y frontales en los planos generales.
+- **Interiores cálidos y en penumbra:** la puerta de madera con bandas de hierro y remaches dentro de un arco de
+  piedra; la casa con muro oscuro como de humo, una ventana con la luna y una iglesia en el monte, la chimenea
+  encendida a un lado; el pasillo del monasterio con una vela. La luz cálida, **detrás del personaje** (le ilumina
+  el pecho y el borde), y el resto oscuro.
+- **Los planos:** general (el lugar), medio (uno o dos personajes de cuerpo entero o de cintura arriba) y
+  **primerísimo primer plano** para la emoción (la cara del bebé que llora ocupando todo el cuadro, cortada por
+  los bordes). Varios iguales en fila (los monjes) dan ritmo: el del centro delante y los demás detrás, más
+  oscuros.
 
 ## Los personajes
 
-- **Pequeños y simples:** cuerpo de una sola forma (túnica, hábito), cara mínima (ojos cerrados o puntos), sin
-  rasgos que identifiquen a nadie. A las figuras históricas reales (un papa, una reina) se las reconoce por el
+- **Simples y altos:** el cuerpo es una túnica larga en forma de campana o de tubo, con un cinturón (banda oscura o
+  cordón claro con sus nudos colgando) y pliegues verticales; los brazos, tubos largos con contorno y una **mano
+  redonda** al final, sin dedos.
+- **Las caras:** óvalo de piel con dos círculos de rubor; **ojos cerrados** como arcos (serenidad) o **ojos de punto**
+  con cejas inclinadas (preocupación); la nariz, una sola curva; la boca, una línea; orejas redondas a los lados.
+  Pelo y **barbas grandes en forma de pico** de un solo color. El hábito del monje: capucha alta y **su interior
+  negro** alrededor de la cara.
+- **Las emociones, grandes:** el bebé que llora tiene los ojos en «> <», la boca abierta y lágrimas azules; el padre
+  preocupado, las cejas hacia arriba en el centro.
+- **Sin rasgos que identifiquen a nadie.** A las figuras históricas reales (un papa, una reina) se las reconoce por el
   **vestuario y el lugar** (sotana blanca y tapiz rojo en el balcón; corona y manto), nunca por un retrato: van de
   lejos, pequeñas o de espaldas.
 - **El mismo personaje durante todo el video**, y cambia con la historia (el monje joven que acaba con barba blanca).
@@ -61,8 +80,9 @@ historia real con un solo mundo que va cambiando.
 
 - Arriba en vertical (≈ 18 % de la altura); **en 16:9, en el tercio de abajo**. Letra redonda sin serifa (Poppins),
   en minúsculas, sin contorno grueso: una sombra suave basta.
-- Grupos de 3-6 palabras en una o dos líneas. **La palabra que se dice, en blanco y negrita**; las demás del grupo,
-  en gris translúcido.
+- Grupos de 3-6 palabras en una o dos líneas. **Las palabras van apareciendo según se dicen** (las que faltan no se
+  ven, pero guardan su sitio: el grupo nunca salta); **la que se dice, en blanco y negrita**; las ya dichas, en gris
+  translúcido.
 - La **palabra clave** de la frase, dentro de una **caja azul** con bordes redondeados (como un texto seleccionado).
 - Sin rótulos grandes encima de la imagen: el texto grande lo ponen las burbujas y las etiquetas de cifra.
 
