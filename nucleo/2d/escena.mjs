@@ -81,6 +81,8 @@ export function crearCuadro(dibujo, toma, aSegundos, juego = null, relato = null
   const conT = (l) => (Array.isArray(l) ? l.map(([a, v]) => [T(a), v]) : l);
   const W = ANCHO, H = ALTO, cx = W / 2, cy = H / 2;
   const cam = conT(dibujo.camara || [[0, { zoom: 1, x: cx, y: cy }]]);
+  // fondoAnim: opciones del fondo que cambian durante la toma ({ abierta: [["3:puerta", 0], ["3:abierta", 1]] }); el fondo se vuelve vivo
+  const fondoAnim = dibujo.fondoAnim ? Object.entries(dibujo.fondoAnim).map(([k, v]) => [k, conT(v)]) : null;
   // las piezas del mundo (modo juego) viven en todas las tomas: sus tiempos en número son desde el inicio del video
   const delMundo = juego?.J.mundo?.elementos || [];
   const aAbs = (e) => { const o = { ...e }; for (const k of ["en", "hasta"]) if (typeof o[k] === "number") o[k] = { abs: o[k] }; if (o.en === undefined) o.en = { abs: 0 }; return o; };
@@ -100,7 +102,7 @@ export function crearCuadro(dibujo, toma, aSegundos, juego = null, relato = null
 
   let fondoImg = null, granoImg = null;
   // los fondos que se mueven (lluvia, estrellas que titilan) se dibujan en cada cuadro; los demás, una vez
-  const fondoVivo = dibujo.fondoVivo ?? (["luces", "noche", "espacio"].includes(dibujo.fondo) || FONDOS_VIVOS.has(dibujo.fondo) || VIVOS_RELATO.has(dibujo.fondo));
+  const fondoVivo = fondoAnim ? true : dibujo.fondoVivo ?? (["luces", "noche", "espacio"].includes(dibujo.fondo) || FONDOS_VIVOS.has(dibujo.fondo) || VIVOS_RELATO.has(dibujo.fondo));
   const cuadro = (t) => {
     const c = { zoom: 1, x: cx, y: cy, ...claves(cam, t) };
     // la sacudida (modo juego: alerta o sacude): unos píxeles, que se apagan en medio segundo
@@ -134,7 +136,7 @@ export function crearCuadro(dibujo, toma, aSegundos, juego = null, relato = null
       for (const [k, v] of Object.entries(e.params)) p[k] = claves(v, t);
       return `<g transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${r.toFixed(2)}) scale(${s.toFixed(4)})" opacity="${op.toFixed(3)}">${PIEZAS[e.pieza](p)}</g>`;
     }).join("");
-    const fondoSVG = fondoImg ? `<image href="${fondoImg}" width="${W}" height="${H}" preserveAspectRatio="none"/>` : pintarFondo(dibujo.fondo, { t, ...(dibujo.fondoOpts || {}) });
+    const fondoSVG = fondoImg ? `<image href="${fondoImg}" width="${W}" height="${H}" preserveAspectRatio="none"/>` : pintarFondo(dibujo.fondo, { t, ...(dibujo.fondoOpts || {}), ...(fondoAnim ? Object.fromEntries(fondoAnim.map(([k, v]) => [k, claves(v, t)])) : {}) });
     const acabado = relato ? (granoImg ? `<image href="${granoImg}" width="${W}" height="${H}"/>` : relato.acabado()) : juego ? (granoImg ? `<image href="${granoImg}" width="${W}" height="${H}"/>` : acabadoJuego(juego.N))
       : granoImg ? `<image href="${granoImg}" width="${W}" height="${H}" style="mix-blend-mode:multiply"/>` : `<rect width="${W}" height="${H}" filter="url(#grano)" style="mix-blend-mode:multiply"/><rect width="${W}" height="${H}" fill="url(#vinetaBV)"/>`;
     return `<g transform="translate(${cx} ${cy}) scale(${c.zoom}) translate(${-c.x} ${-c.y})">${fondoSVG}${capas}</g>${acabado}${juego ? juego.capa(t) : ""}${relato ? relato.capa(t) : ""}`;

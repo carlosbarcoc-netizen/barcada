@@ -631,13 +631,7535 @@
   ],
   "escenas": [
     {
-      "nombre": "gancho",
+      "nombre": "video",
       "tomas": [
         {
           "desde": 0,
           "dibujo": {
             "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.715,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 520,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": 0.2
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 960,
+                "y": 560,
+                "escala": 1.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "1:conocieron"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 1400,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "1:vieron"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 2,
+          "dibujo": {
+            "fondo": "relato-pergamino",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "mapa",
+                "x": 960,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.3,
+                "puntos": [
+                  [
+                    -0.55,
+                    0.15
+                  ],
+                  [
+                    -0.78,
+                    0.25
+                  ],
+                  [
+                    0.55,
+                    -0.4
+                  ]
+                ],
+                "semilla": 4,
+                "params": {
+                  "progreso": [
+                    [
+                      "2:españa",
+                      0
+                    ],
+                    [
+                      "2:españa",
+                      0.34
+                    ],
+                    [
+                      "2:portugal",
+                      0.34
+                    ],
+                    [
+                      "2:portugal",
+                      0.67
+                    ],
+                    [
+                      "2:polonia",
+                      0.67
+                    ],
+                    [
+                      "2:polonia",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "globo",
+                "x": 560,
+                "y": 520,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "España",
+                "tamano": 34,
+                "en": "2:españa"
+              },
+              {
+                "pieza": "globo",
+                "x": 400,
+                "y": 640,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Portugal",
+                "tamano": 34,
+                "en": "2:portugal"
+              },
+              {
+                "pieza": "globo",
+                "x": 1380,
+                "y": 250,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Polonia",
+                "tamano": 34,
+                "en": "2:polonia"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 3,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.238000000000001,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 470,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Libro de la Vida",
+                "lineas": [
+                  "Teresa de Jesús"
+                ],
+                "escala": 0.75,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -6,
+                "en": 0.1
+              },
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Memorias",
+                "lineas": [
+                  "Lucía de Fátima"
+                ],
+                "escala": 0.75,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 2,
+                "en": "3:países"
+              },
+              {
+                "pieza": "documento",
+                "x": 1450,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario",
+                "lineas": [
+                  "Faustina Kowalska"
+                ],
+                "escala": 0.75,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 5,
+                "en": "3:idiomas"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 4,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.317,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 520,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "serena",
+                "en": 0.3
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1400,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "serena",
+                "en": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 6,
+          "dibujo": {
+            "fondo": "relato-fuego",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.631999999999998,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
             "elementos": []
+          }
+        },
+        {
+          "desde": 7,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.791999999999998,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 960,
+                "y": 640,
+                "escala": 0.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "7:luz"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 8,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.017000000000003,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 960,
+                "y": 600,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.9,
+                "accion": "flota"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 9,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.783000000000001,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 960,
+                "y": 520,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "esconde"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 10,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                3.5760000000000005,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 560,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Libro de la Vida",
+                "lineas": [
+                  "cap. 32"
+                ],
+                "escala": 0.8,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -5
+              },
+              {
+                "pieza": "documento",
+                "x": 1300,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario",
+                "lineas": [
+                  "n.º 741"
+                ],
+                "escala": 0.8,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 4,
+                "en": "10:propias"
+              },
+              {
+                "pieza": "vela",
+                "x": 960,
+                "y": 760,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.1
+              }
+            ]
+          }
+        },
+        {
+          "desde": 11,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ],
+              [
+                5.573,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "convento",
+                "x": 1350,
+                "y": 600,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.1
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "en": "11:hicieron"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 12,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.492999999999995,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 520,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "aureola": true
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "aureola": true,
+                "en": 0.3
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1400,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "aureola": true,
+                "en": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 13,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.266000000000005,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "suscribir",
+                "x": 960,
+                "y": 520,
+                "entra": "rebote",
+                "dura": 0.8,
+                "canal": "@tiempoparaDios",
+                "escala": 1.25,
+                "params": {
+                  "pulsa": [
+                    [
+                      "13:suscríbete",
+                      0
+                    ],
+                    [
+                      "13:gratis",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "resplandor",
+                "x": 960,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 900,
+                "opacidad": 0.25,
+                "capa": -1
+              }
+            ]
+          }
+        },
+        {
+          "desde": 14,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                1.8460000000000036,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "vela",
+                "x": 960,
+                "y": 700,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.3
+              }
+            ]
+          }
+        },
+        {
+          "desde": 15,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                4.5859999999999985,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "convento",
+                "x": 760,
+                "y": 600,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.9
+              },
+              {
+                "pieza": "convento",
+                "x": 1220,
+                "y": 620,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.7
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 70,
+                "texto": "Ávila · siglo XVI",
+                "en": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 16,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.0999999999999943,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 620,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "brillo": 0.5
+              },
+              {
+                "pieza": "vela",
+                "x": 1380,
+                "y": 760,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.1
+              }
+            ]
+          }
+        },
+        {
+          "desde": 17,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.272999999999996,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "brillo": 0.4
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 140,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Teresa de Jesús",
+                "tamano": 48,
+                "en": "17:teresa"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 18,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "brazos": 0.15
+              }
+            ]
+          }
+        },
+        {
+          "desde": 19,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.677999999999997,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "params": {
+                  "brillo": [
+                    [
+                      "19:oraba",
+                      0
+                    ],
+                    [
+                      "19:olvidar",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "resplandor",
+                "x": 960,
+                "y": 360,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 700,
+                "capa": -1,
+                "en": "19:paso",
+                "opacidad": 0.5
+              }
+            ]
+          }
+        },
+        {
+          "desde": 20,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.104,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Libro de la Vida",
+                "lineas": [
+                  "Teresa de Jesús",
+                  "",
+                  "Capítulo 32"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "20:escribió",
+                      0
+                    ],
+                    [
+                      "20:dos",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "vela",
+                "x": 1460,
+                "y": 760,
+                "entra": "aparece",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 21,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.774000000000001,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 700,
+                "escala": 0.75,
+                "entra": "crece",
+                "dura": 0.8,
+                "cara": "sorprendida",
+                "en": "21:repente"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 22,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.9009999999999962,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 760,
+                "escala": 0.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "preocupada"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 23,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.850999999999999,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "«un callejón muy largo y estrecho»",
+                "tamano": 48,
+                "en": "23:callejón"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 24,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.430000000000007,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 820,
+                "escala": 1,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "preocupada",
+                "mueve": [
+                  [
+                    "25:olor",
+                    {
+                      "x": 960,
+                      "y": 640,
+                      "escala": 0.45
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "desde": 26,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.640999999999991,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 1180,
+                "y": 660,
+                "escala": 0.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "preocupada",
+                "pose": "esconde",
+                "en": "26:metieron"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "un hueco en la pared",
+                "tamano": 40,
+                "en": "26:hueco"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 27,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.316000000000017,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 28,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.164999999999992,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "preocupada",
+                "pose": "esconde"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 29,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 700,
+                "escala": 0.8,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "preocupada",
+                "brillo": 0.9
+              }
+            ]
+          }
+        },
+        {
+          "desde": 30,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.1299999999999955,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 960,
+                "y": 600,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.7
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "«un fuego en el alma»",
+                "tamano": 48,
+                "en": "30:fuego"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 31,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "preocupada",
+                "pose": "esconde"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 32,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.943000000000012,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.6,
+                "tono": "negra",
+                "accion": "tiembla"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 33,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.61099999999999,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Libro de la Vida",
+                "lineas": [
+                  "cap. 32"
+                ],
+                "escala": 0.9,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2
+              },
+              {
+                "pieza": "vela",
+                "x": 1420,
+                "y": 760,
+                "entra": "aparece",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 34,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.248999999999995,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "«No hay luz, sino todo tinieblas oscurísimas»",
+                "tamano": 40,
+                "en": "34:luz",
+                "halo": "#c8b48a"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 35,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.586000000000013,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 800,
+                "escala": 3.2,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "sorprendida"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 36,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 330,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "«Yo no entiendo cómo puede ser esto,",
+                "tamano": 38,
+                "en": "36:entiendo"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 470,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "que con no haber luz… todo se ve»",
+                "tamano": 38,
+                "en": "36:luz"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 37,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.7120000000000175,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 660,
+                "escala": 1,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 38,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.876999999999981,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 800,
+                "escala": 3.2,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta",
+                "opacidad": 0.92
+              }
+            ]
+          }
+        },
+        {
+          "desde": 39,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.0870000000000175,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 560,
+                "escala": 1.2,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "brillo": 0.7
+              }
+            ]
+          }
+        },
+        {
+          "desde": 40,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.727000000000004,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "serena",
+                "brillo": 0.3
+              }
+            ]
+          }
+        },
+        {
+          "desde": 42,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 43,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                7.36099999999999,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 420,
+                "y": 500,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "mueve": [
+                  [
+                    "43:demás",
+                    {
+                      "x": 1100,
+                      "y": 500,
+                      "escala": 1.4
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "convento",
+                "x": 1500,
+                "y": 600,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.9,
+                "en": "43:nadie"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 44,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.932999999999993,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "convento",
+                "x": 520,
+                "y": 600,
+                "entra": "sube",
+                "dura": 0.8,
+                "escala": 0.6,
+                "en": "44:fundar"
+              },
+              {
+                "pieza": "convento",
+                "x": 960,
+                "y": 640,
+                "entra": "sube",
+                "dura": 0.8,
+                "escala": 0.75,
+                "en": "44:pequeños"
+              },
+              {
+                "pieza": "convento",
+                "x": 1400,
+                "y": 610,
+                "entra": "sube",
+                "dura": 0.8,
+                "escala": 0.65,
+                "en": "44:oración"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 45,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.097000000000008,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "convento",
+                "x": 960,
+                "y": 560,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.3
+              },
+              {
+                "pieza": "resplandor",
+                "x": 960,
+                "y": 420,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 700,
+                "capa": -1,
+                "opacidad": 0.35
+              }
+            ]
+          }
+        },
+        {
+          "desde": 46,
+          "dibujo": {
+            "fondo": "relato-pergamino",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.945999999999998,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "mapa",
+                "x": 960,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.3,
+                "puntos": [
+                  [
+                    -0.78,
+                    0.25
+                  ]
+                ],
+                "semilla": 4,
+                "params": {
+                  "progreso": [
+                    [
+                      "46:portugal",
+                      0
+                    ],
+                    [
+                      "46:portugal",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 96,
+                "texto": "1917",
+                "en": "46:mil"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 47,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                5.653999999999996,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "encina",
+                "x": 1560,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1
+              },
+              {
+                "pieza": "oveja",
+                "x": 380,
+                "y": 760,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.6
+              },
+              {
+                "pieza": "oveja",
+                "x": 640,
+                "y": 800,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.5,
+                "mira": "derecha"
+              },
+              {
+                "pieza": "oveja",
+                "x": 1180,
+                "y": 790,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.55
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "color": "#4f6fa6",
+                "x": 820,
+                "y": 560,
+                "escala": 1.1,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "47:niños"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nino",
+                "x": 960,
+                "y": 560,
+                "escala": 1.1,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "47:niños"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 1080,
+                "y": 580,
+                "escala": 1,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "47:niños"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 48,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "color": "#4f6fa6",
+                "x": 560,
+                "y": 520,
+                "escala": 1.5,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "48:lucía",
+                "cara": "atenta"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nino",
+                "x": 960,
+                "y": 520,
+                "escala": 1.5,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "48:francisco"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 1360,
+                "y": 540,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "48:jacinta",
+                "cara": "feliz"
+              },
+              {
+                "pieza": "globo",
+                "x": 560,
+                "y": 160,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Lucía · 10",
+                "tamano": 34,
+                "en": "48:lucía"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 160,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Francisco · 9",
+                "tamano": 34,
+                "en": "48:francisco"
+              },
+              {
+                "pieza": "globo",
+                "x": 1360,
+                "y": 160,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Jacinta · 7",
+                "tamano": 34,
+                "en": "48:jacinta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 49,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.621000000000009,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "encina",
+                "x": 1300,
+                "y": 540,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "virgen",
+                "x": 1300,
+                "y": 210,
+                "escala": 0.6,
+                "entra": "crece",
+                "dura": 0.8,
+                "en": "49:señora"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 640,
+                "y": 600,
+                "escala": 0.9,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "sorprendida"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nino",
+                "x": 520,
+                "y": 590,
+                "escala": 0.95,
+                "entra": "aparece",
+                "dura": 0.8
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "color": "#4f6fa6",
+                "x": 760,
+                "y": 590,
+                "escala": 0.95,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 50,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.7690000000000055,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "virgen",
+                "x": 960,
+                "y": 500,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 72,
+                "texto": "13 de julio de 1917",
+                "en": "50:julio"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 51,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.962999999999994,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "color": "#5a5866",
+                "x": 700,
+                "y": 620,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza"
+              },
+              {
+                "pieza": "documento",
+                "x": 1300,
+                "y": 560,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Memorias",
+                "lineas": [
+                  "13 de julio de 1917"
+                ],
+                "escala": 0.7,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 4,
+                "en": "51:escribiera",
+                "params": {
+                  "progreso": [
+                    [
+                      "51:escribiera",
+                      0
+                    ],
+                    [
+                      "52:escribió",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "vela",
+                "x": 1000,
+                "y": 780,
+                "entra": "aparece",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 53,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 470
+                }
+              ],
+              [
+                5.711999999999989,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 610
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "virgen",
+                "x": 960,
+                "y": 460,
+                "escala": 1.5,
+                "entra": "aparece",
+                "dura": 0.8,
+                "params": {
+                  "brazos": [
+                    [
+                      "53:abrió",
+                      0
+                    ],
+                    [
+                      "53:manos",
+                      0.45
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "resplandor",
+                "x": 960,
+                "y": 900,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 800,
+                "en": "53:luz",
+                "capa": -1
+              }
+            ]
+          }
+        },
+        {
+          "desde": 54,
+          "dibujo": {
+            "fondo": "relato-fuego",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.6440000000000055,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "«un gran mar de fuego»",
+                "tamano": 48,
+                "en": "54:mar",
+                "halo": "#ff7a3a"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 55,
+          "dibujo": {
+            "fondo": "relato-fuego",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.329000000000008,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 56,
+          "dibujo": {
+            "fondo": "relato-fuego",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.216000000000008,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 260,
+                "y": 420,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.7,
+                "accion": "flota",
+                "tono": "negra",
+                "en": 0.2
+              },
+              {
+                "pieza": "alma",
+                "x": 610,
+                "y": 557,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.83,
+                "accion": "flota",
+                "tono": "bronceada",
+                "en": 0.45
+              },
+              {
+                "pieza": "alma",
+                "x": 960,
+                "y": 434,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.96,
+                "accion": "flota",
+                "tono": "bronceada",
+                "en": 0.7
+              },
+              {
+                "pieza": "alma",
+                "x": 1310,
+                "y": 571,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.0899999999999999,
+                "accion": "flota",
+                "tono": "negra",
+                "en": 0.95
+              },
+              {
+                "pieza": "alma",
+                "x": 1660,
+                "y": 448,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.82,
+                "accion": "flota",
+                "tono": "bronceada",
+                "en": 1.2
+              }
+            ]
+          }
+        },
+        {
+          "desde": 57,
+          "dibujo": {
+            "fondo": "relato-fuego",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.45799999999997,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.6,
+                "accion": "flota"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "«como si fueran brasas transparentes»",
+                "tamano": 48,
+                "en": "57:brasas",
+                "halo": "#ff7a3a"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 58,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.8430000000000177,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 960,
+                "y": 620,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 2.1
+              }
+            ]
+          }
+        },
+        {
+          "desde": 59,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.9359999999999786,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 960,
+                "y": 660,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 2.4,
+                "tono": "negra"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 60,
+          "dibujo": {
+            "fondo": "relato-fuego",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 260,
+                "y": 420,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.7,
+                "accion": "gira",
+                "tono": "negra",
+                "en": 0.2,
+                "velocidad": 25,
+                "mueve": [
+                  [
+                    "60:equilibrio",
+                    {
+                      "x": 100,
+                      "y": 680,
+                      "escala": 0.7,
+                      "rot": -50
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "alma",
+                "x": 540,
+                "y": 557,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.83,
+                "accion": "gira",
+                "tono": "bronceada",
+                "en": 0.45,
+                "velocidad": 25,
+                "mueve": [
+                  [
+                    "60:equilibrio",
+                    {
+                      "x": 720,
+                      "y": 817,
+                      "escala": 0.83,
+                      "rot": 40
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "alma",
+                "x": 820,
+                "y": 434,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.96,
+                "accion": "gira",
+                "tono": "bronceada",
+                "en": 0.7,
+                "velocidad": 25,
+                "mueve": [
+                  [
+                    "60:equilibrio",
+                    {
+                      "x": 660,
+                      "y": 694,
+                      "escala": 0.96,
+                      "rot": -50
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "alma",
+                "x": 1100,
+                "y": 571,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.0899999999999999,
+                "accion": "gira",
+                "tono": "negra",
+                "en": 0.95,
+                "velocidad": 25,
+                "mueve": [
+                  [
+                    "60:equilibrio",
+                    {
+                      "x": 1280,
+                      "y": 831,
+                      "escala": 1.0899999999999999,
+                      "rot": 40
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "alma",
+                "x": 1380,
+                "y": 448,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.82,
+                "accion": "gira",
+                "tono": "bronceada",
+                "en": 1.2,
+                "velocidad": 25,
+                "mueve": [
+                  [
+                    "60:equilibrio",
+                    {
+                      "x": 1220,
+                      "y": 708,
+                      "escala": 0.82,
+                      "rot": -50
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "alma",
+                "x": 1660,
+                "y": 585,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.95,
+                "accion": "gira",
+                "tono": "bronceada",
+                "en": 1.45,
+                "velocidad": 25,
+                "mueve": [
+                  [
+                    "60:equilibrio",
+                    {
+                      "x": 1840,
+                      "y": 845,
+                      "escala": 0.95,
+                      "rot": 40
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "desde": 61,
+          "dibujo": {
+            "fondo": "relato-fuego",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.331000000000017,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 260,
+                "y": 420,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.7,
+                "accion": "tiembla",
+                "tono": "negra",
+                "en": 0.2
+              },
+              {
+                "pieza": "alma",
+                "x": 726.6666666666667,
+                "y": 557,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.83,
+                "accion": "tiembla",
+                "tono": "bronceada",
+                "en": 0.45
+              },
+              {
+                "pieza": "alma",
+                "x": 1193.3333333333335,
+                "y": 434,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.96,
+                "accion": "tiembla",
+                "tono": "bronceada",
+                "en": 0.7
+              },
+              {
+                "pieza": "alma",
+                "x": 1660,
+                "y": 571,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.0899999999999999,
+                "accion": "tiembla",
+                "tono": "negra",
+                "en": 0.95
+              }
+            ]
+          }
+        },
+        {
+          "desde": 62,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.759999999999991,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "color": "#4f6fa6",
+                "x": 640,
+                "y": 540,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "llora"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nino",
+                "x": 960,
+                "y": 540,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "sorprendida"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 1280,
+                "y": 560,
+                "escala": 1.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "llora"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 63,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.52800000000002,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "virgen",
+                "x": 960,
+                "y": 500,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 64,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.892999999999972,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "virgen",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 120,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "«Han visto el infierno,",
+                "tamano": 38,
+                "en": "64:visto"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 250,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "adonde van las almas de los pobres pecadores»",
+                "tamano": 38,
+                "en": "64:adonde"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 65,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.305000000000007,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 520,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "pobres",
+                "tamano": 110,
+                "en": "65:pobres",
+                "halo": "#ffe6a0"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 66,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.701000000000022,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "color": "#4f6fa6",
+                "x": 640,
+                "y": 540,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nino",
+                "x": 960,
+                "y": 540,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "en": "66:rezaran"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 1280,
+                "y": 560,
+                "escala": 1.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "en": "66:sacrificaran"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 67,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.527999999999963,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Memorias",
+                "lineas": [
+                  "de la hermana Lucía"
+                ],
+                "escala": 0.9,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2
+              }
+            ]
+          }
+        },
+        {
+          "desde": 68,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.208000000000027,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "color": "#5a5866",
+                "x": 960,
+                "y": 600,
+                "escala": 1.7,
+                "entra": "aparece",
+                "dura": 0.8
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 80,
+                "texto": "Venerable · 2023",
+                "en": "68:venerable"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 69,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.70799999999997,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nino",
+                "x": 760,
+                "y": 500,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "aureola": true
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 1160,
+                "y": 520,
+                "escala": 1.5,
+                "entra": "aparece",
+                "dura": 0.8,
+                "aureola": true,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 80,
+                "texto": "Santos · 2017",
+                "en": "69:canonizó"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 70,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.662000000000035,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "aureola": true,
+                "cara": "feliz"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 71,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.788999999999987,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 540,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "params": {
+                  "brillo": [
+                    [
+                      "71:hizo",
+                      0
+                    ],
+                    [
+                      "71:bonito",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 72,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                11.423999999999978,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "suscribir",
+                "x": 960,
+                "y": 520,
+                "entra": "rebote",
+                "dura": 0.8,
+                "canal": "@tiempoparaDios",
+                "escala": 1.25,
+                "params": {
+                  "pulsa": [
+                    [
+                      "72:suscríbete",
+                      0
+                    ],
+                    [
+                      "72:campanita",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "resplandor",
+                "x": 960,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 900,
+                "opacidad": 0.25,
+                "capa": -1
+              }
+            ]
+          }
+        },
+        {
+          "desde": 73,
+          "dibujo": {
+            "fondo": "relato-pergamino",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.8659999999999854,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "mapa",
+                "x": 960,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.3,
+                "puntos": [
+                  [
+                    0.55,
+                    -0.4
+                  ]
+                ],
+                "semilla": 4,
+                "params": {
+                  "progreso": [
+                    [
+                      "73:polonia",
+                      0
+                    ],
+                    [
+                      "73:polonia",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 96,
+                "texto": "años 30",
+                "en": "73:años"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 74,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                7.349000000000046,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 960,
+                "y": 620,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "esconde"
+              },
+              {
+                "pieza": "vela",
+                "x": 1360,
+                "y": 780,
+                "entra": "aparece",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 75,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.426999999999964,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 140,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Faustina Kowalska",
+                "tamano": 48,
+                "en": "75:faustina"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 76,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.086000000000013,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario",
+                "lineas": [
+                  "La Divina Misericordia",
+                  "en mi alma"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "76:diario",
+                      0
+                    ],
+                    [
+                      "76:oración",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "vela",
+                "x": 1440,
+                "y": 760,
+                "entra": "aparece",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 77,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.283999999999992,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 760,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario",
+                "lineas": [],
+                "escala": 0.9,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2
+              },
+              {
+                "pieza": "dato",
+                "x": 1300,
+                "y": 540,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 170,
+                "texto": "741",
+                "en": "77:setecientos"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 78,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.1580000000000155,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "angel",
+                "x": 760,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "brazos": 0.3
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1220,
+                "y": 560,
+                "escala": 1.2,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "sorprendida"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 79,
+          "dibujo": {
+            "fondo": "relato-fuego",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.7620000000000005,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 80,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.154999999999973,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario · 741",
+                "lineas": [],
+                "escala": 1,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2
+              }
+            ]
+          }
+        },
+        {
+          "desde": 81,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.1299999999999955,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 700,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario · 741",
+                "lineas": [],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2
+              },
+              {
+                "pieza": "dato",
+                "x": 1360,
+                "y": 540,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 100,
+                "texto": "7 tormentos",
+                "en": "81:siete"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 82,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.865000000000009,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario · 741",
+                "lineas": [
+                  "1. La pérdida de Dios"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "82:primero",
+                      0
+                    ],
+                    [
+                      "82:dios",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 83,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.035000000000025,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "esconde"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "2. El remordimiento",
+                "tamano": 48,
+                "en": "83:remordimiento",
+                "halo": "#ff7a5a"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 84,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.411999999999978,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario · 741",
+                "lineas": [
+                  "1. La pérdida de Dios",
+                  "2. El remordimiento",
+                  "3. Que nunca cambia"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "84:",
+                      0.6
+                    ],
+                    [
+                      "84:nunca",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 85,
+          "dibujo": {
+            "fondo": "relato-fuego",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.5470000000000255,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 960,
+                "y": 600,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.6
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "4. Un fuego espiritual",
+                "tamano": 48,
+                "en": "85:cuarto",
+                "halo": "#ff7a3a"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 86,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.305999999999983,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "5. Oscuridad y ahogo",
+                "tamano": 48,
+                "en": "86:quinto",
+                "halo": "#a8a0b8"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 87,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 700,
+                "y": 620,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.9,
+                "tono": "negra",
+                "en": "87:demonios"
+              },
+              {
+                "pieza": "alma",
+                "x": 1220,
+                "y": 640,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.8,
+                "en": "87:almas"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 88,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.109000000000037,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 89,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.9009999999999536,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 640,
+                "y": 520,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1280,
+                "y": 520,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "89:teresa"
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 72,
+                "texto": "casi 400 años",
+                "en": "89:cuatrocientos"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 90,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.5990000000000464,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario · 741",
+                "lineas": [
+                  "1. La pérdida de Dios",
+                  "2. El remordimiento",
+                  "3. Que nunca cambia",
+                  "4. Un fuego espiritual",
+                  "5. Oscuridad y ahogo",
+                  "6. La compañía de Satanás"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "90:",
+                      0.8
+                    ],
+                    [
+                      "90:satanás",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 91,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.725000000000023,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario · 741",
+                "lineas": [
+                  "1. La pérdida de Dios",
+                  "2. El remordimiento",
+                  "3. Que nunca cambia",
+                  "4. Un fuego espiritual",
+                  "5. Oscuridad y ahogo",
+                  "6. La compañía de Satanás",
+                  "7. La desesperación"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "91:",
+                      0.85
+                    ],
+                    [
+                      "91:dios",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 92,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.609999999999957,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario · 741",
+                "lineas": [
+                  "1. La pérdida de Dios",
+                  "2. El remordimiento",
+                  "3. Que nunca cambia",
+                  "4. Un fuego espiritual",
+                  "5. Oscuridad y ahogo",
+                  "6. La compañía de Satanás",
+                  "7. La desesperación"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2
+              },
+              {
+                "pieza": "vela",
+                "x": 1460,
+                "y": 760,
+                "entra": "aparece",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 93,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.448000000000036,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 960,
+                "y": 800,
+                "escala": 3.2,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "preocupada"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 94,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.490000000000009,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "alma",
+                "x": 260,
+                "y": 420,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.7,
+                "accion": "flota",
+                "tono": "negra",
+                "en": 0.2,
+                "opacidad": 0.75
+              },
+              {
+                "pieza": "alma",
+                "x": 460,
+                "y": 557,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.83,
+                "accion": "flota",
+                "tono": "bronceada",
+                "en": 0.45,
+                "opacidad": 0.75
+              },
+              {
+                "pieza": "alma",
+                "x": 660,
+                "y": 434,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.96,
+                "accion": "flota",
+                "tono": "bronceada",
+                "en": 0.7,
+                "opacidad": 0.75
+              },
+              {
+                "pieza": "alma",
+                "x": 860,
+                "y": 571,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.0899999999999999,
+                "accion": "flota",
+                "tono": "negra",
+                "en": 0.95,
+                "opacidad": 0.75
+              },
+              {
+                "pieza": "alma",
+                "x": 1060,
+                "y": 448,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.82,
+                "accion": "flota",
+                "tono": "bronceada",
+                "en": 1.2,
+                "opacidad": 0.75
+              },
+              {
+                "pieza": "alma",
+                "x": 1260,
+                "y": 585,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.95,
+                "accion": "flota",
+                "tono": "bronceada",
+                "en": 1.45,
+                "opacidad": 0.75
+              },
+              {
+                "pieza": "alma",
+                "x": 1460,
+                "y": 462,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.08,
+                "accion": "flota",
+                "tono": "negra",
+                "en": 1.7,
+                "opacidad": 0.75
+              },
+              {
+                "pieza": "alma",
+                "x": 1660,
+                "y": 599,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.8099999999999999,
+                "accion": "flota",
+                "tono": "bronceada",
+                "en": 1.95,
+                "opacidad": 0.75
+              }
+            ]
+          }
+        },
+        {
+          "desde": 95,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.103999999999928,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario · 741",
+                "lineas": [
+                  "…para que ninguna alma",
+                  "pueda excusarse diciendo",
+                  "que el infierno no existe."
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "95:nadie",
+                      0
+                    ],
+                    [
+                      "95:existe",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 96,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.559000000000026,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 960,
+                "y": 600,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "brillo": 0.6
+              },
+              {
+                "pieza": "vela",
+                "x": 1380,
+                "y": 780,
+                "entra": "aparece",
+                "dura": 0.8
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 96,
+                "texto": "33 años",
+                "en": "96:treinta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 97,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.213000000000022,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 960,
+                "y": 520,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "aureola": true,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 96,
+                "texto": "Santa · 2000",
+                "en": "97:dos"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 98,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.738999999999976,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 520,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": 0.3
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1400,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 99,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 520,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "params": {
+                  "brillo": [
+                    [
+                      "99:española",
+                      0
+                    ],
+                    [
+                      "99:española",
+                      0.9
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": 0.3,
+                "params": {
+                  "brillo": [
+                    [
+                      "99:pastora",
+                      0
+                    ],
+                    [
+                      "99:pastora",
+                      0.9
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1400,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": 0.6,
+                "params": {
+                  "brillo": [
+                    [
+                      "99:polaca",
+                      0
+                    ],
+                    [
+                      "99:polaca",
+                      0.9
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 100,
+          "dibujo": {
+            "fondo": "relato-pergamino",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.899000000000001,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "mapa",
+                "x": 960,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.3,
+                "puntos": [
+                  [
+                    -0.55,
+                    0.15
+                  ],
+                  [
+                    -0.78,
+                    0.25
+                  ],
+                  [
+                    0.55,
+                    -0.4
+                  ]
+                ],
+                "semilla": 4
+              }
+            ]
+          }
+        },
+        {
+          "desde": 101,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.274000000000001,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 520,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta",
+                "en": 0.3
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1400,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta",
+                "en": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 102,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.58299999999997,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 160,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 84,
+                "texto": "1 · La oscuridad"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 103,
+          "dibujo": {
+            "fondo": "relato-callejon",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.7730000000000246,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 680,
+                "escala": 0.8,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 104,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 140,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 72,
+                "texto": "2 · El fuego viene de dentro"
+              },
+              {
+                "pieza": "alma",
+                "x": 480,
+                "y": 600,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.1,
+                "en": "104:teresa"
+              },
+              {
+                "pieza": "alma",
+                "x": 960,
+                "y": 600,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.1,
+                "en": "104:lucía"
+              },
+              {
+                "pieza": "alma",
+                "x": 1440,
+                "y": 600,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.1,
+                "en": "104:faustina"
+              },
+              {
+                "pieza": "globo",
+                "x": 480,
+                "y": 880,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Teresa",
+                "tamano": 34,
+                "en": "104:teresa"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 880,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Lucía",
+                "tamano": 34,
+                "en": "104:lucía"
+              },
+              {
+                "pieza": "globo",
+                "x": 1440,
+                "y": 880,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Faustina",
+                "tamano": 34,
+                "en": "104:faustina"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 105,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.772000000000048,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 960,
+                "y": 520,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "brillo": 1
+              },
+              {
+                "pieza": "alma",
+                "x": 960,
+                "y": 560,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.8,
+                "opacidad": 0.8,
+                "en": "105:adentro"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 106,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ],
+              [
+                9.588999999999942,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 76,
+                "texto": "3 · Estar lejos de Dios"
+              },
+              {
+                "pieza": "resplandor",
+                "x": 1560,
+                "y": 460,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 600
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 760,
+                "y": 520,
+                "escala": 1.2,
+                "entra": "aparece",
+                "dura": 0.8,
+                "mueve": [
+                  [
+                    "106:dios",
+                    {
+                      "x": 420,
+                      "y": 520,
+                      "escala": 1.1
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "desde": 107,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.713999999999942,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario · 741",
+                "lineas": [
+                  "1. La pérdida de Dios"
+                ],
+                "escala": 1.05,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2
+              }
+            ]
+          }
+        },
+        {
+          "desde": 108,
+          "dibujo": {
+            "fondo": "relato-piedra",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.238000000000056,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Catecismo",
+                "lineas": [
+                  "de la Iglesia Católica"
+                ],
+                "escala": 0.9,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 0
+              }
+            ]
+          }
+        },
+        {
+          "desde": 109,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.619836999999961,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 760,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Catecismo",
+                "lineas": [
+                  "n.º 1033"
+                ],
+                "escala": 0.9,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2
+              },
+              {
+                "pieza": "dato",
+                "x": 1320,
+                "y": 540,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 90,
+                "texto": "autoexclusión",
+                "en": "109:autoexclusión"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 110,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.072000000000003,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Catecismo · 1033",
+                "lineas": [
+                  "«estado de autoexclusión",
+                  "definitiva de la comunión",
+                  "con Dios y con los",
+                  "bienaventurados»"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "110:",
+                      0
+                    ],
+                    [
+                      "110:santos",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 111,
+          "dibujo": {
+            "fondo": "relato-puerta",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.678999999999974,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 960,
+                "y": 640,
+                "escala": 1.1,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": 0.3
+              }
+            ],
+            "fondoOpts": {
+              "abierta": 0.25
+            }
+          }
+        },
+        {
+          "desde": 112,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.326999999999998,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Catecismo · 1035",
+                "lineas": [
+                  "la pena principal:",
+                  "la separación eterna",
+                  "de Dios"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "112:",
+                      0
+                    ],
+                    [
+                      "112:dios",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 113,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.894999999999982,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "resplandor",
+                "x": 1500,
+                "y": 460,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 650
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 900,
+                "y": 520,
+                "escala": 1.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "mueve": [
+                  [
+                    "113:espalda",
+                    {
+                      "x": 560,
+                      "y": 520,
+                      "escala": 1.2
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "desde": 114,
+          "dibujo": {
+            "fondo": "relato-piedra",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.829000000000065,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 520,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Ojo con esto",
+                "tamano": 70
+              }
+            ]
+          }
+        },
+        {
+          "desde": 115,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.093999999999937,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 520,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Vida",
+                "lineas": [],
+                "escala": 0.6,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -6
+              },
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Memorias",
+                "lineas": [],
+                "escala": 0.6,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 2
+              },
+              {
+                "pieza": "documento",
+                "x": 1400,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario",
+                "lineas": [],
+                "escala": 0.6,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 5
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 920,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 76,
+                "texto": "Revelaciones privadas",
+                "en": "115:privadas"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 116,
+          "dibujo": {
+            "fondo": "relato-piedra",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.400000000000091,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Proceso",
+                "lineas": [
+                  "de canonización"
+                ],
+                "escala": 0.85,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 1
+              },
+              {
+                "pieza": "vela",
+                "x": 1380,
+                "y": 800,
+                "entra": "aparece",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 117,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.501999999999953,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "encina",
+                "x": 1100,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 72,
+                "texto": "1930 · dignas de crédito",
+                "en": "117:declaró"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 118,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.7830000000000155,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 520,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "aureola": true,
+                "cara": "serena"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "aureola": true,
+                "cara": "serena",
+                "en": 0.3
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1400,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "aureola": true,
+                "cara": "serena",
+                "en": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 119,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                7.5,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 520,
+                "y": 540,
+                "escala": 1.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "mueve": [
+                  [
+                    "119:santidad",
+                    {
+                      "x": 780,
+                      "y": 540,
+                      "escala": 1.3
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 540,
+                "escala": 1.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": 0.3,
+                "mueve": [
+                  [
+                    "119:santidad",
+                    {
+                      "x": 1220,
+                      "y": 540,
+                      "escala": 1.3
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1400,
+                "y": 540,
+                "escala": 1.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": 0.6,
+                "mueve": [
+                  [
+                    "119:santidad",
+                    {
+                      "x": 1660,
+                      "y": 540,
+                      "escala": 1.3
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "desde": 120,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.064999999999941,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 121,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.586000000000013,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 960,
+                "y": 520,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "esconde"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 122,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.61200000000008,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 520,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": 0.3
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1400,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 123,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                1.7419999999999618,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 500,
+                "escala": 1.5,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 124,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                3.9009999999999536,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 300,
+                "y": 520,
+                "escala": 1.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "mueve": [
+                  [
+                    "125:",
+                    {
+                      "x": 1000,
+                      "y": 520,
+                      "escala": 1.3
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "desde": 125,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                4.830000000000041,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 900,
+                "y": 520,
+                "escala": 1.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "mueve": [
+                  [
+                    "126:",
+                    {
+                      "x": 1500,
+                      "y": 520,
+                      "escala": 1.3
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "convento",
+                "x": 1650,
+                "y": 620,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 126,
+          "dibujo": {
+            "fondo": "relato-pergamino",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.850999999999999,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "mapa",
+                "x": 960,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.3,
+                "semilla": 4,
+                "puntos": [
+                  [
+                    -0.75,
+                    -0.4
+                  ],
+                  [
+                    -0.5599999999999999,
+                    -0.28
+                  ],
+                  [
+                    -0.37,
+                    -0.32
+                  ],
+                  [
+                    -0.28,
+                    -0.36000000000000004
+                  ],
+                  [
+                    -0.09000000000000002,
+                    -0.4
+                  ],
+                  [
+                    0,
+                    -0.28
+                  ],
+                  [
+                    -0.71,
+                    0.029999999999999957
+                  ],
+                  [
+                    -0.52,
+                    -0.010000000000000044
+                  ],
+                  [
+                    -0.43,
+                    -0.050000000000000044
+                  ],
+                  [
+                    -0.24000000000000005,
+                    0.06999999999999995
+                  ],
+                  [
+                    -0.15000000000000002,
+                    0.029999999999999957
+                  ],
+                  [
+                    0.04,
+                    -0.010000000000000044
+                  ],
+                  [
+                    -0.67,
+                    0.29999999999999993
+                  ],
+                  [
+                    -0.58,
+                    0.41999999999999993
+                  ],
+                  [
+                    -0.39,
+                    0.37999999999999995
+                  ],
+                  [
+                    -0.30000000000000004,
+                    0.3399999999999999
+                  ],
+                  [
+                    -0.11000000000000001,
+                    0.29999999999999993
+                  ]
+                ],
+                "params": {
+                  "progreso": [
+                    [
+                      "126:fundó",
+                      0
+                    ],
+                    [
+                      "126:conventos",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 96,
+                "texto": "17 conventos",
+                "en": "126:diecisiete"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 127,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                3.4710000000000036,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 480,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Libro de la Vida",
+                "lineas": [],
+                "escala": 0.6,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -6
+              },
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Camino de perfección",
+                "lineas": [],
+                "escala": 0.6,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 2
+              },
+              {
+                "pieza": "documento",
+                "x": 1440,
+                "y": 580,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Las Moradas",
+                "lineas": [],
+                "escala": 0.6,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 5
+              }
+            ]
+          }
+        },
+        {
+          "desde": 128,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.259999999999991,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 520,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "aureola": true,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 70,
+                "texto": "1970 · Doctora de la Iglesia",
+                "en": "128:setenta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 129,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.793999999999983,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "brazos": 0.4
+              }
+            ]
+          }
+        },
+        {
+          "desde": 130,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.062999999999988,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "serena"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 131,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.451999999999998,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.5,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 150,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "«¡Pobres pecadores!»",
+                "tamano": 48,
+                "en": "131:pecadores"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 132,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.95900000000006,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 520,
+                "y": 560,
+                "escala": 0.8,
+                "entra": "aparece",
+                "dura": 0.8,
+                "opacidad": 0.7
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 800,
+                "y": 580,
+                "escala": 0.75,
+                "entra": "aparece",
+                "dura": 0.8,
+                "opacidad": 0.6
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 1120,
+                "y": 570,
+                "escala": 0.8,
+                "entra": "aparece",
+                "dura": 0.8,
+                "opacidad": 0.7
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 1420,
+                "y": 560,
+                "escala": 0.85,
+                "entra": "aparece",
+                "dura": 0.8,
+                "opacidad": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 133,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.808999999999969,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.5,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "brillo": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 134,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 760,
+                "y": 560,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nino",
+                "x": 1180,
+                "y": 560,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "color": "#8a7a6a",
+                "en": "134:niños"
+              },
+              {
+                "pieza": "oveja",
+                "x": 1600,
+                "y": 780,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.5
+              }
+            ]
+          }
+        },
+        {
+          "desde": 135,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.131999999999948,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "brillo": 0.8
+              },
+              {
+                "pieza": "globos",
+                "x": 960,
+                "y": 280,
+                "entra": "aparece",
+                "dura": 0.8,
+                "ancho": 1500,
+                "alto": 300,
+                "textos": [
+                  "¿?",
+                  "alguien",
+                  "un desconocido",
+                  "¿quién?",
+                  "tú",
+                  "yo",
+                  "él",
+                  "ella"
+                ],
+                "tamano": 34,
+                "desde": [
+                  0,
+                  300
+                ],
+                "params": {
+                  "progreso": [
+                    [
+                      "135:rezaba",
+                      0
+                    ],
+                    [
+                      "135:llamaban",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 136,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.2690000000000055,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 610,
+                "escala": 2.3,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "brillo": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 137,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.802000000000021,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 540,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "aureola": true,
+                "cara": "serena"
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 860,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 96,
+                "texto": "1910 – 1920",
+                "en": "137:nueve"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 138,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.95799999999997,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 760,
+                "y": 620,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8
+              },
+              {
+                "pieza": "documento",
+                "x": 1340,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "titulo": "Diario · 741",
+                "lineas": [
+                  "1. La pérdida de Dios",
+                  "2. El remordimiento",
+                  "3. Que nunca cambia",
+                  "4. Un fuego espiritual",
+                  "5. Oscuridad y ahogo",
+                  "6. La compañía de Satanás",
+                  "7. La desesperación"
+                ],
+                "escala": 0.6,
+                "ancho": 640,
+                "alto": 760,
+                "rot": 4
+              }
+            ]
+          }
+        },
+        {
+          "desde": 139,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.088000000000079,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 960,
+                "y": 800,
+                "escala": 3.2,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 140,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.028999999999996,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "jesus",
+                "x": 960,
+                "y": 470,
+                "escala": 1.6,
+                "entra": "crece",
+                "dura": 0.8,
+                "en": "140:misericordia"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 141,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                9.101999999999975,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "jesus",
+                "x": 960,
+                "y": 470,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "bendice"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 950,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "«Jesús, en ti confío»",
+                "tamano": 48,
+                "en": "141:jesús#2",
+                "halo": "#fff1c4"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 142,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.116999999999962,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "fachada",
+                "x": 960,
+                "y": 760,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.85,
+                "luz": 1
+              },
+              {
+                "pieza": "multitud",
+                "x": 960,
+                "y": 720,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "ancho": 2300,
+                "alto": 380,
+                "luces": 0.08,
+                "densidad": 0.8
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 160,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 76,
+                "texto": "30 de abril de 2000",
+                "en": "142:canonizó"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 143,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.058999999999969,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 960,
+                "y": 540,
+                "escala": 1.5,
+                "entra": "aparece",
+                "dura": 0.8,
+                "aureola": true,
+                "brillo": 0.8,
+                "cara": "feliz"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 144,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 610
+                }
+              ],
+              [
+                5.457000000000107,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 470
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 146,
+          "dibujo": {
+            "fondo": "relato-carretera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                8.033999999999992,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "letrero",
+                "x": 1500,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.8,
+                "en": "146:letrero",
+                "params": {
+                  "brillo": [
+                    [
+                      "146:letrero",
+                      0
+                    ],
+                    [
+                      "146:precipicio",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 147,
+          "dibujo": {
+            "fondo": "relato-carretera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.222999999999956,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "letrero",
+                "x": 1300,
+                "y": 500,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.1,
+                "brillo": 1
+              }
+            ]
+          }
+        },
+        {
+          "desde": 148,
+          "dibujo": {
+            "fondo": "relato-carretera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.8279999999999745,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "letrero",
+                "x": 1300,
+                "y": 500,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.1,
+                "brillo": 1
+              },
+              {
+                "pieza": "globo",
+                "x": 640,
+                "y": 300,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "No una amenaza. Una advertencia.",
+                "tamano": 48,
+                "en": "148:amenaza"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 149,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.180000000000064,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 150,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.888000000000034,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 520,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "brillo": 0.6
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "brillo": 0.6,
+                "en": 0.3
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1400,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "brillo": 0.6,
+                "en": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 151,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "convento",
+                "x": 480,
+                "y": 600,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.7,
+                "en": "151:teresa"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 480,
+                "y": 470,
+                "escala": 0.9,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "151:teresa"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 500,
+                "escala": 0.9,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "brillo": 0.6,
+                "en": "151:jacinta"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "jesus",
+                "x": 1500,
+                "y": 430,
+                "escala": 0.75,
+                "entra": "aparece",
+                "dura": 0.8,
+                "opacidad": 0.85,
+                "en": "151:faustina"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1320,
+                "y": 500,
+                "escala": 0.85,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "151:faustina"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 152,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ],
+              [
+                5.107999999999947,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "resplandor",
+                "x": 1560,
+                "y": 460,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 600
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 520,
+                "y": 520,
+                "escala": 1.1,
+                "entra": "aparece",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 153,
+          "dibujo": {
+            "fondo": "relato-puerta",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.967999999999961,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [],
+            "fondoVivo": true,
+            "fondoAnim": {
+              "abierta": [
+                [
+                  "153:puerta",
+                  0
+                ],
+                [
+                  "153:abierta",
+                  1
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "desde": 154,
+          "dibujo": {
+            "fondo": "relato-puerta",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.4150000000000773,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [],
+            "fondoOpts": {
+              "abierta": 1
+            }
+          }
+        },
+        {
+          "desde": 155,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.782999999999902,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monja",
+                "x": 520,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "nina",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": 0.3
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "religiosa",
+                "x": 1400,
+                "y": 480,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "desde": 156,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.566000000000031,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "suscribir",
+                "x": 960,
+                "y": 520,
+                "entra": "rebote",
+                "dura": 0.8,
+                "canal": "@tiempoparaDios",
+                "escala": 1.25,
+                "params": {
+                  "pulsa": [
+                    [
+                      "156:suscríbete",
+                      0
+                    ],
+                    [
+                      "156:siempre",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "resplandor",
+                "x": 960,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 900,
+                "opacidad": 0.25,
+                "capa": -1
+              }
+            ]
           }
         }
       ]
@@ -684,6 +8206,6 @@
     "nombre": "Philemon - Natural Storyteller",
     "estabilidad": 0.5,
     "estilo": 0.25,
-    "velocidad": 1
+    "velocidad": 1.1
   }
 }

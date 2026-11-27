@@ -141,7 +141,7 @@ export const FONDOS_RELATO = {
       + `<rect x="${n1(W / 2 - 60)}" y="${n1(suelo)}" width="120" height="${n1(H - suelo)}" fill="#ffd9a0" opacity="0.2" style="filter:blur(18px)"/>` + olas;
   },
   // la puerta: un portón de tablones con bandas de hierro y remaches, dentro de un arco de piedra (fondo para un personaje delante)
-  "relato-puerta": ({ suelo = ALTO * 0.88 }) => {
+  "relato-puerta": ({ suelo = ALTO * 0.88, abierta = 0 }) => {
     const W = ANCHO, H = ALTO, aw = Math.min(W * 0.92, H * 0.62), x0 = (W - aw) / 2, top = H * 0.06, r = aw / 2, id = "rPu";
     const arco = (x, w, y) => `M ${n1(x)} ${n1(suelo)} V ${n1(y + w / 2)} A ${n1(w / 2)} ${n1(w / 2)} 0 0 1 ${n1(x + w)} ${n1(y + w / 2)} V ${n1(suelo)} Z`;
     const piedras = Array.from({ length: 13 }, (_, i) => { const a1 = Math.PI + (i / 13) * Math.PI, a2 = Math.PI + ((i + 1) / 13) * Math.PI, R1 = r + 4, R2 = r + aw * 0.09, cx = W / 2, cy = top + r + aw * 0.09;
@@ -150,7 +150,9 @@ export const FONDOS_RELATO = {
     const bandas = [0.3, 0.58, 0.85].map((f) => { const y = dTop + (suelo - dTop) * f; return `<rect x="${n1(x0)}" y="${n1(y)}" width="${n1(aw)}" height="${n1(aw * 0.05)}" fill="#3a3a44"/>` + Array.from({ length: 6 }, (_, i) => `<circle cx="${n1(x0 + aw * (0.08 + i * 0.168))}" cy="${n1(y + aw * 0.025)}" r="${n1(aw * 0.013)}" fill="#8a8a96"/>`).join(""); }).join("");
     return `<rect width="${W}" height="${H}" fill="#2a2638"/>${vetas(0, 0, W, H, 30, "#16131f", 9, 0.3)}
       <defs><clipPath id="${id}c"><path d="${arco(x0, aw, dTop)}"/></clipPath></defs>${piedras}
-      <g clip-path="url(#${id}c)">${tablas}<rect x="${n1(x0)}" y="${n1(dTop)}" width="${n1(aw)}" height="${n1(suelo)}" fill="url(#texRel)" opacity="0.25"/>${bandas}</g>
+      <g clip-path="url(#${id}c)"><rect x="${n1(x0)}" y="${n1(dTop)}" width="${n1(aw)}" height="${n1(suelo - dTop)}" fill="#fff4d6"/>${luz(W / 2, H * 0.5, aw * 0.6, "#ffffff", 0.8)}
+        <g transform="translate(${n1(x0)} 0) scale(${n1(1 - 0.9 * lim(abierta))} 1) translate(${n1(-x0)} 0)">${tablas}<rect x="${n1(x0)}" y="${n1(dTop)}" width="${n1(aw)}" height="${n1(suelo)}" fill="url(#texRel)" opacity="0.25"/>${bandas}</g></g>
+      ${abierta > 0 ? luz(W / 2, suelo, aw * 0.9 * lim(abierta), "#ffe6a8", 0.45) : ""}
       ${luz(W / 2, H * 0.55, aw * 0.45, "#ffb45a", 0.35)}
       <defs>${TEXTURA}${lin("rPus", [[0, "#2a2434"], [1, "#120f18"]])}</defs><rect y="${n1(suelo)}" width="${W}" height="${n1(H - suelo)}" fill="url(#rPus)"/>`;
   },
@@ -171,8 +173,39 @@ export const FONDOS_RELATO = {
       <path d="M ${n1(vx + vw / 2)} ${n1(vy)} V ${n1(vy + vh)} M ${n1(vx)} ${n1(vy + vh / 2)} H ${n1(vx + vw)}" stroke="#2a170b" stroke-width="12"/>
       <defs>${lin("rCs2", [[0, "#3a2414"], [1, "#170c06"]])}</defs><rect y="${n1(suelo)}" width="${W}" height="${n1(H - suelo)}" fill="url(#rCs2)"/>`;
   },
+  // el callejón de Teresa: un pasillo largo, estrecho y bajo, que se pierde en lo oscuro; suelo de lodo que brilla poco
+  "relato-callejon": ({ t = 0, fondo = 0.5 }) => {
+    const W = ANCHO, H = ALTO, fx = W * fondo, fy = H * 0.46, fw = Math.min(W, H) * 0.06, fh = fw * 1.1;
+    const P = (a, b) => `${n1(a)} ${n1(b)}`;
+    return `<rect width="${W}" height="${H}" fill="#07050a"/>
+      <path d="M 0 0 L ${P(fx - fw, fy - fh)} L ${P(fx - fw, fy + fh)} L 0 ${H} Z" fill="#1c1418"/><path d="M ${W} 0 L ${P(fx + fw, fy - fh)} L ${P(fx + fw, fy + fh)} L ${W} ${H} Z" fill="#16101a"/>
+      <path d="M 0 0 L ${W} 0 L ${P(fx + fw, fy - fh)} L ${P(fx - fw, fy - fh)} Z" fill="#0c080c"/><path d="M 0 ${H} L ${W} ${H} L ${P(fx + fw, fy + fh)} L ${P(fx - fw, fy + fh)} Z" fill="#241a14"/>
+      ${Array.from({ length: 9 }, (_, i) => { const u = Math.pow(i / 9, 1.6); return `<path d="M ${P(fx - fw - (fx - fw) * (1 - u), fy - fh - (fy - fh) * (1 - u))} L ${P(fx - fw - (fx - fw) * (1 - u), fy + fh + (H - fy - fh) * (1 - u))}" stroke="#000" stroke-width="3" opacity="0.5"/><path d="M ${P(fx + fw + (W - fx - fw) * (1 - u), fy - fh - (fy - fh) * (1 - u))} L ${P(fx + fw + (W - fx - fw) * (1 - u), fy + fh + (H - fy - fh) * (1 - u))}" stroke="#000" stroke-width="3" opacity="0.5"/>`; }).join("")}
+      ${luz(fx, fy, fw * 3, "#8a2a1a", 0.35 + 0.08 * Math.sin(t * 2))}
+      <path d="M 0 ${H} L ${W} ${H} L ${P(fx + fw, fy + fh)} L ${P(fx - fw, fy + fh)} Z" fill="url(#texRel)" opacity="0.18"/><defs>${TEXTURA}</defs>
+      <ellipse cx="${n1(W / 2)}" cy="${n1(H * 0.92)}" rx="${n1(W * 0.3)}" ry="${n1(H * 0.04)}" fill="#5a4a3a" opacity="0.25" style="filter:blur(10px)"/>`;
+  },
+  // el mar de fuego de Fátima: cielo negro rojizo y olas de fuego que se mueven, con chispas
+  "relato-fuego": ({ t = 0, horizonte = 0.42 }) => {
+    const W = ANCHO, H = ALTO, y0 = H * horizonte;
+    const ola = (k, c, op) => { let d = `M -20 ${H}`; for (let x = -20; x <= W + 40; x += 40) d += ` L ${x} ${n1(y0 + k * (H - y0) * 0.22 + Math.sin(x * 0.012 + t * (1.2 + k * 0.4) + k) * 22 + Math.sin(x * 0.031 - t * 2.1) * 10)}`; return `<path d="${d} L ${W + 20} ${H} Z" fill="${c}" opacity="${op}"/>`; };
+    const r = azar(66), chispas = Array.from({ length: 40 }, (_, i) => { const u = (t * 0.25 + r()) % 1, x = r() * W; return `<circle cx="${n1(x + Math.sin(t + i) * 20)}" cy="${n1(H - u * H * 0.9)}" r="${n1(1.5 + r() * 2.5)}" fill="#ffd27a" opacity="${n1(0.9 * (1 - u))}"/>`; }).join("");
+    return cielo("rF", [[0, "#050102"], [0.6, "#2a0804"], [1, "#6a1a06"]]) + luz(W / 2, y0, W * 0.5, "#ff5a1a", 0.35)
+      + ola(0, "#8a1a06", 1) + ola(1, "#c8360c", 0.95) + ola(2, "#ef6a16", 0.9) + ola(3, "#ffa02a", 0.85) + chispas;
+  },
+  // la carretera de montaña de noche, que acaba en un precipicio a la derecha (para el letrero del cierre)
+  "relato-carretera": ({ suelo = ALTO * 0.7 }) => {
+    const W = ANCHO, H = ALTO;
+    return cielo("rCa", [[0, "#060a1e"], [1, "#1c2450"]]) + estrellas(Math.round(110 * area()), suelo * 0.8, 31)
+      + `<circle cx="${n1(W * 0.18)}" cy="${n1(H * 0.18)}" r="${n1(Math.min(W, H) * 0.05)}" fill="#efeadc"/>` + luz(W * 0.18, H * 0.18, Math.min(W, H) * 0.12, "#c8d0ff", 0.3)
+      + `<path d="M -20 ${n1(suelo - H * 0.18)} L ${n1(W * 0.2)} ${n1(suelo - H * 0.34)} L ${n1(W * 0.42)} ${n1(suelo - H * 0.16)} L ${n1(W * 0.62)} ${n1(suelo - H * 0.3)} L ${n1(W * 0.85)} ${n1(suelo - H * 0.12)} L ${W + 20} ${n1(suelo - H * 0.2)} L ${W + 20} ${H} L -20 ${H} Z" fill="#141a36"/>`
+      + `<path d="M -20 ${n1(suelo)} L ${n1(W * 0.7)} ${n1(suelo)} L ${n1(W * 0.74)} ${H} L -20 ${H} Z" fill="#1d1a24"/>`
+      + `<path d="M -20 ${n1(suelo + H * 0.12)} Q ${n1(W * 0.35)} ${n1(suelo + H * 0.06)} ${n1(W * 0.68)} ${n1(suelo + H * 0.03)}" stroke="#3a3644" stroke-width="${n1(H * 0.09)}" fill="none"/>`
+      + `<path d="M -20 ${n1(suelo + H * 0.12)} Q ${n1(W * 0.35)} ${n1(suelo + H * 0.06)} ${n1(W * 0.68)} ${n1(suelo + H * 0.03)}" stroke="#d9cf9a" stroke-width="4" stroke-dasharray="30 26" fill="none" opacity="0.7"/>`
+      + `<path d="M ${n1(W * 0.7)} ${n1(suelo)} L ${n1(W * 0.74)} ${H} L ${W + 20} ${H} L ${W + 20} ${n1(suelo + H * 0.02)} Z" fill="#05060e"/>`;
+  },
 };
-export const VIVOS_RELATO = new Set(["relato-sagrado", "relato-mar", "relato-casa"]);
+export const VIVOS_RELATO = new Set(["relato-sagrado", "relato-mar", "relato-casa", "relato-callejon", "relato-fuego"]);
 
 // ================================================================== PIEZAS
 // Cada una en coordenadas locales, centrada en (0, 0), unos 400 px de alto a escala 1 (salvo las grandes, que lo
@@ -200,6 +233,12 @@ const VESTUARIOS = {
   soldado: { tunica: ["#c23a32", "#6e1a16"], manga: "#a82e28", casco: true, cinto: "#4a2c18" },
   nino: { tunica: ["#b08456", "#6b4a2c"], manga: "#9c7248", pelo: "#4a2c16", nino: true },
   silueta: { silueta: true },
+  monja: { tunica: ["#8a5c36", "#43291a"], manga: "#76502f", velo: "#1e1716", toca: true, cinto: "#2a1a10" },
+  religiosa: { tunica: ["#4a4a56", "#16161c"], manga: "#3a3a44", velo: "#141418", toca: true, cinto: "#101014" },
+  nina: { tunica: ["#d0704e", "#7a3a26"], manga: "#bf6446", velo: "#e2d4b4", veloBorde: "#8a6a3e", nino: true },
+  angel: { tunica: ["#ffffff", "#d9e2ee"], manga: "#f2f5fa", pelo: "#e7c35c", alas: true, aureola: true, brilla: true },
+  virgen: { tunica: ["#ffffff", "#dfe8f3"], manga: "#f6f9fc", velo: "#f3f7fc", veloBorde: "#e8c25a", brilla: true },
+  jesus: { tunica: ["#fbf8f1", "#d6cebf"], manga: "#f1ece2", pelo: "#6a4428", largo: true, barba: "castaña", brilla: true, rayos: true },
 };
 const PIEL = ["#f6cfa8", "#d99a70"];
 
@@ -224,7 +263,7 @@ export const PIEZAS_RELATO = {
     const tam = o.tamano ?? 120, dec = o.decimales ?? 0;
     const num = o.texto ?? Number(o.valor ?? 0).toLocaleString("es", { minimumFractionDigits: dec, maximumFractionDigits: dec });
     const uni = o.unidad ? `<span style="font:700 ${tam * 0.42}px Poppins;margin-left:${tam * 0.14}px;opacity:.95">${esc(o.unidad)}</span>` : "";
-    return centrado(tam * 9, tam * 2.2, `<div style="display:inline-flex;align-items:baseline;padding:${tam * 0.1}px ${tam * 0.32}px;border-radius:${tam * 0.26}px;background:rgba(22,20,26,.62);border:2px solid rgba(255,255,255,.12);box-shadow:0 ${tam * 0.1}px ${tam * 0.4}px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.08);color:#fff;white-space:nowrap">
+    return centrado(Math.max(tam * 9, String(num).length * tam * 0.62 + (o.unidad ? o.unidad.length * tam * 0.3 : 0) + tam * 1.5), tam * 2.2, `<div style="display:inline-flex;align-items:baseline;padding:${tam * 0.1}px ${tam * 0.32}px;border-radius:${tam * 0.26}px;background:rgba(22,20,26,.62);border:2px solid rgba(255,255,255,.12);box-shadow:0 ${tam * 0.1}px ${tam * 0.4}px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.08);color:#fff;white-space:nowrap">
       <span style="font:800 ${tam}px/1.1 Poppins;letter-spacing:-1px">${esc(num)}</span>${uni}</div>`);
   },
   multitud(o) { // GRANDE: desde la fila del fondo (y 0) hasta la de delante (y = alto). ancho, alto, densidad, luces 0-1, brazos 0-1, banderas (n), semilla
@@ -326,6 +365,9 @@ export const PIEZAS_RELATO = {
       brazosDelante = tubo("M -58 -60 Q -96 40 -20 58 Q 40 66 70 20") + mano(72, 18) + tubo("M 58 -60 Q 92 -20 50 -40 Q 0 -60 -40 6") + mano(-40, 8);
     } else if (pose === "esconde") {
       brazosDelante = tubo("M -58 -60 Q -80 30 -10 40 L 40 34") + tubo("M 58 -60 Q 80 40 10 48 L -36 44") + mano(-30, 46);
+    } else if (pose === "bendice") {
+      brazosAtras = tubo("M 54 -62 L 120 -150") + mano(128, -160);
+      brazosDelante = tubo("M -54 -62 Q -74 0 -16 -34") + mano(-14, -36);
     } else if (pose === "reza") {
       brazosDelante = tubo("M -58 -60 Q -70 0 -10 -6") + tubo("M 58 -60 Q 70 0 10 -6") + `<ellipse cx="0" cy="-14" rx="16" ry="26" fill="${piel[0]}" stroke="${LN}" stroke-width="${lw}"/>`;
     } else {
@@ -350,11 +392,11 @@ export const PIEZAS_RELATO = {
     const boca = { serena: `M -10 ${cy + 26} q 10 6 20 0`, atenta: `M -9 ${cy + 26} h 18`, preocupada: `M -10 ${cy + 28} q 10 -6 20 0`, feliz: `M -14 ${cy + 22} q 14 14 28 0` }[cara];
     const bocaSVG = cara === "llora" ? `<ellipse cx="0" cy="${cy + 26}" rx="13" ry="10" fill="#5a1e1e"/>${[-1, 1].map((l) => { const u = (t * 0.9 + (l > 0 ? 0.5 : 0)) % 1; return `<ellipse cx="${l * 30}" cy="${n1(cy + 6 + u * 40)}" rx="5" ry="7" fill="#9fd4ff" opacity="${n1(1 - u)}"/>`; }).join("")}`
       : cara === "sorprendida" ? `<ellipse cx="0" cy="${cy + 26}" rx="9" ry="12" fill="#5a1e1e"/>` : `<path d="${boca}" stroke="${LN}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`;
-    const orejas = v.capucha || sil ? "" : `<circle cx="-44" cy="${cy}" r="11" fill="${piel[1]}" stroke="${LN}" stroke-width="3"/><circle cx="44" cy="${cy}" r="11" fill="${piel[1]}" stroke="${LN}" stroke-width="3"/>`;
+    const orejas = v.capucha || v.velo || sil ? "" : `<circle cx="-44" cy="${cy}" r="11" fill="${piel[1]}" stroke="${LN}" stroke-width="3"/><circle cx="44" cy="${cy}" r="11" fill="${piel[1]}" stroke="${LN}" stroke-width="3"/>`;
     const caraSVG = `${orejas}<ellipse cx="0" cy="${cy}" rx="44" ry="52" fill="url(#${id}p)" stroke="${LN}" stroke-width="${lw}"/>`
       + (sil ? "" : `<circle cx="-27" cy="${cy + 14}" r="10" fill="#e8806e" opacity="0.38"/><circle cx="27" cy="${cy + 14}" r="10" fill="#e8806e" opacity="0.38"/>${ojos}
         <path d="M 3 ${cy + 2} q -9 10 -2 15" stroke="${LN}" stroke-width="3" fill="none" stroke-linecap="round"/>${barba === "no" ? bocaSVG : ""}`);
-    const pelo = v.pelo && !v.capucha && !sil ? `<path d="M -46 ${cy + 4} Q -50 ${cy - 62} 0 ${cy - 60} Q 50 ${cy - 62} 46 ${cy + 4} Q 40 ${cy - 34} 0 ${cy - 38} Q -40 ${cy - 34} -46 ${cy + 4} Z" fill="${v.pelo}" stroke="${LN}" stroke-width="3"/>`
+    const pelo = v.pelo && !v.capucha && !v.velo && !sil ? `<path d="M -46 ${cy + 4} Q -50 ${cy - 62} 0 ${cy - 60} Q 50 ${cy - 62} 46 ${cy + 4} Q 40 ${cy - 34} 0 ${cy - 38} Q -40 ${cy - 34} -46 ${cy + 4} Z" fill="${v.pelo}" stroke="${LN}" stroke-width="3"/>`
       + (v.largo ? `<path d="M -46 ${cy - 10} Q -58 ${cy + 60} -50 ${cy + 120} L -34 ${cy + 120} Q -40 ${cy + 40} -36 ${cy - 20} Z M 46 ${cy - 10} Q 58 ${cy + 60} 50 ${cy + 120} L 34 ${cy + 120} Q 40 ${cy + 40} 36 ${cy - 20} Z" fill="${v.pelo}" stroke="${LN}" stroke-width="3"/>` : "") : "";
     const colorBarba = { oscura: "#3a2416", blanca: "#f2efe8", castaña: "#6a4428", gris: "#9a948c" }[barba] || "#3a2416";
     const barbaSVG = barba !== "no" && !sil ? `<path d="M -42 ${cy + 4} Q -44 ${cy + 70} 0 ${cy + 108} Q 44 ${cy + 70} 42 ${cy + 4} Q 30 ${cy + 20} 0 ${cy + 16} Q -30 ${cy + 20} -42 ${cy + 4} Z" fill="${colorBarba}" stroke="${LN}" stroke-width="3"/>` : "";
@@ -375,11 +417,17 @@ export const PIEZAS_RELATO = {
     const bebe = pose === "carga" ? `<g transform="translate(6 -10) rotate(-18)"><ellipse cx="0" cy="0" rx="66" ry="44" fill="#f6efe2" stroke="${LN}" stroke-width="${lw}"/>
       <circle cx="-26" cy="-10" r="30" fill="${PIEL[0]}" stroke="${LN}" stroke-width="3"/><path d="M -38 -12 q 5 5 10 0 M -22 -12 q 5 5 10 0" stroke="${LN}" stroke-width="2.5" fill="none"/>
       <circle cx="-42" cy="0" r="6" fill="#e8806e" opacity="0.5"/><circle cx="-12" cy="0" r="6" fill="#e8806e" opacity="0.5"/><path d="M -30 -40 q 6 -8 12 -2" stroke="${LN}" stroke-width="3" fill="none"/></g>${luz(0, -10, 80, "#fff3cf", 0.3)}` : "";
-    const aureola = o.aureola ? `<ellipse cx="0" cy="${cy - 10}" rx="80" ry="80" fill="none" stroke="#ffd36a" stroke-width="10" opacity="0.9"/>${luz(0, cy - 10, 96, "#ffd36a", 0.45)}` : "";
+    // el velo (monjas, pañuelo de la pastorcita, manto de la Virgen) y la toca blanca alrededor de la cara
+    const veloAtras = v.velo && !sil ? `<path d="M -72 -30 Q -90 ${cy - 92} 0 ${cy - 94} Q 90 ${cy - 92} 72 -30 L ${v.nino ? 58 : 84} ${v.nino ? -40 : 20} Q 0 ${v.nino ? -30 : 36} ${v.nino ? -58 : -84} ${v.nino ? -40 : 20} Z" fill="${v.velo}" stroke="${v.veloBorde || LN}" stroke-width="${v.veloBorde ? 6 : lw}"/>`
+      + (v.toca ? `<ellipse cx="0" cy="${cy + 6}" rx="55" ry="65" fill="#f7f4ee" stroke="${LN}" stroke-width="3"/>` : `<ellipse cx="0" cy="${cy + 2}" rx="50" ry="60" fill="${tono(v.velo, 0.75)}"/>`) : "";
+    const alas = v.alas ? [-1, 1].map((l) => `<path transform="scale(${l} 1)" d="M -36 -70 Q -200 -190 -226 -30 Q -196 40 -130 24 Q -160 -4 -104 -16 Q -132 -46 -40 -30 Z" fill="#fbf8f2" stroke="${LN}" stroke-width="${lw}"/><path transform="scale(${l} 1)" d="M -70 -60 Q -160 -130 -190 -40 M -80 -42 Q -150 -80 -170 -14" stroke="#d9d2c4" stroke-width="3" fill="none"/>`).join("") : "";
+    const halo = v.brilla ? luz(0, -40, 250, "#fff1c4", 0.5) + luz(0, -120, 130, "#ffffff", 0.45) : "";
+    const rayos = v.rayos ? `<path d="M -6 -30 L -120 330 L -10 330 Z" fill="#e8484a" opacity="0.55" style="filter:blur(4px)"/><path d="M 6 -30 L 10 330 L 130 330 Z" fill="#cfe6ff" opacity="0.6" style="filter:blur(4px)"/>` : "";
+    const aureola = o.aureola ?? v.aureola ? `<ellipse cx="0" cy="${cy - 10}" rx="80" ry="80" fill="none" stroke="#ffd36a" stroke-width="10" opacity="0.9"/>${luz(0, cy - 10, 96, "#ffd36a", 0.45)}` : "";
     const rim = sil ? `<path d="M -58 -74 Q -74 40 -104 196" stroke="#ffb86a" stroke-width="6" fill="none" opacity="0.7"/>` : "";
     const g = `<defs>${lin(id + "t", [[0, tun[0]], [1, tun[1]]], 0, 0, 1, 0.5)}${lin(id + "p", [[0, piel[0]], [1, piel[1]]], 0.2, 0, 0.9, 1)}${rad(id + "g", [[0, "#ffd88a", 0.9], [1, "#ffb04a", 0]])}${TEXTURA}</defs>
-      ${aureola}${o.corte ? "" : `<ellipse cx="0" cy="200" rx="120" ry="16" fill="#000" opacity="0.3" style="filter:blur(8px)"/>`}
-      ${brazosAtras}${capuchaAtras}${cuerpo}${brilloPecho}${extras.join("")}${capuchaCuello}${brazosDelante}${bebe}${caraSVG}${barbaSVG}${pelo}${gorro}${corona}${casco}${rim}`;
+      ${halo}${alas}${aureola}${o.corte ? "" : `<ellipse cx="0" cy="200" rx="120" ry="16" fill="#000" opacity="0.3" style="filter:blur(8px)"/>`}
+      ${brazosAtras}${capuchaAtras}${veloAtras}${cuerpo}${brilloPecho}${rayos}${extras.join("")}${capuchaCuello}${brazosDelante}${bebe}${caraSVG}${barbaSVG}${pelo}${gorro}${corona}${casco}${rim}`;
     return `<g transform="scale(${K}) translate(0 ${v.nino ? 78 : 0})">${g}</g>`;
   },
   bebe(o) { // primerísimo primer plano: cara (duerme|llora|sonrie), ≈ 600 de alto a escala 1
@@ -396,6 +444,56 @@ export const PIEZAS_RELATO = {
       <circle r="240" fill="url(#${id})"/><circle cx="-130" cy="60" r="58" fill="#f39a86" opacity="0.5"/><circle cx="130" cy="20" r="58" fill="#f39a86" opacity="0.5"/>
       <path d="M -60 -190 q 0 -40 40 -36 q 30 4 20 30" stroke="${LN}" stroke-width="14" fill="none" stroke-linecap="round"/>
       ${ojos}${boca}${lagrimas}`;
+  },
+  oveja(o) { // mira izquierda|derecha, t (respira)
+    const f = o.mira === "derecha" ? -1 : 1, LN = TINTA_R, r = 1 + 0.015 * Math.sin((o.t || 0) * 2);
+    const lana = [[-60, -10, 52], [0, -30, 58], [60, -10, 52], [-30, 30, 50], [40, 30, 50], [80, 20, 40], [-80, 20, 40]].map(([x, y, rr]) => `<circle cx="${x}" cy="${y}" r="${rr}" fill="#f4efe4" stroke="${LN}" stroke-width="4"/>`).join("");
+    return `<g transform="scale(${f * r} ${r})"><ellipse cx="0" cy="120" rx="130" ry="14" fill="#000" opacity="0.25" style="filter:blur(6px)"/>
+      ${[-60, -25, 30, 65].map((x) => `<rect x="${x - 9}" y="40" width="18" height="80" rx="8" fill="#3a2a22" stroke="${LN}" stroke-width="3"/>`).join("")}
+      ${lana}${[[-60, -10, 52], [0, -30, 58], [60, -10, 52]].map(([x, y, rr]) => `<circle cx="${x}" cy="${y}" r="${rr - 4}" fill="#f4efe4"/>`).join("")}<rect x="-90" y="-40" width="180" height="80" fill="#f4efe4"/>
+      <ellipse cx="-130" cy="-20" rx="34" ry="44" fill="#3a2a22" stroke="${LN}" stroke-width="4"/><ellipse cx="-160" cy="-34" rx="18" ry="9" fill="#3a2a22" stroke="${LN}" stroke-width="3" transform="rotate(-20 -160 -34)"/>
+      <circle cx="-138" cy="-28" r="5" fill="#fff"/><circle cx="-118" cy="-62" r="22" fill="#f4efe4" stroke="${LN}" stroke-width="3"/></g>`;
+  },
+  encina(o) { // el árbol de Fátima: tronco y copa redonda de manchas verdes, ≈ 520 de alto
+    const LN = TINTA_R, id = uid("en"), r = azar(o.semilla ?? 3);
+    const copa = Array.from({ length: 9 }, (_, i) => { const a = (i / 9) * Math.PI * 2, x = Math.cos(a) * 120, y = -250 + Math.sin(a) * 80; return `<circle cx="${n1(x)}" cy="${n1(y)}" r="${n1(90 + r() * 30)}" fill="url(#${id})" stroke="${LN}" stroke-width="4"/>`; }).join("");
+    return `<defs>${lin(id, [[0, "#6f9a4a"], [1, "#2e5a2a"]], 0, 0, 0.6, 1)}${TEXTURA}</defs><ellipse cx="0" cy="262" rx="190" ry="18" fill="#000" opacity="0.3" style="filter:blur(8px)"/>
+      <path d="M -36 260 Q -30 60 -60 -120 L 60 -120 Q 30 60 40 260 Z" fill="#6b4a30" stroke="${LN}" stroke-width="4"/>${copa}<circle cx="0" cy="-250" r="130" fill="url(#${id})"/><circle cx="0" cy="-250" r="190" fill="url(#texRel)" opacity="0.12"/>`;
+  },
+  alma(o) { // un alma «como brasa transparente»: forma humana que arde desde dentro. tono negra|bronceada, t
+    const t = o.t || 0, id = uid("al"), c = o.tono === "negra" ? ["#3a1206", "#120402"] : ["#c2501a", "#5a1a08"];
+    const llamas = Array.from({ length: 5 }, (_, i) => { const u = (t * 1.4 + i * 0.21) % 1, x = -30 + i * 15 + Math.sin(t * 5 + i) * 6;
+      return `<path d="M ${n1(x - 10)} ${n1(80 - u * 180)} q 10 -40 0 -60 q 18 30 10 60 z" fill="#ffb03a" opacity="${n1(0.8 * (1 - u))}"/>`; }).join("");
+    // cabeza y cuerpo, cada uno con su degradado (brasa: clara en el centro, oscura y transparente en el borde)
+    const cuerpo = "M -50 -78 Q 0 -98 50 -78 Q 72 40 40 150 L -40 150 Q -72 40 -50 -78 Z";
+    return `<defs>${rad(id, [[0, "#ffd27a", 0.95], [0.55, c[0], 0.8], [1, c[1], 0.4]], 0.5, 0.45, 0.62)}<clipPath id="${id}c"><path d="${cuerpo}"/></clipPath></defs>
+      ${luz(0, -20, 150, "#ff7a2a", 0.4)}<circle cx="0" cy="-118" r="40" fill="url(#${id})" style="filter:blur(1.5px)"/><path d="${cuerpo}" fill="url(#${id})" style="filter:blur(1.5px)"/><g clip-path="url(#${id}c)">${llamas}</g>`;
+  },
+  letrero(o) { // el letrero de peligro en su poste: texto («PELIGRO|PRECIPICIO»), brillo 0-1 (le dan los faros)
+    const LN = TINTA_R, lineas = String(o.texto ?? "PELIGRO|PRECIPICIO").split("|"), br = lim(o.brillo ?? 0.6);
+    return `<rect x="-14" y="0" width="28" height="300" fill="#6b5a4a" stroke="${LN}" stroke-width="4"/>${luz(0, -120, 260, "#fff3b0", 0.35 * br)}
+      <rect x="-230" y="-260" width="460" height="260" rx="22" fill="#f2c230" stroke="${LN}" stroke-width="8"/><rect x="-212" y="-242" width="424" height="224" rx="14" fill="none" stroke="#1a1208" stroke-width="6"/>
+      ${lineas.map((l, i) => `<text x="0" y="${-260 + 260 / 2 + (i - (lineas.length - 1) / 2) * 76 + 26}" text-anchor="middle" font-family="Anton" font-size="72" fill="#1a1208" letter-spacing="3">${esc(l)}</text>`).join("")}`;
+  },
+  convento(o) { // un convento pequeño: muros blancos, tejado rojo y campanario con cruz (≈ 360 de alto)
+    const LN = TINTA_R;
+    return `<defs>${TEXTURA}</defs><ellipse cx="0" cy="182" rx="230" ry="16" fill="#000" opacity="0.25" style="filter:blur(6px)"/>
+      <rect x="-200" y="20" width="300" height="160" fill="#f1e8d8" stroke="${LN}" stroke-width="4"/><path d="M -214 24 L -50 -60 L 114 24 Z" fill="#c4553a" stroke="${LN}" stroke-width="4"/>
+      <rect x="100" y="-90" width="100" height="270" fill="#ece2cf" stroke="${LN}" stroke-width="4"/><path d="M 92 -86 L 150 -150 L 208 -86 Z" fill="#c4553a" stroke="${LN}" stroke-width="4"/>
+      <path d="M 150 -150 v -46 M 134 -180 h 32" stroke="${LN}" stroke-width="7" stroke-linecap="round"/><path d="M 130 -40 v -20 a 20 20 0 0 1 40 0 v 20 z" fill="#3a2a1c"/>
+      <path d="M -80 180 v -70 a 30 30 0 0 1 60 0 v 70 z" fill="#5a3a22" stroke="${LN}" stroke-width="4"/>${[-170, 30].map((x) => `<rect x="${x}" y="60" width="34" height="44" fill="#3a2a1c" stroke="${LN}" stroke-width="3"/>`).join("")}
+      <rect x="-200" y="20" width="400" height="160" fill="url(#texRel)" opacity="0.1"/>`;
+  },
+  suscribir(o) { // el llamado a suscribirse: canal, pulsa 0-1 (se anima: el cursor llega y pulsa), campana
+    const canal = o.canal ?? "@canal", p = lim(o.pulsa ?? 0), hecho = p >= 0.75, ini = canal.replace(/^@/, "").split(/(?=[A-Z])/).map((w) => w[0]).join("").slice(0, 3).toUpperCase();
+    const cx = 230 + (1 - suave(p / 0.7)) * 220, cy = 40 + (1 - suave(p / 0.7)) * 140, sc = p > 0.68 && p < 0.8 ? 0.85 : 1, camp = hecho ? Math.sin(((o.t || 0) * 14)) * 18 * Math.max(0, 1 - (p - 0.75) * 3) : 0;
+    return `${centrado(1100, 260, `<div style="display:flex;align-items:center;gap:26px;padding:26px 34px;border-radius:30px;background:rgba(18,16,22,.78);box-shadow:0 18px 50px rgba(0,0,0,.45);border:2px solid rgba(255,255,255,.1)">
+      <div style="width:110px;height:110px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff1c4,#e3a640 60%,#8a5a1a);display:flex;align-items:center;justify-content:center;font:800 40px Poppins;color:#3a2410;border:4px solid #fff3d6">${esc(ini)}</div>
+      <div style="display:flex;flex-direction:column;gap:6px"><div style="font:800 46px Poppins;color:#fff">${esc(canal)}</div><div style="font:700 26px Poppins;color:#c9c3d6;white-space:nowrap">${esc(o.lema ?? "Historias de fe, contadas con calma")}</div></div>
+      <div style="margin-left:18px;padding:18px 34px;border-radius:40px;font:800 34px Poppins;letter-spacing:1px;${hecho ? "background:#3a3a44;color:#e9e6f0" : "background:#e0262b;color:#fff;box-shadow:0 0 30px rgba(224,38,43,.55)"}">${hecho ? "✓ SUSCRITO" : "SUSCRIBIRSE"}</div>
+      <div style="font-size:52px;transform:rotate(${n1(camp)}deg);transform-origin:50% 10%;opacity:${hecho ? 1 : 0.35}">🔔</div></div>`)}
+      <g transform="translate(${n1(cx)} ${n1(cy)}) scale(${sc})"><path d="M 0 0 L 0 56 L 14 44 L 26 70 L 36 65 L 24 40 L 42 40 Z" fill="#fff" stroke="#111" stroke-width="4" stroke-linejoin="round"/></g>
+      ${p > 0.68 && p < 0.9 ? `<circle cx="${n1(cx)}" cy="${n1(cy)}" r="${n1(20 + (p - 0.68) * 300)}" fill="none" stroke="#fff" stroke-width="4" opacity="${n1(1 - (p - 0.68) * 4.5)}"/>` : ""}`;
   },
   avion(o) { // colores [cola], rumbo izquierda|derecha, estela
     const cols = o.colores || ["#2b5fb4", "#ffffff", "#d23c3c"], id = uid("av"), f = o.rumbo === "derecha" ? -1 : 1;
@@ -495,8 +593,10 @@ export const PARAMETROS_RELATO = {
   globo: "texto, tamano, halo (color), cola izq|der|ninguna, fuerza", globos: "textos [..], progreso 0-1 (se anima), ancho, alto, tamano, desde [x, y], halo",
   dato: "valor (se anima), unidad, decimales, texto, tamano", multitud: "GRANDE (y 0 = fila del fondo): ancho, alto, filas, densidad, luces 0-1, brazos 0-1, banderas",
   fachada: "GRANDE (y 0 = base): ancho, alto, cupula, columnas, luz 0-1, emblema llaves|cruz|ninguno, figura (vestuario), brazos 0-1",
-  balcon: "luz 0-1, emblema, figura (vestuario), brazos 0-1 (≈ 1040 × 1200)", figura: "vestuario monje|papa|reina|rey|campesino|mujer|soldado|nino|silueta, cara serena|atenta|preocupada|llora|feliz|sorprendida, pose quieta|senala|reza|carga (con bebé)|abraza|esconde (brazos cruzados), brazos 0-1, barba no|oscura|blanca|castaña|gris, color (túnica), pelo, capucha (false: sin ella), corona, brillo 0-1 (luz cálida en el pecho), aureola, corte",
+  balcon: "luz 0-1, emblema, figura (vestuario), brazos 0-1 (≈ 1040 × 1200)", figura: "vestuario monje|monja|religiosa|nina|papa|reina|rey|campesino|mujer|soldado|nino|angel|virgen|jesus|silueta, cara serena|atenta|preocupada|llora|feliz|sorprendida, pose quieta|senala|reza|carga (con bebé)|abraza|esconde (brazos cruzados)|bendice, brazos 0-1, barba no|oscura|blanca|castaña|gris, color (túnica), pelo, capucha (false: sin ella), corona, brillo 0-1 (luz cálida en el pecho), aureola, corte",
   bebe: "cara duerme|llora|sonrie (primerísimo primer plano, ≈ 600 de alto)",
+  oveja: "mira izquierda|derecha", encina: "semilla (≈ 520 de alto, apoyada en y 260)", alma: "tono negra|bronceada (arde desde dentro)",
+  letrero: "texto (líneas con |), brillo 0-1", convento: "(≈ 360 de alto)", suscribir: "canal, pulsa 0-1 (se anima: el cursor llega y pulsa; la campana suena)",
   avion: "colores [..], rumbo izquierda|derecha, estela", vela: "alto, brillo 0-1", resplandor: "radio, rayos, color, velocidad",
   documento: "titulo, lineas [..], progreso 0-1 (se anima), trazo cruz|ninguno, pie, ancho, alto", mapa: "puntos [[x, y]..] (-1 a 1), progreso 0-1 (se anima), rutas, etiqueta, ancho, alto, semilla",
   senalar: "manga (color); la punta del dedo en (0, 0), usar rot para orientarla", cruz: "material madera|oro, brillo 0-1", aureola: "radio",

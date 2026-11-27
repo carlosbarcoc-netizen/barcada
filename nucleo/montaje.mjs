@@ -145,7 +145,14 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   const esc = borrador ? `,scale=${ANCHO / 2}:${ALTO / 2}` : "";
   // el 2D ya trae su color, su viñeta y su grano: solo se le ponen los textos
   const acabado = es2d ? "null" : `${est.color},vignette=PI/5,noise=alls=${borrador ? 0 : 5}:allf=t`;
-  const video = `[0:v]${acabado},subtitles=filename='${ass.replace(/'/g, "\\'")}':fontsdir='${FUENTES}'${esc}[v]`;
+  // la marca de agua (proyecto.json → marcaAgua: { texto, opacidad, tamano }): suave, en el centro, todo el video
+  let marca = "";
+  if (p.marcaAgua?.texto) {
+    const ma = p.marcaAgua, op = ma.opacidad ?? 0.14, tf = join(tmp, "marca.txt");
+    writeFileSync(tf, ma.texto);
+    marca = `,drawtext=fontfile='${join(FUENTES, "Poppins-Bold.ttf")}':textfile='${tf}':fontcolor=white@${op}:fontsize=${Math.round(ma.tamano ?? Math.min(ANCHO, ALTO) * 0.06)}:x=(w-tw)/2:y=(h-th)/2:shadowcolor=black@${(op * 0.5).toFixed(3)}:shadowx=2:shadowy=2`;
+  }
+  const video = `[0:v]${acabado},subtitles=filename='${ass.replace(/'/g, "\\'")}':fontsdir='${FUENTES}'${marca}${esc}[v]`;
   const out = salida || join(dir, "revisar", `${borrador ? "borrador" : "final"}.mp4`);
   asegurar(join(out, ".."));
   await ffmpeg([...entradas, "-filter_complex", `${video};${audio}`, "-map", "[v]", "-map", "[a]", "-t", fin.toFixed(2),
