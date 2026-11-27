@@ -6,3 +6,5 @@ proyectos/*/revisar/
 dist/
 muestrario/
 sonidos/juego/
+proyectos/*/voz/parte-*.mp3
+proyectos/*/voz/partes.txt
