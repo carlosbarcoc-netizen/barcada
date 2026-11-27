@@ -24,6 +24,7 @@ export async function contextoRelato(p, tiempos, opciones) {
 
 // «desde» de una toma: 0 / un número de frase (2) / "frase:palabra" ("2:fermenta") / "palabra" (la primera en la voz).
 export function cuando(tiempos, desde) {
+  if (desde === "fin") return tiempos.duracion;                      // la pantalla final: cuando acaba la voz
   if (desde === undefined || desde === null || desde === 0 || desde === "0") return 0;
   if (typeof desde === "number") return tiempos.frases[desde - 1].inicio;
   const [a, b] = String(desde).includes(":") ? String(desde).split(":") : [null, String(desde)];
@@ -39,7 +40,9 @@ export function cuando(tiempos, desde) {
 export function lineaDeTiempo(p, tiempos) {
   const tomas = p.escenas.flatMap((e, ie) => e.tomas.map((t) => ({ ...t, escena: ie + 1 })));
   tomas.forEach((t, i) => { t.n = i + 1; t.inicio = i === 0 ? 0 : cuando(tiempos, t.desde) - 0.06; });
-  tomas.forEach((t, i) => { t.fin = i < tomas.length - 1 ? tomas[i + 1].inicio : tiempos.duracion; });
+  // proyecto.json → pantallaFinal: segundos de más al final (la pantalla final de YouTube), sin voz
+  const total = tiempos.duracion + (p.pantallaFinal || 0);
+  tomas.forEach((t, i) => { t.fin = i < tomas.length - 1 ? tomas[i + 1].inicio : total; });
   for (const t of tomas) if (t.fin - t.inicio < 0.8) console.log(`⚠ La toma ${t.n} dura solo ${(t.fin - t.inicio).toFixed(2)} s: mejor juntarla con otra o darle más voz.`);
   return tomas;
 }
@@ -76,7 +79,8 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   const FPSv = fps || (borrador ? 24 : 30);
   const imgs = await hacerImagenes(dir);
   const tomas = lineaDeTiempo(p, tiempos).filter((t) => hasta === null || t.inicio < hasta);
-  const fin = hasta === null ? tiempos.duracion : Math.min(hasta, tiempos.duracion);
+  const total = tiempos.duracion + (p.pantallaFinal || 0);
+  const fin = hasta === null ? total : Math.min(hasta, total);
   tomas.at(-1).fin = Math.min(tomas.at(-1).fin, fin);
   const tmp = asegurar(join(dir, ".montaje"));
   const juego = await contextoJuego(p, tiempos, lineaDeTiempo(p, tiempos)), relato = await contextoRelato(p, tiempos);
@@ -138,7 +142,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
     voz = "[vz]"; n++;
   }
   const ss = mezcla.map((_, i) => `[s${i + 2}]`).join("");
-  const audio = `${mezcla.join(";")}${mezcla.length ? ";" : ""}${mus}${voz}${ss}${mus ? "[mus]" : ""}amix=inputs=${1 + mezcla.length + (mus ? 1 : 0)}:normalize=0:duration=first,alimiter=limit=0.95[a]`;
+  const audio = `${mezcla.join(";")}${mezcla.length ? ";" : ""}${mus}${voz}${ss}${mus ? "[mus]" : ""}amix=inputs=${1 + mezcla.length + (mus ? 1 : 0)}:normalize=0:duration=first,alimiter=limit=0.95${p.pantallaFinal ? ",apad" : ""}[a]`;
 
   // 4. el color del estilo, viñeta, grano, textos y salida
   const est = ESTILOS[p.estilo] || ESTILOS.documental, es2d = p.estilo === "2d";

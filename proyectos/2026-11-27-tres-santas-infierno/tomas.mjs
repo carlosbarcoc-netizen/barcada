@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 const DIR = dirname(fileURLToPath(import.meta.url));
 const p = JSON.parse(readFileSync(join(DIR, "proyecto.json"), "utf8"));
 const T = JSON.parse(readFileSync(join(DIR, "voz", "tiempos.json"), "utf8"));
-const ini = (n) => T.frases[n - 1].inicio;
+const ini = (n) => (n === "fin" ? T.duracion : T.frases[n - 1].inicio);
 
 // ---------------------------------------------------------------- piezas y cámaras
 const TERESA = "monja", JACINTA = "nina", FRANCISCO = "nino", FAUSTINA = "religiosa";
@@ -202,12 +202,15 @@ const tomas = [
   { f: 154, fondo: "relato-puerta", fondoOpts: { abierta: 1 }, cam: "acerca", els: [] },
   { f: 155, fondo: "relato-noche", cam: "acerca", els: tres({ cara: "feliz" }) },
   cta(156, "156:suscríbete", "156:siempre"),
+  // la pantalla final (15 s sin voz): la tarjeta arriba y abajo espacio libre para los elementos de fin de YouTube
+  { f: "fin", fondo: "relato-sagrado", cam: "quieto", els: [pz("suscribir", { canal: "@tiempoparaDios", escala: 0.9, y: 190, entra: "aparece", pulsa: 1 }), globo("Gracias por acompañarnos", { y: 330, tamano: 40, en: 0.6, halo: "#fff1c4" })] },
 ];
+p.pantallaFinal = 15;
 
 // ---------------------------------------------------------------- a proyecto.json
 const escenas = [{ nombre: "video", tomas: [] }];
 tomas.forEach((t, i) => {
-  const fin = i < tomas.length - 1 ? ini(tomas[i + 1].f) : T.duracion, d = Math.max(1, fin - ini(t.f));
+  const fin = i < tomas.length - 1 ? ini(tomas[i + 1].f) : T.duracion + (p.pantallaFinal || 0), d = Math.max(1, fin - ini(t.f));
   const dibujo = { fondo: t.fondo, camara: cam(t.cam || "acerca", d), elementos: t.els.map((e) => ({ ...e })) };
   if (t.fondoOpts) dibujo.fondoOpts = t.fondoOpts;
   if (t.fondoVivo) dibujo.fondoVivo = true;

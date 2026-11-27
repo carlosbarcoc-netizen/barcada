@@ -8161,6 +8161,45 @@
               }
             ]
           }
+        },
+        {
+          "desde": "fin",
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "suscribir",
+                "x": 960,
+                "y": 190,
+                "entra": "aparece",
+                "dura": 0.8,
+                "canal": "@tiempoparaDios",
+                "escala": 0.9,
+                "pulsa": 1
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 330,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Gracias por acompañarnos",
+                "tamano": 40,
+                "en": 0.6,
+                "halo": "#fff1c4"
+              }
+            ]
+          }
         }
       ]
     }
@@ -8207,5 +8246,6 @@
     "estabilidad": 0.5,
     "estilo": 0.25,
     "velocidad": 1.1
-  }
+  },
+  "pantallaFinal": 15
 }
