@@ -18,7 +18,7 @@ video gasta poco (tiempo, créditos de voz y uso de tu plan de IA).
 - Si pide un video, un guion o ideas: sigue `METODO.md` paso a paso, en modo juego (`guias/juego.md`) salvo que pida
   otro estilo. Antes lee `aprendido.md`.
 - **Si el video es para YouTube (16:9, videos largos):** el estilo es **«relato»**, ilustración narrativa con luz de
-  cine (`guias/relato.md`, referencias en `estilos/relato/`), con `--estilo 2d --formato 16:9`.
+  cine (`guias/relato.md`, referencias en `estilos/relato/`): `node barcada.mjs nuevo "…" --estilo relato`.
 - Si dice «sigue el proyecto …»: lee `proyectos/<…>/SEGUIR.md` y continúa desde el paso pendiente.
 - Si dice «menú», «ayuda» o saluda sin pedir nada: enséñale el **Menú**.
 

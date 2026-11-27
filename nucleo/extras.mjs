@@ -24,8 +24,11 @@ export async function revisar() {
 }
 
 // ---------------------------------------------------------------- nuevo proyecto
-export function nuevo(idea, { estilo = "documental", nombre, piel = null, formato = "9:16" } = {}) {
-  formato = usarFormato(formato);
+export function nuevo(idea, { estilo = "documental", nombre, piel = null, formato = null } = {}) {
+  // el relato (YouTube): 2D con el look relato y, salvo que se pida otro, en 16:9
+  const look = estilo === "relato" ? "relato" : null;
+  if (look) estilo = "2d";
+  formato = usarFormato(formato || (look ? "16:9" : "9:16"));
   if (piel && formato === "16:9") throw new Error("El modo juego por ahora es solo vertical. Para 16:9: --formato 16:9 --estilo 2d");
   const hoy = new Date().toISOString().slice(0, 10);
   const slug = nombre || sinTildes(idea.split(/\s+/).slice(0, 5).join("-").replace(/\s+/g, "-")).slice(0, 40) || "video";
@@ -40,10 +43,9 @@ export function nuevo(idea, { estilo = "documental", nombre, piel = null, format
     juego: { piel, progreso: { titulo: "", etiqueta: "", pasos: [{ texto: "", en: "" }] }, ...(piel === "arcade" ? { tiempo: true } : {}) },
     escenas: [{ nombre: "partida", tomas: [{ desde: 0, titulo: "", dibujo: { elementos: [] } }] }],
   } : {
-    titulo: idea, estilo, formato, calidad: "normal",
-    sujeto: "",
+    titulo: idea, estilo, formato, ...(look ? { look } : { calidad: "normal", sujeto: "" }),
     frases: [{ texto: "", clave: "" }],
-    escenas: [{ nombre: "gancho", tomas: [{ desde: 0, imagen: "", movimiento: "acercar", rotulo: "" }] }],
+    escenas: [{ nombre: "gancho", tomas: [look ? { desde: 0, dibujo: { fondo: "relato-noche", elementos: [] } } : { desde: 0, imagen: "", movimiento: "acercar", rotulo: "" }] }],
   });
   writeFileSync(join(dir, "SEGUIR.md"), `# ${idea}\n\nEstado del proyecto (se actualiza en cada paso).\n\n- [ ] 1. Investigación → notas.md\n- [ ] 2. Guion aprobado\n- [ ] 3. Voz\n- [ ] 4. Tomas aprobadas (revisar/tomas.jpg)\n- [ ] 5. Borrador aprobado\n- [ ] 6. Final, portada y descripciones entregados\n\nPara seguir en otra conversación: «sigue el proyecto ${hoy}-${slug}».\n`);
   writeFileSync(join(dir, "notas.md"), `# ${idea}\n\n## Datos (cada uno con su fuente)\n\n- \n`);
@@ -90,11 +92,11 @@ export async function portada(dir, titulo, { toma = 1, acento, etiqueta } = {}) 
   // una toma 2D: su cuadro, casi al final de la toma (con todo ya en escena)
   if (!imgs[toma - 1]) {
     const tiempos = leerJSON(join(dir, "voz", "tiempos.json")), t = lineaDeTiempo(p, tiempos)[toma - 1];
-    const { crearCuadro } = await import("./2d/escena.mjs"), { foto, cerrarNavegador } = await import("./2d/dibujante.mjs"), { cuando, contextoJuego } = await import("./montaje.mjs");
+    const { crearCuadro } = await import("./2d/escena.mjs"), { foto, cerrarNavegador } = await import("./2d/dibujante.mjs"), { cuando, contextoJuego, contextoRelato } = await import("./montaje.mjs");
     imgs[toma - 1] = join(asegurar(join(dir, ".montaje")), "portada-cuadro.jpg");
     const juego = await contextoJuego(p, tiempos, lineaDeTiempo(p, tiempos));
     if (juego) { juego.subtitulos = false; juego.titulos = juego.titulos.map(() => null); }   // la portada lleva su propio título
-    const cu = crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref), juego);
+    const cu = crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref), juego, await contextoRelato(p, tiempos, { subtitulos: false }));
     await foto({ preparar: cu.preparar, cuadro: () => cu(t.fin - 0.25) }, imgs[toma - 1]);
     await cerrarNavegador();
   }

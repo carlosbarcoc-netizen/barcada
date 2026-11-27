@@ -6,8 +6,8 @@ Seis pasos. El usuario decide en tres (✋). Marca cada paso en el `SEGUIR.md` d
 
 1. `node barcada.mjs nuevo "<la idea>" --piel <neon|voxel|arcade>` (modo juego, Barcada 2.0: lo normal; elige la
    piel por el tema según `guias/juego.md`, o la de `preferencias.json` → `piel` si no es `"auto"`). Solo si el usuario
-   pide el 2D clásico o el realista: `--estilo 2d` o `--estilo documental`. Para YouTube en horizontal: `--estilo 2d --formato 16:9`
-   (1920 × 1080; ver «En horizontal» en `guias/2d.md`).
+   pide el 2D clásico o el realista: `--estilo 2d` o `--estilo documental`. Para YouTube: `--estilo relato` (16:9,
+   `guias/relato.md`); el 2D clásico en horizontal: `--estilo 2d --formato 16:9` («En horizontal» en `guias/2d.md`).
 2. Investiga en la web hasta la fuente original. En `notas.md`, cada dato con su enlace, y debajo:
    - **Lo que sorprende** (lo que contradice lo que la gente cree).
    - **El proceso o la causa, paso a paso** (es lo que se va a ver).

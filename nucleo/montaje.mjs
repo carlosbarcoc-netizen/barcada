@@ -16,6 +16,12 @@ export async function contextoJuego(p, tiempos, tomas) {
   return prepararJuego({ ...p, juego: J }, tiempos, tomas, (ref) => cuando(tiempos, ref), pref);
 }
 
+// El estilo relato de un proyecto («look»: «relato»), si lo tiene: su acabado y sus subtítulos dentro del cuadro.
+export async function contextoRelato(p, tiempos, opciones) {
+  if (p.look !== "relato") return null;
+  return (await import("./2d/relato.mjs")).prepararRelato(p, tiempos, opciones);
+}
+
 // «desde» de una toma: 0 / un número de frase (2) / "frase:palabra" ("2:fermenta") / "palabra" (la primera en la voz).
 export function cuando(tiempos, desde) {
   if (desde === undefined || desde === null || desde === 0 || desde === "0") return 0;
@@ -73,7 +79,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   const fin = hasta === null ? tiempos.duracion : Math.min(hasta, tiempos.duracion);
   tomas.at(-1).fin = Math.min(tomas.at(-1).fin, fin);
   const tmp = asegurar(join(dir, ".montaje"));
-  const juego = await contextoJuego(p, tiempos, lineaDeTiempo(p, tiempos));
+  const juego = await contextoJuego(p, tiempos, lineaDeTiempo(p, tiempos)), relato = await contextoRelato(p, tiempos);
   if (juego) (await import("./sintetizador.mjs")).asegurarEfectos(join(RAIZ, "sonidos", "juego"));
 
   // 1. un clip por toma (las 2D, de dos en dos: cada una ocupa un navegador)
@@ -84,7 +90,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
     if (t.dibujo) {
       // una toma 2D: se dibuja cuadro a cuadro (borrador a media resolución)
       const { crearCuadro } = await import("./2d/escena.mjs"), { grabar } = await import("./2d/dibujante.mjs");
-      await grabar(crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref), juego), t.inicio, t.inicio + frames / FPSv, FPSv, join(tmp, `clip-${t.n}.mp4`), { escala: borrador ? 0.5 : 1, crf: borrador ? 26 : 16 });
+      await grabar(crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref), juego, relato), t.inicio, t.inicio + frames / FPSv, FPSv, join(tmp, `clip-${t.n}.mp4`), { escala: borrador ? 0.5 : 1, crf: borrador ? 26 : 16 });
     } else if (/\.(mp4|mov|webm)$/i.test(src)) {
       // un clip de video: se encuadra al formato del proyecto, se repite si es corto y, si se pide, va más lento (lenta: 0,5 = mitad)
       const lento = t.lenta ? `setpts=PTS/${t.lenta},` : "";
@@ -101,7 +107,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   // 2. subtítulos y rótulos
   const ass = join(tmp, "textos.ass");
   // (en el modo juego, los subtítulos y los títulos ya van dibujados dentro de cada cuadro)
-  escribirASS(ass, tiempos, juego ? [] : tomas, { acento: pref.acento || p.acento || "#FFD23F", subtitulos: !juego && p.subtitulos !== false });
+  escribirASS(ass, tiempos, juego ? [] : tomas, { acento: pref.acento || p.acento || "#FFD23F", subtitulos: !juego && !relato && p.subtitulos !== false });
 
   // 3. el sonido: voz + efectos (un «whoosh» en cada corte, un «pop» en cada rótulo, los de cada toma) + música
   const entradas = ["-i", join(tmp, "mudo.mp4"), "-i", join(dir, "voz", "voz.mp3")], mezcla = [];
@@ -154,13 +160,13 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
 export async function hojaDeTomas(dir) {
   const p = leerJSON(join(dir, "proyecto.json")), tiempos = leerJSON(join(dir, "voz", "tiempos.json"));
   formatoDe(p);
-  const imgs = await hacerImagenes(dir), tomas = lineaDeTiempo(p, tiempos), juego = await contextoJuego(p, tiempos, tomas);
+  const imgs = await hacerImagenes(dir), tomas = lineaDeTiempo(p, tiempos), juego = await contextoJuego(p, tiempos, tomas), relato = await contextoRelato(p, tiempos);
   const tmp = asegurar(join(dir, ".montaje")), cols = Math.min(horizontal() ? 4 : 5, tomas.length), filas = Math.ceil(tomas.length / cols);
   // las tomas 2D: su cuadro del medio, como imagen
   for (const t of tomas.filter((x) => x.dibujo)) {
     const { crearCuadro } = await import("./2d/escena.mjs"), { foto } = await import("./2d/dibujante.mjs");
     const f = join(tmp, `cuadro-${t.n}.jpg`);
-    const cu = crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref), juego);
+    const cu = crearCuadro(t.dibujo, t, (ref) => cuando(tiempos, ref), juego, relato);
     await foto({ preparar: cu.preparar, cuadro: () => cu(t.inicio + (t.fin - t.inicio) * 0.7) }, f, 0.5);
     imgs[t.n - 1] = f;
   }

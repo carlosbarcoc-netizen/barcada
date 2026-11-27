@@ -93,7 +93,67 @@ cifra o la burbuja principal a un tercio, la multitud ocupando todo el ancho de 
   histórico, no una marca).
 - Fondos planos sin luz ni profundidad; escenas quietas; textos grandes que tapen la escena.
 
-> **Estado en el motor:** el formato 16:9 ya funciona. Las piezas y los fondos de este estilo (sin contorno, con
-> bloom, burbujas de pergamino, etiqueta de cifra de vidrio, multitud, arquitectura, personajes con vestuario,
-> mapas) se construyen en la fase de la **biblioteca visual**; hasta entonces, se usa el 2D con lo que hay y se
-> apunta en `aprendido.md` lo que falte.
+## Cómo se hace en Barcada
+
+`node barcada.mjs nuevo "<idea>" --estilo relato` crea el proyecto con `"estilo": "2d"`, `"look": "relato"` y
+`"formato": "16:9"` (para un Short: `--formato 9:16`). Las tomas se escriben como en el 2D (`guias/2d.md`: `desde`,
+`dibujo`, `elementos`, `entra`, `en`, `mueve`, `params`, `camara`), con los fondos y las piezas de abajo. Con el look
+relato, el acabado (viñeta y grano fino, sin tinta) y los subtítulos (dentro del cuadro: la palabra que suena en
+blanco, la clave de cada frase en la caja azul) salen solos. Para ver todo: `node barcada.mjs muestrario relato`.
+
+### Fondos
+
+| Fondo | Para | Suelo por defecto |
+|---|---|---|
+| `relato-noche` | plazas, fachadas, multitudes, misterio | 68 % del alto |
+| `relato-atardecer` | viajes, cambios, esperanza (nubes rosadas abajo) | — |
+| `relato-piedra` | primeros planos de balcones y palacios | — |
+| `relato-monasterio` | monjes, conventos, noches de antorchas | 80 % |
+| `relato-madera` | documentos, cartas, objetos sobre la mesa | — |
+| `relato-sagrado` | reliquias, revelaciones (luz dorada y rayos que giran) | — |
+| `relato-rojo` | acusación, peligro, conflicto | — |
+| `relato-pergamino` | mapas y documentos a pantalla completa | — |
+| `relato-campo` | pueblos, monasterios en el monte, caminos | 72 % |
+| `relato-mar` | barcos, travesías (sol bajo y olas que se mueven) | 62 % |
+
+`fondoOpts.suelo` cambia la altura del suelo (en 16:9, la plaza de `relato-noche` queda bien hacia y 700).
+
+### Piezas
+
+| Pieza | Qué es | Parámetros |
+|---|---|---|
+| `globo` | la burbuja de pergamino con halo | `texto`, `tamano` (letra, 46), `halo` (color; rojo `#ff7a5a` si la frase pesa), `cola` izq/der/ninguna |
+| `globos` | muchas voces: burbujas que salen de un punto | `textos` [..] (por defecto saludos en 20 idiomas), `progreso` 0-1 (se anima: cuántas han salido), `ancho`, `alto`, `desde` [x, y] |
+| `dato` | la cifra en vidrio oscuro | `valor` (se anima: el número corre), `unidad`, `decimales`, `texto` (en vez del número: «1978», «siglo IV»), `tamano` (120) |
+| `multitud` | cientos de siluetas con luces de celular y banderas | **grande**: y 0 es la fila del fondo y crece hacia abajo hasta `alto`; `ancho`, `alto`, `luces` 0-1, `brazos` 0-1, `banderas` (n), `densidad` |
+| `fachada` | edificio clásico con columnas, cúpula y balcón encendido | **grande**: y 0 es la base; `ancho` (1500), `alto` (520), `cupula`, `columnas`, `luz` 0-1, `emblema` llaves/cruz/ninguno, `figura` (vestuario en el balcón), `brazos` |
+| `balcon` | primer plano del balcón con tapiz rojo | `figura` (vestuario), `brazos` 0-1 (se anima), `luz`, `emblema`; ≈ 1040 × 1200 a escala 1 |
+| `figura` | el personaje | `vestuario` monje/papa/reina/rey/campesino/mujer/soldado/nino/silueta, `brazos` 0-1, `pose` quieta/senala/reza/carga (con bebé), `barba` no/oscura/blanca/castaña, `ojos` cerrados/abiertos, `aureola` |
+| `avion` | avión sin marcas | `colores` [..] (franjas y cola), `rumbo` izquierda/derecha, `estela` |
+| `vela` | vela con llama que tiembla y su luz | `alto`, `brillo` |
+| `resplandor` | rayos de luz que giran (detrás de lo sagrado) | `radio`, `rayos`, `color`, `velocidad` |
+| `documento` | hoja antigua que se escribe sola | `titulo`, `lineas` [..], `progreso` 0-1 (se anima), `trazo` cruz/ninguno (se dibuja después del texto), `pie` |
+| `mapa` | pergamino con mares y puntos que se encienden | `puntos` [[x, y]..] de -1 a 1, `progreso` 0-1 (se anima), `rutas`, `etiqueta`, `semilla` (otra costa) |
+| `senalar` | la mano que acusa | la punta del dedo en (0, 0) y el brazo hacia la izquierda; `rot` para orientarla; `manga` (color) |
+| `cruz` | cruz de madera u oro con piedras | `material` madera/oro, `brillo` |
+| `aureola` | el halo dorado | `radio` |
+
+### Una escena de ejemplo (16:9)
+
+```json
+{ "desde": "4:saluda", "dibujo": { "fondo": "relato-noche", "fondoOpts": { "suelo": 700 },
+  "camara": [[0, { "zoom": 1.12, "x": 960, "y": 520 }], ["4:otro", { "zoom": 1 }]],
+  "elementos": [
+    { "pieza": "fachada", "x": 960, "y": 730, "escala": 0.9, "entra": "ninguna", "figura": "papa", "brazos": 1 },
+    { "pieza": "multitud", "x": 960, "y": 690, "ancho": 2300, "alto": 430, "luces": 0.15, "entra": "ninguna" },
+    { "pieza": "globos", "x": 960, "y": 300, "ancho": 1700, "alto": 420, "desde": [0, 140], "entra": "ninguna",
+      "params": { "progreso": [["4:saluda", 0], ["4:otro", 1]] } },
+    { "pieza": "dato", "x": 960, "y": 760, "unidad": "idiomas", "entra": "rebote", "en": "4:veintiseis",
+      "params": { "valor": [["4:veintiseis", 0], ["4:idiomas", 26]] } } ] } }
+```
+
+### Lo que aún falta (apúntalo en `aprendido.md` si un video lo pide)
+
+Barcos, edificios de otras épocas (templos, castillos, casas de pueblo), animales, objetos sueltos (bañera, caja,
+libro, llaves), la lupa y más vestuarios. Mientras, se construye la escena con lo que hay. La multitud es lenta de
+dibujar (muchas siluetas): en videos largos, úsala en pocas tomas o con `densidad` 0,7.
