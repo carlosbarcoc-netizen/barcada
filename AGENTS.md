@@ -17,6 +17,8 @@ video gasta poco (tiempo, créditos de voz y uso de tu plan de IA).
 - Si el usuario dice «configurar», «empezar», o no existe `preferencias.json`: haz **Configurar** (abajo).
 - Si pide un video, un guion o ideas: sigue `METODO.md` paso a paso, en modo juego (`guias/juego.md`) salvo que pida
   otro estilo. Antes lee `aprendido.md`.
+- **Si el video es para YouTube (16:9, videos largos):** el estilo es **«relato»**, ilustración narrativa con luz de
+  cine (`guias/relato.md`, referencias en `estilos/relato/`), con `--estilo 2d --formato 16:9`.
 - Si dice «sigue el proyecto …»: lee `proyectos/<…>/SEGUIR.md` y continúa desde el paso pendiente.
 - Si dice «menú», «ayuda» o saluda sin pedir nada: enséñale el **Menú**.
 
@@ -77,7 +79,8 @@ video gasta poco (tiempo, créditos de voz y uso de tu plan de IA).
 ```
 barcada.mjs         la herramienta (node barcada.mjs ayuda)
 nucleo/             el motor: voz, montaje, subtítulos, portada, sintetizador (música y efectos) y el dibujante (nucleo/2d/)
-guias/              formatos (cómo contar), guion, juego (Barcada 2.0), 2D (piezas y animación), portadas, ideas
+guias/              formatos (cómo contar), guion, juego (Barcada 2.0), 2D (piezas y animación), relato (YouTube), portadas, ideas
+estilos/relato/     las imágenes de referencia del estilo «relato»
 METODO.md           cómo se hace un video, paso a paso
 aprendido.md        errores que no se repiten
 preferencias.json   lo del usuario (se crea al configurar)
