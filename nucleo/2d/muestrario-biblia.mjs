@@ -7,8 +7,9 @@ import { FONDOS_BIBLIA } from "./fondos-biblia.mjs";
 import { FONDOS } from "./fondos.mjs";
 import { crearCuadro } from "./escena.mjs";
 import { cerrarNavegador, foto } from "./dibujante.mjs";
+import { usarFormato } from "../comun.mjs";
 
-const salida = process.argv[2] || "muestrario";
+const salida = process.argv[2] || "muestrario", HZ = process.argv[3] === "horizontal";
 mkdirSync(salida, { recursive: true });
 const nombre = (x, y, n, tam = 34) => `<text x="${x}" y="${y}" text-anchor="middle" font-family="Poppins" font-weight="800" font-size="${tam}" fill="#fff" stroke="#2b1a14" stroke-width="7" paint-order="stroke">${n}</text>`;
 
@@ -66,10 +67,37 @@ const escenas = {
     { pieza: "jose", x: 160, y: 1470, escala: 1.15, pose: "camina" }] },
   "6-angel": { fondo: "gloria", elementos: [{ pieza: "angel", x: 540, y: 1150, escala: 1.6, pose: "abre", boca: "habla" }, { pieza: "lirio", x: 860, y: 1560, escala: 0.9 }, { pieza: "lirio", x: 200, y: 1560, escala: 0.9 }] },
 };
-for (const [n, dibujo] of Object.entries(escenas)) {
+// en horizontal (1920 × 1080): el suelo está en y 864; los personajes, con los pies ahí y a escala ~0,85
+const escenasH = {
+  "1-taller": { fondo: "taller", elementos: [
+    { pieza: "banco", x: 1000, y: 880, escala: 0.8 }, { pieza: "jose", x: 620, y: 900, escala: 1, pose: "trabaja" },
+    { pieza: "jesus", x: 1380, y: 910, escala: 0.95, edad: "nino", pose: "senala", mira: -1, aureola: 0.6 }, { pieza: "silla", x: 1700, y: 900, escala: 0.6 }] },
+  "2-camino-a-belen": { fondo: "camino", elementos: [
+    { pieza: "burro", x: 1020, y: 920, escala: 0.95, carga: "maria", camina: true }, { pieza: "jose", x: 640, y: 930, escala: 1, pose: "camina" },
+    { pieza: "rotulo", x: 1600, y: 860, escala: 0.5, texto: "BELÉN" }] },
+  "3-sueno": { fondo: "casanoche", elementos: [
+    { pieza: "jose", x: 620, y: 860, escala: 1.35, pose: "duerme" }, { pieza: "nubesueno", x: 1250, y: 380, escala: 0.95, dentro: "angel", dentroParams: { pose: "senala" }, dentroEscala: 0.5 },
+    { pieza: "lampara", x: 220, y: 960, escala: 0.5 }] },
+  "4-nacimiento": { fondo: "establo", elementos: [
+    { pieza: "estrella", x: 960, y: 150, escala: 0.4, cola: 0.25 }, { pieza: "pesebre", x: 960, y: 860, escala: 0.9, nino: true },
+    { pieza: "jose", x: 560, y: 900, escala: 1, pose: "reza", aureola: 0.8 }, { pieza: "maria", x: 1360, y: 900, escala: 1, pose: "reza", aureola: 0.8, mira: -1 },
+    { pieza: "oveja", x: 250, y: 960, escala: 0.55 }, { pieza: "burro", x: 1700, y: 900, escala: 0.65, mira: -1 }] },
+  "5-huida-a-egipto": { fondo: "egipto", elementos: [
+    { pieza: "palmera", x: 1600, y: 900, escala: 1.05 }, { pieza: "burro", x: 1050, y: 920, escala: 0.95, carga: "maria_nino", camina: true },
+    { pieza: "jose", x: 620, y: 930, escala: 1, pose: "camina" }] },
+  "6-angel": { fondo: "gloria", elementos: [{ pieza: "angel", x: 960, y: 640, escala: 1.25, pose: "abre", boca: "habla" }, { pieza: "lirio", x: 1500, y: 860, escala: 0.75 }, { pieza: "lirio", x: 420, y: 860, escala: 0.75 }] },
+  "7-nazaret": { fondo: "nazaret", elementos: [{ pieza: "casaadobe", x: 1450, y: 880, escala: 0.75 }, { pieza: "olivo", x: 300, y: 900, escala: 0.9 },
+    { pieza: "jose", x: 800, y: 910, escala: 1, pose: "saluda" }, { pieza: "maria", x: 1080, y: 910, escala: 1, mira: -1 }] },
+  "8-templo": { fondo: "templo", elementos: [{ pieza: "anciano", x: 1200, y: 910, escala: 1, pose: "carga", lleva: "nino", mira: -1 },
+    { pieza: "jose", x: 520, y: 910, escala: 1, pose: "carga", lleva: "paloma" }, { pieza: "maria", x: 800, y: 910, escala: 1, pose: "reza" }] },
+};
+// en las escenas de arriba, «y» es dónde pisan; las piezas tienen la base 300 px (× escala) por debajo de su centro
+for (const d of Object.values(escenasH)) for (const e of d.elementos) if (e.y >= 850) e.y = Math.round(e.y + 60 - (e.pieza === "oveja" ? 230 : 300) * (e.escala ?? 1));
+if (HZ) usarFormato("horizontal");
+for (const [n, dibujo] of Object.entries(HZ ? escenasH : escenas)) {
   const cu = crearCuadro(dibujo, { inicio: 0, fin: 4 }, () => 0);
-  const f = join(salida, `biblia-escena-${n}.jpg`);
-  await foto({ preparar: cu.preparar, cuadro: () => cu(1.3) }, f, 0.75);
+  const f = join(salida, `biblia-${HZ ? "h-" : ""}escena-${n}.jpg`);
+  await foto({ preparar: cu.preparar, cuadro: () => cu(1.3) }, f, HZ ? 0.6 : 0.75);
   console.log(f);
 }
 await cerrarNavegador();

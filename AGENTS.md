@@ -52,7 +52,7 @@ video gasta poco (tiempo, créditos de voz y uso de tu plan de IA).
 > - «Hazme un duelo: … contra …» / «un día, dos caminos: …» / «hazme la cuenta de …» / «desmiente que …».
 > - «Dame 10 ideas» → temas virales de tu nicho, comprobados, cada uno con su formato.
 > - «Arma el calendario del mes» → 30 videos, uno por día. Luego: «hazme el video del día 4».
-> - «Hazme un video largo sobre …» → 8 minutos o más, en 2D, para YouTube vertical (`guias/largo.md`).
+> - «Hazme un video largo sobre …» → 8 minutos o más, en 2D, para YouTube en 16:9 (`guias/largo.md`).
 > - «Hazme una serie sobre …» → 3 a 5 partes conectadas.
 > - «Cambia la toma 3» → solo esa escena.
 > - «Sigue el proyecto …» → para continuar en otra conversación.

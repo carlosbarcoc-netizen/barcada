@@ -1,6 +1,6 @@
 # Cómo se hace un video con Barcada
 
-> **Videos largos (8 minutos o más, YouTube vertical):** sigue `guias/largo.md` (2D con piezas de historia bíblica,
+> **Videos largos (8 minutos o más, YouTube 16:9):** sigue `guias/largo.md` (2D con piezas de historia bíblica,
 > voz por bloques, marca de agua). El usuario aprueba solo dos cosas: el guion y el video final.
 
 Seis pasos. El usuario decide en tres (✋). Marca cada paso en el `SEGUIR.md` del proyecto al terminarlo.

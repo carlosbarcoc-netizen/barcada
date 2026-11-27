@@ -6,7 +6,15 @@ import { fileURLToPath } from "node:url";
 
 export const RAIZ = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 export const FUENTES = join(RAIZ, "fuentes");
-export const ANCHO = 1080, ALTO = 1920, FPS = 30;
+export let ANCHO = 1080, ALTO = 1920;
+export const FPS = 30;
+// El formato del video: "vertical" (1080 × 1920, reels y Shorts) u "horizontal" (1920 × 1080, YouTube 16:9). Se fija
+// al empezar cada orden con el de proyecto.json → formato; quien importa ANCHO y ALTO ve siempre el valor actual.
+export function usarFormato(formato = "vertical") {
+  if (formato === "horizontal") { ANCHO = 1920; ALTO = 1080; } else { ANCHO = 1080; ALTO = 1920; }
+  return { ANCHO, ALTO };
+}
+export const horizontal = () => ANCHO > ALTO;
 
 // ---------------------------------------------------------------- claves
 // Las claves viven en claves.env (KEY=valor por línea). Nunca se imprimen.

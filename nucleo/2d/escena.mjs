@@ -17,6 +17,7 @@
 import { PIEZAS as PIEZAS_2D } from "./piezas.mjs";
 import { FONDOS as FONDOS_2D } from "./fondos.mjs";
 import { TINTA } from "./estilo.mjs";
+import { ALTO, ANCHO } from "../comun.mjs";
 import { FONDOS_JUEGO, FONDOS_VIVOS, acabadoJuego, piel as pielDe } from "./juego.mjs";
 import { PIEZAS_JUEGO } from "./piezas-juego.mjs";
 import { PIEZAS_BIBLIA } from "./piezas-biblia.mjs";
@@ -25,7 +26,14 @@ import { FONDOS_BIBLIA } from "./fondos-biblia.mjs";
 // Las piezas y los fondos de todos los estilos (2D con volumen, historia bíblica y modo juego) en un solo catálogo.
 export const PIEZAS = { ...PIEZAS_2D, ...PIEZAS_BIBLIA, ...PIEZAS_JUEGO };
 export const FONDOS = { ...FONDOS_2D, ...FONDOS_BIBLIA, ...FONDOS_JUEGO };
-const pintarFondo = (nombre, o = {}) => (FONDOS[nombre] || FONDOS.estudio)({ t: 0, ...o });
+// Un fondo al tamaño del video. Los de historia bíblica se dibujan para cualquier formato; los demás están hechos en
+// vertical: en horizontal se amplían a lo ancho y se encuadra la franja del suelo.
+const pintarFondo = (nombre, o = {}) => {
+  const f = FONDOS[nombre] || FONDOS.estudio;
+  if (ANCHO < ALTO || FONDOS_BIBLIA[nombre]) return f({ t: 0, ...o, W: ANCHO, H: ALTO });
+  const s = ANCHO / 1080, y0 = Math.max(0, Math.min(1920 - ALTO / s, (o.suelo || 1440) - (ALTO * 0.8) / s));
+  return `<g transform="scale(${s}) translate(0 ${-y0})">${f({ t: 0, ...o })}</g>`;
+};
 
 const lim = (u) => Math.max(0, Math.min(1, u));
 const RESERVADAS = new Set(["pieza", "x", "y", "escala", "rot", "capa", "entra", "en", "dura", "sale", "hasta", "duraSale", "accion", "velocidad", "params", "mueve", "opacidad", "i", "t0", "t1", "abs", "sonido", "sonidoEn", "sonidoDb"]);
@@ -77,7 +85,8 @@ export function crearCuadro(dibujo, toma, aSegundos, juego = null) {
   }
   const T = (ref) => (typeof ref === "number" ? toma.inicio + ref : ref && typeof ref === "object" && "abs" in ref ? ref.abs : aSegundos(ref));
   const conT = (l) => (Array.isArray(l) ? l.map(([a, v]) => [T(a), v]) : l);
-  const cam = conT(dibujo.camara || [[0, { zoom: 1, x: 540, y: 960 }]]);
+  const CX = ANCHO / 2, CY = ALTO / 2;
+  const cam = conT(dibujo.camara || [[0, { zoom: 1, x: CX, y: CY }]]);
   // las piezas del mundo (modo juego) viven en todas las tomas: sus tiempos en número son desde el inicio del video
   const delMundo = juego?.J.mundo?.elementos || [];
   const aAbs = (e) => { const o = { ...e }; for (const k of ["en", "hasta"]) if (typeof o[k] === "number") o[k] = { abs: o[k] }; if (o.en === undefined) o.en = { abs: 0 }; return o; };
@@ -89,7 +98,7 @@ export function crearCuadro(dibujo, toma, aSegundos, juego = null) {
       ...e, i, params,
       t0: T(e.en ?? 0), dura: e.dura ?? (e.entra === "cae" ? 0.8 : 0.45),
       t1: e.hasta !== undefined ? T(e.hasta) : Infinity, duraSale: e.duraSale ?? 0.35,
-      mueve: e.mueve ? [[T(e.en ?? 0), { x: e.x ?? 540, y: e.y ?? 960, escala: e.escala ?? 1, rot: e.rot ?? 0 }], ...conT(e.mueve)] : null,
+      mueve: e.mueve ? [[T(e.en ?? 0), { x: e.x ?? CX, y: e.y ?? CY, escala: e.escala ?? 1, rot: e.rot ?? 0 }], ...conT(e.mueve)] : null,
     };
   });
   if (!FONDOS[dibujo.fondo || "estudio"]) throw new Error(`No hay fondo «${dibujo.fondo}». Hay: ${Object.keys(FONDOS).join(", ")}`);
@@ -99,19 +108,19 @@ export function crearCuadro(dibujo, toma, aSegundos, juego = null) {
   // los fondos que se mueven (lluvia, estrellas que titilan) se dibujan en cada cuadro; los demás, una vez
   const fondoVivo = dibujo.fondoVivo ?? (["luces", "noche", "espacio"].includes(dibujo.fondo) || FONDOS_VIVOS.has(dibujo.fondo));
   const cuadro = (t) => {
-    const c = { zoom: 1, x: 540, y: 960, ...claves(cam, t) };
+    const c = { zoom: 1, x: CX, y: CY, ...claves(cam, t) };
     // la sacudida (modo juego: alerta o sacude): unos píxeles, que se apagan en medio segundo
     if (juego && (toma.alerta || toma.sacude)) { const u = t - toma.inicio, a = 18 * Math.exp(-u * 6); c.x += a * Math.sin(u * 61); c.y += a * Math.cos(u * 47); }
     // la cámara nunca enseña lo que hay fuera del fondo: zoom ≥ 1 y el centro dentro de lo que cabe
     c.zoom = Math.max(1, c.zoom);
-    const mx = 540 / c.zoom, my = 960 / c.zoom;
-    c.x = Math.min(1080 - mx, Math.max(mx, c.x)); c.y = Math.min(1920 - my, Math.max(my, c.y));
+    const mx = CX / c.zoom, my = CY / c.zoom;
+    c.x = Math.min(ANCHO - mx, Math.max(mx, c.x)); c.y = Math.min(ALTO - my, Math.max(my, c.y));
     const capas = elementos.slice().sort((a, b) => (a.capa ?? 0) - (b.capa ?? 0)).map((e) => {
       if (t < e.t0 - 0.001) return "";
       const uIn = e.entra === "ninguna" ? 1 : (t - e.t0) / e.dura, uOut = t > e.t1 ? 1 - (t - e.t1) / e.duraSale : 1;
       if (uOut <= 0) return "";
       const a = transicion(e.entra, uIn), b = uOut < 1 ? transicion(e.sale || "aparece", uOut) : {};
-      const pos = e.mueve ? claves(e.mueve, t) : { x: e.x ?? 540, y: e.y ?? 960, escala: e.escala ?? 1, rot: e.rot ?? 0 };
+      const pos = e.mueve ? claves(e.mueve, t) : { x: e.x ?? CX, y: e.y ?? CY, escala: e.escala ?? 1, rot: e.rot ?? 0 };
       let { x, y, escala: s, rot: r } = pos;
       // la acción continua, desde que ha entrado
       const ta = t - e.t0, fase = e.i * 1.7;
@@ -131,17 +140,17 @@ export function crearCuadro(dibujo, toma, aSegundos, juego = null) {
       for (const [k, v] of Object.entries(e.params)) p[k] = claves(v, t);
       return `<g transform="translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${r.toFixed(2)}) scale(${s.toFixed(4)})" opacity="${op.toFixed(3)}">${PIEZAS[e.pieza](p)}</g>`;
     }).join("");
-    const fondoSVG = fondoImg ? `<image href="${fondoImg}" width="1080" height="1920" preserveAspectRatio="none"/>` : pintarFondo(dibujo.fondo, { t, ...(dibujo.fondoOpts || {}) });
-    const acabado = juego ? (granoImg ? `<image href="${granoImg}" width="1080" height="1920"/>` : acabadoJuego(juego.N))
-      : granoImg ? `<image href="${granoImg}" width="1080" height="1920" style="mix-blend-mode:multiply"/>` : `<rect width="1080" height="1920" filter="url(#grano)" style="mix-blend-mode:multiply"/><rect width="1080" height="1920" fill="url(#vinetaBV)"/>`;
-    return `<g transform="translate(540 960) scale(${c.zoom}) translate(${-c.x} ${-c.y})">${fondoSVG}${capas}</g>${acabado}${juego ? juego.capa(t) : ""}`;
+    const fondoSVG = fondoImg ? `<image href="${fondoImg}" width="${ANCHO}" height="${ALTO}" preserveAspectRatio="none"/>` : pintarFondo(dibujo.fondo, { t, ...(dibujo.fondoOpts || {}) });
+    const acabado = juego ? (granoImg ? `<image href="${granoImg}" width="${ANCHO}" height="${ALTO}"/>` : acabadoJuego(juego.N))
+      : granoImg ? `<image href="${granoImg}" width="${ANCHO}" height="${ALTO}" style="mix-blend-mode:multiply"/>` : `<rect width="${ANCHO}" height="${ALTO}" filter="url(#grano)" style="mix-blend-mode:multiply"/><rect width="${ANCHO}" height="${ALTO}" fill="url(#vinetaBV)"/>`;
+    return `<g transform="translate(${CX} ${CY}) scale(${c.zoom}) translate(${-c.x} ${-c.y})">${fondoSVG}${capas}</g>${acabado}${juego ? juego.capa(t) : ""}`;
   };
   // Antes de grabar: el fondo (un poco más grande, para que la cámara no le vea los bordes) y el grano con la
   // viñeta se pintan una vez y se reutilizan como imágenes.
   cuadro.preparar = async (h) => {
     if (!fondoVivo) fondoImg = await h.capa(pintarFondo(dibujo.fondo, { t: toma.inicio, ...(dibujo.fondoOpts || {}) }));
     granoImg = juego ? await h.capa(acabadoJuego(juego.N), true)
-      : await h.capa(`<rect width="1080" height="1920" fill="#fff"/><rect width="1080" height="1920" filter="url(#grano)"/><rect width="1080" height="1920" fill="url(#vinetaBV)"/>`);
+      : await h.capa(`<rect width="${ANCHO}" height="${ALTO}" fill="#fff"/><rect width="${ANCHO}" height="${ALTO}" filter="url(#grano)"/><rect width="${ANCHO}" height="${ALTO}" fill="url(#vinetaBV)"/>`);
   };
   cuadro.cuadro = () => cuadro;
   return cuadro;

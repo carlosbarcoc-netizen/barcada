@@ -11,7 +11,7 @@ const tiempo = (t) => { t = Math.max(0, t); const h = Math.floor(t / 3600), m = 
 const limpio = (s) => String(s).replace(/[{}\\]/g, "");
 
 // Parte las palabras de una frase en grupos cortos, cortando mejor tras una coma o un punto.
-function grupos(palabras, max = 4, maxLetras = 20) {
+function grupos(palabras, max = ANCHO > ALTO ? 6 : 4, maxLetras = ANCHO > ALTO ? 34 : 20) {
   const gs = []; let g = [];
   for (const w of palabras) {
     const largo = g.map((x) => x.texto).join(" ").length + w.texto.length;
@@ -34,8 +34,12 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Nunito Black,84,${BLA},${BLA},&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,9,4,8,80,80,330,1
-Style: Rotulo,Nunito Black,60,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,24,0,${rotulosArriba ? "8,80,80,560" : "2,80,80,520"},1
+${ANCHO > ALTO
+  // horizontal (YouTube 16:9): los subtítulos abajo, al centro; los rótulos arriba
+  ? `Style: Sub,Nunito Black,66,${BLA},${BLA},&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,7,3,2,160,160,70,1
+Style: Rotulo,Nunito Black,52,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,20,0,8,160,160,50,1`
+  : `Style: Sub,Nunito Black,84,${BLA},${BLA},&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,9,4,8,80,80,330,1
+Style: Rotulo,Nunito Black,60,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,24,0,${rotulosArriba ? "8,80,80,560" : "2,80,80,520"},1`}
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text

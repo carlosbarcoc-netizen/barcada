@@ -23,7 +23,7 @@ const AYUDA = `Barcada · órdenes (todas desde esta carpeta):
   node barcada.mjs sonidos                         crea tu biblioteca de efectos con ElevenLabs (una vez)
   node barcada.mjs nuevo "<idea>" --piel neon      crea un proyecto en modo juego (Barcada 2.0): neon, voxel o arcade
   node barcada.mjs nuevo "<idea>" [--estilo documental]     crea el proyecto en proyectos/ (2D con volumen o realista)
-  node barcada.mjs nuevo "<idea>" --largo          video largo (8 min o más) en 2D, para YouTube vertical (guias/largo.md)
+  node barcada.mjs nuevo "<idea>" --largo          video largo (8 min o más) en 2D para YouTube, 16:9 (--vertical: 9:16) (guias/largo.md)
   node barcada.mjs voz <proyecto> [--rehacer]      la voz con sus tiempos (una vez, con el guion aprobado)
   node barcada.mjs tomas <proyecto>                genera las imágenes y la hoja revisar/tomas.jpg
   node barcada.mjs otra <proyecto> <n> [<n>...]    otra versión de esas tomas (nueva imagen)
@@ -48,7 +48,7 @@ try {
       break;
     }
     case "sonidos": await (await import("./nucleo/extras.mjs")).crearSonidos({ rehacer: marca("rehacer") }); break;
-    case "nuevo": { const piel = opcion("piel"); (await import("./nucleo/extras.mjs")).nuevo(primero, { estilo: piel ? "2d" : opcion("estilo", "documental"), nombre: opcion("nombre"), piel, largo: marca("largo") }); break; }
+    case "nuevo": { const piel = opcion("piel"); (await import("./nucleo/extras.mjs")).nuevo(primero, { estilo: piel ? "2d" : opcion("estilo", "documental"), nombre: opcion("nombre"), piel, largo: marca("largo"), formato: marca("vertical") ? "vertical" : marca("horizontal") ? "horizontal" : null }); break; }
     case "pieles": { const { PIELES } = await import("./nucleo/2d/juego.mjs"); for (const [k, e] of Object.entries(PIELES)) console.log(`${k.padEnd(8)} ${e.nombre} — ${e.para}`); break; }
     case "muestrario": if (primero === "biblia") { spawnSync(process.execPath, [join(RAIZ, "nucleo", "2d", "muestrario-biblia.mjs"), join(RAIZ, "muestrario")], { stdio: "inherit" }); break; }
       spawnSync(process.execPath, [join(RAIZ, "nucleo", "2d", "muestrario.mjs"), join(RAIZ, "muestrario"), ...(primero ? [primero] : [])], { stdio: "inherit" }); break;

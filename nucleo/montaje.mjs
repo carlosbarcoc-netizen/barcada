@@ -2,7 +2,7 @@
 // color, grano, subtítulos, rótulos, voz, efectos y música.
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, enParalelo, ffmpeg, leerJSON, sinTildes } from "./comun.mjs";
+import { ALTO, ANCHO, FUENTES, RAIZ, asegurar, enParalelo, ffmpeg, leerJSON, sinTildes, usarFormato } from "./comun.mjs";
 import { ESTILOS, hacerImagenes } from "./imagenes.mjs";
 import { escribirASS } from "./subtitulos.mjs";
 
@@ -64,6 +64,7 @@ function sonido(nombre) {
 
 export async function montar(dir, { borrador = false, hasta = null, salida, fps } = {}) {
   const p = leerJSON(join(dir, "proyecto.json"));
+  usarFormato(p.formato);
   const tiempos = leerJSON(join(dir, "voz", "tiempos.json"));
   const pref = existsSync(join(RAIZ, "preferencias.json")) ? leerJSON(join(RAIZ, "preferencias.json")) : {};
   const FPSv = fps || (borrador ? 24 : 30);
@@ -146,7 +147,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   const acabado = es2d ? "null" : `${est.color},vignette=PI/5,noise=alls=${borrador ? 0 : 5}:allf=t`;
   // la marca de agua (proyecto.json → marcaAgua, o preferencias.json → marcaAgua): abajo a la derecha, semitransparente
   const marca = p.marcaAgua ?? pref.marcaAgua;
-  const agua = marca ? `,drawtext=fontfile='${join(FUENTES, "Poppins-ExtraBold.ttf")}':text='${String(marca).replace(/\\/g, "").replace(/'/g, "").replace(/:/g, "\\:").replace(/%/g, "\\%")}':fontsize=44:fontcolor=white@0.72:borderw=3:bordercolor=0x2b1a14@0.55:shadowx=2:shadowy=2:shadowcolor=black@0.35:x=w-tw-48:y=h-th-230` : "";
+  const agua = marca ? `,drawtext=fontfile='${join(FUENTES, "Poppins-ExtraBold.ttf")}':text='${String(marca).replace(/\\/g, "").replace(/'/g, "").replace(/:/g, "\\:").replace(/%/g, "\\%")}':fontsize=44:fontcolor=white@0.72:borderw=3:bordercolor=0x2b1a14@0.55:shadowx=2:shadowy=2:shadowcolor=black@0.35:x=w-tw-48:y=${ANCHO > ALTO ? 40 : "h-th-230"}` : "";
   const video = `[0:v]${acabado},subtitles=filename='${ass.replace(/'/g, "\\'")}':fontsdir='${FUENTES}'${agua}${esc}[v]`;
   const out = salida || join(dir, "revisar", `${borrador ? "borrador" : "final"}.mp4`);
   asegurar(join(out, ".."));
@@ -168,8 +169,10 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
 // antes de montar: cambiar una imagen aquí es barato; en el video, caro.
 export async function hojaDeTomas(dir) {
   const p = leerJSON(join(dir, "proyecto.json")), tiempos = leerJSON(join(dir, "voz", "tiempos.json"));
+  usarFormato(p.formato);
   const imgs = await hacerImagenes(dir), tomas = lineaDeTiempo(p, tiempos), juego = await contextoJuego(p, tiempos, tomas);
-  const tmp = asegurar(join(dir, ".montaje")), cols = Math.min(5, tomas.length), filas = Math.ceil(tomas.length / cols);
+  const hz = ANCHO > ALTO, mw = hz ? 480 : 360, mh = hz ? 270 : 640;
+  const tmp = asegurar(join(dir, ".montaje")), cols = Math.min(hz ? 4 : 5, tomas.length), filas = Math.ceil(tomas.length / cols);
   // las tomas 2D: su cuadro del medio, como imagen
   for (const t of tomas.filter((x) => x.dibujo)) {
     const { crearCuadro } = await import("./2d/escena.mjs"), { foto } = await import("./2d/dibujante.mjs");
@@ -180,7 +183,7 @@ export async function hojaDeTomas(dir) {
   }
   if (tomas.some((t) => t.dibujo)) await (await import("./2d/dibujante.mjs")).cerrarNavegador();
   await enParalelo(tomas, 4, (t) => ffmpeg([...(/\.(mp4|mov|webm)$/i.test(imgs[t.n - 1]) ? ["-ss", "0.8"] : []), "-i", imgs[t.n - 1], "-vf",
-    `scale=360:640:force_original_aspect_ratio=increase,crop=360:640,drawbox=y=0:w=iw:h=86:color=black@0.6:t=fill,drawtext=fontfile=${join(FUENTES, "Poppins-ExtraBold.ttf")}:text='${t.n}  ${t.inicio.toFixed(1)}s${/\.(mp4|mov|webm)$/i.test(imgs[t.n - 1]) ? "  VIDEO" : ""}':fontcolor=0xFFD23F:fontsize=40:x=18:y=22`,
+    `scale=${mw}:${mh}:force_original_aspect_ratio=increase,crop=${mw}:${mh},drawbox=y=0:w=iw:h=86:color=black@0.6:t=fill,drawtext=fontfile=${join(FUENTES, "Poppins-ExtraBold.ttf")}:text='${t.n}  ${t.inicio.toFixed(1)}s${/\.(mp4|mov|webm)$/i.test(imgs[t.n - 1]) ? "  VIDEO" : ""}':fontcolor=0xFFD23F:fontsize=40:x=18:y=22`,
     "-frames:v", "1", join(tmp, `mini-${String(t.n).padStart(2, "0")}.png`)]));
   const out = join(asegurar(join(dir, "revisar")), "tomas.jpg");
   await ffmpeg(["-framerate", "1", "-i", join(tmp, "mini-%02d.png"), "-vf", `tile=${cols}x${filas}:padding=8:color=0x111111`, "-frames:v", "1", "-q:v", "3", out]);
