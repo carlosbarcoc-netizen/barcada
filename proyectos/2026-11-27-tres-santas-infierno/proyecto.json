@@ -678,5 +678,12 @@
       "nombre": "El cierre",
       "desde": 144
     }
-  ]
+  ],
+  "voz": {
+    "id": "uwa7x2cEPjh6UUDdIkTj",
+    "nombre": "Philemon - Natural Storyteller",
+    "estabilidad": 0.5,
+    "estilo": 0.25,
+    "velocidad": 1
+  }
 }
