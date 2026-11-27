@@ -100,7 +100,7 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   // 2. subtítulos y rótulos
   const ass = join(tmp, "textos.ass");
   // (en el modo juego, los subtítulos y los títulos ya van dibujados dentro de cada cuadro)
-  escribirASS(ass, tiempos, juego ? [] : tomas, { acento: pref.acento || p.acento || "#FFD23F", subtitulos: !juego && p.subtitulos !== false });
+  escribirASS(ass, tiempos, juego ? [] : tomas, { acento: pref.acento || p.acento || "#FFD23F", subtitulos: !juego && p.subtitulos !== false, rotulosArriba: p.rotulos === "arriba" || (p.largo && p.rotulos !== "abajo") });
 
   // 3. el sonido: voz + efectos (un «whoosh» en cada corte, un «pop» en cada rótulo, los de cada toma) + música
   const entradas = ["-i", join(tmp, "mudo.mp4"), "-i", join(dir, "voz", "voz.mp3")], mezcla = [];
@@ -117,6 +117,12 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   }
   let musica = p.musica ? join(dir, p.musica) : pref.musica ? join(RAIZ, pref.musica) : null;
   // modo juego sin música propia: el sintetizador compone una para la piel (original, sin derechos de nadie)
+  // 2D clásico sin música propia, con "sintetizar": "calma" (u otro estilo del sintetizador): se compone aquí
+  if (!juego && !musica && p.sintetizar) {
+    musica = join(tmp, `musica-${p.sintetizar}.wav`);
+    const semilla = [...(p.titulo || "barcada")].reduce((a, c) => a + c.charCodeAt(0), 0);
+    (await import("./sintetizador.mjs")).musica(p.sintetizar, tiempos.duracion + 1, musica, semilla);
+  }
   if (juego && !musica && p.juego.musica !== false) {
     musica = join(tmp, `musica-${juego.N}.wav`);
     const semilla = [...(p.titulo || "barcada")].reduce((a, c) => a + c.charCodeAt(0), 0) + (p.juego.semilla || 0);
@@ -138,12 +144,22 @@ export async function montar(dir, { borrador = false, hasta = null, salida, fps 
   const esc = borrador ? `,scale=${ANCHO / 2}:${ALTO / 2}` : "";
   // el 2D ya trae su color, su viñeta y su grano: solo se le ponen los textos
   const acabado = es2d ? "null" : `${est.color},vignette=PI/5,noise=alls=${borrador ? 0 : 5}:allf=t`;
-  const video = `[0:v]${acabado},subtitles=filename='${ass.replace(/'/g, "\\'")}':fontsdir='${FUENTES}'${esc}[v]`;
+  // la marca de agua (proyecto.json → marcaAgua, o preferencias.json → marcaAgua): abajo a la derecha, semitransparente
+  const marca = p.marcaAgua ?? pref.marcaAgua;
+  const agua = marca ? `,drawtext=fontfile='${join(FUENTES, "Poppins-ExtraBold.ttf")}':text='${String(marca).replace(/\\/g, "").replace(/'/g, "").replace(/:/g, "\\:").replace(/%/g, "\\%")}':fontsize=44:fontcolor=white@0.72:borderw=3:bordercolor=0x2b1a14@0.55:shadowx=2:shadowy=2:shadowcolor=black@0.35:x=w-tw-48:y=h-th-230` : "";
+  const video = `[0:v]${acabado},subtitles=filename='${ass.replace(/'/g, "\\'")}':fontsdir='${FUENTES}'${agua}${esc}[v]`;
   const out = salida || join(dir, "revisar", `${borrador ? "borrador" : "final"}.mp4`);
   asegurar(join(out, ".."));
   await ffmpeg([...entradas, "-filter_complex", `${video};${audio}`, "-map", "[v]", "-map", "[a]", "-t", fin.toFixed(2),
     "-c:v", "libx264", "-preset", borrador ? "veryfast" : "slow", "-crf", borrador ? "27" : "17", "-pix_fmt", "yuv420p", "-r", String(FPSv),
     "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out]);
+  // los capítulos (modo largo), con su minuto, listos para la descripción de YouTube
+  if (!borrador && p.capitulos?.length) {
+    const mmss = (t) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
+    const txt = p.capitulos.map((c, i) => `${i === 0 ? "0:00" : mmss(cuando(tiempos, c.desde))} ${c.titulo}`).join("\n") + "\n";
+    writeFileSync(join(out, "..", "capitulos.txt"), txt);
+    console.log(`capítulos:\n${txt}`);
+  }
   console.log(`✓ ${out} (${fin.toFixed(1)} s, ${tomas.length} tomas)`);
   return out;
 }

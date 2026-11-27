@@ -65,6 +65,9 @@ const ESTILOS_MUSICA = {
   voxel: { bpm: 116, raiz: 60, prog: [[0, 4, 7], [7, 11, 14], [9, 12, 16], [5, 9, 12]] },
   // arcade: chiptune, cuadradas y triangular, rápido
   arcade: { bpm: 136, raiz: 57, prog: [[0, 3, 7], [-4, 0, 3], [-9, -5, -2], [-2, 2, 5]] },
+  // calma: para historias, vidas de santos y videos largos que se escuchan tranquilos; mayor, lento, arpa y pad cálido,
+  // sin percusión
+  calma: { bpm: 72, raiz: 55, prog: [[0, 4, 7], [7, 11, 14], [9, 12, 16], [5, 9, 12], [0, 4, 7], [5, 9, 12], [7, 11, 14], [7, 11, 14]] },
 };
 
 export function musica(piel, segundos, salida, semilla = 7) {
@@ -114,6 +117,21 @@ export function musica(piel, segundos, salida, semilla = 7) {
         poner(pista, t0 + negra, 0.2, palmas(rnd, 0.5)); poner(pista, t0 + 3 * negra, 0.2, palmas(rnd, 0.5));
         for (let k = 0; k < 16; k++) poner(pista, t0 + k * negra / 4, 0.04, charles(rnd, k % 2 ? 0.05 : 0.09, 0.02));
       }
+    } else if (piel === "calma") {
+      for (const g of ac) { // pad cálido: seno + triangular, entra y sale despacio
+        const f = nota(raiz + g);
+        poner(pad, t0, compas + 0.6, (t) => (Math.sin(TAU * f * t) + 0.35 * triangulo(f * 2.002 * t)) * Math.min(1, t / 1.2, (compas + 0.6 - t) / 0.8), 0.06);
+      }
+      poner(pad, t0, compas, (t) => Math.sin(TAU * nota(raiz - 12 + ac[0]) * t) * Math.min(1, t / 0.3, (compas - t) / 0.4), 0.16); // bajo
+      for (let k = 0; k < 8; k++) { // arpa: arpegio en corcheas, suave
+        const m = raiz + 12 + ac[[0, 1, 2, 1, 0, 2, 1, 2][k]] + (k === 6 ? 12 : 0), s = pulsada(nota(m), negra * 2.5, rnd, 0.2);
+        const i0 = Math.round((t0 + k * negra / 2) * SR); for (let i = 0; i < s.length && i0 + i < pista.length; i++) pista[i0 + i] += (intro ? 0.10 : 0.14) * s[i];
+      }
+      if (!intro && seccion !== 0) for (let k = 0; k < 4; k++) { // una melodía de campanita, escasa
+        const g = motivo[(k * 2 + (seccion % 2) * 8) % 16]; if (g < 0 || k % 2) continue;
+        const f = nota(raiz + 24 + [ac[0], ac[1], ac[2], ac[0] + 12][g]);
+        poner(pista, t0 + k * negra, negra * 3, (t) => (Math.sin(TAU * f * t) + 0.2 * Math.sin(TAU * 2.76 * f * t) * env(t, 0.001, 0.2)) * env(t, 0.004, 0.9), 0.06);
+      }
     } else { // neon
       for (const g of ac) { // pad: dos sierras desafinadas, todo el compás, al canal del pad (se filtra)
         const f = nota(raiz + g);
@@ -134,7 +152,7 @@ export function musica(piel, segundos, salida, semilla = 7) {
       }
     }
   }
-  if (piel === "neon") { pasoBajo(pad, 900); for (let i = 0; i < pista.length; i++) pista[i] += pad[i]; }
+  if (piel === "neon" || piel === "calma") { pasoBajo(pad, piel === "calma" ? 1400 : 900); for (let i = 0; i < pista.length; i++) pista[i] += pad[i]; }
   pasoAlto(pista, 30);
   // entrada y salida suaves
   const fi = 0.4 * SR, fo = 1.6 * SR, n = Math.round(segundos * SR);

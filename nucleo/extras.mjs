@@ -24,7 +24,7 @@ export async function revisar() {
 }
 
 // ---------------------------------------------------------------- nuevo proyecto
-export function nuevo(idea, { estilo = "documental", nombre, piel = null } = {}) {
+export function nuevo(idea, { estilo = "documental", nombre, piel = null, largo = false } = {}) {
   const hoy = new Date().toISOString().slice(0, 10);
   const slug = nombre || sinTildes(idea.split(/\s+/).slice(0, 5).join("-").replace(/\s+/g, "-")).slice(0, 40) || "video";
   const dir = join(RAIZ, "proyectos", `${hoy}-${slug}`);
@@ -32,6 +32,20 @@ export function nuevo(idea, { estilo = "documental", nombre, piel = null } = {})
   asegurar(dir);
   // modo juego (Barcada 2.0): una piel (neon, voxel, arcade) con su barra de progreso, títulos y mundo
   if (piel && !["neon", "voxel", "arcade"].includes(piel)) throw new Error(`No hay piel «${piel}». Hay: neon, voxel, arcade`);
+  // modo largo (8 minutos o más, YouTube vertical): 2D clásico, por capítulos, con música tranquila y marca de agua
+  if (largo) {
+    guardarJSON(join(dir, "proyecto.json"), {
+      titulo: idea, estilo: "2d", largo: true, marcaAgua: "", sintetizar: "calma", musicaDb: -24, efectos: false,
+      voz: { estabilidad: 0.5, estilo: 0.3, velocidad: 1.0 },
+      capitulos: [{ titulo: "", desde: 1 }],
+      frases: [{ texto: "", clave: "" }],
+      escenas: [{ nombre: "capitulo-1", tomas: [{ desde: 0, rotulo: "", dibujo: { fondo: "nazaret", elementos: [] } }] }],
+    });
+    writeFileSync(join(dir, "SEGUIR.md"), `# ${idea}\n\nEstado del proyecto (modo largo: se aprueba el guion y el video final).\n\n- [ ] 1. Investigación → notas.md\n- [ ] 2. Guion aprobado (por capítulos)\n- [ ] 3. Voz\n- [ ] 4. Tomas (las reviso yo: revisar/tomas.jpg)\n- [ ] 5. Final, portada y descripción entregados\n\nPara seguir en otra conversación: «sigue el proyecto ${hoy}-${slug}».\n`);
+    writeFileSync(join(dir, "notas.md"), `# ${idea}\n\n## Datos (cada uno con su fuente)\n\n- \n`);
+    console.log(dir);
+    return dir;
+  }
   guardarJSON(join(dir, "proyecto.json"), piel ? {
     titulo: idea, estilo: "2d",
     frases: [{ texto: "", clave: "" }],

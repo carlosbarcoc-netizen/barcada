@@ -23,6 +23,7 @@ const AYUDA = `Barcada · órdenes (todas desde esta carpeta):
   node barcada.mjs sonidos                         crea tu biblioteca de efectos con ElevenLabs (una vez)
   node barcada.mjs nuevo "<idea>" --piel neon      crea un proyecto en modo juego (Barcada 2.0): neon, voxel o arcade
   node barcada.mjs nuevo "<idea>" [--estilo documental]     crea el proyecto en proyectos/ (2D con volumen o realista)
+  node barcada.mjs nuevo "<idea>" --largo          video largo (8 min o más) en 2D, para YouTube vertical (guias/largo.md)
   node barcada.mjs voz <proyecto> [--rehacer]      la voz con sus tiempos (una vez, con el guion aprobado)
   node barcada.mjs tomas <proyecto>                genera las imágenes y la hoja revisar/tomas.jpg
   node barcada.mjs otra <proyecto> <n> [<n>...]    otra versión de esas tomas (nueva imagen)
@@ -31,8 +32,8 @@ const AYUDA = `Barcada · órdenes (todas desde esta carpeta):
   node barcada.mjs portada <proyecto> "Título con *clave*|segunda línea" [--toma n] [--etiqueta "¡nadie te lo dijo!"]
   node barcada.mjs estilos                         los estilos visuales disponibles
   node barcada.mjs pieles                          las pieles del modo juego (Barcada 2.0)
-  node barcada.mjs muestrario [neon|voxel|arcade]  hojas con todas las piezas → muestrario/
-  node barcada.mjs musica <neon|voxel|arcade> [segundos]    escucha la música que compone el sintetizador → muestrario/
+  node barcada.mjs muestrario [neon|voxel|arcade|biblia]  hojas con todas las piezas → muestrario/
+  node barcada.mjs musica <neon|voxel|arcade|calma> [segundos]    escucha la música que compone el sintetizador → muestrario/
   node barcada.mjs empaquetar                      el .zip de venta, limpio (dist/Barcada-vX.zip)
 `;
 
@@ -47,9 +48,10 @@ try {
       break;
     }
     case "sonidos": await (await import("./nucleo/extras.mjs")).crearSonidos({ rehacer: marca("rehacer") }); break;
-    case "nuevo": { const piel = opcion("piel"); (await import("./nucleo/extras.mjs")).nuevo(primero, { estilo: piel ? "2d" : opcion("estilo", "documental"), nombre: opcion("nombre"), piel }); break; }
+    case "nuevo": { const piel = opcion("piel"); (await import("./nucleo/extras.mjs")).nuevo(primero, { estilo: piel ? "2d" : opcion("estilo", "documental"), nombre: opcion("nombre"), piel, largo: marca("largo") }); break; }
     case "pieles": { const { PIELES } = await import("./nucleo/2d/juego.mjs"); for (const [k, e] of Object.entries(PIELES)) console.log(`${k.padEnd(8)} ${e.nombre} — ${e.para}`); break; }
-    case "muestrario": spawnSync(process.execPath, [join(RAIZ, "nucleo", "2d", "muestrario.mjs"), join(RAIZ, "muestrario"), ...(primero ? [primero] : [])], { stdio: "inherit" }); break;
+    case "muestrario": if (primero === "biblia") { spawnSync(process.execPath, [join(RAIZ, "nucleo", "2d", "muestrario-biblia.mjs"), join(RAIZ, "muestrario")], { stdio: "inherit" }); break; }
+      spawnSync(process.execPath, [join(RAIZ, "nucleo", "2d", "muestrario.mjs"), join(RAIZ, "muestrario"), ...(primero ? [primero] : [])], { stdio: "inherit" }); break;
     case "musica": {
       const piel = primero || "neon", seg = Number(resto.filter((x) => !x.startsWith("--"))[1] || 30), out = join(RAIZ, "muestrario", `musica-${piel}.wav`);
       (await import("./nucleo/sintetizador.mjs")).musica(piel, seg, out, Math.floor(Math.random() * 1e6));
@@ -69,7 +71,8 @@ try {
     case "borrador": { const h = opcion("hasta"); await (await import("./nucleo/montaje.mjs")).montar(carpetaProyecto(primero), { borrador: true, hasta: h ? Number(h) : null, salida: opcion("salida") || undefined }); break; }
     case "final": {
       const dir = carpetaProyecto(primero);
-      await (await import("./nucleo/montaje.mjs")).montar(dir, { fps: Number(opcion("fps", 30)), salida: join(dir, "entrega", opcion("nombre", "video.mp4")) });
+      // los videos largos van a 24 cuadros por segundo (tardan un 20 % menos en dibujarse y se ven igual de suaves)
+      await (await import("./nucleo/montaje.mjs")).montar(dir, { fps: Number(opcion("fps", leerJSON(join(dir, "proyecto.json")).largo ? 24 : 30)), salida: join(dir, "entrega", opcion("nombre", "video.mp4")) });
       break;
     }
     case "portada": {

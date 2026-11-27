@@ -23,7 +23,7 @@ function grupos(palabras, max = 4, maxLetras = 20) {
   return gs;
 }
 
-export function escribirASS(archivo, tiempos, tomas, { acento = "#FFD23F", subtitulos = true } = {}) {
+export function escribirASS(archivo, tiempos, tomas, { acento = "#FFD23F", subtitulos = true, rotulosArriba = false } = {}) {
   const AMA = hexASS(acento), BLA = "&H00FFFFFF";
   const cab = `[Script Info]
 ScriptType: v4.00+
@@ -35,7 +35,7 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Sub,Nunito Black,84,${BLA},${BLA},&H00321A14,&H78000000,0,0,0,0,100,100,0,0,1,9,4,8,80,80,330,1
-Style: Rotulo,Nunito Black,60,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,24,0,2,80,80,520,1
+Style: Rotulo,Nunito Black,60,${BLA},${BLA},&H28100A06,&H28100A06,0,0,0,0,100,100,0,0,3,24,0,${rotulosArriba ? "8,80,80,560" : "2,80,80,520"},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text

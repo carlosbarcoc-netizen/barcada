@@ -1,14 +1,15 @@
 // La voz: ElevenLabs con tiempos por palabra. Se pide UNA vez con el guion aprobado (cada vez cuesta créditos).
 // Sin clave, «modo prueba»: un silencio con tiempos estimados, para poder montar el video antes de pagar la voz.
 import { createHash } from "node:crypto";
-import { existsSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { RAIZ, asegurar, ffmpeg, guardarJSON, hayClave, leerJSON } from "./comun.mjs";
+import { RAIZ, asegurar, duracion, ffmpeg, guardarJSON, hayClave, leerJSON } from "./comun.mjs";
 
 // La voz se elige al configurar (node barcada.mjs voces) y se guarda en preferencias.json → voz. Si no hay ninguna, una voz
 // de las que trae toda cuenta de ElevenLabs («Adam»), que habla español con acento neutro-americano.
 export const VOZ_RESPALDO = "pNInz6obpgDQGcFmaJgB";
 const MODELO = "eleven_multilingual_v2";
+const LIMITE_BLOQUE = 2500; // letras por petición (los videos largos se piden por bloques)
 
 const texto = (f) => f.dicho || f.texto;
 
@@ -26,16 +27,49 @@ export async function hacerVoz(dir, { rehacer = false } = {}) {
   const unido = p.frases.map(texto).join(" ");
   let chars;
   if (hayClave("ELEVENLABS_API_KEY")) {
-    const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voz.id}/with-timestamps?output_format=mp3_44100_128`, {
-      method: "POST",
-      headers: { "xi-api-key": process.env.ELEVENLABS_API_KEY, "content-type": "application/json" },
-      body: JSON.stringify({ text: unido, model_id: voz.modelo, voice_settings: { stability: voz.estabilidad, similarity_boost: voz.similitud, style: voz.estilo, speed: voz.velocidad } }),
-    });
-    if (!r.ok) throw new Error(`ElevenLabs dijo ${r.status}: ${(await r.text()).slice(0, 300)}`);
-    const j = await r.json();
-    writeFileSync(join(dv, "voz.mp3"), Buffer.from(j.audio_base64, "base64"));
-    const a = j.alignment;
-    chars = a.characters.map((c, i) => ({ c, t0: a.character_start_times_seconds[i], t1: a.character_end_times_seconds[i] }));
+    // Los videos largos (más de ~2.500 letras) se piden por bloques de frases enteras: ElevenLabs tiene un límite por
+    // petición, y si algo falla a mitad no se vuelve a pagar lo que ya está hecho (cada bloque se guarda en voz/partes/).
+    // Cada bloque se pide con el texto de antes y de después, para que la entonación siga igual entre bloques.
+    const bloques = [];
+    for (const f of p.frases.map(texto)) {
+      const b = bloques.at(-1);
+      if (b && (b.join(" ").length + f.length + 1) <= LIMITE_BLOQUE) b.push(f); else bloques.push([f]);
+    }
+    const dp = asegurar(join(dv, "partes")), partes = [];
+    for (const [i, b] of bloques.entries()) {
+      const txt = b.join(" "), antes = (bloques[i - 1] || []).join(" ").slice(-600), despues = (bloques[i + 1] || []).join(" ").slice(0, 600);
+      const hp = createHash("sha1").update(JSON.stringify([txt, antes, despues, voz])).digest("hex").slice(0, 12);
+      const fa = join(dp, `parte-${String(i + 1).padStart(2, "0")}.mp3`), fj = fa.replace(/\.mp3$/, ".json");
+      let a;
+      if (!rehacer && existsSync(fj) && existsSync(fa) && leerJSON(fj).huella === hp) a = leerJSON(fj).alignment;
+      else {
+        if (bloques.length > 1) console.log(`voz: bloque ${i + 1} de ${bloques.length} (${txt.length} letras)…`);
+        const r = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voz.id}/with-timestamps?output_format=mp3_44100_128`, {
+          method: "POST",
+          headers: { "xi-api-key": process.env.ELEVENLABS_API_KEY, "content-type": "application/json" },
+          body: JSON.stringify({ text: txt, model_id: voz.modelo, ...(antes ? { previous_text: antes } : {}), ...(despues ? { next_text: despues } : {}),
+            voice_settings: { stability: voz.estabilidad, similarity_boost: voz.similitud, style: voz.estilo, speed: voz.velocidad } }),
+        });
+        if (!r.ok) throw new Error(`ElevenLabs dijo ${r.status} en el bloque ${i + 1}: ${(await r.text()).slice(0, 300)}`);
+        const j = await r.json();
+        writeFileSync(fa, Buffer.from(j.audio_base64, "base64"));
+        a = j.alignment;
+        guardarJSON(fj, { huella: hp, alignment: a });
+      }
+      partes.push({ fa, a });
+    }
+    // se unen los bloques: cada uno empieza donde acaba el audio del anterior
+    chars = []; let off = 0;
+    for (const { fa, a } of partes) {
+      if (chars.length) chars.push({ c: " ", t0: off, t1: off });
+      for (const [i, c] of a.characters.entries()) chars.push({ c, t0: off + a.character_start_times_seconds[i], t1: off + a.character_end_times_seconds[i] });
+      off += duracion(fa);
+    }
+    if (partes.length === 1) writeFileSync(join(dv, "voz.mp3"), readFileSync(partes[0].fa));
+    else {
+      writeFileSync(join(dp, "lista.txt"), partes.map(({ fa }) => `file '${fa.replace(/'/g, "'\\''")}'`).join("\n") + "\n");
+      await ffmpeg(["-f", "concat", "-safe", "0", "-i", join(dp, "lista.txt"), "-c:a", "libmp3lame", "-b:a", "160k", join(dv, "voz.mp3")]);
+    }
   } else {
     console.log("⚠ Sin ELEVENLABS_API_KEY: modo prueba (silencio con tiempos estimados).");
     let t = 0.15;

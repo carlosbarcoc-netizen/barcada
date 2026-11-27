@@ -19,10 +19,12 @@ import { FONDOS as FONDOS_2D } from "./fondos.mjs";
 import { TINTA } from "./estilo.mjs";
 import { FONDOS_JUEGO, FONDOS_VIVOS, acabadoJuego, piel as pielDe } from "./juego.mjs";
 import { PIEZAS_JUEGO } from "./piezas-juego.mjs";
+import { PIEZAS_BIBLIA } from "./piezas-biblia.mjs";
+import { FONDOS_BIBLIA } from "./fondos-biblia.mjs";
 
-// Las piezas y los fondos de los dos estilos (2D con volumen y modo juego) en un solo catálogo.
-export const PIEZAS = { ...PIEZAS_2D, ...PIEZAS_JUEGO };
-export const FONDOS = { ...FONDOS_2D, ...FONDOS_JUEGO };
+// Las piezas y los fondos de todos los estilos (2D con volumen, historia bíblica y modo juego) en un solo catálogo.
+export const PIEZAS = { ...PIEZAS_2D, ...PIEZAS_BIBLIA, ...PIEZAS_JUEGO };
+export const FONDOS = { ...FONDOS_2D, ...FONDOS_BIBLIA, ...FONDOS_JUEGO };
 const pintarFondo = (nombre, o = {}) => (FONDOS[nombre] || FONDOS.estudio)({ t: 0, ...o });
 
 const lim = (u) => Math.max(0, Math.min(1, u));
