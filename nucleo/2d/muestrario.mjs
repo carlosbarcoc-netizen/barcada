@@ -15,6 +15,7 @@ import { usarFormato } from "../comun.mjs";
 const salida = process.argv[2] || "muestrario", piel = process.argv[3] || null;
 mkdirSync(salida, { recursive: true });
 if (piel === "relato") { await relato(); process.exit(0); }
+if (piel === "personajes") { await personajes(); process.exit(0); }
 const porHoja = 12, cols = 3, celW = 360, celH = 480;
 const ejemplos2d = { mazorca: { abre: 0.8 }, grano: { estado: 2.2 }, chocolate: { partida: 0.6 }, grafico: { tendencia: 1 }, celular: { pantalla: "+40%" }, laptop: { pantalla: "IA" }, numero: { texto: "70 %" }, texto: { texto: "¡HOLA!" }, persona: { pose: "saluda" }, signo: { tipo: "distinto" }, planeta: {}, reloj: { hora: 10.2 }, mano: { gesto: "senala" } };
 // ejemplos del modo juego: [parámetros, escala en la celda]
@@ -62,7 +63,7 @@ async function relato() {
     globo: [{ texto: "Sia lodato Gesù Cristo!" }, 0.55, 0], globos: [{ progreso: 1, ancho: 900, alto: 520 }, 0.5, 0],
     dato: [{ valor: 26, unidad: "idiomas" }, 0.6, 0], multitud: [{ ancho: 1000, alto: 420, luces: 0.08, brazos: 0.2 }, 0.45, -100],
     fachada: [{ ancho: 1500, alto: 620, figura: "papa", brazos: 1 }, 0.28, 120], balcon: [{ figura: "papa", brazos: 1 }, 0.3, 0],
-    figura: [{ vestuario: "monje", pose: "carga" }, 0.65, 0], avion: [{ estela: true }, 0.5, 0], vela: [{}, 0.7, 40],
+    figura: [{ vestuario: "monje", pose: "carga", brillo: 0.8 }, 0.65, 0], bebe: [{ cara: "llora" }, 0.45, 0], avion: [{ estela: true }, 0.5, 0], vela: [{}, 0.7, 40],
     resplandor: [{ radio: 400 }, 0.5, 0], documento: [{ titulo: "Mémoire", lineas: ["sur les instruments", "de la Passion — 1870"], trazo: "cruz", progreso: 1 }, 0.4, 0],
     mapa: [{ puntos: [[-0.6, 0.2], [-0.1, -0.3], [0.4, 0.1], [0.7, -0.4]], rutas: true, etiqueta: "siglo IV", progreso: 1 }, 0.32, 0],
     senalar: [{}, 0.35, 0], cruz: [{ material: "oro" }, 0.6, 0], aureola: [{}, 1, 0],
@@ -78,5 +79,18 @@ async function relato() {
     await foto(`<rect width="1920" height="1080" fill="#111"/>${celdas}`, f);
     console.log(f);
   }
+  await cerrarNavegador();
+}
+
+// Los personajes del relato: todos los vestuarios y caras, en una hoja (node nucleo/2d/muestrario.mjs <salida> personajes).
+async function personajes() {
+  usarFormato("16:9");
+  const casos = [["monje", {}], ["monje", { pose: "carga", brillo: 0.8 }], ["monje", { pose: "esconde", barba: "blanca" }], ["campesino", { cara: "preocupada" }], ["mujer", { cara: "atenta", nino: true }],
+    ["papa", { brazos: 1, cara: "feliz" }], ["reina", { cara: "serena" }], ["rey", { cara: "atenta" }], ["soldado", { pose: "senala", cara: "atenta" }], ["nino", { cara: "llora" }],
+    ["silueta", { corona: true, brazos: 0.8 }], ["mujer", { cara: "sorprendida", pose: "reza" }]];
+  const celdas = casos.map(([v, o], i) => { const x = (i % 6) * 320 + 160, y = Math.floor(i / 6) * 540 + 260;
+    return `<g transform="translate(${x} ${y}) scale(0.95)">${PIEZAS_RELATO.figura({ vestuario: v, t: 0.3, ...o })}</g><text x="${x}" y="${y + 250}" text-anchor="middle" font-family="Poppins" font-weight="800" font-size="26" fill="#fff">${v}${o.cara ? " · " + o.cara : ""}${o.pose ? " · " + o.pose : ""}</text>`; }).join("");
+  await foto(`${FONDOS["relato-casa"]({ t: 0.3 })}${celdas}`, join(salida, "relato-personajes.jpg"));
+  console.log(join(salida, "relato-personajes.jpg"));
   await cerrarNavegador();
 }

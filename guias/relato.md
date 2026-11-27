@@ -135,6 +135,8 @@ blanco, la clave de cada frase en la caja azul) salen solos. Para ver todo: `nod
 | `relato-pergamino` | mapas y documentos a pantalla completa | — |
 | `relato-campo` | pueblos, monasterios en el monte, caminos | 72 % |
 | `relato-mar` | barcos, travesías (sol bajo y olas que se mueven) | 62 % |
+| `relato-puerta` | el portón de madera con herrajes en su arco de piedra, para un personaje delante | 88 % |
+| `relato-casa` | interior en penumbra: ventana con luna e iglesia en el monte (`ventana` 0-1, dónde), chimenea encendida (`chimenea` 0-1) | 84 % |
 
 `fondoOpts.suelo` cambia la altura del suelo (en 16:9, la plaza de `relato-noche` queda bien hacia y 700).
 
@@ -148,7 +150,8 @@ blanco, la clave de cada frase en la caja azul) salen solos. Para ver todo: `nod
 | `multitud` | cientos de siluetas con luces de celular y banderas | **grande**: y 0 es la fila del fondo y crece hacia abajo hasta `alto`; `ancho`, `alto`, `luces` 0-1, `brazos` 0-1, `banderas` (n), `densidad` |
 | `fachada` | edificio clásico con columnas, cúpula y balcón encendido | **grande**: y 0 es la base; `ancho` (1500), `alto` (520), `cupula`, `columnas`, `luz` 0-1, `emblema` llaves/cruz/ninguno, `figura` (vestuario en el balcón), `brazos` |
 | `balcon` | primer plano del balcón con tapiz rojo | `figura` (vestuario), `brazos` 0-1 (se anima), `luz`, `emblema`; ≈ 1040 × 1200 a escala 1 |
-| `figura` | el personaje | `vestuario` monje/papa/reina/rey/campesino/mujer/soldado/nino/silueta, `brazos` 0-1, `pose` quieta/senala/reza/carga (con bebé), `barba` no/oscura/blanca/castaña, `ojos` cerrados/abiertos, `aureola` |
+| `figura` | el personaje (contorno fino, textura, pliegues, mano redonda) | `vestuario` monje/papa/reina/rey/campesino/mujer/soldado/nino/silueta; `cara` serena (ojos cerrados)/atenta/preocupada/llora/feliz/sorprendida; `pose` quieta/senala/reza/carga (abraza a un bebé)/abraza/esconde (brazos cruzados); `brazos` 0-1 (se anima: los levanta); `barba` no/oscura/blanca/castaña/gris; `color` (la túnica), `pelo`, `capucha` false, `corona`, `brillo` 0-1 (luz cálida en el pecho), `aureola`. Mide ≈ 400 de alto a escala 1: para un plano medio, escala 1,6-2,2 |
+| `bebe` | la cara del bebé en primerísimo primer plano | `cara` duerme/llora (lágrimas que caen)/sonrie; ≈ 600 de alto a escala 1 |
 | `avion` | avión sin marcas | `colores` [..] (franjas y cola), `rumbo` izquierda/derecha, `estela` |
 | `vela` | vela con llama que tiembla y su luz | `alto`, `brillo` |
 | `resplandor` | rayos de luz que giran (detrás de lo sagrado) | `radio`, `rayos`, `color`, `velocidad` |
@@ -175,5 +178,6 @@ blanco, la clave de cada frase en la caja azul) salen solos. Para ver todo: `nod
 ### Lo que aún falta (apúntalo en `aprendido.md` si un video lo pide)
 
 Barcos, edificios de otras épocas (templos, castillos, casas de pueblo), animales, objetos sueltos (bañera, caja,
-libro, llaves), la lupa y más vestuarios. Mientras, se construye la escena con lo que hay. La multitud es lenta de
+libro, llaves), la lupa, más vestuarios y personajes de perfil o de espaldas. Para ver los personajes:
+`node nucleo/2d/muestrario.mjs muestrario personajes`. Mientras, se construye la escena con lo que hay. La multitud es lenta de
 dibujar (muchas siluetas): en videos largos, úsala en pocas tomas o con `densidad` 0,7.
