@@ -1,0 +1,523 @@
+{
+  "titulo": "La vida de San José",
+  "estilo": "2d",
+  "largo": true,
+  "formato": "horizontal",
+  "marcaAgua": "@dulcepatriarca",
+  "sintetizar": "calma",
+  "musicaDb": -24,
+  "efectos": false,
+  "voz": {
+    "estabilidad": 0.5,
+    "estilo": 0.3,
+    "velocidad": 1
+  },
+  "capitulos": [
+    {
+      "titulo": "El hombre del silencio",
+      "desde": 1
+    },
+    {
+      "titulo": "Un carpintero de Nazaret",
+      "desde": 7
+    },
+    {
+      "titulo": "La noticia que lo cambió todo",
+      "desde": 23
+    },
+    {
+      "titulo": "Camino a Belén",
+      "desde": 37
+    },
+    {
+      "titulo": "Dos tórtolas en el templo",
+      "desde": 50
+    },
+    {
+      "titulo": "La huida a Egipto",
+      "desde": 58
+    },
+    {
+      "titulo": "Los años escondidos",
+      "desde": 75
+    },
+    {
+      "titulo": "Su partida y su herencia",
+      "desde": 90
+    }
+  ],
+  "frases": [
+    {
+      "texto": "En toda la Biblia, San José no dice ni una sola palabra.",
+      "clave": "palabra"
+    },
+    {
+      "texto": "Ni una. Los Evangelios no guardan ninguna frase suya.",
+      "clave": "frase"
+    },
+    {
+      "texto": "Y aun así, Dios le confió lo más valioso que tenía: a su Hijo y a su Madre.",
+      "clave": "confió"
+    },
+    {
+      "texto": "¿Cómo puede ser tan importante el hombre más callado de la historia?",
+      "clave": "callado"
+    },
+    {
+      "texto": "Quédate conmigo, porque hoy te cuento la vida de San José, el padre que Dios eligió para Jesús en la tierra.",
+      "clave": "José"
+    },
+    {
+      "texto": "Lo que dice la Biblia, y también lo que cuenta la tradición, cada cosa en su lugar.",
+      "clave": "tradición"
+    },
+    {
+      "texto": "José vivía en Nazaret, un pueblito pequeño de Galilea, al norte de Israel.",
+      "clave": "Nazaret"
+    },
+    {
+      "texto": "Pero su familia tenía raíces muy profundas.",
+      "clave": "raíces"
+    },
+    {
+      "texto": "Los Evangelios de Mateo y de Lucas dicen que era descendiente del rey David.",
+      "clave": "David"
+    },
+    {
+      "texto": "Imagínate: sangre de reyes, pero sin palacio, sin corona y sin riquezas.",
+      "clave": "corona"
+    },
+    {
+      "texto": "José se ganaba la vida con sus manos.",
+      "clave": "manos"
+    },
+    {
+      "texto": "En el Evangelio de Mateo, a Jesús lo llaman «el hijo del carpintero».",
+      "clave": "carpintero"
+    },
+    {
+      "texto": "La palabra griega es «tékton»: un artesano que trabajaba la madera, y quizás también la piedra.",
+      "clave": "tékton",
+      "dicho": "La palabra griega es «técton»: un artesano que trabajaba la madera, y quizás también la piedra."
+    },
+    {
+      "texto": "Puertas, mesas, arados, vigas para los techos… así se ganaba el pan de su casa.",
+      "clave": "pan"
+    },
+    {
+      "texto": "¿Y era un anciano, como lo pintan tantas veces?",
+      "clave": "anciano"
+    },
+    {
+      "texto": "Ojo con esto: la Biblia no dice su edad.",
+      "clave": "edad"
+    },
+    {
+      "texto": "La idea del José viejito viene de un escrito antiguo que no está en la Biblia: el Protoevangelio de Santiago.",
+      "clave": "Protoevangelio"
+    },
+    {
+      "texto": "Ese escrito cuenta que el sacerdote reunió a varios hombres, cada uno con su bastón.",
+      "clave": "bastón"
+    },
+    {
+      "texto": "Y que del bastón de José salió una paloma, como señal de que él cuidaría a María.",
+      "clave": "paloma"
+    },
+    {
+      "texto": "Otros relatos dicen que su vara floreció. Por eso lo ves pintado con una vara de lirios.",
+      "clave": "lirios"
+    },
+    {
+      "texto": "Es una leyenda bonita, pero es tradición, no Evangelio.",
+      "clave": "leyenda"
+    },
+    {
+      "texto": "Lo que sí sabemos es que José estaba comprometido con una joven de Nazaret llamada María.",
+      "clave": "María"
+    },
+    {
+      "texto": "En aquel tiempo, el compromiso ya era casi un matrimonio, aunque todavía no vivían juntos.",
+      "clave": "compromiso"
+    },
+    {
+      "texto": "Y entonces llegó la noticia: María esperaba un hijo.",
+      "clave": "hijo"
+    },
+    {
+      "texto": "José sabía que ese niño no era suyo. Imagínate lo que sintió.",
+      "clave": "sintió"
+    },
+    {
+      "texto": "Mateo dice algo precioso de él: que José era un hombre justo.",
+      "clave": "justo"
+    },
+    {
+      "texto": "Podía denunciarla en público, pero no quiso exponerla a la vergüenza.",
+      "clave": "vergüenza"
+    },
+    {
+      "texto": "Decidió separarse de ella en secreto, sin hacer ruido, para protegerla.",
+      "clave": "secreto"
+    },
+    {
+      "texto": "Y mientras pensaba en todo esto, se quedó dormido.",
+      "clave": "dormido"
+    },
+    {
+      "texto": "Aquí aparece el primero de los cuatro sueños de José.",
+      "clave": "sueños"
+    },
+    {
+      "texto": "Un ángel del Señor le dijo: «José, hijo de David, no temas recibir a María, tu mujer».",
+      "clave": "temas"
+    },
+    {
+      "texto": "«Lo que ha concebido viene del Espíritu Santo. Dará a luz un hijo, y tú le pondrás por nombre Jesús».",
+      "clave": "Jesús"
+    },
+    {
+      "texto": "¿Y qué hizo José al despertar?",
+      "clave": "despertar"
+    },
+    {
+      "texto": "No discutió. No pidió pruebas. No dijo nada.",
+      "clave": "nada"
+    },
+    {
+      "texto": "Hizo lo que el ángel le había mandado, y recibió a María en su casa.",
+      "clave": "recibió"
+    },
+    {
+      "texto": "Así es José: no habla, actúa.",
+      "clave": "actúa"
+    },
+    {
+      "texto": "Meses después llegó una orden del emperador Augusto: todos debían inscribirse en un censo.",
+      "clave": "censo"
+    },
+    {
+      "texto": "Y cada uno tenía que ir a su ciudad de origen.",
+      "clave": "ciudad"
+    },
+    {
+      "texto": "Para José, que era de la familia de David, eso significaba ir a Belén, la ciudad de David.",
+      "clave": "Belén"
+    },
+    {
+      "texto": "Más de cien kilómetros de camino, con María a punto de dar a luz.",
+      "clave": "kilómetros"
+    },
+    {
+      "texto": "La Biblia no menciona ningún burro, pero la tradición siempre los imagina así: María montada y José guiando el camino.",
+      "clave": "burro"
+    },
+    {
+      "texto": "Cuando por fin llegaron, no había lugar para ellos en el alojamiento.",
+      "clave": "lugar"
+    },
+    {
+      "texto": "Piensa en José, buscando un techo para su esposa, tocando puertas que no se abrían.",
+      "clave": "puertas"
+    },
+    {
+      "texto": "Al final, el Hijo de Dios nació en el lugar más humilde.",
+      "clave": "humilde"
+    },
+    {
+      "texto": "María lo envolvió en pañales y lo acostó en un pesebre, donde comían los animales.",
+      "clave": "pesebre"
+    },
+    {
+      "texto": "Esa misma noche llegaron unos pastores. Un ángel les había anunciado la gran noticia.",
+      "clave": "pastores"
+    },
+    {
+      "texto": "Y encontraron justo lo que el ángel les dijo: a María, a José y al niño acostado en el pesebre.",
+      "clave": "encontraron"
+    },
+    {
+      "texto": "A los ocho días, el niño recibió el nombre que había dicho el ángel: Jesús.",
+      "clave": "nombre"
+    },
+    {
+      "texto": "Ponerle el nombre le tocaba al padre. Y José asumió ese papel delante de todos.",
+      "clave": "padre"
+    },
+    {
+      "texto": "Cuando se cumplieron los días que pedía la ley, subieron al templo de Jerusalén.",
+      "clave": "templo"
+    },
+    {
+      "texto": "Iban a presentar al niño al Señor y a dar una ofrenda.",
+      "clave": "ofrenda"
+    },
+    {
+      "texto": "La ley pedía un cordero. Pero si una familia no podía pagarlo, bastaban dos tórtolas o dos pichones.",
+      "clave": "tórtolas"
+    },
+    {
+      "texto": "¿Sabes qué llevaron José y María? Las dos tórtolas.",
+      "clave": "dos"
+    },
+    {
+      "texto": "O sea: la familia de Jesús era pobre.",
+      "clave": "pobre"
+    },
+    {
+      "texto": "En el templo, un anciano llamado Simeón tomó al niño en brazos y bendijo a Dios.",
+      "clave": "Simeón"
+    },
+    {
+      "texto": "Dijo que ya podía morir en paz, porque sus ojos habían visto la salvación.",
+      "clave": "paz"
+    },
+    {
+      "texto": "Y Lucas cuenta que el padre y la madre del niño estaban admirados por lo que se decía de él.",
+      "clave": "admirados"
+    },
+    {
+      "texto": "Tiempo después llegaron unos magos de Oriente, siguiendo una estrella.",
+      "clave": "estrella"
+    },
+    {
+      "texto": "Buscaban al rey de los judíos que acababa de nacer, y le ofrecieron oro, incienso y mirra.",
+      "clave": "oro"
+    },
+    {
+      "texto": "Pero el rey Herodes se enteró, y tuvo miedo de perder su trono.",
+      "clave": "Herodes"
+    },
+    {
+      "texto": "Herodes buscaba al niño para quitarle la vida.",
+      "clave": "vida"
+    },
+    {
+      "texto": "Entonces llegó el segundo sueño.",
+      "clave": "segundo"
+    },
+    {
+      "texto": "«Levántate, toma al niño y a su madre, y huye a Egipto. Quédate allí hasta que yo te avise».",
+      "clave": "Egipto"
+    },
+    {
+      "texto": "Y fíjate en este detalle de Mateo: José se levantó, tomó al niño y a su madre, y se fue de noche.",
+      "clave": "noche"
+    },
+    {
+      "texto": "No esperó al amanecer. No hizo preguntas. Salió en ese mismo momento.",
+      "clave": "momento"
+    },
+    {
+      "texto": "Así, la Sagrada Familia vivió como refugiada en un país extranjero.",
+      "clave": "refugiada"
+    },
+    {
+      "texto": "Otra lengua, otras costumbres, y un carpintero buscando trabajo lejos de su tierra.",
+      "clave": "trabajo"
+    },
+    {
+      "texto": "Por eso hoy la Iglesia lo invoca como patrono de los exiliados.",
+      "clave": "exiliados"
+    },
+    {
+      "texto": "Pasó el tiempo, y Herodes murió.",
+      "clave": "murió"
+    },
+    {
+      "texto": "Tercer sueño: «Levántate, toma al niño y a su madre, y vuelve a la tierra de Israel».",
+      "clave": "vuelve"
+    },
+    {
+      "texto": "Pero en Judea gobernaba Arquelao, el hijo de Herodes, y José tuvo miedo de ir allá.",
+      "clave": "Arquelao"
+    },
+    {
+      "texto": "Y en un cuarto sueño, Dios le indicó que se fuera a Galilea.",
+      "clave": "cuarto"
+    },
+    {
+      "texto": "Así volvieron a su casa de siempre, en Nazaret.",
+      "clave": "casa"
+    },
+    {
+      "texto": "Cuatro sueños, cuatro órdenes, y las cuatro veces José obedeció sin decir una palabra.",
+      "clave": "obedeció"
+    },
+    {
+      "texto": "Y aquí empiezan los años que casi nadie cuenta: la vida sencilla en Nazaret.",
+      "clave": "sencilla"
+    },
+    {
+      "texto": "Por eso a esta etapa se le llama la vida oculta de Jesús.",
+      "clave": "oculta"
+    },
+    {
+      "texto": "En el Evangelio de Marcos, a Jesús mismo lo llaman «el carpintero».",
+      "clave": "carpintero"
+    },
+    {
+      "texto": "O sea, aprendió el oficio en casa, como hacían los hijos con sus padres en aquel tiempo.",
+      "clave": "oficio"
+    },
+    {
+      "texto": "Imagínate al Hijo de Dios aprendiendo a trabajar la madera junto a José.",
+      "clave": "madera"
+    },
+    {
+      "texto": "De esos años, los Evangelios cuentan un solo episodio. Y es de los más bonitos.",
+      "clave": "episodio"
+    },
+    {
+      "texto": "Cuando Jesús tenía doce años, la familia subió a Jerusalén para la fiesta de la Pascua.",
+      "clave": "Pascua"
+    },
+    {
+      "texto": "Al regresar, José y María caminaron un día entero creyendo que el niño iba con los demás.",
+      "clave": "día"
+    },
+    {
+      "texto": "Pero Jesús se había quedado en Jerusalén.",
+      "clave": "quedado"
+    },
+    {
+      "texto": "Lo buscaron entre parientes y conocidos, y volvieron a la ciudad.",
+      "clave": "buscaron"
+    },
+    {
+      "texto": "Al tercer día lo encontraron en el templo, sentado entre los maestros, escuchándolos y haciéndoles preguntas.",
+      "clave": "tercer"
+    },
+    {
+      "texto": "Y María le dijo: «Hijo, ¿por qué nos has hecho esto? Tu padre y yo te buscábamos angustiados».",
+      "clave": "angustiados"
+    },
+    {
+      "texto": "«Tu padre y yo». Así llamaba María a José delante de Jesús.",
+      "clave": "padre"
+    },
+    {
+      "texto": "Lucas termina diciendo que Jesús bajó con ellos a Nazaret, y vivía sujeto a ellos.",
+      "clave": "sujeto"
+    },
+    {
+      "texto": "Y que crecía en sabiduría, en estatura y en gracia delante de Dios y de los hombres.",
+      "clave": "crecía"
+    },
+    {
+      "texto": "Después de ese día, José desaparece del relato.",
+      "clave": "desaparece"
+    },
+    {
+      "texto": "Cuando Jesús comienza su vida pública, ya no se le menciona.",
+      "clave": "menciona"
+    },
+    {
+      "texto": "Y al pie de la cruz, Jesús le confía su madre al discípulo Juan.",
+      "clave": "Juan"
+    },
+    {
+      "texto": "Por eso la tradición piensa que José ya había muerto.",
+      "clave": "muerto"
+    },
+    {
+      "texto": "Y cuenta que murió en Nazaret, acompañado por Jesús y por María.",
+      "clave": "acompañado"
+    },
+    {
+      "texto": "¿Te imaginas una despedida más dulce que esa?",
+      "clave": "dulce"
+    },
+    {
+      "texto": "Por eso muchos lo invocan como patrono de la buena muerte.",
+      "clave": "muerte"
+    },
+    {
+      "texto": "Pero la historia de José no terminó ahí.",
+      "clave": "terminó"
+    },
+    {
+      "texto": "El 8 de diciembre de 1870, el papa Pío IX lo declaró patrono de la Iglesia universal.",
+      "clave": "universal",
+      "dicho": "El ocho de diciembre de mil ochocientos setenta, el papa Pío Nono lo declaró patrono de la Iglesia universal."
+    },
+    {
+      "texto": "El mismo que cuidó a Jesús en Nazaret, ahora cuida a toda la Iglesia.",
+      "clave": "cuida"
+    },
+    {
+      "texto": "Su fiesta es el 19 de marzo. Y desde 1955, cada primero de mayo se celebra a San José Obrero.",
+      "clave": "Obrero",
+      "dicho": "Su fiesta es el diecinueve de marzo. Y desde mil novecientos cincuenta y cinco, cada primero de mayo se celebra a San José Obrero."
+    },
+    {
+      "texto": "En 2013, su nombre se añadió a las plegarias de la Misa, justo después del de María.",
+      "clave": "Misa",
+      "dicho": "En dos mil trece, su nombre se añadió a las plegarias de la Misa, justo después del de María."
+    },
+    {
+      "texto": "Y en 2020, el papa Francisco le dedicó una carta entera: «Con corazón de padre».",
+      "clave": "corazón",
+      "dicho": "Y en dos mil veinte, el papa Francisco le dedicó una carta entera: «Con corazón de padre»."
+    },
+    {
+      "texto": "Allí lo llama padre amado, padre en la ternura, en la obediencia y en la acogida.",
+      "clave": "ternura"
+    },
+    {
+      "texto": "Padre de la valentía creativa, padre trabajador y padre en la sombra.",
+      "clave": "sombra"
+    },
+    {
+      "texto": "Padre en la sombra. Quizás esa sea la mejor forma de resumir su vida.",
+      "clave": "resumir"
+    },
+    {
+      "texto": "José no buscó aplausos ni dejó discursos.",
+      "clave": "aplausos"
+    },
+    {
+      "texto": "Solo estuvo ahí, cada vez que Dios lo necesitó.",
+      "clave": "ahí"
+    },
+    {
+      "texto": "Y eso nos deja una pregunta a cada uno de nosotros.",
+      "clave": "pregunta"
+    },
+    {
+      "texto": "¿Cuántas veces queremos tener todas las respuestas antes de dar un paso?",
+      "clave": "respuestas"
+    },
+    {
+      "texto": "José no las tenía. Tenía confianza.",
+      "clave": "confianza"
+    },
+    {
+      "texto": "Y con esa confianza cuidó, trabajó, protegió y amó.",
+      "clave": "amó"
+    },
+    {
+      "texto": "San José, ruega por nosotros.",
+      "clave": "ruega"
+    },
+    {
+      "texto": "Si esta historia te tocó el corazón, suscríbete a Dulce Patriarca y compártela con alguien que hoy necesite confiar.",
+      "clave": "suscríbete"
+    }
+  ],
+  "escenas": [
+    {
+      "nombre": "capitulo-1",
+      "tomas": [
+        {
+          "desde": 0,
+          "rotulo": "",
+          "dibujo": {
+            "fondo": "nazaret",
+            "elementos": []
+          }
+        }
+      ]
+    }
+  ]
+}
