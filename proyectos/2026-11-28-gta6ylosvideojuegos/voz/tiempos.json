@@ -1,0 +1,8693 @@
+{
+  "huella": "fae0fcedb362",
+  "duracion": 606.1002440000001,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "Son las once de la noche. La casa está en silencio.",
+      "clave": "silencio",
+      "inicio": 0,
+      "fin": 3.82,
+      "palabras": [
+        {
+          "texto": "Son",
+          "inicio": 0,
+          "fin": 0.197
+        },
+        {
+          "texto": "las",
+          "inicio": 0.232,
+          "fin": 0.395
+        },
+        {
+          "texto": "once",
+          "inicio": 0.499,
+          "fin": 0.906
+        },
+        {
+          "texto": "de",
+          "inicio": 0.964,
+          "fin": 1.033
+        },
+        {
+          "texto": "la",
+          "inicio": 1.08,
+          "fin": 1.161
+        },
+        {
+          "texto": "noche.",
+          "inicio": 1.219,
+          "fin": 1.869
+        },
+        {
+          "texto": "La",
+          "inicio": 2.159,
+          "fin": 2.276
+        },
+        {
+          "texto": "casa",
+          "inicio": 2.334,
+          "fin": 2.635
+        },
+        {
+          "texto": "está",
+          "inicio": 2.682,
+          "fin": 2.856
+        },
+        {
+          "texto": "en",
+          "inicio": 2.914,
+          "fin": 2.961
+        },
+        {
+          "texto": "silencio.",
+          "inicio": 3.019,
+          "fin": 3.82
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Los papás creen que su hijo duerme.",
+      "clave": "duerme",
+      "inicio": 4.168,
+      "fin": 6.153,
+      "palabras": [
+        {
+          "texto": "Los",
+          "inicio": 4.168,
+          "fin": 4.319
+        },
+        {
+          "texto": "papás",
+          "inicio": 4.365,
+          "fin": 4.609
+        },
+        {
+          "texto": "creen",
+          "inicio": 4.644,
+          "fin": 4.853
+        },
+        {
+          "texto": "que",
+          "inicio": 4.899,
+          "fin": 4.981
+        },
+        {
+          "texto": "su",
+          "inicio": 5.027,
+          "fin": 5.132
+        },
+        {
+          "texto": "hijo",
+          "inicio": 5.166,
+          "fin": 5.387
+        },
+        {
+          "texto": "duerme.",
+          "inicio": 5.445,
+          "fin": 6.153
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Pero debajo de la puerta de su cuarto se escapa una luz azul.",
+      "clave": "debajo",
+      "inicio": 6.444,
+      "fin": 9.961,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 6.444,
+          "fin": 6.641
+        },
+        {
+          "texto": "debajo",
+          "inicio": 6.687,
+          "fin": 7.07
+        },
+        {
+          "texto": "de",
+          "inicio": 7.129,
+          "fin": 7.187
+        },
+        {
+          "texto": "la",
+          "inicio": 7.233,
+          "fin": 7.303
+        },
+        {
+          "texto": "puerta",
+          "inicio": 7.349,
+          "fin": 7.651
+        },
+        {
+          "texto": "de",
+          "inicio": 7.697,
+          "fin": 7.755
+        },
+        {
+          "texto": "su",
+          "inicio": 7.802,
+          "fin": 7.906
+        },
+        {
+          "texto": "cuarto",
+          "inicio": 7.953,
+          "fin": 8.255
+        },
+        {
+          "texto": "se",
+          "inicio": 8.301,
+          "fin": 8.382
+        },
+        {
+          "texto": "escapa",
+          "inicio": 8.429,
+          "fin": 8.824
+        },
+        {
+          "texto": "una",
+          "inicio": 8.928,
+          "fin": 9.114
+        },
+        {
+          "texto": "luz",
+          "inicio": 9.172,
+          "fin": 9.381
+        },
+        {
+          "texto": "azul.",
+          "inicio": 9.439,
+          "fin": 9.961
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Esa luz es una pantalla. Y en esa pantalla, su hijo acaba de robar un carro, huir de la policía… y ganar dinero por hacerlo.",
+      "clave": "pantalla",
+      "inicio": 10.31,
+      "fin": 19.307,
+      "palabras": [
+        {
+          "texto": "Esa",
+          "inicio": 10.31,
+          "fin": 10.612
+        },
+        {
+          "texto": "luz",
+          "inicio": 10.67,
+          "fin": 10.89
+        },
+        {
+          "texto": "es",
+          "inicio": 10.995,
+          "fin": 11.064
+        },
+        {
+          "texto": "una",
+          "inicio": 11.204,
+          "fin": 11.378
+        },
+        {
+          "texto": "pantalla.",
+          "inicio": 11.436,
+          "fin": 12.353
+        },
+        {
+          "texto": "Y",
+          "inicio": 12.701,
+          "fin": 12.759
+        },
+        {
+          "texto": "en",
+          "inicio": 12.817,
+          "fin": 12.864
+        },
+        {
+          "texto": "esa",
+          "inicio": 12.922,
+          "fin": 13.061
+        },
+        {
+          "texto": "pantalla,",
+          "inicio": 13.108,
+          "fin": 13.63
+        },
+        {
+          "texto": "su",
+          "inicio": 13.653,
+          "fin": 13.769
+        },
+        {
+          "texto": "hijo",
+          "inicio": 13.804,
+          "fin": 14.025
+        },
+        {
+          "texto": "acaba",
+          "inicio": 14.06,
+          "fin": 14.338
+        },
+        {
+          "texto": "de",
+          "inicio": 14.385,
+          "fin": 14.443
+        },
+        {
+          "texto": "robar",
+          "inicio": 14.501,
+          "fin": 14.768
+        },
+        {
+          "texto": "un",
+          "inicio": 14.826,
+          "fin": 14.884
+        },
+        {
+          "texto": "carro,",
+          "inicio": 14.942,
+          "fin": 15.523
+        },
+        {
+          "texto": "huir",
+          "inicio": 15.627,
+          "fin": 15.975
+        },
+        {
+          "texto": "de",
+          "inicio": 16.033,
+          "fin": 16.091
+        },
+        {
+          "texto": "la",
+          "inicio": 16.138,
+          "fin": 16.208
+        },
+        {
+          "texto": "policía…",
+          "inicio": 16.254,
+          "fin": 17.218
+        },
+        {
+          "texto": "y",
+          "inicio": 17.566,
+          "fin": 17.624
+        },
+        {
+          "texto": "ganar",
+          "inicio": 17.705,
+          "fin": 17.995
+        },
+        {
+          "texto": "dinero",
+          "inicio": 18.054,
+          "fin": 18.425
+        },
+        {
+          "texto": "por",
+          "inicio": 18.483,
+          "fin": 18.611
+        },
+        {
+          "texto": "hacerlo.",
+          "inicio": 18.646,
+          "fin": 19.307
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "No es una película. Es un juego. Y el juego lo está premiando.",
+      "clave": "premiando",
+      "inicio": 19.656,
+      "fin": 24.276,
+      "palabras": [
+        {
+          "texto": "No",
+          "inicio": 19.656,
+          "fin": 19.923
+        },
+        {
+          "texto": "es",
+          "inicio": 20.027,
+          "fin": 20.12
+        },
+        {
+          "texto": "una",
+          "inicio": 20.236,
+          "fin": 20.376
+        },
+        {
+          "texto": "película.",
+          "inicio": 20.434,
+          "fin": 21.2
+        },
+        {
+          "texto": "Es",
+          "inicio": 21.386,
+          "fin": 21.606
+        },
+        {
+          "texto": "un",
+          "inicio": 21.722,
+          "fin": 21.804
+        },
+        {
+          "texto": "juego.",
+          "inicio": 21.862,
+          "fin": 22.407
+        },
+        {
+          "texto": "Y",
+          "inicio": 22.663,
+          "fin": 22.721
+        },
+        {
+          "texto": "el",
+          "inicio": 22.779,
+          "fin": 22.837
+        },
+        {
+          "texto": "juego",
+          "inicio": 22.895,
+          "fin": 23.15
+        },
+        {
+          "texto": "lo",
+          "inicio": 23.197,
+          "fin": 23.266
+        },
+        {
+          "texto": "está",
+          "inicio": 23.301,
+          "fin": 23.487
+        },
+        {
+          "texto": "premiando.",
+          "inicio": 23.533,
+          "fin": 24.276
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Hace solo unos días salió GTA 6, uno de los videojuegos más esperados de la historia.",
+      "clave": "videojuegos",
+      "inicio": 24.683,
+      "fin": 30.302,
+      "palabras": [
+        {
+          "texto": "Hace",
+          "inicio": 24.683,
+          "fin": 24.95
+        },
+        {
+          "texto": "solo",
+          "inicio": 24.996,
+          "fin": 25.228
+        },
+        {
+          "texto": "unos",
+          "inicio": 25.275,
+          "fin": 25.449
+        },
+        {
+          "texto": "días",
+          "inicio": 25.496,
+          "fin": 25.821
+        },
+        {
+          "texto": "salió",
+          "inicio": 25.844,
+          "fin": 26.25
+        },
+        {
+          "texto": "GTA",
+          "inicio": 26.308,
+          "fin": 26.691
+        },
+        {
+          "texto": "6,",
+          "inicio": 26.749,
+          "fin": 27.295
+        },
+        {
+          "texto": "uno",
+          "inicio": 27.458,
+          "fin": 27.609
+        },
+        {
+          "texto": "de",
+          "inicio": 27.655,
+          "fin": 27.701
+        },
+        {
+          "texto": "los",
+          "inicio": 27.736,
+          "fin": 27.829
+        },
+        {
+          "texto": "videojuegos",
+          "inicio": 27.876,
+          "fin": 28.433
+        },
+        {
+          "texto": "más",
+          "inicio": 28.491,
+          "fin": 28.665
+        },
+        {
+          "texto": "esperados",
+          "inicio": 28.735,
+          "fin": 29.292
+        },
+        {
+          "texto": "de",
+          "inicio": 29.338,
+          "fin": 29.396
+        },
+        {
+          "texto": "la",
+          "inicio": 29.443,
+          "fin": 29.513
+        },
+        {
+          "texto": "historia.",
+          "inicio": 29.536,
+          "fin": 30.302
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "Y muchos líderes católicos están levantando la voz.",
+      "clave": "levantando",
+      "inicio": 30.592,
+      "fin": 33.391,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 30.592,
+          "fin": 30.65
+        },
+        {
+          "texto": "muchos",
+          "inicio": 30.708,
+          "fin": 30.987
+        },
+        {
+          "texto": "líderes",
+          "inicio": 31.045,
+          "fin": 31.417
+        },
+        {
+          "texto": "católicos",
+          "inicio": 31.463,
+          "fin": 31.951
+        },
+        {
+          "texto": "están",
+          "inicio": 32.009,
+          "fin": 32.23
+        },
+        {
+          "texto": "levantando",
+          "inicio": 32.253,
+          "fin": 32.822
+        },
+        {
+          "texto": "la",
+          "inicio": 32.868,
+          "fin": 32.938
+        },
+        {
+          "texto": "voz.",
+          "inicio": 32.996,
+          "fin": 33.391
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "No porque odien la tecnología. Sino porque ven algo que muchos padres no están viendo.",
+      "clave": "tecnología",
+      "inicio": 33.681,
+      "fin": 39.045,
+      "palabras": [
+        {
+          "texto": "No",
+          "inicio": 33.681,
+          "fin": 33.797
+        },
+        {
+          "texto": "porque",
+          "inicio": 33.843,
+          "fin": 34.134
+        },
+        {
+          "texto": "odien",
+          "inicio": 34.203,
+          "fin": 34.482
+        },
+        {
+          "texto": "la",
+          "inicio": 34.54,
+          "fin": 34.61
+        },
+        {
+          "texto": "tecnología.",
+          "inicio": 34.656,
+          "fin": 35.562
+        },
+        {
+          "texto": "Sino",
+          "inicio": 35.852,
+          "fin": 36.096
+        },
+        {
+          "texto": "porque",
+          "inicio": 36.142,
+          "fin": 36.398
+        },
+        {
+          "texto": "ven",
+          "inicio": 36.456,
+          "fin": 36.583
+        },
+        {
+          "texto": "algo",
+          "inicio": 36.665,
+          "fin": 36.874
+        },
+        {
+          "texto": "que",
+          "inicio": 36.92,
+          "fin": 37.001
+        },
+        {
+          "texto": "muchos",
+          "inicio": 37.059,
+          "fin": 37.408
+        },
+        {
+          "texto": "padres",
+          "inicio": 37.489,
+          "fin": 37.884
+        },
+        {
+          "texto": "no",
+          "inicio": 37.942,
+          "fin": 38.035
+        },
+        {
+          "texto": "están",
+          "inicio": 38.081,
+          "fin": 38.395
+        },
+        {
+          "texto": "viendo.",
+          "inicio": 38.453,
+          "fin": 39.045
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Hoy te voy a contar qué es, qué dice la ciencia, qué dice la Iglesia… y qué puedes hacer en tu casa desde esta misma noche.",
+      "clave": "ciencia",
+      "inicio": 39.3,
+      "fin": 46.859,
+      "palabras": [
+        {
+          "texto": "Hoy",
+          "inicio": 39.3,
+          "fin": 39.463
+        },
+        {
+          "texto": "te",
+          "inicio": 39.509,
+          "fin": 39.579
+        },
+        {
+          "texto": "voy",
+          "inicio": 39.625,
+          "fin": 39.753
+        },
+        {
+          "texto": "a",
+          "inicio": 39.799,
+          "fin": 39.823
+        },
+        {
+          "texto": "contar",
+          "inicio": 39.869,
+          "fin": 40.206
+        },
+        {
+          "texto": "qué",
+          "inicio": 40.287,
+          "fin": 40.473
+        },
+        {
+          "texto": "es,",
+          "inicio": 40.635,
+          "fin": 40.856
+        },
+        {
+          "texto": "qué",
+          "inicio": 40.914,
+          "fin": 41.076
+        },
+        {
+          "texto": "dice",
+          "inicio": 41.181,
+          "fin": 41.46
+        },
+        {
+          "texto": "la",
+          "inicio": 41.518,
+          "fin": 41.611
+        },
+        {
+          "texto": "ciencia,",
+          "inicio": 41.645,
+          "fin": 42.226
+        },
+        {
+          "texto": "qué",
+          "inicio": 42.261,
+          "fin": 42.354
+        },
+        {
+          "texto": "dice",
+          "inicio": 42.412,
+          "fin": 42.609
+        },
+        {
+          "texto": "la",
+          "inicio": 42.667,
+          "fin": 42.713
+        },
+        {
+          "texto": "Iglesia…",
+          "inicio": 42.737,
+          "fin": 43.596
+        },
+        {
+          "texto": "y",
+          "inicio": 43.944,
+          "fin": 44.002
+        },
+        {
+          "texto": "qué",
+          "inicio": 44.118,
+          "fin": 44.223
+        },
+        {
+          "texto": "puedes",
+          "inicio": 44.281,
+          "fin": 44.583
+        },
+        {
+          "texto": "hacer",
+          "inicio": 44.641,
+          "fin": 44.85
+        },
+        {
+          "texto": "en",
+          "inicio": 44.896,
+          "fin": 44.943
+        },
+        {
+          "texto": "tu",
+          "inicio": 44.989,
+          "fin": 45.07
+        },
+        {
+          "texto": "casa",
+          "inicio": 45.128,
+          "fin": 45.372
+        },
+        {
+          "texto": "desde",
+          "inicio": 45.43,
+          "fin": 45.662
+        },
+        {
+          "texto": "esta",
+          "inicio": 45.72,
+          "fin": 45.941
+        },
+        {
+          "texto": "misma",
+          "inicio": 45.999,
+          "fin": 46.29
+        },
+        {
+          "texto": "noche.",
+          "inicio": 46.348,
+          "fin": 46.859
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Si quieres proteger la fe de tu familia, suscríbete a Dulce Patriarca. Es gratis, y nos ayuda muchísimo.",
+      "clave": "suscríbete",
+      "inicio": 47.114,
+      "fin": 53.244,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 47.114,
+          "fin": 47.23
+        },
+        {
+          "texto": "quieres",
+          "inicio": 47.277,
+          "fin": 47.509
+        },
+        {
+          "texto": "proteger",
+          "inicio": 47.555,
+          "fin": 47.938
+        },
+        {
+          "texto": "la",
+          "inicio": 47.996,
+          "fin": 48.066
+        },
+        {
+          "texto": "fe",
+          "inicio": 48.113,
+          "fin": 48.217
+        },
+        {
+          "texto": "de",
+          "inicio": 48.252,
+          "fin": 48.321
+        },
+        {
+          "texto": "tu",
+          "inicio": 48.368,
+          "fin": 48.449
+        },
+        {
+          "texto": "familia,",
+          "inicio": 48.496,
+          "fin": 48.89
+        },
+        {
+          "texto": "suscríbete",
+          "inicio": 48.914,
+          "fin": 49.436
+        },
+        {
+          "texto": "a",
+          "inicio": 49.494,
+          "fin": 49.517
+        },
+        {
+          "texto": "Dulce",
+          "inicio": 49.564,
+          "fin": 49.854
+        },
+        {
+          "texto": "Patriarca.",
+          "inicio": 49.9,
+          "fin": 50.655
+        },
+        {
+          "texto": "Es",
+          "inicio": 50.945,
+          "fin": 51.108
+        },
+        {
+          "texto": "gratis,",
+          "inicio": 51.154,
+          "fin": 51.723
+        },
+        {
+          "texto": "y",
+          "inicio": 51.828,
+          "fin": 51.909
+        },
+        {
+          "texto": "nos",
+          "inicio": 52.013,
+          "fin": 52.141
+        },
+        {
+          "texto": "ayuda",
+          "inicio": 52.199,
+          "fin": 52.455
+        },
+        {
+          "texto": "muchísimo.",
+          "inicio": 52.489,
+          "fin": 53.244
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Empecemos por lo que está pasando.",
+      "clave": "Empecemos",
+      "inicio": 53.65,
+      "fin": 55.566,
+      "palabras": [
+        {
+          "texto": "Empecemos",
+          "inicio": 53.65,
+          "fin": 54.15
+        },
+        {
+          "texto": "por",
+          "inicio": 54.208,
+          "fin": 54.335
+        },
+        {
+          "texto": "lo",
+          "inicio": 54.37,
+          "fin": 54.452
+        },
+        {
+          "texto": "que",
+          "inicio": 54.51,
+          "fin": 54.591
+        },
+        {
+          "texto": "está",
+          "inicio": 54.637,
+          "fin": 54.823
+        },
+        {
+          "texto": "pasando.",
+          "inicio": 54.881,
+          "fin": 55.566
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "GTA 6 salió a la venta el diecinueve de noviembre.",
+      "clave": "diecinueve",
+      "inicio": 56.031,
+      "fin": 59.572,
+      "palabras": [
+        {
+          "texto": "GTA",
+          "inicio": 56.031,
+          "fin": 56.46
+        },
+        {
+          "texto": "6",
+          "inicio": 56.565,
+          "fin": 56.785
+        },
+        {
+          "texto": "salió",
+          "inicio": 56.843,
+          "fin": 57.157
+        },
+        {
+          "texto": "a",
+          "inicio": 57.203,
+          "fin": 57.226
+        },
+        {
+          "texto": "la",
+          "inicio": 57.261,
+          "fin": 57.331
+        },
+        {
+          "texto": "venta",
+          "inicio": 57.389,
+          "fin": 57.807
+        },
+        {
+          "texto": "el",
+          "inicio": 57.876,
+          "fin": 57.969
+        },
+        {
+          "texto": "diecinueve",
+          "inicio": 58.027,
+          "fin": 58.747
+        },
+        {
+          "texto": "de",
+          "inicio": 58.805,
+          "fin": 58.875
+        },
+        {
+          "texto": "noviembre.",
+          "inicio": 58.933,
+          "fin": 59.572
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "Y según la propia empresa, en su primer día vendió casi tres mil ochocientos millones de dólares.",
+      "clave": "ochocientos",
+      "inicio": 59.978,
+      "fin": 65.899,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 59.978,
+          "fin": 60.048
+        },
+        {
+          "texto": "según",
+          "inicio": 60.117,
+          "fin": 60.419
+        },
+        {
+          "texto": "la",
+          "inicio": 60.5,
+          "fin": 60.605
+        },
+        {
+          "texto": "propia",
+          "inicio": 60.651,
+          "fin": 60.941
+        },
+        {
+          "texto": "empresa,",
+          "inicio": 60.964,
+          "fin": 61.58
+        },
+        {
+          "texto": "en",
+          "inicio": 61.766,
+          "fin": 61.87
+        },
+        {
+          "texto": "su",
+          "inicio": 61.916,
+          "fin": 61.998
+        },
+        {
+          "texto": "primer",
+          "inicio": 62.033,
+          "fin": 62.311
+        },
+        {
+          "texto": "día",
+          "inicio": 62.369,
+          "fin": 62.567
+        },
+        {
+          "texto": "vendió",
+          "inicio": 62.613,
+          "fin": 62.903
+        },
+        {
+          "texto": "casi",
+          "inicio": 62.961,
+          "fin": 63.194
+        },
+        {
+          "texto": "tres",
+          "inicio": 63.252,
+          "fin": 63.449
+        },
+        {
+          "texto": "mil",
+          "inicio": 63.53,
+          "fin": 63.786
+        },
+        {
+          "texto": "ochocientos",
+          "inicio": 63.89,
+          "fin": 64.529
+        },
+        {
+          "texto": "millones",
+          "inicio": 64.598,
+          "fin": 65.063
+        },
+        {
+          "texto": "de",
+          "inicio": 65.109,
+          "fin": 65.179
+        },
+        {
+          "texto": "dólares.",
+          "inicio": 65.237,
+          "fin": 65.899
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "texto": "Según la misma empresa, es el estreno que más dinero ha hecho en toda la historia del entretenimiento. Más que cualquier película.",
+      "clave": "entretenimiento",
+      "inicio": 66.305,
+      "fin": 74.769,
+      "palabras": [
+        {
+          "texto": "Según",
+          "inicio": 66.305,
+          "fin": 66.665
+        },
+        {
+          "texto": "la",
+          "inicio": 66.735,
+          "fin": 66.839
+        },
+        {
+          "texto": "misma",
+          "inicio": 66.897,
+          "fin": 67.176
+        },
+        {
+          "texto": "empresa,",
+          "inicio": 67.211,
+          "fin": 67.884
+        },
+        {
+          "texto": "es",
+          "inicio": 68.105,
+          "fin": 68.256
+        },
+        {
+          "texto": "el",
+          "inicio": 68.314,
+          "fin": 68.383
+        },
+        {
+          "texto": "estreno",
+          "inicio": 68.441,
+          "fin": 68.836
+        },
+        {
+          "texto": "que",
+          "inicio": 68.882,
+          "fin": 68.964
+        },
+        {
+          "texto": "más",
+          "inicio": 69.033,
+          "fin": 69.254
+        },
+        {
+          "texto": "dinero",
+          "inicio": 69.3,
+          "fin": 69.695
+        },
+        {
+          "texto": "ha",
+          "inicio": 69.765,
+          "fin": 69.846
+        },
+        {
+          "texto": "hecho",
+          "inicio": 69.904,
+          "fin": 70.252
+        },
+        {
+          "texto": "en",
+          "inicio": 70.392,
+          "fin": 70.566
+        },
+        {
+          "texto": "toda",
+          "inicio": 70.624,
+          "fin": 70.868
+        },
+        {
+          "texto": "la",
+          "inicio": 70.914,
+          "fin": 70.972
+        },
+        {
+          "texto": "historia",
+          "inicio": 70.995,
+          "fin": 71.437
+        },
+        {
+          "texto": "del",
+          "inicio": 71.495,
+          "fin": 71.599
+        },
+        {
+          "texto": "entretenimiento.",
+          "inicio": 71.657,
+          "fin": 72.772
+        },
+        {
+          "texto": "Más",
+          "inicio": 73.12,
+          "fin": 73.445
+        },
+        {
+          "texto": "que",
+          "inicio": 73.492,
+          "fin": 73.573
+        },
+        {
+          "texto": "cualquier",
+          "inicio": 73.619,
+          "fin": 73.968
+        },
+        {
+          "texto": "película.",
+          "inicio": 74.026,
+          "fin": 74.769
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "texto": "Millones de personas en todo el mundo esperaron más de diez años por este juego.",
+      "clave": "esperaron",
+      "inicio": 75.059,
+      "fin": 79.006,
+      "palabras": [
+        {
+          "texto": "Millones",
+          "inicio": 75.059,
+          "fin": 75.465
+        },
+        {
+          "texto": "de",
+          "inicio": 75.5,
+          "fin": 75.558
+        },
+        {
+          "texto": "personas",
+          "inicio": 75.604,
+          "fin": 75.999
+        },
+        {
+          "texto": "en",
+          "inicio": 76.057,
+          "fin": 76.115
+        },
+        {
+          "texto": "todo",
+          "inicio": 76.162,
+          "fin": 76.371
+        },
+        {
+          "texto": "el",
+          "inicio": 76.394,
+          "fin": 76.452
+        },
+        {
+          "texto": "mundo",
+          "inicio": 76.51,
+          "fin": 76.719
+        },
+        {
+          "texto": "esperaron",
+          "inicio": 76.765,
+          "fin": 77.183
+        },
+        {
+          "texto": "más",
+          "inicio": 77.23,
+          "fin": 77.392
+        },
+        {
+          "texto": "de",
+          "inicio": 77.439,
+          "fin": 77.497
+        },
+        {
+          "texto": "diez",
+          "inicio": 77.555,
+          "fin": 77.764
+        },
+        {
+          "texto": "años",
+          "inicio": 77.822,
+          "fin": 78.066
+        },
+        {
+          "texto": "por",
+          "inicio": 78.124,
+          "fin": 78.24
+        },
+        {
+          "texto": "este",
+          "inicio": 78.286,
+          "fin": 78.449
+        },
+        {
+          "texto": "juego.",
+          "inicio": 78.495,
+          "fin": 79.006
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "texto": "Y no es un juego cualquiera. Es un juego pensado para adultos.",
+      "clave": "cualquiera",
+      "inicio": 79.227,
+      "fin": 83.488,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 79.227,
+          "fin": 79.285
+        },
+        {
+          "texto": "no",
+          "inicio": 79.366,
+          "fin": 79.447
+        },
+        {
+          "texto": "es",
+          "inicio": 79.494,
+          "fin": 79.552
+        },
+        {
+          "texto": "un",
+          "inicio": 79.621,
+          "fin": 79.691
+        },
+        {
+          "texto": "juego",
+          "inicio": 79.738,
+          "fin": 80.005
+        },
+        {
+          "texto": "cualquiera.",
+          "inicio": 80.051,
+          "fin": 80.782
+        },
+        {
+          "texto": "Es",
+          "inicio": 81.131,
+          "fin": 81.282
+        },
+        {
+          "texto": "un",
+          "inicio": 81.351,
+          "fin": 81.421
+        },
+        {
+          "texto": "juego",
+          "inicio": 81.467,
+          "fin": 81.723
+        },
+        {
+          "texto": "pensado",
+          "inicio": 81.781,
+          "fin": 82.338
+        },
+        {
+          "texto": "para",
+          "inicio": 82.408,
+          "fin": 82.675
+        },
+        {
+          "texto": "adultos.",
+          "inicio": 82.721,
+          "fin": 83.488
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "texto": "Las entregas de esta saga se clasifican así por su violencia, su lenguaje y su contenido sexual.",
+      "clave": "clasifican",
+      "inicio": 84.033,
+      "fin": 90.291,
+      "palabras": [
+        {
+          "texto": "Las",
+          "inicio": 84.033,
+          "fin": 84.184
+        },
+        {
+          "texto": "entregas",
+          "inicio": 84.242,
+          "fin": 84.649
+        },
+        {
+          "texto": "de",
+          "inicio": 84.695,
+          "fin": 84.765
+        },
+        {
+          "texto": "esta",
+          "inicio": 84.823,
+          "fin": 85.02
+        },
+        {
+          "texto": "saga",
+          "inicio": 85.078,
+          "fin": 85.334
+        },
+        {
+          "texto": "se",
+          "inicio": 85.38,
+          "fin": 85.461
+        },
+        {
+          "texto": "clasifican",
+          "inicio": 85.485,
+          "fin": 86.053
+        },
+        {
+          "texto": "así",
+          "inicio": 86.111,
+          "fin": 86.425
+        },
+        {
+          "texto": "por",
+          "inicio": 86.495,
+          "fin": 86.634
+        },
+        {
+          "texto": "su",
+          "inicio": 86.692,
+          "fin": 86.785
+        },
+        {
+          "texto": "violencia,",
+          "inicio": 86.831,
+          "fin": 87.516
+        },
+        {
+          "texto": "su",
+          "inicio": 87.574,
+          "fin": 87.69
+        },
+        {
+          "texto": "lenguaje",
+          "inicio": 87.748,
+          "fin": 88.41
+        },
+        {
+          "texto": "y",
+          "inicio": 88.631,
+          "fin": 88.735
+        },
+        {
+          "texto": "su",
+          "inicio": 88.851,
+          "fin": 88.968
+        },
+        {
+          "texto": "contenido",
+          "inicio": 89.026,
+          "fin": 89.571
+        },
+        {
+          "texto": "sexual.",
+          "inicio": 89.629,
+          "fin": 90.291
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "texto": "Y sin embargo, todos sabemos que llega a manos de adolescentes. Y a veces de niños.",
+      "clave": "adolescentes",
+      "inicio": 90.697,
+      "fin": 96.897,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 90.697,
+          "fin": 90.779
+        },
+        {
+          "texto": "sin",
+          "inicio": 90.883,
+          "fin": 91.023
+        },
+        {
+          "texto": "embargo,",
+          "inicio": 91.069,
+          "fin": 91.545
+        },
+        {
+          "texto": "todos",
+          "inicio": 91.603,
+          "fin": 91.916
+        },
+        {
+          "texto": "sabemos",
+          "inicio": 91.94,
+          "fin": 92.369
+        },
+        {
+          "texto": "que",
+          "inicio": 92.427,
+          "fin": 92.52
+        },
+        {
+          "texto": "llega",
+          "inicio": 92.543,
+          "fin": 92.973
+        },
+        {
+          "texto": "a",
+          "inicio": 92.996,
+          "fin": 93.019
+        },
+        {
+          "texto": "manos",
+          "inicio": 93.077,
+          "fin": 93.519
+        },
+        {
+          "texto": "de",
+          "inicio": 93.577,
+          "fin": 93.658
+        },
+        {
+          "texto": "adolescentes.",
+          "inicio": 93.704,
+          "fin": 94.854
+        },
+        {
+          "texto": "Y",
+          "inicio": 95.318,
+          "fin": 95.376
+        },
+        {
+          "texto": "a",
+          "inicio": 95.458,
+          "fin": 95.481
+        },
+        {
+          "texto": "veces",
+          "inicio": 95.539,
+          "fin": 96.038
+        },
+        {
+          "texto": "de",
+          "inicio": 96.096,
+          "fin": 96.177
+        },
+        {
+          "texto": "niños.",
+          "inicio": 96.235,
+          "fin": 96.897
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "texto": "Un regalo de cumpleaños. Un primo que lo presta. Una consola en el cuarto, con la puerta cerrada.",
+      "clave": "cumpleaños",
+      "inicio": 97.304,
+      "fin": 104.339,
+      "palabras": [
+        {
+          "texto": "Un",
+          "inicio": 97.304,
+          "fin": 97.466
+        },
+        {
+          "texto": "regalo",
+          "inicio": 97.536,
+          "fin": 97.838
+        },
+        {
+          "texto": "de",
+          "inicio": 97.884,
+          "fin": 97.954
+        },
+        {
+          "texto": "cumpleaños.",
+          "inicio": 98,
+          "fin": 98.848
+        },
+        {
+          "texto": "Un",
+          "inicio": 99.103,
+          "fin": 99.312
+        },
+        {
+          "texto": "primo",
+          "inicio": 99.37,
+          "fin": 99.742
+        },
+        {
+          "texto": "que",
+          "inicio": 99.8,
+          "fin": 99.881
+        },
+        {
+          "texto": "lo",
+          "inicio": 99.927,
+          "fin": 100.009
+        },
+        {
+          "texto": "presta.",
+          "inicio": 100.067,
+          "fin": 100.775
+        },
+        {
+          "texto": "Una",
+          "inicio": 101.065,
+          "fin": 101.286
+        },
+        {
+          "texto": "consola",
+          "inicio": 101.344,
+          "fin": 101.831
+        },
+        {
+          "texto": "en",
+          "inicio": 101.889,
+          "fin": 101.959
+        },
+        {
+          "texto": "el",
+          "inicio": 102.017,
+          "fin": 102.087
+        },
+        {
+          "texto": "cuarto,",
+          "inicio": 102.145,
+          "fin": 102.795
+        },
+        {
+          "texto": "con",
+          "inicio": 102.934,
+          "fin": 103.074
+        },
+        {
+          "texto": "la",
+          "inicio": 103.109,
+          "fin": 103.167
+        },
+        {
+          "texto": "puerta",
+          "inicio": 103.213,
+          "fin": 103.526
+        },
+        {
+          "texto": "cerrada.",
+          "inicio": 103.573,
+          "fin": 104.339
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "texto": "Ahí empieza el problema. No en la tienda. En casa.",
+      "clave": "problema",
+      "inicio": 104.687,
+      "fin": 109.309,
+      "palabras": [
+        {
+          "texto": "Ahí",
+          "inicio": 104.687,
+          "fin": 104.966
+        },
+        {
+          "texto": "empieza",
+          "inicio": 105.024,
+          "fin": 105.581
+        },
+        {
+          "texto": "el",
+          "inicio": 105.628,
+          "fin": 105.709
+        },
+        {
+          "texto": "problema.",
+          "inicio": 105.767,
+          "fin": 106.522
+        },
+        {
+          "texto": "No",
+          "inicio": 106.87,
+          "fin": 107.114
+        },
+        {
+          "texto": "en",
+          "inicio": 107.184,
+          "fin": 107.253
+        },
+        {
+          "texto": "la",
+          "inicio": 107.311,
+          "fin": 107.393
+        },
+        {
+          "texto": "tienda.",
+          "inicio": 107.451,
+          "fin": 108.101
+        },
+        {
+          "texto": "En",
+          "inicio": 108.391,
+          "fin": 108.554
+        },
+        {
+          "texto": "casa.",
+          "inicio": 108.635,
+          "fin": 109.309
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "texto": "Para entender la advertencia, hay que entender cómo funciona este tipo de juegos.",
+      "clave": "advertencia",
+      "inicio": 109.715,
+      "fin": 113.86,
+      "palabras": [
+        {
+          "texto": "Para",
+          "inicio": 109.715,
+          "fin": 109.889
+        },
+        {
+          "texto": "entender",
+          "inicio": 109.912,
+          "fin": 110.296
+        },
+        {
+          "texto": "la",
+          "inicio": 110.354,
+          "fin": 110.412
+        },
+        {
+          "texto": "advertencia,",
+          "inicio": 110.435,
+          "fin": 111.027
+        },
+        {
+          "texto": "hay",
+          "inicio": 111.062,
+          "fin": 111.166
+        },
+        {
+          "texto": "que",
+          "inicio": 111.224,
+          "fin": 111.294
+        },
+        {
+          "texto": "entender",
+          "inicio": 111.329,
+          "fin": 111.7
+        },
+        {
+          "texto": "cómo",
+          "inicio": 111.758,
+          "fin": 111.944
+        },
+        {
+          "texto": "funciona",
+          "inicio": 111.991,
+          "fin": 112.548
+        },
+        {
+          "texto": "este",
+          "inicio": 112.618,
+          "fin": 112.815
+        },
+        {
+          "texto": "tipo",
+          "inicio": 112.861,
+          "fin": 113.094
+        },
+        {
+          "texto": "de",
+          "inicio": 113.14,
+          "fin": 113.21
+        },
+        {
+          "texto": "juegos.",
+          "inicio": 113.256,
+          "fin": 113.86
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "texto": "Tú controlas a un personaje en una ciudad enorme, casi real.",
+      "clave": "controlas",
+      "inicio": 114.324,
+      "fin": 118.237,
+      "palabras": [
+        {
+          "texto": "Tú",
+          "inicio": 114.324,
+          "fin": 114.452
+        },
+        {
+          "texto": "controlas",
+          "inicio": 114.498,
+          "fin": 114.974
+        },
+        {
+          "texto": "a",
+          "inicio": 115.032,
+          "fin": 115.056
+        },
+        {
+          "texto": "un",
+          "inicio": 115.125,
+          "fin": 115.195
+        },
+        {
+          "texto": "personaje",
+          "inicio": 115.253,
+          "fin": 115.834
+        },
+        {
+          "texto": "en",
+          "inicio": 115.915,
+          "fin": 115.984
+        },
+        {
+          "texto": "una",
+          "inicio": 116.066,
+          "fin": 116.193
+        },
+        {
+          "texto": "ciudad",
+          "inicio": 116.228,
+          "fin": 116.553
+        },
+        {
+          "texto": "enorme,",
+          "inicio": 116.611,
+          "fin": 117.169
+        },
+        {
+          "texto": "casi",
+          "inicio": 117.308,
+          "fin": 117.61
+        },
+        {
+          "texto": "real.",
+          "inicio": 117.714,
+          "fin": 118.237
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "texto": "Y puedes hacer lo que quieras.",
+      "clave": "quieras",
+      "inicio": 118.527,
+      "fin": 120.222,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 118.527,
+          "fin": 118.597
+        },
+        {
+          "texto": "puedes",
+          "inicio": 118.678,
+          "fin": 118.957
+        },
+        {
+          "texto": "hacer",
+          "inicio": 119.015,
+          "fin": 119.27
+        },
+        {
+          "texto": "lo",
+          "inicio": 119.328,
+          "fin": 119.409
+        },
+        {
+          "texto": "que",
+          "inicio": 119.456,
+          "fin": 119.537
+        },
+        {
+          "texto": "quieras.",
+          "inicio": 119.595,
+          "fin": 120.222
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "texto": "Pero el juego tiene una lógica muy clara: lo que más te hace avanzar es el delito.",
+      "clave": "avanzar",
+      "inicio": 120.686,
+      "fin": 125.76,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 120.686,
+          "fin": 120.884
+        },
+        {
+          "texto": "el",
+          "inicio": 120.907,
+          "fin": 120.954
+        },
+        {
+          "texto": "juego",
+          "inicio": 121.012,
+          "fin": 121.255
+        },
+        {
+          "texto": "tiene",
+          "inicio": 121.313,
+          "fin": 121.604
+        },
+        {
+          "texto": "una",
+          "inicio": 121.673,
+          "fin": 121.824
+        },
+        {
+          "texto": "lógica",
+          "inicio": 121.894,
+          "fin": 122.347
+        },
+        {
+          "texto": "muy",
+          "inicio": 122.393,
+          "fin": 122.556
+        },
+        {
+          "texto": "clara:",
+          "inicio": 122.602,
+          "fin": 123.206
+        },
+        {
+          "texto": "lo",
+          "inicio": 123.612,
+          "fin": 123.717
+        },
+        {
+          "texto": "que",
+          "inicio": 123.763,
+          "fin": 123.833
+        },
+        {
+          "texto": "más",
+          "inicio": 123.891,
+          "fin": 124.042
+        },
+        {
+          "texto": "te",
+          "inicio": 124.077,
+          "fin": 124.147
+        },
+        {
+          "texto": "hace",
+          "inicio": 124.205,
+          "fin": 124.379
+        },
+        {
+          "texto": "avanzar",
+          "inicio": 124.425,
+          "fin": 124.832
+        },
+        {
+          "texto": "es",
+          "inicio": 124.89,
+          "fin": 124.948
+        },
+        {
+          "texto": "el",
+          "inicio": 125.006,
+          "fin": 125.064
+        },
+        {
+          "texto": "delito.",
+          "inicio": 125.122,
+          "fin": 125.76
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "texto": "Robar te da dinero. Pelear te da respeto. Escapar de la policía te da adrenalina.",
+      "clave": "adrenalina",
+      "inicio": 126.167,
+      "fin": 132.935,
+      "palabras": [
+        {
+          "texto": "Robar",
+          "inicio": 126.167,
+          "fin": 126.62
+        },
+        {
+          "texto": "te",
+          "inicio": 126.875,
+          "fin": 126.991
+        },
+        {
+          "texto": "da",
+          "inicio": 127.049,
+          "fin": 127.142
+        },
+        {
+          "texto": "dinero.",
+          "inicio": 127.2,
+          "fin": 127.85
+        },
+        {
+          "texto": "Pelear",
+          "inicio": 128.141,
+          "fin": 128.628
+        },
+        {
+          "texto": "te",
+          "inicio": 128.976,
+          "fin": 129.081
+        },
+        {
+          "texto": "da",
+          "inicio": 129.127,
+          "fin": 129.197
+        },
+        {
+          "texto": "respeto.",
+          "inicio": 129.278,
+          "fin": 130.045
+        },
+        {
+          "texto": "Escapar",
+          "inicio": 130.451,
+          "fin": 130.857
+        },
+        {
+          "texto": "de",
+          "inicio": 130.904,
+          "fin": 130.95
+        },
+        {
+          "texto": "la",
+          "inicio": 130.997,
+          "fin": 131.055
+        },
+        {
+          "texto": "policía",
+          "inicio": 131.101,
+          "fin": 131.624
+        },
+        {
+          "texto": "te",
+          "inicio": 131.682,
+          "fin": 131.774
+        },
+        {
+          "texto": "da",
+          "inicio": 131.832,
+          "fin": 131.949
+        },
+        {
+          "texto": "adrenalina.",
+          "inicio": 131.995,
+          "fin": 132.935
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "texto": "Y cada vez que lo haces, la pantalla te aplaude.",
+      "clave": "pantalla",
+      "inicio": 133.226,
+      "fin": 135.919,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 133.226,
+          "fin": 133.284
+        },
+        {
+          "texto": "cada",
+          "inicio": 133.353,
+          "fin": 133.551
+        },
+        {
+          "texto": "vez",
+          "inicio": 133.597,
+          "fin": 133.713
+        },
+        {
+          "texto": "que",
+          "inicio": 133.76,
+          "fin": 133.841
+        },
+        {
+          "texto": "lo",
+          "inicio": 133.887,
+          "fin": 133.98
+        },
+        {
+          "texto": "haces,",
+          "inicio": 134.038,
+          "fin": 134.329
+        },
+        {
+          "texto": "la",
+          "inicio": 134.363,
+          "fin": 134.445
+        },
+        {
+          "texto": "pantalla",
+          "inicio": 134.491,
+          "fin": 134.967
+        },
+        {
+          "texto": "te",
+          "inicio": 135.025,
+          "fin": 135.107
+        },
+        {
+          "texto": "aplaude.",
+          "inicio": 135.165,
+          "fin": 135.919
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "texto": "Puntos. Billetes. Un nivel más.",
+      "clave": "Billetes",
+      "inicio": 136.209,
+      "fin": 139.46,
+      "palabras": [
+        {
+          "texto": "Puntos.",
+          "inicio": 136.209,
+          "fin": 136.987
+        },
+        {
+          "texto": "Billetes.",
+          "inicio": 137.336,
+          "fin": 138.055
+        },
+        {
+          "texto": "Un",
+          "inicio": 138.346,
+          "fin": 138.543
+        },
+        {
+          "texto": "nivel",
+          "inicio": 138.566,
+          "fin": 138.833
+        },
+        {
+          "texto": "más.",
+          "inicio": 138.903,
+          "fin": 139.46
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "texto": "Fíjate en esto, porque es la clave de todo el video.",
+      "clave": "Fíjate",
+      "inicio": 140.006,
+      "fin": 143.501,
+      "palabras": [
+        {
+          "texto": "Fíjate",
+          "inicio": 140.006,
+          "fin": 140.412
+        },
+        {
+          "texto": "en",
+          "inicio": 140.459,
+          "fin": 140.54
+        },
+        {
+          "texto": "esto,",
+          "inicio": 140.61,
+          "fin": 141.109
+        },
+        {
+          "texto": "porque",
+          "inicio": 141.213,
+          "fin": 141.585
+        },
+        {
+          "texto": "es",
+          "inicio": 141.666,
+          "fin": 141.771
+        },
+        {
+          "texto": "la",
+          "inicio": 141.84,
+          "fin": 141.922
+        },
+        {
+          "texto": "clave",
+          "inicio": 141.968,
+          "fin": 142.305
+        },
+        {
+          "texto": "de",
+          "inicio": 142.363,
+          "fin": 142.444
+        },
+        {
+          "texto": "todo",
+          "inicio": 142.502,
+          "fin": 142.735
+        },
+        {
+          "texto": "el",
+          "inicio": 142.77,
+          "fin": 142.828
+        },
+        {
+          "texto": "video.",
+          "inicio": 142.874,
+          "fin": 143.501
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "texto": "El juego no solo te deja hacer el mal. Te lo premia.",
+      "clave": "premia",
+      "inicio": 143.907,
+      "fin": 147.472,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 143.907,
+          "fin": 144.035
+        },
+        {
+          "texto": "juego",
+          "inicio": 144.093,
+          "fin": 144.302
+        },
+        {
+          "texto": "no",
+          "inicio": 144.36,
+          "fin": 144.453
+        },
+        {
+          "texto": "solo",
+          "inicio": 144.511,
+          "fin": 144.732
+        },
+        {
+          "texto": "te",
+          "inicio": 144.778,
+          "fin": 144.848
+        },
+        {
+          "texto": "deja",
+          "inicio": 144.894,
+          "fin": 145.277
+        },
+        {
+          "texto": "hacer",
+          "inicio": 145.359,
+          "fin": 145.66
+        },
+        {
+          "texto": "el",
+          "inicio": 145.707,
+          "fin": 145.765
+        },
+        {
+          "texto": "mal.",
+          "inicio": 145.823,
+          "fin": 146.276
+        },
+        {
+          "texto": "Te",
+          "inicio": 146.566,
+          "fin": 146.682
+        },
+        {
+          "texto": "lo",
+          "inicio": 146.729,
+          "fin": 146.798
+        },
+        {
+          "texto": "premia.",
+          "inicio": 146.856,
+          "fin": 147.472
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "texto": "Y lo que se premia, se repite.",
+      "clave": "premia",
+      "inicio": 147.82,
+      "fin": 149.956,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 147.82,
+          "fin": 147.878
+        },
+        {
+          "texto": "lo",
+          "inicio": 147.936,
+          "fin": 148.017
+        },
+        {
+          "texto": "que",
+          "inicio": 148.064,
+          "fin": 148.145
+        },
+        {
+          "texto": "se",
+          "inicio": 148.191,
+          "fin": 148.284
+        },
+        {
+          "texto": "premia,",
+          "inicio": 148.342,
+          "fin": 148.958
+        },
+        {
+          "texto": "se",
+          "inicio": 149.097,
+          "fin": 149.201
+        },
+        {
+          "texto": "repite.",
+          "inicio": 149.271,
+          "fin": 149.956
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "texto": "Así educamos a un perro, así aprende un niño, y así se forma un hábito.",
+      "clave": "educamos",
+      "inicio": 150.304,
+      "fin": 156.167,
+      "palabras": [
+        {
+          "texto": "Así",
+          "inicio": 150.304,
+          "fin": 150.56
+        },
+        {
+          "texto": "educamos",
+          "inicio": 150.618,
+          "fin": 151.187
+        },
+        {
+          "texto": "a",
+          "inicio": 151.291,
+          "fin": 151.326
+        },
+        {
+          "texto": "un",
+          "inicio": 151.407,
+          "fin": 151.512
+        },
+        {
+          "texto": "perro,",
+          "inicio": 151.616,
+          "fin": 152.29
+        },
+        {
+          "texto": "así",
+          "inicio": 152.51,
+          "fin": 152.859
+        },
+        {
+          "texto": "aprende",
+          "inicio": 152.917,
+          "fin": 153.323
+        },
+        {
+          "texto": "un",
+          "inicio": 153.393,
+          "fin": 153.462
+        },
+        {
+          "texto": "niño,",
+          "inicio": 153.497,
+          "fin": 154.171
+        },
+        {
+          "texto": "y",
+          "inicio": 154.461,
+          "fin": 154.507
+        },
+        {
+          "texto": "así",
+          "inicio": 154.565,
+          "fin": 154.739
+        },
+        {
+          "texto": "se",
+          "inicio": 154.797,
+          "fin": 154.89
+        },
+        {
+          "texto": "forma",
+          "inicio": 154.96,
+          "fin": 155.273
+        },
+        {
+          "texto": "un",
+          "inicio": 155.332,
+          "fin": 155.424
+        },
+        {
+          "texto": "hábito.",
+          "inicio": 155.471,
+          "fin": 156.167
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "texto": "La Iglesia tiene un nombre muy antiguo para los hábitos que nos alejan de Dios.",
+      "clave": "Iglesia",
+      "inicio": 156.516,
+      "fin": 160.788,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 156.516,
+          "fin": 156.609
+        },
+        {
+          "texto": "Iglesia",
+          "inicio": 156.632,
+          "fin": 156.992
+        },
+        {
+          "texto": "tiene",
+          "inicio": 157.038,
+          "fin": 157.247
+        },
+        {
+          "texto": "un",
+          "inicio": 157.294,
+          "fin": 157.363
+        },
+        {
+          "texto": "nombre",
+          "inicio": 157.398,
+          "fin": 157.654
+        },
+        {
+          "texto": "muy",
+          "inicio": 157.688,
+          "fin": 157.828
+        },
+        {
+          "texto": "antiguo",
+          "inicio": 157.862,
+          "fin": 158.28
+        },
+        {
+          "texto": "para",
+          "inicio": 158.339,
+          "fin": 158.489
+        },
+        {
+          "texto": "los",
+          "inicio": 158.524,
+          "fin": 158.64
+        },
+        {
+          "texto": "hábitos",
+          "inicio": 158.698,
+          "fin": 159.012
+        },
+        {
+          "texto": "que",
+          "inicio": 159.058,
+          "fin": 159.128
+        },
+        {
+          "texto": "nos",
+          "inicio": 159.267,
+          "fin": 159.441
+        },
+        {
+          "texto": "alejan",
+          "inicio": 159.546,
+          "fin": 160.022
+        },
+        {
+          "texto": "de",
+          "inicio": 160.068,
+          "fin": 160.149
+        },
+        {
+          "texto": "Dios.",
+          "inicio": 160.207,
+          "fin": 160.788
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "texto": "Los llama pecados capitales.",
+      "clave": "capitales",
+      "inicio": 161.194,
+      "fin": 163.226,
+      "palabras": [
+        {
+          "texto": "Los",
+          "inicio": 161.194,
+          "fin": 161.357
+        },
+        {
+          "texto": "llama",
+          "inicio": 161.38,
+          "fin": 161.647
+        },
+        {
+          "texto": "pecados",
+          "inicio": 161.705,
+          "fin": 162.309
+        },
+        {
+          "texto": "capitales.",
+          "inicio": 162.367,
+          "fin": 163.226
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "texto": "El Catecismo los enumera en el número mil ochocientos sesenta y seis.",
+      "clave": "ochocientos",
+      "inicio": 163.516,
+      "fin": 167.452,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 163.516,
+          "fin": 163.632
+        },
+        {
+          "texto": "Catecismo",
+          "inicio": 163.667,
+          "fin": 164.155
+        },
+        {
+          "texto": "los",
+          "inicio": 164.19,
+          "fin": 164.306
+        },
+        {
+          "texto": "enumera",
+          "inicio": 164.364,
+          "fin": 164.758
+        },
+        {
+          "texto": "en",
+          "inicio": 164.782,
+          "fin": 164.84
+        },
+        {
+          "texto": "el",
+          "inicio": 164.898,
+          "fin": 164.956
+        },
+        {
+          "texto": "número",
+          "inicio": 165.014,
+          "fin": 165.409
+        },
+        {
+          "texto": "mil",
+          "inicio": 165.478,
+          "fin": 165.734
+        },
+        {
+          "texto": "ochocientos",
+          "inicio": 165.792,
+          "fin": 166.337
+        },
+        {
+          "texto": "sesenta",
+          "inicio": 166.361,
+          "fin": 166.721
+        },
+        {
+          "texto": "y",
+          "inicio": 166.767,
+          "fin": 166.79
+        },
+        {
+          "texto": "seis.",
+          "inicio": 166.848,
+          "fin": 167.452
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "texto": "Soberbia, avaricia, envidia, ira, lujuria, gula y pereza.",
+      "clave": "Soberbia",
+      "inicio": 167.858,
+      "fin": 173.733,
+      "palabras": [
+        {
+          "texto": "Soberbia,",
+          "inicio": 167.858,
+          "fin": 168.636
+        },
+        {
+          "texto": "avaricia,",
+          "inicio": 168.694,
+          "fin": 169.542
+        },
+        {
+          "texto": "envidia,",
+          "inicio": 169.611,
+          "fin": 170.366
+        },
+        {
+          "texto": "ira,",
+          "inicio": 170.471,
+          "fin": 171.016
+        },
+        {
+          "texto": "lujuria,",
+          "inicio": 171.179,
+          "fin": 171.968
+        },
+        {
+          "texto": "gula",
+          "inicio": 172.131,
+          "fin": 172.595
+        },
+        {
+          "texto": "y",
+          "inicio": 172.885,
+          "fin": 172.955
+        },
+        {
+          "texto": "pereza.",
+          "inicio": 173.06,
+          "fin": 173.733
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "texto": "Se llaman capitales porque son la cabeza de otros pecados. De ellos nacen los demás.",
+      "clave": "capitales",
+      "inicio": 174.139,
+      "fin": 179.829,
+      "palabras": [
+        {
+          "texto": "Se",
+          "inicio": 174.139,
+          "fin": 174.267
+        },
+        {
+          "texto": "llaman",
+          "inicio": 174.29,
+          "fin": 174.581
+        },
+        {
+          "texto": "capitales",
+          "inicio": 174.627,
+          "fin": 175.184
+        },
+        {
+          "texto": "porque",
+          "inicio": 175.242,
+          "fin": 175.614
+        },
+        {
+          "texto": "son",
+          "inicio": 175.718,
+          "fin": 175.881
+        },
+        {
+          "texto": "la",
+          "inicio": 175.939,
+          "fin": 176.009
+        },
+        {
+          "texto": "cabeza",
+          "inicio": 176.067,
+          "fin": 176.497
+        },
+        {
+          "texto": "de",
+          "inicio": 176.555,
+          "fin": 176.648
+        },
+        {
+          "texto": "otros",
+          "inicio": 176.706,
+          "fin": 176.973
+        },
+        {
+          "texto": "pecados.",
+          "inicio": 177.031,
+          "fin": 177.809
+        },
+        {
+          "texto": "De",
+          "inicio": 178.157,
+          "fin": 178.331
+        },
+        {
+          "texto": "ellos",
+          "inicio": 178.366,
+          "fin": 178.621
+        },
+        {
+          "texto": "nacen",
+          "inicio": 178.679,
+          "fin": 178.981
+        },
+        {
+          "texto": "los",
+          "inicio": 179.039,
+          "fin": 179.167
+        },
+        {
+          "texto": "demás.",
+          "inicio": 179.225,
+          "fin": 179.829
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "texto": "Ahora piensa en un mundo virtual como el de GTA.",
+      "clave": "virtual",
+      "inicio": 180.293,
+      "fin": 182.987,
+      "palabras": [
+        {
+          "texto": "Ahora",
+          "inicio": 180.293,
+          "fin": 180.56
+        },
+        {
+          "texto": "piensa",
+          "inicio": 180.607,
+          "fin": 180.908
+        },
+        {
+          "texto": "en",
+          "inicio": 180.943,
+          "fin": 181.001
+        },
+        {
+          "texto": "un",
+          "inicio": 181.059,
+          "fin": 181.117
+        },
+        {
+          "texto": "mundo",
+          "inicio": 181.152,
+          "fin": 181.384
+        },
+        {
+          "texto": "virtual",
+          "inicio": 181.419,
+          "fin": 181.768
+        },
+        {
+          "texto": "como",
+          "inicio": 181.826,
+          "fin": 182
+        },
+        {
+          "texto": "el",
+          "inicio": 182.035,
+          "fin": 182.093
+        },
+        {
+          "texto": "de",
+          "inicio": 182.151,
+          "fin": 182.22
+        },
+        {
+          "texto": "GTA.",
+          "inicio": 182.267,
+          "fin": 182.987
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "texto": "La avaricia: todo gira en torno al dinero fácil, y cuanto más robas, más tienes.",
+      "clave": "avaricia",
+      "inicio": 183.393,
+      "fin": 189.384,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 183.393,
+          "fin": 183.521
+        },
+        {
+          "texto": "avaricia:",
+          "inicio": 183.555,
+          "fin": 184.264
+        },
+        {
+          "texto": "todo",
+          "inicio": 184.728,
+          "fin": 185.03
+        },
+        {
+          "texto": "gira",
+          "inicio": 185.088,
+          "fin": 185.309
+        },
+        {
+          "texto": "en",
+          "inicio": 185.332,
+          "fin": 185.39
+        },
+        {
+          "texto": "torno",
+          "inicio": 185.448,
+          "fin": 185.703
+        },
+        {
+          "texto": "al",
+          "inicio": 185.75,
+          "fin": 185.796
+        },
+        {
+          "texto": "dinero",
+          "inicio": 185.854,
+          "fin": 186.156
+        },
+        {
+          "texto": "fácil,",
+          "inicio": 186.214,
+          "fin": 186.771
+        },
+        {
+          "texto": "y",
+          "inicio": 187.062,
+          "fin": 187.247
+        },
+        {
+          "texto": "cuanto",
+          "inicio": 187.387,
+          "fin": 187.677
+        },
+        {
+          "texto": "más",
+          "inicio": 187.735,
+          "fin": 188.049
+        },
+        {
+          "texto": "robas,",
+          "inicio": 188.13,
+          "fin": 188.478
+        },
+        {
+          "texto": "más",
+          "inicio": 188.501,
+          "fin": 188.699
+        },
+        {
+          "texto": "tienes.",
+          "inicio": 188.745,
+          "fin": 189.384
+        }
+      ]
+    },
+    {
+      "n": 39,
+      "texto": "La ira: la violencia resuelve cualquier problema, en segundos y sin consecuencias.",
+      "clave": "consecuencias",
+      "inicio": 189.79,
+      "fin": 195.56,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 189.79,
+          "fin": 189.929
+        },
+        {
+          "texto": "ira:",
+          "inicio": 189.976,
+          "fin": 190.382
+        },
+        {
+          "texto": "la",
+          "inicio": 190.73,
+          "fin": 190.823
+        },
+        {
+          "texto": "violencia",
+          "inicio": 190.87,
+          "fin": 191.346
+        },
+        {
+          "texto": "resuelve",
+          "inicio": 191.404,
+          "fin": 191.822
+        },
+        {
+          "texto": "cualquier",
+          "inicio": 191.857,
+          "fin": 192.263
+        },
+        {
+          "texto": "problema,",
+          "inicio": 192.321,
+          "fin": 193.041
+        },
+        {
+          "texto": "en",
+          "inicio": 193.261,
+          "fin": 193.401
+        },
+        {
+          "texto": "segundos",
+          "inicio": 193.459,
+          "fin": 194.063
+        },
+        {
+          "texto": "y",
+          "inicio": 194.225,
+          "fin": 194.33
+        },
+        {
+          "texto": "sin",
+          "inicio": 194.469,
+          "fin": 194.608
+        },
+        {
+          "texto": "consecuencias.",
+          "inicio": 194.655,
+          "fin": 195.56
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "texto": "La lujuria: el cuerpo de la mujer convertido en decorado, en objeto.",
+      "clave": "convertido",
+      "inicio": 195.967,
+      "fin": 201.075,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 195.967,
+          "fin": 196.071
+        },
+        {
+          "texto": "lujuria:",
+          "inicio": 196.106,
+          "fin": 196.814
+        },
+        {
+          "texto": "el",
+          "inicio": 197.162,
+          "fin": 197.279
+        },
+        {
+          "texto": "cuerpo",
+          "inicio": 197.325,
+          "fin": 197.592
+        },
+        {
+          "texto": "de",
+          "inicio": 197.638,
+          "fin": 197.708
+        },
+        {
+          "texto": "la",
+          "inicio": 197.755,
+          "fin": 197.824
+        },
+        {
+          "texto": "mujer",
+          "inicio": 197.859,
+          "fin": 198.242
+        },
+        {
+          "texto": "convertido",
+          "inicio": 198.3,
+          "fin": 198.985
+        },
+        {
+          "texto": "en",
+          "inicio": 199.043,
+          "fin": 199.113
+        },
+        {
+          "texto": "decorado,",
+          "inicio": 199.171,
+          "fin": 199.902
+        },
+        {
+          "texto": "en",
+          "inicio": 200.123,
+          "fin": 200.239
+        },
+        {
+          "texto": "objeto.",
+          "inicio": 200.297,
+          "fin": 201.075
+        }
+      ]
+    },
+    {
+      "n": 41,
+      "texto": "La soberbia: tú eres el jefe, nadie te puede tocar, las reglas son para los demás.",
+      "clave": "soberbia",
+      "inicio": 201.423,
+      "fin": 207.53,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 201.423,
+          "fin": 201.551
+        },
+        {
+          "texto": "soberbia:",
+          "inicio": 201.597,
+          "fin": 202.387
+        },
+        {
+          "texto": "tú",
+          "inicio": 202.793,
+          "fin": 202.921
+        },
+        {
+          "texto": "eres",
+          "inicio": 202.991,
+          "fin": 203.2
+        },
+        {
+          "texto": "el",
+          "inicio": 203.269,
+          "fin": 203.351
+        },
+        {
+          "texto": "jefe,",
+          "inicio": 203.455,
+          "fin": 204.163
+        },
+        {
+          "texto": "nadie",
+          "inicio": 204.384,
+          "fin": 204.697
+        },
+        {
+          "texto": "te",
+          "inicio": 204.744,
+          "fin": 204.825
+        },
+        {
+          "texto": "puede",
+          "inicio": 204.871,
+          "fin": 205.104
+        },
+        {
+          "texto": "tocar,",
+          "inicio": 205.15,
+          "fin": 205.673
+        },
+        {
+          "texto": "las",
+          "inicio": 205.777,
+          "fin": 205.916
+        },
+        {
+          "texto": "reglas",
+          "inicio": 206.021,
+          "fin": 206.323
+        },
+        {
+          "texto": "son",
+          "inicio": 206.346,
+          "fin": 206.485
+        },
+        {
+          "texto": "para",
+          "inicio": 206.532,
+          "fin": 206.683
+        },
+        {
+          "texto": "los",
+          "inicio": 206.717,
+          "fin": 206.834
+        },
+        {
+          "texto": "demás.",
+          "inicio": 206.88,
+          "fin": 207.53
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "texto": "La envidia: siempre hay un carro mejor, una casa más grande, alguien a quien quitarle lo suyo.",
+      "clave": "quitarle",
+      "inicio": 207.878,
+      "fin": 214.404,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 207.878,
+          "fin": 207.995
+        },
+        {
+          "texto": "envidia:",
+          "inicio": 208.041,
+          "fin": 208.656
+        },
+        {
+          "texto": "siempre",
+          "inicio": 208.877,
+          "fin": 209.26
+        },
+        {
+          "texto": "hay",
+          "inicio": 209.306,
+          "fin": 209.434
+        },
+        {
+          "texto": "un",
+          "inicio": 209.492,
+          "fin": 209.55
+        },
+        {
+          "texto": "carro",
+          "inicio": 209.608,
+          "fin": 209.876
+        },
+        {
+          "texto": "mejor,",
+          "inicio": 209.922,
+          "fin": 210.549
+        },
+        {
+          "texto": "una",
+          "inicio": 210.712,
+          "fin": 210.874
+        },
+        {
+          "texto": "casa",
+          "inicio": 210.921,
+          "fin": 211.211
+        },
+        {
+          "texto": "más",
+          "inicio": 211.269,
+          "fin": 211.501
+        },
+        {
+          "texto": "grande,",
+          "inicio": 211.548,
+          "fin": 212.186
+        },
+        {
+          "texto": "alguien",
+          "inicio": 212.372,
+          "fin": 212.674
+        },
+        {
+          "texto": "a",
+          "inicio": 212.732,
+          "fin": 212.755
+        },
+        {
+          "texto": "quien",
+          "inicio": 212.813,
+          "fin": 213.034
+        },
+        {
+          "texto": "quitarle",
+          "inicio": 213.103,
+          "fin": 213.533
+        },
+        {
+          "texto": "lo",
+          "inicio": 213.579,
+          "fin": 213.672
+        },
+        {
+          "texto": "suyo.",
+          "inicio": 213.719,
+          "fin": 214.404
+        }
+      ]
+    },
+    {
+      "n": 43,
+      "texto": "La gula y la pereza: horas y horas sentado, comiendo frente a la pantalla, mientras la vida real espera.",
+      "clave": "comiendo",
+      "inicio": 214.694,
+      "fin": 222.275,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 214.694,
+          "fin": 214.81
+        },
+        {
+          "texto": "gula",
+          "inicio": 214.868,
+          "fin": 215.251
+        },
+        {
+          "texto": "y",
+          "inicio": 215.321,
+          "fin": 215.356
+        },
+        {
+          "texto": "la",
+          "inicio": 215.437,
+          "fin": 215.518
+        },
+        {
+          "texto": "pereza:",
+          "inicio": 215.576,
+          "fin": 216.319
+        },
+        {
+          "texto": "horas",
+          "inicio": 216.54,
+          "fin": 216.923
+        },
+        {
+          "texto": "y",
+          "inicio": 217.028,
+          "fin": 217.062
+        },
+        {
+          "texto": "horas",
+          "inicio": 217.109,
+          "fin": 217.399
+        },
+        {
+          "texto": "sentado,",
+          "inicio": 217.422,
+          "fin": 218.247
+        },
+        {
+          "texto": "comiendo",
+          "inicio": 218.351,
+          "fin": 218.757
+        },
+        {
+          "texto": "frente",
+          "inicio": 218.816,
+          "fin": 219.117
+        },
+        {
+          "texto": "a",
+          "inicio": 219.152,
+          "fin": 219.175
+        },
+        {
+          "texto": "la",
+          "inicio": 219.21,
+          "fin": 219.28
+        },
+        {
+          "texto": "pantalla,",
+          "inicio": 219.326,
+          "fin": 220.081
+        },
+        {
+          "texto": "mientras",
+          "inicio": 220.185,
+          "fin": 220.569
+        },
+        {
+          "texto": "la",
+          "inicio": 220.638,
+          "fin": 220.708
+        },
+        {
+          "texto": "vida",
+          "inicio": 220.766,
+          "fin": 221.021
+        },
+        {
+          "texto": "real",
+          "inicio": 221.126,
+          "fin": 221.451
+        },
+        {
+          "texto": "espera.",
+          "inicio": 221.509,
+          "fin": 222.275
+        }
+      ]
+    },
+    {
+      "n": 44,
+      "texto": "Nadie dice que un joven se vuelva malo por jugar una tarde.",
+      "clave": "vuelva",
+      "inicio": 222.566,
+      "fin": 226.35,
+      "palabras": [
+        {
+          "texto": "Nadie",
+          "inicio": 222.566,
+          "fin": 222.914
+        },
+        {
+          "texto": "dice",
+          "inicio": 222.972,
+          "fin": 223.297
+        },
+        {
+          "texto": "que",
+          "inicio": 223.355,
+          "fin": 223.448
+        },
+        {
+          "texto": "un",
+          "inicio": 223.506,
+          "fin": 223.622
+        },
+        {
+          "texto": "joven",
+          "inicio": 223.68,
+          "fin": 224.028
+        },
+        {
+          "texto": "se",
+          "inicio": 224.075,
+          "fin": 224.168
+        },
+        {
+          "texto": "vuelva",
+          "inicio": 224.226,
+          "fin": 224.528
+        },
+        {
+          "texto": "malo",
+          "inicio": 224.586,
+          "fin": 224.888
+        },
+        {
+          "texto": "por",
+          "inicio": 224.946,
+          "fin": 225.062
+        },
+        {
+          "texto": "jugar",
+          "inicio": 225.12,
+          "fin": 225.48
+        },
+        {
+          "texto": "una",
+          "inicio": 225.538,
+          "fin": 225.677
+        },
+        {
+          "texto": "tarde.",
+          "inicio": 225.735,
+          "fin": 226.35
+        }
+      ]
+    },
+    {
+      "n": 45,
+      "texto": "Pero el corazón se acostumbra a lo que ve todos los días.",
+      "clave": "acostumbra",
+      "inicio": 226.756,
+      "fin": 229.856,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 226.756,
+          "fin": 226.954
+        },
+        {
+          "texto": "el",
+          "inicio": 226.977,
+          "fin": 227.023
+        },
+        {
+          "texto": "corazón",
+          "inicio": 227.081,
+          "fin": 227.441
+        },
+        {
+          "texto": "se",
+          "inicio": 227.499,
+          "fin": 227.557
+        },
+        {
+          "texto": "acostumbra",
+          "inicio": 227.592,
+          "fin": 228.184
+        },
+        {
+          "texto": "a",
+          "inicio": 228.219,
+          "fin": 228.242
+        },
+        {
+          "texto": "lo",
+          "inicio": 228.289,
+          "fin": 228.37
+        },
+        {
+          "texto": "que",
+          "inicio": 228.417,
+          "fin": 228.486
+        },
+        {
+          "texto": "ve",
+          "inicio": 228.533,
+          "fin": 228.637
+        },
+        {
+          "texto": "todos",
+          "inicio": 228.695,
+          "fin": 228.997
+        },
+        {
+          "texto": "los",
+          "inicio": 229.055,
+          "fin": 229.194
+        },
+        {
+          "texto": "días.",
+          "inicio": 229.252,
+          "fin": 229.856
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "texto": "Lo que al principio impresiona, después da risa. Y después ya ni se nota.",
+      "clave": "impresiona",
+      "inicio": 230.205,
+      "fin": 236.439,
+      "palabras": [
+        {
+          "texto": "Lo",
+          "inicio": 230.205,
+          "fin": 230.344
+        },
+        {
+          "texto": "que",
+          "inicio": 230.39,
+          "fin": 230.599
+        },
+        {
+          "texto": "al",
+          "inicio": 230.669,
+          "fin": 230.762
+        },
+        {
+          "texto": "principio",
+          "inicio": 230.808,
+          "fin": 231.47
+        },
+        {
+          "texto": "impresiona,",
+          "inicio": 231.516,
+          "fin": 232.434
+        },
+        {
+          "texto": "después",
+          "inicio": 232.689,
+          "fin": 233.13
+        },
+        {
+          "texto": "da",
+          "inicio": 233.177,
+          "fin": 233.258
+        },
+        {
+          "texto": "risa.",
+          "inicio": 233.339,
+          "fin": 233.92
+        },
+        {
+          "texto": "Y",
+          "inicio": 234.268,
+          "fin": 234.338
+        },
+        {
+          "texto": "después",
+          "inicio": 234.407,
+          "fin": 234.883
+        },
+        {
+          "texto": "ya",
+          "inicio": 235.278,
+          "fin": 235.475
+        },
+        {
+          "texto": "ni",
+          "inicio": 235.533,
+          "fin": 235.65
+        },
+        {
+          "texto": "se",
+          "inicio": 235.708,
+          "fin": 235.812
+        },
+        {
+          "texto": "nota.",
+          "inicio": 235.893,
+          "fin": 236.439
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "texto": "Eso es lo más peligroso: no el escándalo, sino la costumbre.",
+      "clave": "peligroso",
+      "inicio": 236.845,
+      "fin": 241.513,
+      "palabras": [
+        {
+          "texto": "Eso",
+          "inicio": 236.845,
+          "fin": 237.205
+        },
+        {
+          "texto": "es",
+          "inicio": 237.275,
+          "fin": 237.484
+        },
+        {
+          "texto": "lo",
+          "inicio": 237.588,
+          "fin": 237.705
+        },
+        {
+          "texto": "más",
+          "inicio": 237.763,
+          "fin": 237.925
+        },
+        {
+          "texto": "peligroso:",
+          "inicio": 237.983,
+          "fin": 238.773
+        },
+        {
+          "texto": "no",
+          "inicio": 239.063,
+          "fin": 239.202
+        },
+        {
+          "texto": "el",
+          "inicio": 239.26,
+          "fin": 239.33
+        },
+        {
+          "texto": "escándalo,",
+          "inicio": 239.388,
+          "fin": 240.05
+        },
+        {
+          "texto": "sino",
+          "inicio": 240.166,
+          "fin": 240.526
+        },
+        {
+          "texto": "la",
+          "inicio": 240.619,
+          "fin": 240.712
+        },
+        {
+          "texto": "costumbre.",
+          "inicio": 240.77,
+          "fin": 241.513
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "texto": "Ahora, seamos honestos. Porque la verdad no necesita exagerar.",
+      "clave": "honestos",
+      "inicio": 241.919,
+      "fin": 247.282,
+      "palabras": [
+        {
+          "texto": "Ahora,",
+          "inicio": 241.919,
+          "fin": 242.302
+        },
+        {
+          "texto": "seamos",
+          "inicio": 242.407,
+          "fin": 242.917
+        },
+        {
+          "texto": "honestos.",
+          "inicio": 242.975,
+          "fin": 243.626
+        },
+        {
+          "texto": "Porque",
+          "inicio": 243.916,
+          "fin": 244.357
+        },
+        {
+          "texto": "la",
+          "inicio": 244.496,
+          "fin": 244.589
+        },
+        {
+          "texto": "verdad",
+          "inicio": 244.635,
+          "fin": 245.134
+        },
+        {
+          "texto": "no",
+          "inicio": 245.483,
+          "fin": 245.645
+        },
+        {
+          "texto": "necesita",
+          "inicio": 245.703,
+          "fin": 246.354
+        },
+        {
+          "texto": "exagerar.",
+          "inicio": 246.412,
+          "fin": 247.282
+        }
+      ]
+    },
+    {
+      "n": 49,
+      "texto": "La Asociación Americana de Psicología revisó los estudios en el año dos mil veinte.",
+      "clave": "Asociación",
+      "inicio": 247.573,
+      "fin": 252.159,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 247.573,
+          "fin": 247.7
+        },
+        {
+          "texto": "Asociación",
+          "inicio": 247.735,
+          "fin": 248.246
+        },
+        {
+          "texto": "Americana",
+          "inicio": 248.281,
+          "fin": 248.71
+        },
+        {
+          "texto": "de",
+          "inicio": 248.757,
+          "fin": 248.826
+        },
+        {
+          "texto": "Psicología",
+          "inicio": 248.85,
+          "fin": 249.419
+        },
+        {
+          "texto": "revisó",
+          "inicio": 249.488,
+          "fin": 249.86
+        },
+        {
+          "texto": "los",
+          "inicio": 249.918,
+          "fin": 250.034
+        },
+        {
+          "texto": "estudios",
+          "inicio": 250.092,
+          "fin": 250.556
+        },
+        {
+          "texto": "en",
+          "inicio": 250.614,
+          "fin": 250.684
+        },
+        {
+          "texto": "el",
+          "inicio": 250.742,
+          "fin": 250.812
+        },
+        {
+          "texto": "año",
+          "inicio": 250.87,
+          "fin": 251.079
+        },
+        {
+          "texto": "dos",
+          "inicio": 251.114,
+          "fin": 251.241
+        },
+        {
+          "texto": "mil",
+          "inicio": 251.299,
+          "fin": 251.474
+        },
+        {
+          "texto": "veinte.",
+          "inicio": 251.532,
+          "fin": 252.159
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "texto": "Y encontró una relación pequeña, pero constante, entre los videojuegos violentos y más agresividad.",
+      "clave": "videojuegos",
+      "inicio": 252.507,
+      "fin": 259.717,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 252.507,
+          "fin": 252.565
+        },
+        {
+          "texto": "encontró",
+          "inicio": 252.623,
+          "fin": 253.006
+        },
+        {
+          "texto": "una",
+          "inicio": 253.064,
+          "fin": 253.18
+        },
+        {
+          "texto": "relación",
+          "inicio": 253.238,
+          "fin": 253.668
+        },
+        {
+          "texto": "pequeña,",
+          "inicio": 253.714,
+          "fin": 254.492
+        },
+        {
+          "texto": "pero",
+          "inicio": 254.655,
+          "fin": 254.829
+        },
+        {
+          "texto": "constante,",
+          "inicio": 254.875,
+          "fin": 255.804
+        },
+        {
+          "texto": "entre",
+          "inicio": 255.943,
+          "fin": 256.245
+        },
+        {
+          "texto": "los",
+          "inicio": 256.28,
+          "fin": 256.396
+        },
+        {
+          "texto": "videojuegos",
+          "inicio": 256.454,
+          "fin": 257.07
+        },
+        {
+          "texto": "violentos",
+          "inicio": 257.116,
+          "fin": 257.789
+        },
+        {
+          "texto": "y",
+          "inicio": 258.138,
+          "fin": 258.242
+        },
+        {
+          "texto": "más",
+          "inicio": 258.347,
+          "fin": 258.602
+        },
+        {
+          "texto": "agresividad.",
+          "inicio": 258.66,
+          "fin": 259.717
+        }
+      ]
+    },
+    {
+      "n": 51,
+      "texto": "Más pensamientos agresivos, más enojo, y menos empatía con los demás.",
+      "clave": "pensamientos",
+      "inicio": 260.181,
+      "fin": 265.695,
+      "palabras": [
+        {
+          "texto": "Más",
+          "inicio": 260.181,
+          "fin": 260.413
+        },
+        {
+          "texto": "pensamientos",
+          "inicio": 260.471,
+          "fin": 261.051
+        },
+        {
+          "texto": "agresivos,",
+          "inicio": 261.098,
+          "fin": 262.096
+        },
+        {
+          "texto": "más",
+          "inicio": 262.387,
+          "fin": 262.665
+        },
+        {
+          "texto": "enojo,",
+          "inicio": 262.723,
+          "fin": 263.455
+        },
+        {
+          "texto": "y",
+          "inicio": 263.675,
+          "fin": 263.861
+        },
+        {
+          "texto": "menos",
+          "inicio": 263.965,
+          "fin": 264.221
+        },
+        {
+          "texto": "empatía",
+          "inicio": 264.279,
+          "fin": 264.743
+        },
+        {
+          "texto": "con",
+          "inicio": 264.79,
+          "fin": 264.918
+        },
+        {
+          "texto": "los",
+          "inicio": 264.941,
+          "fin": 265.034
+        },
+        {
+          "texto": "demás.",
+          "inicio": 265.08,
+          "fin": 265.695
+        }
+      ]
+    },
+    {
+      "n": 52,
+      "texto": "Pero también dijo algo importante: no hay pruebas de que estos juegos conviertan a alguien en un criminal.",
+      "clave": "importante",
+      "inicio": 266.334,
+      "fin": 272.917,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 266.334,
+          "fin": 266.636
+        },
+        {
+          "texto": "también",
+          "inicio": 266.705,
+          "fin": 267.065
+        },
+        {
+          "texto": "dijo",
+          "inicio": 267.123,
+          "fin": 267.46
+        },
+        {
+          "texto": "algo",
+          "inicio": 267.518,
+          "fin": 267.774
+        },
+        {
+          "texto": "importante:",
+          "inicio": 267.832,
+          "fin": 268.714
+        },
+        {
+          "texto": "no",
+          "inicio": 269.178,
+          "fin": 269.341
+        },
+        {
+          "texto": "hay",
+          "inicio": 269.399,
+          "fin": 269.492
+        },
+        {
+          "texto": "pruebas",
+          "inicio": 269.55,
+          "fin": 269.933
+        },
+        {
+          "texto": "de",
+          "inicio": 269.979,
+          "fin": 270.049
+        },
+        {
+          "texto": "que",
+          "inicio": 270.107,
+          "fin": 270.212
+        },
+        {
+          "texto": "estos",
+          "inicio": 270.27,
+          "fin": 270.479
+        },
+        {
+          "texto": "juegos",
+          "inicio": 270.537,
+          "fin": 270.92
+        },
+        {
+          "texto": "conviertan",
+          "inicio": 270.978,
+          "fin": 271.489
+        },
+        {
+          "texto": "a",
+          "inicio": 271.547,
+          "fin": 271.582
+        },
+        {
+          "texto": "alguien",
+          "inicio": 271.64,
+          "fin": 271.918
+        },
+        {
+          "texto": "en",
+          "inicio": 271.976,
+          "fin": 272.023
+        },
+        {
+          "texto": "un",
+          "inicio": 272.127,
+          "fin": 272.185
+        },
+        {
+          "texto": "criminal.",
+          "inicio": 272.232,
+          "fin": 272.917
+        }
+      ]
+    },
+    {
+      "n": 53,
+      "texto": "Es decir, no fabrican asesinos. Pero sí pueden endurecer el corazón poco a poco.",
+      "clave": "endurecer",
+      "inicio": 273.381,
+      "fin": 279.616,
+      "palabras": [
+        {
+          "texto": "Es",
+          "inicio": 273.381,
+          "fin": 273.544
+        },
+        {
+          "texto": "decir,",
+          "inicio": 273.579,
+          "fin": 274.136
+        },
+        {
+          "texto": "no",
+          "inicio": 274.426,
+          "fin": 274.565
+        },
+        {
+          "texto": "fabrican",
+          "inicio": 274.623,
+          "fin": 275.088
+        },
+        {
+          "texto": "asesinos.",
+          "inicio": 275.146,
+          "fin": 276.005
+        },
+        {
+          "texto": "Pero",
+          "inicio": 276.469,
+          "fin": 276.76
+        },
+        {
+          "texto": "sí",
+          "inicio": 276.864,
+          "fin": 276.98
+        },
+        {
+          "texto": "pueden",
+          "inicio": 277.038,
+          "fin": 277.363
+        },
+        {
+          "texto": "endurecer",
+          "inicio": 277.421,
+          "fin": 277.909
+        },
+        {
+          "texto": "el",
+          "inicio": 277.944,
+          "fin": 277.99
+        },
+        {
+          "texto": "corazón",
+          "inicio": 278.048,
+          "fin": 278.547
+        },
+        {
+          "texto": "poco",
+          "inicio": 278.617,
+          "fin": 278.931
+        },
+        {
+          "texto": "a",
+          "inicio": 278.989,
+          "fin": 279.035
+        },
+        {
+          "texto": "poco.",
+          "inicio": 279.081,
+          "fin": 279.616
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "texto": "Y luego está el tiempo.",
+      "clave": "tiempo",
+      "inicio": 280.022,
+      "fin": 282.123,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 280.022,
+          "fin": 280.08
+        },
+        {
+          "texto": "luego",
+          "inicio": 280.184,
+          "fin": 280.544
+        },
+        {
+          "texto": "está",
+          "inicio": 280.602,
+          "fin": 280.846
+        },
+        {
+          "texto": "el",
+          "inicio": 280.916,
+          "fin": 280.986
+        },
+        {
+          "texto": "tiempo.",
+          "inicio": 281.067,
+          "fin": 282.123
+        }
+      ]
+    },
+    {
+      "n": 55,
+      "texto": "Desde el año dos mil veintidós, la Organización Mundial de la Salud reconoce el trastorno por videojuegos como una enfermedad.",
+      "clave": "Organización",
+      "inicio": 282.148571,
+      "fin": 289.439571,
+      "palabras": [
+        {
+          "texto": "Desde",
+          "inicio": 282.148571,
+          "fin": 282.473571
+        },
+        {
+          "texto": "el",
+          "inicio": 282.508571,
+          "fin": 282.578571
+        },
+        {
+          "texto": "año",
+          "inicio": 282.624571,
+          "fin": 282.821571
+        },
+        {
+          "texto": "dos",
+          "inicio": 282.85657100000003,
+          "fin": 282.996571
+        },
+        {
+          "texto": "mil",
+          "inicio": 283.054571,
+          "fin": 283.297571
+        },
+        {
+          "texto": "veintidós,",
+          "inicio": 283.355571,
+          "fin": 283.994571
+        },
+        {
+          "texto": "la",
+          "inicio": 284.029571,
+          "fin": 284.133571
+        },
+        {
+          "texto": "Organización",
+          "inicio": 284.191571,
+          "fin": 284.818571
+        },
+        {
+          "texto": "Mundial",
+          "inicio": 284.842571,
+          "fin": 285.213571
+        },
+        {
+          "texto": "de",
+          "inicio": 285.259571,
+          "fin": 285.306571
+        },
+        {
+          "texto": "la",
+          "inicio": 285.352571,
+          "fin": 285.422571
+        },
+        {
+          "texto": "Salud",
+          "inicio": 285.468571,
+          "fin": 285.840571
+        },
+        {
+          "texto": "reconoce",
+          "inicio": 286.061571,
+          "fin": 286.502571
+        },
+        {
+          "texto": "el",
+          "inicio": 286.525571,
+          "fin": 286.583571
+        },
+        {
+          "texto": "trastorno",
+          "inicio": 286.629571,
+          "fin": 287.140571
+        },
+        {
+          "texto": "por",
+          "inicio": 287.187571,
+          "fin": 287.303571
+        },
+        {
+          "texto": "videojuegos",
+          "inicio": 287.361571,
+          "fin": 288.023571
+        },
+        {
+          "texto": "como",
+          "inicio": 288.081571,
+          "fin": 288.290571
+        },
+        {
+          "texto": "una",
+          "inicio": 288.371571,
+          "fin": 288.510571
+        },
+        {
+          "texto": "enfermedad.",
+          "inicio": 288.545571,
+          "fin": 289.439571
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "texto": "Es cuando una persona ya no puede controlar cuánto juega, y deja de lado la escuela, el trabajo, la familia, el sueño.",
+      "clave": "controlar",
+      "inicio": 289.903571,
+      "fin": 298.216571,
+      "palabras": [
+        {
+          "texto": "Es",
+          "inicio": 289.903571,
+          "fin": 290.054571
+        },
+        {
+          "texto": "cuando",
+          "inicio": 290.089571,
+          "fin": 290.484571
+        },
+        {
+          "texto": "una",
+          "inicio": 290.646571,
+          "fin": 290.821571
+        },
+        {
+          "texto": "persona",
+          "inicio": 290.867571,
+          "fin": 291.401571
+        },
+        {
+          "texto": "ya",
+          "inicio": 291.459571,
+          "fin": 291.552571
+        },
+        {
+          "texto": "no",
+          "inicio": 291.610571,
+          "fin": 291.691571
+        },
+        {
+          "texto": "puede",
+          "inicio": 291.749571,
+          "fin": 291.99357100000003
+        },
+        {
+          "texto": "controlar",
+          "inicio": 292.051571,
+          "fin": 292.562571
+        },
+        {
+          "texto": "cuánto",
+          "inicio": 292.632571,
+          "fin": 293.061571
+        },
+        {
+          "texto": "juega,",
+          "inicio": 293.119571,
+          "fin": 293.676571
+        },
+        {
+          "texto": "y",
+          "inicio": 294.083571,
+          "fin": 294.141571
+        },
+        {
+          "texto": "deja",
+          "inicio": 294.222571,
+          "fin": 294.477571
+        },
+        {
+          "texto": "de",
+          "inicio": 294.535571,
+          "fin": 294.605571
+        },
+        {
+          "texto": "lado",
+          "inicio": 294.663571,
+          "fin": 294.919571
+        },
+        {
+          "texto": "la",
+          "inicio": 294.977571,
+          "fin": 295.035571
+        },
+        {
+          "texto": "escuela,",
+          "inicio": 295.05857100000003,
+          "fin": 295.650571
+        },
+        {
+          "texto": "el",
+          "inicio": 295.940571,
+          "fin": 296.056571
+        },
+        {
+          "texto": "trabajo,",
+          "inicio": 296.103571,
+          "fin": 296.834571
+        },
+        {
+          "texto": "la",
+          "inicio": 296.939571,
+          "fin": 297.032571
+        },
+        {
+          "texto": "familia,",
+          "inicio": 297.078571,
+          "fin": 297.484571
+        },
+        {
+          "texto": "el",
+          "inicio": 297.508571,
+          "fin": 297.589571
+        },
+        {
+          "texto": "sueño.",
+          "inicio": 297.659571,
+          "fin": 298.216571
+        }
+      ]
+    },
+    {
+      "n": 57,
+      "texto": "Le pasa a una minoría. Pero es una minoría real. Y casi siempre empieza igual: un ratito más, solo un ratito más.",
+      "clave": "minoría",
+      "inicio": 298.680571,
+      "fin": 307.864571,
+      "palabras": [
+        {
+          "texto": "Le",
+          "inicio": 298.680571,
+          "fin": 298.79657100000003
+        },
+        {
+          "texto": "pasa",
+          "inicio": 298.854571,
+          "fin": 299.191571
+        },
+        {
+          "texto": "a",
+          "inicio": 299.226571,
+          "fin": 299.249571
+        },
+        {
+          "texto": "una",
+          "inicio": 299.354571,
+          "fin": 299.528571
+        },
+        {
+          "texto": "minoría.",
+          "inicio": 299.586571,
+          "fin": 300.306571
+        },
+        {
+          "texto": "Pero",
+          "inicio": 300.851571,
+          "fin": 301.118571
+        },
+        {
+          "texto": "es",
+          "inicio": 301.223571,
+          "fin": 301.420571
+        },
+        {
+          "texto": "una",
+          "inicio": 301.559571,
+          "fin": 301.722571
+        },
+        {
+          "texto": "minoría",
+          "inicio": 301.780571,
+          "fin": 302.210571
+        },
+        {
+          "texto": "real.",
+          "inicio": 302.314571,
+          "fin": 302.837571
+        },
+        {
+          "texto": "Y",
+          "inicio": 303.127571,
+          "fin": 303.185571
+        },
+        {
+          "texto": "casi",
+          "inicio": 303.25557100000003,
+          "fin": 303.487571
+        },
+        {
+          "texto": "siempre",
+          "inicio": 303.533571,
+          "fin": 303.905571
+        },
+        {
+          "texto": "empieza",
+          "inicio": 303.92857100000003,
+          "fin": 304.323571
+        },
+        {
+          "texto": "igual:",
+          "inicio": 304.369571,
+          "fin": 304.822571
+        },
+        {
+          "texto": "un",
+          "inicio": 305.112571,
+          "fin": 305.228571
+        },
+        {
+          "texto": "ratito",
+          "inicio": 305.333571,
+          "fin": 305.716571
+        },
+        {
+          "texto": "más,",
+          "inicio": 305.774571,
+          "fin": 306.215571
+        },
+        {
+          "texto": "solo",
+          "inicio": 306.32057100000003,
+          "fin": 306.703571
+        },
+        {
+          "texto": "un",
+          "inicio": 306.784571,
+          "fin": 306.888571
+        },
+        {
+          "texto": "ratito",
+          "inicio": 306.993571,
+          "fin": 307.353571
+        },
+        {
+          "texto": "más.",
+          "inicio": 307.411571,
+          "fin": 307.864571
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "texto": "Y aunque no llegue a ser una enfermedad, hay algo que sí es masivo.",
+      "clave": "enfermedad",
+      "inicio": 308.15457100000003,
+      "fin": 311.974571,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 308.15457100000003,
+          "fin": 308.200571
+        },
+        {
+          "texto": "aunque",
+          "inicio": 308.258571,
+          "fin": 308.456571
+        },
+        {
+          "texto": "no",
+          "inicio": 308.514571,
+          "fin": 308.607571
+        },
+        {
+          "texto": "llegue",
+          "inicio": 308.63057100000003,
+          "fin": 308.897571
+        },
+        {
+          "texto": "a",
+          "inicio": 308.932571,
+          "fin": 308.955571
+        },
+        {
+          "texto": "ser",
+          "inicio": 309.013571,
+          "fin": 309.152571
+        },
+        {
+          "texto": "una",
+          "inicio": 309.210571,
+          "fin": 309.315571
+        },
+        {
+          "texto": "enfermedad,",
+          "inicio": 309.338571,
+          "fin": 310.023571
+        },
+        {
+          "texto": "hay",
+          "inicio": 310.081571,
+          "fin": 310.267571
+        },
+        {
+          "texto": "algo",
+          "inicio": 310.302571,
+          "fin": 310.464571
+        },
+        {
+          "texto": "que",
+          "inicio": 310.522571,
+          "fin": 310.639571
+        },
+        {
+          "texto": "sí",
+          "inicio": 310.720571,
+          "fin": 310.940571
+        },
+        {
+          "texto": "es",
+          "inicio": 311.045571,
+          "fin": 311.138571
+        },
+        {
+          "texto": "masivo.",
+          "inicio": 311.196571,
+          "fin": 311.974571
+        }
+      ]
+    },
+    {
+      "n": 59,
+      "texto": "Las horas. Las noches. Los domingos. Las conversaciones que ya no se tienen.",
+      "clave": "conversaciones",
+      "inicio": 312.264571,
+      "fin": 318.278571,
+      "palabras": [
+        {
+          "texto": "Las",
+          "inicio": 312.264571,
+          "fin": 312.461571
+        },
+        {
+          "texto": "horas.",
+          "inicio": 312.543571,
+          "fin": 313.077571
+        },
+        {
+          "texto": "Las",
+          "inicio": 313.425571,
+          "fin": 313.599571
+        },
+        {
+          "texto": "noches.",
+          "inicio": 313.657571,
+          "fin": 314.284571
+        },
+        {
+          "texto": "Los",
+          "inicio": 314.632571,
+          "fin": 314.795571
+        },
+        {
+          "texto": "domingos.",
+          "inicio": 314.841571,
+          "fin": 315.666571
+        },
+        {
+          "texto": "Las",
+          "inicio": 316.072571,
+          "fin": 316.211571
+        },
+        {
+          "texto": "conversaciones",
+          "inicio": 316.269571,
+          "fin": 317.059571
+        },
+        {
+          "texto": "que",
+          "inicio": 317.117571,
+          "fin": 317.198571
+        },
+        {
+          "texto": "ya",
+          "inicio": 317.268571,
+          "fin": 317.384571
+        },
+        {
+          "texto": "no",
+          "inicio": 317.488571,
+          "fin": 317.593571
+        },
+        {
+          "texto": "se",
+          "inicio": 317.651571,
+          "fin": 317.744571
+        },
+        {
+          "texto": "tienen.",
+          "inicio": 317.802571,
+          "fin": 318.278571
+        }
+      ]
+    },
+    {
+      "n": 60,
+      "texto": "Si este video te está sirviendo, dale me gusta y compártelo con otro papá o mamá. Puede ser justo lo que necesita escuchar hoy.",
+      "clave": "compártelo",
+      "inicio": 318.499571,
+      "fin": 326.358571,
+      "palabras": [
+        {
+          "texto": "Si",
+          "inicio": 318.499571,
+          "fin": 318.615571
+        },
+        {
+          "texto": "este",
+          "inicio": 318.661571,
+          "fin": 318.835571
+        },
+        {
+          "texto": "video",
+          "inicio": 318.882571,
+          "fin": 319.184571
+        },
+        {
+          "texto": "te",
+          "inicio": 319.242571,
+          "fin": 319.323571
+        },
+        {
+          "texto": "está",
+          "inicio": 319.358571,
+          "fin": 319.578571
+        },
+        {
+          "texto": "sirviendo,",
+          "inicio": 319.636571,
+          "fin": 320.449571
+        },
+        {
+          "texto": "dale",
+          "inicio": 320.635571,
+          "fin": 320.902571
+        },
+        {
+          "texto": "me",
+          "inicio": 320.960571,
+          "fin": 321.02957100000003
+        },
+        {
+          "texto": "gusta",
+          "inicio": 321.076571,
+          "fin": 321.389571
+        },
+        {
+          "texto": "y",
+          "inicio": 321.436571,
+          "fin": 321.459571
+        },
+        {
+          "texto": "compártelo",
+          "inicio": 321.517571,
+          "fin": 321.982571
+        },
+        {
+          "texto": "con",
+          "inicio": 322.016571,
+          "fin": 322.121571
+        },
+        {
+          "texto": "otro",
+          "inicio": 322.179571,
+          "fin": 322.353571
+        },
+        {
+          "texto": "papá",
+          "inicio": 322.388571,
+          "fin": 322.620571
+        },
+        {
+          "texto": "o",
+          "inicio": 322.725571,
+          "fin": 322.759571
+        },
+        {
+          "texto": "mamá.",
+          "inicio": 322.794571,
+          "fin": 323.259571
+        },
+        {
+          "texto": "Puede",
+          "inicio": 323.665571,
+          "fin": 323.932571
+        },
+        {
+          "texto": "ser",
+          "inicio": 323.978571,
+          "fin": 324.118571
+        },
+        {
+          "texto": "justo",
+          "inicio": 324.164571,
+          "fin": 324.489571
+        },
+        {
+          "texto": "lo",
+          "inicio": 324.547571,
+          "fin": 324.640571
+        },
+        {
+          "texto": "que",
+          "inicio": 324.675571,
+          "fin": 324.745571
+        },
+        {
+          "texto": "necesita",
+          "inicio": 324.791571,
+          "fin": 325.360571
+        },
+        {
+          "texto": "escuchar",
+          "inicio": 325.418571,
+          "fin": 325.929571
+        },
+        {
+          "texto": "hoy.",
+          "inicio": 325.975571,
+          "fin": 326.358571
+        }
+      ]
+    },
+    {
+      "n": 61,
+      "texto": "La Iglesia no habló de esto ayer.",
+      "clave": "Iglesia",
+      "inicio": 326.764571,
+      "fin": 328.634571,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 326.764571,
+          "fin": 326.857571
+        },
+        {
+          "texto": "Iglesia",
+          "inicio": 326.88057100000003,
+          "fin": 327.240571
+        },
+        {
+          "texto": "no",
+          "inicio": 327.298571,
+          "fin": 327.415571
+        },
+        {
+          "texto": "habló",
+          "inicio": 327.461571,
+          "fin": 327.728571
+        },
+        {
+          "texto": "de",
+          "inicio": 327.786571,
+          "fin": 327.867571
+        },
+        {
+          "texto": "esto",
+          "inicio": 327.937571,
+          "fin": 328.158571
+        },
+        {
+          "texto": "ayer.",
+          "inicio": 328.216571,
+          "fin": 328.634571
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "texto": "En el año dos mil siete, el papa Benedicto dieciséis dedicó un mensaje entero a los niños y los medios de comunicación.",
+      "clave": "comunicación",
+      "inicio": 328.924571,
+      "fin": 336.052571,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 328.924571,
+          "fin": 329.040571
+        },
+        {
+          "texto": "el",
+          "inicio": 329.086571,
+          "fin": 329.144571
+        },
+        {
+          "texto": "año",
+          "inicio": 329.20257100000003,
+          "fin": 329.48157100000003
+        },
+        {
+          "texto": "dos",
+          "inicio": 329.539571,
+          "fin": 329.760571
+        },
+        {
+          "texto": "mil",
+          "inicio": 329.818571,
+          "fin": 329.969571
+        },
+        {
+          "texto": "siete,",
+          "inicio": 330.027571,
+          "fin": 330.63057100000003
+        },
+        {
+          "texto": "el",
+          "inicio": 330.770571,
+          "fin": 330.909571
+        },
+        {
+          "texto": "papa",
+          "inicio": 330.979571,
+          "fin": 331.199571
+        },
+        {
+          "texto": "Benedicto",
+          "inicio": 331.246571,
+          "fin": 331.710571
+        },
+        {
+          "texto": "dieciséis",
+          "inicio": 331.768571,
+          "fin": 332.395571
+        },
+        {
+          "texto": "dedicó",
+          "inicio": 332.442571,
+          "fin": 332.743571
+        },
+        {
+          "texto": "un",
+          "inicio": 332.790571,
+          "fin": 332.836571
+        },
+        {
+          "texto": "mensaje",
+          "inicio": 332.883571,
+          "fin": 333.370571
+        },
+        {
+          "texto": "entero",
+          "inicio": 333.42857100000003,
+          "fin": 333.765571
+        },
+        {
+          "texto": "a",
+          "inicio": 333.800571,
+          "fin": 333.823571
+        },
+        {
+          "texto": "los",
+          "inicio": 333.846571,
+          "fin": 333.974571
+        },
+        {
+          "texto": "niños",
+          "inicio": 334.032571,
+          "fin": 334.311571
+        },
+        {
+          "texto": "y",
+          "inicio": 334.357571,
+          "fin": 334.38057100000003
+        },
+        {
+          "texto": "los",
+          "inicio": 334.427571,
+          "fin": 334.543571
+        },
+        {
+          "texto": "medios",
+          "inicio": 334.60157100000004,
+          "fin": 334.961571
+        },
+        {
+          "texto": "de",
+          "inicio": 335.007571,
+          "fin": 335.065571
+        },
+        {
+          "texto": "comunicación.",
+          "inicio": 335.112571,
+          "fin": 336.052571
+        }
+      ]
+    },
+    {
+      "n": 63,
+      "texto": "Y fue muy claro.",
+      "clave": "claro",
+      "inicio": 336.517571,
+      "fin": 337.759571,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 336.517571,
+          "fin": 336.621571
+        },
+        {
+          "texto": "fue",
+          "inicio": 336.761571,
+          "fin": 336.98157100000003
+        },
+        {
+          "texto": "muy",
+          "inicio": 337.039571,
+          "fin": 337.213571
+        },
+        {
+          "texto": "claro.",
+          "inicio": 337.260571,
+          "fin": 337.759571
+        }
+      ]
+    },
+    {
+      "n": 64,
+      "texto": "Criticó los programas, las películas y los videojuegos que exaltan la violencia o banalizan la sexualidad, sobre todo cuando van dirigidos a los jóvenes.",
+      "clave": "videojuegos",
+      "inicio": 338.107571,
+      "fin": 347.883571,
+      "palabras": [
+        {
+          "texto": "Criticó",
+          "inicio": 338.107571,
+          "fin": 338.537571
+        },
+        {
+          "texto": "los",
+          "inicio": 338.595571,
+          "fin": 338.711571
+        },
+        {
+          "texto": "programas,",
+          "inicio": 338.769571,
+          "fin": 339.524571
+        },
+        {
+          "texto": "las",
+          "inicio": 339.686571,
+          "fin": 339.826571
+        },
+        {
+          "texto": "películas",
+          "inicio": 339.884571,
+          "fin": 340.499571
+        },
+        {
+          "texto": "y",
+          "inicio": 340.580571,
+          "fin": 340.627571
+        },
+        {
+          "texto": "los",
+          "inicio": 340.685571,
+          "fin": 340.801571
+        },
+        {
+          "texto": "videojuegos",
+          "inicio": 340.859571,
+          "fin": 341.613571
+        },
+        {
+          "texto": "que",
+          "inicio": 341.799571,
+          "fin": 341.938571
+        },
+        {
+          "texto": "exaltan",
+          "inicio": 341.985571,
+          "fin": 342.414571
+        },
+        {
+          "texto": "la",
+          "inicio": 342.472571,
+          "fin": 342.565571
+        },
+        {
+          "texto": "violencia",
+          "inicio": 342.623571,
+          "fin": 343.285571
+        },
+        {
+          "texto": "o",
+          "inicio": 343.390571,
+          "fin": 343.424571
+        },
+        {
+          "texto": "banalizan",
+          "inicio": 343.459571,
+          "fin": 343.982571
+        },
+        {
+          "texto": "la",
+          "inicio": 344.028571,
+          "fin": 344.098571
+        },
+        {
+          "texto": "sexualidad,",
+          "inicio": 344.144571,
+          "fin": 344.980571
+        },
+        {
+          "texto": "sobre",
+          "inicio": 345.270571,
+          "fin": 345.526571
+        },
+        {
+          "texto": "todo",
+          "inicio": 345.572571,
+          "fin": 345.770571
+        },
+        {
+          "texto": "cuando",
+          "inicio": 345.816571,
+          "fin": 346.211571
+        },
+        {
+          "texto": "van",
+          "inicio": 346.280571,
+          "fin": 346.489571
+        },
+        {
+          "texto": "dirigidos",
+          "inicio": 346.54857100000004,
+          "fin": 347.035571
+        },
+        {
+          "texto": "a",
+          "inicio": 347.105571,
+          "fin": 347.128571
+        },
+        {
+          "texto": "los",
+          "inicio": 347.174571,
+          "fin": 347.291571
+        },
+        {
+          "texto": "jóvenes.",
+          "inicio": 347.337571,
+          "fin": 347.883571
+        }
+      ]
+    },
+    {
+      "n": 65,
+      "texto": "Y dijo que educar a los hijos en el uso de los medios es responsabilidad de los padres, de la Iglesia y de la escuela.",
+      "clave": "responsabilidad",
+      "inicio": 348.289571,
+      "fin": 355.313571,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 348.289571,
+          "fin": 348.370571
+        },
+        {
+          "texto": "dijo",
+          "inicio": 348.45257100000003,
+          "fin": 348.684571
+        },
+        {
+          "texto": "que",
+          "inicio": 348.742571,
+          "fin": 348.846571
+        },
+        {
+          "texto": "educar",
+          "inicio": 348.893571,
+          "fin": 349.206571
+        },
+        {
+          "texto": "a",
+          "inicio": 349.241571,
+          "fin": 349.264571
+        },
+        {
+          "texto": "los",
+          "inicio": 349.299571,
+          "fin": 349.427571
+        },
+        {
+          "texto": "hijos",
+          "inicio": 349.485571,
+          "fin": 349.729571
+        },
+        {
+          "texto": "en",
+          "inicio": 349.787571,
+          "fin": 349.845571
+        },
+        {
+          "texto": "el",
+          "inicio": 349.903571,
+          "fin": 349.961571
+        },
+        {
+          "texto": "uso",
+          "inicio": 350.042571,
+          "fin": 350.216571
+        },
+        {
+          "texto": "de",
+          "inicio": 350.263571,
+          "fin": 350.309571
+        },
+        {
+          "texto": "los",
+          "inicio": 350.35657100000003,
+          "fin": 350.472571
+        },
+        {
+          "texto": "medios",
+          "inicio": 350.530571,
+          "fin": 350.913571
+        },
+        {
+          "texto": "es",
+          "inicio": 351.09957099999997,
+          "fin": 351.319571
+        },
+        {
+          "texto": "responsabilidad",
+          "inicio": 351.482571,
+          "fin": 352.306571
+        },
+        {
+          "texto": "de",
+          "inicio": 352.329571,
+          "fin": 352.387571
+        },
+        {
+          "texto": "los",
+          "inicio": 352.422571,
+          "fin": 352.538571
+        },
+        {
+          "texto": "padres,",
+          "inicio": 352.608571,
+          "fin": 353.15457100000003
+        },
+        {
+          "texto": "de",
+          "inicio": 353.409571,
+          "fin": 353.490571
+        },
+        {
+          "texto": "la",
+          "inicio": 353.54857100000004,
+          "fin": 353.595571
+        },
+        {
+          "texto": "Iglesia",
+          "inicio": 353.618571,
+          "fin": 354.10657100000003
+        },
+        {
+          "texto": "y",
+          "inicio": 354.361571,
+          "fin": 354.431571
+        },
+        {
+          "texto": "de",
+          "inicio": 354.512571,
+          "fin": 354.570571
+        },
+        {
+          "texto": "la",
+          "inicio": 354.628571,
+          "fin": 354.686571
+        },
+        {
+          "texto": "escuela.",
+          "inicio": 354.733571,
+          "fin": 355.313571
+        }
+      ]
+    },
+    {
+      "n": 66,
+      "texto": "En ese orden. Los padres, primero.",
+      "clave": "primero",
+      "inicio": 355.719571,
+      "fin": 358.285571,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 355.719571,
+          "fin": 355.847571
+        },
+        {
+          "texto": "ese",
+          "inicio": 355.905571,
+          "fin": 356.103571
+        },
+        {
+          "texto": "orden.",
+          "inicio": 356.184571,
+          "fin": 356.62557100000004
+        },
+        {
+          "texto": "Los",
+          "inicio": 356.973571,
+          "fin": 357.136571
+        },
+        {
+          "texto": "padres,",
+          "inicio": 357.194571,
+          "fin": 357.64757099999997
+        },
+        {
+          "texto": "primero.",
+          "inicio": 357.705571,
+          "fin": 358.285571
+        }
+      ]
+    },
+    {
+      "n": 67,
+      "texto": "Años después, en Cracovia, el papa Francisco les habló a millones de jóvenes.",
+      "clave": "Francisco",
+      "inicio": 358.692571,
+      "fin": 363.359571,
+      "palabras": [
+        {
+          "texto": "Años",
+          "inicio": 358.692571,
+          "fin": 358.970571
+        },
+        {
+          "texto": "después,",
+          "inicio": 359.00557100000003,
+          "fin": 359.539571
+        },
+        {
+          "texto": "en",
+          "inicio": 359.586571,
+          "fin": 359.655571
+        },
+        {
+          "texto": "Cracovia,",
+          "inicio": 359.713571,
+          "fin": 360.189571
+        },
+        {
+          "texto": "el",
+          "inicio": 360.213571,
+          "fin": 360.282571
+        },
+        {
+          "texto": "papa",
+          "inicio": 360.340571,
+          "fin": 360.549571
+        },
+        {
+          "texto": "Francisco",
+          "inicio": 360.584571,
+          "fin": 361.095571
+        },
+        {
+          "texto": "les",
+          "inicio": 361.141571,
+          "fin": 361.257571
+        },
+        {
+          "texto": "habló",
+          "inicio": 361.316571,
+          "fin": 361.594571
+        },
+        {
+          "texto": "a",
+          "inicio": 361.652571,
+          "fin": 361.687571
+        },
+        {
+          "texto": "millones",
+          "inicio": 361.745571,
+          "fin": 362.465571
+        },
+        {
+          "texto": "de",
+          "inicio": 362.523571,
+          "fin": 362.616571
+        },
+        {
+          "texto": "jóvenes.",
+          "inicio": 362.674571,
+          "fin": 363.359571
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "texto": "Les pidió no quedarse en el sofá. No vivir la vida a través de una pantalla.",
+      "clave": "quedarse",
+      "inicio": 363.70757100000003,
+      "fin": 368.305571,
+      "palabras": [
+        {
+          "texto": "Les",
+          "inicio": 363.70757100000003,
+          "fin": 363.858571
+        },
+        {
+          "texto": "pidió",
+          "inicio": 363.916571,
+          "fin": 364.18357100000003
+        },
+        {
+          "texto": "no",
+          "inicio": 364.241571,
+          "fin": 364.323571
+        },
+        {
+          "texto": "quedarse",
+          "inicio": 364.369571,
+          "fin": 364.799571
+        },
+        {
+          "texto": "en",
+          "inicio": 364.857571,
+          "fin": 364.926571
+        },
+        {
+          "texto": "el",
+          "inicio": 364.984571,
+          "fin": 365.054571
+        },
+        {
+          "texto": "sofá.",
+          "inicio": 365.112571,
+          "fin": 365.669571
+        },
+        {
+          "texto": "No",
+          "inicio": 365.960571,
+          "fin": 366.087571
+        },
+        {
+          "texto": "vivir",
+          "inicio": 366.134571,
+          "fin": 366.377571
+        },
+        {
+          "texto": "la",
+          "inicio": 366.436571,
+          "fin": 366.50557100000003
+        },
+        {
+          "texto": "vida",
+          "inicio": 366.563571,
+          "fin": 366.819571
+        },
+        {
+          "texto": "a",
+          "inicio": 366.853571,
+          "fin": 366.877571
+        },
+        {
+          "texto": "través",
+          "inicio": 366.92357100000004,
+          "fin": 367.225571
+        },
+        {
+          "texto": "de",
+          "inicio": 367.260571,
+          "fin": 367.318571
+        },
+        {
+          "texto": "una",
+          "inicio": 367.388571,
+          "fin": 367.515571
+        },
+        {
+          "texto": "pantalla.",
+          "inicio": 367.562571,
+          "fin": 368.305571
+        }
+      ]
+    },
+    {
+      "n": 69,
+      "texto": "Y en Australia, el obispo Julian Porteous advirtió que los videojuegos violentos deshumanizan: aumentan la agresividad, crean dependencia y nos vuelven insensibles ante el dolor real.",
+      "clave": "deshumanizan",
+      "inicio": 368.653571,
+      "fin": 380.797571,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 368.653571,
+          "fin": 368.711571
+        },
+        {
+          "texto": "en",
+          "inicio": 368.769571,
+          "fin": 368.82757100000003
+        },
+        {
+          "texto": "Australia,",
+          "inicio": 368.874571,
+          "fin": 369.593571
+        },
+        {
+          "texto": "el",
+          "inicio": 369.651571,
+          "fin": 369.84957099999997
+        },
+        {
+          "texto": "obispo",
+          "inicio": 369.953571,
+          "fin": 370.47657100000004
+        },
+        {
+          "texto": "Julian",
+          "inicio": 370.580571,
+          "fin": 370.940571
+        },
+        {
+          "texto": "Porteous",
+          "inicio": 371.010571,
+          "fin": 371.62557100000004
+        },
+        {
+          "texto": "advirtió",
+          "inicio": 371.916571,
+          "fin": 372.403571
+        },
+        {
+          "texto": "que",
+          "inicio": 372.450571,
+          "fin": 372.519571
+        },
+        {
+          "texto": "los",
+          "inicio": 372.566571,
+          "fin": 372.670571
+        },
+        {
+          "texto": "videojuegos",
+          "inicio": 372.717571,
+          "fin": 373.309571
+        },
+        {
+          "texto": "violentos",
+          "inicio": 373.355571,
+          "fin": 373.971571
+        },
+        {
+          "texto": "deshumanizan:",
+          "inicio": 374.052571,
+          "fin": 375.108571
+        },
+        {
+          "texto": "aumentan",
+          "inicio": 375.39957100000004,
+          "fin": 375.863571
+        },
+        {
+          "texto": "la",
+          "inicio": 375.921571,
+          "fin": 375.991571
+        },
+        {
+          "texto": "agresividad,",
+          "inicio": 376.014571,
+          "fin": 376.838571
+        },
+        {
+          "texto": "crean",
+          "inicio": 376.862571,
+          "fin": 377.152571
+        },
+        {
+          "texto": "dependencia",
+          "inicio": 377.210571,
+          "fin": 378.034571
+        },
+        {
+          "texto": "y",
+          "inicio": 378.290571,
+          "fin": 378.359571
+        },
+        {
+          "texto": "nos",
+          "inicio": 378.417571,
+          "fin": 378.533571
+        },
+        {
+          "texto": "vuelven",
+          "inicio": 378.591571,
+          "fin": 378.882571
+        },
+        {
+          "texto": "insensibles",
+          "inicio": 378.92857100000003,
+          "fin": 379.509571
+        },
+        {
+          "texto": "ante",
+          "inicio": 379.567571,
+          "fin": 379.752571
+        },
+        {
+          "texto": "el",
+          "inicio": 379.776571,
+          "fin": 379.845571
+        },
+        {
+          "texto": "dolor",
+          "inicio": 379.903571,
+          "fin": 380.182571
+        },
+        {
+          "texto": "real.",
+          "inicio": 380.263571,
+          "fin": 380.797571
+        }
+      ]
+    },
+    {
+      "n": 70,
+      "texto": "Ninguno de ellos odiaba la tecnología. Todos estaban preocupados por el alma.",
+      "clave": "preocupados",
+      "inicio": 381.262571,
+      "fin": 386.533571,
+      "palabras": [
+        {
+          "texto": "Ninguno",
+          "inicio": 381.262571,
+          "fin": 381.680571
+        },
+        {
+          "texto": "de",
+          "inicio": 381.738571,
+          "fin": 381.807571
+        },
+        {
+          "texto": "ellos",
+          "inicio": 381.865571,
+          "fin": 382.098571
+        },
+        {
+          "texto": "odiaba",
+          "inicio": 382.167571,
+          "fin": 382.597571
+        },
+        {
+          "texto": "la",
+          "inicio": 382.655571,
+          "fin": 382.736571
+        },
+        {
+          "texto": "tecnología.",
+          "inicio": 382.794571,
+          "fin": 383.770571
+        },
+        {
+          "texto": "Todos",
+          "inicio": 383.990571,
+          "fin": 384.338571
+        },
+        {
+          "texto": "estaban",
+          "inicio": 384.408571,
+          "fin": 384.780571
+        },
+        {
+          "texto": "preocupados",
+          "inicio": 384.838571,
+          "fin": 385.627571
+        },
+        {
+          "texto": "por",
+          "inicio": 385.685571,
+          "fin": 385.813571
+        },
+        {
+          "texto": "el",
+          "inicio": 385.871571,
+          "fin": 385.941571
+        },
+        {
+          "texto": "alma.",
+          "inicio": 386.02257099999997,
+          "fin": 386.533571
+        }
+      ]
+    },
+    {
+      "n": 71,
+      "texto": "Y aquí llegamos a la parte que casi nadie se atreve a decir.",
+      "clave": "llegamos",
+      "inicio": 386.881571,
+      "fin": 390.620571,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 386.881571,
+          "fin": 386.939571
+        },
+        {
+          "texto": "aquí",
+          "inicio": 386.997571,
+          "fin": 387.323571
+        },
+        {
+          "texto": "llegamos",
+          "inicio": 387.381571,
+          "fin": 387.799571
+        },
+        {
+          "texto": "a",
+          "inicio": 387.857571,
+          "fin": 387.88057100000003
+        },
+        {
+          "texto": "la",
+          "inicio": 387.926571,
+          "fin": 387.984571
+        },
+        {
+          "texto": "parte",
+          "inicio": 388.042571,
+          "fin": 388.29857100000004
+        },
+        {
+          "texto": "que",
+          "inicio": 388.344571,
+          "fin": 388.425571
+        },
+        {
+          "texto": "casi",
+          "inicio": 388.472571,
+          "fin": 388.77457100000004
+        },
+        {
+          "texto": "nadie",
+          "inicio": 388.878571,
+          "fin": 389.238571
+        },
+        {
+          "texto": "se",
+          "inicio": 389.296571,
+          "fin": 389.412571
+        },
+        {
+          "texto": "atreve",
+          "inicio": 389.459571,
+          "fin": 389.842571
+        },
+        {
+          "texto": "a",
+          "inicio": 389.900571,
+          "fin": 389.92357100000004
+        },
+        {
+          "texto": "decir.",
+          "inicio": 389.98157100000003,
+          "fin": 390.620571
+        }
+      ]
+    },
+    {
+      "n": 72,
+      "texto": "Para un católico, la vida es una batalla espiritual.",
+      "clave": "espiritual",
+      "inicio": 391.363571,
+      "fin": 394.637571,
+      "palabras": [
+        {
+          "texto": "Para",
+          "inicio": 391.363571,
+          "fin": 391.537571
+        },
+        {
+          "texto": "un",
+          "inicio": 391.583571,
+          "fin": 391.641571
+        },
+        {
+          "texto": "católico,",
+          "inicio": 391.688571,
+          "fin": 392.315571
+        },
+        {
+          "texto": "la",
+          "inicio": 392.454571,
+          "fin": 392.547571
+        },
+        {
+          "texto": "vida",
+          "inicio": 392.605571,
+          "fin": 392.860571
+        },
+        {
+          "texto": "es",
+          "inicio": 392.930571,
+          "fin": 393.00057100000004
+        },
+        {
+          "texto": "una",
+          "inicio": 393.104571,
+          "fin": 393.244571
+        },
+        {
+          "texto": "batalla",
+          "inicio": 393.302571,
+          "fin": 393.743571
+        },
+        {
+          "texto": "espiritual.",
+          "inicio": 393.824571,
+          "fin": 394.637571
+        }
+      ]
+    },
+    {
+      "n": 73,
+      "texto": "San Pablo lo dice así: nuestra lucha no es contra la carne y la sangre, sino contra los poderes de las tinieblas.",
+      "clave": "tinieblas",
+      "inicio": 394.985571,
+      "fin": 401.684571,
+      "palabras": [
+        {
+          "texto": "San",
+          "inicio": 394.985571,
+          "fin": 395.148571
+        },
+        {
+          "texto": "Pablo",
+          "inicio": 395.206571,
+          "fin": 395.508571
+        },
+        {
+          "texto": "lo",
+          "inicio": 395.554571,
+          "fin": 395.624571
+        },
+        {
+          "texto": "dice",
+          "inicio": 395.670571,
+          "fin": 395.879571
+        },
+        {
+          "texto": "así:",
+          "inicio": 395.926571,
+          "fin": 396.355571
+        },
+        {
+          "texto": "nuestra",
+          "inicio": 396.819571,
+          "fin": 397.145571
+        },
+        {
+          "texto": "lucha",
+          "inicio": 397.179571,
+          "fin": 397.42357100000004
+        },
+        {
+          "texto": "no",
+          "inicio": 397.48157100000003,
+          "fin": 397.586571
+        },
+        {
+          "texto": "es",
+          "inicio": 397.632571,
+          "fin": 397.690571
+        },
+        {
+          "texto": "contra",
+          "inicio": 397.74857099999997,
+          "fin": 398.015571
+        },
+        {
+          "texto": "la",
+          "inicio": 398.062571,
+          "fin": 398.143571
+        },
+        {
+          "texto": "carne",
+          "inicio": 398.201571,
+          "fin": 398.526571
+        },
+        {
+          "texto": "y",
+          "inicio": 398.549571,
+          "fin": 398.573571
+        },
+        {
+          "texto": "la",
+          "inicio": 398.631571,
+          "fin": 398.712571
+        },
+        {
+          "texto": "sangre,",
+          "inicio": 398.770571,
+          "fin": 399.339571
+        },
+        {
+          "texto": "sino",
+          "inicio": 399.443571,
+          "fin": 399.687571
+        },
+        {
+          "texto": "contra",
+          "inicio": 399.745571,
+          "fin": 400.047571
+        },
+        {
+          "texto": "los",
+          "inicio": 400.08257100000003,
+          "fin": 400.198571
+        },
+        {
+          "texto": "poderes",
+          "inicio": 400.256571,
+          "fin": 400.651571
+        },
+        {
+          "texto": "de",
+          "inicio": 400.69757100000004,
+          "fin": 400.75557100000003
+        },
+        {
+          "texto": "las",
+          "inicio": 400.802571,
+          "fin": 400.918571
+        },
+        {
+          "texto": "tinieblas.",
+          "inicio": 400.964571,
+          "fin": 401.684571
+        }
+      ]
+    },
+    {
+      "n": 74,
+      "texto": "El enemigo no necesita que hagas algo terrible.",
+      "clave": "necesita",
+      "inicio": 401.939571,
+      "fin": 405.098571,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 401.939571,
+          "fin": 402.067571
+        },
+        {
+          "texto": "enemigo",
+          "inicio": 402.12557100000004,
+          "fin": 402.555571
+        },
+        {
+          "texto": "no",
+          "inicio": 402.62557100000004,
+          "fin": 402.718571
+        },
+        {
+          "texto": "necesita",
+          "inicio": 402.776571,
+          "fin": 403.391571
+        },
+        {
+          "texto": "que",
+          "inicio": 403.449571,
+          "fin": 403.565571
+        },
+        {
+          "texto": "hagas",
+          "inicio": 403.62357099999997,
+          "fin": 403.925571
+        },
+        {
+          "texto": "algo",
+          "inicio": 404.088571,
+          "fin": 404.343571
+        },
+        {
+          "texto": "terrible.",
+          "inicio": 404.401571,
+          "fin": 405.098571
+        }
+      ]
+    },
+    {
+      "n": 75,
+      "texto": "Le basta con que te acostumbres al mal. Con que te parezca normal. Divertido, incluso.",
+      "clave": "acostumbres",
+      "inicio": 405.353571,
+      "fin": 411.460571,
+      "palabras": [
+        {
+          "texto": "Le",
+          "inicio": 405.353571,
+          "fin": 405.458571
+        },
+        {
+          "texto": "basta",
+          "inicio": 405.504571,
+          "fin": 405.759571
+        },
+        {
+          "texto": "con",
+          "inicio": 405.794571,
+          "fin": 405.910571
+        },
+        {
+          "texto": "que",
+          "inicio": 405.95757100000003,
+          "fin": 406.026571
+        },
+        {
+          "texto": "te",
+          "inicio": 406.073571,
+          "fin": 406.143571
+        },
+        {
+          "texto": "acostumbres",
+          "inicio": 406.177571,
+          "fin": 406.828571
+        },
+        {
+          "texto": "al",
+          "inicio": 406.886571,
+          "fin": 406.967571
+        },
+        {
+          "texto": "mal.",
+          "inicio": 407.025571,
+          "fin": 407.513571
+        },
+        {
+          "texto": "Con",
+          "inicio": 407.80357100000003,
+          "fin": 407.954571
+        },
+        {
+          "texto": "que",
+          "inicio": 408.012571,
+          "fin": 408.081571
+        },
+        {
+          "texto": "te",
+          "inicio": 408.139571,
+          "fin": 408.221571
+        },
+        {
+          "texto": "parezca",
+          "inicio": 408.267571,
+          "fin": 408.685571
+        },
+        {
+          "texto": "normal.",
+          "inicio": 408.743571,
+          "fin": 409.405571
+        },
+        {
+          "texto": "Divertido,",
+          "inicio": 409.753571,
+          "fin": 410.578571
+        },
+        {
+          "texto": "incluso.",
+          "inicio": 410.624571,
+          "fin": 411.460571
+        }
+      ]
+    },
+    {
+      "n": 76,
+      "texto": "Le basta con que pases horas lejos de tu familia, lejos de la oración, lejos de Dios.",
+      "clave": "familia",
+      "inicio": 411.715571,
+      "fin": 417.845571,
+      "palabras": [
+        {
+          "texto": "Le",
+          "inicio": 411.715571,
+          "fin": 411.831571
+        },
+        {
+          "texto": "basta",
+          "inicio": 411.87857099999997,
+          "fin": 412.191571
+        },
+        {
+          "texto": "con",
+          "inicio": 412.238571,
+          "fin": 412.35457099999996
+        },
+        {
+          "texto": "que",
+          "inicio": 412.412571,
+          "fin": 412.493571
+        },
+        {
+          "texto": "pases",
+          "inicio": 412.55157099999997,
+          "fin": 412.911571
+        },
+        {
+          "texto": "horas",
+          "inicio": 412.969571,
+          "fin": 413.24857099999997
+        },
+        {
+          "texto": "lejos",
+          "inicio": 413.318571,
+          "fin": 413.712571
+        },
+        {
+          "texto": "de",
+          "inicio": 413.770571,
+          "fin": 413.828571
+        },
+        {
+          "texto": "tu",
+          "inicio": 413.87557100000004,
+          "fin": 413.968571
+        },
+        {
+          "texto": "familia,",
+          "inicio": 414.026571,
+          "fin": 414.699571
+        },
+        {
+          "texto": "lejos",
+          "inicio": 414.885571,
+          "fin": 415.280571
+        },
+        {
+          "texto": "de",
+          "inicio": 415.338571,
+          "fin": 415.40757099999996
+        },
+        {
+          "texto": "la",
+          "inicio": 415.465571,
+          "fin": 415.523571
+        },
+        {
+          "texto": "oración,",
+          "inicio": 415.570571,
+          "fin": 416.313571
+        },
+        {
+          "texto": "lejos",
+          "inicio": 416.499571,
+          "fin": 416.986571
+        },
+        {
+          "texto": "de",
+          "inicio": 417.05657099999996,
+          "fin": 417.137571
+        },
+        {
+          "texto": "Dios.",
+          "inicio": 417.195571,
+          "fin": 417.845571
+        }
+      ]
+    },
+    {
+      "n": 77,
+      "texto": "Por eso muchos sacerdotes y líderes religiosos hablan de una influencia espiritual en todo esto.",
+      "clave": "sacerdotes",
+      "inicio": 418.194571,
+      "fin": 423.488571,
+      "palabras": [
+        {
+          "texto": "Por",
+          "inicio": 418.194571,
+          "fin": 418.345571
+        },
+        {
+          "texto": "eso",
+          "inicio": 418.403571,
+          "fin": 418.542571
+        },
+        {
+          "texto": "muchos",
+          "inicio": 418.600571,
+          "fin": 418.879571
+        },
+        {
+          "texto": "sacerdotes",
+          "inicio": 418.90257099999997,
+          "fin": 419.506571
+        },
+        {
+          "texto": "y",
+          "inicio": 419.564571,
+          "fin": 419.59957099999997
+        },
+        {
+          "texto": "líderes",
+          "inicio": 419.65757099999996,
+          "fin": 420.063571
+        },
+        {
+          "texto": "religiosos",
+          "inicio": 420.14457100000004,
+          "fin": 420.84157100000004
+        },
+        {
+          "texto": "hablan",
+          "inicio": 421.00357099999997,
+          "fin": 421.305571
+        },
+        {
+          "texto": "de",
+          "inicio": 421.352571,
+          "fin": 421.398571
+        },
+        {
+          "texto": "una",
+          "inicio": 421.456571,
+          "fin": 421.561571
+        },
+        {
+          "texto": "influencia",
+          "inicio": 421.584571,
+          "fin": 422.071571
+        },
+        {
+          "texto": "espiritual",
+          "inicio": 422.095571,
+          "fin": 422.605571
+        },
+        {
+          "texto": "en",
+          "inicio": 422.65257099999997,
+          "fin": 422.698571
+        },
+        {
+          "texto": "todo",
+          "inicio": 422.74557100000004,
+          "fin": 422.954571
+        },
+        {
+          "texto": "esto.",
+          "inicio": 423.023571,
+          "fin": 423.488571
+        }
+      ]
+    },
+    {
+      "n": 78,
+      "texto": "No porque un juego tenga poderes. Sino porque todo lo que nos aleja de Dios, le abre la puerta a la tentación.",
+      "clave": "tentación",
+      "inicio": 423.89457100000004,
+      "fin": 430.802571,
+      "palabras": [
+        {
+          "texto": "No",
+          "inicio": 423.89457100000004,
+          "fin": 424.010571
+        },
+        {
+          "texto": "porque",
+          "inicio": 424.057571,
+          "fin": 424.324571
+        },
+        {
+          "texto": "un",
+          "inicio": 424.382571,
+          "fin": 424.463571
+        },
+        {
+          "texto": "juego",
+          "inicio": 424.510571,
+          "fin": 424.77757099999997
+        },
+        {
+          "texto": "tenga",
+          "inicio": 424.835571,
+          "fin": 425.090571
+        },
+        {
+          "texto": "poderes.",
+          "inicio": 425.136571,
+          "fin": 425.787571
+        },
+        {
+          "texto": "Sino",
+          "inicio": 426.193571,
+          "fin": 426.437571
+        },
+        {
+          "texto": "porque",
+          "inicio": 426.49557100000004,
+          "fin": 426.75057100000004
+        },
+        {
+          "texto": "todo",
+          "inicio": 426.80857100000003,
+          "fin": 427.064571
+        },
+        {
+          "texto": "lo",
+          "inicio": 427.122571,
+          "fin": 427.22657100000004
+        },
+        {
+          "texto": "que",
+          "inicio": 427.273571,
+          "fin": 427.35457099999996
+        },
+        {
+          "texto": "nos",
+          "inicio": 427.412571,
+          "fin": 427.55157099999997
+        },
+        {
+          "texto": "aleja",
+          "inicio": 427.633571,
+          "fin": 428.02757099999997
+        },
+        {
+          "texto": "de",
+          "inicio": 428.074571,
+          "fin": 428.155571
+        },
+        {
+          "texto": "Dios,",
+          "inicio": 428.213571,
+          "fin": 428.736571
+        },
+        {
+          "texto": "le",
+          "inicio": 428.956571,
+          "fin": 429.061571
+        },
+        {
+          "texto": "abre",
+          "inicio": 429.107571,
+          "fin": 429.304571
+        },
+        {
+          "texto": "la",
+          "inicio": 429.339571,
+          "fin": 429.409571
+        },
+        {
+          "texto": "puerta",
+          "inicio": 429.45557099999996,
+          "fin": 429.76957100000004
+        },
+        {
+          "texto": "a",
+          "inicio": 429.804571,
+          "fin": 429.82757100000003
+        },
+        {
+          "texto": "la",
+          "inicio": 429.862571,
+          "fin": 429.943571
+        },
+        {
+          "texto": "tentación.",
+          "inicio": 429.989571,
+          "fin": 430.802571
+        }
+      ]
+    },
+    {
+      "n": 79,
+      "texto": "Y una puerta cerrada, con una pantalla encendida y nadie mirando, es una puerta muy abierta.",
+      "clave": "encendida",
+      "inicio": 431.208571,
+      "fin": 437.258571,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 431.208571,
+          "fin": 431.267571
+        },
+        {
+          "texto": "una",
+          "inicio": 431.32557099999997,
+          "fin": 431.441571
+        },
+        {
+          "texto": "puerta",
+          "inicio": 431.487571,
+          "fin": 431.754571
+        },
+        {
+          "texto": "cerrada,",
+          "inicio": 431.789571,
+          "fin": 432.497571
+        },
+        {
+          "texto": "con",
+          "inicio": 432.636571,
+          "fin": 432.776571
+        },
+        {
+          "texto": "una",
+          "inicio": 432.823571,
+          "fin": 432.95057099999997
+        },
+        {
+          "texto": "pantalla",
+          "inicio": 432.997571,
+          "fin": 433.484571
+        },
+        {
+          "texto": "encendida",
+          "inicio": 433.542571,
+          "fin": 434.169571
+        },
+        {
+          "texto": "y",
+          "inicio": 434.227571,
+          "fin": 434.262571
+        },
+        {
+          "texto": "nadie",
+          "inicio": 434.33257100000003,
+          "fin": 434.669571
+        },
+        {
+          "texto": "mirando,",
+          "inicio": 434.715571,
+          "fin": 435.55157099999997
+        },
+        {
+          "texto": "es",
+          "inicio": 435.737571,
+          "fin": 435.864571
+        },
+        {
+          "texto": "una",
+          "inicio": 435.934571,
+          "fin": 436.062571
+        },
+        {
+          "texto": "puerta",
+          "inicio": 436.108571,
+          "fin": 436.387571
+        },
+        {
+          "texto": "muy",
+          "inicio": 436.422571,
+          "fin": 436.573571
+        },
+        {
+          "texto": "abierta.",
+          "inicio": 436.608571,
+          "fin": 437.258571
+        }
+      ]
+    },
+    {
+      "n": 80,
+      "texto": "Hoy muchas familias viven bajo el mismo techo… pero cada uno en su mundo.",
+      "clave": "familias",
+      "inicio": 437.722571,
+      "fin": 442.94757100000004,
+      "palabras": [
+        {
+          "texto": "Hoy",
+          "inicio": 437.722571,
+          "fin": 438.02457100000004
+        },
+        {
+          "texto": "muchas",
+          "inicio": 438.105571,
+          "fin": 438.453571
+        },
+        {
+          "texto": "familias",
+          "inicio": 438.512571,
+          "fin": 438.97657100000004
+        },
+        {
+          "texto": "viven",
+          "inicio": 439.034571,
+          "fin": 439.313571
+        },
+        {
+          "texto": "bajo",
+          "inicio": 439.371571,
+          "fin": 439.638571
+        },
+        {
+          "texto": "el",
+          "inicio": 439.661571,
+          "fin": 439.73157100000003
+        },
+        {
+          "texto": "mismo",
+          "inicio": 439.789571,
+          "fin": 440.05657099999996
+        },
+        {
+          "texto": "techo…",
+          "inicio": 440.114571,
+          "fin": 440.868571
+        },
+        {
+          "texto": "pero",
+          "inicio": 441.217571,
+          "fin": 441.414571
+        },
+        {
+          "texto": "cada",
+          "inicio": 441.460571,
+          "fin": 441.68157099999996
+        },
+        {
+          "texto": "uno",
+          "inicio": 441.786571,
+          "fin": 441.960571
+        },
+        {
+          "texto": "en",
+          "inicio": 442.006571,
+          "fin": 442.064571
+        },
+        {
+          "texto": "su",
+          "inicio": 442.122571,
+          "fin": 442.25057100000004
+        },
+        {
+          "texto": "mundo.",
+          "inicio": 442.30857100000003,
+          "fin": 442.94757100000004
+        }
+      ]
+    },
+    {
+      "n": 81,
+      "texto": "El papá con el celular. La mamá con la televisión. El hijo con la consola.",
+      "clave": "televisión",
+      "inicio": 443.353571,
+      "fin": 448.693571,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 443.353571,
+          "fin": 443.504571
+        },
+        {
+          "texto": "papá",
+          "inicio": 443.562571,
+          "fin": 443.78257099999996
+        },
+        {
+          "texto": "con",
+          "inicio": 443.84157100000004,
+          "fin": 443.95757100000003
+        },
+        {
+          "texto": "el",
+          "inicio": 444.015571,
+          "fin": 444.073571
+        },
+        {
+          "texto": "celular.",
+          "inicio": 444.108571,
+          "fin": 444.758571
+        },
+        {
+          "texto": "La",
+          "inicio": 445.164571,
+          "fin": 445.280571
+        },
+        {
+          "texto": "mamá",
+          "inicio": 445.338571,
+          "fin": 445.605571
+        },
+        {
+          "texto": "con",
+          "inicio": 445.663571,
+          "fin": 445.791571
+        },
+        {
+          "texto": "la",
+          "inicio": 445.837571,
+          "fin": 445.884571
+        },
+        {
+          "texto": "televisión.",
+          "inicio": 445.930571,
+          "fin": 446.859571
+        },
+        {
+          "texto": "El",
+          "inicio": 447.20757100000003,
+          "fin": 447.37057100000004
+        },
+        {
+          "texto": "hijo",
+          "inicio": 447.405571,
+          "fin": 447.62557100000004
+        },
+        {
+          "texto": "con",
+          "inicio": 447.68357100000003,
+          "fin": 447.800571
+        },
+        {
+          "texto": "la",
+          "inicio": 447.84657100000004,
+          "fin": 447.90457100000003
+        },
+        {
+          "texto": "consola.",
+          "inicio": 447.95057099999997,
+          "fin": 448.693571
+        }
+      ]
+    },
+    {
+      "n": 82,
+      "texto": "Nadie está haciendo nada malo, aparentemente.",
+      "clave": "aparentemente",
+      "inicio": 449.042571,
+      "fin": 451.874571,
+      "palabras": [
+        {
+          "texto": "Nadie",
+          "inicio": 449.042571,
+          "fin": 449.390571
+        },
+        {
+          "texto": "está",
+          "inicio": 449.413571,
+          "fin": 449.633571
+        },
+        {
+          "texto": "haciendo",
+          "inicio": 449.680571,
+          "fin": 450.121571
+        },
+        {
+          "texto": "nada",
+          "inicio": 450.179571,
+          "fin": 450.388571
+        },
+        {
+          "texto": "malo,",
+          "inicio": 450.446571,
+          "fin": 450.74857099999997
+        },
+        {
+          "texto": "aparentemente.",
+          "inicio": 450.771571,
+          "fin": 451.874571
+        }
+      ]
+    },
+    {
+      "n": 83,
+      "texto": "Pero nadie está con nadie.",
+      "clave": "nadie",
+      "inicio": 452.164571,
+      "fin": 453.871571,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 452.164571,
+          "fin": 452.39757099999997
+        },
+        {
+          "texto": "nadie",
+          "inicio": 452.45557099999996,
+          "fin": 452.768571
+        },
+        {
+          "texto": "está",
+          "inicio": 452.791571,
+          "fin": 453.012571
+        },
+        {
+          "texto": "con",
+          "inicio": 453.070571,
+          "fin": 453.209571
+        },
+        {
+          "texto": "nadie.",
+          "inicio": 453.267571,
+          "fin": 453.871571
+        }
+      ]
+    },
+    {
+      "n": 84,
+      "texto": "Muchos padres no saben a qué juegan sus hijos. Ni con quién hablan en línea. Ni cuántas horas pasan ahí.",
+      "clave": "cuántas",
+      "inicio": 454.161571,
+      "fin": 460.767571,
+      "palabras": [
+        {
+          "texto": "Muchos",
+          "inicio": 454.161571,
+          "fin": 454.45257100000003
+        },
+        {
+          "texto": "padres",
+          "inicio": 454.510571,
+          "fin": 454.84657100000004
+        },
+        {
+          "texto": "no",
+          "inicio": 454.90457100000003,
+          "fin": 454.986571
+        },
+        {
+          "texto": "saben",
+          "inicio": 455.044571,
+          "fin": 455.334571
+        },
+        {
+          "texto": "a",
+          "inicio": 455.392571,
+          "fin": 455.415571
+        },
+        {
+          "texto": "qué",
+          "inicio": 455.473571,
+          "fin": 455.566571
+        },
+        {
+          "texto": "juegan",
+          "inicio": 455.624571,
+          "fin": 455.938571
+        },
+        {
+          "texto": "sus",
+          "inicio": 455.984571,
+          "fin": 456.135571
+        },
+        {
+          "texto": "hijos.",
+          "inicio": 456.18157099999996,
+          "fin": 456.762571
+        },
+        {
+          "texto": "Ni",
+          "inicio": 457.052571,
+          "fin": 457.180571
+        },
+        {
+          "texto": "con",
+          "inicio": 457.22657100000004,
+          "fin": 457.35457099999996
+        },
+        {
+          "texto": "quién",
+          "inicio": 457.412571,
+          "fin": 457.633571
+        },
+        {
+          "texto": "hablan",
+          "inicio": 457.691571,
+          "fin": 457.946571
+        },
+        {
+          "texto": "en",
+          "inicio": 458.004571,
+          "fin": 458.05157099999997
+        },
+        {
+          "texto": "línea.",
+          "inicio": 458.109571,
+          "fin": 458.72457099999997
+        },
+        {
+          "texto": "Ni",
+          "inicio": 459.01457100000005,
+          "fin": 459.13057100000003
+        },
+        {
+          "texto": "cuántas",
+          "inicio": 459.177571,
+          "fin": 459.51457100000005
+        },
+        {
+          "texto": "horas",
+          "inicio": 459.560571,
+          "fin": 459.76957100000004
+        },
+        {
+          "texto": "pasan",
+          "inicio": 459.82757100000003,
+          "fin": 460.129571
+        },
+        {
+          "texto": "ahí.",
+          "inicio": 460.187571,
+          "fin": 460.767571
+        }
+      ]
+    },
+    {
+      "n": 85,
+      "texto": "No es falta de amor. Es cansancio. Es trabajo. Es que la pantalla los mantiene tranquilos.",
+      "clave": "tranquilos",
+      "inicio": 461.116571,
+      "fin": 467.96657100000004,
+      "palabras": [
+        {
+          "texto": "No",
+          "inicio": 461.116571,
+          "fin": 461.290571
+        },
+        {
+          "texto": "es",
+          "inicio": 461.360571,
+          "fin": 461.464571
+        },
+        {
+          "texto": "falta",
+          "inicio": 461.52257099999997,
+          "fin": 461.847571
+        },
+        {
+          "texto": "de",
+          "inicio": 461.89457100000004,
+          "fin": 461.963571
+        },
+        {
+          "texto": "amor.",
+          "inicio": 462.010571,
+          "fin": 462.509571
+        },
+        {
+          "texto": "Es",
+          "inicio": 462.799571,
+          "fin": 463.04357100000004
+        },
+        {
+          "texto": "cansancio.",
+          "inicio": 463.10157100000004,
+          "fin": 463.972571
+        },
+        {
+          "texto": "Es",
+          "inicio": 464.19257100000004,
+          "fin": 464.413571
+        },
+        {
+          "texto": "trabajo.",
+          "inicio": 464.47157100000004,
+          "fin": 465.22657100000004
+        },
+        {
+          "texto": "Es",
+          "inicio": 465.516571,
+          "fin": 465.667571
+        },
+        {
+          "texto": "que",
+          "inicio": 465.70257100000003,
+          "fin": 465.771571
+        },
+        {
+          "texto": "la",
+          "inicio": 465.80657099999996,
+          "fin": 465.876571
+        },
+        {
+          "texto": "pantalla",
+          "inicio": 465.922571,
+          "fin": 466.363571
+        },
+        {
+          "texto": "los",
+          "inicio": 466.398571,
+          "fin": 466.51457100000005
+        },
+        {
+          "texto": "mantiene",
+          "inicio": 466.561571,
+          "fin": 466.97957099999996
+        },
+        {
+          "texto": "tranquilos.",
+          "inicio": 467.025571,
+          "fin": 467.96657100000004
+        }
+      ]
+    },
+    {
+      "n": 86,
+      "texto": "Pero un hijo tranquilo no siempre es un hijo que está bien.",
+      "clave": "tranquilo",
+      "inicio": 468.256571,
+      "fin": 471.843571,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 468.256571,
+          "fin": 468.662571
+        },
+        {
+          "texto": "un",
+          "inicio": 468.82557099999997,
+          "fin": 468.964571
+        },
+        {
+          "texto": "hijo",
+          "inicio": 469.011571,
+          "fin": 469.196571
+        },
+        {
+          "texto": "tranquilo",
+          "inicio": 469.243571,
+          "fin": 469.765571
+        },
+        {
+          "texto": "no",
+          "inicio": 469.823571,
+          "fin": 469.92857100000003
+        },
+        {
+          "texto": "siempre",
+          "inicio": 469.986571,
+          "fin": 470.381571
+        },
+        {
+          "texto": "es",
+          "inicio": 470.40457100000003,
+          "fin": 470.462571
+        },
+        {
+          "texto": "un",
+          "inicio": 470.566571,
+          "fin": 470.636571
+        },
+        {
+          "texto": "hijo",
+          "inicio": 470.682571,
+          "fin": 470.92657099999997
+        },
+        {
+          "texto": "que",
+          "inicio": 470.984571,
+          "fin": 471.07757100000003
+        },
+        {
+          "texto": "está",
+          "inicio": 471.124571,
+          "fin": 471.321571
+        },
+        {
+          "texto": "bien.",
+          "inicio": 471.379571,
+          "fin": 471.843571
+        }
+      ]
+    },
+    {
+      "n": 87,
+      "texto": "Y el tiempo que no le damos nosotros, se lo da otro. Se lo da el mundo.",
+      "clave": "nosotros",
+      "inicio": 472.25057100000004,
+      "fin": 476.766571,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 472.25057100000004,
+          "fin": 472.30857100000003
+        },
+        {
+          "texto": "el",
+          "inicio": 472.366571,
+          "fin": 472.424571
+        },
+        {
+          "texto": "tiempo",
+          "inicio": 472.482571,
+          "fin": 472.795571
+        },
+        {
+          "texto": "que",
+          "inicio": 472.83057099999996,
+          "fin": 472.911571
+        },
+        {
+          "texto": "no",
+          "inicio": 473.016571,
+          "fin": 473.12057100000004
+        },
+        {
+          "texto": "le",
+          "inicio": 473.167571,
+          "fin": 473.237571
+        },
+        {
+          "texto": "damos",
+          "inicio": 473.295571,
+          "fin": 473.550571
+        },
+        {
+          "texto": "nosotros,",
+          "inicio": 473.608571,
+          "fin": 474.084571
+        },
+        {
+          "texto": "se",
+          "inicio": 474.107571,
+          "fin": 474.212571
+        },
+        {
+          "texto": "lo",
+          "inicio": 474.270571,
+          "fin": 474.363571
+        },
+        {
+          "texto": "da",
+          "inicio": 474.421571,
+          "fin": 474.583571
+        },
+        {
+          "texto": "otro.",
+          "inicio": 474.688571,
+          "fin": 475.187571
+        },
+        {
+          "texto": "Se",
+          "inicio": 475.477571,
+          "fin": 475.593571
+        },
+        {
+          "texto": "lo",
+          "inicio": 475.640571,
+          "fin": 475.733571
+        },
+        {
+          "texto": "da",
+          "inicio": 475.791571,
+          "fin": 475.895571
+        },
+        {
+          "texto": "el",
+          "inicio": 475.953571,
+          "fin": 476.011571
+        },
+        {
+          "texto": "mundo.",
+          "inicio": 476.069571,
+          "fin": 476.766571
+        }
+      ]
+    },
+    {
+      "n": 88,
+      "texto": "Entonces, ¿qué hacemos? No basta con prohibir y ya. Hay que proponer algo mejor.",
+      "clave": "Entonces",
+      "inicio": 477.021571,
+      "fin": 482.90757099999996,
+      "palabras": [
+        {
+          "texto": "Entonces,",
+          "inicio": 477.021571,
+          "fin": 477.637571
+        },
+        {
+          "texto": "¿qué",
+          "inicio": 477.660571,
+          "fin": 477.811571
+        },
+        {
+          "texto": "hacemos?",
+          "inicio": 477.881571,
+          "fin": 478.57757100000003
+        },
+        {
+          "texto": "No",
+          "inicio": 478.867571,
+          "fin": 478.99557100000004
+        },
+        {
+          "texto": "basta",
+          "inicio": 479.05357100000003,
+          "fin": 479.355571
+        },
+        {
+          "texto": "con",
+          "inicio": 479.401571,
+          "fin": 479.506571
+        },
+        {
+          "texto": "prohibir",
+          "inicio": 479.552571,
+          "fin": 479.994571
+        },
+        {
+          "texto": "y",
+          "inicio": 480.249571,
+          "fin": 480.353571
+        },
+        {
+          "texto": "ya.",
+          "inicio": 480.458571,
+          "fin": 480.876571
+        },
+        {
+          "texto": "Hay",
+          "inicio": 481.22457099999997,
+          "fin": 481.364571
+        },
+        {
+          "texto": "que",
+          "inicio": 481.410571,
+          "fin": 481.491571
+        },
+        {
+          "texto": "proponer",
+          "inicio": 481.549571,
+          "fin": 482.036571
+        },
+        {
+          "texto": "algo",
+          "inicio": 482.095571,
+          "fin": 482.292571
+        },
+        {
+          "texto": "mejor.",
+          "inicio": 482.338571,
+          "fin": 482.90757099999996
+        }
+      ]
+    },
+    {
+      "n": 89,
+      "texto": "Primero: horarios claros. Un tiempo para jugar, y un tiempo que no se negocia.",
+      "clave": "horarios",
+      "inicio": 483.19757100000004,
+      "fin": 488.759571,
+      "palabras": [
+        {
+          "texto": "Primero:",
+          "inicio": 483.19757100000004,
+          "fin": 483.89457100000004
+        },
+        {
+          "texto": "horarios",
+          "inicio": 483.975571,
+          "fin": 484.463571
+        },
+        {
+          "texto": "claros.",
+          "inicio": 484.521571,
+          "fin": 485.18357100000003
+        },
+        {
+          "texto": "Un",
+          "inicio": 485.403571,
+          "fin": 485.554571
+        },
+        {
+          "texto": "tiempo",
+          "inicio": 485.60157100000004,
+          "fin": 485.891571
+        },
+        {
+          "texto": "para",
+          "inicio": 485.92657099999997,
+          "fin": 486.088571
+        },
+        {
+          "texto": "jugar,",
+          "inicio": 486.135571,
+          "fin": 486.680571
+        },
+        {
+          "texto": "y",
+          "inicio": 486.820571,
+          "fin": 486.866571
+        },
+        {
+          "texto": "un",
+          "inicio": 486.948571,
+          "fin": 487.017571
+        },
+        {
+          "texto": "tiempo",
+          "inicio": 487.064571,
+          "fin": 487.36557100000005
+        },
+        {
+          "texto": "que",
+          "inicio": 487.400571,
+          "fin": 487.482571
+        },
+        {
+          "texto": "no",
+          "inicio": 487.586571,
+          "fin": 487.783571
+        },
+        {
+          "texto": "se",
+          "inicio": 487.86557100000005,
+          "fin": 487.969571
+        },
+        {
+          "texto": "negocia.",
+          "inicio": 488.02757099999997,
+          "fin": 488.759571
+        }
+      ]
+    },
+    {
+      "n": 90,
+      "texto": "Las pantallas fuera de los cuartos por la noche. La consola en un lugar común de la casa.",
+      "clave": "pantallas",
+      "inicio": 489.107571,
+      "fin": 494.19257100000004,
+      "palabras": [
+        {
+          "texto": "Las",
+          "inicio": 489.107571,
+          "fin": 489.246571
+        },
+        {
+          "texto": "pantallas",
+          "inicio": 489.29357100000004,
+          "fin": 489.746571
+        },
+        {
+          "texto": "fuera",
+          "inicio": 489.804571,
+          "fin": 490.013571
+        },
+        {
+          "texto": "de",
+          "inicio": 490.059571,
+          "fin": 490.117571
+        },
+        {
+          "texto": "los",
+          "inicio": 490.15257099999997,
+          "fin": 490.268571
+        },
+        {
+          "texto": "cuartos",
+          "inicio": 490.326571,
+          "fin": 490.663571
+        },
+        {
+          "texto": "por",
+          "inicio": 490.709571,
+          "fin": 490.814571
+        },
+        {
+          "texto": "la",
+          "inicio": 490.860571,
+          "fin": 490.91857100000004
+        },
+        {
+          "texto": "noche.",
+          "inicio": 490.97657100000004,
+          "fin": 491.557571
+        },
+        {
+          "texto": "La",
+          "inicio": 491.847571,
+          "fin": 491.975571
+        },
+        {
+          "texto": "consola",
+          "inicio": 492.021571,
+          "fin": 492.485571
+        },
+        {
+          "texto": "en",
+          "inicio": 492.544571,
+          "fin": 492.613571
+        },
+        {
+          "texto": "un",
+          "inicio": 492.671571,
+          "fin": 492.718571
+        },
+        {
+          "texto": "lugar",
+          "inicio": 492.75357099999997,
+          "fin": 492.996571
+        },
+        {
+          "texto": "común",
+          "inicio": 493.054571,
+          "fin": 493.345571
+        },
+        {
+          "texto": "de",
+          "inicio": 493.391571,
+          "fin": 493.449571
+        },
+        {
+          "texto": "la",
+          "inicio": 493.496571,
+          "fin": 493.565571
+        },
+        {
+          "texto": "casa.",
+          "inicio": 493.62357099999997,
+          "fin": 494.19257100000004
+        }
+      ]
+    },
+    {
+      "n": 91,
+      "texto": "Segundo: conoce lo que juegan. Siéntate con ellos, aunque sea un rato. Pregunta. Mira las clasificaciones.",
+      "clave": "clasificaciones",
+      "inicio": 494.482571,
+      "fin": 503.132571,
+      "palabras": [
+        {
+          "texto": "Segundo:",
+          "inicio": 494.482571,
+          "fin": 495.249571
+        },
+        {
+          "texto": "conoce",
+          "inicio": 495.411571,
+          "fin": 495.829571
+        },
+        {
+          "texto": "lo",
+          "inicio": 495.887571,
+          "fin": 495.980571
+        },
+        {
+          "texto": "que",
+          "inicio": 496.02757099999997,
+          "fin": 496.108571
+        },
+        {
+          "texto": "juegan.",
+          "inicio": 496.166571,
+          "fin": 496.828571
+        },
+        {
+          "texto": "Siéntate",
+          "inicio": 497.04857100000004,
+          "fin": 497.536571
+        },
+        {
+          "texto": "con",
+          "inicio": 497.594571,
+          "fin": 497.722571
+        },
+        {
+          "texto": "ellos,",
+          "inicio": 497.780571,
+          "fin": 498.244571
+        },
+        {
+          "texto": "aunque",
+          "inicio": 498.40757099999996,
+          "fin": 498.63957100000005
+        },
+        {
+          "texto": "sea",
+          "inicio": 498.69757100000004,
+          "fin": 498.859571
+        },
+        {
+          "texto": "un",
+          "inicio": 498.917571,
+          "fin": 498.975571
+        },
+        {
+          "texto": "rato.",
+          "inicio": 499.045571,
+          "fin": 499.544571
+        },
+        {
+          "texto": "Pregunta.",
+          "inicio": 499.951571,
+          "fin": 500.74057100000005
+        },
+        {
+          "texto": "Mira",
+          "inicio": 501.286571,
+          "fin": 501.588571
+        },
+        {
+          "texto": "las",
+          "inicio": 501.646571,
+          "fin": 501.762571
+        },
+        {
+          "texto": "clasificaciones.",
+          "inicio": 501.797571,
+          "fin": 503.132571
+        }
+      ]
+    },
+    {
+      "n": 92,
+      "texto": "Un juego para adultos no es un juego para un niño, por mucho que todos sus amigos lo tengan.",
+      "clave": "adultos",
+      "inicio": 503.677571,
+      "fin": 508.321571,
+      "palabras": [
+        {
+          "texto": "Un",
+          "inicio": 503.677571,
+          "fin": 503.840571
+        },
+        {
+          "texto": "juego",
+          "inicio": 503.886571,
+          "fin": 504.107571
+        },
+        {
+          "texto": "para",
+          "inicio": 504.153571,
+          "fin": 504.316571
+        },
+        {
+          "texto": "adultos",
+          "inicio": 504.339571,
+          "fin": 504.699571
+        },
+        {
+          "texto": "no",
+          "inicio": 504.746571,
+          "fin": 504.804571
+        },
+        {
+          "texto": "es",
+          "inicio": 504.850571,
+          "fin": 504.908571
+        },
+        {
+          "texto": "un",
+          "inicio": 504.96657100000004,
+          "fin": 505.02457100000004
+        },
+        {
+          "texto": "juego",
+          "inicio": 505.059571,
+          "fin": 505.268571
+        },
+        {
+          "texto": "para",
+          "inicio": 505.30357100000003,
+          "fin": 505.465571
+        },
+        {
+          "texto": "un",
+          "inicio": 505.523571,
+          "fin": 505.58257100000003
+        },
+        {
+          "texto": "niño,",
+          "inicio": 505.616571,
+          "fin": 506.034571
+        },
+        {
+          "texto": "por",
+          "inicio": 506.092571,
+          "fin": 506.266571
+        },
+        {
+          "texto": "mucho",
+          "inicio": 506.32557099999997,
+          "fin": 506.534571
+        },
+        {
+          "texto": "que",
+          "inicio": 506.58057099999996,
+          "fin": 506.650571
+        },
+        {
+          "texto": "todos",
+          "inicio": 506.696571,
+          "fin": 506.963571
+        },
+        {
+          "texto": "sus",
+          "inicio": 506.986571,
+          "fin": 507.137571
+        },
+        {
+          "texto": "amigos",
+          "inicio": 507.195571,
+          "fin": 507.56757100000004
+        },
+        {
+          "texto": "lo",
+          "inicio": 507.62557100000004,
+          "fin": 507.706571
+        },
+        {
+          "texto": "tengan.",
+          "inicio": 507.76457100000005,
+          "fin": 508.321571
+        }
+      ]
+    },
+    {
+      "n": 93,
+      "texto": "Tercero: aire libre. La Organización Mundial de la Salud recomienda que niños y adolescentes se muevan al menos una hora al día.",
+      "clave": "Organización",
+      "inicio": 508.728571,
+      "fin": 516.565571,
+      "palabras": [
+        {
+          "texto": "Tercero:",
+          "inicio": 508.728571,
+          "fin": 509.587571
+        },
+        {
+          "texto": "aire",
+          "inicio": 509.877571,
+          "fin": 510.179571
+        },
+        {
+          "texto": "libre.",
+          "inicio": 510.237571,
+          "fin": 510.852571
+        },
+        {
+          "texto": "La",
+          "inicio": 511.31757100000004,
+          "fin": 511.43357100000003
+        },
+        {
+          "texto": "Organización",
+          "inicio": 511.456571,
+          "fin": 512.060571
+        },
+        {
+          "texto": "Mundial",
+          "inicio": 512.0955710000001,
+          "fin": 512.478571
+        },
+        {
+          "texto": "de",
+          "inicio": 512.536571,
+          "fin": 512.594571
+        },
+        {
+          "texto": "la",
+          "inicio": 512.640571,
+          "fin": 512.7105710000001
+        },
+        {
+          "texto": "Salud",
+          "inicio": 512.756571,
+          "fin": 513.024571
+        },
+        {
+          "texto": "recomienda",
+          "inicio": 513.082571,
+          "fin": 513.523571
+        },
+        {
+          "texto": "que",
+          "inicio": 513.569571,
+          "fin": 513.639571
+        },
+        {
+          "texto": "niños",
+          "inicio": 513.697571,
+          "fin": 513.953571
+        },
+        {
+          "texto": "y",
+          "inicio": 513.9995710000001,
+          "fin": 514.022571
+        },
+        {
+          "texto": "adolescentes",
+          "inicio": 514.057571,
+          "fin": 514.626571
+        },
+        {
+          "texto": "se",
+          "inicio": 514.649571,
+          "fin": 514.730571
+        },
+        {
+          "texto": "muevan",
+          "inicio": 514.777571,
+          "fin": 515.044571
+        },
+        {
+          "texto": "al",
+          "inicio": 515.090571,
+          "fin": 515.137571
+        },
+        {
+          "texto": "menos",
+          "inicio": 515.183571,
+          "fin": 515.392571
+        },
+        {
+          "texto": "una",
+          "inicio": 515.474571,
+          "fin": 515.6245710000001
+        },
+        {
+          "texto": "hora",
+          "inicio": 515.671571,
+          "fin": 515.880571
+        },
+        {
+          "texto": "al",
+          "inicio": 515.903571,
+          "fin": 515.984571
+        },
+        {
+          "texto": "día.",
+          "inicio": 516.042571,
+          "fin": 516.565571
+        }
+      ]
+    },
+    {
+      "n": 94,
+      "texto": "Una bicicleta, un balón, una caminata en familia, el campo, el mar.",
+      "clave": "bicicleta",
+      "inicio": 516.855571,
+      "fin": 523.020571,
+      "palabras": [
+        {
+          "texto": "Una",
+          "inicio": 516.855571,
+          "fin": 517.041571
+        },
+        {
+          "texto": "bicicleta,",
+          "inicio": 517.087571,
+          "fin": 517.946571
+        },
+        {
+          "texto": "un",
+          "inicio": 518.086571,
+          "fin": 518.179571
+        },
+        {
+          "texto": "balón,",
+          "inicio": 518.213571,
+          "fin": 518.771571
+        },
+        {
+          "texto": "una",
+          "inicio": 518.933571,
+          "fin": 519.224571
+        },
+        {
+          "texto": "caminata",
+          "inicio": 519.293571,
+          "fin": 519.827571
+        },
+        {
+          "texto": "en",
+          "inicio": 519.862571,
+          "fin": 519.932571
+        },
+        {
+          "texto": "familia,",
+          "inicio": 519.990571,
+          "fin": 520.803571
+        },
+        {
+          "texto": "el",
+          "inicio": 521.023571,
+          "fin": 521.174571
+        },
+        {
+          "texto": "campo,",
+          "inicio": 521.255571,
+          "fin": 522.022571
+        },
+        {
+          "texto": "el",
+          "inicio": 522.277571,
+          "fin": 522.416571
+        },
+        {
+          "texto": "mar.",
+          "inicio": 522.486571,
+          "fin": 523.020571
+        }
+      ]
+    },
+    {
+      "n": 95,
+      "texto": "Cuarto: la fe en casa. Una oración antes de dormir. La misa del domingo juntos. Una mesa sin celulares.",
+      "clave": "celulares",
+      "inicio": 523.310571,
+      "fin": 531.530571,
+      "palabras": [
+        {
+          "texto": "Cuarto:",
+          "inicio": 523.310571,
+          "fin": 524.042571
+        },
+        {
+          "texto": "la",
+          "inicio": 524.332571,
+          "fin": 524.448571
+        },
+        {
+          "texto": "fe",
+          "inicio": 524.529571,
+          "fin": 524.738571
+        },
+        {
+          "texto": "en",
+          "inicio": 524.773571,
+          "fin": 524.854571
+        },
+        {
+          "texto": "casa.",
+          "inicio": 524.936571,
+          "fin": 525.563571
+        },
+        {
+          "texto": "Una",
+          "inicio": 525.853571,
+          "fin": 526.050571
+        },
+        {
+          "texto": "oración",
+          "inicio": 526.097571,
+          "fin": 526.457571
+        },
+        {
+          "texto": "antes",
+          "inicio": 526.515571,
+          "fin": 526.747571
+        },
+        {
+          "texto": "de",
+          "inicio": 526.782571,
+          "fin": 526.840571
+        },
+        {
+          "texto": "dormir.",
+          "inicio": 526.898571,
+          "fin": 527.548571
+        },
+        {
+          "texto": "La",
+          "inicio": 527.896571,
+          "fin": 528.001571
+        },
+        {
+          "texto": "misa",
+          "inicio": 528.059571,
+          "fin": 528.3265710000001
+        },
+        {
+          "texto": "del",
+          "inicio": 528.384571,
+          "fin": 528.500571
+        },
+        {
+          "texto": "domingo",
+          "inicio": 528.558571,
+          "fin": 528.976571
+        },
+        {
+          "texto": "juntos.",
+          "inicio": 529.034571,
+          "fin": 529.731571
+        },
+        {
+          "texto": "Una",
+          "inicio": 530.021571,
+          "fin": 530.207571
+        },
+        {
+          "texto": "mesa",
+          "inicio": 530.253571,
+          "fin": 530.497571
+        },
+        {
+          "texto": "sin",
+          "inicio": 530.543571,
+          "fin": 530.7065709999999
+        },
+        {
+          "texto": "celulares.",
+          "inicio": 530.752571,
+          "fin": 531.530571
+        }
+      ]
+    },
+    {
+      "n": 96,
+      "texto": "Y quinto: el ejemplo. Los hijos no hacen lo que decimos. Hacen lo que nos ven hacer.",
+      "clave": "ejemplo",
+      "inicio": 531.716571,
+      "fin": 537.730571,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 531.716571,
+          "fin": 531.7975710000001
+        },
+        {
+          "texto": "quinto:",
+          "inicio": 531.902571,
+          "fin": 532.494571
+        },
+        {
+          "texto": "el",
+          "inicio": 532.6105709999999,
+          "fin": 532.7495710000001
+        },
+        {
+          "texto": "ejemplo.",
+          "inicio": 532.796571,
+          "fin": 533.458571
+        },
+        {
+          "texto": "Los",
+          "inicio": 533.748571,
+          "fin": 533.934571
+        },
+        {
+          "texto": "hijos",
+          "inicio": 533.992571,
+          "fin": 534.352571
+        },
+        {
+          "texto": "no",
+          "inicio": 534.4565709999999,
+          "fin": 534.5955710000001
+        },
+        {
+          "texto": "hacen",
+          "inicio": 534.653571,
+          "fin": 534.897571
+        },
+        {
+          "texto": "lo",
+          "inicio": 534.955571,
+          "fin": 535.048571
+        },
+        {
+          "texto": "que",
+          "inicio": 535.0955710000001,
+          "fin": 535.176571
+        },
+        {
+          "texto": "decimos.",
+          "inicio": 535.234571,
+          "fin": 535.931571
+        },
+        {
+          "texto": "Hacen",
+          "inicio": 536.116571,
+          "fin": 536.511571
+        },
+        {
+          "texto": "lo",
+          "inicio": 536.5815709999999,
+          "fin": 536.685571
+        },
+        {
+          "texto": "que",
+          "inicio": 536.743571,
+          "fin": 536.813571
+        },
+        {
+          "texto": "nos",
+          "inicio": 536.871571,
+          "fin": 536.987571
+        },
+        {
+          "texto": "ven",
+          "inicio": 537.0335709999999,
+          "fin": 537.184571
+        },
+        {
+          "texto": "hacer.",
+          "inicio": 537.231571,
+          "fin": 537.730571
+        }
+      ]
+    },
+    {
+      "n": 97,
+      "texto": "Y si alguien te dice que esto es imposible, cuéntale de Carlo Acutis.",
+      "clave": "imposible",
+      "inicio": 538.020571,
+      "fin": 541.840571,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 538.020571,
+          "fin": 538.090571
+        },
+        {
+          "texto": "si",
+          "inicio": 538.160571,
+          "fin": 538.2645709999999
+        },
+        {
+          "texto": "alguien",
+          "inicio": 538.3225709999999,
+          "fin": 538.554571
+        },
+        {
+          "texto": "te",
+          "inicio": 538.6015709999999,
+          "fin": 538.670571
+        },
+        {
+          "texto": "dice",
+          "inicio": 538.717571,
+          "fin": 538.949571
+        },
+        {
+          "texto": "que",
+          "inicio": 538.996571,
+          "fin": 539.100571
+        },
+        {
+          "texto": "esto",
+          "inicio": 539.1585709999999,
+          "fin": 539.3445710000001
+        },
+        {
+          "texto": "es",
+          "inicio": 539.4025710000001,
+          "fin": 539.4605710000001
+        },
+        {
+          "texto": "imposible,",
+          "inicio": 539.5185710000001,
+          "fin": 540.2495710000001
+        },
+        {
+          "texto": "cuéntale",
+          "inicio": 540.307571,
+          "fin": 540.7495710000001
+        },
+        {
+          "texto": "de",
+          "inicio": 540.795571,
+          "fin": 540.865571
+        },
+        {
+          "texto": "Carlo",
+          "inicio": 540.923571,
+          "fin": 541.1785709999999
+        },
+        {
+          "texto": "Acutis.",
+          "inicio": 541.213571,
+          "fin": 541.840571
+        }
+      ]
+    },
+    {
+      "n": 98,
+      "texto": "Un joven italiano que amaba la computación, los animales y, sí, los videojuegos.",
+      "clave": "computación",
+      "inicio": 542.246571,
+      "fin": 548.237571,
+      "palabras": [
+        {
+          "texto": "Un",
+          "inicio": 542.246571,
+          "fin": 542.409571
+        },
+        {
+          "texto": "joven",
+          "inicio": 542.455571,
+          "fin": 542.722571
+        },
+        {
+          "texto": "italiano",
+          "inicio": 542.769571,
+          "fin": 543.222571
+        },
+        {
+          "texto": "que",
+          "inicio": 543.280571,
+          "fin": 543.477571
+        },
+        {
+          "texto": "amaba",
+          "inicio": 543.558571,
+          "fin": 544.011571
+        },
+        {
+          "texto": "la",
+          "inicio": 544.069571,
+          "fin": 544.1395709999999
+        },
+        {
+          "texto": "computación,",
+          "inicio": 544.1975709999999,
+          "fin": 545.102571
+        },
+        {
+          "texto": "los",
+          "inicio": 545.242571,
+          "fin": 545.381571
+        },
+        {
+          "texto": "animales",
+          "inicio": 545.439571,
+          "fin": 546.031571
+        },
+        {
+          "texto": "y,",
+          "inicio": 546.136571,
+          "fin": 546.426571
+        },
+        {
+          "texto": "sí,",
+          "inicio": 546.472571,
+          "fin": 546.8795709999999
+        },
+        {
+          "texto": "los",
+          "inicio": 546.983571,
+          "fin": 547.262571
+        },
+        {
+          "texto": "videojuegos.",
+          "inicio": 547.320571,
+          "fin": 548.237571
+        }
+      ]
+    },
+    {
+      "n": 99,
+      "texto": "Pero decidió algo: jugar solo una hora a la semana.",
+      "clave": "decidió",
+      "inicio": 548.5855710000001,
+      "fin": 552.916571,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 548.5855710000001,
+          "fin": 548.957571
+        },
+        {
+          "texto": "decidió",
+          "inicio": 549.061571,
+          "fin": 549.688571
+        },
+        {
+          "texto": "algo:",
+          "inicio": 549.7585710000001,
+          "fin": 550.396571
+        },
+        {
+          "texto": "jugar",
+          "inicio": 550.536571,
+          "fin": 551.035571
+        },
+        {
+          "texto": "solo",
+          "inicio": 551.1395709999999,
+          "fin": 551.511571
+        },
+        {
+          "texto": "una",
+          "inicio": 551.569571,
+          "fin": 551.790571
+        },
+        {
+          "texto": "hora",
+          "inicio": 551.836571,
+          "fin": 552.115571
+        },
+        {
+          "texto": "a",
+          "inicio": 552.138571,
+          "fin": 552.161571
+        },
+        {
+          "texto": "la",
+          "inicio": 552.2195710000001,
+          "fin": 552.3125709999999
+        },
+        {
+          "texto": "semana.",
+          "inicio": 552.3705709999999,
+          "fin": 552.916571
+        }
+      ]
+    },
+    {
+      "n": 100,
+      "texto": "Una hora. Más o menos lo que dura una misa de domingo.",
+      "clave": "domingo",
+      "inicio": 553.461571,
+      "fin": 558.0945710000001,
+      "palabras": [
+        {
+          "texto": "Una",
+          "inicio": 553.461571,
+          "fin": 553.763571
+        },
+        {
+          "texto": "hora.",
+          "inicio": 553.821571,
+          "fin": 554.2975710000001
+        },
+        {
+          "texto": "Más",
+          "inicio": 554.843571,
+          "fin": 555.1335710000001
+        },
+        {
+          "texto": "o",
+          "inicio": 555.215571,
+          "fin": 555.238571
+        },
+        {
+          "texto": "menos",
+          "inicio": 555.2965710000001,
+          "fin": 555.528571
+        },
+        {
+          "texto": "lo",
+          "inicio": 555.574571,
+          "fin": 555.656571
+        },
+        {
+          "texto": "que",
+          "inicio": 555.702571,
+          "fin": 555.7835709999999
+        },
+        {
+          "texto": "dura",
+          "inicio": 555.8415709999999,
+          "fin": 556.1205709999999
+        },
+        {
+          "texto": "una",
+          "inicio": 556.2015710000001,
+          "fin": 556.3645710000001
+        },
+        {
+          "texto": "misa",
+          "inicio": 556.4225710000001,
+          "fin": 556.7355709999999
+        },
+        {
+          "texto": "de",
+          "inicio": 556.7935709999999,
+          "fin": 556.863571
+        },
+        {
+          "texto": "domingo.",
+          "inicio": 556.9215710000001,
+          "fin": 558.0945710000001
+        }
+      ]
+    },
+    {
+      "n": 101,
+      "texto": "Con el resto de su tiempo, ayudaba a los pobres, iba a misa todos los días y creó una página web sobre los milagros eucarísticos.",
+      "clave": "eucarísticos",
+      "inicio": 558.132244,
+      "fin": 565.818244,
+      "palabras": [
+        {
+          "texto": "Con",
+          "inicio": 558.132244,
+          "fin": 558.306244
+        },
+        {
+          "texto": "el",
+          "inicio": 558.364244,
+          "fin": 558.411244
+        },
+        {
+          "texto": "resto",
+          "inicio": 558.480244,
+          "fin": 558.736244
+        },
+        {
+          "texto": "de",
+          "inicio": 558.794244,
+          "fin": 558.852244
+        },
+        {
+          "texto": "su",
+          "inicio": 558.898244,
+          "fin": 558.991244
+        },
+        {
+          "texto": "tiempo,",
+          "inicio": 559.038244,
+          "fin": 559.653244
+        },
+        {
+          "texto": "ayudaba",
+          "inicio": 559.769244,
+          "fin": 560.233244
+        },
+        {
+          "texto": "a",
+          "inicio": 560.268244,
+          "fin": 560.291244
+        },
+        {
+          "texto": "los",
+          "inicio": 560.326244,
+          "fin": 560.466244
+        },
+        {
+          "texto": "pobres,",
+          "inicio": 560.5242440000001,
+          "fin": 561.104244
+        },
+        {
+          "texto": "iba",
+          "inicio": 561.325244,
+          "fin": 561.522244
+        },
+        {
+          "texto": "a",
+          "inicio": 561.557244,
+          "fin": 561.580244
+        },
+        {
+          "texto": "misa",
+          "inicio": 561.638244,
+          "fin": 561.859244
+        },
+        {
+          "texto": "todos",
+          "inicio": 561.917244,
+          "fin": 562.219244
+        },
+        {
+          "texto": "los",
+          "inicio": 562.277244,
+          "fin": 562.393244
+        },
+        {
+          "texto": "días",
+          "inicio": 562.439244,
+          "fin": 562.741244
+        },
+        {
+          "texto": "y",
+          "inicio": 562.799244,
+          "fin": 562.8222440000001
+        },
+        {
+          "texto": "creó",
+          "inicio": 562.857244,
+          "fin": 563.078244
+        },
+        {
+          "texto": "una",
+          "inicio": 563.124244,
+          "fin": 563.264244
+        },
+        {
+          "texto": "página",
+          "inicio": 563.3222440000001,
+          "fin": 563.658244
+        },
+        {
+          "texto": "web",
+          "inicio": 563.716244,
+          "fin": 563.879244
+        },
+        {
+          "texto": "sobre",
+          "inicio": 563.937244,
+          "fin": 564.123244
+        },
+        {
+          "texto": "los",
+          "inicio": 564.158244,
+          "fin": 564.2742440000001
+        },
+        {
+          "texto": "milagros",
+          "inicio": 564.320244,
+          "fin": 564.773244
+        },
+        {
+          "texto": "eucarísticos.",
+          "inicio": 564.831244,
+          "fin": 565.818244
+        }
+      ]
+    },
+    {
+      "n": 102,
+      "texto": "El siete de septiembre de dos mil veinticinco, el papa León catorce lo proclamó santo.",
+      "clave": "veinticinco",
+      "inicio": 566.282244,
+      "fin": 572.285244,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 566.282244,
+          "fin": 566.445244
+        },
+        {
+          "texto": "siete",
+          "inicio": 566.514244,
+          "fin": 566.8512440000001
+        },
+        {
+          "texto": "de",
+          "inicio": 566.9092440000001,
+          "fin": 566.979244
+        },
+        {
+          "texto": "septiembre",
+          "inicio": 567.025244,
+          "fin": 567.513244
+        },
+        {
+          "texto": "de",
+          "inicio": 567.5482440000001,
+          "fin": 567.6062440000001
+        },
+        {
+          "texto": "dos",
+          "inicio": 567.652244,
+          "fin": 567.780244
+        },
+        {
+          "texto": "mil",
+          "inicio": 567.838244,
+          "fin": 568.012244
+        },
+        {
+          "texto": "veinticinco,",
+          "inicio": 568.070244,
+          "fin": 568.987244
+        },
+        {
+          "texto": "el",
+          "inicio": 569.278244,
+          "fin": 569.3942440000001
+        },
+        {
+          "texto": "papa",
+          "inicio": 569.463244,
+          "fin": 569.696244
+        },
+        {
+          "texto": "León",
+          "inicio": 569.754244,
+          "fin": 569.974244
+        },
+        {
+          "texto": "catorce",
+          "inicio": 570.032244,
+          "fin": 570.624244
+        },
+        {
+          "texto": "lo",
+          "inicio": 570.973244,
+          "fin": 571.100244
+        },
+        {
+          "texto": "proclamó",
+          "inicio": 571.147244,
+          "fin": 571.611244
+        },
+        {
+          "texto": "santo.",
+          "inicio": 571.669244,
+          "fin": 572.285244
+        }
+      ]
+    },
+    {
+      "n": 103,
+      "texto": "El primer santo de la era digital no huyó de la tecnología. La puso en su lugar.",
+      "clave": "tecnología",
+      "inicio": 572.830244,
+      "fin": 578.078244,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 572.830244,
+          "fin": 572.946244
+        },
+        {
+          "texto": "primer",
+          "inicio": 572.9812440000001,
+          "fin": 573.225244
+        },
+        {
+          "texto": "santo",
+          "inicio": 573.283244,
+          "fin": 573.585244
+        },
+        {
+          "texto": "de",
+          "inicio": 573.631244,
+          "fin": 573.701244
+        },
+        {
+          "texto": "la",
+          "inicio": 573.748244,
+          "fin": 573.817244
+        },
+        {
+          "texto": "era",
+          "inicio": 573.8752440000001,
+          "fin": 574.015244
+        },
+        {
+          "texto": "digital",
+          "inicio": 574.061244,
+          "fin": 574.549244
+        },
+        {
+          "texto": "no",
+          "inicio": 574.653244,
+          "fin": 574.8512440000001
+        },
+        {
+          "texto": "huyó",
+          "inicio": 574.874244,
+          "fin": 575.187244
+        },
+        {
+          "texto": "de",
+          "inicio": 575.245244,
+          "fin": 575.315244
+        },
+        {
+          "texto": "la",
+          "inicio": 575.361244,
+          "fin": 575.431244
+        },
+        {
+          "texto": "tecnología.",
+          "inicio": 575.489244,
+          "fin": 576.418244
+        },
+        {
+          "texto": "La",
+          "inicio": 576.766244,
+          "fin": 576.882244
+        },
+        {
+          "texto": "puso",
+          "inicio": 576.929244,
+          "fin": 577.219244
+        },
+        {
+          "texto": "en",
+          "inicio": 577.265244,
+          "fin": 577.323244
+        },
+        {
+          "texto": "su",
+          "inicio": 577.370244,
+          "fin": 577.463244
+        },
+        {
+          "texto": "lugar.",
+          "inicio": 577.521244,
+          "fin": 578.078244
+        }
+      ]
+    },
+    {
+      "n": 104,
+      "texto": "Tu hijo no necesita un mundo virtual para sentirse valiente, importante o libre.",
+      "clave": "importante",
+      "inicio": 578.542244,
+      "fin": 583.419244,
+      "palabras": [
+        {
+          "texto": "Tu",
+          "inicio": 578.542244,
+          "fin": 578.670244
+        },
+        {
+          "texto": "hijo",
+          "inicio": 578.693244,
+          "fin": 578.914244
+        },
+        {
+          "texto": "no",
+          "inicio": 578.972244,
+          "fin": 579.042244
+        },
+        {
+          "texto": "necesita",
+          "inicio": 579.088244,
+          "fin": 579.5532440000001
+        },
+        {
+          "texto": "un",
+          "inicio": 579.599244,
+          "fin": 579.669244
+        },
+        {
+          "texto": "mundo",
+          "inicio": 579.727244,
+          "fin": 579.9712440000001
+        },
+        {
+          "texto": "virtual",
+          "inicio": 580.017244,
+          "fin": 580.365244
+        },
+        {
+          "texto": "para",
+          "inicio": 580.412244,
+          "fin": 580.551244
+        },
+        {
+          "texto": "sentirse",
+          "inicio": 580.597244,
+          "fin": 581.015244
+        },
+        {
+          "texto": "valiente,",
+          "inicio": 581.062244,
+          "fin": 581.840244
+        },
+        {
+          "texto": "importante",
+          "inicio": 581.944244,
+          "fin": 582.664244
+        },
+        {
+          "texto": "o",
+          "inicio": 582.7692440000001,
+          "fin": 582.8272440000001
+        },
+        {
+          "texto": "libre.",
+          "inicio": 582.873244,
+          "fin": 583.419244
+        }
+      ]
+    },
+    {
+      "n": 105,
+      "texto": "Necesita un papá y una mamá presentes. Y un Dios que lo ama de verdad.",
+      "clave": "presentes",
+      "inicio": 583.883244,
+      "fin": 588.445244,
+      "palabras": [
+        {
+          "texto": "Necesita",
+          "inicio": 583.883244,
+          "fin": 584.382244
+        },
+        {
+          "texto": "un",
+          "inicio": 584.440244,
+          "fin": 584.498244
+        },
+        {
+          "texto": "papá",
+          "inicio": 584.556244,
+          "fin": 584.835244
+        },
+        {
+          "texto": "y",
+          "inicio": 584.916244,
+          "fin": 584.951244
+        },
+        {
+          "texto": "una",
+          "inicio": 584.998244,
+          "fin": 585.102244
+        },
+        {
+          "texto": "mamá",
+          "inicio": 585.160244,
+          "fin": 585.392244
+        },
+        {
+          "texto": "presentes.",
+          "inicio": 585.450244,
+          "fin": 586.367244
+        },
+        {
+          "texto": "Y",
+          "inicio": 586.657244,
+          "fin": 586.716244
+        },
+        {
+          "texto": "un",
+          "inicio": 586.797244,
+          "fin": 586.878244
+        },
+        {
+          "texto": "Dios",
+          "inicio": 586.913244,
+          "fin": 587.168244
+        },
+        {
+          "texto": "que",
+          "inicio": 587.2262440000001,
+          "fin": 587.296244
+        },
+        {
+          "texto": "lo",
+          "inicio": 587.342244,
+          "fin": 587.435244
+        },
+        {
+          "texto": "ama",
+          "inicio": 587.493244,
+          "fin": 587.668244
+        },
+        {
+          "texto": "de",
+          "inicio": 587.714244,
+          "fin": 587.7842440000001
+        },
+        {
+          "texto": "verdad.",
+          "inicio": 587.818244,
+          "fin": 588.445244
+        }
+      ]
+    },
+    {
+      "n": 106,
+      "texto": "Esta noche, cuando veas esa luz azul debajo de la puerta, no te enojes. Toca, entra y siéntate con él.",
+      "clave": "siéntate",
+      "inicio": 588.991244,
+      "fin": 596.282244,
+      "palabras": [
+        {
+          "texto": "Esta",
+          "inicio": 588.991244,
+          "fin": 589.270244
+        },
+        {
+          "texto": "noche,",
+          "inicio": 589.328244,
+          "fin": 589.583244
+        },
+        {
+          "texto": "cuando",
+          "inicio": 589.6062440000001,
+          "fin": 589.897244
+        },
+        {
+          "texto": "veas",
+          "inicio": 589.955244,
+          "fin": 590.222244
+        },
+        {
+          "texto": "esa",
+          "inicio": 590.291244,
+          "fin": 590.4422440000001
+        },
+        {
+          "texto": "luz",
+          "inicio": 590.489244,
+          "fin": 590.640244
+        },
+        {
+          "texto": "azul",
+          "inicio": 590.698244,
+          "fin": 590.930244
+        },
+        {
+          "texto": "debajo",
+          "inicio": 590.9762440000001,
+          "fin": 591.313244
+        },
+        {
+          "texto": "de",
+          "inicio": 591.360244,
+          "fin": 591.418244
+        },
+        {
+          "texto": "la",
+          "inicio": 591.464244,
+          "fin": 591.5342440000001
+        },
+        {
+          "texto": "puerta,",
+          "inicio": 591.592244,
+          "fin": 591.917244
+        },
+        {
+          "texto": "no",
+          "inicio": 591.9522440000001,
+          "fin": 592.068244
+        },
+        {
+          "texto": "te",
+          "inicio": 592.126244,
+          "fin": 592.230244
+        },
+        {
+          "texto": "enojes.",
+          "inicio": 592.265244,
+          "fin": 592.973244
+        },
+        {
+          "texto": "Toca,",
+          "inicio": 593.3802440000001,
+          "fin": 593.995244
+        },
+        {
+          "texto": "entra",
+          "inicio": 594.181244,
+          "fin": 594.634244
+        },
+        {
+          "texto": "y",
+          "inicio": 595.040244,
+          "fin": 595.1442440000001
+        },
+        {
+          "texto": "siéntate",
+          "inicio": 595.249244,
+          "fin": 595.7022440000001
+        },
+        {
+          "texto": "con",
+          "inicio": 595.748244,
+          "fin": 595.8992440000001
+        },
+        {
+          "texto": "él.",
+          "inicio": 595.9572440000001,
+          "fin": 596.282244
+        }
+      ]
+    },
+    {
+      "n": 107,
+      "texto": "Ahí empieza todo.",
+      "clave": "empieza",
+      "inicio": 596.6302440000001,
+      "fin": 597.966244,
+      "palabras": [
+        {
+          "texto": "Ahí",
+          "inicio": 596.6302440000001,
+          "fin": 596.863244
+        },
+        {
+          "texto": "empieza",
+          "inicio": 596.897244,
+          "fin": 597.304244
+        },
+        {
+          "texto": "todo.",
+          "inicio": 597.362244,
+          "fin": 597.966244
+        }
+      ]
+    },
+    {
+      "n": 108,
+      "texto": "Suscríbete a Dulce Patriarca y comparte este video con una familia que lo necesite. Que Dios los bendiga.",
+      "clave": "Suscríbete",
+      "inicio": 598.314244,
+      "fin": 605.5002440000001,
+      "palabras": [
+        {
+          "texto": "Suscríbete",
+          "inicio": 598.314244,
+          "fin": 598.871244
+        },
+        {
+          "texto": "a",
+          "inicio": 598.929244,
+          "fin": 598.9522440000001
+        },
+        {
+          "texto": "Dulce",
+          "inicio": 599.011244,
+          "fin": 599.266244
+        },
+        {
+          "texto": "Patriarca",
+          "inicio": 599.324244,
+          "fin": 599.939244
+        },
+        {
+          "texto": "y",
+          "inicio": 600.1252440000001,
+          "fin": 600.195244
+        },
+        {
+          "texto": "comparte",
+          "inicio": 600.264244,
+          "fin": 600.682244
+        },
+        {
+          "texto": "este",
+          "inicio": 600.717244,
+          "fin": 600.891244
+        },
+        {
+          "texto": "video",
+          "inicio": 600.938244,
+          "fin": 601.263244
+        },
+        {
+          "texto": "con",
+          "inicio": 601.309244,
+          "fin": 601.414244
+        },
+        {
+          "texto": "una",
+          "inicio": 601.472244,
+          "fin": 601.588244
+        },
+        {
+          "texto": "familia",
+          "inicio": 601.646244,
+          "fin": 602.017244
+        },
+        {
+          "texto": "que",
+          "inicio": 602.076244,
+          "fin": 602.145244
+        },
+        {
+          "texto": "lo",
+          "inicio": 602.1922440000001,
+          "fin": 602.261244
+        },
+        {
+          "texto": "necesite.",
+          "inicio": 602.3082440000001,
+          "fin": 603.155244
+        },
+        {
+          "texto": "Que",
+          "inicio": 603.504244,
+          "fin": 603.724244
+        },
+        {
+          "texto": "Dios",
+          "inicio": 603.829244,
+          "fin": 604.247244
+        },
+        {
+          "texto": "los",
+          "inicio": 604.363244,
+          "fin": 604.572244
+        },
+        {
+          "texto": "bendiga.",
+          "inicio": 604.6302440000001,
+          "fin": 605.5002440000001
+        }
+      ]
+    }
+  ]
+}

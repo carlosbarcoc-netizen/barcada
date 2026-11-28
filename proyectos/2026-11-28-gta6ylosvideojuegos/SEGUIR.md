@@ -3,7 +3,7 @@
 Estado del proyecto (se actualiza en cada paso).
 
 - [x] 1. Investigación → notas.md
-- [ ] 2. Guion aprobado (guion.md, esperando visto bueno)
+- [x] 2. Guion aprobado (28-11-2026; voz Philemon a 1,1)
 - [ ] 3. Voz
 - [ ] 4. Tomas aprobadas (revisar/tomas.jpg)
 - [ ] 5. Borrador aprobado
