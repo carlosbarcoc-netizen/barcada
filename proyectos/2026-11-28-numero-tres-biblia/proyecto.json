@@ -1,0 +1,37 @@
+{
+  "titulo": "El significado del número tres en la Biblia",
+  "estilo": "2d",
+  "frases": [
+    {
+      "texto": "",
+      "clave": ""
+    }
+  ],
+  "juego": {
+    "piel": "voxel",
+    "progreso": {
+      "titulo": "",
+      "etiqueta": "",
+      "pasos": [
+        {
+          "texto": "",
+          "en": ""
+        }
+      ]
+    }
+  },
+  "escenas": [
+    {
+      "nombre": "partida",
+      "tomas": [
+        {
+          "desde": 0,
+          "titulo": "",
+          "dibujo": {
+            "elementos": []
+          }
+        }
+      ]
+    }
+  ]
+}
