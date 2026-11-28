@@ -647,3 +647,166 @@ export function prepararRelato(p, tiempos, { subtitulos = true } = {}) {
   };
   return { capa, acabado: acabadoRelato };
 }
+
+// ================================================================== LO MODERNO (casas, pantallas, ciudad, familia)
+// Para historias de hoy: el pasillo con la luz azul bajo la puerta, el cuarto, la sala, la ciudad de neón; la
+// pantalla, el control, el carro, los billetes, el celular, la mesa, el balón, la bicicleta y el reloj.
+Object.assign(VESTUARIOS, {
+  joven: { tunica: ["#4a5a7a", "#232c44"], manga: "#44547a", pelo: "#2a1c14", cinto: "#2a3350" },
+  "joven-capucha": { tunica: ["#3e4660", "#1a1e30"], manga: "#3a425c", capucha: "#363e58" },
+  chico: { tunica: ["#c8463a", "#7a2018"], manga: "#b23e34", pelo: "#3a2416", nino: true },
+  padre: { tunica: ["#6f90bf", "#3a5684"], manga: "#6585b4", pelo: "#3a2416", cinto: "#2e2a30" },
+  madre: { tunica: ["#c77a8a", "#7e3a4c"], manga: "#bc6e80", pelo: "#5a3420", largo: true },
+  obispo: { tunica: ["#2a2630", "#101014"], manga: "#2a2630", capa: "#8a2a8e", gorro: "#9a2aa0", cruz: true },
+});
+const pantallaLuz = (t, fuerza = 1) => 0.75 + 0.25 * Math.sin(t * 5.3) * Math.sin(t * 2.1) * fuerza;
+
+Object.assign(FONDOS_RELATO, {
+  // el pasillo de casa de noche: la puerta del cuarto cerrada y la luz azul que se escapa por debajo. luz 0-1
+  "relato-pasillo": ({ t = 0, luz: L = 1, suelo = ALTO * 0.84 }) => {
+    const W = ANCHO, H = ALTO, dw = Math.min(W, H) * 0.42, dh = H * 0.62, dx = W / 2 - dw / 2, dy = suelo - dh, f = pantallaLuz(t) * lim(L);
+    return `<defs>${lin("rPaW", [[0, "#1a1c2e"], [1, "#0c0d18"]])}${lin("rPaS", [[0, "#22202c"], [1, "#0a0a10"]])}</defs>
+      <rect width="${W}" height="${H}" fill="url(#rPaW)"/>${vetas(0, 0, W, suelo, 18, "#000", 21, 0.25)}
+      <rect x="${n1(W * 0.08)}" y="${n1(H * 0.2)}" width="${n1(W * 0.12)}" height="${n1(H * 0.2)}" fill="#2a2433" stroke="#3a3244" stroke-width="10"/>
+      <path d="M ${n1(W * 0.86)} ${n1(H * 0.22)} v ${n1(H * 0.16)} M ${n1(W * 0.86 - H * 0.05)} ${n1(H * 0.27)} h ${n1(H * 0.1)}" stroke="#4a3a2a" stroke-width="12" stroke-linecap="round"/>
+      <rect x="${n1(dx - 22)}" y="${n1(dy - 22)}" width="${n1(dw + 44)}" height="${n1(dh + 22)}" fill="#2c2634"/>
+      <rect x="${n1(dx)}" y="${n1(dy)}" width="${n1(dw)}" height="${n1(dh)}" fill="#3a2c26"/>
+      <rect x="${n1(dx + dw * 0.12)}" y="${n1(dy + dh * 0.08)}" width="${n1(dw * 0.76)}" height="${n1(dh * 0.36)}" fill="none" stroke="#2a1e1a" stroke-width="6"/>
+      <rect x="${n1(dx + dw * 0.12)}" y="${n1(dy + dh * 0.52)}" width="${n1(dw * 0.76)}" height="${n1(dh * 0.4)}" fill="none" stroke="#2a1e1a" stroke-width="6"/>
+      <circle cx="${n1(dx + dw * 0.86)}" cy="${n1(dy + dh * 0.5)}" r="${n1(dw * 0.035)}" fill="#b8a27a"/>
+      <rect y="${n1(suelo)}" width="${W}" height="${n1(H - suelo)}" fill="url(#rPaS)"/>
+      <rect x="${n1(dx)}" y="${n1(suelo - 6)}" width="${n1(dw)}" height="8" fill="#9fd8ff" opacity="${n1(f)}"/>
+      ${luz(W / 2, suelo + 30, dw * 0.75, "#3a8cff", 0.55 * f)}${luz(W / 2, suelo + 8, dw * 0.4, "#bfe6ff", 0.5 * f)}
+      <path d="M ${n1(dx)} ${n1(suelo)} L ${n1(dx - dw * 0.5)} ${H} L ${n1(dx + dw * 1.5)} ${H} L ${n1(dx + dw)} ${n1(suelo)} Z" fill="#3a8cff" opacity="${n1(0.12 * f)}" style="filter:blur(14px)"/>
+      ${luz(W * 0.14, H * 0.08, W * 0.12, "#ffcf8a", 0.08)}`;
+  },
+  // el cuarto de noche: paredes azul oscuro, ventana con luna, la cama; bañado por la luz azul de una pantalla. brillo 0-1, ventana (dónde, 0-1)
+  "relato-cuarto": ({ t = 0, brillo = 1, suelo = ALTO * 0.8, ventana = 0.18 }) => {
+    const W = ANCHO, H = ALTO, f = pantallaLuz(t) * lim(brillo), vw = Math.min(W, H) * 0.3, vh = vw * 1.1, vx = W * ventana - vw / 2, vy = H * 0.14, r = azar(5);
+    const est = Array.from({ length: 14 }, () => `<circle cx="${n1(vx + r() * vw)}" cy="${n1(vy + r() * vh * 0.6)}" r="${n1(1 + r() * 1.5)}" fill="#fff" opacity="${n1(0.4 + r() * 0.5)}"/>`).join("");
+    return `<defs>${lin("rCuW", [[0, "#141a36"], [1, "#0a0d1e"]])}${lin("rCuV", [[0, "#0c1440"], [1, "#2a2a6a"]])}${lin("rCuS", [[0, "#1a1c30"], [1, "#07080f"]])}</defs>
+      <rect width="${W}" height="${H}" fill="url(#rCuW)"/>
+      <rect x="${n1(vx - 14)}" y="${n1(vy - 14)}" width="${n1(vw + 28)}" height="${n1(vh + 28)}" fill="#0a0c18"/><rect x="${n1(vx)}" y="${n1(vy)}" width="${n1(vw)}" height="${n1(vh)}" fill="url(#rCuV)"/>${est}
+      <circle cx="${n1(vx + vw * 0.7)}" cy="${n1(vy + vh * 0.28)}" r="${n1(vw * 0.1)}" fill="#e8e4d8"/>${luz(vx + vw * 0.7, vy + vh * 0.28, vw * 0.25, "#cfd6ff", 0.3)}
+      <path d="M ${n1(vx + vw / 2)} ${n1(vy)} V ${n1(vy + vh)} M ${n1(vx)} ${n1(vy + vh / 2)} H ${n1(vx + vw)}" stroke="#0a0c18" stroke-width="10"/>
+      <rect y="${n1(suelo)}" width="${W}" height="${n1(H - suelo)}" fill="url(#rCuS)"/>
+      <rect x="-20" y="${n1(suelo - H * 0.16)}" width="${n1(W * 0.34)}" height="${n1(H * 0.2)}" rx="18" fill="#2a3256"/><rect x="-20" y="${n1(suelo - H * 0.2)}" width="${n1(W * 0.1)}" height="${n1(H * 0.08)}" rx="20" fill="#dfe2ef" opacity="0.8"/>
+      ${luz(W * 0.62, H * 0.5, Math.max(W, H) * 0.42, "#2a6cff", 0.32 * f)}${luz(W * 0.62, H * 0.45, Math.max(W, H) * 0.18, "#8fd0ff", 0.22 * f)}`;
+  },
+  // la sala de estar en penumbra: sofá, lámpara cálida y ventana de noche (la familia, cada uno en su pantalla). lampara 0-1
+  "relato-sala": ({ suelo = ALTO * 0.82, lampara = 1 }) => {
+    const W = ANCHO, H = ALTO;
+    return `<defs>${lin("rSaW", [[0, "#2a2030"], [1, "#16111c"]])}${lin("rSaS", [[0, "#2e2420"], [1, "#100c0a"]])}${lin("rSaF", [[0, "#6a4a5a"], [1, "#3a2834"]])}</defs>
+      <rect width="${W}" height="${H}" fill="url(#rSaW)"/>${vetas(0, 0, W, suelo, 16, "#000", 33, 0.22)}
+      <rect x="${n1(W * 0.62)}" y="${n1(H * 0.12)}" width="${n1(W * 0.22)}" height="${n1(H * 0.32)}" fill="#0e1430" stroke="#1a1420" stroke-width="12"/>${luz(W * 0.7, H * 0.2, W * 0.03, "#e8e4d8", 0.8)}
+      <rect y="${n1(suelo)}" width="${W}" height="${n1(H - suelo)}" fill="url(#rSaS)"/>
+      <rect x="${n1(W * 0.2)}" y="${n1(suelo - H * 0.2)}" width="${n1(W * 0.6)}" height="${n1(H * 0.2)}" rx="30" fill="url(#rSaF)"/><rect x="${n1(W * 0.17)}" y="${n1(suelo - H * 0.26)}" width="${n1(W * 0.66)}" height="${n1(H * 0.1)}" rx="40" fill="#5a3e4c"/>
+      <rect x="${n1(W * 0.09)}" y="${n1(suelo - H * 0.42)}" width="8" height="${n1(H * 0.42)}" fill="#3a2c24"/><path d="M ${n1(W * 0.09 - 50)} ${n1(suelo - H * 0.42)} L ${n1(W * 0.09 + 58)} ${n1(suelo - H * 0.42)} L ${n1(W * 0.09 + 34)} ${n1(suelo - H * 0.52)} L ${n1(W * 0.09 - 26)} ${n1(suelo - H * 0.52)} Z" fill="#e8c88a"/>
+      ${luz(W * 0.09, suelo - H * 0.44, W * 0.14, "#ffb85a", 0.4 * lampara)}`;
+  },
+  // la ciudad de neón de noche: torres, palmeras, luces rosas y celestes, y su reflejo en el agua
+  "relato-ciudad": ({ t = 0, suelo = ALTO * 0.7 }) => {
+    const W = ANCHO, H = ALTO, r = azar(81), torres = [];
+    for (let x = -20; x < W + 40;) {
+      const w = 50 + r() * 110, h = H * (0.12 + r() * 0.38), c = ["#1c1640", "#241a4a", "#16123a"][Math.floor(r() * 3)], nx = Math.max(1, Math.floor(w / 22)), ny = Math.floor(h / 26);
+      let ven = "";
+      for (let i = 0; i < nx * ny; i++) if (r() < 0.35) ven += `<rect x="${n1(x + 8 + (i % nx) * 22)}" y="${n1(suelo - h + 12 + Math.floor(i / nx) * 26)}" width="10" height="12" fill="${r() < 0.5 ? "#ffd59a" : "#9fe8ff"}" opacity="${n1(0.5 + 0.4 * Math.sin(t * 1.5 + i))}"/>`;
+      torres.push(`<rect x="${n1(x)}" y="${n1(suelo - h)}" width="${n1(w)}" height="${n1(h)}" fill="${c}"/>${ven}`); x += w + 6 + r() * 20;
+    }
+    const palma = (x, s) => `<g transform="translate(${n1(x)} ${n1(suelo)}) scale(${s})"><path d="M -6 0 Q 10 -120 4 -240" stroke="#0a0818" stroke-width="16" fill="none"/>${[-150, -110, -60, -20, 30, 70].map((a) => { const c = Math.cos((a * Math.PI) / 180), s2 = Math.sin((a * Math.PI) / 180); return `<path d="M 4 -240 q ${n1(c * 60)} ${n1(s2 * 60 - 20)} ${n1(c * 120)} ${n1(s2 * 60 + 30)}" stroke="#0a0818" stroke-width="14" fill="none" stroke-linecap="round"/>`; }).join("")}</g>`;
+    return cielo("rCi", [[0, "#0a0620"], [0.5, "#3a1450"], [0.85, "#b03a78"], [1, "#ff7a6a"]]) + estrellas(Math.round(60 * area()), suelo * 0.4, 17, t, true)
+      + luz(W * 0.5, suelo, W * 0.45, "#ff4aa0", 0.3) + torres.join("")
+      + `<rect x="0" y="${n1(suelo - 10)}" width="${W}" height="4" fill="#ff5ab8" opacity="0.8"/><rect x="0" y="${n1(suelo - 24)}" width="${W}" height="3" fill="#4ae8ff" opacity="${n1(0.5 + 0.3 * Math.sin(t * 3))}"/>`
+      + `<defs>${lin("rCiA", [[0, "#3a1650"], [1, "#07061a"]])}</defs><rect y="${n1(suelo)}" width="${W}" height="${n1(H - suelo)}" fill="url(#rCiA)"/>`
+      + Array.from({ length: 30 }, () => `<rect x="${n1(r() * W)}" y="${n1(suelo + r() * (H - suelo))}" width="${n1(30 + r() * 120)}" height="3" fill="${r() < 0.5 ? "#ff6ab8" : "#6ae8ff"}" opacity="${n1(0.15 + r() * 0.3)}"/>`).join("")
+      + palma(W * 0.06, 1.3) + palma(W * 0.16, 1) + palma(W * 0.88, 1.2) + palma(W * 0.97, 1.5);
+  },
+});
+for (const f of ["relato-pasillo", "relato-cuarto", "relato-ciudad"]) VIVOS_RELATO.add(f);
+
+Object.assign(PIEZAS_RELATO, {
+  pantalla(o) { // tele o monitor (≈ 640 × 380): escena ciudad|persecucion|apagada, puntos (número que corre, con «+$»), rango 0-5, brillo 0-1, peana
+    const t = o.t || 0, w = o.ancho ?? 640, h = o.alto ?? 380, id = uid("pn"), es = o.escena || "ciudad", f = pantallaLuz(t) * lim(o.brillo ?? 1), r = azar(o.semilla ?? 12);
+    let dentro = "";
+    if (es !== "apagada") {
+      const torres = Array.from({ length: 14 }, (_, i) => { const tw = w / 14, th = h * (0.2 + r() * 0.45); return `<rect x="${n1(-w / 2 + i * tw)}" y="${n1(h * 0.1 - th)}" width="${n1(tw - 4)}" height="${n1(th)}" fill="${i % 2 ? "#2a1a5a" : "#3a1e6a"}"/>`; }).join("");
+      const calle = `<rect x="${-w / 2}" y="${n1(h * 0.1)}" width="${w}" height="${n1(h * 0.4)}" fill="#1a1426"/><path d="M ${-w / 2} ${n1(h * 0.3)} H ${w / 2}" stroke="#ffd24a" stroke-width="4" stroke-dasharray="26 22" stroke-dashoffset="${n1(t * 220)}"/>`;
+      let accion = "";
+      if (es === "persecucion") {
+        const sir = Math.sin(t * 14) > 0;
+        accion = `<g transform="translate(${n1(w * 0.12 + Math.sin(t * 2) * 10)} ${n1(h * 0.24)}) scale(${n1(w / 2200)})">${PIEZAS_RELATO.carro({ color: "#e0483a" })}</g>
+          <g transform="translate(${n1(-w * 0.26)} ${n1(h * 0.26)}) scale(${n1(w / 2200)})">${PIEZAS_RELATO.carro({ color: "#e8e8ee", sirena: true, t })}</g>
+          <rect x="${-w / 2}" y="${-h / 2}" width="${w}" height="${h}" fill="${sir ? "#ff2a3a" : "#2a6aff"}" opacity="0.14"/>`;
+      }
+      const pts = o.puntos != null ? `<text x="${n1(w / 2 - 24)}" y="${n1(-h / 2 + h * 0.17)}" text-anchor="end" font-family="Poppins" font-weight="800" font-size="${n1(h * 0.13)}" fill="#7dff8a" stroke="#0a2a10" stroke-width="3" paint-order="stroke">+$${Math.round(o.puntos).toLocaleString("es")}</text>` : "";
+      const rango = o.rango != null ? Array.from({ length: 5 }, (_, i) => `<text x="${n1(-w / 2 + 24 + i * h * 0.11)}" y="${n1(-h / 2 + h * 0.16)}" font-size="${n1(h * 0.1)}" fill="${i < o.rango ? "#ffd24a" : "#ffffff44"}">★</text>`).join("") : "";
+      dentro = `<rect x="${-w / 2}" y="${-h / 2}" width="${w}" height="${h}" fill="url(#${id}s)"/>` + torres + calle + accion + pts + rango;
+    }
+    return `<defs>${lin(id + "s", [[0, "#140a3a"], [0.6, "#6a1e78"], [1, "#ff7a5a"]])}<clipPath id="${id}c"><rect x="${-w / 2}" y="${-h / 2}" width="${w}" height="${h}" rx="6"/></clipPath></defs>
+      ${es !== "apagada" ? luz(0, 0, Math.max(w, h) * 0.95, "#3a8cff", 0.45 * f) : ""}
+      ${o.peana === false ? "" : `<path d="M -40 ${h / 2 + 18} L -70 ${h / 2 + 80} L 70 ${h / 2 + 80} L 40 ${h / 2 + 18} Z" fill="#14141c"/>`}
+      <rect x="${-w / 2 - 18}" y="${-h / 2 - 18}" width="${w + 36}" height="${h + 36}" rx="18" fill="#101016" stroke="#26262e" stroke-width="4"/>
+      <g clip-path="url(#${id}c)"><rect x="${-w / 2}" y="${-h / 2}" width="${w}" height="${h}" fill="#05060c"/><g opacity="${n1(es === "apagada" ? 1 : 0.85 + 0.15 * f)}">${dentro}</g>
+        <path d="M ${-w / 2} ${-h / 2} L ${-w * 0.1} ${-h / 2} L ${-w * 0.35} ${h / 2} L ${-w / 2} ${h / 2} Z" fill="#fff" opacity="0.05"/></g>`;
+  },
+  control(o) { // el control de videojuego (sin marca), ≈ 380 de ancho; brillo 0-1
+    const id = uid("ct"), t = o.t || 0;
+    return `<defs>${lin(id, [[0, "#3a3a46"], [1, "#16161c"]])}</defs>${luz(0, 0, 220, "#3a8cff", 0.25 * lim(o.brillo ?? 1))}
+      <path d="M -150 -40 Q -170 -90 -100 -90 L 100 -90 Q 170 -90 150 -40 L 180 80 Q 190 130 140 120 Q 110 116 80 50 L -80 50 Q -110 116 -140 120 Q -190 130 -180 80 Z" fill="url(#${id})" stroke="#08080c" stroke-width="5"/>
+      <path d="M -112 -34 h 20 v -20 h 20 v 20 h 20 v 20 h -20 v 20 h -20 v -20 h -20 Z" fill="#0c0c12"/>
+      ${[[96, -54, "#4ad"], [126, -28, "#e44"], [66, -28, "#4c6"], [96, -2, "#ec4"]].map(([x, y, c]) => `<circle cx="${x}" cy="${y}" r="13" fill="${c}"/>`).join("")}
+      <circle cx="-40" cy="20" r="24" fill="#0c0c12" stroke="#2a2a34" stroke-width="4"/><circle cx="40" cy="20" r="24" fill="#0c0c12" stroke="#2a2a34" stroke-width="4"/>
+      <circle cx="0" cy="-50" r="8" fill="#6ab0ff" opacity="${n1(0.6 + 0.4 * Math.sin(t * 3))}"/>`;
+  },
+  carro(o) { // carro genérico de lado (≈ 520 × 200): color, sirena (luces rojo/azul encima), rumbo izquierda|derecha
+    const c = (o.color || "#d0453a").replace(/^#(.)(.)(.)$/, "#$1$1$2$2$3$3"), f = o.rumbo === "izquierda" ? -1 : 1, t = o.t || 0, id = uid("ca"), on = Math.sin(t * 14) > 0;
+    const sir = o.sirena ? `<rect x="-40" y="-150" width="40" height="18" rx="4" fill="#ff2a3a"/><rect x="0" y="-150" width="40" height="18" rx="4" fill="#2a6aff"/>${luz(on ? -20 : 20, -140, 90, on ? "#ff2a3a" : "#2a6aff", 0.6)}` : "";
+    return `<g transform="scale(${f} 1)"><defs>${lin(id, [[0, tono(c, 1.25)], [1, tono(c, 0.6)]])}</defs>
+      <ellipse cx="0" cy="70" rx="250" ry="16" fill="#000" opacity="0.35" style="filter:blur(6px)"/>
+      <path d="M -250 40 L -240 -20 Q -230 -40 -180 -46 L -110 -54 L -60 -120 Q -50 -132 -20 -132 L 110 -132 Q 140 -132 160 -100 L 190 -54 L 230 -46 Q 262 -38 262 0 L 262 40 Z" fill="url(#${id})"/>
+      <path d="M -46 -112 L -10 -112 L -10 -60 L -90 -60 Z M 6 -112 L 104 -112 Q 126 -112 140 -90 L 158 -60 L 6 -60 Z" fill="#1a2a3e" opacity="0.9"/>
+      <rect x="230" y="-30" width="30" height="14" rx="5" fill="#ffe9a8"/>${luz(270, -22, 50, "#ffe9a8", 0.5)}<rect x="-250" y="-26" width="18" height="14" rx="4" fill="#ff3a3a"/>
+      ${[-150, 160].map((x) => `<circle cx="${x}" cy="40" r="42" fill="#121216"/><circle cx="${x}" cy="40" r="20" fill="#8a8a96"/>`).join("")}${sir}</g>`;
+  },
+  billetes(o) { // un fajo de billetes verdes; vuelan 0-1 (se anima: billetes que salen volando)
+    const t = o.t || 0, v = lim(o.vuelan ?? 0), r = azar(o.semilla ?? 3);
+    const b = (x, y, rot, s = 1) => `<g transform="translate(${n1(x)} ${n1(y)}) rotate(${n1(rot)}) scale(${s})"><rect x="-110" y="-52" width="220" height="104" rx="8" fill="#6fae6a" stroke="#2e5e2c" stroke-width="4"/><rect x="-96" y="-40" width="192" height="80" rx="6" fill="none" stroke="#2e5e2c" stroke-width="3"/><circle r="26" fill="#9fd09a" stroke="#2e5e2c" stroke-width="3"/><text y="12" text-anchor="middle" font-family="Poppins" font-weight="800" font-size="34" fill="#2e5e2c">$</text></g>`;
+    const fajo = Array.from({ length: 6 }, (_, i) => b(0, 40 - i * 10, i % 2 ? 2 : -2)).join("");
+    const vuelan = Array.from({ length: 10 }, (_, i) => { const a = r(), c = r(), d = r(), u = lim(v * 1.6 - i * 0.06); if (u <= 0) return ""; return b((a - 0.5) * 700 * u, -u * (180 + c * 220) + Math.sin(t * 3 + i) * 12, (d - 0.5) * 120 * u + Math.sin(t * 2 + i) * 10, 0.7); }).join("");
+    return luz(0, 0, 260, "#9fe89a", 0.25) + fajo + vuelan;
+  },
+  telefono(o) { // el celular encendido (≈ 200 × 380); brillo 0-1
+    const f = lim(o.brillo ?? 1);
+    return `${luz(0, -20, 240, "#6ab0ff", 0.35 * f)}<rect x="-100" y="-190" width="200" height="380" rx="30" fill="#14141a" stroke="#2c2c36" stroke-width="5"/>
+      <rect x="-86" y="-170" width="172" height="330" rx="16" fill="#2a5ab4" opacity="${n1(0.5 + 0.5 * f)}"/>${[0, 1, 2, 3].map((i) => `<rect x="-66" y="${-140 + i * 70}" width="132" height="44" rx="10" fill="#fff" opacity="0.3"/>`).join("")}`;
+  },
+  mesa(o) { // la mesa familiar de frente (≈ 1120 × 300): platos, pan y una vela; mantel (color)
+    const m = o.mantel || "#efe6d4";
+    return `<ellipse cx="0" cy="150" rx="600" ry="30" fill="#000" opacity="0.3" style="filter:blur(10px)"/>
+      <rect x="-520" y="110" width="30" height="50" fill="#5a3a22"/><rect x="490" y="110" width="30" height="50" fill="#5a3a22"/>
+      <rect x="-560" y="-20" width="1120" height="60" rx="10" fill="${m}"/><path d="M -560 40 L -560 120 Q 0 150 560 120 L 560 40 Z" fill="${tono(m, 0.88)}"/>
+      ${[-380, -130, 130, 380].map((x) => `<ellipse cx="${x}" cy="-14" rx="80" ry="20" fill="#fbfbfb" stroke="#c9c0b0" stroke-width="3"/><ellipse cx="${x}" cy="-18" rx="44" ry="10" fill="#e8a060"/>`).join("")}
+      <ellipse cx="0" cy="-30" rx="60" ry="26" fill="#c88a4a"/><g transform="translate(250 -60) scale(0.55)">${PIEZAS_RELATO.vela({ alto: 90, t: o.t })}</g>`;
+  },
+  balon(o) { // balón de fútbol (≈ 200); giro (grados/s)
+    const rot = (o.t || 0) * (o.giro ?? 120);
+    return `<ellipse cx="0" cy="104" rx="90" ry="12" fill="#000" opacity="0.3" style="filter:blur(5px)"/><g transform="rotate(${n1(rot)})"><circle r="100" fill="#f6f6f2" stroke="#24150e" stroke-width="5"/>
+      <path d="M 0 -34 L 32 -10 L 20 28 L -20 28 L -32 -10 Z" fill="#24150e"/>${[0, 72, 144, 216, 288].map((a) => `<g transform="rotate(${a})"><path d="M 0 -34 L 0 -70" stroke="#24150e" stroke-width="4"/><path d="M -24 -96 L 0 -70 L 24 -96 Q 0 -104 -24 -96 Z" fill="#24150e"/></g>`).join("")}</g>`;
+  },
+  bicicleta(o) { // bicicleta de lado (≈ 560 × 300); color; las ruedas giran
+    const c = o.color || "#2a8ad4", rot = (o.t || 0) * 260;
+    const rueda = (x) => `<g transform="translate(${x} 60) rotate(${n1(rot)})"><circle r="100" fill="none" stroke="#4a4a56" stroke-width="14"/><circle r="92" fill="none" stroke="#c9c9d2" stroke-width="3"/>${[0, 30, 60, 90, 120, 150].map((a) => { const cx = Math.cos((a * Math.PI) / 180) * 96, cy = Math.sin((a * Math.PI) / 180) * 96; return `<path d="M ${n1(-cx)} ${n1(-cy)} L ${n1(cx)} ${n1(cy)}" stroke="#8a8a92" stroke-width="2"/>`; }).join("")}</g>`;
+    return rueda(-170) + rueda(170) + `<path d="M -170 60 L -40 60 L 60 -60 L -80 -60 Z M -40 60 L -90 -90 M 60 -60 L 170 60 M 60 -60 L 50 -110" stroke="${c}" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M -120 -96 h 70" stroke="#1a1a1e" stroke-width="16" stroke-linecap="round"/><path d="M 30 -114 h 50" stroke="#1a1a1e" stroke-width="10" stroke-linecap="round"/><circle cx="-40" cy="60" r="18" fill="#3a3a40"/>`;
+  },
+  relojpared(o) { // reloj de pared (≈ 300): horas (se anima: las agujas corren, 11 → 13)
+    const h = o.horas ?? 11, a2 = (h % 1) * 360, a1 = (Math.floor(h) % 12) * 30 + a2 / 12;
+    return `${luz(0, 0, 180, "#ffe6b0", 0.2)}<circle r="140" fill="#f4ecd8" stroke="#3a2a1c" stroke-width="14"/>${Array.from({ length: 12 }, (_, i) => `<path transform="rotate(${i * 30})" d="M 0 -118 V ${i % 3 ? -106 : -96}" stroke="#3a2a1c" stroke-width="${i % 3 ? 4 : 8}"/>`).join("")}
+      <path transform="rotate(${n1(a1)})" d="M 0 10 V -66" stroke="#24150e" stroke-width="12" stroke-linecap="round"/><path transform="rotate(${n1(a2)})" d="M 0 14 V -100" stroke="#24150e" stroke-width="7" stroke-linecap="round"/><circle r="10" fill="#c43a2a"/>`;
+  },
+});
+Object.assign(PARAMETROS_RELATO, {
+  pantalla: "escena ciudad|persecucion|apagada, puntos (número, se anima), rango 0-5 (estrellas), brillo 0-1, ancho, alto, peana", control: "brillo 0-1",
+  carro: "color, sirena, rumbo izquierda|derecha", billetes: "vuelan 0-1 (se anima)", telefono: "brillo 0-1", mesa: "mantel (color)",
+  balon: "giro (grados/s)", bicicleta: "color", relojpared: "horas (se anima: 11 → 13)",
+});

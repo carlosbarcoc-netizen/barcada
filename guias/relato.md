@@ -136,6 +136,10 @@ blanco, la clave de cada frase en la caja azul) salen solos. Para ver todo: `nod
 | `relato-campo` | pueblos, monasterios en el monte, caminos | 72 % |
 | `relato-mar` | barcos, travesías (sol bajo y olas que se mueven) | 62 % |
 | `relato-puerta` | el portón de madera con herrajes en su arco de piedra, para un personaje delante | 88 % |
+| `relato-pasillo` | el pasillo de casa de noche: puerta cerrada y luz azul de pantalla por debajo (`luz` 0-1) | 84 % |
+| `relato-cuarto` | el cuarto de noche bañado por la luz azul de una pantalla (`brillo`, `ventana`) | 80 % |
+| `relato-sala` | la sala en penumbra: sofá, lámpara (`lampara` 0-1) y ventana | 82 % |
+| `relato-ciudad` | la ciudad de neón de noche con palmeras y reflejos | 70 % |
 | `relato-casa` | interior en penumbra: ventana con luna e iglesia en el monte (`ventana` 0-1, dónde), chimenea encendida (`chimenea` 0-1) | 84 % |
 
 `fondoOpts.suelo` cambia la altura del suelo (en 16:9, la plaza de `relato-noche` queda bien hacia y 700).
@@ -160,6 +164,14 @@ blanco, la clave de cada frase en la caja azul) salen solos. Para ver todo: `nod
 | `senalar` | la mano que acusa | la punta del dedo en (0, 0) y el brazo hacia la izquierda; `rot` para orientarla; `manga` (color) |
 | `cruz` | cruz de madera u oro con piedras | `material` madera/oro, `brillo` |
 | `aureola` | el halo dorado | `radio` |
+| `pantalla` | tele o monitor encendido (lo moderno) | `escena` ciudad/persecucion/apagada, `puntos` (se anima: «+$»), `rango` 0-5, `brillo`, `peana` |
+| `control` | control de videojuego sin marca | `brillo` |
+| `carro` | carro genérico de lado | `color`, `sirena`, `rumbo` |
+| `billetes` | fajo de billetes | `vuelan` 0-1 (se anima) |
+| `telefono` · `relojpared` | el celular encendido · el reloj de pared | `brillo` · `horas` (se anima) |
+| `mesa` · `balon` · `bicicleta` | la mesa familiar · el balón · la bicicleta | `mantel` · `giro` · `color` |
+
+Vestuarios modernos de `figura`: `joven`, `joven-capucha`, `chico`, `padre`, `madre`, `obispo`.
 
 ### Una escena de ejemplo (16:9)
 

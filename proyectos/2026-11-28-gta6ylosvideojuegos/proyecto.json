@@ -439,13 +439,5446 @@
   ],
   "escenas": [
     {
-      "nombre": "gancho",
+      "nombre": "video",
       "tomas": [
         {
           "desde": 0,
           "dibujo": {
-            "fondo": "relato-noche",
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.168,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "relojpared",
+                "x": 1500,
+                "y": 300,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.55,
+                "params": {
+                  "horas": [
+                    [
+                      0,
+                      10.9
+                    ],
+                    [
+                      3,
+                      11
+                    ]
+                  ]
+                }
+              }
+            ],
+            "fondoOpts": {
+              "lampara": 0.15
+            }
+          }
+        },
+        {
+          "desde": 2,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ],
+              [
+                2.276,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 760,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 1100,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              }
+            ],
+            "fondoOpts": {
+              "lampara": 0.6
+            }
+          }
+        },
+        {
+          "desde": 3,
+          "dibujo": {
+            "fondo": "relato-pasillo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.8660000000000005,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
             "elementos": []
+          }
+        },
+        {
+          "desde": 4,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                9.345999999999998,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 1240,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.15,
+                "escena": "persecucion",
+                "rango": 3,
+                "params": {
+                  "puntos": [
+                    [
+                      "4:ganar",
+                      0
+                    ],
+                    [
+                      9.345999999999998,
+                      500
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta",
+                "pose": "quieta"
+              },
+              {
+                "pieza": "control",
+                "x": 760,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.45,
+                "rot": -8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 5,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.027000000000001,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 960,
+                "y": 500,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.9,
+                "escena": "persecucion",
+                "puntos": 500,
+                "rango": 3
+              }
+            ]
+          }
+        },
+        {
+          "desde": 6,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                5.908999999999999,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 300,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 130,
+                "texto": "GTA 6",
+                "en": "6:gta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 7,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.0889999999999986,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "obispo",
+                "x": 960,
+                "y": 520,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "pose": "bendice",
+                "brillo": 0.5
+              },
+              {
+                "pieza": "multitud",
+                "x": 960,
+                "y": 760,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "ancho": 2300,
+                "alto": 340,
+                "densidad": 0.7
+              }
+            ]
+          }
+        },
+        {
+          "desde": 8,
+          "dibujo": {
+            "fondo": "relato-pasillo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.619,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 520,
+                "y": 560,
+                "escala": 1.5,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 9,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                7.814,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "titulo": "Hoy",
+                "lineas": [
+                  "1. La ciencia",
+                  "2. La Iglesia",
+                  "3. Qué hacer en casa"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      0.3,
+                      0
+                    ],
+                    [
+                      "9:hacer",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "vela",
+                "x": 1460,
+                "y": 760,
+                "entra": "ninguna",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 10,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.536000000000001,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "suscribir",
+                "x": 960,
+                "y": 520,
+                "entra": "rebote",
+                "dura": 0.8,
+                "canal": "@dulcepatriarca",
+                "lema": "Fe y familia, sin miedo a la verdad",
+                "escala": 1.25,
+                "params": {
+                  "pulsa": [
+                    [
+                      "10:suscríbete",
+                      0
+                    ],
+                    [
+                      "10:gratis",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 11,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.3810000000000002,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 12,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ],
+              [
+                3.9470000000000027,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 300,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 90,
+                "texto": "19 de noviembre",
+                "en": 0.4
+              }
+            ]
+          }
+        },
+        {
+          "desde": 13,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.327000000000005,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "billetes",
+                "x": 960,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.4,
+                "params": {
+                  "vuelan": [
+                    [
+                      "13:día",
+                      0
+                    ],
+                    [
+                      "13:dólares",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 230,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 100,
+                "valor": 3790,
+                "unidad": "millones de USD",
+                "en": "13:vendió",
+                "params": {
+                  "valor": [
+                    [
+                      "13:vendió",
+                      0
+                    ],
+                    [
+                      "13:dólares",
+                      3790
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 14,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.75399999999999,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "multitud",
+                "x": 960,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "ancho": 2300,
+                "alto": 460,
+                "luces": 0.25,
+                "densidad": 0.8
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 210,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "El estreno más grande del entretenimiento",
+                "tamano": 44,
+                "en": "14:estreno"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 15,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.168000000000006,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "multitud",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "ancho": 2400,
+                "alto": 520,
+                "luces": 0.4,
+                "densidad": 0.7
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 260,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 80,
+                "texto": "+10 años de espera",
+                "en": "15:diez"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 16,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.805999999999997,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 520,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 120,
+                "texto": "Para adultos",
+                "en": "16:adultos"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 17,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                6.6640000000000015,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 520,
+                "y": 360,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "violencia",
+                "tamano": 48,
+                "en": "17:violencia",
+                "halo": "#ff7a5a"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 560,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "lenguaje",
+                "tamano": 48,
+                "en": "17:lenguaje",
+                "halo": "#ff7a5a"
+              },
+              {
+                "pieza": "globo",
+                "x": 1400,
+                "y": 760,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "contenido sexual",
+                "tamano": 48,
+                "en": "17:sexual",
+                "halo": "#ff7a5a"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 18,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.606999999999999,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 700,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta",
+                "en": "18:adolescentes"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "chico",
+                "x": 1100,
+                "y": 620,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": "18:niños"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 19,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ],
+              [
+                7.382999999999996,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "control",
+                "x": 560,
+                "y": 540,
+                "entra": "rebote",
+                "dura": 0.8,
+                "escala": 0.8,
+                "en": "19:regalo"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 1000,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": "19:primo"
+              },
+              {
+                "pieza": "pantalla",
+                "x": 1460,
+                "y": 470,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.8,
+                "en": "19:consola"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 20,
+          "dibujo": {
+            "fondo": "relato-pasillo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.028000000000006,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 21,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.608999999999995,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 1240,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.15
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta"
+              },
+              {
+                "pieza": "control",
+                "x": 760,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.45,
+                "rot": -8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 22,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                4.203000000000003,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven-capucha",
+                "x": 960,
+                "y": 560,
+                "escala": 1.3,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 23,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.159000000000006,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven-capucha",
+                "x": 960,
+                "y": 560,
+                "escala": 1.3,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta",
+                "brazos": 0.9
+              }
+            ]
+          }
+        },
+        {
+          "desde": 24,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.4809999999999945,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "carro",
+                "x": 960,
+                "y": 850,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.1,
+                "color": "#e0483a",
+                "mueve": [
+                  [
+                    5.4809999999999945,
+                    {
+                      "x": 1300
+                    }
+                  ]
+                ]
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 210,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "el delito te hace avanzar",
+                "tamano": 46,
+                "en": "24:delito",
+                "halo": "#ff7a5a"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 25,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                7.0589999999999975,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "billetes",
+                "x": 480,
+                "y": 520,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.8,
+                "en": "25:robar",
+                "params": {
+                  "vuelan": [
+                    [
+                      "25:robar",
+                      0
+                    ],
+                    [
+                      "25:dinero",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 420,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "respeto",
+                "tamano": 48,
+                "en": "25:respeto"
+              },
+              {
+                "pieza": "carro",
+                "x": 1440,
+                "y": 820,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.8,
+                "color": "#e8e8ee",
+                "sirena": true,
+                "en": "25:escapar"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 26,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.983000000000004,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 960,
+                "y": 480,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.7,
+                "escena": "persecucion",
+                "puntos": 1500,
+                "rango": 4
+              }
+            ]
+          }
+        },
+        {
+          "desde": 27,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.796999999999997,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 960,
+                "y": 480,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.7,
+                "escena": "ciudad",
+                "rango": 5,
+                "params": {
+                  "puntos": [
+                    [
+                      0,
+                      1500
+                    ],
+                    [
+                      3.796999999999997,
+                      9800
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 28,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.9010000000000105,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "vela",
+                "x": 960,
+                "y": 700,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.4
+              }
+            ]
+          }
+        },
+        {
+          "desde": 29,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.9129999999999825,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 380,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "No solo te deja hacer el mal.",
+                "tamano": 52,
+                "en": 0.2
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 620,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Te lo premia.",
+                "tamano": 72,
+                "halo": "#ff7a5a",
+                "en": "29:premia"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 30,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.484000000000009,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 1240,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.15,
+                "escena": "persecucion",
+                "puntos": 9800,
+                "rango": 5
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 31,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                6.211999999999989,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "chico",
+                "x": 620,
+                "y": 700,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": "31:niño"
+              },
+              {
+                "pieza": "balon",
+                "x": 1100,
+                "y": 840,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.6,
+                "en": "31:hábito"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 32,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.677999999999997,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "vela",
+                "x": 760,
+                "y": 720,
+                "entra": "ninguna",
+                "dura": 0.8
+              },
+              {
+                "pieza": "vela",
+                "x": 1160,
+                "y": 720,
+                "entra": "ninguna",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 33,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.3220000000000027,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 520,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 110,
+                "texto": "Pecados capitales",
+                "en": "33:pecados"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 34,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.342000000000013,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "titulo": "Catecismo",
+                "lineas": [
+                  "n.º 1866"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      0.2,
+                      0
+                    ],
+                    [
+                      "34:sesenta",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 35,
+          "dibujo": {
+            "fondo": "relato-pergamino",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globos",
+                "x": 960,
+                "y": 520,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "ancho": 1500,
+                "alto": 640,
+                "textos": [
+                  "soberbia",
+                  "avaricia",
+                  "envidia",
+                  "ira",
+                  "lujuria",
+                  "gula",
+                  "pereza"
+                ],
+                "tamano": 52,
+                "halo": "#ff7a5a",
+                "desde": [
+                  0,
+                  260
+                ],
+                "params": {
+                  "progreso": [
+                    [
+                      "35:soberbia",
+                      0
+                    ],
+                    [
+                      "35:pereza",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 36,
+          "dibujo": {
+            "fondo": "relato-pergamino",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.153999999999996,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "titulo": "Pecados capitales",
+                "lineas": [
+                  "la cabeza de",
+                  "otros pecados"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      0.2,
+                      0
+                    ],
+                    [
+                      "36:cabeza",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 37,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.0999999999999943,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 38,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.396999999999991,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 215,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Avaricia",
+                "tamano": 60,
+                "halo": "#ff7a5a",
+                "en": 0.2
+              },
+              {
+                "pieza": "billetes",
+                "x": 960,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.3,
+                "params": {
+                  "vuelan": [
+                    [
+                      0.5,
+                      0
+                    ],
+                    [
+                      "38:robas",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 39,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.177000000000021,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 215,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Ira",
+                "tamano": 60,
+                "halo": "#ff7a5a",
+                "en": 0.2
+              },
+              {
+                "pieza": "pantalla",
+                "x": 960,
+                "y": 600,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.4,
+                "escena": "persecucion",
+                "rango": 5
+              }
+            ]
+          }
+        },
+        {
+          "desde": 40,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.455999999999989,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 215,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Lujuria",
+                "tamano": 60,
+                "halo": "#ff7a5a",
+                "en": 0.2
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "silueta",
+                "x": 960,
+                "y": 620,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "opacidad": 0.7,
+                "en": "40:cuerpo"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 41,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.454999999999984,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 215,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Soberbia",
+                "tamano": 60,
+                "halo": "#ff7a5a",
+                "en": 0.2
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven-capucha",
+                "x": 960,
+                "y": 600,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "pose": "esconde",
+                "cara": "atenta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 42,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                6.8160000000000025,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 215,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Envidia",
+                "tamano": 60,
+                "halo": "#ff7a5a",
+                "en": 0.2
+              },
+              {
+                "pieza": "carro",
+                "x": 700,
+                "y": 850,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.8,
+                "color": "#2a8ad4",
+                "en": "42:carro"
+              },
+              {
+                "pieza": "carro",
+                "x": 1300,
+                "y": 850,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.8,
+                "color": "#f2c14e",
+                "en": "42:casa"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 43,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.872000000000014,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 215,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Gula y pereza",
+                "tamano": 60,
+                "halo": "#ff7a5a",
+                "en": 0.2
+              },
+              {
+                "pieza": "pantalla",
+                "x": 1240,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.15
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta",
+                "pose": "esconde"
+              },
+              {
+                "pieza": "control",
+                "x": 760,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.45,
+                "rot": -8
+              },
+              {
+                "pieza": "relojpared",
+                "x": 260,
+                "y": 220,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.4,
+                "params": {
+                  "horas": [
+                    [
+                      0,
+                      20
+                    ],
+                    [
+                      7.872000000000014,
+                      24
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 44,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 1240,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.15
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "control",
+                "x": 760,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.45,
+                "rot": -8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 45,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.4490000000000123,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 960,
+                "y": 820,
+                "escala": 3.2,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta",
+                "brillo": 0.3
+              }
+            ]
+          }
+        },
+        {
+          "desde": 46,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.639999999999986,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "sorprendida"
+              },
+              {
+                "pieza": "pantalla",
+                "x": 1240,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.15,
+                "escena": "persecucion"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 47,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.074000000000012,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 1240,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.15
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "control",
+                "x": 760,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.45,
+                "rot": -8
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 210,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "no el escándalo, sino la costumbre",
+                "tamano": 44,
+                "en": "47:costumbre"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 48,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.653999999999996,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "vela",
+                "x": 960,
+                "y": 720,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.3
+              }
+            ]
+          }
+        },
+        {
+          "desde": 49,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                4.9339999999999975,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "titulo": "Psicología (APA)",
+                "lineas": [
+                  "Resolución",
+                  "del año 2020"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "tamano": 40,
+                "params": {
+                  "progreso": [
+                    [
+                      0.3,
+                      0
+                    ],
+                    [
+                      "49:veinte",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "dato",
+                "x": 1500,
+                "y": 300,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 96,
+                "texto": "2020",
+                "en": "49:veinte"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 50,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.673999999999978,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "titulo": "Lo que encontró",
+                "lineas": [
+                  "una relación pequeña",
+                  "pero constante",
+                  "con más agresividad"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "50:relación",
+                      0
+                    ],
+                    [
+                      "50:agresividad",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 51,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.15300000000002,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 300,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "más pensamientos agresivos",
+                "tamano": 48,
+                "en": "51:pensamientos"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 480,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "más enojo",
+                "tamano": 48,
+                "en": "51:enojo"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 660,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "menos empatía",
+                "tamano": 48,
+                "en": "51:empatía",
+                "halo": "#ff7a5a"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 52,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.046999999999969,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "titulo": "También dijo",
+                "lineas": [
+                  "no hay pruebas de que",
+                  "conviertan a alguien",
+                  "en un criminal"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "52:pruebas",
+                      0
+                    ],
+                    [
+                      "52:criminal",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 53,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.6410000000000196,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 960,
+                "y": 640,
+                "escala": 2.3,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 210,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "pueden endurecer el corazón",
+                "tamano": 44,
+                "en": "53:endurecer"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 54,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.1265710000000126,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "relojpared",
+                "x": 960,
+                "y": 540,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.2,
+                "params": {
+                  "horas": [
+                    [
+                      0,
+                      9
+                    ],
+                    [
+                      2.1265710000000126,
+                      11
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 55,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.7549999999999955,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "titulo": "OMS · CIE-11",
+                "lineas": [
+                  "Trastorno por",
+                  "videojuegos"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      0.3,
+                      0
+                    ],
+                    [
+                      "55:enfermedad",
+                      1
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "dato",
+                "x": 1500,
+                "y": 300,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 96,
+                "texto": "2022",
+                "en": "55:veintidós"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 56,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.776999999999987,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 1240,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.15
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "preocupada"
+              },
+              {
+                "pieza": "control",
+                "x": 760,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.45,
+                "rot": -8
+              },
+              {
+                "pieza": "globo",
+                "x": 500,
+                "y": 230,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "escuela",
+                "tamano": 38,
+                "en": "56:escuela"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 200,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "familia",
+                "tamano": 38,
+                "en": "56:familia"
+              },
+              {
+                "pieza": "globo",
+                "x": 1400,
+                "y": 230,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "sueño",
+                "tamano": 38,
+                "en": "56:sueño"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 57,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                9.474000000000046,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 1240,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.15
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta"
+              },
+              {
+                "pieza": "control",
+                "x": 760,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.45,
+                "rot": -8
+              },
+              {
+                "pieza": "globo",
+                "x": 620,
+                "y": 220,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "un ratito más…",
+                "tamano": 46,
+                "en": "57:ratito"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 58,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.109999999999957,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "preocupada"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 59,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ],
+              [
+                6.235000000000014,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "relojpared",
+                "x": 1500,
+                "y": 250,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.5,
+                "params": {
+                  "horas": [
+                    [
+                      0,
+                      20
+                    ],
+                    [
+                      6.235000000000014,
+                      25
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 760,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "preocupada"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 60,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.264999999999986,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 460,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "👍 Me gusta y compártelo",
+                "tamano": 56,
+                "en": "60:gusta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 61,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.160000000000025,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "fachada",
+                "x": 960,
+                "y": 820,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.85,
+                "luz": 1,
+                "emblema": "llaves"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 62,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.592999999999961,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "fachada",
+                "x": 960,
+                "y": 820,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.85,
+                "figura": "papa",
+                "brazos": 0.6
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 220,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 96,
+                "texto": "2007",
+                "en": "62:siete"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 63,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                1.5900000000000318,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "titulo": "Los niños y los medios",
+                "lineas": [
+                  "Benedicto XVI",
+                  "2007"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "progreso": 1
+              }
+            ]
+          }
+        },
+        {
+          "desde": 64,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                10.182000000000016,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "titulo": "Los niños y los medios",
+                "lineas": [
+                  "no a lo que exalta",
+                  "la violencia",
+                  "ni a lo que banaliza",
+                  "la sexualidad"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "64:criticó",
+                      0
+                    ],
+                    [
+                      "64:jóvenes",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 65,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.42999999999995,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 560,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 900,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "chico",
+                "x": 1220,
+                "y": 600,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 210,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "padres · Iglesia · escuela",
+                "tamano": 44,
+                "en": "65:padres"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 66,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                2.973000000000013,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 760,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 1100,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 220,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 80,
+                "texto": "Los padres, primero",
+                "en": "66:primero"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 67,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.015000000000043,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "multitud",
+                "x": 960,
+                "y": 520,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "ancho": 2400,
+                "alto": 560,
+                "luces": 0.4,
+                "brazos": 0.2,
+                "banderas": 18
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 230,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 90,
+                "texto": "Cracovia",
+                "en": "67:cracovia"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 68,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.9459999999999695,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "pose": "esconde",
+                "cara": "serena"
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 210,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "No vivas la vida a través de una pantalla",
+                "tamano": 42,
+                "en": "68:vida"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 69,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                12.60899999999998,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "obispo",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "preocupada",
+                "brillo": 0.4
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 200,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 70,
+                "texto": "Australia",
+                "en": 0.4
+              },
+              {
+                "pieza": "globo",
+                "x": 1450,
+                "y": 400,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "deshumanizan",
+                "tamano": 44,
+                "halo": "#ff7a5a",
+                "en": "69:deshumanizan"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 70,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.619000000000028,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "cruz",
+                "x": 960,
+                "y": 520,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.2,
+                "material": "oro",
+                "brillo": 1
+              }
+            ]
+          }
+        },
+        {
+          "desde": 71,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.481999999999971,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "vela",
+                "x": 960,
+                "y": 700,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.4
+              }
+            ]
+          }
+        },
+        {
+          "desde": 72,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.622000000000014,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "angel",
+                "x": 960,
+                "y": 520,
+                "escala": 1.4,
+                "entra": "aparece",
+                "dura": 0.8,
+                "en": "72:batalla"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 73,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.954000000000008,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "documento",
+                "x": 960,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "titulo": "Efesios 6, 12",
+                "lineas": [
+                  "no es contra la carne",
+                  "y la sangre…"
+                ],
+                "escala": 0.95,
+                "ancho": 640,
+                "alto": 760,
+                "rot": -2,
+                "params": {
+                  "progreso": [
+                    [
+                      "73:carne",
+                      0
+                    ],
+                    [
+                      "73:tinieblas",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 74,
+          "dibujo": {
+            "fondo": "relato-pasillo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.4139999999999873,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 75,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.362000000000023,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 1240,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1.15,
+                "escena": "persecucion",
+                "rango": 5
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "control",
+                "x": 760,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.45,
+                "rot": -8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 76,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ],
+              [
+                6.478999999999985,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 520,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena",
+                "opacidad": 0.6
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 820,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena",
+                "opacidad": 0.6
+              },
+              {
+                "pieza": "cruz",
+                "x": 1500,
+                "y": 360,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.6,
+                "material": "madera",
+                "opacidad": 0.6
+              }
+            ],
+            "fondoOpts": {
+              "lampara": 0.3
+            }
+          }
+        },
+        {
+          "desde": 77,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.7000000000000455,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "monje",
+                "x": 620,
+                "y": 600,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "pose": "reza"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "obispo",
+                "x": 1300,
+                "y": 580,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "preocupada"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 78,
+          "dibujo": {
+            "fondo": "relato-puerta",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.3139999999999645,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [],
+            "fondoOpts": {
+              "abierta": 0.25
+            }
+          }
+        },
+        {
+          "desde": 79,
+          "dibujo": {
+            "fondo": "relato-pasillo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.51400000000001,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 80,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.630999999999972,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 560,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 900,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "chico",
+                "x": 1220,
+                "y": 600,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 81,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                5.689000000000021,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 480,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta",
+                "en": "81:papá"
+              },
+              {
+                "pieza": "telefono",
+                "x": 640,
+                "y": 560,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.4,
+                "en": "81:celular"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta",
+                "en": "81:mamá"
+              },
+              {
+                "pieza": "pantalla",
+                "x": 1180,
+                "y": 300,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.4,
+                "en": "81:televisión",
+                "peana": false
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 1440,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "atenta",
+                "en": "81:hijo"
+              },
+              {
+                "pieza": "control",
+                "x": 1560,
+                "y": 640,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.35,
+                "en": "81:consola"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 82,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.122000000000014,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 480,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta"
+              },
+              {
+                "pieza": "telefono",
+                "x": 640,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.4
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 1440,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta"
+              },
+              {
+                "pieza": "control",
+                "x": 1560,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.35
+              }
+            ]
+          }
+        },
+        {
+          "desde": 83,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                1.9969999999999573,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 300,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 960,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 1620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              }
+            ],
+            "fondoOpts": {
+              "lampara": 0.3
+            }
+          }
+        },
+        {
+          "desde": 84,
+          "dibujo": {
+            "fondo": "relato-pasillo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.955000000000041,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 520,
+                "y": 560,
+                "escala": 1.5,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "preocupada"
+              },
+              {
+                "pieza": "globo",
+                "x": 560,
+                "y": 220,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "¿a qué juega?",
+                "tamano": 38,
+                "en": "84:juegan"
+              },
+              {
+                "pieza": "globo",
+                "x": 1000,
+                "y": 320,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "¿con quién habla?",
+                "tamano": 38,
+                "en": "84:hablan"
+              },
+              {
+                "pieza": "globo",
+                "x": 1440,
+                "y": 220,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "¿cuántas horas?",
+                "tamano": 38,
+                "en": "84:horas"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 85,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.139999999999986,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 760,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena",
+                "pose": "esconde"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 1100,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena"
+              }
+            ],
+            "fondoOpts": {
+              "lampara": 0.5
+            }
+          }
+        },
+        {
+          "desde": 86,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                3.994000000000028,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 760,
+                "y": 820,
+                "escala": 3.2,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena",
+                "brillo": 0
+              },
+              {
+                "pieza": "pantalla",
+                "x": 1460,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.9
+              }
+            ]
+          }
+        },
+        {
+          "desde": 87,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.770999999999958,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": []
+          }
+        },
+        {
+          "desde": 88,
+          "dibujo": {
+            "fondo": "relato-casa",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.176000000000045,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 760,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 1100,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 89,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.909999999999968,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 200,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 90,
+                "texto": "1 · Horarios claros",
+                "en": 0.2
+              },
+              {
+                "pieza": "relojpared",
+                "x": 960,
+                "y": 640,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 1,
+                "params": {
+                  "horas": [
+                    [
+                      0,
+                      6
+                    ],
+                    [
+                      5.909999999999968,
+                      8
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 90,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.375,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 960,
+                "y": 420,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.8
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 560,
+                "y": 620,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 900,
+                "y": 620,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "chico",
+                "x": 1220,
+                "y": 620,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 91,
+          "dibujo": {
+            "fondo": "relato-sala",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                9.194999999999993,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 180,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 80,
+                "texto": "2 · Conoce lo que juegan",
+                "en": 0.2
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 700,
+                "y": 580,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 1100,
+                "y": 580,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "control",
+                "x": 1220,
+                "y": 660,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.4
+              }
+            ]
+          }
+        },
+        {
+          "desde": 92,
+          "dibujo": {
+            "fondo": "relato-rojo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.050999999999988,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 380,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 110,
+                "texto": "Para adultos",
+                "en": 0.2
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "chico",
+                "x": 960,
+                "y": 700,
+                "escala": 1.4,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "atenta"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 93,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                8.127000000000066,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 180,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 90,
+                "texto": "3 · Aire libre",
+                "en": 0.2
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 400,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 90,
+                "valor": 60,
+                "unidad": "min al día",
+                "en": "93:hora",
+                "params": {
+                  "valor": [
+                    [
+                      "93:hora",
+                      0
+                    ],
+                    [
+                      8.127000000000066,
+                      60
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": 94,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ],
+              [
+                6.454999999999927,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "bicicleta",
+                "x": 520,
+                "y": 760,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.8,
+                "en": "94:bicicleta"
+              },
+              {
+                "pieza": "balon",
+                "x": 960,
+                "y": 860,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.6,
+                "en": "94:balón"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 1300,
+                "y": 640,
+                "escala": 1.2,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": "94:caminata"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "chico",
+                "x": 1500,
+                "y": 640,
+                "escala": 1.2,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": "94:caminata"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 1700,
+                "y": 640,
+                "escala": 1.2,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": "94:caminata"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 95,
+          "dibujo": {
+            "fondo": "relato-casa",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                8.406000000000063,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 160,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 80,
+                "texto": "4 · La fe en casa",
+                "en": 0.2
+              },
+              {
+                "pieza": "mesa",
+                "x": 960,
+                "y": 860,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 1.1,
+                "en": "95:mesa"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 560,
+                "y": 600,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "serena",
+                "pose": "reza",
+                "en": "95:oración"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 900,
+                "y": 600,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "serena",
+                "pose": "reza",
+                "en": "95:oración"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "chico",
+                "x": 1220,
+                "y": 600,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "serena",
+                "pose": "reza",
+                "en": "95:oración"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 96,
+          "dibujo": {
+            "fondo": "relato-casa",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.303999999999974,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 160,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 80,
+                "texto": "5 · El ejemplo",
+                "en": 0.2
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 760,
+                "y": 580,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "pose": "reza",
+                "cara": "serena"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "chico",
+                "x": 1100,
+                "y": 640,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "reza",
+                "cara": "serena",
+                "en": "96:hacen#2"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 97,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.225999999999999,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 960,
+                "y": 520,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "aureola": true,
+                "brillo": 0.6,
+                "en": "97:carlo"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 98,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                6.3390000000000555,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 760,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "telefono",
+                "x": 1100,
+                "y": 500,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.4,
+                "en": "98:computación"
+              },
+              {
+                "pieza": "control",
+                "x": 1400,
+                "y": 560,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.5,
+                "en": "98:videojuegos"
+              }
+            ],
+            "fondoOpts": {
+              "brillo": 0.5
+            }
+          }
+        },
+        {
+          "desde": 99,
+          "dibujo": {
+            "fondo": "relato-madera",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.875999999999976,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "control",
+                "x": 600,
+                "y": 560,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.9
+              },
+              {
+                "pieza": "dato",
+                "x": 1260,
+                "y": 540,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 110,
+                "texto": "1 hora",
+                "unidad": "a la semana",
+                "en": "99:hora"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 100,
+          "dibujo": {
+            "fondo": "relato-monasterio",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                4.670672999999965,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "relojpared",
+                "x": 960,
+                "y": 420,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.8,
+                "params": {
+                  "horas": [
+                    [
+                      0,
+                      10
+                    ],
+                    [
+                      4.670672999999965,
+                      11
+                    ]
+                  ]
+                }
+              },
+              {
+                "pieza": "vela",
+                "x": 560,
+                "y": 760,
+                "entra": "ninguna",
+                "dura": 0.8
+              },
+              {
+                "pieza": "vela",
+                "x": 1360,
+                "y": 760,
+                "entra": "ninguna",
+                "dura": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 101,
+          "dibujo": {
+            "fondo": "relato-campo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.1,
+                  "x": 870,
+                  "y": 540
+                }
+              ],
+              [
+                8.149999999999977,
+                {
+                  "zoom": 1.1,
+                  "x": 1050,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 520,
+                "y": 640,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": 0.2
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "campesino",
+                "x": 860,
+                "y": 640,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "cara": "feliz",
+                "en": "101:pobres"
+              },
+              {
+                "pieza": "telefono",
+                "x": 1400,
+                "y": 560,
+                "entra": "aparece",
+                "dura": 0.8,
+                "escala": 0.5,
+                "en": "101:página"
+              },
+              {
+                "pieza": "resplandor",
+                "x": 1400,
+                "y": 560,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 300,
+                "capa": -1,
+                "en": "101:milagros"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 102,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                6.548000000000002,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "fachada",
+                "x": 960,
+                "y": 820,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.85,
+                "figura": "papa",
+                "brazos": 1
+              },
+              {
+                "pieza": "multitud",
+                "x": 960,
+                "y": 780,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "ancho": 2300,
+                "alto": 300,
+                "luces": 0.3,
+                "densidad": 0.7
+              },
+              {
+                "pieza": "dato",
+                "x": 960,
+                "y": 200,
+                "entra": "rebote",
+                "dura": 0.5,
+                "tamano": 80,
+                "texto": "7 · 9 · 2025",
+                "en": "102:siete"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 103,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.14,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.711999999999989,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 960,
+                "y": 520,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena",
+                "aureola": true,
+                "brillo": 0.8
+              },
+              {
+                "pieza": "control",
+                "x": 1400,
+                "y": 620,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.4,
+                "opacidad": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "desde": 104,
+          "dibujo": {
+            "fondo": "relato-ciudad",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.341000000000008,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "joven-capucha",
+                "x": 960,
+                "y": 600,
+                "escala": 1.4,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena",
+                "opacidad": 0.85
+              }
+            ]
+          }
+        },
+        {
+          "desde": 105,
+          "dibujo": {
+            "fondo": "relato-casa",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                5.108000000000061,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 680,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "abraza",
+                "cara": "feliz",
+                "en": "105:papá"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "madre",
+                "x": 1240,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "aparece",
+                "dura": 0.8,
+                "pose": "abraza",
+                "cara": "feliz",
+                "en": "105:mamá"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 960,
+                "y": 600,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              },
+              {
+                "pieza": "resplandor",
+                "x": 960,
+                "y": 300,
+                "entra": "aparece",
+                "dura": 0.8,
+                "radio": 700,
+                "capa": -1,
+                "opacidad": 0.4,
+                "en": "105:dios"
+              }
+            ]
+          }
+        },
+        {
+          "desde": 106,
+          "dibujo": {
+            "fondo": "relato-pasillo",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.63900000000001,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "serena",
+                "mueve": [
+                  [
+                    "106:toca",
+                    {
+                      "x": 860
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "desde": 107,
+          "dibujo": {
+            "fondo": "relato-cuarto",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                1.683999999999969,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "pantalla",
+                "x": 1460,
+                "y": 470,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "escala": 0.8,
+                "escena": "apagada"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "padre",
+                "x": 620,
+                "y": 560,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "pose": "abraza",
+                "cara": "feliz"
+              },
+              {
+                "pieza": "figura",
+                "vestuario": "joven",
+                "x": 960,
+                "y": 580,
+                "escala": 1.6,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "cara": "feliz"
+              }
+            ],
+            "fondoOpts": {
+              "brillo": 0.3
+            }
+          }
+        },
+        {
+          "desde": 108,
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1,
+                  "x": 960,
+                  "y": 540
+                }
+              ],
+              [
+                7.786000000000058,
+                {
+                  "zoom": 1.12,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "suscribir",
+                "x": 960,
+                "y": 520,
+                "entra": "rebote",
+                "dura": 0.8,
+                "canal": "@dulcepatriarca",
+                "lema": "Fe y familia, sin miedo a la verdad",
+                "escala": 1.25,
+                "params": {
+                  "pulsa": [
+                    [
+                      "108:suscríbete",
+                      0
+                    ],
+                    [
+                      "108:comparte",
+                      1
+                    ]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "desde": "fin",
+          "dibujo": {
+            "fondo": "relato-sagrado",
+            "camara": [
+              [
+                0,
+                {
+                  "zoom": 1.02,
+                  "x": 960,
+                  "y": 540
+                }
+              ]
+            ],
+            "elementos": [
+              {
+                "pieza": "suscribir",
+                "x": 960,
+                "y": 190,
+                "entra": "ninguna",
+                "dura": 0.8,
+                "canal": "@dulcepatriarca",
+                "lema": "Fe y familia, sin miedo a la verdad",
+                "escala": 0.9,
+                "pulsa": 1
+              },
+              {
+                "pieza": "globo",
+                "x": 960,
+                "y": 330,
+                "entra": "rebote",
+                "dura": 0.5,
+                "texto": "Que Dios bendiga a tu familia",
+                "tamano": 40,
+                "en": 0.6,
+                "halo": "#fff1c4"
+              }
+            ]
           }
         }
       ]
@@ -510,5 +5943,6 @@
     "estabilidad": 0.5,
     "estilo": 0.25,
     "velocidad": 1.1
-  }
+  },
+  "pantallaFinal": 15
 }
