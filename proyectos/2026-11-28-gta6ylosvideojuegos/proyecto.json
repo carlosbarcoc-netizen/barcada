@@ -1,0 +1,514 @@
+{
+  "titulo": "GTA 6 y los videojuegos violentos: el peligro que no ves",
+  "estilo": "2d",
+  "formato": "16:9",
+  "look": "relato",
+  "frases": [
+    {
+      "texto": "Son las once de la noche. La casa está en silencio.",
+      "clave": "silencio"
+    },
+    {
+      "texto": "Los papás creen que su hijo duerme.",
+      "clave": "duerme"
+    },
+    {
+      "texto": "Pero debajo de la puerta de su cuarto se escapa una luz azul.",
+      "clave": "debajo"
+    },
+    {
+      "texto": "Esa luz es una pantalla. Y en esa pantalla, su hijo acaba de robar un carro, huir de la policía… y ganar dinero por hacerlo.",
+      "clave": "pantalla"
+    },
+    {
+      "texto": "No es una película. Es un juego. Y el juego lo está premiando.",
+      "clave": "premiando"
+    },
+    {
+      "texto": "Hace solo unos días salió GTA 6, uno de los videojuegos más esperados de la historia.",
+      "clave": "videojuegos"
+    },
+    {
+      "texto": "Y muchos líderes católicos están levantando la voz.",
+      "clave": "levantando"
+    },
+    {
+      "texto": "No porque odien la tecnología. Sino porque ven algo que muchos padres no están viendo.",
+      "clave": "tecnología"
+    },
+    {
+      "texto": "Hoy te voy a contar qué es, qué dice la ciencia, qué dice la Iglesia… y qué puedes hacer en tu casa desde esta misma noche.",
+      "clave": "ciencia"
+    },
+    {
+      "texto": "Si quieres proteger la fe de tu familia, suscríbete a Dulce Patriarca. Es gratis, y nos ayuda muchísimo.",
+      "clave": "suscríbete"
+    },
+    {
+      "texto": "Empecemos por lo que está pasando.",
+      "clave": "Empecemos"
+    },
+    {
+      "texto": "GTA 6 salió a la venta el diecinueve de noviembre.",
+      "clave": "diecinueve"
+    },
+    {
+      "texto": "Y según la propia empresa, en su primer día vendió casi tres mil ochocientos millones de dólares.",
+      "clave": "ochocientos"
+    },
+    {
+      "texto": "Según la misma empresa, es el estreno que más dinero ha hecho en toda la historia del entretenimiento. Más que cualquier película.",
+      "clave": "entretenimiento"
+    },
+    {
+      "texto": "Millones de personas en todo el mundo esperaron más de diez años por este juego.",
+      "clave": "esperaron"
+    },
+    {
+      "texto": "Y no es un juego cualquiera. Es un juego pensado para adultos.",
+      "clave": "cualquiera"
+    },
+    {
+      "texto": "Las entregas de esta saga se clasifican así por su violencia, su lenguaje y su contenido sexual.",
+      "clave": "clasifican"
+    },
+    {
+      "texto": "Y sin embargo, todos sabemos que llega a manos de adolescentes. Y a veces de niños.",
+      "clave": "adolescentes"
+    },
+    {
+      "texto": "Un regalo de cumpleaños. Un primo que lo presta. Una consola en el cuarto, con la puerta cerrada.",
+      "clave": "cumpleaños"
+    },
+    {
+      "texto": "Ahí empieza el problema. No en la tienda. En casa.",
+      "clave": "problema"
+    },
+    {
+      "texto": "Para entender la advertencia, hay que entender cómo funciona este tipo de juegos.",
+      "clave": "advertencia"
+    },
+    {
+      "texto": "Tú controlas a un personaje en una ciudad enorme, casi real.",
+      "clave": "controlas"
+    },
+    {
+      "texto": "Y puedes hacer lo que quieras.",
+      "clave": "quieras"
+    },
+    {
+      "texto": "Pero el juego tiene una lógica muy clara: lo que más te hace avanzar es el delito.",
+      "clave": "avanzar"
+    },
+    {
+      "texto": "Robar te da dinero. Pelear te da respeto. Escapar de la policía te da adrenalina.",
+      "clave": "adrenalina"
+    },
+    {
+      "texto": "Y cada vez que lo haces, la pantalla te aplaude.",
+      "clave": "pantalla"
+    },
+    {
+      "texto": "Puntos. Billetes. Un nivel más.",
+      "clave": "Billetes"
+    },
+    {
+      "texto": "Fíjate en esto, porque es la clave de todo el video.",
+      "clave": "Fíjate"
+    },
+    {
+      "texto": "El juego no solo te deja hacer el mal. Te lo premia.",
+      "clave": "premia"
+    },
+    {
+      "texto": "Y lo que se premia, se repite.",
+      "clave": "premia"
+    },
+    {
+      "texto": "Así educamos a un perro, así aprende un niño, y así se forma un hábito.",
+      "clave": "educamos"
+    },
+    {
+      "texto": "La Iglesia tiene un nombre muy antiguo para los hábitos que nos alejan de Dios.",
+      "clave": "Iglesia"
+    },
+    {
+      "texto": "Los llama pecados capitales.",
+      "clave": "capitales"
+    },
+    {
+      "texto": "El Catecismo los enumera en el número mil ochocientos sesenta y seis.",
+      "clave": "ochocientos"
+    },
+    {
+      "texto": "Soberbia, avaricia, envidia, ira, lujuria, gula y pereza.",
+      "clave": "Soberbia"
+    },
+    {
+      "texto": "Se llaman capitales porque son la cabeza de otros pecados. De ellos nacen los demás.",
+      "clave": "capitales"
+    },
+    {
+      "texto": "Ahora piensa en un mundo virtual como el de GTA.",
+      "clave": "virtual"
+    },
+    {
+      "texto": "La avaricia: todo gira en torno al dinero fácil, y cuanto más robas, más tienes.",
+      "clave": "avaricia"
+    },
+    {
+      "texto": "La ira: la violencia resuelve cualquier problema, en segundos y sin consecuencias.",
+      "clave": "consecuencias"
+    },
+    {
+      "texto": "La lujuria: el cuerpo de la mujer convertido en decorado, en objeto.",
+      "clave": "convertido"
+    },
+    {
+      "texto": "La soberbia: tú eres el jefe, nadie te puede tocar, las reglas son para los demás.",
+      "clave": "soberbia"
+    },
+    {
+      "texto": "La envidia: siempre hay un carro mejor, una casa más grande, alguien a quien quitarle lo suyo.",
+      "clave": "quitarle"
+    },
+    {
+      "texto": "La gula y la pereza: horas y horas sentado, comiendo frente a la pantalla, mientras la vida real espera.",
+      "clave": "comiendo"
+    },
+    {
+      "texto": "Nadie dice que un joven se vuelva malo por jugar una tarde.",
+      "clave": "vuelva"
+    },
+    {
+      "texto": "Pero el corazón se acostumbra a lo que ve todos los días.",
+      "clave": "acostumbra"
+    },
+    {
+      "texto": "Lo que al principio impresiona, después da risa. Y después ya ni se nota.",
+      "clave": "impresiona"
+    },
+    {
+      "texto": "Eso es lo más peligroso: no el escándalo, sino la costumbre.",
+      "clave": "peligroso"
+    },
+    {
+      "texto": "Ahora, seamos honestos. Porque la verdad no necesita exagerar.",
+      "clave": "honestos"
+    },
+    {
+      "texto": "La Asociación Americana de Psicología revisó los estudios en el año dos mil veinte.",
+      "clave": "Asociación"
+    },
+    {
+      "texto": "Y encontró una relación pequeña, pero constante, entre los videojuegos violentos y más agresividad.",
+      "clave": "videojuegos"
+    },
+    {
+      "texto": "Más pensamientos agresivos, más enojo, y menos empatía con los demás.",
+      "clave": "pensamientos"
+    },
+    {
+      "texto": "Pero también dijo algo importante: no hay pruebas de que estos juegos conviertan a alguien en un criminal.",
+      "clave": "importante"
+    },
+    {
+      "texto": "Es decir, no fabrican asesinos. Pero sí pueden endurecer el corazón poco a poco.",
+      "clave": "endurecer"
+    },
+    {
+      "texto": "Y luego está el tiempo.",
+      "clave": "tiempo"
+    },
+    {
+      "texto": "Desde el año dos mil veintidós, la Organización Mundial de la Salud reconoce el trastorno por videojuegos como una enfermedad.",
+      "clave": "Organización"
+    },
+    {
+      "texto": "Es cuando una persona ya no puede controlar cuánto juega, y deja de lado la escuela, el trabajo, la familia, el sueño.",
+      "clave": "controlar"
+    },
+    {
+      "texto": "Le pasa a una minoría. Pero es una minoría real. Y casi siempre empieza igual: un ratito más, solo un ratito más.",
+      "clave": "minoría"
+    },
+    {
+      "texto": "Y aunque no llegue a ser una enfermedad, hay algo que sí es masivo.",
+      "clave": "enfermedad"
+    },
+    {
+      "texto": "Las horas. Las noches. Los domingos. Las conversaciones que ya no se tienen.",
+      "clave": "conversaciones"
+    },
+    {
+      "texto": "Si este video te está sirviendo, dale me gusta y compártelo con otro papá o mamá. Puede ser justo lo que necesita escuchar hoy.",
+      "clave": "compártelo"
+    },
+    {
+      "texto": "La Iglesia no habló de esto ayer.",
+      "clave": "Iglesia"
+    },
+    {
+      "texto": "En el año dos mil siete, el papa Benedicto dieciséis dedicó un mensaje entero a los niños y los medios de comunicación.",
+      "clave": "comunicación"
+    },
+    {
+      "texto": "Y fue muy claro.",
+      "clave": "claro"
+    },
+    {
+      "texto": "Criticó los programas, las películas y los videojuegos que exaltan la violencia o banalizan la sexualidad, sobre todo cuando van dirigidos a los jóvenes.",
+      "clave": "videojuegos"
+    },
+    {
+      "texto": "Y dijo que educar a los hijos en el uso de los medios es responsabilidad de los padres, de la Iglesia y de la escuela.",
+      "clave": "responsabilidad"
+    },
+    {
+      "texto": "En ese orden. Los padres, primero.",
+      "clave": "primero"
+    },
+    {
+      "texto": "Años después, en Cracovia, el papa Francisco les habló a millones de jóvenes.",
+      "clave": "Francisco"
+    },
+    {
+      "texto": "Les pidió no quedarse en el sofá. No vivir la vida a través de una pantalla.",
+      "clave": "quedarse"
+    },
+    {
+      "texto": "Y en Australia, el obispo Julian Porteous advirtió que los videojuegos violentos deshumanizan: aumentan la agresividad, crean dependencia y nos vuelven insensibles ante el dolor real.",
+      "clave": "deshumanizan"
+    },
+    {
+      "texto": "Ninguno de ellos odiaba la tecnología. Todos estaban preocupados por el alma.",
+      "clave": "preocupados"
+    },
+    {
+      "texto": "Y aquí llegamos a la parte que casi nadie se atreve a decir.",
+      "clave": "llegamos"
+    },
+    {
+      "texto": "Para un católico, la vida es una batalla espiritual.",
+      "clave": "espiritual"
+    },
+    {
+      "texto": "San Pablo lo dice así: nuestra lucha no es contra la carne y la sangre, sino contra los poderes de las tinieblas.",
+      "clave": "tinieblas"
+    },
+    {
+      "texto": "El enemigo no necesita que hagas algo terrible.",
+      "clave": "necesita"
+    },
+    {
+      "texto": "Le basta con que te acostumbres al mal. Con que te parezca normal. Divertido, incluso.",
+      "clave": "acostumbres"
+    },
+    {
+      "texto": "Le basta con que pases horas lejos de tu familia, lejos de la oración, lejos de Dios.",
+      "clave": "familia"
+    },
+    {
+      "texto": "Por eso muchos sacerdotes y líderes religiosos hablan de una influencia espiritual en todo esto.",
+      "clave": "sacerdotes"
+    },
+    {
+      "texto": "No porque un juego tenga poderes. Sino porque todo lo que nos aleja de Dios, le abre la puerta a la tentación.",
+      "clave": "tentación"
+    },
+    {
+      "texto": "Y una puerta cerrada, con una pantalla encendida y nadie mirando, es una puerta muy abierta.",
+      "clave": "encendida"
+    },
+    {
+      "texto": "Hoy muchas familias viven bajo el mismo techo… pero cada uno en su mundo.",
+      "clave": "familias"
+    },
+    {
+      "texto": "El papá con el celular. La mamá con la televisión. El hijo con la consola.",
+      "clave": "televisión"
+    },
+    {
+      "texto": "Nadie está haciendo nada malo, aparentemente.",
+      "clave": "aparentemente"
+    },
+    {
+      "texto": "Pero nadie está con nadie.",
+      "clave": "nadie"
+    },
+    {
+      "texto": "Muchos padres no saben a qué juegan sus hijos. Ni con quién hablan en línea. Ni cuántas horas pasan ahí.",
+      "clave": "cuántas"
+    },
+    {
+      "texto": "No es falta de amor. Es cansancio. Es trabajo. Es que la pantalla los mantiene tranquilos.",
+      "clave": "tranquilos"
+    },
+    {
+      "texto": "Pero un hijo tranquilo no siempre es un hijo que está bien.",
+      "clave": "tranquilo"
+    },
+    {
+      "texto": "Y el tiempo que no le damos nosotros, se lo da otro. Se lo da el mundo.",
+      "clave": "nosotros"
+    },
+    {
+      "texto": "Entonces, ¿qué hacemos? No basta con prohibir y ya. Hay que proponer algo mejor.",
+      "clave": "Entonces"
+    },
+    {
+      "texto": "Primero: horarios claros. Un tiempo para jugar, y un tiempo que no se negocia.",
+      "clave": "horarios"
+    },
+    {
+      "texto": "Las pantallas fuera de los cuartos por la noche. La consola en un lugar común de la casa.",
+      "clave": "pantallas"
+    },
+    {
+      "texto": "Segundo: conoce lo que juegan. Siéntate con ellos, aunque sea un rato. Pregunta. Mira las clasificaciones.",
+      "clave": "clasificaciones"
+    },
+    {
+      "texto": "Un juego para adultos no es un juego para un niño, por mucho que todos sus amigos lo tengan.",
+      "clave": "adultos"
+    },
+    {
+      "texto": "Tercero: aire libre. La Organización Mundial de la Salud recomienda que niños y adolescentes se muevan al menos una hora al día.",
+      "clave": "Organización"
+    },
+    {
+      "texto": "Una bicicleta, un balón, una caminata en familia, el campo, el mar.",
+      "clave": "bicicleta"
+    },
+    {
+      "texto": "Cuarto: la fe en casa. Una oración antes de dormir. La misa del domingo juntos. Una mesa sin celulares.",
+      "clave": "celulares"
+    },
+    {
+      "texto": "Y quinto: el ejemplo. Los hijos no hacen lo que decimos. Hacen lo que nos ven hacer.",
+      "clave": "ejemplo"
+    },
+    {
+      "texto": "Y si alguien te dice que esto es imposible, cuéntale de Carlo Acutis.",
+      "clave": "imposible"
+    },
+    {
+      "texto": "Un joven italiano que amaba la computación, los animales y, sí, los videojuegos.",
+      "clave": "computación"
+    },
+    {
+      "texto": "Pero decidió algo: jugar solo una hora a la semana.",
+      "clave": "decidió"
+    },
+    {
+      "texto": "Una hora. Más o menos lo que dura una misa de domingo.",
+      "clave": "domingo"
+    },
+    {
+      "texto": "Con el resto de su tiempo, ayudaba a los pobres, iba a misa todos los días y creó una página web sobre los milagros eucarísticos.",
+      "clave": "eucarísticos"
+    },
+    {
+      "texto": "El siete de septiembre de dos mil veinticinco, el papa León catorce lo proclamó santo.",
+      "clave": "veinticinco"
+    },
+    {
+      "texto": "El primer santo de la era digital no huyó de la tecnología. La puso en su lugar.",
+      "clave": "tecnología"
+    },
+    {
+      "texto": "Tu hijo no necesita un mundo virtual para sentirse valiente, importante o libre.",
+      "clave": "importante"
+    },
+    {
+      "texto": "Necesita un papá y una mamá presentes. Y un Dios que lo ama de verdad.",
+      "clave": "presentes"
+    },
+    {
+      "texto": "Esta noche, cuando veas esa luz azul debajo de la puerta, no te enojes. Toca, entra y siéntate con él.",
+      "clave": "siéntate"
+    },
+    {
+      "texto": "Ahí empieza todo.",
+      "clave": "empieza"
+    },
+    {
+      "texto": "Suscríbete a Dulce Patriarca y comparte este video con una familia que lo necesite. Que Dios los bendiga.",
+      "clave": "Suscríbete"
+    }
+  ],
+  "escenas": [
+    {
+      "nombre": "gancho",
+      "tomas": [
+        {
+          "desde": 0,
+          "dibujo": {
+            "fondo": "relato-noche",
+            "elementos": []
+          }
+        }
+      ]
+    }
+  ],
+  "canal": "@dulcepatriarca",
+  "subtitulos": false,
+  "marcaAgua": {
+    "texto": "@dulcepatriarca",
+    "opacidad": 0.14
+  },
+  "efectos": false,
+  "capitulos": [
+    {
+      "nombre": "El gancho",
+      "desde": 1
+    },
+    {
+      "nombre": "1. Un fenómeno sin precedentes",
+      "desde": 12
+    },
+    {
+      "nombre": "2. Un mundo que premia el mal",
+      "desde": 21
+    },
+    {
+      "nombre": "3. Los siete pecados en un control",
+      "desde": 34
+    },
+    {
+      "nombre": "4. Qué dice la ciencia",
+      "desde": 48
+    },
+    {
+      "nombre": "5. Qué dice la Iglesia",
+      "desde": 61
+    },
+    {
+      "nombre": "6. La batalla que no se ve",
+      "desde": 71
+    },
+    {
+      "nombre": "7. El aislamiento en casa",
+      "desde": 80
+    },
+    {
+      "nombre": "8. Qué hacer desde esta noche",
+      "desde": 88
+    },
+    {
+      "nombre": "9. El santo que jugaba videojuegos",
+      "desde": 97
+    },
+    {
+      "nombre": "El cierre",
+      "desde": 104
+    }
+  ],
+  "voz": {
+    "id": "uwa7x2cEPjh6UUDdIkTj",
+    "nombre": "Philemon - Natural Storyteller",
+    "estabilidad": 0.5,
+    "estilo": 0.25,
+    "velocidad": 1.1
+  }
+}
