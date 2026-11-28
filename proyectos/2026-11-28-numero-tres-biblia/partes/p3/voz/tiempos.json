@@ -1,0 +1,2430 @@
+{
+  "huella": "91ba82848566",
+  "duracion": 169.828,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "Isla número tres: la isla de las tres veces.",
+      "clave": "",
+      "inicio": 0,
+      "fin": 3.286,
+      "palabras": [
+        {
+          "texto": "Isla",
+          "inicio": 0,
+          "fin": 0.372
+        },
+        {
+          "texto": "número",
+          "inicio": 0.418,
+          "fin": 0.685
+        },
+        {
+          "texto": "tres:",
+          "inicio": 0.743,
+          "fin": 1.3
+        },
+        {
+          "texto": "la",
+          "inicio": 1.904,
+          "fin": 1.985
+        },
+        {
+          "texto": "isla",
+          "inicio": 2.032,
+          "fin": 2.218
+        },
+        {
+          "texto": "de",
+          "inicio": 2.264,
+          "fin": 2.31
+        },
+        {
+          "texto": "las",
+          "inicio": 2.357,
+          "fin": 2.461
+        },
+        {
+          "texto": "tres",
+          "inicio": 2.508,
+          "fin": 2.705
+        },
+        {
+          "texto": "veces.",
+          "inicio": 2.752,
+          "fin": 3.286
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "Y aquí la Biblia se vuelve muy personal.",
+      "clave": "",
+      "inicio": 3.669,
+      "fin": 5.724,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 3.669,
+          "fin": 3.727
+        },
+        {
+          "texto": "aquí",
+          "inicio": 3.785,
+          "fin": 3.936
+        },
+        {
+          "texto": "la",
+          "inicio": 3.982,
+          "fin": 4.04
+        },
+        {
+          "texto": "Biblia",
+          "inicio": 4.087,
+          "fin": 4.342
+        },
+        {
+          "texto": "se",
+          "inicio": 4.377,
+          "fin": 4.458
+        },
+        {
+          "texto": "vuelve",
+          "inicio": 4.505,
+          "fin": 4.737
+        },
+        {
+          "texto": "muy",
+          "inicio": 4.783,
+          "fin": 4.957
+        },
+        {
+          "texto": "personal.",
+          "inicio": 5.016,
+          "fin": 5.724
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Antes de empezar su ministerio, Jesús es tentado en el desierto. ¿Cuántas veces? Tres.",
+      "clave": "",
+      "inicio": 6.42,
+      "fin": 12.353,
+      "palabras": [
+        {
+          "texto": "Antes",
+          "inicio": 6.42,
+          "fin": 6.78
+        },
+        {
+          "texto": "de",
+          "inicio": 6.803,
+          "fin": 6.85
+        },
+        {
+          "texto": "empezar",
+          "inicio": 6.873,
+          "fin": 7.291
+        },
+        {
+          "texto": "su",
+          "inicio": 7.338,
+          "fin": 7.43
+        },
+        {
+          "texto": "ministerio,",
+          "inicio": 7.488,
+          "fin": 8.15
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 8.266,
+          "fin": 8.557
+        },
+        {
+          "texto": "es",
+          "inicio": 8.615,
+          "fin": 8.684
+        },
+        {
+          "texto": "tentado",
+          "inicio": 8.742,
+          "fin": 9.253
+        },
+        {
+          "texto": "en",
+          "inicio": 9.276,
+          "fin": 9.323
+        },
+        {
+          "texto": "el",
+          "inicio": 9.381,
+          "fin": 9.439
+        },
+        {
+          "texto": "desierto.",
+          "inicio": 9.485,
+          "fin": 10.17
+        },
+        {
+          "texto": "¿Cuántas",
+          "inicio": 10.344,
+          "fin": 10.797
+        },
+        {
+          "texto": "veces?",
+          "inicio": 10.844,
+          "fin": 11.389
+        },
+        {
+          "texto": "Tres.",
+          "inicio": 11.773,
+          "fin": 12.353
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Y las tres veces responde igual: «escrito está».",
+      "clave": "",
+      "inicio": 12.957,
+      "fin": 16.045,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 12.957,
+          "fin": 13.038
+        },
+        {
+          "texto": "las",
+          "inicio": 13.131,
+          "fin": 13.235
+        },
+        {
+          "texto": "tres",
+          "inicio": 13.27,
+          "fin": 13.433
+        },
+        {
+          "texto": "veces",
+          "inicio": 13.479,
+          "fin": 13.723
+        },
+        {
+          "texto": "responde",
+          "inicio": 13.804,
+          "fin": 14.199
+        },
+        {
+          "texto": "igual:",
+          "inicio": 14.222,
+          "fin": 14.698
+        },
+        {
+          "texto": "«escrito",
+          "inicio": 14.907,
+          "fin": 15.499
+        },
+        {
+          "texto": "está».",
+          "inicio": 15.546,
+          "fin": 16.045
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "En el huerto de Getsemaní, la noche antes de la cruz, Jesús ora. Se aparta, vuelve, y vuelve a orar. Tres veces.",
+      "clave": "",
+      "inicio": 16.742,
+      "fin": 25.182,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 16.742,
+          "fin": 16.881
+        },
+        {
+          "texto": "el",
+          "inicio": 16.927,
+          "fin": 16.986
+        },
+        {
+          "texto": "huerto",
+          "inicio": 17.032,
+          "fin": 17.264
+        },
+        {
+          "texto": "de",
+          "inicio": 17.311,
+          "fin": 17.381
+        },
+        {
+          "texto": "Getsemaní,",
+          "inicio": 17.427,
+          "fin": 18.182
+        },
+        {
+          "texto": "la",
+          "inicio": 18.298,
+          "fin": 18.379
+        },
+        {
+          "texto": "noche",
+          "inicio": 18.425,
+          "fin": 18.658
+        },
+        {
+          "texto": "antes",
+          "inicio": 18.692,
+          "fin": 18.925
+        },
+        {
+          "texto": "de",
+          "inicio": 18.948,
+          "fin": 18.994
+        },
+        {
+          "texto": "la",
+          "inicio": 19.041,
+          "fin": 19.11
+        },
+        {
+          "texto": "cruz,",
+          "inicio": 19.157,
+          "fin": 19.83
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 20.213,
+          "fin": 20.55
+        },
+        {
+          "texto": "ora.",
+          "inicio": 20.608,
+          "fin": 20.968
+        },
+        {
+          "texto": "Se",
+          "inicio": 21.572,
+          "fin": 21.699
+        },
+        {
+          "texto": "aparta,",
+          "inicio": 21.734,
+          "fin": 22.164
+        },
+        {
+          "texto": "vuelve,",
+          "inicio": 22.187,
+          "fin": 22.686
+        },
+        {
+          "texto": "y",
+          "inicio": 22.837,
+          "fin": 22.919
+        },
+        {
+          "texto": "vuelve",
+          "inicio": 22.977,
+          "fin": 23.267
+        },
+        {
+          "texto": "a",
+          "inicio": 23.29,
+          "fin": 23.313
+        },
+        {
+          "texto": "orar.",
+          "inicio": 23.348,
+          "fin": 23.847
+        },
+        {
+          "texto": "Tres",
+          "inicio": 24.358,
+          "fin": 24.602
+        },
+        {
+          "texto": "veces.",
+          "inicio": 24.648,
+          "fin": 25.182
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "Y las tres veces dice lo mismo: no se haga mi voluntad, sino la tuya.",
+      "clave": "",
+      "inicio": 25.461,
+      "fin": 29.223,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 25.461,
+          "fin": 25.542
+        },
+        {
+          "texto": "las",
+          "inicio": 25.635,
+          "fin": 25.74
+        },
+        {
+          "texto": "tres",
+          "inicio": 25.775,
+          "fin": 25.937
+        },
+        {
+          "texto": "veces",
+          "inicio": 25.972,
+          "fin": 26.193
+        },
+        {
+          "texto": "dice",
+          "inicio": 26.216,
+          "fin": 26.402
+        },
+        {
+          "texto": "lo",
+          "inicio": 26.448,
+          "fin": 26.529
+        },
+        {
+          "texto": "mismo:",
+          "inicio": 26.587,
+          "fin": 26.947
+        },
+        {
+          "texto": "no",
+          "inicio": 27.04,
+          "fin": 27.156
+        },
+        {
+          "texto": "se",
+          "inicio": 27.203,
+          "fin": 27.272
+        },
+        {
+          "texto": "haga",
+          "inicio": 27.307,
+          "fin": 27.481
+        },
+        {
+          "texto": "mi",
+          "inicio": 27.528,
+          "fin": 27.621
+        },
+        {
+          "texto": "voluntad,",
+          "inicio": 27.679,
+          "fin": 28.282
+        },
+        {
+          "texto": "sino",
+          "inicio": 28.34,
+          "fin": 28.584
+        },
+        {
+          "texto": "la",
+          "inicio": 28.631,
+          "fin": 28.7
+        },
+        {
+          "texto": "tuya.",
+          "inicio": 28.758,
+          "fin": 29.223
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "Esa misma noche, Pedro le jura que nunca lo va a negar.",
+      "clave": "",
+      "inicio": 29.919,
+      "fin": 32.752,
+      "palabras": [
+        {
+          "texto": "Esa",
+          "inicio": 29.919,
+          "fin": 30.14
+        },
+        {
+          "texto": "misma",
+          "inicio": 30.186,
+          "fin": 30.419
+        },
+        {
+          "texto": "noche,",
+          "inicio": 30.465,
+          "fin": 30.744
+        },
+        {
+          "texto": "Pedro",
+          "inicio": 30.778,
+          "fin": 31.034
+        },
+        {
+          "texto": "le",
+          "inicio": 31.08,
+          "fin": 31.15
+        },
+        {
+          "texto": "jura",
+          "inicio": 31.185,
+          "fin": 31.417
+        },
+        {
+          "texto": "que",
+          "inicio": 31.475,
+          "fin": 31.556
+        },
+        {
+          "texto": "nunca",
+          "inicio": 31.626,
+          "fin": 31.905
+        },
+        {
+          "texto": "lo",
+          "inicio": 31.939,
+          "fin": 32.009
+        },
+        {
+          "texto": "va",
+          "inicio": 32.044,
+          "fin": 32.125
+        },
+        {
+          "texto": "a",
+          "inicio": 32.16,
+          "fin": 32.183
+        },
+        {
+          "texto": "negar.",
+          "inicio": 32.241,
+          "fin": 32.752
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "Y Jesús le responde: antes que el gallo cante, me negarás tres veces.",
+      "clave": "",
+      "inicio": 33.448,
+      "fin": 38.708,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 33.448,
+          "fin": 33.565
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 33.657,
+          "fin": 33.913
+        },
+        {
+          "texto": "le",
+          "inicio": 33.959,
+          "fin": 34.006
+        },
+        {
+          "texto": "responde:",
+          "inicio": 34.075,
+          "fin": 34.83
+        },
+        {
+          "texto": "antes",
+          "inicio": 35.945,
+          "fin": 36.293
+        },
+        {
+          "texto": "que",
+          "inicio": 36.351,
+          "fin": 36.421
+        },
+        {
+          "texto": "el",
+          "inicio": 36.444,
+          "fin": 36.502
+        },
+        {
+          "texto": "gallo",
+          "inicio": 36.572,
+          "fin": 36.827
+        },
+        {
+          "texto": "cante,",
+          "inicio": 36.885,
+          "fin": 37.396
+        },
+        {
+          "texto": "me",
+          "inicio": 37.512,
+          "fin": 37.605
+        },
+        {
+          "texto": "negarás",
+          "inicio": 37.651,
+          "fin": 38.023
+        },
+        {
+          "texto": "tres",
+          "inicio": 38.081,
+          "fin": 38.325
+        },
+        {
+          "texto": "veces.",
+          "inicio": 38.383,
+          "fin": 38.708
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "Y así pasa. Una. Dos. Tres. Y el gallo canta.",
+      "clave": "",
+      "inicio": 38.731,
+      "fin": 43.572,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 38.731,
+          "fin": 38.754
+        },
+        {
+          "texto": "así",
+          "inicio": 38.789,
+          "fin": 38.952
+        },
+        {
+          "texto": "pasa.",
+          "inicio": 39.021,
+          "fin": 39.532
+        },
+        {
+          "texto": "Una.",
+          "inicio": 39.973,
+          "fin": 40.473
+        },
+        {
+          "texto": "Dos.",
+          "inicio": 40.751,
+          "fin": 41.332
+        },
+        {
+          "texto": "Tres.",
+          "inicio": 41.61,
+          "fin": 42.26
+        },
+        {
+          "texto": "Y",
+          "inicio": 42.539,
+          "fin": 42.609
+        },
+        {
+          "texto": "el",
+          "inicio": 42.667,
+          "fin": 42.713
+        },
+        {
+          "texto": "gallo",
+          "inicio": 42.76,
+          "fin": 42.98
+        },
+        {
+          "texto": "canta.",
+          "inicio": 43.038,
+          "fin": 43.572
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Pedro sale de allí y llora amargamente.",
+      "clave": "",
+      "inicio": 43.851,
+      "fin": 46.069,
+      "palabras": [
+        {
+          "texto": "Pedro",
+          "inicio": 43.851,
+          "fin": 44.164
+        },
+        {
+          "texto": "sale",
+          "inicio": 44.223,
+          "fin": 44.478
+        },
+        {
+          "texto": "de",
+          "inicio": 44.536,
+          "fin": 44.594
+        },
+        {
+          "texto": "allí",
+          "inicio": 44.641,
+          "fin": 44.931
+        },
+        {
+          "texto": "y",
+          "inicio": 45.012,
+          "fin": 45.07
+        },
+        {
+          "texto": "llora",
+          "inicio": 45.105,
+          "fin": 45.36
+        },
+        {
+          "texto": "amargamente.",
+          "inicio": 45.384,
+          "fin": 46.069
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Pero aquí viene lo bueno. Esta historia no termina ahí.",
+      "clave": "",
+      "inicio": 46.115,
+      "fin": 49.552,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 46.115,
+          "fin": 46.324
+        },
+        {
+          "texto": "aquí",
+          "inicio": 46.359,
+          "fin": 46.533
+        },
+        {
+          "texto": "viene",
+          "inicio": 46.579,
+          "fin": 46.812
+        },
+        {
+          "texto": "lo",
+          "inicio": 46.858,
+          "fin": 46.951
+        },
+        {
+          "texto": "bueno.",
+          "inicio": 46.997,
+          "fin": 47.566
+        },
+        {
+          "texto": "Esta",
+          "inicio": 47.845,
+          "fin": 48.1
+        },
+        {
+          "texto": "historia",
+          "inicio": 48.123,
+          "fin": 48.46
+        },
+        {
+          "texto": "no",
+          "inicio": 48.518,
+          "fin": 48.588
+        },
+        {
+          "texto": "termina",
+          "inicio": 48.646,
+          "fin": 49.029
+        },
+        {
+          "texto": "ahí.",
+          "inicio": 49.064,
+          "fin": 49.552
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Después de resucitar, Jesús busca a Pedro a la orilla del mar de Galilea.",
+      "clave": "",
+      "inicio": 50.155,
+      "fin": 53.975,
+      "palabras": [
+        {
+          "texto": "Después",
+          "inicio": 50.155,
+          "fin": 50.527
+        },
+        {
+          "texto": "de",
+          "inicio": 50.55,
+          "fin": 50.597
+        },
+        {
+          "texto": "resucitar,",
+          "inicio": 50.643,
+          "fin": 51.375
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 51.467,
+          "fin": 51.758
+        },
+        {
+          "texto": "busca",
+          "inicio": 51.804,
+          "fin": 52.071
+        },
+        {
+          "texto": "a",
+          "inicio": 52.118,
+          "fin": 52.141
+        },
+        {
+          "texto": "Pedro",
+          "inicio": 52.21,
+          "fin": 52.489
+        },
+        {
+          "texto": "a",
+          "inicio": 52.524,
+          "fin": 52.547
+        },
+        {
+          "texto": "la",
+          "inicio": 52.594,
+          "fin": 52.64
+        },
+        {
+          "texto": "orilla",
+          "inicio": 52.663,
+          "fin": 52.884
+        },
+        {
+          "texto": "del",
+          "inicio": 52.919,
+          "fin": 53.023
+        },
+        {
+          "texto": "mar",
+          "inicio": 53.093,
+          "fin": 53.221
+        },
+        {
+          "texto": "de",
+          "inicio": 53.267,
+          "fin": 53.325
+        },
+        {
+          "texto": "Galilea.",
+          "inicio": 53.36,
+          "fin": 53.975
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "Y le pregunta: Pedro, ¿me amas?",
+      "clave": "",
+      "inicio": 54.254,
+      "fin": 56.576,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 54.254,
+          "fin": 54.335
+        },
+        {
+          "texto": "le",
+          "inicio": 54.416,
+          "fin": 54.474
+        },
+        {
+          "texto": "pregunta:",
+          "inicio": 54.509,
+          "fin": 55.113
+        },
+        {
+          "texto": "Pedro,",
+          "inicio": 55.717,
+          "fin": 56.111
+        },
+        {
+          "texto": "¿me",
+          "inicio": 56.135,
+          "fin": 56.239
+        },
+        {
+          "texto": "amas?",
+          "inicio": 56.297,
+          "fin": 56.576
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "texto": "Una vez. Dos veces. Y una tercera vez.",
+      "clave": "",
+      "inicio": 56.599,
+      "fin": 59.084,
+      "palabras": [
+        {
+          "texto": "Una",
+          "inicio": 56.599,
+          "fin": 56.762
+        },
+        {
+          "texto": "vez.",
+          "inicio": 56.808,
+          "fin": 57.284
+        },
+        {
+          "texto": "Dos",
+          "inicio": 57.458,
+          "fin": 57.644
+        },
+        {
+          "texto": "veces.",
+          "inicio": 57.702,
+          "fin": 58.015
+        },
+        {
+          "texto": "Y",
+          "inicio": 58.039,
+          "fin": 58.062
+        },
+        {
+          "texto": "una",
+          "inicio": 58.108,
+          "fin": 58.236
+        },
+        {
+          "texto": "tercera",
+          "inicio": 58.282,
+          "fin": 58.619
+        },
+        {
+          "texto": "vez.",
+          "inicio": 58.666,
+          "fin": 59.084
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "texto": "Tres negaciones… y tres oportunidades de decir «Señor, tú sabes que te amo».",
+      "clave": "",
+      "inicio": 59.525,
+      "fin": 64.575,
+      "palabras": [
+        {
+          "texto": "Tres",
+          "inicio": 59.525,
+          "fin": 59.757
+        },
+        {
+          "texto": "negaciones…",
+          "inicio": 59.803,
+          "fin": 60.616
+        },
+        {
+          "texto": "y",
+          "inicio": 60.941,
+          "fin": 61.022
+        },
+        {
+          "texto": "tres",
+          "inicio": 61.092,
+          "fin": 61.255
+        },
+        {
+          "texto": "oportunidades",
+          "inicio": 61.313,
+          "fin": 61.998
+        },
+        {
+          "texto": "de",
+          "inicio": 62.021,
+          "fin": 62.079
+        },
+        {
+          "texto": "decir",
+          "inicio": 62.125,
+          "fin": 62.497
+        },
+        {
+          "texto": "«Señor,",
+          "inicio": 62.648,
+          "fin": 63.379
+        },
+        {
+          "texto": "tú",
+          "inicio": 63.414,
+          "fin": 63.53
+        },
+        {
+          "texto": "sabes",
+          "inicio": 63.588,
+          "fin": 63.809
+        },
+        {
+          "texto": "que",
+          "inicio": 63.855,
+          "fin": 63.925
+        },
+        {
+          "texto": "te",
+          "inicio": 63.983,
+          "fin": 64.087
+        },
+        {
+          "texto": "amo».",
+          "inicio": 64.145,
+          "fin": 64.575
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "texto": "Jesús no lo humilla. Lo restaura. Con el mismo número con el que cayó.",
+      "clave": "",
+      "inicio": 65.69,
+      "fin": 70.044,
+      "palabras": [
+        {
+          "texto": "Jesús",
+          "inicio": 65.69,
+          "fin": 66.015
+        },
+        {
+          "texto": "no",
+          "inicio": 66.061,
+          "fin": 66.119
+        },
+        {
+          "texto": "lo",
+          "inicio": 66.166,
+          "fin": 66.224
+        },
+        {
+          "texto": "humilla.",
+          "inicio": 66.247,
+          "fin": 66.804
+        },
+        {
+          "texto": "Lo",
+          "inicio": 67.13,
+          "fin": 67.246
+        },
+        {
+          "texto": "restaura.",
+          "inicio": 67.304,
+          "fin": 67.965
+        },
+        {
+          "texto": "Con",
+          "inicio": 68.291,
+          "fin": 68.453
+        },
+        {
+          "texto": "el",
+          "inicio": 68.5,
+          "fin": 68.546
+        },
+        {
+          "texto": "mismo",
+          "inicio": 68.581,
+          "fin": 68.79
+        },
+        {
+          "texto": "número",
+          "inicio": 68.836,
+          "fin": 69.115
+        },
+        {
+          "texto": "con",
+          "inicio": 69.161,
+          "fin": 69.266
+        },
+        {
+          "texto": "el",
+          "inicio": 69.312,
+          "fin": 69.37
+        },
+        {
+          "texto": "que",
+          "inicio": 69.405,
+          "fin": 69.475
+        },
+        {
+          "texto": "cayó.",
+          "inicio": 69.533,
+          "fin": 70.044
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "texto": "¿Te das cuenta? Dios no solo cuenta tus caídas. También cuenta tus regresos.",
+      "clave": "",
+      "inicio": 70.287,
+      "fin": 75.593,
+      "palabras": [
+        {
+          "texto": "¿Te",
+          "inicio": 70.287,
+          "fin": 70.52
+        },
+        {
+          "texto": "das",
+          "inicio": 70.555,
+          "fin": 70.671
+        },
+        {
+          "texto": "cuenta?",
+          "inicio": 70.729,
+          "fin": 71.298
+        },
+        {
+          "texto": "Dios",
+          "inicio": 71.739,
+          "fin": 71.983
+        },
+        {
+          "texto": "no",
+          "inicio": 72.041,
+          "fin": 72.11
+        },
+        {
+          "texto": "solo",
+          "inicio": 72.157,
+          "fin": 72.366
+        },
+        {
+          "texto": "cuenta",
+          "inicio": 72.412,
+          "fin": 72.714
+        },
+        {
+          "texto": "tus",
+          "inicio": 72.76,
+          "fin": 72.911
+        },
+        {
+          "texto": "caídas.",
+          "inicio": 72.958,
+          "fin": 73.654
+        },
+        {
+          "texto": "También",
+          "inicio": 73.933,
+          "fin": 74.235
+        },
+        {
+          "texto": "cuenta",
+          "inicio": 74.293,
+          "fin": 74.56
+        },
+        {
+          "texto": "tus",
+          "inicio": 74.606,
+          "fin": 74.746
+        },
+        {
+          "texto": "regresos.",
+          "inicio": 74.827,
+          "fin": 75.593
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "texto": "Y hay más. El niño Samuel escucha que lo llaman de noche. Corre donde el sacerdote Elí. Una, dos, tres veces.",
+      "clave": "",
+      "inicio": 75.976,
+      "fin": 83.836,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 75.976,
+          "fin": 76.069
+        },
+        {
+          "texto": "hay",
+          "inicio": 76.127,
+          "fin": 76.232
+        },
+        {
+          "texto": "más.",
+          "inicio": 76.29,
+          "fin": 76.789
+        },
+        {
+          "texto": "El",
+          "inicio": 77.23,
+          "fin": 77.37
+        },
+        {
+          "texto": "niño",
+          "inicio": 77.416,
+          "fin": 77.637
+        },
+        {
+          "texto": "Samuel",
+          "inicio": 77.671,
+          "fin": 77.95
+        },
+        {
+          "texto": "escucha",
+          "inicio": 78.008,
+          "fin": 78.345
+        },
+        {
+          "texto": "que",
+          "inicio": 78.391,
+          "fin": 78.461
+        },
+        {
+          "texto": "lo",
+          "inicio": 78.507,
+          "fin": 78.577
+        },
+        {
+          "texto": "llaman",
+          "inicio": 78.6,
+          "fin": 78.856
+        },
+        {
+          "texto": "de",
+          "inicio": 78.902,
+          "fin": 78.96
+        },
+        {
+          "texto": "noche.",
+          "inicio": 79.018,
+          "fin": 79.517
+        },
+        {
+          "texto": "Corre",
+          "inicio": 79.959,
+          "fin": 80.26
+        },
+        {
+          "texto": "donde",
+          "inicio": 80.295,
+          "fin": 80.504
+        },
+        {
+          "texto": "el",
+          "inicio": 80.527,
+          "fin": 80.586
+        },
+        {
+          "texto": "sacerdote",
+          "inicio": 80.644,
+          "fin": 81.189
+        },
+        {
+          "texto": "Elí.",
+          "inicio": 81.212,
+          "fin": 81.665
+        },
+        {
+          "texto": "Una,",
+          "inicio": 82.176,
+          "fin": 82.559
+        },
+        {
+          "texto": "dos,",
+          "inicio": 82.582,
+          "fin": 82.942
+        },
+        {
+          "texto": "tres",
+          "inicio": 83,
+          "fin": 83.232
+        },
+        {
+          "texto": "veces.",
+          "inicio": 83.302,
+          "fin": 83.836
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "texto": "A la tercera, Elí entiende que es Dios quien lo llama, y le enseña a responder: habla, Señor, que tu siervo escucha.",
+      "clave": "",
+      "inicio": 84.277,
+      "fin": 92.706,
+      "palabras": [
+        {
+          "texto": "A",
+          "inicio": 84.277,
+          "fin": 84.335
+        },
+        {
+          "texto": "la",
+          "inicio": 84.416,
+          "fin": 84.474
+        },
+        {
+          "texto": "tercera,",
+          "inicio": 84.521,
+          "fin": 84.962
+        },
+        {
+          "texto": "Elí",
+          "inicio": 85.009,
+          "fin": 85.322
+        },
+        {
+          "texto": "entiende",
+          "inicio": 85.38,
+          "fin": 85.914
+        },
+        {
+          "texto": "que",
+          "inicio": 85.995,
+          "fin": 86.135
+        },
+        {
+          "texto": "es",
+          "inicio": 86.193,
+          "fin": 86.297
+        },
+        {
+          "texto": "Dios",
+          "inicio": 86.39,
+          "fin": 86.68
+        },
+        {
+          "texto": "quien",
+          "inicio": 86.762,
+          "fin": 86.936
+        },
+        {
+          "texto": "lo",
+          "inicio": 86.994,
+          "fin": 87.075
+        },
+        {
+          "texto": "llama,",
+          "inicio": 87.098,
+          "fin": 87.586
+        },
+        {
+          "texto": "y",
+          "inicio": 87.911,
+          "fin": 87.992
+        },
+        {
+          "texto": "le",
+          "inicio": 88.108,
+          "fin": 88.166
+        },
+        {
+          "texto": "enseña",
+          "inicio": 88.19,
+          "fin": 88.55
+        },
+        {
+          "texto": "a",
+          "inicio": 88.584,
+          "fin": 88.631
+        },
+        {
+          "texto": "responder:",
+          "inicio": 88.724,
+          "fin": 89.444
+        },
+        {
+          "texto": "habla,",
+          "inicio": 89.885,
+          "fin": 90.338
+        },
+        {
+          "texto": "Señor,",
+          "inicio": 90.396,
+          "fin": 91.092
+        },
+        {
+          "texto": "que",
+          "inicio": 91.417,
+          "fin": 91.533
+        },
+        {
+          "texto": "tu",
+          "inicio": 91.591,
+          "fin": 91.673
+        },
+        {
+          "texto": "siervo",
+          "inicio": 91.719,
+          "fin": 91.998
+        },
+        {
+          "texto": "escucha.",
+          "inicio": 92.033,
+          "fin": 92.706
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "texto": "El apóstol Pablo tenía un aguijón en su carne. Le rogó al Señor tres veces que se lo quitara.",
+      "clave": "",
+      "inicio": 93.403,
+      "fin": 98.964,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 93.403,
+          "fin": 93.53
+        },
+        {
+          "texto": "apóstol",
+          "inicio": 93.577,
+          "fin": 93.948
+        },
+        {
+          "texto": "Pablo",
+          "inicio": 94.018,
+          "fin": 94.308
+        },
+        {
+          "texto": "tenía",
+          "inicio": 94.355,
+          "fin": 94.61
+        },
+        {
+          "texto": "un",
+          "inicio": 94.656,
+          "fin": 94.738
+        },
+        {
+          "texto": "aguijón",
+          "inicio": 94.784,
+          "fin": 95.132
+        },
+        {
+          "texto": "en",
+          "inicio": 95.19,
+          "fin": 95.249
+        },
+        {
+          "texto": "su",
+          "inicio": 95.307,
+          "fin": 95.423
+        },
+        {
+          "texto": "carne.",
+          "inicio": 95.492,
+          "fin": 96.096
+        },
+        {
+          "texto": "Le",
+          "inicio": 96.537,
+          "fin": 96.642
+        },
+        {
+          "texto": "rogó",
+          "inicio": 96.723,
+          "fin": 96.92
+        },
+        {
+          "texto": "al",
+          "inicio": 96.955,
+          "fin": 97.025
+        },
+        {
+          "texto": "Señor",
+          "inicio": 97.083,
+          "fin": 97.362
+        },
+        {
+          "texto": "tres",
+          "inicio": 97.431,
+          "fin": 97.64
+        },
+        {
+          "texto": "veces",
+          "inicio": 97.698,
+          "fin": 97.942
+        },
+        {
+          "texto": "que",
+          "inicio": 97.988,
+          "fin": 98.058
+        },
+        {
+          "texto": "se",
+          "inicio": 98.105,
+          "fin": 98.174
+        },
+        {
+          "texto": "lo",
+          "inicio": 98.221,
+          "fin": 98.302
+        },
+        {
+          "texto": "quitara.",
+          "inicio": 98.36,
+          "fin": 98.964
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "texto": "Y Dios le respondió: bástate mi gracia, porque mi poder se perfecciona en la debilidad.",
+      "clave": "",
+      "inicio": 99.289,
+      "fin": 105.5,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 99.289,
+          "fin": 99.37
+        },
+        {
+          "texto": "Dios",
+          "inicio": 99.463,
+          "fin": 99.812
+        },
+        {
+          "texto": "le",
+          "inicio": 100.253,
+          "fin": 100.357
+        },
+        {
+          "texto": "respondió:",
+          "inicio": 100.438,
+          "fin": 101.228
+        },
+        {
+          "texto": "bástate",
+          "inicio": 101.553,
+          "fin": 102.029
+        },
+        {
+          "texto": "mi",
+          "inicio": 102.075,
+          "fin": 102.157
+        },
+        {
+          "texto": "gracia,",
+          "inicio": 102.203,
+          "fin": 102.819
+        },
+        {
+          "texto": "porque",
+          "inicio": 103.178,
+          "fin": 103.422
+        },
+        {
+          "texto": "mi",
+          "inicio": 103.457,
+          "fin": 103.538
+        },
+        {
+          "texto": "poder",
+          "inicio": 103.585,
+          "fin": 103.805
+        },
+        {
+          "texto": "se",
+          "inicio": 103.852,
+          "fin": 103.933
+        },
+        {
+          "texto": "perfecciona",
+          "inicio": 103.991,
+          "fin": 104.583
+        },
+        {
+          "texto": "en",
+          "inicio": 104.606,
+          "fin": 104.653
+        },
+        {
+          "texto": "la",
+          "inicio": 104.699,
+          "fin": 104.757
+        },
+        {
+          "texto": "debilidad.",
+          "inicio": 104.804,
+          "fin": 105.5
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "texto": "En el monte Carmelo, Elías manda empapar el altar con agua. Una, dos y tres veces.",
+      "clave": "",
+      "inicio": 106.162,
+      "fin": 112.861,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 106.162,
+          "fin": 106.29
+        },
+        {
+          "texto": "el",
+          "inicio": 106.336,
+          "fin": 106.394
+        },
+        {
+          "texto": "monte",
+          "inicio": 106.429,
+          "fin": 106.638
+        },
+        {
+          "texto": "Carmelo,",
+          "inicio": 106.685,
+          "fin": 107.346
+        },
+        {
+          "texto": "Elías",
+          "inicio": 107.579,
+          "fin": 107.997
+        },
+        {
+          "texto": "manda",
+          "inicio": 108.078,
+          "fin": 108.333
+        },
+        {
+          "texto": "empapar",
+          "inicio": 108.368,
+          "fin": 108.925
+        },
+        {
+          "texto": "el",
+          "inicio": 109.355,
+          "fin": 109.506
+        },
+        {
+          "texto": "altar",
+          "inicio": 109.564,
+          "fin": 109.843
+        },
+        {
+          "texto": "con",
+          "inicio": 109.912,
+          "fin": 110.075
+        },
+        {
+          "texto": "agua.",
+          "inicio": 110.156,
+          "fin": 110.586
+        },
+        {
+          "texto": "Una,",
+          "inicio": 111.166,
+          "fin": 111.572
+        },
+        {
+          "texto": "dos",
+          "inicio": 111.596,
+          "fin": 111.816
+        },
+        {
+          "texto": "y",
+          "inicio": 111.898,
+          "fin": 111.921
+        },
+        {
+          "texto": "tres",
+          "inicio": 111.99,
+          "fin": 112.211
+        },
+        {
+          "texto": "veces.",
+          "inicio": 112.281,
+          "fin": 112.861
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "texto": "Y aun así, cae fuego del cielo y lo consume todo.",
+      "clave": "",
+      "inicio": 113.291,
+      "fin": 116.53,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 113.291,
+          "fin": 113.349
+        },
+        {
+          "texto": "aun",
+          "inicio": 113.407,
+          "fin": 113.5
+        },
+        {
+          "texto": "así,",
+          "inicio": 113.558,
+          "fin": 114.069
+        },
+        {
+          "texto": "cae",
+          "inicio": 114.312,
+          "fin": 114.545
+        },
+        {
+          "texto": "fuego",
+          "inicio": 114.591,
+          "fin": 114.858
+        },
+        {
+          "texto": "del",
+          "inicio": 114.904,
+          "fin": 115.009
+        },
+        {
+          "texto": "cielo",
+          "inicio": 115.055,
+          "fin": 115.404
+        },
+        {
+          "texto": "y",
+          "inicio": 115.473,
+          "fin": 115.497
+        },
+        {
+          "texto": "lo",
+          "inicio": 115.555,
+          "fin": 115.636
+        },
+        {
+          "texto": "consume",
+          "inicio": 115.682,
+          "fin": 116.065
+        },
+        {
+          "texto": "todo.",
+          "inicio": 116.124,
+          "fin": 116.53
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "texto": "Tres veces, en la Biblia, es la oración que insiste. El llamado que no se rinde. La fe que espera.",
+      "clave": "",
+      "inicio": 117.319,
+      "fin": 124.065,
+      "palabras": [
+        {
+          "texto": "Tres",
+          "inicio": 117.319,
+          "fin": 117.563
+        },
+        {
+          "texto": "veces,",
+          "inicio": 117.61,
+          "fin": 117.877
+        },
+        {
+          "texto": "en",
+          "inicio": 117.9,
+          "fin": 117.958
+        },
+        {
+          "texto": "la",
+          "inicio": 117.97,
+          "fin": 118.016
+        },
+        {
+          "texto": "Biblia,",
+          "inicio": 118.086,
+          "fin": 118.585
+        },
+        {
+          "texto": "es",
+          "inicio": 118.898,
+          "fin": 119.026
+        },
+        {
+          "texto": "la",
+          "inicio": 119.084,
+          "fin": 119.142
+        },
+        {
+          "texto": "oración",
+          "inicio": 119.165,
+          "fin": 119.537
+        },
+        {
+          "texto": "que",
+          "inicio": 119.583,
+          "fin": 119.653
+        },
+        {
+          "texto": "insiste.",
+          "inicio": 119.699,
+          "fin": 120.373
+        },
+        {
+          "texto": "El",
+          "inicio": 120.698,
+          "fin": 120.872
+        },
+        {
+          "texto": "llamado",
+          "inicio": 120.907,
+          "fin": 121.325
+        },
+        {
+          "texto": "que",
+          "inicio": 121.383,
+          "fin": 121.453
+        },
+        {
+          "texto": "no",
+          "inicio": 121.511,
+          "fin": 121.603
+        },
+        {
+          "texto": "se",
+          "inicio": 121.65,
+          "fin": 121.72
+        },
+        {
+          "texto": "rinde.",
+          "inicio": 121.801,
+          "fin": 122.312
+        },
+        {
+          "texto": "La",
+          "inicio": 122.695,
+          "fin": 122.811
+        },
+        {
+          "texto": "fe",
+          "inicio": 122.881,
+          "fin": 123.113
+        },
+        {
+          "texto": "que",
+          "inicio": 123.287,
+          "fin": 123.415
+        },
+        {
+          "texto": "espera.",
+          "inicio": 123.449,
+          "fin": 124.065
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "texto": "Y fíjate en la transfiguración: Jesús sube al monte con solo tres discípulos.",
+      "clave": "",
+      "inicio": 124.506,
+      "fin": 129.556,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 124.506,
+          "fin": 124.587
+        },
+        {
+          "texto": "fíjate",
+          "inicio": 124.669,
+          "fin": 125.063
+        },
+        {
+          "texto": "en",
+          "inicio": 125.098,
+          "fin": 125.156
+        },
+        {
+          "texto": "la",
+          "inicio": 125.203,
+          "fin": 125.261
+        },
+        {
+          "texto": "transfiguración:",
+          "inicio": 125.307,
+          "fin": 126.306
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 126.689,
+          "fin": 127.107
+        },
+        {
+          "texto": "sube",
+          "inicio": 127.13,
+          "fin": 127.42
+        },
+        {
+          "texto": "al",
+          "inicio": 127.467,
+          "fin": 127.548
+        },
+        {
+          "texto": "monte",
+          "inicio": 127.617,
+          "fin": 127.884
+        },
+        {
+          "texto": "con",
+          "inicio": 127.931,
+          "fin": 128.082
+        },
+        {
+          "texto": "solo",
+          "inicio": 128.152,
+          "fin": 128.419
+        },
+        {
+          "texto": "tres",
+          "inicio": 128.465,
+          "fin": 128.697
+        },
+        {
+          "texto": "discípulos.",
+          "inicio": 128.732,
+          "fin": 129.556
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "texto": "Pedro, Jacobo y Juan. Los mismos tres que lo acompañan en Getsemaní.",
+      "clave": "",
+      "inicio": 130.067,
+      "fin": 135.35,
+      "palabras": [
+        {
+          "texto": "Pedro,",
+          "inicio": 130.067,
+          "fin": 130.624
+        },
+        {
+          "texto": "Jacobo",
+          "inicio": 130.775,
+          "fin": 131.367
+        },
+        {
+          "texto": "y",
+          "inicio": 131.611,
+          "fin": 131.727
+        },
+        {
+          "texto": "Juan.",
+          "inicio": 131.797,
+          "fin": 132.285
+        },
+        {
+          "texto": "Los",
+          "inicio": 132.981,
+          "fin": 133.144
+        },
+        {
+          "texto": "mismos",
+          "inicio": 133.202,
+          "fin": 133.457
+        },
+        {
+          "texto": "tres",
+          "inicio": 133.504,
+          "fin": 133.689
+        },
+        {
+          "texto": "que",
+          "inicio": 133.736,
+          "fin": 133.806
+        },
+        {
+          "texto": "lo",
+          "inicio": 133.852,
+          "fin": 133.91
+        },
+        {
+          "texto": "acompañan",
+          "inicio": 133.933,
+          "fin": 134.398
+        },
+        {
+          "texto": "en",
+          "inicio": 134.444,
+          "fin": 134.502
+        },
+        {
+          "texto": "Getsemaní.",
+          "inicio": 134.549,
+          "fin": 135.35
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "texto": "Y un dato que sorprende a muchos: la Biblia nunca dice que los sabios de oriente fueran tres. Ni dice que fueran reyes.",
+      "clave": "",
+      "inicio": 135.861,
+      "fin": 143.489,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 135.861,
+          "fin": 135.919
+        },
+        {
+          "texto": "un",
+          "inicio": 136,
+          "fin": 136.058
+        },
+        {
+          "texto": "dato",
+          "inicio": 136.093,
+          "fin": 136.314
+        },
+        {
+          "texto": "que",
+          "inicio": 136.36,
+          "fin": 136.43
+        },
+        {
+          "texto": "sorprende",
+          "inicio": 136.476,
+          "fin": 136.917
+        },
+        {
+          "texto": "a",
+          "inicio": 136.952,
+          "fin": 136.975
+        },
+        {
+          "texto": "muchos:",
+          "inicio": 137.01,
+          "fin": 137.684
+        },
+        {
+          "texto": "la",
+          "inicio": 138.38,
+          "fin": 138.461
+        },
+        {
+          "texto": "Biblia",
+          "inicio": 138.508,
+          "fin": 138.752
+        },
+        {
+          "texto": "nunca",
+          "inicio": 138.798,
+          "fin": 139.077
+        },
+        {
+          "texto": "dice",
+          "inicio": 139.123,
+          "fin": 139.332
+        },
+        {
+          "texto": "que",
+          "inicio": 139.39,
+          "fin": 139.46
+        },
+        {
+          "texto": "los",
+          "inicio": 139.495,
+          "fin": 139.634
+        },
+        {
+          "texto": "sabios",
+          "inicio": 139.669,
+          "fin": 140.017
+        },
+        {
+          "texto": "de",
+          "inicio": 140.04,
+          "fin": 140.087
+        },
+        {
+          "texto": "oriente",
+          "inicio": 140.122,
+          "fin": 140.447
+        },
+        {
+          "texto": "fueran",
+          "inicio": 140.493,
+          "fin": 140.76
+        },
+        {
+          "texto": "tres.",
+          "inicio": 140.818,
+          "fin": 141.352
+        },
+        {
+          "texto": "Ni",
+          "inicio": 141.736,
+          "fin": 141.91
+        },
+        {
+          "texto": "dice",
+          "inicio": 141.956,
+          "fin": 142.212
+        },
+        {
+          "texto": "que",
+          "inicio": 142.27,
+          "fin": 142.351
+        },
+        {
+          "texto": "fueran",
+          "inicio": 142.409,
+          "fin": 142.722
+        },
+        {
+          "texto": "reyes.",
+          "inicio": 142.838,
+          "fin": 143.489
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "texto": "Lo que sí dice es que trajeron tres regalos al niño Jesús: oro, incienso y mirra.",
+      "clave": "",
+      "inicio": 144.092,
+      "fin": 150.675,
+      "palabras": [
+        {
+          "texto": "Lo",
+          "inicio": 144.092,
+          "fin": 144.243
+        },
+        {
+          "texto": "que",
+          "inicio": 144.29,
+          "fin": 144.383
+        },
+        {
+          "texto": "sí",
+          "inicio": 144.429,
+          "fin": 144.557
+        },
+        {
+          "texto": "dice",
+          "inicio": 144.615,
+          "fin": 144.998
+        },
+        {
+          "texto": "es",
+          "inicio": 145.277,
+          "fin": 145.439
+        },
+        {
+          "texto": "que",
+          "inicio": 145.497,
+          "fin": 145.567
+        },
+        {
+          "texto": "trajeron",
+          "inicio": 145.625,
+          "fin": 146.043
+        },
+        {
+          "texto": "tres",
+          "inicio": 146.124,
+          "fin": 146.379
+        },
+        {
+          "texto": "regalos",
+          "inicio": 146.496,
+          "fin": 146.902
+        },
+        {
+          "texto": "al",
+          "inicio": 146.972,
+          "fin": 147.041
+        },
+        {
+          "texto": "niño",
+          "inicio": 147.099,
+          "fin": 147.332
+        },
+        {
+          "texto": "Jesús:",
+          "inicio": 147.355,
+          "fin": 147.97
+        },
+        {
+          "texto": "oro,",
+          "inicio": 148.411,
+          "fin": 148.841
+        },
+        {
+          "texto": "incienso",
+          "inicio": 149.015,
+          "fin": 149.712
+        },
+        {
+          "texto": "y",
+          "inicio": 149.955,
+          "fin": 150.071
+        },
+        {
+          "texto": "mirra.",
+          "inicio": 150.164,
+          "fin": 150.675
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "texto": "De ahí nació la tradición de los tres reyes magos.",
+      "clave": "",
+      "inicio": 151.372,
+      "fin": 154.344,
+      "palabras": [
+        {
+          "texto": "De",
+          "inicio": 151.372,
+          "fin": 151.499
+        },
+        {
+          "texto": "ahí",
+          "inicio": 151.546,
+          "fin": 151.685
+        },
+        {
+          "texto": "nació",
+          "inicio": 151.767,
+          "fin": 152.022
+        },
+        {
+          "texto": "la",
+          "inicio": 152.08,
+          "fin": 152.15
+        },
+        {
+          "texto": "tradición",
+          "inicio": 152.196,
+          "fin": 152.684
+        },
+        {
+          "texto": "de",
+          "inicio": 152.718,
+          "fin": 152.765
+        },
+        {
+          "texto": "los",
+          "inicio": 152.811,
+          "fin": 152.951
+        },
+        {
+          "texto": "tres",
+          "inicio": 153.02,
+          "fin": 153.252
+        },
+        {
+          "texto": "reyes",
+          "inicio": 153.369,
+          "fin": 153.659
+        },
+        {
+          "texto": "magos.",
+          "inicio": 153.74,
+          "fin": 154.344
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "texto": "Y según la tradición cristiana, cada regalo habla de Jesús: oro para un rey, incienso para Dios, y mirra, la que se usaba para sepultar.",
+      "clave": "",
+      "inicio": 155.04,
+      "fin": 165.466,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 155.04,
+          "fin": 155.133
+        },
+        {
+          "texto": "según",
+          "inicio": 155.226,
+          "fin": 155.458
+        },
+        {
+          "texto": "la",
+          "inicio": 155.493,
+          "fin": 155.54
+        },
+        {
+          "texto": "tradición",
+          "inicio": 155.586,
+          "fin": 156.027
+        },
+        {
+          "texto": "cristiana,",
+          "inicio": 156.074,
+          "fin": 156.886
+        },
+        {
+          "texto": "cada",
+          "inicio": 157.165,
+          "fin": 157.397
+        },
+        {
+          "texto": "regalo",
+          "inicio": 157.467,
+          "fin": 157.792
+        },
+        {
+          "texto": "habla",
+          "inicio": 157.838,
+          "fin": 158.047
+        },
+        {
+          "texto": "de",
+          "inicio": 158.094,
+          "fin": 158.164
+        },
+        {
+          "texto": "Jesús:",
+          "inicio": 158.198,
+          "fin": 158.895
+        },
+        {
+          "texto": "oro",
+          "inicio": 159.499,
+          "fin": 159.742
+        },
+        {
+          "texto": "para",
+          "inicio": 159.801,
+          "fin": 159.998
+        },
+        {
+          "texto": "un",
+          "inicio": 160.056,
+          "fin": 160.126
+        },
+        {
+          "texto": "rey,",
+          "inicio": 160.218,
+          "fin": 160.683
+        },
+        {
+          "texto": "incienso",
+          "inicio": 160.857,
+          "fin": 161.438
+        },
+        {
+          "texto": "para",
+          "inicio": 161.496,
+          "fin": 161.681
+        },
+        {
+          "texto": "Dios,",
+          "inicio": 161.728,
+          "fin": 162.25
+        },
+        {
+          "texto": "y",
+          "inicio": 162.633,
+          "fin": 162.749
+        },
+        {
+          "texto": "mirra,",
+          "inicio": 162.866,
+          "fin": 163.458
+        },
+        {
+          "texto": "la",
+          "inicio": 163.783,
+          "fin": 163.876
+        },
+        {
+          "texto": "que",
+          "inicio": 163.934,
+          "fin": 164.015
+        },
+        {
+          "texto": "se",
+          "inicio": 164.061,
+          "fin": 164.143
+        },
+        {
+          "texto": "usaba",
+          "inicio": 164.166,
+          "fin": 164.444
+        },
+        {
+          "texto": "para",
+          "inicio": 164.503,
+          "fin": 164.677
+        },
+        {
+          "texto": "sepultar.",
+          "inicio": 164.723,
+          "fin": 165.466
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "texto": "O sea, desde la cuna ya se anunciaba la cruz.",
+      "clave": "",
+      "inicio": 166.07,
+      "fin": 169.228,
+      "palabras": [
+        {
+          "texto": "O",
+          "inicio": 166.07,
+          "fin": 166.151
+        },
+        {
+          "texto": "sea,",
+          "inicio": 166.244,
+          "fin": 166.685
+        },
+        {
+          "texto": "desde",
+          "inicio": 166.964,
+          "fin": 167.208
+        },
+        {
+          "texto": "la",
+          "inicio": 167.254,
+          "fin": 167.324
+        },
+        {
+          "texto": "cuna",
+          "inicio": 167.37,
+          "fin": 167.602
+        },
+        {
+          "texto": "ya",
+          "inicio": 167.66,
+          "fin": 167.753
+        },
+        {
+          "texto": "se",
+          "inicio": 167.811,
+          "fin": 167.869
+        },
+        {
+          "texto": "anunciaba",
+          "inicio": 167.893,
+          "fin": 168.38
+        },
+        {
+          "texto": "la",
+          "inicio": 168.427,
+          "fin": 168.496
+        },
+        {
+          "texto": "cruz.",
+          "inicio": 168.543,
+          "fin": 169.228
+        }
+      ]
+    }
+  ]
+}

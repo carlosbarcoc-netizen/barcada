@@ -1,0 +1,3334 @@
+{
+  "huella": "43dbb18fce67",
+  "duracion": 235.446,
+  "frases": [
+    {
+      "n": 1,
+      "texto": "Isla número cuatro: la isla del trono.",
+      "clave": "",
+      "inicio": 0,
+      "fin": 3.03,
+      "palabras": [
+        {
+          "texto": "Isla",
+          "inicio": 0,
+          "fin": 0.383
+        },
+        {
+          "texto": "número",
+          "inicio": 0.441,
+          "fin": 0.731
+        },
+        {
+          "texto": "cuatro:",
+          "inicio": 0.778,
+          "fin": 1.37
+        },
+        {
+          "texto": "la",
+          "inicio": 1.881,
+          "fin": 1.985
+        },
+        {
+          "texto": "isla",
+          "inicio": 2.101,
+          "fin": 2.345
+        },
+        {
+          "texto": "del",
+          "inicio": 2.392,
+          "fin": 2.508
+        },
+        {
+          "texto": "trono.",
+          "inicio": 2.589,
+          "fin": 3.03
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "texto": "El profeta Isaías tiene una visión. Ve al Señor sentado en un trono alto y sublime.",
+      "clave": "",
+      "inicio": 3.982,
+      "fin": 9.543,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 3.982,
+          "fin": 4.11
+        },
+        {
+          "texto": "profeta",
+          "inicio": 4.168,
+          "fin": 4.481
+        },
+        {
+          "texto": "Isaías",
+          "inicio": 4.516,
+          "fin": 4.899
+        },
+        {
+          "texto": "tiene",
+          "inicio": 4.957,
+          "fin": 5.143
+        },
+        {
+          "texto": "una",
+          "inicio": 5.166,
+          "fin": 5.294
+        },
+        {
+          "texto": "visión.",
+          "inicio": 5.341,
+          "fin": 5.898
+        },
+        {
+          "texto": "Ve",
+          "inicio": 6.502,
+          "fin": 6.653
+        },
+        {
+          "texto": "al",
+          "inicio": 6.711,
+          "fin": 6.792
+        },
+        {
+          "texto": "Señor",
+          "inicio": 6.85,
+          "fin": 7.187
+        },
+        {
+          "texto": "sentado",
+          "inicio": 7.256,
+          "fin": 7.755
+        },
+        {
+          "texto": "en",
+          "inicio": 7.779,
+          "fin": 7.825
+        },
+        {
+          "texto": "un",
+          "inicio": 7.906,
+          "fin": 7.976
+        },
+        {
+          "texto": "trono",
+          "inicio": 8.034,
+          "fin": 8.348
+        },
+        {
+          "texto": "alto",
+          "inicio": 8.429,
+          "fin": 8.731
+        },
+        {
+          "texto": "y",
+          "inicio": 8.777,
+          "fin": 8.812
+        },
+        {
+          "texto": "sublime.",
+          "inicio": 8.858,
+          "fin": 9.543
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "texto": "Y unos seres de fuego, los serafines, se gritan el uno al otro: ¡Santo, santo, santo es el Señor de los ejércitos!",
+      "clave": "",
+      "inicio": 10.24,
+      "fin": 17.949,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 10.24,
+          "fin": 10.31
+        },
+        {
+          "texto": "unos",
+          "inicio": 10.379,
+          "fin": 10.542
+        },
+        {
+          "texto": "seres",
+          "inicio": 10.565,
+          "fin": 10.774
+        },
+        {
+          "texto": "de",
+          "inicio": 10.809,
+          "fin": 10.867
+        },
+        {
+          "texto": "fuego,",
+          "inicio": 10.913,
+          "fin": 11.471
+        },
+        {
+          "texto": "los",
+          "inicio": 11.622,
+          "fin": 11.749
+        },
+        {
+          "texto": "serafines,",
+          "inicio": 11.773,
+          "fin": 12.62
+        },
+        {
+          "texto": "se",
+          "inicio": 12.864,
+          "fin": 12.98
+        },
+        {
+          "texto": "gritan",
+          "inicio": 13.038,
+          "fin": 13.351
+        },
+        {
+          "texto": "el",
+          "inicio": 13.398,
+          "fin": 13.456
+        },
+        {
+          "texto": "uno",
+          "inicio": 13.526,
+          "fin": 13.653
+        },
+        {
+          "texto": "al",
+          "inicio": 13.677,
+          "fin": 13.735
+        },
+        {
+          "texto": "otro:",
+          "inicio": 13.793,
+          "fin": 14.187
+        },
+        {
+          "texto": "¡Santo,",
+          "inicio": 14.512,
+          "fin": 15.244
+        },
+        {
+          "texto": "santo,",
+          "inicio": 15.267,
+          "fin": 15.755
+        },
+        {
+          "texto": "santo",
+          "inicio": 15.778,
+          "fin": 16.173
+        },
+        {
+          "texto": "es",
+          "inicio": 16.208,
+          "fin": 16.266
+        },
+        {
+          "texto": "el",
+          "inicio": 16.335,
+          "fin": 16.382
+        },
+        {
+          "texto": "Señor",
+          "inicio": 16.44,
+          "fin": 16.742
+        },
+        {
+          "texto": "de",
+          "inicio": 16.8,
+          "fin": 16.846
+        },
+        {
+          "texto": "los",
+          "inicio": 16.881,
+          "fin": 16.997
+        },
+        {
+          "texto": "ejércitos!",
+          "inicio": 17.055,
+          "fin": 17.949
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "texto": "Siglos después, el apóstol Juan ve el mismo trono en Apocalipsis cuatro. Y escucha lo mismo: santo, santo, santo.",
+      "clave": "",
+      "inicio": 18.901,
+      "fin": 27.481,
+      "palabras": [
+        {
+          "texto": "Siglos",
+          "inicio": 18.901,
+          "fin": 19.365
+        },
+        {
+          "texto": "después,",
+          "inicio": 19.4,
+          "fin": 19.911
+        },
+        {
+          "texto": "el",
+          "inicio": 19.992,
+          "fin": 20.097
+        },
+        {
+          "texto": "apóstol",
+          "inicio": 20.155,
+          "fin": 20.55
+        },
+        {
+          "texto": "Juan",
+          "inicio": 20.596,
+          "fin": 20.886
+        },
+        {
+          "texto": "ve",
+          "inicio": 21.165,
+          "fin": 21.293
+        },
+        {
+          "texto": "el",
+          "inicio": 21.328,
+          "fin": 21.409
+        },
+        {
+          "texto": "mismo",
+          "inicio": 21.49,
+          "fin": 21.769
+        },
+        {
+          "texto": "trono",
+          "inicio": 21.838,
+          "fin": 22.129
+        },
+        {
+          "texto": "en",
+          "inicio": 22.163,
+          "fin": 22.198
+        },
+        {
+          "texto": "Apocalipsis",
+          "inicio": 22.256,
+          "fin": 22.918
+        },
+        {
+          "texto": "cuatro.",
+          "inicio": 22.988,
+          "fin": 23.545
+        },
+        {
+          "texto": "Y",
+          "inicio": 23.975,
+          "fin": 24.056
+        },
+        {
+          "texto": "escucha",
+          "inicio": 24.137,
+          "fin": 24.485
+        },
+        {
+          "texto": "lo",
+          "inicio": 24.52,
+          "fin": 24.602
+        },
+        {
+          "texto": "mismo:",
+          "inicio": 24.648,
+          "fin": 25.112
+        },
+        {
+          "texto": "santo,",
+          "inicio": 25.786,
+          "fin": 26.366
+        },
+        {
+          "texto": "santo,",
+          "inicio": 26.389,
+          "fin": 26.854
+        },
+        {
+          "texto": "santo.",
+          "inicio": 26.877,
+          "fin": 27.481
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "texto": "¿Por qué tres veces? Aquí va un dato que casi nadie sabe.",
+      "clave": "",
+      "inicio": 27.98,
+      "fin": 31.672,
+      "palabras": [
+        {
+          "texto": "¿Por",
+          "inicio": 27.98,
+          "fin": 28.27
+        },
+        {
+          "texto": "qué",
+          "inicio": 28.328,
+          "fin": 28.41
+        },
+        {
+          "texto": "tres",
+          "inicio": 28.456,
+          "fin": 28.653
+        },
+        {
+          "texto": "veces?",
+          "inicio": 28.7,
+          "fin": 29.28
+        },
+        {
+          "texto": "Aquí",
+          "inicio": 29.652,
+          "fin": 29.884
+        },
+        {
+          "texto": "va",
+          "inicio": 29.919,
+          "fin": 29.977
+        },
+        {
+          "texto": "un",
+          "inicio": 30.023,
+          "fin": 30.081
+        },
+        {
+          "texto": "dato",
+          "inicio": 30.139,
+          "fin": 30.36
+        },
+        {
+          "texto": "que",
+          "inicio": 30.407,
+          "fin": 30.488
+        },
+        {
+          "texto": "casi",
+          "inicio": 30.534,
+          "fin": 30.766
+        },
+        {
+          "texto": "nadie",
+          "inicio": 30.824,
+          "fin": 31.103
+        },
+        {
+          "texto": "sabe.",
+          "inicio": 31.15,
+          "fin": 31.672
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "texto": "En hebreo no existe una palabra para decir «el más santo» o «santísimo», como en español.",
+      "clave": "",
+      "inicio": 32.264,
+      "fin": 38.545,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 32.264,
+          "fin": 32.415
+        },
+        {
+          "texto": "hebreo",
+          "inicio": 32.438,
+          "fin": 32.833
+        },
+        {
+          "texto": "no",
+          "inicio": 32.891,
+          "fin": 32.984
+        },
+        {
+          "texto": "existe",
+          "inicio": 33.019,
+          "fin": 33.332
+        },
+        {
+          "texto": "una",
+          "inicio": 33.367,
+          "fin": 33.495
+        },
+        {
+          "texto": "palabra",
+          "inicio": 33.541,
+          "fin": 33.913
+        },
+        {
+          "texto": "para",
+          "inicio": 33.959,
+          "fin": 34.11
+        },
+        {
+          "texto": "decir",
+          "inicio": 34.157,
+          "fin": 34.505
+        },
+        {
+          "texto": "«el",
+          "inicio": 34.656,
+          "fin": 34.993
+        },
+        {
+          "texto": "más",
+          "inicio": 35.074,
+          "fin": 35.294
+        },
+        {
+          "texto": "santo»",
+          "inicio": 35.341,
+          "fin": 35.991
+        },
+        {
+          "texto": "o",
+          "inicio": 36.13,
+          "fin": 36.246
+        },
+        {
+          "texto": "«santísimo»,",
+          "inicio": 36.27,
+          "fin": 37.349
+        },
+        {
+          "texto": "como",
+          "inicio": 37.524,
+          "fin": 37.767
+        },
+        {
+          "texto": "en",
+          "inicio": 37.802,
+          "fin": 37.86
+        },
+        {
+          "texto": "español.",
+          "inicio": 37.918,
+          "fin": 38.545
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "texto": "Para decir que algo es lo máximo, se repite la palabra.",
+      "clave": "",
+      "inicio": 39.242,
+      "fin": 42.237,
+      "palabras": [
+        {
+          "texto": "Para",
+          "inicio": 39.242,
+          "fin": 39.428
+        },
+        {
+          "texto": "decir",
+          "inicio": 39.474,
+          "fin": 39.718
+        },
+        {
+          "texto": "que",
+          "inicio": 39.776,
+          "fin": 39.846
+        },
+        {
+          "texto": "algo",
+          "inicio": 39.88,
+          "fin": 40.078
+        },
+        {
+          "texto": "es",
+          "inicio": 40.113,
+          "fin": 40.182
+        },
+        {
+          "texto": "lo",
+          "inicio": 40.205,
+          "fin": 40.275
+        },
+        {
+          "texto": "máximo,",
+          "inicio": 40.333,
+          "fin": 40.937
+        },
+        {
+          "texto": "se",
+          "inicio": 41.053,
+          "fin": 41.146
+        },
+        {
+          "texto": "repite",
+          "inicio": 41.216,
+          "fin": 41.529
+        },
+        {
+          "texto": "la",
+          "inicio": 41.575,
+          "fin": 41.645
+        },
+        {
+          "texto": "palabra.",
+          "inicio": 41.703,
+          "fin": 42.237
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "texto": "Decirlo dos veces ya es fuerte. Decirlo tres veces es el grado más alto que existe.",
+      "clave": "",
+      "inicio": 42.841,
+      "fin": 48.925,
+      "palabras": [
+        {
+          "texto": "Decirlo",
+          "inicio": 42.841,
+          "fin": 43.271
+        },
+        {
+          "texto": "dos",
+          "inicio": 43.329,
+          "fin": 43.526
+        },
+        {
+          "texto": "veces",
+          "inicio": 43.596,
+          "fin": 44.002
+        },
+        {
+          "texto": "ya",
+          "inicio": 44.176,
+          "fin": 44.327
+        },
+        {
+          "texto": "es",
+          "inicio": 44.385,
+          "fin": 44.478
+        },
+        {
+          "texto": "fuerte.",
+          "inicio": 44.536,
+          "fin": 45.093
+        },
+        {
+          "texto": "Decirlo",
+          "inicio": 45.534,
+          "fin": 45.918
+        },
+        {
+          "texto": "tres",
+          "inicio": 45.976,
+          "fin": 46.196
+        },
+        {
+          "texto": "veces",
+          "inicio": 46.254,
+          "fin": 46.637
+        },
+        {
+          "texto": "es",
+          "inicio": 47.021,
+          "fin": 47.183
+        },
+        {
+          "texto": "el",
+          "inicio": 47.23,
+          "fin": 47.288
+        },
+        {
+          "texto": "grado",
+          "inicio": 47.357,
+          "fin": 47.601
+        },
+        {
+          "texto": "más",
+          "inicio": 47.659,
+          "fin": 47.856
+        },
+        {
+          "texto": "alto",
+          "inicio": 47.915,
+          "fin": 48.147
+        },
+        {
+          "texto": "que",
+          "inicio": 48.193,
+          "fin": 48.274
+        },
+        {
+          "texto": "existe.",
+          "inicio": 48.298,
+          "fin": 48.925
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "texto": "O sea, de todo lo que Dios es, lo que la Biblia proclama tres veces seguidas es que es santo.",
+      "clave": "",
+      "inicio": 49.25,
+      "fin": 55.229,
+      "palabras": [
+        {
+          "texto": "O",
+          "inicio": 49.25,
+          "fin": 49.308
+        },
+        {
+          "texto": "sea,",
+          "inicio": 49.389,
+          "fin": 49.493
+        },
+        {
+          "texto": "de",
+          "inicio": 49.517,
+          "fin": 49.586
+        },
+        {
+          "texto": "todo",
+          "inicio": 49.633,
+          "fin": 49.807
+        },
+        {
+          "texto": "lo",
+          "inicio": 49.853,
+          "fin": 49.923
+        },
+        {
+          "texto": "que",
+          "inicio": 49.958,
+          "fin": 50.028
+        },
+        {
+          "texto": "Dios",
+          "inicio": 50.074,
+          "fin": 50.283
+        },
+        {
+          "texto": "es,",
+          "inicio": 50.353,
+          "fin": 50.805
+        },
+        {
+          "texto": "lo",
+          "inicio": 51.13,
+          "fin": 51.235
+        },
+        {
+          "texto": "que",
+          "inicio": 51.27,
+          "fin": 51.339
+        },
+        {
+          "texto": "la",
+          "inicio": 51.386,
+          "fin": 51.444
+        },
+        {
+          "texto": "Biblia",
+          "inicio": 51.49,
+          "fin": 51.722
+        },
+        {
+          "texto": "proclama",
+          "inicio": 51.769,
+          "fin": 52.21
+        },
+        {
+          "texto": "tres",
+          "inicio": 52.268,
+          "fin": 52.5
+        },
+        {
+          "texto": "veces",
+          "inicio": 52.558,
+          "fin": 52.814
+        },
+        {
+          "texto": "seguidas",
+          "inicio": 52.837,
+          "fin": 53.383
+        },
+        {
+          "texto": "es",
+          "inicio": 53.592,
+          "fin": 53.777
+        },
+        {
+          "texto": "que",
+          "inicio": 53.859,
+          "fin": 54.01
+        },
+        {
+          "texto": "es",
+          "inicio": 54.126,
+          "fin": 54.416
+        },
+        {
+          "texto": "santo.",
+          "inicio": 54.567,
+          "fin": 55.229
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "texto": "Y en Apocalipsis, Dios se presenta así: el que es, el que era y el que ha de venir. Presente, pasado y futuro.",
+      "clave": "",
+      "inicio": 55.67,
+      "fin": 65.341,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 55.67,
+          "fin": 55.751
+        },
+        {
+          "texto": "en",
+          "inicio": 55.821,
+          "fin": 55.867
+        },
+        {
+          "texto": "Apocalipsis,",
+          "inicio": 55.914,
+          "fin": 56.773
+        },
+        {
+          "texto": "Dios",
+          "inicio": 56.889,
+          "fin": 57.144
+        },
+        {
+          "texto": "se",
+          "inicio": 57.167,
+          "fin": 57.26
+        },
+        {
+          "texto": "presenta",
+          "inicio": 57.318,
+          "fin": 57.736
+        },
+        {
+          "texto": "así:",
+          "inicio": 57.76,
+          "fin": 58.27
+        },
+        {
+          "texto": "el",
+          "inicio": 58.967,
+          "fin": 59.118
+        },
+        {
+          "texto": "que",
+          "inicio": 59.211,
+          "fin": 59.35
+        },
+        {
+          "texto": "es,",
+          "inicio": 59.42,
+          "fin": 59.826
+        },
+        {
+          "texto": "el",
+          "inicio": 59.977,
+          "fin": 60.128
+        },
+        {
+          "texto": "que",
+          "inicio": 60.221,
+          "fin": 60.349
+        },
+        {
+          "texto": "era",
+          "inicio": 60.418,
+          "fin": 60.697
+        },
+        {
+          "texto": "y",
+          "inicio": 61.022,
+          "fin": 61.092
+        },
+        {
+          "texto": "el",
+          "inicio": 61.15,
+          "fin": 61.208
+        },
+        {
+          "texto": "que",
+          "inicio": 61.277,
+          "fin": 61.37
+        },
+        {
+          "texto": "ha",
+          "inicio": 61.417,
+          "fin": 61.463
+        },
+        {
+          "texto": "de",
+          "inicio": 61.51,
+          "fin": 61.568
+        },
+        {
+          "texto": "venir.",
+          "inicio": 61.614,
+          "fin": 62.125
+        },
+        {
+          "texto": "Presente,",
+          "inicio": 62.636,
+          "fin": 63.495
+        },
+        {
+          "texto": "pasado",
+          "inicio": 63.82,
+          "fin": 64.4
+        },
+        {
+          "texto": "y",
+          "inicio": 64.609,
+          "fin": 64.679
+        },
+        {
+          "texto": "futuro.",
+          "inicio": 64.76,
+          "fin": 65.341
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "texto": "Y ahora, la pregunta que no puede faltar: ¿y la Trinidad?",
+      "clave": "",
+      "inicio": 65.782,
+      "fin": 69.253,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 65.782,
+          "fin": 65.84
+        },
+        {
+          "texto": "ahora,",
+          "inicio": 65.91,
+          "fin": 66.165
+        },
+        {
+          "texto": "la",
+          "inicio": 66.188,
+          "fin": 66.246
+        },
+        {
+          "texto": "pregunta",
+          "inicio": 66.304,
+          "fin": 66.688
+        },
+        {
+          "texto": "que",
+          "inicio": 66.722,
+          "fin": 66.792
+        },
+        {
+          "texto": "no",
+          "inicio": 66.85,
+          "fin": 66.931
+        },
+        {
+          "texto": "puede",
+          "inicio": 66.978,
+          "fin": 67.187
+        },
+        {
+          "texto": "faltar:",
+          "inicio": 67.233,
+          "fin": 67.814
+        },
+        {
+          "texto": "¿y",
+          "inicio": 68.139,
+          "fin": 68.348
+        },
+        {
+          "texto": "la",
+          "inicio": 68.441,
+          "fin": 68.499
+        },
+        {
+          "texto": "Trinidad?",
+          "inicio": 68.557,
+          "fin": 69.253
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "texto": "Seamos honestos. La palabra «Trinidad» no aparece en la Biblia.",
+      "clave": "",
+      "inicio": 69.857,
+      "fin": 74.362,
+      "palabras": [
+        {
+          "texto": "Seamos",
+          "inicio": 69.857,
+          "fin": 70.263
+        },
+        {
+          "texto": "honestos.",
+          "inicio": 70.31,
+          "fin": 71.029
+        },
+        {
+          "texto": "La",
+          "inicio": 71.355,
+          "fin": 71.459
+        },
+        {
+          "texto": "palabra",
+          "inicio": 71.517,
+          "fin": 71.923
+        },
+        {
+          "texto": "«Trinidad»",
+          "inicio": 71.958,
+          "fin": 72.887
+        },
+        {
+          "texto": "no",
+          "inicio": 73.166,
+          "fin": 73.293
+        },
+        {
+          "texto": "aparece",
+          "inicio": 73.328,
+          "fin": 73.677
+        },
+        {
+          "texto": "en",
+          "inicio": 73.7,
+          "fin": 73.746
+        },
+        {
+          "texto": "la",
+          "inicio": 73.793,
+          "fin": 73.851
+        },
+        {
+          "texto": "Biblia.",
+          "inicio": 73.897,
+          "fin": 74.362
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "texto": "Empezó a usarse en el siglo segundo, entre los primeros cristianos, para explicar lo que la Biblia sí enseña.",
+      "clave": "",
+      "inicio": 74.965,
+      "fin": 80.956,
+      "palabras": [
+        {
+          "texto": "Empezó",
+          "inicio": 74.965,
+          "fin": 75.476
+        },
+        {
+          "texto": "a",
+          "inicio": 75.511,
+          "fin": 75.534
+        },
+        {
+          "texto": "usarse",
+          "inicio": 75.569,
+          "fin": 76.01
+        },
+        {
+          "texto": "en",
+          "inicio": 76.045,
+          "fin": 76.103
+        },
+        {
+          "texto": "el",
+          "inicio": 76.173,
+          "fin": 76.219
+        },
+        {
+          "texto": "siglo",
+          "inicio": 76.266,
+          "fin": 76.521
+        },
+        {
+          "texto": "segundo,",
+          "inicio": 76.567,
+          "fin": 77.252
+        },
+        {
+          "texto": "entre",
+          "inicio": 77.403,
+          "fin": 77.659
+        },
+        {
+          "texto": "los",
+          "inicio": 77.682,
+          "fin": 77.775
+        },
+        {
+          "texto": "primeros",
+          "inicio": 77.81,
+          "fin": 78.135
+        },
+        {
+          "texto": "cristianos,",
+          "inicio": 78.181,
+          "fin": 78.692
+        },
+        {
+          "texto": "para",
+          "inicio": 78.715,
+          "fin": 78.855
+        },
+        {
+          "texto": "explicar",
+          "inicio": 78.878,
+          "fin": 79.296
+        },
+        {
+          "texto": "lo",
+          "inicio": 79.342,
+          "fin": 79.423
+        },
+        {
+          "texto": "que",
+          "inicio": 79.47,
+          "fin": 79.551
+        },
+        {
+          "texto": "la",
+          "inicio": 79.598,
+          "fin": 79.667
+        },
+        {
+          "texto": "Biblia",
+          "inicio": 79.714,
+          "fin": 80.016
+        },
+        {
+          "texto": "sí",
+          "inicio": 80.085,
+          "fin": 80.283
+        },
+        {
+          "texto": "enseña.",
+          "inicio": 80.364,
+          "fin": 80.956
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "texto": "Porque el Nuevo Testamento sí nombra juntos al Padre, al Hijo y al Espíritu Santo, una y otra vez.",
+      "clave": "",
+      "inicio": 81.56,
+      "fin": 88.618,
+      "palabras": [
+        {
+          "texto": "Porque",
+          "inicio": 81.56,
+          "fin": 81.85
+        },
+        {
+          "texto": "el",
+          "inicio": 81.873,
+          "fin": 81.931
+        },
+        {
+          "texto": "Nuevo",
+          "inicio": 82.001,
+          "fin": 82.187
+        },
+        {
+          "texto": "Testamento",
+          "inicio": 82.233,
+          "fin": 82.802
+        },
+        {
+          "texto": "sí",
+          "inicio": 82.86,
+          "fin": 82.999
+        },
+        {
+          "texto": "nombra",
+          "inicio": 83.081,
+          "fin": 83.417
+        },
+        {
+          "texto": "juntos",
+          "inicio": 83.452,
+          "fin": 83.835
+        },
+        {
+          "texto": "al",
+          "inicio": 83.905,
+          "fin": 83.975
+        },
+        {
+          "texto": "Padre,",
+          "inicio": 84.056,
+          "fin": 84.636
+        },
+        {
+          "texto": "al",
+          "inicio": 85.019,
+          "fin": 85.193
+        },
+        {
+          "texto": "Hijo",
+          "inicio": 85.251,
+          "fin": 85.577
+        },
+        {
+          "texto": "y",
+          "inicio": 85.902,
+          "fin": 85.971
+        },
+        {
+          "texto": "al",
+          "inicio": 86.029,
+          "fin": 86.099
+        },
+        {
+          "texto": "Espíritu",
+          "inicio": 86.145,
+          "fin": 86.563
+        },
+        {
+          "texto": "Santo,",
+          "inicio": 86.621,
+          "fin": 87.237
+        },
+        {
+          "texto": "una",
+          "inicio": 87.62,
+          "fin": 87.84
+        },
+        {
+          "texto": "y",
+          "inicio": 87.91,
+          "fin": 87.922
+        },
+        {
+          "texto": "otra",
+          "inicio": 87.968,
+          "fin": 88.166
+        },
+        {
+          "texto": "vez.",
+          "inicio": 88.2,
+          "fin": 88.618
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "texto": "En el bautismo de Jesús: el Hijo sale del agua, el Espíritu desciende como paloma, y la voz del Padre habla desde el cielo.",
+      "clave": "",
+      "inicio": 89.199,
+      "fin": 97.372,
+      "palabras": [
+        {
+          "texto": "En",
+          "inicio": 89.199,
+          "fin": 89.338
+        },
+        {
+          "texto": "el",
+          "inicio": 89.385,
+          "fin": 89.443
+        },
+        {
+          "texto": "bautismo",
+          "inicio": 89.489,
+          "fin": 89.93
+        },
+        {
+          "texto": "de",
+          "inicio": 89.977,
+          "fin": 90.023
+        },
+        {
+          "texto": "Jesús:",
+          "inicio": 90.07,
+          "fin": 90.697
+        },
+        {
+          "texto": "el",
+          "inicio": 91.358,
+          "fin": 91.532
+        },
+        {
+          "texto": "Hijo",
+          "inicio": 91.567,
+          "fin": 91.799
+        },
+        {
+          "texto": "sale",
+          "inicio": 91.846,
+          "fin": 92.101
+        },
+        {
+          "texto": "del",
+          "inicio": 92.148,
+          "fin": 92.275
+        },
+        {
+          "texto": "agua,",
+          "inicio": 92.345,
+          "fin": 92.751
+        },
+        {
+          "texto": "el",
+          "inicio": 92.891,
+          "fin": 93.019
+        },
+        {
+          "texto": "Espíritu",
+          "inicio": 93.077,
+          "fin": 93.506
+        },
+        {
+          "texto": "desciende",
+          "inicio": 93.553,
+          "fin": 93.947
+        },
+        {
+          "texto": "como",
+          "inicio": 93.994,
+          "fin": 94.179
+        },
+        {
+          "texto": "paloma,",
+          "inicio": 94.226,
+          "fin": 94.923
+        },
+        {
+          "texto": "y",
+          "inicio": 95.282,
+          "fin": 95.352
+        },
+        {
+          "texto": "la",
+          "inicio": 95.445,
+          "fin": 95.491
+        },
+        {
+          "texto": "voz",
+          "inicio": 95.549,
+          "fin": 95.7
+        },
+        {
+          "texto": "del",
+          "inicio": 95.712,
+          "fin": 95.817
+        },
+        {
+          "texto": "Padre",
+          "inicio": 95.886,
+          "fin": 96.234
+        },
+        {
+          "texto": "habla",
+          "inicio": 96.293,
+          "fin": 96.548
+        },
+        {
+          "texto": "desde",
+          "inicio": 96.594,
+          "fin": 96.803
+        },
+        {
+          "texto": "el",
+          "inicio": 96.827,
+          "fin": 96.896
+        },
+        {
+          "texto": "cielo.",
+          "inicio": 96.943,
+          "fin": 97.372
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "texto": "Y antes de irse, Jesús manda bautizar en el nombre del Padre, del Hijo y del Espíritu Santo.",
+      "clave": "",
+      "inicio": 98.289,
+      "fin": 104.326,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 98.289,
+          "fin": 98.336
+        },
+        {
+          "texto": "antes",
+          "inicio": 98.406,
+          "fin": 98.649
+        },
+        {
+          "texto": "de",
+          "inicio": 98.696,
+          "fin": 98.754
+        },
+        {
+          "texto": "irse,",
+          "inicio": 98.823,
+          "fin": 99.404
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 99.485,
+          "fin": 99.834
+        },
+        {
+          "texto": "manda",
+          "inicio": 99.88,
+          "fin": 100.112
+        },
+        {
+          "texto": "bautizar",
+          "inicio": 100.135,
+          "fin": 100.635
+        },
+        {
+          "texto": "en",
+          "inicio": 100.669,
+          "fin": 100.728
+        },
+        {
+          "texto": "el",
+          "inicio": 100.774,
+          "fin": 100.844
+        },
+        {
+          "texto": "nombre",
+          "inicio": 100.902,
+          "fin": 101.157
+        },
+        {
+          "texto": "del",
+          "inicio": 101.192,
+          "fin": 101.308
+        },
+        {
+          "texto": "Padre,",
+          "inicio": 101.389,
+          "fin": 101.993
+        },
+        {
+          "texto": "del",
+          "inicio": 102.225,
+          "fin": 102.399
+        },
+        {
+          "texto": "Hijo",
+          "inicio": 102.446,
+          "fin": 102.747
+        },
+        {
+          "texto": "y",
+          "inicio": 103.014,
+          "fin": 103.096
+        },
+        {
+          "texto": "del",
+          "inicio": 103.177,
+          "fin": 103.27
+        },
+        {
+          "texto": "Espíritu",
+          "inicio": 103.316,
+          "fin": 103.746
+        },
+        {
+          "texto": "Santo.",
+          "inicio": 103.792,
+          "fin": 104.326
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "texto": "Fíjate: dice «en el nombre», no en los nombres. Un solo Dios.",
+      "clave": "",
+      "inicio": 104.605,
+      "fin": 109.876,
+      "palabras": [
+        {
+          "texto": "Fíjate:",
+          "inicio": 104.605,
+          "fin": 105.29
+        },
+        {
+          "texto": "dice",
+          "inicio": 105.615,
+          "fin": 105.987
+        },
+        {
+          "texto": "«en",
+          "inicio": 106.114,
+          "fin": 106.463
+        },
+        {
+          "texto": "el",
+          "inicio": 106.532,
+          "fin": 106.602
+        },
+        {
+          "texto": "nombre»,",
+          "inicio": 106.695,
+          "fin": 107.426
+        },
+        {
+          "texto": "no",
+          "inicio": 107.6,
+          "fin": 107.717
+        },
+        {
+          "texto": "en",
+          "inicio": 107.763,
+          "fin": 107.809
+        },
+        {
+          "texto": "los",
+          "inicio": 107.833,
+          "fin": 107.949
+        },
+        {
+          "texto": "nombres.",
+          "inicio": 108.018,
+          "fin": 108.599
+        },
+        {
+          "texto": "Un",
+          "inicio": 108.924,
+          "fin": 109.087
+        },
+        {
+          "texto": "solo",
+          "inicio": 109.145,
+          "fin": 109.365
+        },
+        {
+          "texto": "Dios.",
+          "inicio": 109.412,
+          "fin": 109.876
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "texto": "Pablo termina su segunda carta a los corintios con una bendición de tres partes: la gracia del Señor Jesucristo, el amor de Dios y la comunión del Espíritu Santo.",
+      "clave": "",
+      "inicio": 110.689,
+      "fin": 120.314,
+      "palabras": [
+        {
+          "texto": "Pablo",
+          "inicio": 110.689,
+          "fin": 110.956
+        },
+        {
+          "texto": "termina",
+          "inicio": 111.002,
+          "fin": 111.316
+        },
+        {
+          "texto": "su",
+          "inicio": 111.35,
+          "fin": 111.443
+        },
+        {
+          "texto": "segunda",
+          "inicio": 111.49,
+          "fin": 111.792
+        },
+        {
+          "texto": "carta",
+          "inicio": 111.838,
+          "fin": 112.117
+        },
+        {
+          "texto": "a",
+          "inicio": 112.14,
+          "fin": 112.163
+        },
+        {
+          "texto": "los",
+          "inicio": 112.198,
+          "fin": 112.326
+        },
+        {
+          "texto": "corintios",
+          "inicio": 112.384,
+          "fin": 112.802
+        },
+        {
+          "texto": "con",
+          "inicio": 112.86,
+          "fin": 112.953
+        },
+        {
+          "texto": "una",
+          "inicio": 112.999,
+          "fin": 113.115
+        },
+        {
+          "texto": "bendición",
+          "inicio": 113.162,
+          "fin": 113.545
+        },
+        {
+          "texto": "de",
+          "inicio": 113.58,
+          "fin": 113.638
+        },
+        {
+          "texto": "tres",
+          "inicio": 113.684,
+          "fin": 113.905
+        },
+        {
+          "texto": "partes:",
+          "inicio": 113.974,
+          "fin": 114.659
+        },
+        {
+          "texto": "la",
+          "inicio": 115.17,
+          "fin": 115.251
+        },
+        {
+          "texto": "gracia",
+          "inicio": 115.309,
+          "fin": 115.646
+        },
+        {
+          "texto": "del",
+          "inicio": 115.681,
+          "fin": 115.785
+        },
+        {
+          "texto": "Señor",
+          "inicio": 115.82,
+          "fin": 116.064
+        },
+        {
+          "texto": "Jesucristo,",
+          "inicio": 116.111,
+          "fin": 117.016
+        },
+        {
+          "texto": "el",
+          "inicio": 117.341,
+          "fin": 117.457
+        },
+        {
+          "texto": "amor",
+          "inicio": 117.527,
+          "fin": 117.724
+        },
+        {
+          "texto": "de",
+          "inicio": 117.794,
+          "fin": 117.864
+        },
+        {
+          "texto": "Dios",
+          "inicio": 117.91,
+          "fin": 118.247
+        },
+        {
+          "texto": "y",
+          "inicio": 118.421,
+          "fin": 118.491
+        },
+        {
+          "texto": "la",
+          "inicio": 118.561,
+          "fin": 118.619
+        },
+        {
+          "texto": "comunión",
+          "inicio": 118.677,
+          "fin": 119.071
+        },
+        {
+          "texto": "del",
+          "inicio": 119.106,
+          "fin": 119.211
+        },
+        {
+          "texto": "Espíritu",
+          "inicio": 119.257,
+          "fin": 119.71
+        },
+        {
+          "texto": "Santo.",
+          "inicio": 119.78,
+          "fin": 120.314
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "texto": "Y ojo, desde Moisés ya existía la bendición sacerdotal, también en tres partes: Jehová te bendiga, y te guarde.",
+      "clave": "",
+      "inicio": 120.825,
+      "fin": 128.812,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 120.825,
+          "fin": 120.917
+        },
+        {
+          "texto": "ojo,",
+          "inicio": 121.034,
+          "fin": 121.37
+        },
+        {
+          "texto": "desde",
+          "inicio": 121.974,
+          "fin": 122.206
+        },
+        {
+          "texto": "Moisés",
+          "inicio": 122.253,
+          "fin": 122.612
+        },
+        {
+          "texto": "ya",
+          "inicio": 122.659,
+          "fin": 122.729
+        },
+        {
+          "texto": "existía",
+          "inicio": 122.752,
+          "fin": 123.286
+        },
+        {
+          "texto": "la",
+          "inicio": 123.344,
+          "fin": 123.414
+        },
+        {
+          "texto": "bendición",
+          "inicio": 123.46,
+          "fin": 123.913
+        },
+        {
+          "texto": "sacerdotal,",
+          "inicio": 123.959,
+          "fin": 124.83
+        },
+        {
+          "texto": "también",
+          "inicio": 125.271,
+          "fin": 125.619
+        },
+        {
+          "texto": "en",
+          "inicio": 125.654,
+          "fin": 125.701
+        },
+        {
+          "texto": "tres",
+          "inicio": 125.747,
+          "fin": 125.921
+        },
+        {
+          "texto": "partes:",
+          "inicio": 125.991,
+          "fin": 126.653
+        },
+        {
+          "texto": "Jehová",
+          "inicio": 126.769,
+          "fin": 127.001
+        },
+        {
+          "texto": "te",
+          "inicio": 127.047,
+          "fin": 127.129
+        },
+        {
+          "texto": "bendiga,",
+          "inicio": 127.164,
+          "fin": 127.767
+        },
+        {
+          "texto": "y",
+          "inicio": 127.976,
+          "fin": 128.069
+        },
+        {
+          "texto": "te",
+          "inicio": 128.15,
+          "fin": 128.232
+        },
+        {
+          "texto": "guarde.",
+          "inicio": 128.278,
+          "fin": 128.812
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "texto": "Jehová haga resplandecer su rostro sobre ti, y tenga de ti misericordia. Jehová alce sobre ti su rostro, y ponga en ti paz.",
+      "clave": "",
+      "inicio": 129.509,
+      "fin": 138.542,
+      "palabras": [
+        {
+          "texto": "Jehová",
+          "inicio": 129.509,
+          "fin": 129.927
+        },
+        {
+          "texto": "haga",
+          "inicio": 130.008,
+          "fin": 130.263
+        },
+        {
+          "texto": "resplandecer",
+          "inicio": 130.322,
+          "fin": 130.96
+        },
+        {
+          "texto": "su",
+          "inicio": 131.03,
+          "fin": 131.146
+        },
+        {
+          "texto": "rostro",
+          "inicio": 131.239,
+          "fin": 131.599
+        },
+        {
+          "texto": "sobre",
+          "inicio": 131.645,
+          "fin": 131.912
+        },
+        {
+          "texto": "ti,",
+          "inicio": 131.97,
+          "fin": 132.353
+        },
+        {
+          "texto": "y",
+          "inicio": 132.736,
+          "fin": 132.829
+        },
+        {
+          "texto": "tenga",
+          "inicio": 132.945,
+          "fin": 133.212
+        },
+        {
+          "texto": "de",
+          "inicio": 133.259,
+          "fin": 133.317
+        },
+        {
+          "texto": "ti",
+          "inicio": 133.375,
+          "fin": 133.468
+        },
+        {
+          "texto": "misericordia.",
+          "inicio": 133.526,
+          "fin": 134.397
+        },
+        {
+          "texto": "Jehová",
+          "inicio": 135.094,
+          "fin": 135.477
+        },
+        {
+          "texto": "alce",
+          "inicio": 135.57,
+          "fin": 135.895
+        },
+        {
+          "texto": "sobre",
+          "inicio": 135.953,
+          "fin": 136.22
+        },
+        {
+          "texto": "ti",
+          "inicio": 136.266,
+          "fin": 136.371
+        },
+        {
+          "texto": "su",
+          "inicio": 136.417,
+          "fin": 136.522
+        },
+        {
+          "texto": "rostro,",
+          "inicio": 136.603,
+          "fin": 137.114
+        },
+        {
+          "texto": "y",
+          "inicio": 137.288,
+          "fin": 137.358
+        },
+        {
+          "texto": "ponga",
+          "inicio": 137.45,
+          "fin": 137.683
+        },
+        {
+          "texto": "en",
+          "inicio": 137.706,
+          "fin": 137.764
+        },
+        {
+          "texto": "ti",
+          "inicio": 137.822,
+          "fin": 137.926
+        },
+        {
+          "texto": "paz.",
+          "inicio": 137.996,
+          "fin": 138.542
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "texto": "Entonces, ¿por qué Dios eligió el tres?",
+      "clave": "",
+      "inicio": 139.238,
+      "fin": 141.56,
+      "palabras": [
+        {
+          "texto": "Entonces,",
+          "inicio": 139.238,
+          "fin": 139.9
+        },
+        {
+          "texto": "¿por",
+          "inicio": 139.923,
+          "fin": 140.097
+        },
+        {
+          "texto": "qué",
+          "inicio": 140.167,
+          "fin": 140.272
+        },
+        {
+          "texto": "Dios",
+          "inicio": 140.318,
+          "fin": 140.574
+        },
+        {
+          "texto": "eligió",
+          "inicio": 140.632,
+          "fin": 140.91
+        },
+        {
+          "texto": "el",
+          "inicio": 140.945,
+          "fin": 141.003
+        },
+        {
+          "texto": "tres?",
+          "inicio": 141.073,
+          "fin": 141.56
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "texto": "La Biblia no nos da una explicación directa. Pero el patrón habla solo.",
+      "clave": "",
+      "inicio": 142.257,
+      "fin": 146.146,
+      "palabras": [
+        {
+          "texto": "La",
+          "inicio": 142.257,
+          "fin": 142.35
+        },
+        {
+          "texto": "Biblia",
+          "inicio": 142.385,
+          "fin": 142.605
+        },
+        {
+          "texto": "no",
+          "inicio": 142.652,
+          "fin": 142.71
+        },
+        {
+          "texto": "nos",
+          "inicio": 142.756,
+          "fin": 142.884
+        },
+        {
+          "texto": "da",
+          "inicio": 142.907,
+          "fin": 142.954
+        },
+        {
+          "texto": "una",
+          "inicio": 143.012,
+          "fin": 143.116
+        },
+        {
+          "texto": "explicación",
+          "inicio": 143.139,
+          "fin": 143.731
+        },
+        {
+          "texto": "directa.",
+          "inicio": 143.766,
+          "fin": 144.358
+        },
+        {
+          "texto": "Pero",
+          "inicio": 144.683,
+          "fin": 144.869
+        },
+        {
+          "texto": "el",
+          "inicio": 144.892,
+          "fin": 144.939
+        },
+        {
+          "texto": "patrón",
+          "inicio": 144.997,
+          "fin": 145.31
+        },
+        {
+          "texto": "habla",
+          "inicio": 145.357,
+          "fin": 145.566
+        },
+        {
+          "texto": "solo.",
+          "inicio": 145.635,
+          "fin": 146.146
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "texto": "El tres es el número de lo firme: dos o tres testigos.",
+      "clave": "",
+      "inicio": 146.75,
+      "fin": 150.941,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 146.75,
+          "fin": 146.936
+        },
+        {
+          "texto": "tres",
+          "inicio": 147.005,
+          "fin": 147.238
+        },
+        {
+          "texto": "es",
+          "inicio": 147.296,
+          "fin": 147.377
+        },
+        {
+          "texto": "el",
+          "inicio": 147.447,
+          "fin": 147.505
+        },
+        {
+          "texto": "número",
+          "inicio": 147.586,
+          "fin": 147.888
+        },
+        {
+          "texto": "de",
+          "inicio": 147.934,
+          "fin": 147.992
+        },
+        {
+          "texto": "lo",
+          "inicio": 148.039,
+          "fin": 148.108
+        },
+        {
+          "texto": "firme:",
+          "inicio": 148.166,
+          "fin": 148.724
+        },
+        {
+          "texto": "dos",
+          "inicio": 149.165,
+          "fin": 149.467
+        },
+        {
+          "texto": "o",
+          "inicio": 149.711,
+          "fin": 149.792
+        },
+        {
+          "texto": "tres",
+          "inicio": 149.861,
+          "fin": 150.07
+        },
+        {
+          "texto": "testigos.",
+          "inicio": 150.129,
+          "fin": 150.941
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "texto": "Es el número de lo santo: santo, santo, santo.",
+      "clave": "",
+      "inicio": 151.382,
+      "fin": 155.237,
+      "palabras": [
+        {
+          "texto": "Es",
+          "inicio": 151.382,
+          "fin": 151.557
+        },
+        {
+          "texto": "el",
+          "inicio": 151.603,
+          "fin": 151.661
+        },
+        {
+          "texto": "número",
+          "inicio": 151.731,
+          "fin": 152.009
+        },
+        {
+          "texto": "de",
+          "inicio": 152.056,
+          "fin": 152.114
+        },
+        {
+          "texto": "lo",
+          "inicio": 152.149,
+          "fin": 152.23
+        },
+        {
+          "texto": "santo:",
+          "inicio": 152.288,
+          "fin": 152.822
+        },
+        {
+          "texto": "santo,",
+          "inicio": 153.205,
+          "fin": 153.821
+        },
+        {
+          "texto": "santo,",
+          "inicio": 153.937,
+          "fin": 154.552
+        },
+        {
+          "texto": "santo.",
+          "inicio": 154.668,
+          "fin": 155.237
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "texto": "Y es el número de la vida que vence a la muerte: al tercer día.",
+      "clave": "",
+      "inicio": 155.91,
+      "fin": 159.846,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 155.91,
+          "fin": 156.038
+        },
+        {
+          "texto": "es",
+          "inicio": 156.154,
+          "fin": 156.201
+        },
+        {
+          "texto": "el",
+          "inicio": 156.282,
+          "fin": 156.351
+        },
+        {
+          "texto": "número",
+          "inicio": 156.444,
+          "fin": 156.769
+        },
+        {
+          "texto": "de",
+          "inicio": 156.827,
+          "fin": 156.886
+        },
+        {
+          "texto": "la",
+          "inicio": 156.932,
+          "fin": 157.002
+        },
+        {
+          "texto": "vida",
+          "inicio": 157.06,
+          "fin": 157.28
+        },
+        {
+          "texto": "que",
+          "inicio": 157.338,
+          "fin": 157.42
+        },
+        {
+          "texto": "vence",
+          "inicio": 157.466,
+          "fin": 157.721
+        },
+        {
+          "texto": "a",
+          "inicio": 157.745,
+          "fin": 157.768
+        },
+        {
+          "texto": "la",
+          "inicio": 157.803,
+          "fin": 157.872
+        },
+        {
+          "texto": "muerte:",
+          "inicio": 157.919,
+          "fin": 158.453
+        },
+        {
+          "texto": "al",
+          "inicio": 158.824,
+          "fin": 158.964
+        },
+        {
+          "texto": "tercer",
+          "inicio": 159.033,
+          "fin": 159.37
+        },
+        {
+          "texto": "día.",
+          "inicio": 159.428,
+          "fin": 159.846
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "texto": "Y eso nos lleva a la última isla. La isla número cinco: tu tercer día.",
+      "clave": "",
+      "inicio": 160.519,
+      "fin": 165.384,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 160.519,
+          "fin": 160.601
+        },
+        {
+          "texto": "eso",
+          "inicio": 160.67,
+          "fin": 160.775
+        },
+        {
+          "texto": "nos",
+          "inicio": 160.833,
+          "fin": 160.949
+        },
+        {
+          "texto": "lleva",
+          "inicio": 160.972,
+          "fin": 161.17
+        },
+        {
+          "texto": "a",
+          "inicio": 161.193,
+          "fin": 161.216
+        },
+        {
+          "texto": "la",
+          "inicio": 161.251,
+          "fin": 161.309
+        },
+        {
+          "texto": "última",
+          "inicio": 161.355,
+          "fin": 161.68
+        },
+        {
+          "texto": "isla.",
+          "inicio": 161.715,
+          "fin": 162.156
+        },
+        {
+          "texto": "La",
+          "inicio": 162.586,
+          "fin": 162.691
+        },
+        {
+          "texto": "isla",
+          "inicio": 162.737,
+          "fin": 162.911
+        },
+        {
+          "texto": "número",
+          "inicio": 162.969,
+          "fin": 163.248
+        },
+        {
+          "texto": "cinco:",
+          "inicio": 163.294,
+          "fin": 163.91
+        },
+        {
+          "texto": "tu",
+          "inicio": 164.339,
+          "fin": 164.467
+        },
+        {
+          "texto": "tercer",
+          "inicio": 164.537,
+          "fin": 164.908
+        },
+        {
+          "texto": "día.",
+          "inicio": 164.978,
+          "fin": 165.384
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "texto": "Porque tal vez hoy tú estás en tu viernes. Algo se rompió, alguien se fue, o algo no salió como esperabas.",
+      "clave": "",
+      "inicio": 165.872,
+      "fin": 173.082,
+      "palabras": [
+        {
+          "texto": "Porque",
+          "inicio": 165.872,
+          "fin": 166.174
+        },
+        {
+          "texto": "tal",
+          "inicio": 166.232,
+          "fin": 166.348
+        },
+        {
+          "texto": "vez",
+          "inicio": 166.394,
+          "fin": 166.533
+        },
+        {
+          "texto": "hoy",
+          "inicio": 166.58,
+          "fin": 166.742
+        },
+        {
+          "texto": "tú",
+          "inicio": 166.8,
+          "fin": 166.94
+        },
+        {
+          "texto": "estás",
+          "inicio": 167.021,
+          "fin": 167.265
+        },
+        {
+          "texto": "en",
+          "inicio": 167.323,
+          "fin": 167.381
+        },
+        {
+          "texto": "tu",
+          "inicio": 167.427,
+          "fin": 167.509
+        },
+        {
+          "texto": "viernes.",
+          "inicio": 167.555,
+          "fin": 168.194
+        },
+        {
+          "texto": "Algo",
+          "inicio": 168.786,
+          "fin": 169.076
+        },
+        {
+          "texto": "se",
+          "inicio": 169.111,
+          "fin": 169.192
+        },
+        {
+          "texto": "rompió,",
+          "inicio": 169.25,
+          "fin": 169.866
+        },
+        {
+          "texto": "alguien",
+          "inicio": 170.179,
+          "fin": 170.481
+        },
+        {
+          "texto": "se",
+          "inicio": 170.539,
+          "fin": 170.62
+        },
+        {
+          "texto": "fue,",
+          "inicio": 170.679,
+          "fin": 171.096
+        },
+        {
+          "texto": "o",
+          "inicio": 171.468,
+          "fin": 171.538
+        },
+        {
+          "texto": "algo",
+          "inicio": 171.584,
+          "fin": 171.77
+        },
+        {
+          "texto": "no",
+          "inicio": 171.828,
+          "fin": 171.886
+        },
+        {
+          "texto": "salió",
+          "inicio": 171.932,
+          "fin": 172.141
+        },
+        {
+          "texto": "como",
+          "inicio": 172.188,
+          "fin": 172.339
+        },
+        {
+          "texto": "esperabas.",
+          "inicio": 172.362,
+          "fin": 173.082
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "texto": "O estás en tu sábado. Ese día largo de silencio, donde oras y parece que nada pasa.",
+      "clave": "",
+      "inicio": 173.778,
+      "fin": 179.398,
+      "palabras": [
+        {
+          "texto": "O",
+          "inicio": 173.778,
+          "fin": 173.848
+        },
+        {
+          "texto": "estás",
+          "inicio": 173.929,
+          "fin": 174.231
+        },
+        {
+          "texto": "en",
+          "inicio": 174.312,
+          "fin": 174.382
+        },
+        {
+          "texto": "tu",
+          "inicio": 174.452,
+          "fin": 174.545
+        },
+        {
+          "texto": "sábado.",
+          "inicio": 174.614,
+          "fin": 175.206
+        },
+        {
+          "texto": "Ese",
+          "inicio": 175.59,
+          "fin": 175.822
+        },
+        {
+          "texto": "día",
+          "inicio": 175.891,
+          "fin": 176.1
+        },
+        {
+          "texto": "largo",
+          "inicio": 176.17,
+          "fin": 176.472
+        },
+        {
+          "texto": "de",
+          "inicio": 176.53,
+          "fin": 176.588
+        },
+        {
+          "texto": "silencio,",
+          "inicio": 176.634,
+          "fin": 177.308
+        },
+        {
+          "texto": "donde",
+          "inicio": 177.424,
+          "fin": 177.714
+        },
+        {
+          "texto": "oras",
+          "inicio": 177.784,
+          "fin": 178.039
+        },
+        {
+          "texto": "y",
+          "inicio": 178.097,
+          "fin": 178.132
+        },
+        {
+          "texto": "parece",
+          "inicio": 178.19,
+          "fin": 178.492
+        },
+        {
+          "texto": "que",
+          "inicio": 178.538,
+          "fin": 178.608
+        },
+        {
+          "texto": "nada",
+          "inicio": 178.666,
+          "fin": 178.864
+        },
+        {
+          "texto": "pasa.",
+          "inicio": 178.933,
+          "fin": 179.398
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "texto": "Pero recuerda el patrón. En la Biblia, después del viernes y del sábado… siempre viene el domingo.",
+      "clave": "",
+      "inicio": 179.908,
+      "fin": 186.689,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 179.908,
+          "fin": 180.117
+        },
+        {
+          "texto": "recuerda",
+          "inicio": 180.187,
+          "fin": 180.57
+        },
+        {
+          "texto": "el",
+          "inicio": 180.593,
+          "fin": 180.651
+        },
+        {
+          "texto": "patrón.",
+          "inicio": 180.721,
+          "fin": 181.302
+        },
+        {
+          "texto": "En",
+          "inicio": 181.905,
+          "fin": 182.068
+        },
+        {
+          "texto": "la",
+          "inicio": 182.114,
+          "fin": 182.184
+        },
+        {
+          "texto": "Biblia,",
+          "inicio": 182.242,
+          "fin": 182.788
+        },
+        {
+          "texto": "después",
+          "inicio": 183.032,
+          "fin": 183.368
+        },
+        {
+          "texto": "del",
+          "inicio": 183.391,
+          "fin": 183.484
+        },
+        {
+          "texto": "viernes",
+          "inicio": 183.531,
+          "fin": 183.937
+        },
+        {
+          "texto": "y",
+          "inicio": 183.984,
+          "fin": 184.007
+        },
+        {
+          "texto": "del",
+          "inicio": 184.053,
+          "fin": 184.169
+        },
+        {
+          "texto": "sábado…",
+          "inicio": 184.216,
+          "fin": 184.773
+        },
+        {
+          "texto": "siempre",
+          "inicio": 185.47,
+          "fin": 185.806
+        },
+        {
+          "texto": "viene",
+          "inicio": 185.841,
+          "fin": 186.05
+        },
+        {
+          "texto": "el",
+          "inicio": 186.073,
+          "fin": 186.131
+        },
+        {
+          "texto": "domingo.",
+          "inicio": 186.155,
+          "fin": 186.689
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "texto": "El mismo Dios que levantó a Jesús al tercer día sigue escribiendo historias hoy.",
+      "clave": "",
+      "inicio": 187.292,
+      "fin": 192.436,
+      "palabras": [
+        {
+          "texto": "El",
+          "inicio": 187.292,
+          "fin": 187.443
+        },
+        {
+          "texto": "mismo",
+          "inicio": 187.501,
+          "fin": 187.792
+        },
+        {
+          "texto": "Dios",
+          "inicio": 187.838,
+          "fin": 188.07
+        },
+        {
+          "texto": "que",
+          "inicio": 188.128,
+          "fin": 188.21
+        },
+        {
+          "texto": "levantó",
+          "inicio": 188.256,
+          "fin": 188.686
+        },
+        {
+          "texto": "a",
+          "inicio": 188.721,
+          "fin": 188.744
+        },
+        {
+          "texto": "Jesús",
+          "inicio": 188.767,
+          "fin": 189.197
+        },
+        {
+          "texto": "al",
+          "inicio": 189.313,
+          "fin": 189.44
+        },
+        {
+          "texto": "tercer",
+          "inicio": 189.51,
+          "fin": 189.847
+        },
+        {
+          "texto": "día",
+          "inicio": 189.905,
+          "fin": 190.218
+        },
+        {
+          "texto": "sigue",
+          "inicio": 190.462,
+          "fin": 190.741
+        },
+        {
+          "texto": "escribiendo",
+          "inicio": 190.764,
+          "fin": 191.24
+        },
+        {
+          "texto": "historias",
+          "inicio": 191.263,
+          "fin": 191.832
+        },
+        {
+          "texto": "hoy.",
+          "inicio": 191.913,
+          "fin": 192.436
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "texto": "Y Pablo lo dice en Primera de Corintios trece: ahora permanecen la fe, la esperanza y el amor, estos tres.",
+      "clave": "",
+      "inicio": 193.039,
+      "fin": 201.074,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 193.039,
+          "fin": 193.156
+        },
+        {
+          "texto": "Pablo",
+          "inicio": 193.272,
+          "fin": 193.562
+        },
+        {
+          "texto": "lo",
+          "inicio": 193.608,
+          "fin": 193.69
+        },
+        {
+          "texto": "dice",
+          "inicio": 193.736,
+          "fin": 193.957
+        },
+        {
+          "texto": "en",
+          "inicio": 193.98,
+          "fin": 194.038
+        },
+        {
+          "texto": "Primera",
+          "inicio": 194.108,
+          "fin": 194.444
+        },
+        {
+          "texto": "de",
+          "inicio": 194.479,
+          "fin": 194.549
+        },
+        {
+          "texto": "Corintios",
+          "inicio": 194.595,
+          "fin": 195.083
+        },
+        {
+          "texto": "trece:",
+          "inicio": 195.152,
+          "fin": 195.745
+        },
+        {
+          "texto": "ahora",
+          "inicio": 196.441,
+          "fin": 196.72
+        },
+        {
+          "texto": "permanecen",
+          "inicio": 196.766,
+          "fin": 197.324
+        },
+        {
+          "texto": "la",
+          "inicio": 197.393,
+          "fin": 197.463
+        },
+        {
+          "texto": "fe,",
+          "inicio": 197.544,
+          "fin": 197.927
+        },
+        {
+          "texto": "la",
+          "inicio": 198.101,
+          "fin": 198.183
+        },
+        {
+          "texto": "esperanza",
+          "inicio": 198.229,
+          "fin": 198.879
+        },
+        {
+          "texto": "y",
+          "inicio": 199.053,
+          "fin": 199.146
+        },
+        {
+          "texto": "el",
+          "inicio": 199.204,
+          "fin": 199.262
+        },
+        {
+          "texto": "amor,",
+          "inicio": 199.332,
+          "fin": 199.762
+        },
+        {
+          "texto": "estos",
+          "inicio": 200.087,
+          "fin": 200.447
+        },
+        {
+          "texto": "tres.",
+          "inicio": 200.516,
+          "fin": 201.074
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "texto": "Pero el mayor de ellos es el amor.",
+      "clave": "",
+      "inicio": 201.515,
+      "fin": 203.581,
+      "palabras": [
+        {
+          "texto": "Pero",
+          "inicio": 201.515,
+          "fin": 201.724
+        },
+        {
+          "texto": "el",
+          "inicio": 201.747,
+          "fin": 201.793
+        },
+        {
+          "texto": "mayor",
+          "inicio": 201.84,
+          "fin": 202.095
+        },
+        {
+          "texto": "de",
+          "inicio": 202.142,
+          "fin": 202.2
+        },
+        {
+          "texto": "ellos",
+          "inicio": 202.246,
+          "fin": 202.606
+        },
+        {
+          "texto": "es",
+          "inicio": 202.815,
+          "fin": 202.978
+        },
+        {
+          "texto": "el",
+          "inicio": 203.047,
+          "fin": 203.117
+        },
+        {
+          "texto": "amor.",
+          "inicio": 203.175,
+          "fin": 203.581
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "texto": "Así que si hoy estás en tu viernes, no sueltes la fe. Si estás en tu sábado, agárrate de la esperanza.",
+      "clave": "",
+      "inicio": 204.278,
+      "fin": 210.849,
+      "palabras": [
+        {
+          "texto": "Así",
+          "inicio": 204.278,
+          "fin": 204.533
+        },
+        {
+          "texto": "que",
+          "inicio": 204.591,
+          "fin": 204.672
+        },
+        {
+          "texto": "si",
+          "inicio": 204.707,
+          "fin": 204.812
+        },
+        {
+          "texto": "hoy",
+          "inicio": 204.835,
+          "fin": 204.963
+        },
+        {
+          "texto": "estás",
+          "inicio": 205.009,
+          "fin": 205.265
+        },
+        {
+          "texto": "en",
+          "inicio": 205.323,
+          "fin": 205.381
+        },
+        {
+          "texto": "tu",
+          "inicio": 205.427,
+          "fin": 205.508
+        },
+        {
+          "texto": "viernes,",
+          "inicio": 205.555,
+          "fin": 206.147
+        },
+        {
+          "texto": "no",
+          "inicio": 206.275,
+          "fin": 206.391
+        },
+        {
+          "texto": "sueltes",
+          "inicio": 206.426,
+          "fin": 206.751
+        },
+        {
+          "texto": "la",
+          "inicio": 206.797,
+          "fin": 206.855
+        },
+        {
+          "texto": "fe.",
+          "inicio": 206.913,
+          "fin": 207.285
+        },
+        {
+          "texto": "Si",
+          "inicio": 207.888,
+          "fin": 208.097
+        },
+        {
+          "texto": "estás",
+          "inicio": 208.132,
+          "fin": 208.399
+        },
+        {
+          "texto": "en",
+          "inicio": 208.446,
+          "fin": 208.504
+        },
+        {
+          "texto": "tu",
+          "inicio": 208.55,
+          "fin": 208.643
+        },
+        {
+          "texto": "sábado,",
+          "inicio": 208.701,
+          "fin": 209.224
+        },
+        {
+          "texto": "agárrate",
+          "inicio": 209.374,
+          "fin": 209.862
+        },
+        {
+          "texto": "de",
+          "inicio": 209.908,
+          "fin": 209.978
+        },
+        {
+          "texto": "la",
+          "inicio": 210.025,
+          "fin": 210.083
+        },
+        {
+          "texto": "esperanza.",
+          "inicio": 210.106,
+          "fin": 210.849
+        }
+      ]
+    },
+    {
+      "n": 34,
+      "texto": "Y cuando llegue tu tercer día, que llegará, vas a ver el amor de Dios con tus propios ojos.",
+      "clave": "",
+      "inicio": 211.36,
+      "fin": 216.991,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 211.36,
+          "fin": 211.441
+        },
+        {
+          "texto": "cuando",
+          "inicio": 211.534,
+          "fin": 211.766
+        },
+        {
+          "texto": "llegue",
+          "inicio": 211.789,
+          "fin": 211.998
+        },
+        {
+          "texto": "tu",
+          "inicio": 212.045,
+          "fin": 212.126
+        },
+        {
+          "texto": "tercer",
+          "inicio": 212.184,
+          "fin": 212.498
+        },
+        {
+          "texto": "día,",
+          "inicio": 212.567,
+          "fin": 212.997
+        },
+        {
+          "texto": "que",
+          "inicio": 213.206,
+          "fin": 213.322
+        },
+        {
+          "texto": "llegará,",
+          "inicio": 213.357,
+          "fin": 213.972
+        },
+        {
+          "texto": "vas",
+          "inicio": 214.297,
+          "fin": 214.471
+        },
+        {
+          "texto": "a",
+          "inicio": 214.552,
+          "fin": 214.576
+        },
+        {
+          "texto": "ver",
+          "inicio": 214.622,
+          "fin": 214.761
+        },
+        {
+          "texto": "el",
+          "inicio": 214.82,
+          "fin": 214.878
+        },
+        {
+          "texto": "amor",
+          "inicio": 214.947,
+          "fin": 215.191
+        },
+        {
+          "texto": "de",
+          "inicio": 215.249,
+          "fin": 215.307
+        },
+        {
+          "texto": "Dios",
+          "inicio": 215.354,
+          "fin": 215.597
+        },
+        {
+          "texto": "con",
+          "inicio": 215.679,
+          "fin": 215.795
+        },
+        {
+          "texto": "tus",
+          "inicio": 215.841,
+          "fin": 215.969
+        },
+        {
+          "texto": "propios",
+          "inicio": 216.027,
+          "fin": 216.387
+        },
+        {
+          "texto": "ojos.",
+          "inicio": 216.468,
+          "fin": 216.991
+        }
+      ]
+    },
+    {
+      "n": 35,
+      "texto": "Cuéntame en los comentarios: ¿en qué día estás tú hoy? ¿Viernes, sábado o domingo?",
+      "clave": "",
+      "inicio": 217.687,
+      "fin": 223.19,
+      "palabras": [
+        {
+          "texto": "Cuéntame",
+          "inicio": 217.687,
+          "fin": 218.059
+        },
+        {
+          "texto": "en",
+          "inicio": 218.082,
+          "fin": 218.128
+        },
+        {
+          "texto": "los",
+          "inicio": 218.152,
+          "fin": 218.244
+        },
+        {
+          "texto": "comentarios:",
+          "inicio": 218.302,
+          "fin": 219.138
+        },
+        {
+          "texto": "¿en",
+          "inicio": 219.463,
+          "fin": 219.73
+        },
+        {
+          "texto": "qué",
+          "inicio": 219.788,
+          "fin": 219.87
+        },
+        {
+          "texto": "día",
+          "inicio": 219.928,
+          "fin": 220.044
+        },
+        {
+          "texto": "estás",
+          "inicio": 220.067,
+          "fin": 220.311
+        },
+        {
+          "texto": "tú",
+          "inicio": 220.369,
+          "fin": 220.485
+        },
+        {
+          "texto": "hoy?",
+          "inicio": 220.543,
+          "fin": 220.973
+        },
+        {
+          "texto": "¿Viernes,",
+          "inicio": 221.182,
+          "fin": 221.971
+        },
+        {
+          "texto": "sábado",
+          "inicio": 222.006,
+          "fin": 222.401
+        },
+        {
+          "texto": "o",
+          "inicio": 222.517,
+          "fin": 222.575
+        },
+        {
+          "texto": "domingo?",
+          "inicio": 222.621,
+          "fin": 223.19
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "texto": "Y si este video te habló, compártelo con alguien que esté esperando su tercer día.",
+      "clave": "",
+      "inicio": 223.794,
+      "fin": 228.124,
+      "palabras": [
+        {
+          "texto": "Y",
+          "inicio": 223.794,
+          "fin": 223.875
+        },
+        {
+          "texto": "si",
+          "inicio": 223.956,
+          "fin": 224.038
+        },
+        {
+          "texto": "este",
+          "inicio": 224.072,
+          "fin": 224.235
+        },
+        {
+          "texto": "video",
+          "inicio": 224.281,
+          "fin": 224.56
+        },
+        {
+          "texto": "te",
+          "inicio": 224.63,
+          "fin": 224.699
+        },
+        {
+          "texto": "habló,",
+          "inicio": 224.734,
+          "fin": 225.233
+        },
+        {
+          "texto": "compártelo",
+          "inicio": 225.408,
+          "fin": 225.918
+        },
+        {
+          "texto": "con",
+          "inicio": 225.965,
+          "fin": 226.093
+        },
+        {
+          "texto": "alguien",
+          "inicio": 226.162,
+          "fin": 226.394
+        },
+        {
+          "texto": "que",
+          "inicio": 226.441,
+          "fin": 226.511
+        },
+        {
+          "texto": "esté",
+          "inicio": 226.534,
+          "fin": 226.708
+        },
+        {
+          "texto": "esperando",
+          "inicio": 226.731,
+          "fin": 227.149
+        },
+        {
+          "texto": "su",
+          "inicio": 227.196,
+          "fin": 227.288
+        },
+        {
+          "texto": "tercer",
+          "inicio": 227.358,
+          "fin": 227.695
+        },
+        {
+          "texto": "día.",
+          "inicio": 227.764,
+          "fin": 228.124
+        }
+      ]
+    },
+    {
+      "n": 37,
+      "texto": "Síguenos en Tiempo para Dios, para descubrir juntos lo que la Biblia guarda en cada detalle.",
+      "clave": "",
+      "inicio": 228.821,
+      "fin": 234.846,
+      "palabras": [
+        {
+          "texto": "Síguenos",
+          "inicio": 228.821,
+          "fin": 229.448
+        },
+        {
+          "texto": "en",
+          "inicio": 229.541,
+          "fin": 229.68
+        },
+        {
+          "texto": "Tiempo",
+          "inicio": 229.761,
+          "fin": 230.086
+        },
+        {
+          "texto": "para",
+          "inicio": 230.133,
+          "fin": 230.33
+        },
+        {
+          "texto": "Dios,",
+          "inicio": 230.377,
+          "fin": 230.899
+        },
+        {
+          "texto": "para",
+          "inicio": 231.34,
+          "fin": 231.514
+        },
+        {
+          "texto": "descubrir",
+          "inicio": 231.549,
+          "fin": 232.002
+        },
+        {
+          "texto": "juntos",
+          "inicio": 232.025,
+          "fin": 232.548
+        },
+        {
+          "texto": "lo",
+          "inicio": 232.699,
+          "fin": 232.826
+        },
+        {
+          "texto": "que",
+          "inicio": 232.873,
+          "fin": 232.942
+        },
+        {
+          "texto": "la",
+          "inicio": 232.989,
+          "fin": 233.047
+        },
+        {
+          "texto": "Biblia",
+          "inicio": 233.093,
+          "fin": 233.349
+        },
+        {
+          "texto": "guarda",
+          "inicio": 233.384,
+          "fin": 233.685
+        },
+        {
+          "texto": "en",
+          "inicio": 233.732,
+          "fin": 233.79
+        },
+        {
+          "texto": "cada",
+          "inicio": 233.836,
+          "fin": 234.045
+        },
+        {
+          "texto": "detalle.",
+          "inicio": 234.092,
+          "fin": 234.846
+        }
+      ]
+    }
+  ]
+}

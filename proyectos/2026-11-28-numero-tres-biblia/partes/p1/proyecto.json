@@ -1,0 +1,63 @@
+{
+  "titulo": "Parte 1",
+  "desde": 1,
+  "voz": {
+    "estabilidad": 0.5,
+    "similitud": 0.8,
+    "estilo": 0.25,
+    "velocidad": 1
+  },
+  "frases": [
+    {
+      "texto": "¿Por qué Jesús resucitó al tercer día, y no al segundo, ni al cuarto?"
+    },
+    {
+      "texto": "¿Por qué Pedro lo negó tres veces, y no una sola?"
+    },
+    {
+      "texto": "¿Y por qué los ángeles, delante del trono, gritan «santo» exactamente tres veces?"
+    },
+    {
+      "texto": "Muchos de ustedes me lo pidieron en los comentarios del video de los números sagrados."
+    },
+    {
+      "texto": "Así que hoy vamos a fondo, con la Biblia abierta, y sin inventar nada."
+    },
+    {
+      "texto": "Porque el tres no aparece en la Biblia de vez en cuando. Aparece en los momentos más importantes."
+    },
+    {
+      "texto": "En la creación, en el desierto, en la cruz, en la tumba vacía y frente al trono de Dios."
+    },
+    {
+      "texto": "Hoy vamos a recorrer cinco islas, como un mapa."
+    },
+    {
+      "texto": "En cada una, el tres nos va a enseñar algo distinto de Dios."
+    },
+    {
+      "texto": "Y al final vas a entender por qué este número tiene que ver directamente contigo."
+    },
+    {
+      "texto": "Pero antes, algo muy importante, para no caer en errores."
+    },
+    {
+      "texto": "La Biblia nunca dice: «el número tres es mágico»."
+    },
+    {
+      "texto": "De hecho, Dios prohíbe la adivinación y los agüeros, en Deuteronomio dieciocho."
+    },
+    {
+      "texto": "Los números no tienen poder propio. El poder es de Dios."
+    },
+    {
+      "texto": "Lo que sí hay es un patrón. Una forma en que Dios escribe su historia."
+    },
+    {
+      "texto": "Y cuando ves ese patrón, la Biblia se ilumina de una manera nueva."
+    },
+    {
+      "texto": "Así que vamos a la primera isla."
+    }
+  ]
+}
